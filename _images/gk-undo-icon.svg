@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>58 - Settings</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="58---Settings">
+            <g id="ic_undo_black_24px">
+                <polygon id="Shape" points="0 0 200 0 200 200 0 200"></polygon>
+                <path d="M104.166667,66.6666667 C82.0833333,66.6666667 62.0833333,74.9166667 46.6666667,88.3333333 L16.6666667,58.3333333 L16.6666667,133.333333 L91.6666667,133.333333 L61.5,103.166667 C73.0833333,93.5 87.8333333,87.5 104.166667,87.5 C133.666667,87.5 158.75,106.75 167.5,133.333333 L187.25,126.833333 C175.666667,91.9166667 142.916667,66.6666667 104.166667,66.6666667 L104.166667,66.6666667 Z" id="Shape" fill="#D0D0D2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

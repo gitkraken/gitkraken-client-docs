@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>58 - Settings</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="58---Settings">
+            <g id="stash">
+                <path d="M158.333333,25 L41.5833333,25 C32.3333333,25 25.0833333,32.5 25.0833333,41.6666667 L25,158.333333 C25,167.5 32.3333333,175 41.5833333,175 L158.333333,175 C167.5,175 175,167.5 175,158.333333 L175,41.6666667 C175,32.5 167.5,25 158.333333,25 L158.333333,25 Z M158.333333,125 L125,125 C125,138.833333 113.75,150 100,150 C86.25,150 75,138.833333 75,125 L41.5833333,125 L41.5833333,41.6666667 L158.333333,41.6666667 L158.333333,125 L158.333333,125 Z M133.333333,83.3333333 L116.666667,83.3333333 L116.666667,58.3333333 L83.3333333,58.3333333 L83.3333333,83.3333333 L66.6666667,83.3333333 L100,116.666667 L133.333333,83.3333333 L133.333333,83.3333333 Z" id="Shape" fill="#D0D0D2"></path>
+                <polygon id="Shape" points="200 0 200 200 0 200 0 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
