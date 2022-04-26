@@ -120,7 +120,7 @@ If you are on Linux and are unable to launch GitKraken Client after installation
 ### I just subscribed but I do not see PRO in the lower right corner.
 Be sure you are logged in with the same email address registered with your GitKraken Pro subscription. Click your profile icon in the upper right corner to check which email you're using or to sign into your account.
 
-<img src="/_images/sign-into-a-different-account.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/sign-into-a-different-account.png" class="img-responsive center img-bordered">
 
 ***
 
