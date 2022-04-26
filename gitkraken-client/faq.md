@@ -14,8 +14,8 @@ The answers to your important **F**requently **A**sked **Q**uestions.
         <div class='callout'>
             <h4>Just a sec! Before you dive in, perhaps one of these resources might help?</h4>
             <ul class='dl-list plm prm'>
-                <li><i class="far fa-file-pdf"></i> <a href='https://www.gitkraken.com/resources/gitkraken-cheat-sheet' target="_blank" rel='noopener'><em>GitKraken Client</em> Cheat Sheet</a></li>
-                <li><i class="far fa-file-pdf"></i> <a href='https://www.gitkraken.com/resources/gitkraken-github-cheat-sheet' target="_blank" rel='noopener'><em>GitKraken Client for GitHub Users</em> Cheat Sheet</a></li>
+                <li>📝 <a href='https://www.gitkraken.com/resources/gitkraken-cheat-sheet' target="_blank" rel='noopener'><em>GitKraken Client</em> Cheat Sheet</a></li>
+                <li>📝 <a href='https://www.gitkraken.com/resources/gitkraken-github-cheat-sheet' target="_blank" rel='noopener'><em>GitKraken Client for GitHub Users</em> Cheat Sheet</a></li>
             </ul>
         </div>
     </section>
@@ -30,12 +30,14 @@ The answers to your important **F**requently **A**sked **Q**uestions.
 ### Does GitKraken Client support TFS, Visual Studio Team Service or Azure DevOps?
 Yes, for Azure DevOps (previously VSTS), you can use our integration with [Azure DevOps](/integrations/visual-studio-team-services/)!
 
-For TFS instances you will need to clone your repo <em class='context-menu'>File <i class='fa fa-caret-right'></i> Clone Repo</em> and then enter the HTTPS repository URL (which can be found at the top-right of your Code page).<br><br>
+For TFS instances you will need to clone your repo <kbd>File</kbd> <i class='fa fa-caret-right'></i> <kbd>Clone Repo</kbd> and then enter the HTTPS repository URL (which can be found at the top-right of your Code page).<br><br>
 If you're connecting to a remote TFS Git server from a Mac or Linux, you will need to enable _Basic Authentication_ in IIS for TFS.
 
 If authenticating to TFS via username and password is not working, try creating a Personal Access Token (PAT) to use in place of a password.
 
 For more information authenticating with repos, check out our [SSH and HTTPS](/integrations/authentication) page.
+
+***
 
 ### What Linux distributions are supported by GitKraken Client?
 GitKraken Client currently supports Ubuntu 16.04 LTS+, RHEL 7+, CentOS 7+, and Fedora 30+. While GitKraken Client might be able to be installed on other distros, we cannot guarantee that it will behave properly.
@@ -118,14 +120,14 @@ If you are on Linux and are unable to launch GitKraken Client after installation
 ### I just subscribed but I do not see PRO in the lower right corner.
 Be sure you are logged in with the same email address registered with your GitKraken Pro subscription. Click your profile icon in the upper right corner to check which email you're using or to sign into your account.
 
-<img src="/img/documentation/managing-organizations/login/sign-into-a-different-account.png" srcset="/img/documentation/managing-organizations/login/sign-into-a-different-account@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/_images/sign-into-a-different-account.png" class="img-responsive center img-bordered">
 
 ***
 
 ### I'm having an SSH issue.
 The most common issues are:
 
-* Misconfigured SSH settings &mdash; If you are using SSH (your remote URL takes the form of <code>ssh://{host}/{repo}</code> or <code>{user}@{host}:{repo}</code>), go to <em class='context-menu'>Preferences <i class='fa fa-caret-right'></i> Authentication</em> to confirm that your SSH settings are correct.
+* Misconfigured SSH settings &mdash; If you are using SSH (your remote URL takes the form of `ssh://{host}/{repo}` or `{user}@{host}:{repo}`), go to <em class='context-menu'>Preferences <i class='fa fa-caret-right'></i> Authentication</em> to confirm that your SSH settings are correct.
 
 * Use of SSH config &mdash; GitKraken Client does not currently respect your SSH config and cannot make use of any remote server nicknames or identities. You can either load your SSH key directly into GitKraken Client or use your system&rsquo;s SSH agent to authenticate with your remote.
 
