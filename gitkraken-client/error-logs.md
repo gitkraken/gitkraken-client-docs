@@ -1,8 +1,11 @@
+---
+
 Title: Error Logs
 Description: Review GitKraken Client's error logs to navigate rough waters.
 taxonomy:
     category: gitkraken-client
-Sort: 1
+
+---
 
 GitKraken Client tracks errors from <em class='context-menu'> Help <i class='fa fa-caret-right'></i> Support Logs <i class='fa fa-caret-right'></i> View Error Logs </em>.
 
