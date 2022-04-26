@@ -2,6 +2,8 @@
 
 title:  Buy FAQ
 description: Here are the most common questions to purchasing GitKraken licenses.
+taxonomy:
+    category: gitkraken-client
 
 ---
 
