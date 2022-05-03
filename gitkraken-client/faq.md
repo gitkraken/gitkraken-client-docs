@@ -1,7 +1,7 @@
 ---
 
-title: Frequently Asked Questions about GitKraken Client
-description:
+title: GitKraken Client FAQ
+description: Frequently Asked Questions about GitKraken Client
 taxonomy:
     category: gitkraken-client
 
@@ -44,14 +44,9 @@ GitKraken Client currently supports Ubuntu 16.04 LTS+, RHEL 7+, CentOS 7+, and F
 
 ***
 
-### How can I see what commands GitKraken Client makes to the CLI?
-Unlike other Git GUI clients, GitKraken Client is not a front-end GUI for your command line. It works directly with your repositories with no dependencies, which means a separate Git installation isn&rsquo;t required. 
-
-***
-
 ### How can I use multiple GitHub / GitLab / Bitbucket / Azure DevOps accounts with GitKraken?
-By default, GitKraken Client connects to one integration at a time. However, with <a href='https://gitkraken.com/features'>GitKraken Pro</a>&lsquo;s multiple profile support, you can easily switch between profiles that each have their own associated GitHub and BitBucket accounts.<br><br>
-If you have PRO, [set up profiles](/start-here/profiles) to configure a GitHub, GitLab, Bitbucket, or Azure DevOps account for each profile.
+By default, GitKraken Client connects to one integration at a time. However, a <a href='https://gitkraken.com/features'>paid GitKraken license</a>&lsquo; provides multiple profile support, allowing you to easily switch between profiles that each have their own associated integrations.<br><br>
+If you have a GitKraken Pro, Teams, or Enterprise license, [set up profiles](/start-here/profiles) to configure a GitHub, GitLab, Bitbucket, or Azure DevOps account for each profile.
 
 ***
 
@@ -84,12 +79,6 @@ You are done! Your local project is now on your hosting service.
 
 ***
 
-### Can I access repos for GitHub Enterprise, GitLab Self-Managed, Bitbucket Server or Azure DevOps with my Individual subscription?
-
-Yes you can! From a new tab navigate to<em class='context-menu'>Clone a repo <i class='fa fa-caret-right'></i> Clone <i class='fa fa-caret-right'></i>Clone with URL</em>. From here enter the remote [SSH or HTTPS](https://support.gitkraken.com/integrations/authentication/#https) URL and click <button class='button button--success button--ui button--nolink'>Clone the repo!</button>. 
-
-***
-
 ### How do I sign out of GitKraken?
 
 You may sign into a different account by selecting your profile icon in the top right corner and selecting _Sign into a different account_. 
@@ -103,7 +92,7 @@ While there is no way to sign out of GitKraken, you may delete all of your GitKr
 
 That error usually indicates something is stopping GitKraken from opening the repo.  If you have this project open in another tool, such as an IDE,  try closing that application and then relaunching GitKraken Client.
 
-If you have CLI installed, try running `git status`. If you have pending changes, try stashing or committing those changes or switching branches, and see if that allows you to load the repo in GitKraken Client.  
+If you have git installed, try running `git status` from the terminal. If you have pending changes, try stashing or committing those changes or switching branches, and see if that allows you to load the repo in GitKraken Client.  
 
 On Windows machines, it is possible that a file path became [too long](https://support.gitkraken.com/start-here/preferences/#longpaths-windows-only).
 
