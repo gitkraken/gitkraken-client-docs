@@ -24,12 +24,12 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
         <h3>Undo</h3>
         <p>Many actions performed in GitKraken Client can be undone. If an action is undoable, the <kbd>Undo</kbd> button will be a solid color ready for action.</p>
     </dd>
-    <dt class='img'><img src='/img/documentation/icons/gk-new-redo-icon.svg' class='img-responsive' style="padding: 0.5rem"></dt>
+    <dt class='img'><img src='/wp-content/uploads/gk-new-redo-icon.svg' class='img-responsive' style="padding: 0.5rem"></dt>
     <dd>
         <h3>Redo</h3>
         <p>What if you undid something, only to realize that you didn't want to undo it? GitKraken Client also has a </kbd>Redo</kbd> button so you can undo your undos.</p>
     </dd>
-    <dt class='img'><img src='/img/documentation/icons/gk-new-pull-icon.svg' class='img-responsive' style="width: 100px"></dt>
+    <dt class='img'><img src='/wp-content/uploads/gk-new-pull-icon.svg' class='img-responsive' style="width: 100px"></dt>
     <dd>
         <h3>Pull</h3>
         <p>Pull changes from your remote repos with this button. See the <kbd><i class='fa fa-caret-down'></i></kbd> button next to the icon? Click that to customize the type of pull you want to perform:</p>
@@ -43,41 +43,33 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
             <p><strong>Tip:</strong> If you find yourself repeatedly performing the same pull actions, set the default pull type by clicking the <span class='sr-only'>circle </span><kbd><i class="far fa-circle"></i></i></kbd> icon to the pull type's left. The default selection will appear as a <span class='sr-only'>green circle </span><kbd><i class="far fa-dot-circle"></i></kbd> icon.</p>
         </div>
     </dd>
-    <dt class='img'><img src='/img/documentation/icons/gk-new-push-icon.svg' class='img-responsive' style="padding: 0.4rem"></dt>
+    <dt class='img'><img src='/wp-content/uploads//gk-new-push-icon.svg' class='img-responsive' style="padding: 0.4rem"></dt>
     <dd>
         <h3>Push</h3>
         <p>Push changes to the remote repo as set in your upstream.</p>
     </dd>
-    <dt class='img'><img src='/img/documentation/icons/gk-new-branch-icon.svg' class='img-responsive' style="padding: 0.5rem"></dt>
+    <dt class='img'><img src='/wp-content/uploads//gk-new-branch-icon.svg' class='img-responsive' style="padding: 0.5rem"></dt>
     <dd>
         <h3>Branch</h3>
         <p>Create a branch on your current local repo.</p>
     </dd>
-    <dt class='img'><img src='/img/documentation/icons/gk-new-stash-icon.svg' class='img-responsive'></dt>
+    <dt class='img'><img src='/wp-content/uploads//gk-new-stash-icon.svg' class='img-responsive'></dt>
     <dd>
         <h3>Stash</h3>
         <p>Stash your work-in-process (<code>// WIP</code>) changes.</p>
     </dd>
-    <dt class='img'><img src='/img/documentation/icons/gk-new-pop-icon.svg' class='img-responsive'></dt>
+    <dt class='img'><img src='/wp-content/uploads//gk-new-pop-icon.svg' class='img-responsive'></dt>
     <dd>
         <h3>Pop Stash</h3>
         <p>Ready to restore your <code>// WIP</code>? Pop that stash and carry on as you were.</p>
     </dd>
-     <dt class='img'><img src='/img/documentation/icons/gk-lfs-icon.svg' class='img-responsive'></dt>
+     <dt class='img'><img src='/wp-content/uploads//gk-lfs-icon.svg' class='img-responsive'></dt>
     <dd>
         <h3>LFS</h3>
         <p> Have large files in your repo? This button will appear when you have <a href="/git-workflows-and-extensions/intro-and-requirements/">LFS</a> enabled on the repository.</p>
     </dd>
-         <dt class='img'><img src='/img/documentation/icons/gk-glo-board-icon.svg' class='img-responsive'></dt>
+         <dt class='img'><img src='/wp-content/uploads//gk-glo-board-icon.svg' class='img-responsive'></dt>
     <dd>
-        <h3>Boards</h3>
-        <p>Track your tasks and issues with <a href="/glo/start-glo-ing/">GitKraken Boards</a>.</p>
-    </dd>
-        <dt class='img'><img src='/img/documentation/icons/gk-timelines-icon.svg' class='img-responsive'></dt>
-    <dd>
-        <h3>Timelines</h3>
-        <p>Visualize your milestones with <a href="/timelines/overview/">Timelines</a>.</p>
-    </dd>
 </dl>
 
 <div class='callout callout--basic'>
@@ -91,19 +83,19 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
 Referred to as the left "ref" panel, GitKraken Client shows the properties below specific to your repository.  The panel and each pane can be collapsed or expanded as needed.
 
 <dl class='horizontal'>
-    <dt class='img center'><img src='/img/documentation/icons/gk-new-local-icon.svg' class='img-responsive'></dt>
+    <dt class='img center'><img src='/wp-content/uploads//gk-new-local-icon.svg' class='img-responsive'></dt>
     <dd>
         <h3>Local</h3>
         <p>References to local branches &mdash; pointers to specific commits allowing work to be separated.</p>
         <p>If you need help with branches, visit our <a href="/working-with-repositories/branching-and-merging">Branching and Merging</a> page.</p>
     </dd>
-    <dt class='img center'><img src='/img/documentation/icons/gk-new-remote-icon.svg' class='img-responsive'></dt>
+    <dt class='img center'><img src='/wp-content/uploads//gk-new-remote-icon.svg' class='img-responsive'></dt>
     <dd>
         <h3>Remote</h3>
         <p>References to remote branches.</p>
         <p>Set sail into <a href="/working-with-repositories/pushing-and-pulling">pushing and pulling remotes</a> for more.</p>
     </dd>
-    <dt class='img center'><img src='/img/documentation/icons/gk-new-pull-requests-icon.svg' class='img-responsive' style="padding: 0.3rem"></dt>
+    <dt class='img center'><img src='/wp-content/uploads/gk-new-pull-requests-icon.svg' class='img-responsive' style="padding: 0.3rem"></dt>
     <dd>
         <h3>Pull Requests</h3>
         <p>This shows active requests for merging one branch into another. With the GitHub or Bitbucket integration, new PRs can be created directly from GitKraken Client.</p>
@@ -124,18 +116,18 @@ Referred to as the left "ref" panel, GitKraken Client shows the properties below
         <h3>Teams</h3>
         <p>Easily see what your <a href="/working-with-repositories/team-view/">Team</a> members are working on.</p>
     </dd>
-    <dt class='img center'><img src='/img/documentation/icons/gk-new-tags-icon.svg' class='img-responsive'></dt>
+    <dt class='img center'><img src='/wp-content/uploads//gk-new-tags-icon.svg' class='img-responsive'></dt>
     <dd>
         <h3>Tags</h3>
         <p>These represent active pointers to commits but never move. <a href="/working-with-repositories/tags">Tag</a>, you're it!</p>
     </dd>
-    <dt class='img center'><img src='/img/documentation/icons/gk-new-stash-icon.svg' class='img-responsive'></dt>
+    <dt class='img center'><img src='/wp-content/uploads//gk-new-stash-icon.svg' class='img-responsive'></dt>
     <dd>
         <h3>Stashes</h3>
         <p>Stored file changes in the working copy.</p>
         <p>For saving your loot to play with later, here's more on <a href="/working-with-commits/stashing">stashes</a>.</p>
     </dd>
-    <dt class='img center'><img src='/img/documentation/icons/gk-new-submodules-icon.svg' class='img-responsive'></dt>
+    <dt class='img center'><img src='/wp-content/uploads//gk-new-submodules-icon.svg' class='img-responsive'></dt>
     <dd>
         <h3>Submodules</h3>
         <p>A Git repository in a subdirectory of the current repository.</p>
