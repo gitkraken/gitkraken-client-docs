@@ -16,11 +16,11 @@ Detached HEAD state gives you the power to check out any commit and explore the 
 
 Right click on the commit you’d like to checkout, and navigate to <kbd>Checkout this commit</kbd>. 
 
-<img src='/img/documentation/working-with-files/commits/checkout.png' srcset='/img/documentation/working-with-files/commits/checkout@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/commits/checkout.png' srcset='/wp-content/uploads/commits/checkout@2x.png 2x' class='img-bordered img-responsive center'>
 
 The checked out commit will be tagged as `HEAD`, serving as your indication that you’ve entered detached HEAD state. 
 
-<img src='/img/documentation/working-with-files/commits/head-tag.png' srcset='/img/documentation/working-with-files/commits/head-tag@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/head-tag.png' srcset='/wp-content/uploads/head-tag@2x.png 2x' class='img-bordered img-responsive center'>
 
 You now have access to the full history of the commit. 
 
@@ -30,7 +30,7 @@ Feel free to stay a while; you can look around, make some experimental changes a
 
 When you check out a branch, the `HEAD` tag indicator will disappear and your repo will be business as usual. 
 
-<img src='/img/documentation/working-with-files/commits/discard-commits.gif' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/discard-commits.gif' class='img-bordered img-responsive center'>
  
 <div class='callout callout--danger'>
     <p><strong>IMPORTANT:</strong> Any commits made in detached HEAD state will be lost when you check out any branch. 
@@ -39,13 +39,13 @@ When you check out a branch, the `HEAD` tag indicator will disappear and your re
 
 Luckily, GitKraken Client will explicitly remind you of your detached state when you make a commit. You'll find this warning in at the top of the commit panel.
 
-<img src='/img/documentation/working-with-files/commits/detached-warning.png' srcset='/img/documentation/working-with-files/commits/detached-warning@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/detached-warning.png' srcset='/wp-content/uploads/detached-warning@2x.png 2x' class='img-bordered img-responsive center'>
 
 ### Keeping your commits 
 
 If you hit that stride and create changes in the detached HEAD state that you’d ultimately like to keep, you can easily do so by right clicking on your checked out commit and selecting <kbd>Create branch here</kbd>.
 
-<img src='/img/documentation/working-with-files/commits/create-branch.png' srcset='/img/documentation/working-with-files/commits/create-branch@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/create-branch.png' srcset='/wp-content/uploads/create-branch@2x.png 2x' class='img-bordered img-responsive center'>
 
 ### Recovering lost commits
 

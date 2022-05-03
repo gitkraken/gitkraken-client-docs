@@ -66,7 +66,7 @@ The newly initialized repository created results in a default `master` branch.  
     <p>Branches can be thought of as an area to silo where to commit. Its reference is specifically a moving pointer to an individual commit object.</p>
 </div>
 
-<img src='/img/documentation/getting-started/create-new-branch.png' srcset='/img/documentation/getting-started/create-new-branch@2x.png 2x' class='img-bordered img-floated img-floated--right'>
+<img src='/wp-content/uploads/create-new-branch.png' srcset='/wp-content/uploads/create-new-branch@2x.png 2x' class='img-bordered img-floated img-floated--right'>
 
 On our newly created repo, we'll branch off from `master` to silo our normal development.  To do this, right-click master on the graph and select <em class='context-menu'>Create branch here</em>.  Let's call this branch `develop` in "_enter branch name_" which is going to be an indefinite main track branch to the project.
 
@@ -83,12 +83,12 @@ In the example, the `README.md` file was created automatically to provide contex
 
 You can select _Initial Commit_ from the graph, and click `README.md` to open the built-in editor.
 
-<img src='/img/documentation/getting-started/open-file.gif' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/open-file.gif' class='img-bordered img-responsive center'>
 
 ### Staging and Committing
 Say you made changes to the `README.md` file. When selecting the _//WIP_ node, there will now be pending changes to `README.md` in the staging panel under _Unstaged Files_.
 
-<img src='/img/documentation/getting-started/unstage.png' srcset='/img/documentation/getting-started/unstage@2x.png 2x' class='img-bordered img-floated img-floated--right'>
+<img src='/wp-content/uploads/unstage.png' srcset='/wp-content/uploads/unstage@2x.png 2x' class='img-bordered img-floated img-floated--right'>
 
 Next, let's move these changes into the _Staged Files_ section by selecting the green <button class='button button--success button--ui button--nolink'>Stage all changes</button> button.
 
@@ -107,7 +107,7 @@ Now that our `develop` branch is up to date, we want to roll out these changes i
 
 From the graph we see that `develop` is ahead of `master` by exactly 1 commit.  
 
-<img src='/img/documentation/getting-started/graph-commit.png' srcset='/img/documentation/getting-started/graph-commit@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/graph-commit.png' srcset='/wp-content/uploads/graph-commit@2x.png' class='img-bordered img-responsive center'>
 
 In order to add this commit into the original branch, we will merge `develop` back into `master`.  This will take all of the changes introduced since the last commit and play them on this branch by performing a new commit (called a merge commit) with the changes.
 
@@ -115,7 +115,7 @@ There are a few ways to perform the merge action in GitKraken Client, but perhap
 
 In the graph, you can see we have things in a new branch, `develop`, that we want in our source branch, `master`. Like any sensible person, we would only have to pick up `develop` and throw it at `master` right? Right! Simply drag `develop` and drop it on `master` to get the merge option.
 
-<img src='/img/documentation/getting-started/draganddrop.gif' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/draganddrop.gif' class='img-bordered img-responsive center'>
 
 Alternatively the same merge can be performed through right click and other means.  Revisit and learn more about merging and other options available through [Branching and Merging](/working-with-repositories/branching-and-merging).
 

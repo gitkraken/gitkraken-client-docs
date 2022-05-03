@@ -7,10 +7,10 @@ taxonomy:
 
 ---
 
-Navigate to <i class="fas fa-cog"></i> <em class='context-menu'>Preferences </em> to customize your GitKraken Client experience. Here are what each of the major sections do.
+Navigate to <i class="fas fa-cog"></i> <kbd>Preferences <kbd> to customize your GitKraken Client experience. Here are what each of the major sections do.
 
 
-<img src="/img/documentation/getting-started/preferences.png" srcset="/img/documentation/getting-started/preferences@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/preferences.png" srcset="/wp-content/uploads/preferences@2x.png 2x" class="img-responsive center img-bordered">
 
 *** 
 
@@ -74,7 +74,7 @@ GitKraken Client will make .orig files during a merge. If turned off, these befo
 
 ### Default Terminal
 
-You may open the current repo folder in terminal by navigating to  <em class="context-menu">File <i class='fa fa-caret-right'></i> Open Terminal</em> or use the keyboard shortcuts <kbd>opt</kbd> + <kbd>T</kbd> (Mac) / <kbd>alt</kbd> + <kbd>T</kbd> (Windows + Linux). 
+You may open the current repo folder in terminal by navigating to  <kbd>File > Open Terminal</kbd> or use the keyboard shortcuts <kbd>opt</kbd> + <kbd>T</kbd> (Mac) / <kbd>alt</kbd> + <kbd>T</kbd> (Windows + Linux). 
 
 Set your preferred terminal from this preference option for this action.
  
@@ -82,17 +82,15 @@ Set your preferred terminal from this preference option for this action.
 
 Enables the option to specify a custom command to open a terminal window. 
 
-For example, to set up GitKraken Client to open Powershell 7, use the command ` start "" "C:\Program Files\PowerShell\7\pwsh.exe" -noexit -command "cd %d"`
+For example, to set up GitKraken Client to open Powershell 7, use the command `start "" "C:\Program Files\PowerShell\7\pwsh.exe" -noexit -command "cd %d"`
 
 ### Show All Commits in Graph
 
-Enabling this option will force GitKraken Client to always show all commits in repo. 
-This setting may cause performance issues with large repositories.
+Enabling this option will force GitKraken Client to always show all commits in repo. This setting may cause performance issues with large repositories.
 
 ### Max Commits in Graph
 
-Set the max number of commits GitKraken Client will show in the graph. 
-Lower counts may help improve performance, and the minimum value is 2000 commits.
+Set the max number of commits GitKraken Client will show in the graph. Lower counts may help improve performance, and the minimum value is 2000 commits.
 
 ### Remember tabs
 
@@ -103,11 +101,11 @@ This will remember open tabs when you quit GitKraken Client. This option will al
 By default, Windows only supports file paths less than 260 characters. Enabling this option allows GitKraken Client to work with repositories and file paths that exceed 260 characters.
 
 ### AutoCRLF (Windows Only)
-Enabling this option auto-converts CRLF line endings into LF when adding a file to index, and vice versa when checking out code onto your file system. For more information check out this [git documentation](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_core_autocrlf)
+Enabling this option auto-converts CRLF line endings into LF when adding a file to index, and vice versa when checking out code onto your file system. For more information check out this [git documentation](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_core_autocrlf).
 
 ### Use extended logging in activity log
 
-Provides more information for the activity log. You may access the activity log from <em class="context-menu">Help <i class='fa fa-caret-right'></i> Support Logs <i class='fa fa-caret-right'></i> Activity Logs</em>.
+Provides more information for the activity log. You may access the activity log from <kbd>Help > Support Logs > Activity Logs</kbd>.
 
 ### Forget all Usernames and Passwords
 
