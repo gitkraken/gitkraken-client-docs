@@ -16,7 +16,7 @@ Detached HEAD state gives you the power to check out any commit and explore the 
 
 Right click on the commit you’d like to checkout, and navigate to <kbd>Checkout this commit</kbd>. 
 
-<img src='/wp-content/uploads/commits/checkout.png' srcset='//wp-content/uploads/commits/checkout@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/commits/checkout.png' srcset='/wp-content/uploads/commits/checkout@2x.png 2x' class='img-bordered img-responsive center'>
 
 The checked out commit will be tagged as `HEAD`, serving as your indication that you’ve entered detached HEAD state. 
 
