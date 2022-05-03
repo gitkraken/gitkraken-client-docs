@@ -1,7 +1,7 @@
 ---
 
 title: Interface Basics
-fescription: Learn the basics of working with the interface.
+description: Learn the basics of working with the GitKraken Client interface.
 taxonomy:
     category: gitkraken-client
 
@@ -14,13 +14,12 @@ GitKraken Client's UI helps make sense of Git. Below we cover the layout and wha
 
 From left to right, GitKraken Client displays a left reference panel, center graph, and the Commit Panel when working with a repository.
 
-<img src="/img/documentation/getting-started/interface.png" class="img-responsive center">
+<img src="/wp-content/uploads/interface.png" class="img-responsive center">
 
 ## Toolbar
 In addition to Undo and Redo, the main toolbar houses common repo actions.
-
 <dl class='horizontal'>
-    <dt class='img'><img src='/img/documentation/icons/gk-new-undo-icon.svg' class='img-responsive' style="padding: 0.5rem"></dt>
+    <dt class='img'><img src='/wp-content/uploads/gk-new-undo-icon.svg' class='img-responsive' style="padding: 0.5rem"></dt>
     <dd>
         <h3>Undo</h3>
         <p>Many actions performed in GitKraken Client can be undone. If an action is undoable, the <kbd>Undo</kbd> button will be a solid color ready for action.</p>
@@ -149,7 +148,7 @@ Referred to as the left "ref" panel, GitKraken Client shows the properties below
 ## Commit Panel
 The Commit Panel is where files and changes from your working directory are staged and committed.
 
-<img src='/img/documentation/getting-started/commit-panel.png' srcset='/img/documentation/getting-started/commit-panel@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/commit-panel@2x.png' class='img-bordered img-responsive center'>
 
 The three parts in order of operations on the staging panel are:
 
@@ -163,7 +162,7 @@ The three parts in order of operations on the staging panel are:
 
  Also, here is a quick color guide for the file symbols:
 
-<img src='/img/documentation/getting-started/symbol-guide.png' srcset='/img/documentation/getting-started/symbol-guide@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/symbol-guide@2x.png' class='img-bordered img-responsive center'>
 
 <div class='callout callout--basic'>
     <p>This panel can also be fixed on the bottom of the client. Just click the <i class="far fa-caret-square-down"></i> icon in the upper right corner of the Commit Panel.</p>
@@ -175,7 +174,7 @@ For deeper waters on staging, dive into [committing work](/working-with-commits/
 ## The Graph
 Oooo <span style='color: #0669f7;'>c</span><span style='color: #8e00c2;'>o</span><span style='color: #c517b6;'>l</span><span style='color: #d90171;'>o</span><span style='color: #f25d2e;'>r</span><span style='color: #7bd938;'>s</span>!
 
-<img src='/img/documentation/getting-started/graph.gif' class='figure img-floated img-floated--right'>
+<img src='/wp-content/uploads/graph-gif.gif' class='figure img-floated img-floated--right'>
 
 The **graph** in GitKraken Client is the core of your repo and a representation of the [Directed Acyclic Graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph) (DAG).  Your commits are displayed here, along with commits from other contributors.
 
@@ -185,7 +184,7 @@ Branches and tag labels on the left side of the graph are pointers to specific c
 
 Columns can intersect through merge commits as shown in the graph legend. As also shown, multiple branches can be at the same place of a single commit and can be both local and remote.
 
-<img src='/img/documentation/getting-started/graph-elements.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/graph-elements.png' class='img-bordered img-responsive center'>
 
 For a given vertical track, you can read from bottom to top, and right to left to see how changes are introduced into a focused branch.
 
@@ -195,7 +194,7 @@ For a given vertical track, you can read from bottom to top, and right to left t
 
 Quickly switch between multiple repositories.
 
-<img src='/img/documentation/getting-started/tabs.gif' class='figure img-floated img-floated--right'>
+<img src='/wp-content/uploads/tabs.gif' class='figure img-floated img-floated--right'>
 
 You can  add new tabs, drag & drop to rearrange, and remove tabs from the top bar. You can also use the corresponding shortcut keys <kbd>cmd</kbd>+<kbd>1-9</kbd> on Windows/Linux and <kbd>cmd</kbd>+<kbd>1-9</kbd> on mac to quickly switch between repositories.
 
@@ -206,15 +205,15 @@ You can  add new tabs, drag & drop to rearrange, and remove tabs from the top ba
 
 Tabs are saved for each profile, so you can have multiple sets of tabs that will open when you switch [profiles](/start-here/profiles/)!
 
-<img src='/img/documentation/getting-started/switchprofilestabs.gif' class='figure img-floated img-floated--right'>
+<img src='/wp-content/uploads/switchprofilestabs.gif' class='figure img-floated img-floated--right'>
 
 Access a list of all open repositories from the arrow drop-down.
 
-<img src='/img/documentation/getting-started/tab-drop-down.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/tab-drop-down.png' class='img-bordered img-responsive center'>
 
 Hover over an open tab to quickly see the end portion of the file path.
 
-<img src='/img/documentation/getting-started/tab-hover.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/tab-hover.png' class='img-bordered img-responsive center'>
 
 ***
 
@@ -222,15 +221,15 @@ Hover over an open tab to quickly see the end portion of the file path.
 
 GitKraken Client will show 3 columns in the header by default: <kbd>Branch/Tag</kbd>, <kbd>Graph</kbd>, and <kbd>Commit Message</kbd>. These 3 columns are static and cannot be rearranged or removed.
 
-<img src='/img/documentation/getting-started/columns.png' srcset='/img/documentation/getting-started/columns@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/columns@2x.png' class='img-bordered img-responsive center'>
 
 Optionally users may right-click to add <kbd>Commit Author</kbd>, <kbd>Commit Date/Time</kbd>, or <kbd>Sha</kbd>. 
 
-<img src='/img/documentation/getting-started/right-click.png' srcset='/img/documentation/getting-started/right-click@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/right-click@2x.png' class='img-bordered img-responsive center'>
 
 Users may also left-click the <i class="fas fa-cog"></i> icon to enable or disable <kbd>Commit Author</kbd>, <kbd>Commit Date/Time</kbd>, or <kbd>Sha</kbd> (commit ID). 
 
-<img src='/img/documentation/getting-started/gear.png' srcset='/img/documentation/getting-started/gear@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/gear@2x.png' class='img-bordered img-responsive center'>
 
 In addition to using <kbd>cmd/ctrl</kbd>+<kbd>F</kbd> to search commits, users may also filter by commit author. Click the <i class='fa fa-filter'></i>  icon in the AUTHOR column and you can:
 
@@ -238,7 +237,7 @@ In addition to using <kbd>cmd/ctrl</kbd>+<kbd>F</kbd> to search commits, users m
 - Select one or more teams which will filter by all users in that team
 - Search for teams or users in the search field
 
-<img src='/img/documentation/getting-started/filter-author.png' srcset='/img/documentation/getting-started/filter-author@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/filter-author@2x.png' class='img-bordered img-responsive center'>
 
 Columns may also be toggled from <em class="context-menu">Preferences  <i class="fa fa-caret-right"></i> UI Customization</em>, GitKraken Client will remember which columns you have selected, column size, and orientation for each repo. 
 
