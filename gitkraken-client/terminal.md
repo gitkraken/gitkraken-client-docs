@@ -11,7 +11,7 @@ Open the terminal to use Git CLI commands while still viewing the graph.
 
 To get started open up a repository and click the terminal <i class="fa fa-terminal" aria-hidden="true"></i> button in the toolbar, from the new tab view by clicking <kbd>New Terminal Tab</kbd>, or by searching for "terminal" in the <a href="/working-with-repositories/command-palette">command palette</a>.
 
-<img src="/img/documentation/getting-started/terminal/open-gitkraken-terminal.gif" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/open-gitkraken-terminal.gif" class="img-responsive center img-bordered">
 
 Open a Terminal:
 
@@ -26,11 +26,11 @@ Open a Terminal:
 ### Git Commands and Auto-complete
 Most <a href="https://git-scm.com/" target="_blank">Git</a> commands are supported and will appear in the Terminal's auto-complete suggestions, start typing `git` to see them.  
 
-<img src="/img/documentation/repositories/terminal/autocomplete-suggestions.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/autocomplete-suggestions.png" class="img-responsive center img-bordered">
 
 Auto-complete suggestions will also appear for flags.
 
-<img src="/img/documentation/repositories/terminal/autocomplete-suggestions-flags.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/autocomplete-suggestions-flags.png" class="img-responsive center img-bordered">
 
 <div class='callout callout--warning'>
     <p><strong>Note:</strong> Other auto-complete programs can cause GitKraken CLI's auto-complete suggestions to not work. You may need to uninstall or disable these programs before using the Terminal.</p>
@@ -39,11 +39,11 @@ Auto-complete suggestions will also appear for flags.
 ### GK Commands
 You can access GitKraken CLI specific commands by typing `gk`. 
 
-<img src="/img/documentation/repositories/terminal/autocomplete-suggestions-gk.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/autocomplete-suggestions-gk.png" class="img-responsive center img-bordered">
 
 As well as suggestions for additional parameters.
 
-<img src="/img/documentation/repositories/terminal/autocomplete-suggestions-gk-diff.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/autocomplete-suggestions-gk-diff.png" class="img-responsive center img-bordered">
 
 Different views can be accessed using the `gk` CLI program:
 
@@ -53,7 +53,7 @@ Different views can be accessed using the `gk` CLI program:
 * `gk diff`: shows changes between commits. If no SHAs are provided, it will use your WIP and HEAD. If only one SHA is provided, it will be compared with HEAD.
 * `gk --help`: shows the list of `gk` commands.
 
-<img src="/img/documentation/repositories/terminal/terminal-gk-command-example.gif" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/terminal-gk-command-example.gif" class="img-responsive center img-bordered">
 
 ---
 
@@ -61,7 +61,7 @@ Different views can be accessed using the `gk` CLI program:
 
 A toolbar above the panel will display the current repo name, branch, tag, and number of changes pending to pull/push. Clicking this toolbar will also toggle the panel on/off.
 
-<img src="/img/documentation/repositories/terminal/terminal-toolbar-toggle.gif" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/terminal-toolbar-toggle.gif" class="img-responsive center img-bordered">
 
 ---
 
@@ -73,6 +73,6 @@ Navigate to <em class='context-menu'>Preferences <i class='fa fa-caret-right'></
     <p><strong>Note:</strong> The following shells are available depending on operating system: PowerShell for Windows, ZSH/Bash for Mac and Linux. The Terminal will utilize your operating system's default shell. To switch shells you'll need to set the new shell as default in your operating system settings and restart your computer for auto-complete to continue working as expected </p>
 </div>
 
-<img src="/img/documentation/repositories/terminal/terminal-preferences.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/terminal-preferences.png" class="img-responsive center img-bordered">
 
 
