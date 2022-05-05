@@ -36,7 +36,7 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
 * Pull (fast-forward only): equivalent of `git fetch git merge --ff-only` in the CLI
 * Pull (rebase): equivalent of `git fetch git rebase` in the CLI
 
-<div class='callout callout--basic'><p><strong>Tip:</strong> If you find yourself repeatedly performing the same pull actions, set the default pull type by clicking the <span class='sr-only'>circle </span><kbd><i class="fa fa-circle"></i></i></kbd> icon to the pull type's left. The default selection will appear as a <span class='sr-only'>green circle </span><kbd><i class="fa fa-dot-circle"></i></kbd> icon.</p></div>
+<div class='callout callout--basic'><p><strong>Tip:</strong> If you find yourself repeatedly performing the same pull actions, set the default pull type by clicking the <i class="fa fa-circle"></i> icon to the pull type's left. The default selection will appear as a <i class="fa fa-dot-circle"></i> icon.</p></div>
 
 <h3>Push</h3>
 <img src='/wp-content/uploads//gk-new-push-icon.svg' class='img-responsive' style="width: 70px">
@@ -47,15 +47,16 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
 <p>Create a branch on your current local repo.</p>
 
 <h3>Stash</h3>
-<dt class='img'><img src='/wp-content/uploads//gk-new-stash-icon.svg' class='img-responsive' style="width: 70px">
+<img src='/wp-content/uploads//gk-new-stash-icon.svg' class='img-responsive' style="width: 70px">
 <p>Stash your work-in-process (<code>// WIP</code>) changes.</p>
 
 
 <h3>Pop Stash</h3>
-<dt class='img'><img src='/wp-content/uploads//gk-new-pop-icon.svg' class='img-responsive' style="width: 70px">
+<img src='/wp-content/uploads//gk-new-pop-icon.svg' class='img-responsive' style="width: 70px">
 <p>Ready to restore your <code>// WIP</code>? Pop that stash and carry on as you were.</p>
 
-<h3>LFS</h3><img src='/wp-content/uploads//gk-lfs-icon.svg' class='img-responsive' style="width: 70px">
+<h3>LFS</h3>
+<img src='/wp-content/uploads//gk-lfs-icon.svg' class='img-responsive' style="width: 70px">
 <p> Have large files in your repo? This button will appear when you have <a href="/git-workflows-and-extensions/intro-and-requirements/">LFS</a> enabled on the repository.</p>
 
 
