@@ -15,7 +15,7 @@ Here's the TLDR of the best features in GitKraken Client.
 
 If you have personal projects you wish to separate from work repos–or if you need to connect to multiple instances of GitHub, GitLab, Bitbucket, etc.–then set up [Profiles](/start-here/profiles).
 
-<img src="/img/documentation/getting-started/profile-example.png" srcset="/img/documentation/getting-started/profile-example@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/profile-example.png" srcset="/wp-content/uploads/profile-example@2x.png 2x" class="img-responsive center img-bordered">
 
 Each profile stores different app preferences and Git config information, which makes it easier to switch context.
 
@@ -29,7 +29,7 @@ Each profile stores different app preferences and Git config information, which 
 
 Work like the pros, and use the [Command Palette](/start-here/command-palette) to quickly access GitKraken Client actions.
 
-<img src="/img/documentation/tips/advanced-interface/FFcommands.gif" srcset="/img/documentation/tips/advanced-interface/FFcommands.gif" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/FFcommands.gif" srcset="/wp-content/uploads/FFcommands.gif" class="img-responsive center img-bordered">
 
 As you type, the Command Palette will find the most relevant commands, allowing you to perform many actions without clicking. Here are a few examples:
 
@@ -82,7 +82,7 @@ To create a file directly in GitKraken Client, use the keyboard shortcut  <kbd>C
 
 The code editor will automatically open so you can jump right in and start working on your project. 
 
-<img src='/img/documentation/working-with-files/adding-and-removing/Editor-gif.gif' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/Editor-gif.gif' class='img-bordered img-responsive center'>
 
 You can also right click the empty space in the Commit Panel and click the `Create File` context menu option.
 
@@ -90,7 +90,7 @@ To open an existing file to the built-in code editor, select a branch and naviga
 
 Double click the file to bring it to File View. From File View, you can click to edit a file and make changes directly. You'll notice syntax highlighting, code hinting, a file minimap, and the ability to search your file.
 
-<img src='/img/documentation/working-with-files/adding-and-removing/Updated-editor.gif' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/Updated-editor.gif' class='img-bordered img-responsive center'>
 
 Learn more about [editing files](/working-with-files/editing-files) in GitKraken Client.
 
@@ -103,11 +103,11 @@ To delete a file, right-click on the file from the Commit Panel to access the de
 
 Favorite the repos you work on most so they show up at the top of your list.
 
-<img src="/img/documentation/working-with-files/favorites/list.png" srcset="/img/documentation/working-with-files/favorites/list.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/list.png" srcset="/wp-content/uploads/list.png" class="img-bordered img-responsive center">
 
 You can favorite a repository by right-cliking a recently opened repository in the drop down list, or you can click the heart from the repository management window.
 
-<img src="/img/documentation/working-with-files/favorites/star-repos.png" srcset="/img/documentation/working-with-files/favorites/star-repos@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/star-repos.png" srcset="/wp-content/uploads/star-repos@2x.png" class="img-bordered img-responsive center">
 
 ***
 
@@ -115,7 +115,7 @@ You can favorite a repository by right-cliking a recently opened repository in t
 
 GitKraken Client allows you to authenticate with GitHub, GitLab, Bitbucket, and Azure DevOps (previously VSTS), which will help you find repos when cloning or adding your remotes.
 
-<img src="/img/documentation/integrations/vsts/authentication.png" srcset="/img/documentation/integrations/vsts/authentication@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/authentication.png" srcset="/wp-content/uploads/authentication@2x.png" class="img-bordered img-responsive center">
 
 ### Benefits
 
@@ -131,15 +131,15 @@ GitKraken Client allows you to authenticate with GitHub, GitLab, Bitbucket, and 
 
 If you are using the GitLab or GitHub integration, you may also add a pull request assignee and label(s) to your pull request. GitKraken Client will then pass these values onto GitLab or GitHub when the pull request is created. 
 
-<img src='/img/documentation/repositories/gitlab-assignee.png' srcset='/img/documentation/repositories/gitlab-assignee@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/gitlab-assignee.png' srcset='/wp-content/uploads/gitlab-assignee@2x.png' class='img-bordered img-responsive center'>
 
 If you are using the GitHub integration, you may also add reviewers and multiple assignees to a pull request. 
 
-<img src='/img/documentation/repositories/github-assignee.png' srcset='/img/documentation/repositories/github-assignee@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/github-assignee.png' srcset='/wp-content/uploads/github-assignee@2x.png' class='img-bordered img-responsive center'>
 
 Additionally for GitHub pull requests, this tooltip will show assignees, labels, reviewers, and build status.
 
-<img src='/img/documentation/repositories/tooltip-github.png' srcset='/img/documentation/repositories/tooltip-github@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/tooltip-github.png' srcset='/wp-content/uploads/tooltip-github@2x.png' class='img-bordered img-responsive center'>
 
 Learn more about [pull requests](/working-with-repositories/pull-requests).
 
@@ -151,11 +151,11 @@ File History and File Blame information display in the same view.
 
 To access either option, first click on a commit in the graph. Then right click a file to access File History or File Blame.
 
-<img src='/img/documentation/working-with-files/diff/file-history.png' srcset='/img/documentation/working-with-files/diff/file-history@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/file-history.png' srcset='/wp-content/uploads/file-history@2x.png 2x' class='img-bordered img-responsive center'>
 
 File History shows that file's commit history on the left.
 
-<img src='/img/documentation/working-with-files/diff/file-diff.png' srcset='/img/documentation/working-with-files/diff/file-diff.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/file-diff.png' srcset='/wp-content/uploads/file-diff.png 2x' class='img-bordered img-responsive center'>
 
 Use the top toggle button to switch between Diff View, which shows the selected commit's changes to the file, and the File View, which shows the file's state at that commit, including the blame info.
 
@@ -175,7 +175,7 @@ You can set your default terminal from <em class="context-menu">Preferences <i c
 
 It's simple, but easy to miss. Hover over any of the colored lines to drag and drop the graph.
 
-<img src='/img/documentation/getting-started/graph.gif' class='figure img-floated img-floated--right'>
+<img src='/wp-content/uploads/graph-gif.gif' class='figure img-floated img-floated--right'>
 
 
 Resize and marvel at the colors of the rainbow.
