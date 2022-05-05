@@ -59,10 +59,9 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
 <p> Have large files in your repo? This button will appear when you have <a href="/git-workflows-and-extensions/intro-and-requirements/">LFS</a> enabled on the repository.</p>
 
 
-<div class='callout callout--basic'><p><strong>Note:</strong> Toggle the toolbar labels by navigating to <em class='context-menu'>Preferences <i class='fa fa-caret-right'></i> UI Preferences</em> and toggling the <code>Show toolbar icon labels</code> checkbox.</p></div>
+<div class='callout callout--basic'><p><strong>Note:</strong> Toggle the toolbar labels by navigating to <kbd><strong>Preferences > UI Preferences</strong></kbd> and toggling the <code>Show toolbar icon labels</code> checkbox.</p></div>
 
 ***
-
 ## Left reference panel
 
 Referred to as the left "ref" panel, GitKraken Client shows the properties below specific to your repository.  The panel and each pane can be collapsed or expanded as needed.
