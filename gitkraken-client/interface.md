@@ -18,63 +18,48 @@ From left to right, GitKraken Client displays a left reference panel, center gra
 
 ## Toolbar
 In addition to Undo and Redo, the main toolbar houses common repo actions.
-<dl class='horizontal'>
-    <i class="fas fa-undo"></i>
-    <dd>
-        <h3>Undo</h3>
-        <p>Many actions performed in GitKraken Client can be undone. If an action is undoable, the <kbd>Undo</kbd> button will be a solid color ready for action.</p>
-    </dd>
-    <dt class='img'><img src='/wp-content/uploads/gk-new-redo-icon.svg' class='img-responsive' style="width: 100px"></dt>
-    <dd>
-        <h3>Redo</h3>
-        <p>What if you undid something, only to realize that you didn't want to undo it? GitKraken Client also has a </kbd>Redo</kbd> button so you can undo your undos.</p>
-    </dd>
-    <dt class='img'><img src='/wp-content/uploads/gk-new-pull-icon.svg' class='img-responsive' style="width: 100px"></dt>
-    <dd>
-        <h3>Pull</h3>
-        <p>Pull changes from your remote repos with this button. See the <kbd><i class='fa fa-caret-down'></i></kbd> button next to the icon? Click that to customize the type of pull you want to perform:</p>
-        <ul class='list'>
-            <li>Fetch All</li>
-            <li>Pull (fast-forward if possible)</li>
-            <li>Pull (fast-forward only): equivalent of `git fetch git merge --ff-only` in the CLI</li>
-            <li>Pull (rebase): equivalent of `git fetch git rebase` in the CLI</li>
-        </ul>
-        <div class='callout callout--basic'>
-            <p><strong>Tip:</strong> If you find yourself repeatedly performing the same pull actions, set the default pull type by clicking the <span class='sr-only'>circle </span><kbd><i class="far fa-circle"></i></i></kbd> icon to the pull type's left. The default selection will appear as a <span class='sr-only'>green circle </span><kbd><i class="far fa-dot-circle"></i></kbd> icon.</p>
-        </div>
-    </dd>
-    <dt class='img'><img src='/wp-content/uploads//gk-new-push-icon.svg' class='img-responsive' style="padding: 0.4rem"></dt>
-    <dd>
-        <h3>Push</h3>
-        <p>Push changes to the remote repo as set in your upstream.</p>
-    </dd>
-    <dt class='img'><img src='/wp-content/uploads//gk-new-branch-icon.svg' class='img-responsive' style="width: 100px"></dt>
-    <dd>
-        <h3>Branch</h3>
-        <p>Create a branch on your current local repo.</p>
-    </dd>
-    <dt class='img'><img src='/wp-content/uploads//gk-new-stash-icon.svg' class='img-responsive' style="width: 100px"></dt>
-    <dd>
-        <h3>Stash</h3>
-        <p>Stash your work-in-process (<code>// WIP</code>) changes.</p>
-    </dd>
-    <dt class='img'><img src='/wp-content/uploads//gk-new-pop-icon.svg' class='img-responsive' style="width: 100px"></dt>
-    <dd>
-        <h3>Pop Stash</h3>
-        <p>Ready to restore your <code>// WIP</code>? Pop that stash and carry on as you were.</p>
-    </dd>
-     <dt class='img'><img src='/wp-content/uploads//gk-lfs-icon.svg' class='img-responsive' style="width: 100px"></dt>
-    <dd>
-        <h3>LFS</h3>
-        <p> Have large files in your repo? This button will appear when you have <a href="/git-workflows-and-extensions/intro-and-requirements/">LFS</a> enabled on the repository.</p>
-    </dd>
-         <dt class='img'><img src='/wp-content/uploads//gk-glo-board-icon.svg' class='img-responsive'></dt>
-    <dd>
-</dl>
 
-<div class='callout callout--basic'>
-    <p><strong>Note:</strong> Toggle the toolbar labels by navigating to <em class='context-menu'>Preferences <i class='fa fa-caret-right'></i> UI Preferences</em> and toggling the <code>Show toolbar icon labels</code> checkbox.</p>
-</div>
+<h3>Undo</h3>
+<img src='/wp-content/uploads/gk-new-undo-icon.svg' class='img-responsive' style="width: 100px">
+<p>Many actions performed in GitKraken Client can be undone. If an action is undoable, the <kbd>Undo</kbd> button will be a solid color ready for action.</p>
+
+<h3>Redo</h3>
+<img src='/wp-content/uploads/gk-new-redo-icon.svg' class='img-responsive' style="width: 100px">
+<p>What if you undid something, only to realize that you didn't want to undo it? GitKraken Client also has a </kbd>Redo</kbd> button so you can undo your undos.</p>
+
+<h3>Pull</h3>
+<img src='/wp-content/uploads/gk-new-pull-icon.svg' class='img-responsive' style="width: 100px">
+<p>Pull changes from your remote repos with this button. See the <kbd><i class='fa fa-caret-down'></i></kbd> button next to the icon? Click that to customize the type of pull you want to perform:</p>
+
+* Fetch All
+* Pull (fast-forward if possible)
+* Pull (fast-forward only): equivalent of `git fetch git merge --ff-only` in the CLI
+* Pull (rebase): equivalent of `git fetch git rebase` in the CLI
+
+<div class='callout callout--basic'><p><strong>Tip:</strong> If you find yourself repeatedly performing the same pull actions, set the default pull type by clicking the <span class='sr-only'>circle </span><kbd><i class="fa fa-circle"></i></i></kbd> icon to the pull type's left. The default selection will appear as a <span class='sr-only'>green circle </span><kbd><i class="fa fa-dot-circle"></i></kbd> icon.</p>
+
+<h3>Push</h3>
+<img src='/wp-content/uploads//gk-new-push-icon.svg' class='img-responsive' style="width: 100px">
+<p>Push changes to the remote repo as set in your upstream.</p>
+
+<h3>Branch</h3>
+<img src='/wp-content/uploads//gk-new-branch-icon.svg' class='img-responsive' style="width: 100px">
+<p>Create a branch on your current local repo.</p>
+
+<h3>Stash</h3>
+<dt class='img'><img src='/wp-content/uploads//gk-new-stash-icon.svg' class='img-responsive' style="width: 100px">
+<p>Stash your work-in-process (<code>// WIP</code>) changes.</p>
+
+
+<h3>Pop Stash</h3>
+<dt class='img'><img src='/wp-content/uploads//gk-new-pop-icon.svg' class='img-responsive' style="width: 100px">
+<p>Ready to restore your <code>// WIP</code>? Pop that stash and carry on as you were.</p>
+
+<h3>LFS</h3><img src='/wp-content/uploads//gk-lfs-icon.svg' class='img-responsive' style="width: 100px">
+<p> Have large files in your repo? This button will appear when you have <a href="/git-workflows-and-extensions/intro-and-requirements/">LFS</a> enabled on the repository.</p>
+
+
+<div class='callout callout--basic'><p><strong>Note:</strong> Toggle the toolbar labels by navigating to <em class='context-menu'>Preferences <i class='fa fa-caret-right'></i> UI Preferences</em> and toggling the <code>Show toolbar icon labels</code> checkbox.</p>
 
 ***
 
@@ -82,58 +67,44 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
 
 Referred to as the left "ref" panel, GitKraken Client shows the properties below specific to your repository.  The panel and each pane can be collapsed or expanded as needed.
 
-<dl class='horizontal'>
-    <dt class='img center'><img src='/wp-content/uploads/gk-new-local-icon.svg' class='img-responsive' style="width: 100px"></dt>
-    <dd>
-        <h3>Local</h3>
-        <p>References to local branches &mdash; pointers to specific commits allowing work to be separated.</p>
-        <p>If you need help with branches, visit our <a href="/working-with-repositories/branching-and-merging">Branching and Merging</a> page.</p>
-    </dd>
-    <dt class='img center'><img src='/wp-content/uploads/gk-new-remote-icon.svg' class='img-responsive' style="width: 100px"></dt>
-    <dd>
-        <h3>Remote</h3>
-        <p>References to remote branches.</p>
-        <p>Set sail into <a href="/working-with-repositories/pushing-and-pulling">pushing and pulling remotes</a> for more.</p>
-    </dd>
-    <dt class='img center'><img src='/wp-content/uploads/gk-new-pull-requests-icon.svg' class='img-responsive' style="width: 100px"></dt>
-    <dd>
-        <h3>Pull Requests</h3>
-        <p>This shows active requests for merging one branch into another. With the GitHub or Bitbucket integration, new PRs can be created directly from GitKraken Client.</p>
-        <p>Create your <a href="/working-with-repositories/pull-requests">Pull Request</a> to get your contribution merged.</p>
-    </dd>
-    <dt>
-        <i class="fa fa-list-ul fa-3x" aria-hidden="true"></i>
-    </dt>
-    <dd>
-        <h3>Issues</h3>
-        <p>Lets you see and work with your issues in GitKraken Client</p>
-        <p>Hook up to your remote issue tracker of choice - such as <a href="/integrations/jira/">Jira</a>, <a href="/integrations/boards/">Boards</a>, <a href="/integrations/github-issues/">GitHub</a>, <a href="/integrations/gitlab-issues/">GitLab</a>, or <a href="/integrations/trello/">Trello</a>.</p>
-    </dd> 
-    <dt>
-        <i class="fa fa-users fa-3x" aria-hidden="true"></i>
-    </dt>
-    <dd>
-        <h3>Teams</h3>
-        <p>Easily see what your <a href="/working-with-repositories/team-view/">Team</a> members are working on.</p>
-    </dd>
-    <dt class='img center'><img src='/wp-content/uploads//gk-new-tags-icon.svg' class='img-responsive'></dt>
-    <dd>
-        <h3>Tags</h3>
-        <p>These represent active pointers to commits but never move. <a href="/working-with-repositories/tags">Tag</a>, you're it!</p>
-    </dd>
-    <dt class='img center'><img src='/wp-content/uploads/gk-new-stash-icon.svg' class='img-responsive' style="width: 100px"></dt>
-    <dd>
-        <h3>Stashes</h3>
-        <p>Stored file changes in the working copy.</p>
-        <p>For saving your loot to play with later, here's more on <a href="/working-with-commits/stashing">stashes</a>.</p>
-    </dd>
-    <dt class='img center'><img src='/wp-content/uploads//gk-new-submodules-icon.svg' class='img-responsive' style="width: 100px"></dt>
-    <dd>
-        <h3>Submodules</h3>
-        <p>A Git repository in a subdirectory of the current repository.</p>
-        <p>Git-inception with <a href="/working-with-repositories/submodules">submodules</a> anyone?</p>
-    </dd>
-</dl>
+<h3>Local</h3>
+<img src='/wp-content/uploads/gk-new-local-icon.svg' class='img-responsive' style="width: 100px">
+<p>References to local branches &mdash; pointers to specific commits allowing work to be separated.</p>
+<p>If you need help with branches, visit our <a href="/working-with-repositories/branching-and-merging">Branching and Merging</a> page.</p>
+
+<h3>Remote</h3>
+<img src='/wp-content/uploads/gk-new-remote-icon.svg' class='img-responsive' style="width: 100px">
+<p>References to remote branches.</p>
+<p>Set sail into <a href="/working-with-repositories/pushing-and-pulling">pushing and pulling remotes</a> for more.</p>
+
+<h3>Pull Requests</h3>
+<img src='/wp-content/uploads/gk-new-pull-requests-icon.svg' class='img-responsive' style="width: 100px">
+<p>This shows active requests for merging one branch into another. With the GitHub or Bitbucket integration, new PRs can be created directly from GitKraken Client.</p>
+<p>Create your <a href="/working-with-repositories/pull-requests">Pull Request</a> to get your contribution merged.</p>
+
+<h3>Issues</h3>
+<i class="fa fa-list-ul fa-3x" aria-hidden="true"></i>
+<p>Lets you see and work with your issues in GitKraken Client</p>
+<p>Hook up to your remote issue tracker of choice - such as <a href="/integrations/jira/">Jira</a>, <a href="/integrations/boards/">Boards</a>, <a href="/integrations/github-issues/">GitHub</a>, <a href="/integrations/gitlab-issues/">GitLab</a>, or <a href="/integrations/trello/">Trello</a>.</p>
+
+<h3>Teams</h3>
+<i class="fa fa-users fa-3x" aria-hidden="true"></i>
+<p>Easily see what your <a href="/working-with-repositories/team-view/">Team</a> members are working on.</p>
+
+<h3>Tags</h3>
+<img src='/wp-content/uploads/gk-new-tags-icon.svg' class='img-responsive'style="width: 100px">
+<p>These represent active pointers to commits but never move. <a href="/working-with-repositories/tags">Tag</a>, you're it!</p>
+
+<h3>Stashes</h3>
+<img src='/wp-content/uploads/gk-new-stash-icon.svg' class='img-responsive' style="width: 100px">
+<p>Stored file changes in the working copy.</p>
+<p>For saving your loot to play with later, here's more on <a href="/working-with-commits/stashing">stashes</a>.</p>
+
+<h3>Submodules</h3>
+<img src='/wp-content/uploads//gk-new-submodules-icon.svg' class='img-responsive' style="width: 100px">
+<p>A Git repository in a subdirectory of the current repository.</p>
+<p>Git-inception with <a href="/working-with-repositories/submodules">submodules</a> anyone?</p>
+
 
 ***
 
@@ -231,7 +202,7 @@ In addition to using <kbd>cmd/ctrl</kbd>+<kbd>F</kbd> to search commits, users m
 
 <img src='/wp-content/uploads/filter-author@2x.png' class='img-bordered img-responsive center'>
 
-Columns may also be toggled from <em class="context-menu">Preferences  <i class="fa fa-caret-right"></i> UI Customization</em>, GitKraken Client will remember which columns you have selected, column size, and orientation for each repo. 
+Columns may also be toggled from <kbd><strong>Preferences > UI Customization</strong></kbd>, GitKraken Client will remember which columns you have selected, column size, and orientation for each repo. 
 
 ***
 

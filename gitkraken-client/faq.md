@@ -30,7 +30,7 @@ The answers to your important **F**requently **A**sked **Q**uestions.
 ### Does GitKraken Client support TFS, Visual Studio Team Service or Azure DevOps?
 Yes, for Azure DevOps (previously VSTS), you can use our integration with [Azure DevOps](/integrations/visual-studio-team-services/)!
 
-For TFS instances you will need to clone your repo <kbd>File</kbd> <i class='fa fa-caret-right'></i> <kbd>Clone Repo</kbd> and then enter the HTTPS repository URL (which can be found at the top-right of your Code page).<br><br>
+For TFS instances you will need to clone your repo <kbd><strong>File > Clone Repo</strong></kbd> and then enter the HTTPS repository URL (which can be found at the top-right of your Code page).<br><br>
 If you're connecting to a remote TFS Git server from a Mac or Linux, you will need to enable _Basic Authentication_ in IIS for TFS.
 
 If authenticating to TFS via username and password is not working, try creating a Personal Access Token (PAT) to use in place of a password.
@@ -106,8 +106,8 @@ If you are on Linux and are unable to launch GitKraken Client after installation
 
 ***
 
-### I just subscribed but I do not see PRO in the lower right corner.
-Be sure you are logged in with the same email address registered with your GitKraken Pro subscription. Click your profile icon in the upper right corner to check which email you're using or to sign into your account.
+### I just subscribed but FREE is still shown in the lower right corner.
+Be sure you are logged in with the same email address registered with your GitKraken subscription. Click your profile icon in the upper right corner to check which email you're using or to sign into your account.
 
 <img src="/wp-content/uploads/sign-into-a-different-account.png" class="img-responsive center img-bordered">
 
@@ -144,11 +144,6 @@ GitKraken supports both authenticated and non-authenticated proxies, but some PA
 * If that doesn't work, configuring <a href="https://git-scm.com/docs/git-config#git-config-remoteltnamegtproxy" target="_blank"><code>remote.&lt;name&gt;.proxy</code></a> might help. Bear in mind that local (repo-specific) settings override the settings your global Git config.
 
 Learn more on our [SSH, HTTPS, & Proxies](/integrations/authentication) page.
-
-***
-
-### GitKraken Client keeps spinning when opening a repo. Can I use it with repos on DropBox or OneDrive?
-GitKraken does not support opening repos hosted on DropBox or OneDrive. We recommend moving your repo to a location on your machine, and then opening the repo from there.
 
 ***
 
