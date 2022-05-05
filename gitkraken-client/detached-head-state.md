@@ -14,9 +14,9 @@ Detached HEAD state gives you the power to check out any commit and explore the 
 
 ### Entering detached HEAD state
 
-Right click on the commit you’d like to checkout, and navigate to <kbd>Checkout this commit</kbd>. 
+Right click on the commit you’d like to checkout, and navigate to <kbd><strong>Checkout this commit</strong></kbd>. 
 
-<img src='/wp-content/uploads/commits/checkout.png' srcset='/wp-content/uploads/commits/checkout@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/checkout.png' srcset='/wp-content/uploads/checkout@2x.png 2x' class='img-bordered img-responsive center'>
 
 The checked out commit will be tagged as `HEAD`, serving as your indication that you’ve entered detached HEAD state. 
 
@@ -43,7 +43,7 @@ Luckily, GitKraken Client will explicitly remind you of your detached state when
 
 ### Keeping your commits 
 
-If you hit that stride and create changes in the detached HEAD state that you’d ultimately like to keep, you can easily do so by right clicking on your checked out commit and selecting <kbd>Create branch here</kbd>.
+If you hit that stride and create changes in the detached HEAD state that you’d ultimately like to keep, you can easily do so by right clicking on your checked out commit and selecting <kbd><strong>Create branch here</strong></kbd>.
 
 <img src='/wp-content/uploads/create-branch.png' srcset='/wp-content/uploads/create-branch@2x.png 2x' class='img-bordered img-responsive center'>
 

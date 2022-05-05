@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-Navigate to <i class="fas fa-cog"></i> <kbd>Preferences <kbd> to customize your GitKraken Client experience. Here are what each of the major sections do.
+Navigate to <i class="fas fa-cog"></i> <kbd><strong>Preferences</strong></kbd> to customize your GitKraken Client experience. Here are what each of the major sections do.
 
 
 <img src="/wp-content/uploads/preferences.png" srcset="/wp-content/uploads/preferences@2x.png 2x" class="img-responsive center img-bordered">
@@ -74,7 +74,7 @@ GitKraken Client will make .orig files during a merge. If turned off, these befo
 
 ### Default Terminal
 
-You may open the current repo folder in terminal by navigating to  <kbd>File > Open Terminal</kbd> or use the keyboard shortcuts <kbd>opt</kbd> + <kbd>T</kbd> (Mac) / <kbd>alt</kbd> + <kbd>T</kbd> (Windows + Linux). 
+You may open the current repo folder in terminal by navigating to  <kbd><strong>File > Open Terminal</strong></kbd> or use the keyboard shortcuts <kbd><strong>opt</strong></kbd> + <kbd><strong>T</strong></kbd> (Mac) / <kbd><strong>alt</strong></kbd> + <kbd><strong>T</strong></kbd> (Windows + Linux). 
 
 Set your preferred terminal from this preference option for this action.
  
@@ -105,7 +105,7 @@ Enabling this option auto-converts CRLF line endings into LF when adding a file 
 
 ### Use extended logging in activity log
 
-Provides more information for the activity log. You may access the activity log from <kbd>Help > Support Logs > Activity Logs</kbd>.
+Provides more information for the activity log. You may access the activity log from <kbd><strong>Help > Support Logs > Activity Logs</strong></kbd>.
 
 ### Forget all Usernames and Passwords
 

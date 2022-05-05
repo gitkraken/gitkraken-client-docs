@@ -31,23 +31,23 @@ There are three ways to start a Git repository when working on a project:
 ### Opening an existing project
 GitKraken Client allows you to load your existing repositories and pick up where you left off. It's also useful for visualizing past work done.  
 
-If you're coming from a Git project you already have locally, navigate to <em class='context-menu'>File <i class="fa fa-caret-right"></i> Open Repo</em> to get started immediately in GitKraken Client.
+If you're coming from a Git project you already have locally, navigate to <kbd><strong>File > Open Repo</strong></kbd> to get started immediately in GitKraken Client.
 
-<img src='/img/documentation/getting-started/project.png' srcset='/img/documentation/getting-started/project@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/project.png' srcset='/wp-content/uploads/project@2x.png 2x' class='img-bordered img-responsive center'>
 
 ***
 ### Cloning an existing project
-If your project is not on your local machine or you want a new copy, clone the project through <em class='context-menu'>File <i class="fa fa-caret-right"></i> Clone</em>.
+If your project is not on your local machine or you want a new copy, clone the project through <kbd><strong>File > Clone</strong></kbd>.
 
-<img src='/img/documentation/getting-started/clone.png' srcset='/img/documentation/getting-started/clone@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/clone-url.png' srcset='/wp-content/uploads/clone-url@2x.png 2x' class='img-bordered img-responsive center'>
 
 This will then prompt you to open the newly copied project in GitKraken Client.
 
 ***
 ### Initialize a new project
-Starting a project in GitKraken Client is easy through <em class='context-menu'>File <i class="fa fa-caret-right"></i> Init</em>
+Starting a project in GitKraken Client is easy through <kbd><strong>File > Init</strong></kbd>
 
-<img src='/img/documentation/getting-started/init.png' srcset='/img/documentation/getting-started/init@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/init.png' srcset='/wp-content/uploads/init@2x.png 2x' class='img-bordered img-responsive center'>
 
 All you need to do is fill out the fields and select <button class='button button--success button--ui button--nolink'>Create Repository</span></button> for the magic to begin.
 
@@ -76,11 +76,11 @@ All you need to do is fill out the fields and select <button class='button butto
 
 You may delete a repository by first navigating to the folder icon in the upper left corner of GitKraken Client UI.
 
-<img src='/img/documentation/getting-started/click-folder.png' srcset='/img/documentation/getting-started/click-folder@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/click-folder.png' srcset='/wp-content/uploads/click-folder@2x.png 2x' class='img-bordered img-responsive center'>
 
 Then browse through your repo list and right-click on the repository you wish to delete from your local machine. 
 
-<img src='/img/documentation/getting-started/delete-repo.png' srcset='/img/documentation/getting-started/delete-repo@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/delete-repo.png' srcset='/wp-content/uploads/delete-repo@2x.png 2x' class='img-bordered img-responsive center'>
 
 If you are unable to delete the repository, first make sure it is closed in GitKraken Client and then close any other applications which may be working with files in the repository. Restart GitKraken Client and try the delete again.
 
