@@ -15,7 +15,7 @@ There are three steps to success with GitKraken Client. That's it!
 
 No Git tools are required for GitKraken Client, so once you’ve run the installer, you can open the app and get going.
 
-If you want to utilize additional features such as the terminal or LFS, you will want to <a href='https://git-scm.com/' target="_blank">download git-scm </a>.
+If you want to utilize additional features such as the terminal or LFS, <a href='https://git-scm.com/' target="_blank">download git-scm </a>.
 
 
 Below are platform-specific instructions and details on minimum requirements.
@@ -44,7 +44,7 @@ GitKraken Client data is stored with your home profile in `C:\Users\{user}\AppDa
 ### Install Instructions
 Double click the downloaded DMG file and when prompted, drag and drop the GitKraken icon to your Applications folder.
 
-<img src="/wp-content/uploads/how-to-install/mac-install.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/mac-install.png" class="img-responsive center img-bordered">
 
 ### Data Location
 GitKraken Client data is stored in `/Users/{user}/.gitkraken` == `~/.gitkraken`.

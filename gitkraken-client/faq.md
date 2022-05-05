@@ -28,7 +28,7 @@ The answers to your important **F**requently **A**sked **Q**uestions.
 ***
 
 ### Does GitKraken Client support TFS, Visual Studio Team Service or Azure DevOps?
-Yes, for Azure DevOps (previously VSTS), you can use our integration with [Azure DevOps](/integrations/visual-studio-team-services/)!
+Yes, for Azure DevOps (previously VSTS), you can use our integration with [Azure DevOps](/integrations/azure-devops/)!
 
 For TFS instances you will need to clone your repo <kbd><strong>File > Clone Repo</strong></kbd> and then enter the HTTPS repository URL (which can be found at the top-right of your Code page).<br><br>
 If you're connecting to a remote TFS Git server from a Mac or Linux, you will need to enable _Basic Authentication_ in IIS for TFS.
@@ -45,7 +45,8 @@ GitKraken Client currently supports Ubuntu 16.04 LTS+, RHEL 7+, CentOS 7+, and F
 ***
 
 ### How can I use multiple GitHub / GitLab / Bitbucket / Azure DevOps accounts with GitKraken?
-By default, GitKraken Client connects to one integration at a time. However, a <a href='https://gitkraken.com/features'>paid GitKraken license</a>&lsquo; provides multiple profile support, allowing you to easily switch between profiles that each have their own associated integrations.<br><br>
+By default, GitKraken Client connects to one integration at a time. However, a <a href='https://gitkraken.com/features'>paid GitKraken license</a> provides multiple profile support, allowing you to easily switch between profiles that each have their own associated integrations.
+
 If you have a GitKraken Pro, Teams, or Enterprise license, [set up profiles](/start-here/profiles) to configure a GitHub, GitLab, Bitbucket, or Azure DevOps account for each profile.
 
 ***
@@ -83,7 +84,7 @@ You are done! Your local project is now on your hosting service.
 
 You may sign into a different account by selecting your profile icon in the top right corner and selecting _Sign into a different account_. 
 
-While there is no way to sign out of GitKraken, you may delete all of your GitKraken data by deleting the `~./gitkraken` folder. You can find the Data Location for your operating system [here](/how-to-install/).
+While there is no way to sign out of GitKraken, you may delete all of your GitKraken data by deleting the `~./gitkraken` folder. You can find the Data Location for your operating system [here](/gitkraken-client/how-to-install/).
 
 ## Technical issues
 
@@ -102,7 +103,7 @@ There could also be an issue with the directory path itself. Try cloning this re
 ***
 
 ### I just downloaded GitKraken Client and it is not working.
-If you are on Linux and are unable to launch GitKraken Client after installation, try to launch the application from the terminal to verify that there are no missing dependencies. Also, be sure to check out our page on [How to Install GitKraken Client.](/how-to-install)
+If you are on Linux and are unable to launch GitKraken Client after installation, try to launch the application from the terminal to verify that there are no missing dependencies. Also, be sure to check out our page on [How to Install GitKraken Client.](/gitkraken-client/how-to-install)
 
 ***
 
@@ -127,7 +128,7 @@ The most common issues are:
 ### I can't view any of my GitHub remotes from GitKraken Client.
 GitKraken needs to be authorized in your GitHub account in order to browse remote repositories, view and create pull requests, and perform other actions. You can double-check that GitKraken is authorized from <a href='https://github.com/settings/applications' target='_blank'>your GitHub authorized applications page</a>.<br><br>
 If GitKraken is authorized on your GitHub account, you should be able to browse and connect to any of your personal repositories. However to connect to any repositories owned by an organization, GitKraken usually also needs to be authorized by the organization. After authorizing GitKraken on your own account, you can make access requests to your organizations from <a href='https://github.com/settings/connections/applications/a7557949433b7d282a76' target='_blank'>here</a>. Requests must be approved by organization owners, as explained in <a href='https://help.github.com/articles/approving-third-party-applications-for-your-organization/' target='_blank'>GitHub's documentation</a>.<br><br>
-If you are attempting to use GitKraken Client with a repository owned by a different individual, consider forking their repository to use GitKraken Client for your changes. Otherwise this other individual will need to first <a href='https://gitkraken.com' target='_blank'>install GitKraken Client</a> and [connect it to GitHub](/integrations/github) to authorize GitKraken.
+If you are attempting to use GitKraken Client with a repository owned by a different individual, consider forking their repository to use GitKraken Client for your changes. Otherwise this other individual will need to first <a href='https://gitkraken.com/download' target='_blank'>install GitKraken Client</a> and [connect it to GitHub](/integrations/github) to authorize GitKraken.
 
 ***
 
