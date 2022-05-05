@@ -56,7 +56,7 @@ GitKraken Client lets you replace all commit nodes with the commit author's init
 
 <img src="/wp-content/uploads/author-initials@2x.png" class="img-bordered img-responsive center">
 
-Navigate to <kbd>Preferences</kbd> <i class='fa fa-caret-right'><kbd>UI Preferences</kbd> to enable the setting.
+Navigate to <kbd><strong>Preferences > UI Preferences</strong></kbd> to enable the setting.
 
 #### What initials does GitKraken Client use?
 
