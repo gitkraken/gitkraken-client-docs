@@ -6,7 +6,7 @@ taxonomy:
     category: gitkraken-client
 
 ---
-
+Learn how to add and remove files in GitKraken Client.
 ***
 
 ## Adding a file

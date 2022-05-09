@@ -6,7 +6,7 @@ taxonomy:
     category: gitkraken-client
 
 ---
-
+Learn how to edit files in GitKraken Client.
 ***
 
 ## Editing a file
