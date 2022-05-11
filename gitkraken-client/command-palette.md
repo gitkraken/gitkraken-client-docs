@@ -14,7 +14,7 @@ The _Command Palette_ is a faster way to access GitKraken Client's actions.
 Use the _Command Palette_ to open repositories, history for files in the current repository, and settings.
 
 
-<img src="/img/documentation/getting-started/command-palette-example.gif" srcset="/img/documentation/getting-started/command-palette-example.gif" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/command-palette-example.gif" srcset="/wp-content/uploads/command-palette-example.gif" class="img-responsive center img-bordered">
 
 
 ## Open Command Palette
