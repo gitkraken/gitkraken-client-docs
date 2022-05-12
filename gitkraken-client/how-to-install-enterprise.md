@@ -1,7 +1,7 @@
 ---
 
 title: Install
-description:
+description: How to install GitKraken Self-Hosted Enterprise server
 taxonomy:
     category: gitkraken-client
 

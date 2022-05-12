@@ -1,7 +1,7 @@
 ---
 
 title: System Requirements
-description:
+description: Minimum requirements for GitKraken Self-Hosted servers
 taxonomy:
     category: gitkraken-client
 

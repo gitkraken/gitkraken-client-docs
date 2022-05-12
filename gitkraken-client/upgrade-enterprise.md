@@ -1,7 +1,7 @@
 ---
 
 title: Upgrade
-description:
+description: Learn how to upgrade your GitKraken Enterprise Server instance
 taxonomy:
     category: gitkraken-client
 
@@ -11,8 +11,6 @@ taxonomy:
 The upgrade procedure is the same whether you are running GitKraken Self-Hosted on CentOS, Ubuntu, or RHEL7.
 
 ***
-
-If you are upgrading to version 3.4.0, please [jump](#upgrade-to-v3.4.0) to the instructions at the bottom of this page.
 
 <a id="upgrade-enterprise-server"></a>
 
@@ -94,7 +92,7 @@ folder at the top level.
 ## Update License
 
 If you need to update your GitKraken Self-Hosted license, you will first need to copy the license.dat file over to your GitKraken Self-Hosted server.  Then, select the new license by going to the License tab on your Enterprise site.  From here you can browse to the new license file:
-<img src='/img/documentation/enterprise/license-settings.png' srcset='/img/documentation/enterprise/license-settings@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/license-settings.png' srcset='/wp-content/uploads/license-settings@2x.png 2x' class='img-bordered img-responsive center'>
 
 <a id="reset-the-super-user-password"></a>
 
