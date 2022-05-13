@@ -14,7 +14,7 @@ The left panel allows you to modify the view of the graph for cleanliness and fo
 <img src="/img/documentation/repositories/solo-hide.gif" class="img-bordered img-responsive center">
 
 <dl class='horizontal'>
-    <dt class='img center'><img src='/img/documentation/icons/gk-hide-icon-green.svg' class='img-responsive'></dt>
+    <dt class='img center'><img src="/wp-content/uploads/gk-hide-icon-green.svg" class='img-responsive'></dt>
     <dd>
         <h3>Hide</h3>
         <p>Hides the selected branch from the graph.</p>
@@ -24,7 +24,7 @@ The left panel allows you to modify the view of the graph for cleanliness and fo
         Or perform this task by right-clicking the branch and selecting `Hide`.</p>
         <p>Hidden branches will now have a gray eye <i class='fa fa-eye-slash'></i> icon. Clicking this will restore that repo to the graph.</p>
     </dd>
-    <dt class='img center'><img src='/img/documentation/icons/gk-solo-icon-orange.svg' class='img-responsive'></dt>
+    <dt class='img center'><img src="/wp-content/uploads/gk-solo-icon-orange.svg" class='img-responsive'></dt>
     <dd>
         <h3>Solo</h3>
         <p>Soloing a branch will hide all other branches which have not been soloed, showing <i>only</i> soloed branches.</p>
