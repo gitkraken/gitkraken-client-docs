@@ -23,9 +23,9 @@ To clone a remote repository over HTTPS, first navigate to your hosting service 
 
 Then go to GitKraken Client and clone the project through <em class='context-menu'>File <i class="fa fa-caret-right"></i> Clone</em>.
 
-<img src='/img/documentation/getting-started/clone.png' srcset='/img/documentation/getting-started/clone@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/getting-started/clone.png' srcset='/wp-content/uploads/getting-started/clone@2x.png 2x' class='img-bordered img-responsive center'>
 
-Paste the URL, hit <button class='button button--success button--ui button--nolink'>Clone the repo</button>, and then open the repo in GitKraken. 
+Paste the URL, hit <button class='button button--success button--ui button--nolink'>Clone the repo</button>, and then open the repo in GitKraken.
 
 By default when cloning a repo using HTTPS, your remote tracking at `origin` will be set using this format.
 
@@ -40,7 +40,7 @@ Before you can clone a repo over SSH, you must first set up your SSH keys in Git
 
 Navigate to <em class='context-menu'>Preferences <i class="fa fa-caret-right"></i> SSH</em>.
 
-<img src="/img/documentation/integrations/authentication.png" srcset="/img/documentation/integrations/authentication@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/authentication.png" srcset="/wp-content/uploads/integrations/authentication@2x.png" class="img-bordered img-responsive center">
 
 Here you may choose an SSH key pair by browsing your file system, or let GitKraken Client generate a key for you (recommended). Make sure that you copy your public SSH key and paste it into your remote hosting service!
 
@@ -52,11 +52,11 @@ To clone a remote repository over SSH, first navigate to your hosting service an
 
 Then go to GitKraken Client and clone the project through <em class='context-menu'>File <i class="fa fa-caret-right"></i> Clone</em>.
 
-<img src='/img/documentation/getting-started/clone.png' srcset='/img/documentation/getting-started/clone@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/getting-started/clone.png' srcset='/wp-content/uploads/getting-started/clone@2x.png 2x' class='img-bordered img-responsive center'>
 
-Paste the URL, hit <button class='button button--success button--ui button--nolink'>Clone the repo</button>, and then open the repo in GitKraken. 
+Paste the URL, hit <button class='button button--success button--ui button--nolink'>Clone the repo</button>, and then open the repo in GitKraken.
 
-### Supported SSH formats 
+### Supported SSH formats
 
 The standard protocol can be entered as a remote in one of following formats:
 
@@ -100,7 +100,7 @@ With SSH, it's not uncommon when working with many projects, and separate [profi
 
 While you can specify a single SSH key pair as a default, and even have dedicated defaults per [profile](/start-here/profiles), it may be preferable to check _Use local SSH agent_ and have the keys managed externally.
 
-This way, provided your keys are loaded, every action requiring a chat with your known hosts can manage providing `l33tp@$$..&3` for success without your keyboard involved.  
+This way, provided your keys are loaded, every action requiring a chat with your known hosts can manage providing `l33tp@$$..&3` for success without your keyboard involved.
 
 100% of the time, it works every time.
 
@@ -121,7 +121,7 @@ Well if it's not working 100% of the time, the most common issues are:
 
 You may tell GitKraken to forget all usernames and passwords from <em class='context-menu'> Preferences <i class='fa fa-caret-right'></i> Authentication</em>:
 
-<img src="/img/documentation/integrations/forget-all.png" srcset="/img/documentation/integrations/forget-all@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/forget-all.png" srcset="/wp-content/uploads/integrations/forget-all@2x.png" class="img-bordered img-responsive center">
 
 Use this if you need the app to prompt for username or password for remote actions like push or pull.
 

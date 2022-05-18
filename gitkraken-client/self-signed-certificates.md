@@ -25,26 +25,26 @@ An easy way to install a certificate so that GitKraken can use it is via <a href
 
 To generate a self-signed certificate, navigate to your remote hosting services web site. You should see somthing like this:
 
-<img src="/img/documentation/integrations/certs/chrome-0a-export.png" srcset="/img/documentation/integrations/certs/chrome-0a-export.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/certs/chrome-0a-export.png" srcset="/wp-content/uploads/integrations/certs/chrome-0a-export.png" class="img-bordered img-responsive center">
 
 Click on the certificate, go to <kbd>Details</kbd> and click <kbd>Copy to File...</kbd> then follow the Certificate Export Wizard.
 
-<img src="/img/documentation/integrations/certs/chrome-0b-export.png" srcset="/img/documentation/integrations/certs/chrome-0b-export.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/certs/chrome-0b-export.png" srcset="/wp-content/uploads/integrations/certs/chrome-0b-export.png" class="img-bordered img-responsive center">
 
 Once you have the certificate on your machine, in Chrome go to <kbd>Settings</kbd> from the <kbd><i class="fas fa-ellipsis-v"></i></kbd> menu in the top right.
 
-<img src="/img/documentation/integrations/certs/chrome-1-settings.png" srcset="/img/documentation/integrations/certs/chrome-1-settings.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/certs/chrome-1-settings.png" srcset="/wp-content/uploads/integrations/certs/chrome-1-settings.png" class="img-bordered img-responsive center">
 
 Then navigate to <kbd><i> Privacy & Security   <i class='fa fa-caret-right'></i>     Security</i></kbd>:
 
-<img src="/img/documentation/integrations/certs/chrome-2-security.png" srcset="/img/documentation/integrations/certs/chrome-2-security.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/certs/chrome-2-security.png" srcset="/wp-content/uploads/integrations/certs/chrome-2-security.png" class="img-bordered img-responsive center">
 
 Scroll down and then click <em>Manage certificates</em>. This will open a certificate import wizard dialog box, where you can click import. Follow the instructions in the wizard to browse to your certificate file and complete the installation.
 
-<img src="/img/documentation/integrations/certs/chrome-3-manage-certs.png" srcset="/img/documentation/integrations/certs/chrome-3-manage-certs.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/certs/chrome-3-manage-certs.png" srcset="/wp-content/uploads/integrations/certs/chrome-3-manage-certs.png" class="img-bordered img-responsive center">
 
 Make sure to add the certificate to your trusted root certificates.
-<img src="/img/documentation/integrations/certs/chrome-4-wizard.png" srcset="/img/documentation/integrations/certs/chrome-4-wizard.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/certs/chrome-4-wizard.png" srcset="/wp-content/uploads/integrations/certs/chrome-4-wizard.png" class="img-bordered img-responsive center">
 
 
 ### Using Safari on Mac
@@ -52,23 +52,23 @@ Make sure to add the certificate to your trusted root certificates.
 
 Open Safari and browse to your remote hosting service.
 
-<img src="/img/documentation/integrations/certs/safari-1a.png" srcset="/img/documentation/integrations/certs/safari-1a.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/certs/safari-1a.png" srcset="/wp-content/uploads/integrations/certs/safari-1a.png" class="img-bordered img-responsive center">
 
 Click to open cerificate window and view the certificate:
 
-<img src="/img/documentation/integrations/certs/safari-1b.png" srcset="/img/documentation/integrations/certs/safari-1b.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/certs/safari-1b.png" srcset="/wp-content/uploads/integrations/certs/safari-1b.png" class="img-bordered img-responsive center">
 
 Hold down <kbd>Option</kbd> key and drag the certificate icon onto desktop. This should save the file with a `.pem` extension.
 
-<img src="/img/documentation/integrations/certs/safari-2.png" srcset="/img/documentation/integrations/certs/safari-2.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/certs/safari-2.png" srcset="/wp-content/uploads/integrations/certs/safari-2.png" class="img-bordered img-responsive center">
 
 Now double click the file to open your mac keychains.
 
-<img src="/img/documentation/integrations/certs/safari-4.png" srcset="/img/documentation/integrations/certs/safari-4.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/certs/safari-4.png" srcset="/wp-content/uploads/integrations/certs/safari-4.png" class="img-bordered img-responsive center">
 
 Locate the certificate in the **login** section.
 
-<img src="/img/documentation/integrations/certs/safari-5-6.png" srcset="/img/documentation/integrations/certs/safari-5-6.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/certs/safari-5-6.png" srcset="/wp-content/uploads/integrations/certs/safari-5-6.png" class="img-bordered img-responsive center">
 
 Double click on the certificate to open the configuration window. In the first box, change the value to be *Always Trust*.
 
@@ -107,7 +107,7 @@ Now close Chrome completely and re-open. Navigate to the site to confirm that yo
 
 Help, I am getting `Invalid SSL Certificate` errors!
 
-<img src="/img/documentation/integrations/certs/invalid-error-2.png" srcset="/img/documentation/integrations/certs/invalid-error-2.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/certs/invalid-error-2.png" srcset="/wp-content/uploads/integrations/certs/invalid-error-2.png" class="img-bordered img-responsive center">
 
 This typically indicates that there is either an invalid certificate or no certificate detected. To ensure that GitKraken is able to use your certificate, follow the above instructions to [add a certificate](/integrations/self-signed-certificates/#adding-a-self-signed-certificate) to your local certificate store.
 
@@ -116,7 +116,7 @@ This typically indicates that there is either an invalid certificate or no certi
 
 You may also recieve additional information about why the certificate is detected as invalid:
 
-<img src="/img/documentation/integrations/certs/invalid-error-1.png" srcset="/img/documentation/integrations/certs/invalid-error-1.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/certs/invalid-error-1.png" srcset="/wp-content/uploads/integrations/certs/invalid-error-1.png" class="img-bordered img-responsive center">
 
 These will likely require the admin of the remote server to update the indicated field(s) and issue a new certificate. In this example a *Server Alternate Name (SAN)* is missing or incorrect.
 

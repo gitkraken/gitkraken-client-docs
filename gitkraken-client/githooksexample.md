@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-Git hooks are scripts that perform automated actions when a specific action is performed in GitKraken Client or the command line. The git hook name usually indicates the hook's trigger _(e.g. pre-commit)_. 
+Git hooks are scripts that perform automated actions when a specific action is performed in GitKraken Client or the command line. The git hook name usually indicates the hook's trigger _(e.g. pre-commit)_.
 
 Git hooks live under the `.git` folder of your repo in a directory called hooks. The path to the hooks will look similar to `repo/.git/hooks`.
 
@@ -26,27 +26,27 @@ In this example, we'll create a `pre-commit` hook. This hook validates the git c
 #### Step 1
 First navigate to the hooks directory for the target repo. Open a Visual Studio Code window and navigate to <em class="context-menu">repo&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp; &nbsp;.git &nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right">&nbsp;&nbsp;&nbsp;</i>hooks</em>. From here, add a new file to the `.git/hooks` directory called `pre-commit`.
 
-<img src='/img/documentation/repositories/githooks-example/vscode-to-hooks.png' class='img-responsive center img-bordered' />
+<img src='/wp-content/uploads/repositories/githooks-example/vscode-to-hooks.png' class='img-responsive center img-bordered' />
 
 <div class='callout callout--warning'>
     <p>Note 📝 - To make the .git folder visible in Visual Studio Code you will need to remove **/.git from files.exclude in the Visual Studio Code settings.</p>
 </div>
 
 #### Step 2
-Now that we have our pre-commit file, we need to make it executable. To do this we will need the command line. 
+Now that we have our pre-commit file, we need to make it executable. To do this we will need the command line.
 
-Open a terminal window by using `option + T` in GitKraken Client. Once the terminal windows is open, change directory to `.git/hooks`. 
+Open a terminal window by using `option + T` in GitKraken Client. Once the terminal windows is open, change directory to `.git/hooks`.
 
 Then use the command `chmod +x pre-commit` to make the pre-commit file executable.
 
-<img src='/img/documentation/repositories/githooks-example/chmod-pre-commit-hook.gif' class='img-responsive center img-bordered' />
+<img src='/wp-content/uploads/repositories/githooks-example/chmod-pre-commit-hook.gif' class='img-responsive center img-bordered' />
 
 <div class='callout callout--warning'>
     <p>Note 📝 - If you do not have your terminal setup in GitKraken Client, please review the <a href="/start-here/tips/#9-open-terminal">Start Here Tips</a> for setup details.</p>
 </div>
 
 #### Step 3
-Now we create our script using bash. In order for the script to run, we first need to specify our shell. Do this by using `#!/bin/bash` at the beginning of your script for bash or `#!/bin/sh` if using the sh shell. Any script that exits with anything other than exit code 0 is considered a fail. 
+Now we create our script using bash. In order for the script to run, we first need to specify our shell. Do this by using `#!/bin/bash` at the beginning of your script for bash or `#!/bin/sh` if using the sh shell. Any script that exits with anything other than exit code 0 is considered a fail.
 
 This `pre-commit` hook watches for incorrect commit authors and unsigned commits using the script below.
 
@@ -72,7 +72,7 @@ If the condition is met we move on to the next condition. If the global user.sig
         echo "No signing key found. Check global gitconfig"
         exit 1
 ```
-If the condition is successful the script will run and the commit will be made. 
+If the condition is successful the script will run and the commit will be made.
 
 #### Full Script
 ```
@@ -100,4 +100,4 @@ fi
 ```
 
 ### Git hook in action
-<img src='/img/documentation/repositories/githooks-example/hook-in-action.gif' class='img-responsive center img-bordered' />
+<img src='/wp-content/uploads/repositories/githooks-example/hook-in-action.gif' class='img-responsive center img-bordered' />

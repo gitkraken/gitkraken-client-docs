@@ -24,7 +24,7 @@ Hooks are stored in the `hooks` subdirectory of the `.git` directory. This folde
 
 Hooks are unique to your local repository and will not be copied over if you create a new repository. Feel free to add, change, or remove scripts from this folder as necessary.
 
-<img src='/img/documentation/repositories/githooks/hook_location.png' srcset='/img/documentation/repositories/githooks/hook_location@2x.png 2x' class='img-responsive center img-bordered' />
+<img src='/wp-content/uploads/repositories/githooks/hook_location.png' srcset='/wp-content/uploads/repositories/githooks/hook_location@2x.png 2x' class='img-responsive center img-bordered' />
 
 If running OSX or Linux, GitKraken Client will seamlessly detect any Git hooks in your repository if your scripts are set to be executable. If you forgot to set your files to executables, GitKraken Client will throw an error as a heads up.
 
@@ -32,13 +32,13 @@ And if running Windows, GitKraken Client will detect your Git hooks automaticall
 
 ***
 
-## Define a custom hook path  
+## Define a custom hook path
 
 Users can define a custom path for git hooks by going to <em class='context-menu'>Preferences <i class='fa fa-caret-right'></i> Git Hooks</em>. <button class="button button--primary button--ui button--nolink">Browse</button> to the location or enter the path to your git hook folder.
 
-This custom git hook path is defined on a per-repository basis. 
+This custom git hook path is defined on a per-repository basis.
 
-<img src='/img/documentation/repositories/githooks/hook_preferences.png' srcset='/img/documentation/repositories/githooks/hook_preferences@2x.png 2x' class='img-responsive center img-bordered' />
+<img src='/wp-content/uploads/repositories/githooks/hook_preferences.png' srcset='/wp-content/uploads/repositories/githooks/hook_preferences@2x.png 2x' class='img-responsive center img-bordered' />
 
 ***
 

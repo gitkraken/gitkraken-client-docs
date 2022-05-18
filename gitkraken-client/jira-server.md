@@ -27,15 +27,15 @@ GitKraken Git GUI makes it easy to integrate with Jira Cloud and Jira Server.
 
 Set up the integration from the ISSUES pane in the left panel or from <kbd><i>Preferences    <i class='fa fa-caret-right'></i>     Integrations</i></kbd>.
 
-<img src="/img/documentation/integrations/glo/choose-boards.png" srcset="/img/documentation/integrations/glo/choose-boards@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/glo/choose-boards.png" srcset="/wp-content/uploads/integrations/glo/choose-boards@2x.png" class="img-bordered img-responsive center">
 
 Enter the Host Domain URL and the username and password you use to log into your Jira Server account.
 
-<img src="/img/documentation/integrations/jira/connect-jira-server.png" srcset="/img/documentation/integrations/jira/connect-jira-server@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/jira/connect-jira-server.png" srcset="/wp-content/uploads/integrations/jira/connect-jira-server@2x.png" class="img-bordered img-responsive center">
 
 With the correct username and password, and with a successful network connection to your Jira Server instance, the app should connect.
 
-<img src="/img/documentation/integrations/jira/connected.png" srcset="/img/documentation/integrations/jira/connected@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/jira/connected.png" srcset="/wp-content/uploads/integrations/jira/connected@2x.png" class="img-bordered img-responsive center">
 
 <div class='callout callout--warning'>
   <p><strong>Note:</strong> Some SSO (single sign on) configurations are not supported for the Jira Server integration at this time.</p>
@@ -45,7 +45,7 @@ With the correct username and password, and with a successful network connection
 
 ### Jira Server Integration features
 
-Once connected, the Jira Server integration shares the same features as the Jira Cloud integration. 
+Once connected, the Jira Server integration shares the same features as the Jira Cloud integration.
 
 - [Preview Jira Issues](/integrations/jira/#preview-jira-issues)
 - [View Jira Issue Details](/integrations/jira/#view-jira-issue-details)

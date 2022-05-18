@@ -25,13 +25,13 @@ Once GitHub has approved your pack or toolbox, you must sign into your GitKraken
 
 To sign in again, launch GitKraken Client and navigate to <kbd>File    <i class='fa fa-caret-right'></i>     Sign into a Different Account <i class='fa fa-caret-right'></i>  Sign in with GitHub</kbd>
 
-<img src='/img/documentation/managing-organizations/login/file.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/managing-organizations/login/file.png' class='img-bordered img-responsive center'>
 
-Or you may login by navigating to <em class='context-menu'> the profile dropdown</i>  <i class='fa fa-caret-right'></i> Sign into a different account <i class='fa fa-caret-right'></i> Sign in with GitHub</em> 
+Or you may login by navigating to <em class='context-menu'> the profile dropdown</i>  <i class='fa fa-caret-right'></i> Sign into a different account <i class='fa fa-caret-right'></i> Sign in with GitHub</em>
 
-<img src='/img/documentation/managing-organizations/login/login.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/managing-organizations/login/login.png' class='img-bordered img-responsive center'>
 
-<img src='/img/documentation/managing-organizations/login/sign-in-with-github.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/managing-organizations/login/sign-in-with-github.png' class='img-bordered img-responsive center'>
 
 When you sign in with GitHub, GitKraken Client will check whether your GitHub account has the pack or toolbox. If the app sees the pack or toolbox, you should see the `Pro` flag in the bottom right of the UI and you will be able to open private repos.
 

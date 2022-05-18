@@ -1,7 +1,7 @@
 ---
 
 title: GitHub Actions
-description: GitHub Actions help you to automate your workflow  
+description: GitHub Actions help you to automate your workflow
 taxonomy:
     category: gitkraken-client
 
@@ -22,11 +22,11 @@ taxonomy:
 
 ###Create Workflow
 
-GitKraken Client will allow you to create new workflows from the left panel. 
+GitKraken Client will allow you to create new workflows from the left panel.
 
-<img src='/img/documentation/github-actions/github-actions-left-panel.png' srcset='/img/documentation/github-actions/github-actions-left-panel@2x.png 2x' class='img-responsive center img-bordered' />
+<img src='/wp-content/uploads/github-actions/github-actions-left-panel.png' srcset='/wp-content/uploads/github-actions/github-actions-left-panel@2x.png 2x' class='img-responsive center img-bordered' />
 
-Hovering over `GitHub Actions` and clicking the <button class='button button--success button--ui button--nolink'>+</button> button will open the `Create Workflow` panel. From here you can select from availible workflow templates or create a blank workflow. Workflows will be placed in the `.github/workflows folder` that GitHub uses (it will create the folder if none exists). 
+Hovering over `GitHub Actions` and clicking the <button class='button button--success button--ui button--nolink'>+</button> button will open the `Create Workflow` panel. From here you can select from availible workflow templates or create a blank workflow. Workflows will be placed in the `.github/workflows folder` that GitHub uses (it will create the folder if none exists).
 
 <div class='callout callout--success'>
     <p><strong>Note:</strong> the <strong>GitHub Actions</strong> section will only appear when working in GitHub repositories</p>
@@ -38,7 +38,7 @@ Hovering over `GitHub Actions` and clicking the <button class='button button--su
 
 You can double click any existing workflow to be taken to view the code, make changes, and save.
 
-<img src='/img/documentation/github-actions/github-actions-edit.png' srcset='/img/documentation/github-actions/github-actions-edit@2x.png 2x' class='img-responsive center img-bordered' />
+<img src='/wp-content/uploads/github-actions/github-actions-edit.png' srcset='/wp-content/uploads/github-actions/github-actions-edit@2x.png 2x' class='img-responsive center img-bordered' />
 
 ***
 
@@ -46,7 +46,7 @@ You can double click any existing workflow to be taken to view the code, make ch
 
 You can quickly delete workflows by right-clicking on them and selecting `Delete-Workflow`.
 
-<img src='/img/documentation/github-actions/github-actions-delete.png'  class='img-responsive center img-bordered' />
+<img src='/wp-content/uploads/github-actions/github-actions-delete.png'  class='img-responsive center img-bordered' />
 
 ***
 

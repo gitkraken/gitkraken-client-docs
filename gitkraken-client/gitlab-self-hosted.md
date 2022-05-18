@@ -9,7 +9,7 @@ taxonomy:
 
 GitKraken allows you to connect to GitLab Self-Managed (CE or EE), which will help you find repos when cloning or adding your remotes.
 
-**Benefits** 
+**Benefits**
 
 * Create repositories on GitLab Self-Managed server including .gitignore and license
 * Automatically generate an SSH key pair and add it to GitLab Self-Managed
@@ -22,31 +22,31 @@ GitKraken allows you to connect to GitLab Self-Managed (CE or EE), which will he
 ***
 ## GitLab Self-Managed Authentication
 
-<div class='callout callout'> 
-    <p>Note 📝 - GitKraken supports any version of GitLab Self-Managed released within one year.</p> 
-</div> 
+<div class='callout callout'>
+    <p>Note 📝 - GitKraken supports any version of GitLab Self-Managed released within one year.</p>
+</div>
 
 To authenticate with GitLab Self-Managed, navigate to the upper right corner to access <kbd><i> <i class="fas fa-cog"></i> Preferences    <i class='fa fa-caret-right'></i>     Integrations</i></kbd>
 
-<img src="/img/documentation/integrations/github/preferences.png" srcset="/img/documentation/integrations/github/preferences@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/github/preferences.png" srcset="/wp-content/uploads/integrations/github/preferences@2x.png" class="img-bordered img-responsive center">
 
 Or alternatively if you are in the <kbd>New Tab</kbd> view, click on <kbd>Preferences</kbd> under <strong>Customize</strong>.
 
-<img src="/img/documentation/integrations/customize.png" srcset="/img/documentation/integrations/customize@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/customize.png" srcset="/wp-content/uploads/integrations/customize@2x.png" class="img-bordered img-responsive center">
 
 From the _Integrations_ window, enter your _Host Domain_, then click the Generate a token on GitLab link.  Note the permissions that need to be assigned to the token on your GitLab Self-Managed server.
 
-<img src="/img/documentation/integrations/gitlab-self-hosted/authentication.png" srcset="/img/documentation/integrations/gitlab-self-hosted/authentication@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/gitlab-self-hosted/authentication.png" srcset="/wp-content/uploads/integrations/gitlab-self-hosted/authentication@2x.png" class="img-bordered img-responsive center">
 
-This opens a web browser where you will log in with your GitLab Self-Managed credentials and generate an access token.  
+This opens a web browser where you will log in with your GitLab Self-Managed credentials and generate an access token.
 
 GitKraken needs the token to have `api` and `read_user` scope and we recommend leaving the Expiration field blank.
 
-<img src="/img/documentation/integrations/gitlab-self-hosted/access-token.png" srcset="/img/documentation/integrations/gitlab-self-hosted/access-token@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/gitlab-self-hosted/access-token.png" srcset="/wp-content/uploads/integrations/gitlab-self-hosted/access-token@2x.png" class="img-bordered img-responsive center">
 
 Copy your token to the clipboard as this is the only time you will see this token.  Paste the token into GitKraken and click on <button class='button button--success button--ui button--nolink'>Connect</button>.
 
-<img src="/img/documentation/integrations/gitlab-self-hosted/authentication-connect.png" srcset="/img/documentation/integrations/gitlab-self-hosted/authentication-connect@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/gitlab-self-hosted/authentication-connect.png" srcset="/wp-content/uploads/integrations/gitlab-self-hosted/authentication-connect@2x.png" class="img-bordered img-responsive center">
 
 ## Generating an SSH Key for GitLab Self-Managed
 
@@ -56,7 +56,7 @@ Copy your token to the clipboard as this is the only time you will see this toke
 
 Once your GitLab Self-Managed account has been connected to GitKraken, you may easily generate an SSH key and add it to your GitLab Self-Managed account from <kbd><i>Preferences    <i class='fa fa-caret-right'></i>     Integrations</i></kbd>.
 
-<img src="/img/documentation/integrations/gitlab-self-hosted/ssh.png" srcset="/img/documentation/integrations/gitlab-self-hosted/ssh@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/integrations/gitlab-self-hosted/ssh.png" srcset="/wp-content/uploads/integrations/gitlab-self-hosted/ssh@2x.png" class="img-bordered img-responsive center">
 
 Click the <button class='button button--success button--ui button--nolink'>Generate SSH key and add to GitLab</button> button and watch the magic happen.
 
@@ -79,19 +79,19 @@ Share these resources with your team to explain why collaborating with GitKraken
     <div class="flex-grid">
         <div class="flex-item">
             <a href='https://www.gitkraken.com/integrations/gitlab#how-to-gitlab-gitkraken' target='_blank' rel='noopener'>
-                <img src='/img/video-thumbs/gitlab-gitkraken.png'gitkraken-for-gitlab-cheat-sheet-2@2x.jpg 2x" alt='How to use GitLab with GitKraken video thumbnail' style="height: 150px; width: auto; max-width: none;">
+                <img src='/wp-content/uploads/gitlab-gitkraken.png'gitkraken-for-gitlab-cheat-sheet-2@2x.jpg 2x" alt='How to use GitLab with GitKraken video thumbnail' style="height: 150px; width: auto; max-width: none;">
                 <p>How to use GitLab with GitKraken Video</p>
             </a>
         </div>
         <div class="flex-item">
             <a href='https://www.gitkraken.com/integrations/gitlab#why-gitlab-gitkraken' target='_blank' rel='noopener'>
-                <img src='/img/downloads/gitkraken-gitlab-whitepaper.jpg' srcset="/img/downloads/gitkraken-gitlab-whitepaper@2x.jpg 2x" alt='GitKraken for GitLab Users cover' style="height: 150px; width: auto; max-width: none;">
+                <img src='/wp-content/uploads/gitkraken-gitlab-whitepaper.jpg' srcset="/wp-content/uploads/gitkraken-gitlab-whitepaper@2x.jpg 2x" alt='GitKraken for GitLab Users cover' style="height: 150px; width: auto; max-width: none;">
                 <p>GitLab White Paper<br />(PDF)</p>
             </a>
         </div>
         <div class="flex-item">
             <a href='https://www.gitkraken.com/pdfs/gitkraken-git-gui-cheat-sheet' target='_blank' rel='noopener'>
-                <img src='/img/downloads/gitkraken-cheat-sheet.png' srcset="/img/downloads/gitkraken-cheat-sheet@2x.png 2x" alt='GitKraken Cheat Sheet cover' style="height: 150px; width: auto; max-width: none;">
+                <img src='/wp-content/uploads/gitkraken-cheat-sheet.png' srcset="/wp-content/uploads/gitkraken-cheat-sheet@2x.png 2x" alt='GitKraken Cheat Sheet cover' style="height: 150px; width: auto; max-width: none;">
                 <p>GitKraken Cheat Sheet<br />(PDF)</p>
             </a>
         </div>
@@ -99,13 +99,13 @@ Share these resources with your team to explain why collaborating with GitKraken
     <div class="flex-grid">
         <div class="flex-item">
             <a href='https://www.gitkraken.com/pdfs/why-gitkraken' target='_blank' rel='noopener'>
-                <img src='/img/downloads/why-gitkraken.jpg' srcset="/img/downloads/why-gitkraken@2x.jpg 2x" alt='Why GitKraken cover' style="height: 150px; width: auto; max-width: none;">
+                <img src='/wp-content/uploads/why-gitkraken.jpg' srcset="/wp-content/uploads/why-gitkraken@2x.jpg 2x" alt='Why GitKraken cover' style="height: 150px; width: auto; max-width: none;">
                 <p>Why GitKraken<br />(PDF)</p>
             </a>
         </div>
         <div class="flex-item">
             <a href='https://www.gitkraken.com/learn/git' target='_blank' rel='noopener'>
-                <img src='/img/downloads/lgwgk.jpg' alt='Learning Git With GitKraken Image' style="height: 150px; width: auto; max-width: none;">
+                <img src='/wp-content/uploads/lgwgk.jpg' alt='Learning Git With GitKraken Image' style="height: 150px; width: auto; max-width: none;">
                 <p>Learning Git Tutorial<br />Videos</p>
             </a>
         </div>

@@ -19,7 +19,7 @@ Git LFS allows the user to track binary files directly or by extension. After th
 
 When viewing the diff of tracked LFS files in GitKraken Client, you will see a versioned URL, a generated SHA, and a size pertaining to the size of the original contents of the file:
 
-<img src='/img/documentation/git-lfs/lfs-ref.png' srcset='/img/documentation/git-lfs/lfs-ref@2x.png 2x' class='img-responsive center img-bordered' />
+<img src='/wp-content/uploads/git-lfs/lfs-ref.png' srcset='/wp-content/uploads/git-lfs/lfs-ref@2x.png 2x' class='img-responsive center img-bordered' />
 
 Git LFS stores the binary file content on a custom server or via GitHub, GitLab, or BitBucket’s built-in LFS storage. To find the binary content's location, look in your repository’s `.git/lfs/objects` folder.
 
@@ -99,14 +99,14 @@ where git
 
 Search `Env` in the start menu.
 
-<img src="/img/documentation/git-lfs/lfs-AddPathVariable-0.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/git-lfs/lfs-AddPathVariable-0.png" class="img-responsive center img-bordered">
 
 Next navigate to `Environmental Variables...` <i class='fa fa-caret-right'></i> Double click **Path** <i class='fa fa-caret-right'></i> Click `New` to add the paths.
 
-<img src="/img/documentation/git-lfs/lfs-AddPathVariable-1.png" srcset="/img/documentation/git-lfs/lfs-AddPathVariable@2x-1.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/git-lfs/lfs-AddPathVariable-1.png" srcset="/wp-content/uploads/git-lfs/lfs-AddPathVariable@2x-1.png 2x" class="img-responsive center img-bordered">
 
-<img src="/img/documentation/git-lfs/lfs-AddPathVariable-2.png" srcset="/img/documentation/git-lfs/lfs-AddPathVariable@2x-2.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/git-lfs/lfs-AddPathVariable-2.png" srcset="/wp-content/uploads/git-lfs/lfs-AddPathVariable@2x-2.png 2x" class="img-responsive center img-bordered">
 
-<img src="/img/documentation/git-lfs/lfs-AddPathVariable-3.png" srcset="/img/documentation/git-lfs/lfs-AddPathVariable@2x-3.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/git-lfs/lfs-AddPathVariable-3.png" srcset="/wp-content/uploads/git-lfs/lfs-AddPathVariable@2x-3.png 2x" class="img-responsive center img-bordered">
 
 You will likely need to add both git and git LFS (LFS can have multiple paths, you would want to add them all).

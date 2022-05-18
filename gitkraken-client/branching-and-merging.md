@@ -21,7 +21,7 @@ A branch is a pointer to a specific commit in the repo, rather than making entir
 Branches allow you to isolate new work from other areas of the repository, and consider implementing <a href="/git-workflows-and-extensions/git-flow">GitFlow</a> as a merging strategy.
 
 ### Checking out branches
-Branch checkout updates files in the working directory to reflect the version defined by that branch.  
+Branch checkout updates files in the working directory to reflect the version defined by that branch.
 
 New commits are added to the checked out branch. If you find yourself on the wrong branch, <a href="/gitkraken-client/stashing">stash</a> your changes, switch to the correct branch, and then *pop* the stash.
 
@@ -32,7 +32,7 @@ When you create a new branch, GitKraken Client will automatically checkout the b
     <figcaption>Right click to create a new branch.</figcaption>
 </figure>
 
-To checkout a different branch, double click on the branch label on the left panel or via the graph.  Checkout is also available by right-clicking a branch.  
+To checkout a different branch, double click on the branch label on the left panel or via the graph.  Checkout is also available by right-clicking a branch.
 
 ### Delete a branch
 
@@ -49,7 +49,7 @@ To delete multiple local branches in the left panel, hold <kbd>Shift</kbd> then 
 ***
 ## Merging
 
-Merging takes the commits on two different branches and combines them.  
+Merging takes the commits on two different branches and combines them.
 
 With a merge, files are automatically merged unless there are two conflicting set of changes, i.e. commits on the different branches updating the same line in different ways.
 
@@ -71,9 +71,9 @@ Drag and drop one branch onto another to initiate a merge, or just right click t
 
 Merge conflicts may happen when team members make different changes to the same line of the same file, or when one team member edits a file and another deletes the same file. Oops!
 
-When collaboration goes wrong, GitKraken Client Merge Conflict Editor is here to clear the murky waters. 
+When collaboration goes wrong, GitKraken Client Merge Conflict Editor is here to clear the murky waters.
 
-If your merge attempt triggers a merge conflict, GitKraken Client display the conflicting files in the Commit Panel. 
+If your merge attempt triggers a merge conflict, GitKraken Client display the conflicting files in the Commit Panel.
 
 <img src="/wp-content/uploads/merge-conflict.png" srcset="/wp-content/uploads/merge-conflict@2x.png" class="img-bordered img-responsive center">
 
@@ -89,7 +89,7 @@ Each conflict section has a checkbox. Checking a section adds it to the **Output
 
 You can also mouse over the line number and click <button class='button button--success button--ui button--nolink'>+</button> to select specific lines for the  Output, or edit the Output window directly.
 
-Clicking the up and down arrows will move you to the next conflict.  
+Clicking the up and down arrows will move you to the next conflict.
 
 <div class='callout callout--basic'>
     <p><strong>Tip</strong> - Use the keyboard shortcut <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>F</kbd> to search any of the 3 diffs inside the merge tool. </p>
@@ -126,7 +126,7 @@ GitKraken Client currently supports the following merge tools:
 
 If your merge tool from the list above is installed and is not showing up in the dropdown, then look for an option to install command line tools.
 
-<img src='/img/documentation/working-with-files/diff/beyond-compare.png' srcset='/img/documentation/working-with-files/diff/beyond-compare@2x.png' class='img-bordered img-responsive center' />
+<img src='/wp-content/uploads/working-with-files/diff/beyond-compare.png' srcset='/wp-content/uploads/working-with-files/diff/beyond-compare@2x.png' class='img-bordered img-responsive center' />
 
 GitKraken Client does _not support_ the following merge tools:
 
