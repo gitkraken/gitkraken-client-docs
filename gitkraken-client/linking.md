@@ -12,6 +12,8 @@ Use links to quickly share specific remote repositories, commits, branches, and 
 ### Where to grab a link
 
 You can find links in most right-click context menus throughout GitKraken Client.
+ 
+<img src="/wp-content/uploads/link_context_menu_options.gif" class="img-bordered img-responsive center">
 
 <img src="/wp-content/uploads/repositories/linking/link_context_menu_options.gif" class="img-bordered img-responsive center">
 
@@ -21,7 +23,7 @@ The link is copied to your clipboard. You can paste anywhere to share with other
 
 When you have a link shared with you, simply click and away you go!
 
-<img src="/wp-content/uploads/repositories/linking/click_link_slack.gif" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/click_link_slack.gif" class="img-bordered img-responsive center">
 
 Additional information:
 
