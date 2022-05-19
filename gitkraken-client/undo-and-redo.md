@@ -11,7 +11,7 @@ Ever use the command line, hit the enter key and have that awful moment where yo
 
 GitKraken Client can undo many of these changes with a single click of the undo button.
 
-<img src='/wp-content/uploads/working-with-files/undo-redo/undo.png' srcset='/wp-content/uploads/working-with-files/undo-redo/undo@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/undo.png' srcset='/wp-content/uploads/undoundo@2x.png 2x' class='img-bordered img-responsive center'>
 
 The following actions can be undone in GitKraken Client:
 
