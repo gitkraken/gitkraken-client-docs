@@ -1,6 +1,6 @@
 ---
 
-title: Terminal Tab
+title: Terminal
 description: A Git-enhanced terminal experience with GitKraken’s powerful visual Git commit graph
 taxonomy:
     category: gitkraken-client

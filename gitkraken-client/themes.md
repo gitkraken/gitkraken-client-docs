@@ -1,6 +1,6 @@
 ---
 
-title: GitKraken Client Themes
+title: Themes
 description: Using and creating themes in GitKraken Client.
 taxonomy:
     category: gitkraken-client

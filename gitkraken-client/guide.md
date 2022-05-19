@@ -83,7 +83,7 @@ In the example, the `README.md` file was created automatically to provide contex
 
 You can select _Initial Commit_ from the graph, and click `README.md` to open the built-in editor.
 
-<img src='/wp-content/uploads/open-file.gif' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/open-file1.gif' class='img-bordered img-responsive center'>
 
 ### Staging and Committing
 Say you made changes to the `README.md` file. When selecting the _//WIP_ node, there will now be pending changes to `README.md` in the staging panel under _Unstaged Files_.

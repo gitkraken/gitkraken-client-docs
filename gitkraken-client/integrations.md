@@ -17,7 +17,7 @@ GitKraken Client allows you to connect many different services and platforms, ma
 - [GitLab Self-Managed](/integrations/gitlab-self-hosted/)
 - [Bitbucket](/integrations/bitbucket)
 - [Bitbucket Server](/integrations/bitbucket-server/)
-- [Azure DevOps](/integrations/visual-studio-team-services/)
+- [Azure DevOps](/integrations/azure-devops/)
 
 ## Issue tracker integrations
 
