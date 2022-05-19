@@ -1,6 +1,6 @@
 ---
 
-title: GitKraken Client Support
+title: GitKraken Client Support Home
 description: Your source for GitKraken Client documentation  
 
 taxonomy:
