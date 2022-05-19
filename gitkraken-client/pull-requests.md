@@ -17,13 +17,13 @@ A pull request (sometimes called merge requests), is a review request. You are a
 ## Creating a pull request
 If connected to a remote on GitHub, GitLab, Bitbucket, or Visual Studio Team Services, create pull requests by dragging and dropping one branch to another and selecting <em class='context-menu'>Start a pull request</em>.
 
-<img src="/wp-content/uploads/repositories/pull-request.gif" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//pull-request.gif" class="img-bordered img-responsive center">
 
 Alternatively, try right-clicking the target branch and selecting <em class='context-menu'>Start a pull request</em>.
 
 Or click the <button class='button button--success button--ui button--nolink'>+</button> in the pull requests section on the left panel, and select the repo and branch to create the pull request.
 
-<img src="/wp-content/uploads/repositories/pull-request.png" srcset="/wp-content/uploads/repositories/pull-request@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//pull-request.png" srcset="/wp-content/uploads//pull-request@2x.png" class="img-bordered img-responsive center">
 
 ### Pull request templates
 
@@ -31,7 +31,7 @@ GitKraken Client supports pull request templates from your GitHub, GitLab, and A
 
 Once your pull request templates are commited to your remote, the template field will appear when you create a pull request in GitKraken Client:
 
-<img src="/wp-content/uploads/repositories/pr-template.png" srcset="/wp-content/uploads/repositories/pr-template@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//pr-template.png" srcset="/wp-content/uploads//pr-template@2x.png" class="img-bordered img-responsive center">
 
 If this is your first time working with pull request templates, consider reviewing the following instructions for GitHub, GitLab, or Azure DevOps pull request templates.
 
@@ -46,7 +46,7 @@ If this is your first time working with pull request templates, consider reviewi
 
 Some integrations will allow you to also add a pull request assignee and label(s) to your pull request. GitKraken Client will then pass these values onto your remote service when the pull request is created.
 
-<img src='/wp-content/uploads/repositories/gitlab-assignee.png' srcset='/wp-content/uploads/repositories/gitlab-assignee@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads//gitlab-assignee.png' srcset='/wp-content/uploads//gitlab-assignee@2x.png' class='img-bordered img-responsive center'>
 
 <div class='callout callout--basicwarning'>
   <p> <strong>Note</strong> - When creating pull request, GitKraken Client will now detect whether your source branch has conflicts with the target branch in the pull request modal.</p>
@@ -54,7 +54,7 @@ Some integrations will allow you to also add a pull request assignee and label(s
 
 Depending on the integration, you may also add reviewers and multiple assignees to a pull request.
 
-<img src='/wp-content/uploads/repositories/github-assignee.png' srcset='/wp-content/uploads/repositories/github-assignee@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads//github-assignee.png' srcset='/wp-content/uploads//github-assignee@2x.png' class='img-bordered img-responsive center'>
 
 <div class='callout callout--basic'>
   <p><strong>Note:</strong> Because pull requests occur in the remote, first push your branch before creating the request.</p>
@@ -64,7 +64,7 @@ Depending on the integration, you may also add reviewers and multiple assignees 
 
 If connected to the [GitHub Integration](/integrations/github/), you may create a draft pull request by checking this box when creating a pull request in GitKraken Client.
 
-<img src='/wp-content/uploads/repositories/draft-pr.png' srcset='/wp-content/uploads/repositories/draft-pr@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads//draft-pr.png' srcset='/wp-content/uploads//draft-pr@2x.png' class='img-bordered img-responsive center'>
 
 As the name implies, this will create a "draft" pull request in GitHub. However please note that not all GitHub free or paid plans support the draft feature. Please check your GitHub plan if you do not see this option.
 
@@ -78,15 +78,15 @@ Cards across all of your GitKraken Boards will be searched. Associate as many ca
     <p> <strong>Note:</strong> You need to have GitKraken Boards selected for your issue tracker from <kbd> Preferences > Issue Tracker </kbd>.</p>
 </div>
 
-<img src='/wp-content/uploads/repositories/glo-pr.gif' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads//glo-pr.gif' class='img-bordered img-responsive center'>
 
 GitKraken Client passes the card information onto your remote service when the pull request is created. The pull request description will include a link to said card details.
 
-<img src='/wp-content/uploads/repositories/pr-description.png' srcset='/wp-content/uploads/repositories/pr-description@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads//pr-description.png' srcset='/wp-content/uploads//pr-description@2x.png' class='img-bordered img-responsive center'>
 
 On your GitKraken Board, information of the pull request will automatically populate under <kbd>Pull Request</kbd> in the cards' detail panel.
 
-<img src="/wp-content/uploads/integrations/glo/glo-gk-pr.png" srcset="/wp-content/uploads/integrations/glo/glo-gk-pr@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads//glo-gk-pr.png" srcset="/wp-content/uploads//glo-gk-pr@2x.png 2x" class="img-responsive center img-bordered">
 
 After setting up <a href= "/glo/board-features/#pull-requests">GitHub pull request integration</a> in your GitKraken Board, you can trigger an automatic change to progress your card to a new column the moment your PR status changes. Goodbye, context-switching!
 
@@ -98,7 +98,7 @@ GitHub.com users may utilize the pull request view for GitHub pull requests.
 
 To enable this feature, first set up the [GitHub integration](/integrations/github). Then with a GitHub repo open inside of GitKraken Client, select a pull request in the left panel to bring up the pull request view.
 
-<img src='/wp-content/uploads/repositories/github-pr-view.png' srcset='/wp-content/uploads/repositories/github-pr-view@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads//github-pr-view.png' srcset='/wp-content/uploads//github-pr-view@2x.png' class='img-bordered img-responsive center'>
 
 From this view, GitHub users may edit the pull request:
 
@@ -111,23 +111,23 @@ From this view, GitHub users may edit the pull request:
 
 From the upper right of the Pull Request view, you may click the <button class='button button--primary button--ui button--nolink'><span style='color:#141422;'>View file changes</span></button> button to review the affected files for this pull request. Note, code review and code comment are not currently available from within GitKraken Client.
 
-<img src='/wp-content/uploads/repositories/view-changes.png' srcset='/wp-content/uploads/repositories/view-changes@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads//view-changes.png' srcset='/wp-content/uploads//view-changes@2x.png' class='img-bordered img-responsive center'>
 
 ### Comment on GitHub pull requests
 Users may comment on a pull request -- which is great for submitting reviews, approving pull requests, or requesting changes. You may also use the refresh icon in the top right to quickly refresh the comments feed.
 
-<img src='/wp-content/uploads/repositories/refresh-comments.png' srcset='/wp-content/uploads/repositories/refresh-comments@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads//refresh-comments.png' srcset='/wp-content/uploads//refresh-comments@2x.png' class='img-bordered img-responsive center'>
 
 You can also quote other comments in your reply from the elipsies <kbd> <i class="fa fa-ellipsis-v"></i> </kbd> menu
 
-<img src='/wp-content/uploads/repositories/quote-reply.png' srcset='/wp-content/uploads/repositories/quote-reply@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads//quote-reply.png' srcset='/wp-content/uploads//quote-reply@2x.png' class='img-bordered img-responsive center'>
 
 ### Branch checkout, build status, and adding remote
 If you double-click the branch name in the bottom right of the PR view, GitKraken Client will automatically check out the branch and open the graph.
 
 If you click on the build status, GitKraken Client will take you to the build URL in your default web browser.
 
-<img src='/wp-content/uploads/repositories/build-status.png' srcset='/wp-content/uploads/repositories/build-status@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads//build-status.png' srcset='/wp-content/uploads//build-status@2x.png' class='img-bordered img-responsive center'>
 
 Additionally if you have not added the remote, GitKraken Client will ask if you wish to add the remote to the app (which should help you review changes locally).
 
@@ -135,7 +135,7 @@ Additionally if you have not added the remote, GitKraken Client will ask if you 
 
 GitHub users may also merge a pull request by clicking the <button class='button button--success button--ui button--nolink'>Merge pull request</button> button from within GitKraken Client.
 
-<img src='/wp-content/uploads/repositories/merge-options.png' srcset='/wp-content/uploads/repositories/merge-options@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads//merge-options.png' srcset='/wp-content/uploads//merge-options@2x.png' class='img-bordered img-responsive center'>
 
 By default, the merge will default to the <kbd>Create a merge commit</kbd> setting, however you may also choose between <kbd>Squash and merge</kbd> and the <kbd>Rebase and merge</kbd>,
 
@@ -152,21 +152,21 @@ GitKraken Client displays active pull requests in your graph with this <em class
 
 Sections in PULL REQUESTS each denote a filtered view of pull requests on this repository. GitKraken Client will start with several pull request filters for you, note the filters such as *My pull requests* and <i>All pull requests</i>. You can modify, delete, or create your own <a href="/working-with-repositories/pull-requests-filter-syntax/">pull request filters</a>.
 
-<img src='/wp-content/uploads/repositories/pull-request-icon-and-panel.png' srcset='/wp-content/uploads/repositories/pull-request-icon-and-panel@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads//pull-request-icon-and-panel.png' srcset='/wp-content/uploads//pull-request-icon-and-panel@2x.png' class='img-bordered img-responsive center'>
 
 Quickly search for pull requests using the <i class='fa fa-search'></i>  *Search pull requests* box.
 
 If using the integration with GitHub, GitLab, Azure DevOps, or Bitbucket, you may hover over the pull request in the left panel to get a quick view of when the pull request was opened and for which branches.
 
-<img src='/wp-content/uploads/repositories/tooltip-general.png' srcset='/wp-content/uploads/repositories/tooltip-general@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads//tooltip-general.png' srcset='/wp-content/uploads//tooltip-general@2x.png' class='img-bordered img-responsive center'>
 
 For the GitLab integration, this tooltip will also show any assignee or labels associated with the pull request.
 
-<img src='/wp-content/uploads/repositories/tooltip-gitlab.png' srcset='/wp-content/uploads/repositories/tooltip-gitlab@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads//tooltip-gitlab.png' srcset='/wp-content/uploads//tooltip-gitlab@2x.png' class='img-bordered img-responsive center'>
 
 And for GitHub, this tooltip will show assignees, labels, reviewers, and build status.
 
-<img src='/wp-content/uploads/repositories/tooltip-github.png' srcset='/wp-content/uploads/repositories/tooltip-github@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads//tooltip-github.png' srcset='/wp-content/uploads//tooltip-github@2x.png' class='img-bordered img-responsive center'>
 
 Pull requests will be marked with one of the following icons:
 

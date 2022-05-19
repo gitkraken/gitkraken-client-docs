@@ -23,11 +23,11 @@ GitKraken Git GUI makes it easy to integrate with Trello.
 
 Set up the integration from the ISSUES pane in the left panel or from <kbd><i>Preferences    <i class='fa fa-caret-right'></i>     Integrations</i></kbd>.
 
-<img src="/wp-content/uploads/integrations/trello/connect-trello.png" srcset="/wp-content/uploads/integrations/trello/connect-trello@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//connect-trello.png" srcset="/wp-content/uploads//connect-trello@2x.png" class="img-bordered img-responsive center">
 
 You will then be prompted by a Trello page to allow GitKraken Git GUI to connect to your Trello account. Scroll down and hit <em>Allow</em> to proceed.
 
-<img src="/wp-content/uploads/integrations/trello/trello.png" srcset="/wp-content/uploads/integrations/trello/trello@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//trello.png" srcset="/wp-content/uploads//trello@2x.png" class="img-bordered img-responsive center">
 
 Alternatively, you may copy the token from the _Success_ page and paste it into the Trello integration page inside GitKraken Git GUI.
 
@@ -37,18 +37,18 @@ Alternatively, you may copy the token from the _Success_ page and paste it into 
 
 Once connected, your Trello cards will start to appear in the left panel. The app will default to an _All Cards_ filter which will show all cards on the board.
 
-<img src="/wp-content/uploads/integrations/trello/card-list.png" srcset="/wp-content/uploads/integrations/trello/card-list@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//card-list.png" srcset="/wp-content/uploads//card-list@2x.png" class="img-bordered img-responsive center">
 
 Hover over any card to get a preview of the card Title, Description, List, Label, and Members.
 
-<img src="/wp-content/uploads/integrations/trello/view-card.png" srcset="/wp-content/uploads/integrations/trello/view-card@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//view-card.png" srcset="/wp-content/uploads//view-card@2x.png" class="img-bordered img-responsive center">
 
 ***
 ### View card details
 
 Click to select a card to view the card details.
 
-<img src="/wp-content/uploads/integrations/trello/card-details.gif" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//card-details.gif" class="img-bordered img-responsive center">
 
 Here you may view and edit:
 
@@ -65,7 +65,7 @@ Any changes made here will be reflected in your Trello board.
 
 From the left panel, click the <button class='button button--success button--ui button--nolink'>+</button> icon to add a new Trello card.
 
-<img src="/wp-content/uploads/integrations/trello/create-card.gif" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//create-card.gif" class="img-bordered img-responsive center">
 
 Your new card will automatically sync with your Trello board.
 
@@ -75,7 +75,7 @@ Your new card will automatically sync with your Trello board.
 
 You may create filters to view the cards you need.
 
-<img src="/wp-content/uploads/integrations/trello/create-filter.png" srcset="/wp-content/uploads/integrations/trello/create-filter@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//create-filter.png" srcset="/wp-content/uploads//create-filter@2x.png" class="img-bordered img-responsive center">
 
 Read more about Trello filters on the [Trello support site](https://help.trello.com/article/808-searching-for-cards-all-boards).
 
@@ -86,7 +86,7 @@ Read more about Trello filters on the [Trello support site](https://help.trello.
 
 You may create a branches tied to a card from the card details view.
 
-<img src="/wp-content/uploads/integrations/jira/create-branch.gif" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/create-branch.gif" class="img-bordered img-responsive center">
 
 The branch name will automatically prefill based on the card name. After the branch is created, these branches will be denoted with an icon to reflect its link to a Trello card.
 
@@ -96,4 +96,4 @@ The branch name will automatically prefill based on the card name. After the bra
 
 Click the <kbd> <i class="fa fa-ellipsis-v"></i> </kbd> icon to copy the card link or view the item directly in Trello.
 
-<img src="/wp-content/uploads/integrations/jira/view-issue-in-jira.png" srcset="/wp-content/uploads/integrations/jira/view-issue-in-jira@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/view-issue-in-jira.png" srcset="/wp-content/uploads/view-issue-in-jira@2x.png" class="img-bordered img-responsive center">

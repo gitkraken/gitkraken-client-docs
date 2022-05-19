@@ -11,7 +11,7 @@ The left panel allows you to modify the view of the graph for cleanliness and fo
 ***
 
 
-<img src="/wp-content/uploads/repositories/solo-hide.gif" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//solo-hide.gif" class="img-bordered img-responsive center">
 
 <dl class='horizontal'>
     <dt class='img center'><img src="/wp-content/uploads/gk-hide-icon-green.svg" class='img-responsive'></dt>

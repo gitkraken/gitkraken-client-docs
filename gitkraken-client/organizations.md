@@ -24,12 +24,12 @@ To access your account and manage your organization(s), navigate to [https://app
 
 Once you log into your account, click <em class="context-menu">Organization  <i class="fa fa-caret-right"></i> [Your organization name]</em> to add users.
 
-<img src="/wp-content/uploads/managing-organizations/subscriptions.png" srcset="/wp-content/uploads/managing-organizations/subscriptions@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/subscriptions.png" srcset="/wp-content/uploads/subscriptions@2x.png 2x" class="img-responsive center img-bordered">
 
 ### Subscriptions
 Subsriptions can be added to an organization by clicking the <button class='button button--primary button--ui button--nolink'><span style='color:#141422;'>New Organization</span></button> tab.
 
-<img src="/wp-content/uploads/managing-organizations/buy/gk-plans.png"  class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/gk-plans.png"  class="img-responsive center img-bordered">
 
 Once a subscription is added to the organization owner or admin roles may add users to the account using their email address (see [Manage Users](/account/organizations/#manage-users) section below).
 
@@ -37,7 +37,7 @@ Once a subscription is added to the organization owner or admin roles may add us
 
 To rename your Organization, log into [https://app.gitkraken.com](https://app.gitkraken.com) as the `Owner` or `Admin` and then navigate to <em class="context-menu">Organizations  <i class="fa fa-caret-right"></i> [Your organization name] <i class="fa fa-caret-right"></i> Settings</em>.
 
-<img src="/wp-content/uploads/managing-organizations/rename.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/rename.png" class="img-responsive center img-bordered">
 
 
 Type a new name for the Organization and save.
@@ -46,11 +46,11 @@ Type a new name for the Organization and save.
 
 If you have any expired GitKraken subscriptions, you may hide these expired organizations from the left panel of [https://app.gitkraken.com](https://app.gitkraken.com).
 
-<img src="/wp-content/uploads/managing-organizations/hide-expired-organizations.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/hide-expired-organizations.png" class="img-responsive center img-bordered">
 
 You can also manually choose to hide an organization in the sidebar from the <em class="context-menu">Organizations  <i class="fa fa-caret-right"></i> [Your organization name] <i class="fa fa-caret-right"></i> Settings</em> menu.
 
-<img src="/wp-content/uploads/managing-organizations/hide-organization.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/hide-organization.png" class="img-responsive center img-bordered">
 
 Click the <kbd>Show Hidden Organizations</kbd> button to show hidden organizations.
 
@@ -85,7 +85,7 @@ First log into [https://app.gitkraken.com](https://app.gitkraken.com) and click 
 
 Increase the user count and then complete the purchase. User upgrades are always prorated to your billing cycle.
 
-<img src="/wp-content/uploads/managing-organizations/buy/buy-more-licenses.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/buy-more-licenses.png" class="img-bordered img-responsive center">
 
 <div class='callout callout--success'>
     <p>Do you have questions about upgrading your plan or an order? Contact our <a href="mailto:sales@gitkraken.com">Success</a> or <a href="mailto:accounting@gitkraken.com">Accounting</a> teams as needed!</p>
@@ -95,7 +95,7 @@ Increase the user count and then complete the purchase. User upgrades are always
 
 To remove a user and free up a license, click <button class='button button--danger button--ui button--nolink'>Remove</button> next to the user on the list followed by <kbd>Remove User</kbd> for confirmation.
 
-<img src="/wp-content/uploads/managing-organizations/remove-user.png" srcset="/wp-content/uploads/managing-organizations/remove-user.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/remove-user.png" srcset="/wp-content/uploads/remove-user.png" class="img-responsive center img-bordered">
 
 ### Reallocating licenses
 
@@ -105,7 +105,7 @@ Note, `Billing Contact` roles cannot remove or edit `Owner` or `Admin` users.
 
 From the *Users* pane in the left panel, click to <button class='button button--danger button--ui button--nolink'>Remove</button> a user. Then click <button class='button button--success button--ui button--nolink'>Add User</button>.
 
-<img src="/wp-content/uploads/managing-organizations/buy/licenses-page.png" srcset="/wp-content/uploads/managing-organizations/buy/licenses-page@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/licenses-page.png" srcset="/wp-content/uploads/licenses-page@2x.png 2x" class="img-responsive center img-bordered">
 
 ### Importing/Exporting users
 
@@ -132,7 +132,7 @@ To edit your billing or to switch payment methods, first log in as an `Admin` or
 
 Click **Subscription** to update the subscription.  From here you may select <button class='button button--primary button--ui button--nolink'><span style='color:#141422;'>Update Payment</span></button> to change your card details or switch payment methods.
 
-<img src="/wp-content/uploads/managing-organizations/buy/edit-billing.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/edit-billing.png" class="img-bordered img-responsive center">
 
 If you are switching from credit card to Paypal, follow the prompts to authenticate with Paypal.
 
@@ -147,7 +147,7 @@ If you are the `Owner` of a <strong>GitKraken Pro</strong> or <strong>GitKraken 
 
 To transfer ownership, navigate to <em class="context-menu">Organizations  <i class="fa fa-caret-right"></i> [Your organization name] <i class="fa fa-caret-right"></i> Settings</em>. Then select the existing user who will become the new `Owner`.
 
-<img src="/wp-content/uploads/managing-organizations/buy/transfer-ownership.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/transfer-ownership.png" class="img-responsive center img-bordered">
 
 
 ***
@@ -165,8 +165,8 @@ Any canceled or expired subscription may be reactivated by logging into [https:/
 
 Click on <kbd>Organizations</kbd> and then click on the name of the expired or canceled subscription.
 
-<img src="/wp-content/uploads/managing-organizations/org-expired.png" srcset="/wp-content/uploads/managing-organizations/org-expired@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/org-expired.png" srcset="/wp-content/uploads/org-expired@2x.png 2x" class="img-responsive center img-bordered">
 
 Then click on <kbd>Subscription</kbd> in the left panel, where you may update the license total or billing details before hitting <button class='button button--success button--ui button--nolink'>Reactivate</button>.
 
-<img src="/wp-content/uploads/managing-organizations/reactivate-pro-suite.png" srcset="/wp-content/uploads/managing-organizations/reactivate-pro-suite@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/reactivate-pro-suite.png" srcset="/wp-content/uploads/reactivate-pro-suite@2x.png 2x" class="img-responsive center img-bordered">

@@ -18,7 +18,7 @@ Pushing and pulling are the keys to collaboration.  🤝
 ## Adding Remotes
 To add a new remote, click the <button class='button button--success button--ui button--nolink'>+</button> icon when hovering over <em class='context-menu'><img src='/wp-content/uploads/icons/gk-remote-icon.svg' style='height:1em;'> Remote</em> in the left panel, then fill in the remote URL.
 
-<img src="/wp-content/uploads/repositories/add-remote.png" srcset="/wp-content/uploads/repositories/add-remote@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//add-remote.png" srcset="/wp-content/uploads//add-remote@2x.png" class="img-bordered img-responsive center">
 
 When using an integration like GitHub or Bitbucket, select the remotes from your collaborators in the dropdown box.  This makes viewing other forks of the same repository quick and easy.
 
@@ -43,7 +43,7 @@ Pushing takes any local changes <em class='context-menu'><i class="fa fa-laptop"
 
 Push the currently checked out branch by clicking <kbd>Push <img src='/wp-content/uploads/icons/gk-push-icon.svg' style='height:1em;'></kbd> in the main toolbar, or by right clicking on the branch, and selecting <em class='context-menu'>Push</em>.
 
-<img src="/wp-content/uploads/repositories/push.png" srcset="/wp-content/uploads/repositories/push@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//push.png" srcset="/wp-content/uploads//push@2x.png" class="img-bordered img-responsive center">
 
 Pushing attempts to upload any new commits to the remote branch, then fast-forward the remote to bring it up to date with the local repo.
 
@@ -59,13 +59,13 @@ If the branch pushed does not exist on the remote, GitKraken Client will prompt 
 
 Drag and drop a branch to a remote to access the <kbd>Push</kbd> action. You may drag a branch to a remote branch on the graph, or to a remote branch listed in the left panel.
 
-<img src="/wp-content/uploads/repositories/drag-and-drop-to-push.gif" srcset="/wp-content/uploads/repositories/drag-and-drop-to-push.gif" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//drag-and-drop-to-push.gif" srcset="/wp-content/uploads//drag-and-drop-to-push.gif" class="img-bordered img-responsive center">
 
 ***
 ## Fetching
 Pulling and fetching take updates from the remote and get them into our local repo.
 
-<img src="/wp-content/uploads/repositories/pull-options.png" srcset="/wp-content/uploads/repositories/pull-options@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//pull-options.png" srcset="/wp-content/uploads//pull-options@2x.png" class="img-bordered img-responsive center">
 
 ### Fetch All
 Fetching gets updates from remote branches, but does not update any files in your working directory.
@@ -74,7 +74,7 @@ Updates will appear in the graph, and also update any branches on the left to sh
 
 When you're behind the remote, it means that there are commits on the remote branch which have not been incorporated into the local repo. _Pull (fast-forward if possible)_ to get these changes on local.
 
-<img src="/wp-content/uploads/repositories/fetch.png" srcset="/wp-content/uploads/repositories/fetch@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//fetch.png" srcset="/wp-content/uploads//fetch@2x.png" class="img-bordered img-responsive center">
 
 If you are ahead of the remote branch, there are local commits that have not yet been pushed to the remote.
 
@@ -85,11 +85,11 @@ GitKraken Client automatically fetches updates from your remote repositories eve
 ### Fast-forwarding
 Fast forwarding moves the currently checked out commit to one that was added later, replaying all commits in between in the order which they happened.
 
-<img src="/wp-content/uploads/repositories/pull-options.png" srcset="/wp-content/uploads/repositories/pull-options@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//pull-options.png" srcset="/wp-content/uploads//pull-options@2x.png" class="img-bordered img-responsive center">
 
 To fast-forward your currently checked out commit, you can right click on the branch with newer commits, and select the <em class='context-menu'>Fast-Forward</em> option from the menu.
 
-<img src="/wp-content/uploads/repositories/pushing-pulling/fast-forward.png" srcset="/wp-content/uploads/repositories/pushing-pulling/fast-forward@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//pushing-pulling/fast-forward.png" srcset="/wp-content/uploads//pushing-pulling/fast-forward@2x.png" class="img-bordered img-responsive center">
 
 ***
 ## Pulling <img src='/wp-content/uploads/icons/gk-pull-icon.svg' style='height:1em;'>
@@ -97,7 +97,7 @@ Pulling first performs a fetch and then incorporates any commits in the remote r
 
 There are three pulling options. Let's demonstrate what each one does by starting with an example 2 commits made locally, and 2 that have been made on the remote.
 <figure class='figure center'>
-    <img src='/wp-content/uploads/repositories/ahead-behind.png'>
+    <img src='/wp-content/uploads//ahead-behind.png'>
     <figcaption>The remote commits display on the graph because they have been fetched,</br>but have not been incorporated into the local repo.</figcaption>
 </figure>
 
@@ -107,7 +107,7 @@ _Pull (fast-forward if possible)_ fetches any updates on the remote branch, then
 This is the default option for new GitKraken Client users.
 
 <figure class='figure center'>
-    <img src='/wp-content/uploads/repositories/example-pull-ff.png'>
+    <img src='/wp-content/uploads//example-pull-ff.png'>
     <figcaption>A fast-forward was not possible, so the remote branch was merged into the local branch.</figcaption>
 </figure>
 
@@ -120,7 +120,7 @@ In our 2-commit example, a fast-forward is not possible as there are new commits
 _Pull (rebase)_ stashes all commits on this branch, pulls in new commits from the remote, and then replays your commits.  This has the added benefit of maintaining all commits in a single line, as opposed to creating branches which are then merged back together.
 
 <figure class='figure center'>
-    <img src='/wp-content/uploads/repositories/example-pull-rebase.png'>
+    <img src='/wp-content/uploads//example-pull-rebase.png'>
     <figcaption>The remote commits were pulled in, then the local commits were moved on top of them.</figcaption>
 </figure>
 
@@ -131,7 +131,7 @@ _Pull (rebase)_ stashes all commits on this branch, pulls in new commits from th
 ### Setting a default pull option
 Set the default pull option by clicking the down arrow to the right, and clicking on the circle button by each option.
 
-<img src="/wp-content/uploads/repositories/pushing-pulling/set-default.png" srcset="/wp-content/uploads/repositories/pushing-pulling/set-default@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//pushing-pulling/set-default.png" srcset="/wp-content/uploads//pushing-pulling/set-default@2x.png" class="img-bordered img-responsive center">
 
 Our [interface](/start-here/interface) page covers this and more.
 
@@ -144,8 +144,8 @@ The _Upstream_ defaults to the remote branch where the local branch was checked 
 
 Right click on a branch to <a href="https://gitkraken.com/learn/git/problems/git-set-upstream-branch" target="_blank">set the upstream</a> or click the <kbd> <i class="fa fa-ellipsis-v"></i> </kbd> option.
 
-<img src="/wp-content/uploads/repositories/upstream.png" srcset="/wp-content/uploads/repositories/upstream@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//upstream.png" srcset="/wp-content/uploads//upstream@2x.png" class="img-bordered img-responsive center">
 
 Alternatively, drag and drop a branch to push instead of setting upstream.
 
-<img src="/wp-content/uploads/repositories/pushing-pulling/drag-and-drop.gif" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//pushing-pulling/drag-and-drop.gif" class="img-bordered img-responsive center">

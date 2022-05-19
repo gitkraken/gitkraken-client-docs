@@ -24,23 +24,23 @@ GitKraken allows you to connect to Azure DevOps (formerly VSTS), which will help
 
 To authenticate with Azure DevOps, navigate to the upper right corner to access <kbd><i> <i class="fas fa-cog"></i> Preferences    <i class='fa fa-caret-right'></i>     Integrations</i></kbd>
 
-<img src="/wp-content/uploads/integrations/github/preferences.png" srcset="/wp-content/uploads/integrations/github/preferences@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/preferences.png" srcset="/wp-content/uploads/preferences@2x.png" class="img-bordered img-responsive center">
 
 Or alternatively if you are in the <kbd>New Tab</kbd> view, click on <kbd>Preferences</kbd> under <strong>Customize</strong>.
 
-<img src="/wp-content/uploads/integrations/customize.png" srcset="/wp-content/uploads/integrations/customize@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/customize.png" srcset="/wp-content/uploads/customize@2x.png" class="img-bordered img-responsive center">
 
 From the Authentication window, enter your _Host Domain_ then click the <button class='button button--primary button--ui button--nolink'><span style='color:#141422;'>Generate a token on Azure DevOps</span></button>
 
-<img src="/wp-content/uploads/integrations/vsts/authentication.png" srcset="/wp-content/uploads/integrations/vsts/authentication@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/authentication.png" srcset="/wp-content/uploads/authentication@2x.png" class="img-bordered img-responsive center">
 
 This opens a web browser where you next log in with your Azure DevOps credentials and generate an access token.
 
-<img src="/wp-content/uploads/integrations/vsts/accesstoken.png" srcset="/wp-content/uploads/integrations/vsts/accesstoken@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/accesstoken.png" srcset="/wp-content/uploads/accesstoken@2x.png" class="img-bordered img-responsive center">
 
 Copy your token to the clipboard as this is the only time you will see this token.  Paste the token into GitKraken and click on <button class='button button--success button--ui button--nolink'>Connect</button>.
 
-<img src="/wp-content/uploads/integrations/vsts/authentication-connect.png" srcset="/wp-content/uploads/integrations/vsts/authentication-connect@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/authentication-connect.png" srcset="/wp-content/uploads/authentication-connect@2x.png" class="img-bordered img-responsive center">
 
 ### Generating an SSH Key for Azure DevOps
 GitKraken uses your local SSH Config from _SSH Defaults_ to fetch and push unless you set up a Azure DevOps-specific SSH key, or enable your local SSH Agent.
@@ -49,7 +49,7 @@ Once your Azure DevOps account has been connected to GitKraken, you may easily g
 
 Click the magic <button class='button button--success button--ui button--nolink'>Generate SSH key and copy to clipboard</button> button and add the key to your Azure DevOps account.
 
-<img src="/wp-content/uploads/integrations/vsts/vsts-ssh.png" srcset="/wp-content/uploads/integrations/vsts/vsts-ssh@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/vsts-ssh.png" srcset="/wp-content/uploads/vsts-ssh@2x.png 2x" class="img-responsive center img-bordered">
 
 ***
 ## OAuth integration with Azure DevOps
@@ -57,11 +57,11 @@ GitKraken's integration with Azure DevOps provides handy information about your 
 
 First, you may search through your existing repositories when cloning:
 
-<img src="/wp-content/uploads/integrations/vsts/clone.png" srcset="/wp-content/uploads/integrations/vsts/clone@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/clone.png" srcset="/wp-content/uploads/clone@2x.png" class="img-bordered img-responsive center">
 
 Next, GitKraken presents a list of forks of the current repository when adding remotes:
 
-<img src="/wp-content/uploads/integrations/vsts/remote.png" srcset="/wp-content/uploads/integrations/vsts/remote@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/remote.png" srcset="/wp-content/uploads/remote@2x.png" class="img-bordered img-responsive center">
 
 Of course, you still have the option of manually entering repo URLs.
 

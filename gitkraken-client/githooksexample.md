@@ -26,7 +26,7 @@ In this example, we'll create a `pre-commit` hook. This hook validates the git c
 #### Step 1
 First navigate to the hooks directory for the target repo. Open a Visual Studio Code window and navigate to <em class="context-menu">repo&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp; &nbsp;.git &nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right">&nbsp;&nbsp;&nbsp;</i>hooks</em>. From here, add a new file to the `.git/hooks` directory called `pre-commit`.
 
-<img src='/wp-content/uploads/repositories/githooks-example/vscode-to-hooks.png' class='img-responsive center img-bordered' />
+<img src='/wp-content/uploads//githooks-example/vscode-to-hooks.png' class='img-responsive center img-bordered' />
 
 <div class='callout callout--warning'>
     <p>Note 📝 - To make the .git folder visible in Visual Studio Code you will need to remove **/.git from files.exclude in the Visual Studio Code settings.</p>
@@ -39,7 +39,7 @@ Open a terminal window by using `option + T` in GitKraken Client. Once the termi
 
 Then use the command `chmod +x pre-commit` to make the pre-commit file executable.
 
-<img src='/wp-content/uploads/repositories/githooks-example/chmod-pre-commit-hook.gif' class='img-responsive center img-bordered' />
+<img src='/wp-content/uploads//githooks-example/chmod-pre-commit-hook.gif' class='img-responsive center img-bordered' />
 
 <div class='callout callout--warning'>
     <p>Note 📝 - If you do not have your terminal setup in GitKraken Client, please review the <a href="/start-here/tips/#9-open-terminal">Start Here Tips</a> for setup details.</p>
@@ -100,4 +100,4 @@ fi
 ```
 
 ### Git hook in action
-<img src='/wp-content/uploads/repositories/githooks-example/hook-in-action.gif' class='img-responsive center img-bordered' />
+<img src='/wp-content/uploads//githooks-example/hook-in-action.gif' class='img-responsive center img-bordered' />

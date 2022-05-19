@@ -23,7 +23,7 @@ To clone a remote repository over HTTPS, first navigate to your hosting service 
 
 Then go to GitKraken Client and clone the project through <em class='context-menu'>File <i class="fa fa-caret-right"></i> Clone</em>.
 
-<img src='/wp-content/uploads/getting-started/clone.png' srcset='/wp-content/uploads/getting-started/clone@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/clone.png' srcset='/wp-content/uploads/clone@2x.png 2x' class='img-bordered img-responsive center'>
 
 Paste the URL, hit <button class='button button--success button--ui button--nolink'>Clone the repo</button>, and then open the repo in GitKraken.
 
@@ -40,7 +40,7 @@ Before you can clone a repo over SSH, you must first set up your SSH keys in Git
 
 Navigate to <em class='context-menu'>Preferences <i class="fa fa-caret-right"></i> SSH</em>.
 
-<img src="/wp-content/uploads/integrations/authentication.png" srcset="/wp-content/uploads/integrations/authentication@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/authentication.png" srcset="/wp-content/uploads/authentication@2x.png" class="img-bordered img-responsive center">
 
 Here you may choose an SSH key pair by browsing your file system, or let GitKraken Client generate a key for you (recommended). Make sure that you copy your public SSH key and paste it into your remote hosting service!
 
@@ -52,7 +52,7 @@ To clone a remote repository over SSH, first navigate to your hosting service an
 
 Then go to GitKraken Client and clone the project through <em class='context-menu'>File <i class="fa fa-caret-right"></i> Clone</em>.
 
-<img src='/wp-content/uploads/getting-started/clone.png' srcset='/wp-content/uploads/getting-started/clone@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/clone.png' srcset='/wp-content/uploads/clone@2x.png 2x' class='img-bordered img-responsive center'>
 
 Paste the URL, hit <button class='button button--success button--ui button--nolink'>Clone the repo</button>, and then open the repo in GitKraken.
 
@@ -121,7 +121,7 @@ Well if it's not working 100% of the time, the most common issues are:
 
 You may tell GitKraken to forget all usernames and passwords from <em class='context-menu'> Preferences <i class='fa fa-caret-right'></i> Authentication</em>:
 
-<img src="/wp-content/uploads/integrations/forget-all.png" srcset="/wp-content/uploads/integrations/forget-all@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/forget-all.png" srcset="/wp-content/uploads/forget-all@2x.png" class="img-bordered img-responsive center">
 
 Use this if you need the app to prompt for username or password for remote actions like push or pull.
 

@@ -27,7 +27,7 @@ Here's how to obtain a quote for new users on an existing team:
 
 The <strong>Billing Summary</strong> will populate the cost of add additional users to the customer account. Please use this to provide the customer an official quote for adding users.
 
-<img src="/wp-content/uploads/managing-organizations/buy/prorated-charge.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/prorated-charge.png" class="img-responsive center img-bordered">
 
 To purchase the additional users, select <button class='button button--success button--ui button--nolink'>Complete Purchase</button> and follow steps <a href="/account/organizations/#allocating-licenses">here</a> to allocate the licenses, if necessary.
 
@@ -43,4 +43,4 @@ To gather the yearly renewal quote for the customer:
 
 The <strong>Billing Summary</strong> will indicate the *Annual Total*. Please use this to provide the customer an official quote for the yearly renewal. The date of the renewal is listed *Next charge*.
 
-<img src="/wp-content/uploads/managing-organizations/buy/yearly-renewal.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/yearly-renewal.png" class="img-responsive center img-bordered">

@@ -31,28 +31,28 @@ GitKraken lets you log in with your GitHub account.  Yay, one less password to r
 
 When logging into GitKraken, click <button class='button button--uiblue button--ui button--nolink'>Sign in with GitHub</button>  and log in with your credentials.  This will automatically connect your account for the GitHub integration.
 
-<img src='/wp-content/uploads/integrations/github/menu-login.png' class='center img-responsive img-bordered'>
+<img src='/wp-content/uploads/menu-login.png' class='center img-responsive img-bordered'>
 
 ***
 ## GitHub Authentication
 
 To authenticate with GitHub, navigate to the upper right corner to access <kbd><i> <i class="fas fa-cog"></i> Preferences    <i class='fa fa-caret-right'></i>     Integrations</i></kbd>
 
-<img src="/wp-content/uploads/integrations/github/preferences.png" srcset="/wp-content/uploads/integrations/github/preferences@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/preferences.png" srcset="/wp-content/uploads/preferences@2x.png" class="img-bordered img-responsive center">
 
 Or alternatively if you are in the <kbd>New Tab</kbd> view, click on <kbd>Preferences</kbd> under <strong>Customize</strong>.
 
-<img src="/wp-content/uploads/integrations/customize.png" srcset="/wp-content/uploads/integrations/customize@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/customize.png" srcset="/wp-content/uploads/customize@2x.png" class="img-bordered img-responsive center">
 
 From the Integrations window, select **GitHub.com** and then hit the <button class='button button--success button--ui button--nolink'>Connect to GitHub</button> button.
 
-<img src="/wp-content/uploads/integrations/github/preferences-authentication.png" srcset="/wp-content/uploads/integrations/github/preferences-authentication@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/preferences-authentication.png" srcset="/wp-content/uploads/preferences-authentication@2x.png" class="img-bordered img-responsive center">
 
 This opens a web browser where you first log in with your GitHub credentials to allow GitKraken access.
 
 Upon login, a success message appears and the connection will be active in GitKraken.
 
-<img src="/wp-content/uploads/integrations/github/github-success.png" srcset="/wp-content/uploads/integrations/github/github-success@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/github-success.png" srcset="/wp-content/uploads/github-success@2x.png" class="img-bordered img-responsive center">
 
 ### Generating an SSH Key for GitHub
 <div class='callout callout'>
@@ -65,7 +65,7 @@ Click the magic <button class='button button--success button--ui button--nolink'
 
 Alternatively, add a key from  _SSH Defaults_ with <button class='button button--uiorange button--ui button--nolink'>Add key to GitHub</button> or an existing key pair through _Add existing SSH key_.
 
-<img src="/wp-content/uploads/integrations/github/generate-ssh.png" srcset="/wp-content/uploads/integrations/github/generate-ssh@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/generate-ssh.png" srcset="/wp-content/uploads/generate-ssh@2x.png" class="img-bordered img-responsive center">
 
 ***
 ## OAuth integration with GitHub
@@ -73,24 +73,24 @@ GitKraken's integration with Github provides handy information and features when
 
 See your existing repositories listed for easier cloning:
 
-<img src="/wp-content/uploads/integrations/github/clone.png" srcset="/wp-content/uploads/integrations/github/clone@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/clone.png" srcset="/wp-content/uploads/clone@2x.png" class="img-bordered img-responsive center">
 
 A list of forks of the current repository when adding remotes:
 
-<img src="/wp-content/uploads/integrations/github/remote.png" srcset="/wp-content/uploads/integrations/github/remote@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/remote.png" srcset="/wp-content/uploads/remote@2x.png" class="img-bordered img-responsive center">
 
 ### Pull requests
 
 Create [Pull Requests](/working-with-repositories/pull-requests/#assignee-labels-and-reviewers) directly in GitKraken - including adding reviewers, assisgnees, and labels.
 
-<img src="/wp-content/uploads/integrations/github/pull-request-create.png" srcset="/wp-content/uploads/integrations/github/pull-request-create@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/pull-request-create.png" srcset="/wp-content/uploads/pull-request-create@2x.png" class="img-bordered img-responsive center">
 
 
 ### Pull request view
 
 Click on a pull request in the left panel to access the pull request view.
 
-<img src='/wp-content/uploads/repositories/github-pr-view.png' srcset='/wp-content/uploads/repositories/github-pr-view@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads//github-pr-view.png' srcset='/wp-content/uploads//github-pr-view@2x.png' class='img-bordered img-responsive center'>
 
 From this view, GitHub users may edit the pull request:
 
@@ -103,23 +103,23 @@ From this view, GitHub users may edit the pull request:
 
 From the upper right of the Pull Request view, you may click the <button class='button button--primary button--ui button--nolink'><span style='color:#141422;'>View file changes</span></button> button to review the affected files for this pull request. Note, code review and code comment are not currently available from within GitKraken Client.
 
-<img src='/wp-content/uploads/repositories/view-changes.png' srcset='/wp-content/uploads/repositories/view-changes@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads//view-changes.png' srcset='/wp-content/uploads//view-changes@2x.png' class='img-bordered img-responsive center'>
 
 #### Comment on GitHub pull requests
 Users may comment on a pull request -- which is great for submitting reviews, approving pull requests, or requesting changes. You may also use the refresh icon in the top right to quickly refresh the comments feed.
 
-<img src='/wp-content/uploads/repositories/refresh-comments.png' srcset='/wp-content/uploads/repositories/refresh-comments@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads//refresh-comments.png' srcset='/wp-content/uploads//refresh-comments@2x.png' class='img-bordered img-responsive center'>
 
 You can also quote other comments in your reply from the elipsies <kbd> <i class="fa fa-ellipsis-v"></i> </kbd> menu
 
-<img src='/wp-content/uploads/repositories/quote-reply.png' srcset='/wp-content/uploads/repositories/quote-reply@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads//quote-reply.png' srcset='/wp-content/uploads//quote-reply@2x.png' class='img-bordered img-responsive center'>
 
 #### Branch checkout, build status, and adding remote
 If you double-click the branch name in the bottom right of the PR view, GitKraken Client will automatically check out the branch and open the graph.
 
 If you click on the build status, GitKraken Client will take you to the build URL in your default web browser.
 
-<img src='/wp-content/uploads/repositories/build-status.png' srcset='/wp-content/uploads/repositories/build-status@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads//build-status.png' srcset='/wp-content/uploads//build-status@2x.png' class='img-bordered img-responsive center'>
 
 Additionally if you have not added the remote, GitKraken Client will ask if you wish to add the remote to the app (which should help you review changes locally).
 
@@ -127,7 +127,7 @@ Additionally if you have not added the remote, GitKraken Client will ask if you 
 
 GitHub users may also merge a pull request by clicking the <button class='button button--success button--ui button--nolink'>Merge pull request</button> button from within GitKraken Client.
 
-<img src='/wp-content/uploads/repositories/merge-options.png' srcset='/wp-content/uploads/repositories/merge-options@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads//merge-options.png' srcset='/wp-content/uploads//merge-options@2x.png' class='img-bordered img-responsive center'>
 
 By default, the merge will default to the <kbd>Create a merge commit</kbd> setting, however you may also choose between <kbd>Squash and merge</kbd> and the <kbd>Rebase and merge</kbd>,
 
@@ -139,7 +139,7 @@ By default, the merge will default to the <kbd>Create a merge commit</kbd> setti
 
 If no remotes or repositories are appearing in Add Remote or Clone, you may need an organization to first allow access.
 
-<img src="/wp-content/uploads/integrations/github/error.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/error.png" class="img-bordered img-responsive center">
 
 GitKraken cannot see those repos when cloning or adding a fork unless the org specifically gives permission to GitKraken as an application.
 

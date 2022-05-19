@@ -17,7 +17,7 @@ Gitflow is a list of rules to keep a repo’s history organized, and is used to 
 ## Configuration
 First initialize Gitflow in <em class='context-menu'>Preferences <i class='fa fa-caret-right'></i> Gitflow</em> and change the default branch names if desired.
 
-<img src="/wp-content/uploads/repositories/gitflow/gitflow.png" srcset="/wp-content/uploads/repositories/gitflow/gitflow.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//gitflow.png" srcset="/wp-content/uploads//gitflow.png" class="img-bordered img-responsive center">
 
 Once initialized, two branches will always be present: `master` (The version in production) and `develop` (The version currently in development for the next release).
 
@@ -27,7 +27,7 @@ Changes are merged into these branches.  If you do not currently have these bran
 ## Usage
 With Gitflow initialized in your repo, you will get an additional menu in the left panel.  Start or finish any of your Gitflow branches here.
 
-<img src="/wp-content/uploads/repositories/gitflow/git-flow-start.png" srcset="/wp-content/uploads/repositories/gitflow/git-flow-start@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//git-flow-start.png" srcset="/wp-content/uploads//git-flow-start@2x.png" class="img-bordered img-responsive center">
 
 Create new Gitflow branches by clicking the green button on the Gitflow menu on the left.
 
@@ -35,7 +35,7 @@ Or whenever you add a branch, include the prefix for the Gitflow branch type i.e
 `feature/branch-name`.  Any branches that do not have the prefix, will be displayed in the local
 repository section, but not in the Gitflow menu.
 
-<img src="/wp-content/uploads/repositories/gitflow/git-flow-folders.png" srcset="/wp-content/uploads/repositories/gitflow/git-flow-folders@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//git-flow-folders.png" srcset="/wp-content/uploads//git-flow-folders@2x.png" class="img-bordered img-responsive center">
 
 <div class='callout callout--basic'>
     <p><strong>Note:</strong> Gitflow has the benefit of adding all features, hot-fixes, and release branches in different folders.</p>
@@ -48,7 +48,7 @@ Feature branches are used for new features or bug fixes.  They typically exist o
 
 When finishing a feature branch, GitKraken Client will merge the feature branch into `develop`, and delete the feature branch from the local repository.
 
-<img src="/wp-content/uploads/repositories/finish-feature.gif" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//finish-feature.gif" class="img-bordered img-responsive center">
 
 You also have the option to rebase the `feature` branch on top of `develop`.
 
@@ -57,7 +57,7 @@ Releases are major and minor versions of your product.  They're often shared wit
 
 When finishing a release, the release branch is merged into both `master` and `develop` branches. This creates a tag with the release name for future reference.
 
-<img src="/wp-content/uploads/repositories/finish-release.gif" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//finish-release.gif" class="img-bordered img-responsive center">
 
 ### Hotfix
 Hotfixes are the same as Releases in Gitflow, except hotfix branches are created on top of `master`, while release branches are created on top of `develop`.
@@ -66,4 +66,4 @@ Hotfixes are for quickly pushing out a change to your production branch.  Common
 
 When finishing a hotfix, GitKraken Client will merge the changes into both `master` and `develop`.
 
-<img src="/wp-content/uploads/repositories/finish-hotfix.gif" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//finish-hotfix.gif" class="img-bordered img-responsive center">

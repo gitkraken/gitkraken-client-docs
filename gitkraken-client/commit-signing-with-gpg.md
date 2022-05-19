@@ -38,7 +38,7 @@ Once you have installed GPG to your machine, you can verify it is installed and 
     <p><strong>Note:</strong> You may need to replace `gpg` with `gpg2` if you installed GPG2 without an alias. If you have both gpg and gpg2, you will need to prefix with gpg2 if you wish to use the latter. </p>
 </div>
 
-<img src="/wp-content/uploads/commit-signing-gpg/gpg-verify.png" srcset="/wp-content/uploads/commit-signing-gpg/gpg-verify@2x.png 2x" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/gpg-verify.png" srcset="/wp-content/uploads/gpg-verify@2x.png 2x" class="img-bordered img-responsive center">
 
 
 ###Generating a GPG Key In GitKraken
@@ -50,13 +50,13 @@ If you have GPG installed on your local machine, you will be able to generate a 
 
 Under `Preferences` → `GPG Preferences`, there is an option to `Generate new GPG Key`. If you wish to enter a passphrase, make sure you do so prior to selecting `Generate`.
 
-<img src="/wp-content/uploads/commit-signing-gpg/generate-new-gpg-key.png" srcset="/wp-content/uploads/commit-signing-gpg/generate-new-gpg-key@2x.png 2x" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/generate-new-gpg-key.png" srcset="/wp-content/uploads/generate-new-gpg-key@2x.png 2x" class="img-bordered img-responsive center">
 
 ###Configure GPG in GitKraken
 
 Once you have GPG installed on your machine, you will need to configure GitKraken to use GPG. Launch GitKraken Client and navigate to Preferences → GPG Preferences.
 
-<img src="/wp-content/uploads/commit-signing-gpg/gpg-preferences.png" srcset="/wp-content/uploads/commit-signing-gpg/gpg-preferences@2x.png 2x" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/gpg-preferences.png" srcset="/wp-content/uploads/gpg-preferences@2x.png 2x" class="img-bordered img-responsive center">
 
 + **Signing Key:** This dropdown list will contain all of your local keys. Select the key you wish GitKraken Client to use when signing your commits and annotated tags. **If this list is blank you can try the following troubleshoots:**
     * You may need to configure the GPG Program setting first.
@@ -66,7 +66,7 @@ Once you have GPG installed on your machine, you will need to configure GitKrake
 <button class='button button--primary button--ui button--nolink'><span style='color:#E9EEFF;'>Browse</span></button>
 button.
 
-<img src="/wp-content/uploads/commit-signing-gpg/gpg-browse-button.png" srcset="/wp-content/uploads/commit-signing-gpg/gpg-browse-button.png 2x" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/gpg-browse-button.png" srcset="/wp-content/uploads/gpg-browse-button.png 2x" class="img-bordered img-responsive center">
 
  If you do not know where GPG is installed on your local machine, launch a terminal and enter: `which gpg` for Mac & Linux. On Windows, use: `where gpg`
 
@@ -80,11 +80,11 @@ button.
 
 You can verify a commit has been signed by selecting a commit and viewing the commit panel. An icon will appear to the left of the commit SHA on signed commits only.
 
-<img src="/wp-content/uploads/commit-signing-gpg/verified-commit.png" srcset="/wp-content/uploads/commit-signing-gpg/verified-commit@2x.png 2x" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/verified-commit.png" srcset="/wp-content/uploads/verified-commit@2x.png 2x" class="img-bordered img-responsive center">
 
 If you hover over the badge, you will see a tooltip which displays the Signature details.
 
-<img src="/wp-content/uploads/commit-signing-gpg/gpg-signature-details.png" srcset="/wp-content/uploads/commit-signing-gpg/gpg-signature-details@2x.png 2x" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/gpg-signature-details.png" srcset="/wp-content/uploads/gpg-signature-details@2x.png 2x" class="img-bordered img-responsive center">
 
 Below is a list of possible signature codes and what they mean:
 
@@ -110,7 +110,7 @@ To copy your GPG public key in GitKraken Client, navigate to Preferences → GPG
 
 Editing your gpg key is helpful when you wish to add another email address to a key or renew an expired key. To edit a GPG key, navigate to your terminal and enter `gpg --list-secret-keys --keyid-format LONG`. This command will output a list of your GPG keys, take note of the ID of the key you wish to edit.
 
-<img src="/wp-content/uploads/commit-signing-gpg/list-secret-keys.png"  class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/list-secret-keys.png"  class="img-bordered img-responsive center">
 
 Now that you have the key ID, you can edit the key. To do so enter `gpg --edit-key FFFFFF` where `FFFFFF` is your key ID. You will then enter an editing session with your GPG key. After you update your key, execute a `save` to record changes and quit editing the key.
 
@@ -130,8 +130,8 @@ Make sure to upload the updated key on your hosting service once you have saved.
 ###Deleting your GPG Key
 
 You can delete your key via terminal with the command `gpg --delete-secret-keys` simply append your username or key ID.
-<img src="/wp-content/uploads/commit-signing-gpg/delete-key.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/delete-key.png" class="img-bordered img-responsive center">
 
 There will be several prompts to make sure that you *really* want to delete your GPG key:
-<img src="/wp-content/uploads/commit-signing-gpg/delete-key-for-sure.png"  class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/delete-key-for-sure.png"  class="img-bordered img-responsive center">
 

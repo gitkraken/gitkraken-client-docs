@@ -22,11 +22,11 @@ GitKraken Git GUI makes it easy to integrate with Jira Cloud and Jira Server.
 
 Set up the integration from the ISSUES pane in the left panel or from <kbd><i>Preferences    <i class='fa fa-caret-right'></i>     Integrations</i></kbd>.
 
-<img src="/wp-content/uploads/integrations/jira/connect-jira.png" srcset="/wp-content/uploads/integrations/jira/connect-jira@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/connect-jira.png" srcset="/wp-content/uploads/connect-jira@2x.png" class="img-bordered img-responsive center">
 
 You will then be prompted by an Atlassian page to allow GitKraken Git GUI to connect to your Jira account. Hit <em>Accept</em> to proceed.
 
-<img src="/wp-content/uploads/integrations/jira/atlassian.png" srcset="/wp-content/uploads/integrations/jira/atlassian@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/atlassian.png" srcset="/wp-content/uploads/atlassian@2x.png" class="img-bordered img-responsive center">
 
 Alternatively, you may copy the token from the _Success_ page and paste it into the Jira Cloud integration page inside GitKraken Git GUI.
 
@@ -36,11 +36,11 @@ Alternatively, you may copy the token from the _Success_ page and paste it into 
 
 Once connected, your Jira issues will start to appear in the left panel. The app will default to a _My Issues_ filter which will show issues assigned to you.
 
-<img src="/wp-content/uploads/integrations/jira/issue-list.png" srcset="/wp-content/uploads/integrations/jira/issue-list@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/issue-list.png" srcset="/wp-content/uploads/issue-list@2x.png" class="img-bordered img-responsive center">
 
 Hover over any issue to get a preview of the issue Title, Description, Status, Assignee, and Reporter.
 
-<img src="/wp-content/uploads/integrations/jira/view-issue.png" srcset="/wp-content/uploads/integrations/jira/view-issue@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/view-issue.png" srcset="/wp-content/uploads/view-issue@2x.png" class="img-bordered img-responsive center">
 
 ***
 
@@ -48,7 +48,7 @@ Hover over any issue to get a preview of the issue Title, Description, Status, A
 
 Click to select an issue to view the issue details.
 
-<img src="/wp-content/uploads/integrations/jira/issue-details.gif" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/issue-details.gif" class="img-bordered img-responsive center">
 
 Here you may view and edit:
 
@@ -65,7 +65,7 @@ Any changes made here will be reflected in your Jira board.
 
 From the left panel, click the <button class='button button--success button--ui button--nolink'>+</button> icon to add a new Jira issue.
 
-<img src="/wp-content/uploads/integrations/jira/create-issue.gif" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/create-issue.gif" class="img-bordered img-responsive center">
 
 Your new issue will automatically sync with your Jira project.
 
@@ -75,7 +75,7 @@ Your new issue will automatically sync with your Jira project.
 
 You may create filters to view the issues you need. Atlassian uses JQL syntax for filters, and the integration will help you auto-complete your filter fields.
 
-<img src="/wp-content/uploads/integrations/jira/create-filter.png" srcset="/wp-content/uploads/integrations/jira/create-filter@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/create-filter.png" srcset="/wp-content/uploads/create-filter@2x.png" class="img-bordered img-responsive center">
 
 However for more details about how to write your JQL filters, please refer to the [Get started with Advanced Search and JQL](https://www.atlassian.com/software/jira/guides/expand-jira/jql#visualize-results) guide by Atlassian.
 
@@ -85,7 +85,7 @@ However for more details about how to write your JQL filters, please refer to th
 
 You may create a branches tied to an issue from the issue details view.
 
-<img src="/wp-content/uploads/integrations/jira/create-branch.gif" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/create-branch.gif" class="img-bordered img-responsive center">
 
 The branch name will automatically prefill based on the issue name. After the branch is created, these branches will be denoted with the Jira icon to reflect its link to a Jira issue.
 
@@ -97,7 +97,7 @@ From here, it should be possible to configure triggers on the Jira side for chan
 
 Click the <kbd> <i class="fa fa-ellipsis-v"></i> </kbd> icon to copy the issue link or view the item directly in Jira.
 
-<img src="/wp-content/uploads/integrations/jira/view-issue-in-jira.png" srcset="/wp-content/uploads/integrations/jira/view-issue-in-jira@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/view-issue-in-jira.png" srcset="/wp-content/uploads/view-issue-in-jira@2x.png" class="img-bordered img-responsive center">
 
 ### Git Integration for Jira
 

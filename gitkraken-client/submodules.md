@@ -17,7 +17,7 @@ Submodules allow you to include other Git repositories within a Git repository a
 ## Adding submodules
 Add a submodule by clicking the <button class='button button--success button--ui button--nolink'>+</button> when hovering over <em class='context-menu'><img src='/wp-content/uploads/icons/gk-submodules-icon.svg' style='height:1em;'> Submodules</em> in the left panel. Paste the HTTPS or SSH link to the repository, and then enter the path.
 
-<img src="/wp-content/uploads/repositories/add-submodule.png" srcset="/wp-content/uploads/repositories/add-submodule@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//add-submodule.png" srcset="/wp-content/uploads//add-submodule@2x.png" class="img-bordered img-responsive center">
 
 Adding a submodule to the repository adds a link to the submodule's repository in the <code>.gitmodules</code> file.
 
@@ -29,7 +29,7 @@ Your repository tracks the submodule's checked out commit.  If there are any upd
 
 To update submodules, navigate to the Submodule pane in the left panel and right click on the submodule.
 
-<img src="/wp-content/uploads/repositories/update-submodule.png" srcset="/wp-content/uploads/repositories/update-submodule@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//update-submodule.png" srcset="/wp-content/uploads//update-submodule@2x.png" class="img-bordered img-responsive center">
 
 If you clone a repository that contains a submodule, you will be prompted to initialize the submodule.  This will clone the submodule's repository and check out the referenced commit.
 
@@ -38,7 +38,7 @@ To change the pointer commit, open the submodule in GitKraken Client and then ch
 
 Then when you exit the submodule, GitKraken Client will detect the change and ask you if you wish to save the change.
 
-<img src="/wp-content/uploads/repositories/submodule-commit.png" srcset="/wp-content/uploads/repositories/submodule-commit@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads//submodule-commit.png" srcset="/wp-content/uploads//submodule-commit@2x.png" class="img-bordered img-responsive center">
 
 
 

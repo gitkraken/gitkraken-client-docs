@@ -28,23 +28,23 @@ GitKraken Client allows you to authenticate with Bitbucket Server, which will he
 
 To authenticate with Bitbucket Server, navigate to the upper right corner to access <kbd><i> <i class="fas fa-cog"></i> Preferences    <i class='fa fa-caret-right'></i>     Integrations</i></kbd>
 
-<img src="/wp-content/uploads/integrations/github/preferences.png" srcset="/wp-content/uploads/integrations/github/preferences@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/preferences.png" srcset="/wp-content/uploads/preferences@2x.png" class="img-bordered img-responsive center">
 
 Or alternatively if you are in the <kbd>New Tab</kbd> view, click on <kbd>Preferences</kbd> under <strong>Customize</strong>.
 
-<img src="/wp-content/uploads/integrations/customize.png" srcset="/wp-content/uploads/integrations/customize@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/customize.png" srcset="/wp-content/uploads/customize@2x.png" class="img-bordered img-responsive center">
 
 From the Integrations window, select **Bitbucket Server**. Enter your host domain URL and then click the Generate a token on Bitbucket Server button. Note the permissions that need to be assigned to the token on your Bitbucket Self-Hosted server.
 
-<img src="/wp-content/uploads/integrations/bitbucket-server/preferences-authentication-bitbucket-server.png" srcset="/wp-content/uploads/integrations/bitbucket-server/preferences-authentication-bitbucket-server@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/preferences-authentication-bitbucket-server.png" srcset="/wp-content/uploads/preferences-authentication-bitbucket-server@2x.png 2x" class="img-responsive center img-bordered">
 
 This opens a web browser where you will log in with your Bitbucket Server credentials and create an access token.
 
-<img src='/wp-content/uploads/integrations/bitbucket-server/BitbucketServerPAT.png' class="img-responsive center img-bordered">
+<img src='/wp-content/uploads/ServerPAT.png' class="img-responsive center img-bordered">
 
 Copy the token and paste it into GitKraken Client, then click the <button class='button button--success button--ui button--nolink'>Connect</span></button> button.
 
-<img src="/wp-content/uploads/integrations/bitbucket-server/bitbucket-server-connected.png" srcset="/wp-content/uploads/integrations/bitbucket-server/bitbucket-server-connected@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/-server-connected.png" srcset="/wp-content/uploads/-server-connected@2x.png 2x" class="img-responsive center img-bordered">
 
 ***
 ## Generating SSH keys for Bitbucket Server.
@@ -56,15 +56,15 @@ Once your Bitbucket Server account has been connected to your GitKraken Client, 
 
 Click <button class='button button--success button--ui button--nolink'>Generate SSH key and copy to clipboard</span></button> and follow the toast prompt to add the key to your Bitbucket Server account. If you miss the toast pop-up or need to copy the public key later, you can use the link as well.
 
-<img src='/wp-content/uploads/integrations/bitbucket-server/bitbucket-server-SSHkey.png' class="img-responsive center img-bordered">
+<img src='/wp-content/uploads/-server-SSHkey.png' class="img-responsive center img-bordered">
 
 In your Bitbucket Server SSH keys page, click <button class='button button--primary button--ui button--nolink'>Add Key</span></button>.
 
-<img src='/wp-content/uploads/integrations/bitbucket-server/bitbucket-server-add-key.png' class="img-responsive center img-bordered">
+<img src='/wp-content/uploads/-server-add-key.png' class="img-responsive center img-bordered">
 
 Paste your key and click <button class='button button--primary button--ui button--nolink'>Add Key</span></button>.
 
-<img src="/wp-content/uploads/integrations/bitbucket-server/bitbucket-server-SSHkey-add.png" srcset="/wp-content/uploads/integrations/bitbucket-server/bitbucket-server-SSHkey-add@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/-server-SSHkey-add.png" srcset="/wp-content/uploads/-server-SSHkey-add@2x.png 2x" class="img-responsive center img-bordered">
 
 ***
 ## OAuth integration with Bitbucket Server
@@ -72,11 +72,11 @@ GitKraken's integration with Bitbucket Server provides handy information about y
 
 First, you may search through your existing repositories when cloning:
 
-<img src="/wp-content/uploads/integrations/bitbucket-server/bitbucket-server-clone-menu.png" srcset="/wp-content/uploads/integrations/bitbucket-server/bitbucket-server-clone-menu@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/-server-clone-menu.png" srcset="/wp-content/uploads/-server-clone-menu@2x.png 2x" class="img-responsive center img-bordered">
 
 Next, GitKraken Client presents a list of forks of the current repository when adding remotes:
 
-<img src="/wp-content/uploads/integrations/bitbucket-server/bitbucket-server-add-remote.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/-server-add-remote.png" class="img-responsive center img-bordered">
 
 Of course, you still have the option of manually entering repo URLs.
 
@@ -97,7 +97,7 @@ Share these resources with your team to explain why collaborating with GitKraken
     <div class="flex-grid">
         <div class="flex-item">
             <a href='https://www.gitkraken.com/integrations/bitbucket#how-to-bitbucket-gitkraken' target='_blank' rel='noopener'>
-                <img src='/wp-content/uploads/bitbucket-gitkraken.png'gitkraken-for-bitbucket-cheat-sheet-2@2x.jpg 2x" alt='How to use Bitbucket with GitKraken video thumbnail' style="height: 150px; width: auto; max-width: none;">
+                <img src='/wp-content/uploads/-gitkraken.png'gitkraken-for-bitbucket-cheat-sheet-2@2x.jpg 2x" alt='How to use Bitbucket with GitKraken video thumbnail' style="height: 150px; width: auto; max-width: none;">
                 <p>How to use Bitbucket with GitKraken Video</p>
             </a>
         </div>

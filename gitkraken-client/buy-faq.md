@@ -22,7 +22,7 @@ If you have questions about your trial, please [contact our sales team](https://
 
 Yes. If you are the `Owner` of a <strong>GitKraken Pro</strong> account, then you may transfer ownership to a different user from your account.
 
-<img src="/wp-content/uploads/managing-organizations/buy/transfer-ownership.png" srcset="/wp-content/uploads/managing-organizations/buy/transfer-ownership.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/transfer-ownership.png" srcset="/wp-content/uploads/transfer-ownership.png" class="img-responsive center img-bordered">
 
 
 ***
