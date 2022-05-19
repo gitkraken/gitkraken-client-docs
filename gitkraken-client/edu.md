@@ -1,7 +1,7 @@
 ---
 
 title: GitKraken Pro for Students and Teachers
-description: How to enable Pro through the GitHub Student Pack or GitHub Teacher Toolbox
+description: How to enable Pro through the GitHub Student Pack
 taxonomy:
     category: gitkraken-client
 
