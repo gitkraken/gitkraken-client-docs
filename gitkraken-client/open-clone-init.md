@@ -13,8 +13,8 @@ Whether you are a newborn or a wizened deep-ocean octopod, each user will need t
 ## Setup
 The essential setup process includes:
 
-1. [Installing](/how-to-install) GitKraken Client
-2. Creating an account and setting up your [profile](/start-here/profiles)
+1. [Installing](/gitkraken-client/how-to-install) GitKraken Client
+2. Creating an account and setting up your [profile](/gitkraken-client/profiles)
 
 Once this is complete, you are ready for your oceanic journey!
 

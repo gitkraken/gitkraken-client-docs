@@ -17,13 +17,13 @@ A pull request (sometimes called merge requests), is a review request. You are a
 ## Creating a pull request
 If connected to a remote on GitHub, GitLab, Bitbucket, or Visual Studio Team Services, create pull requests by dragging and dropping one branch to another and selecting <em class='context-menu'>Start a pull request</em>.
 
-<img src="/wp-content/uploads//pull-request.gif" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/pull-request-gif.gif" class="img-bordered img-responsive center">
 
 Alternatively, try right-clicking the target branch and selecting <em class='context-menu'>Start a pull request</em>.
 
 Or click the <button class='button button--success button--ui button--nolink'>+</button> in the pull requests section on the left panel, and select the repo and branch to create the pull request.
 
-<img src="/wp-content/uploads//pull-request.png" srcset="/wp-content/uploads//pull-request@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/pull-request.png" srcset="/wp-content/uploads//pull-request@2x.png" class="img-bordered img-responsive center">
 
 ### Pull request templates
 
@@ -67,28 +67,6 @@ If connected to the [GitHub Integration](/integrations/github/), you may create 
 <img src='/wp-content/uploads//draft-pr.png' srcset='/wp-content/uploads//draft-pr@2x.png' class='img-bordered img-responsive center'>
 
 As the name implies, this will create a "draft" pull request in GitHub. However please note that not all GitHub free or paid plans support the draft feature. Please check your GitHub plan if you do not see this option.
-
-### GitKraken Boards Cards
-
-Associate your <a href="/glo/card-features">GitKraken Boards</a> issues with pull requests by simply searching for the card name in the <kbd>GitKraken Boards card</kbd> section when creating a pull request.
-
-Cards across all of your GitKraken Boards will be searched. Associate as many cards as you'd like to a pull request!
-
-<div class='callout callout'>
-    <p> <strong>Note:</strong> You need to have GitKraken Boards selected for your issue tracker from <kbd> Preferences > Issue Tracker </kbd>.</p>
-</div>
-
-<img src='/wp-content/uploads//glo-pr.gif' class='img-bordered img-responsive center'>
-
-GitKraken Client passes the card information onto your remote service when the pull request is created. The pull request description will include a link to said card details.
-
-<img src='/wp-content/uploads//pr-description.png' srcset='/wp-content/uploads//pr-description@2x.png' class='img-bordered img-responsive center'>
-
-On your GitKraken Board, information of the pull request will automatically populate under <kbd>Pull Request</kbd> in the cards' detail panel.
-
-<img src="/wp-content/uploads//glo-gk-pr.png" srcset="/wp-content/uploads//glo-gk-pr@2x.png 2x" class="img-responsive center img-bordered">
-
-After setting up <a href= "/glo/board-features/#pull-requests">GitHub pull request integration</a> in your GitKraken Board, you can trigger an automatic change to progress your card to a new column the moment your PR status changes. Goodbye, context-switching!
 
 ***
 

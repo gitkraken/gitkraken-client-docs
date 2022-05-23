@@ -13,9 +13,6 @@ taxonomy:
  
  <img src="/wp-content/uploads/open.png" srcset="/wp-content/uploads/open@2x.png" class="img-bordered img-responsive center">
 
- <img src="/wp-content/uploads//project-groups/open.png" srcset="/wp-content/uploads//project-groups/open@2x.png" class="img-bordered img-responsive center">
-
-
  Then click this green plus icon to add a project directory:
 
 <img src="/wp-content/uploads/project-groups.png" srcset="/wp-content/uploads/project-groups@2x.png" class="img-bordered img-responsive center">

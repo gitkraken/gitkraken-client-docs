@@ -14,7 +14,7 @@ Learn how to branch and merge in GitKraken Client. 🌳 🔀
 ## Branches
 When starting work on a new feature or bug, <a href="https://gitkraken.com/learn/git/problems/create-git-branch" target="_blank">create a new branch</a>. Right click on any existing commit to create a branch:
 
-<img src="/wp-content/uploadsadd-branch.png" srcset="/wp-content/uploads/add-branch@2x.png 2x" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/add-branch.png" srcset="/wp-content/uploads/add-branch@2x.png 2x" class="img-bordered img-responsive center">
 
 A branch is a pointer to a specific commit in the repo, rather than making entire copies of the working directory files.
 
@@ -100,7 +100,7 @@ Clicking the up and down arrows will move you to the next conflict.
 </div>
 
 <figure class='figure center'>
-    <img src='/wp-content/uploads/merge-tool.gif'>
+    <img src='/wp-content/uploads/merge-tool-gif.gif'>
 </figure>
 
 After the conflict is resolved, save the output and commit the changes.
@@ -126,7 +126,7 @@ GitKraken Client currently supports the following merge tools:
 
 If your merge tool from the list above is installed and is not showing up in the dropdown, then look for an option to install command line tools.
 
-<img src='/wp-content/uploads/working-with-files/diff/beyond-compare.png' srcset='/wp-content/uploads/working-with-files/diff/beyond-compare@2x.png' class='img-bordered img-responsive center' />
+<img src='/wp-content/uploads/beyond-compare.png' srcset='/wp-content/uploads/beyond-compare@2x.png' class='img-bordered img-responsive center' />
 
 GitKraken Client does _not support_ the following merge tools:
 

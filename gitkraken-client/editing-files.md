@@ -1,6 +1,6 @@
 ---
 
-title: Editing
+title: Editing Files
 description: Learn how to edit files in GitKraken Client.
 taxonomy:
     category: gitkraken-client

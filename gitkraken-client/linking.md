@@ -15,7 +15,7 @@ You can find links in most right-click context menus throughout GitKraken Client
  
 <img src="/wp-content/uploads/link_context_menu_options.gif" class="img-bordered img-responsive center">
 
-<img src="/wp-content/uploads//linking/link_context_menu_options.gif" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/link_context_menu_options.gif" class="img-bordered img-responsive center">
 
 ### What to do with a link
 
