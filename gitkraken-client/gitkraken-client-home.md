@@ -21,9 +21,6 @@ Check out the Video and links below, or use the left navigation to start explori
 
 ***
 
-<a class="button button--basic" href="https://www.gitkraken.com/download" target="_blank">Download GitKraken Client Now</a>
-
-
 ## Getting Started
 
 - [Interface Basics](/gitkraken-client/interface/) - Learn about the layout of GitKraken.
@@ -36,25 +33,14 @@ Check out the Video and links below, or use the left navigation to start explori
 
 ***
 
-## Contact Support ✉
-
-Didn't find what you're looking for in all of our documentation and help articles? Then please contact our support team.
-
-<a class="button button--basic" href="https://www.gitkraken.com/git-client/contact-support" target="_blank">Contact Support</a>
-
-***
-
-## Make a Feature Request ☑
+## Other places to check out
 
 Have an idea or feedback for improving GitKraken? Upvote existing user suggestions ⬆️ or add your idea 📝.
-
-<a class="button button--basic" href="https://feedback.gitkraken.com/" target="_blank">Suggest Features</a>
-
-
-***
-
-## Slack Community 
+[Make a Feature Request ☑](https://feedback.gitkraken.com/)
 
 Join our public slack community and interact with other GitKraken Client users from around the world 🌐.
+[GitKraken Slack](https://slack.gitkraken.com/)
 
-<a class="button button--basic" href="https://slack.gitkraken.com/" target="_blank">Slack Community</a>
+Didn't find what you're looking for in all of our documentation and help articles? Then please contact our support team.
+[Contact Support ✉](https://www.gitkraken.com/git-client/contact-support)
+
