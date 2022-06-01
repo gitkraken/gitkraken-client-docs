@@ -40,11 +40,11 @@ From the Integrations window, select **Bitbucket Server**. Enter your host domai
 
 This opens a web browser where you will log in with your Bitbucket Server credentials and create an access token.
 
-<img src='/wp-content/uploads/ServerPAT.png' class="img-responsive center img-bordered">
+<img src='/wp-content/uploads/BitbucketServerPAT.png' class="img-responsive center img-bordered">
 
 Copy the token and paste it into GitKraken Client, then click the <button class='button button--success button--ui button--nolink'>Connect</span></button> button.
 
-<img src="/wp-content/uploads/-server-connected.png" srcset="/wp-content/uploads/-server-connected@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/bitbucket-server-connected.png" srcset="/wp-content/uploads/bitbucket-server-connected@2x.png 2x" class="img-responsive center img-bordered">
 
 ***
 ## Generating SSH keys for Bitbucket Server.
@@ -56,15 +56,15 @@ Once your Bitbucket Server account has been connected to your GitKraken Client, 
 
 Click <button class='button button--success button--ui button--nolink'>Generate SSH key and copy to clipboard</span></button> and follow the toast prompt to add the key to your Bitbucket Server account. If you miss the toast pop-up or need to copy the public key later, you can use the link as well.
 
-<img src='/wp-content/uploads/-server-SSHkey.png' class="img-responsive center img-bordered">
+<img src='/wp-content/uploads/bitbucket-server-SSHkey.png' class="img-responsive center img-bordered">
 
 In your Bitbucket Server SSH keys page, click <button class='button button--primary button--ui button--nolink'>Add Key</span></button>.
 
-<img src='/wp-content/uploads/-server-add-key.png' class="img-responsive center img-bordered">
+<img src='/wp-content/uploads/bitbucket-server-add-key.png' class="img-responsive center img-bordered">
 
 Paste your key and click <button class='button button--primary button--ui button--nolink'>Add Key</span></button>.
 
-<img src="/wp-content/uploads/-server-SSHkey-add.png" srcset="/wp-content/uploads/-server-SSHkey-add@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/bitbucket-server-SSHkey-add.png" srcset="/wp-content/uploads/bitbucket-server-SSHkey-add@2x.png 2x" class="img-responsive center img-bordered">
 
 ***
 ## OAuth integration with Bitbucket Server
@@ -72,7 +72,7 @@ GitKraken's integration with Bitbucket Server provides handy information about y
 
 First, you may search through your existing repositories when cloning:
 
-<img src="/wp-content/uploads/-server-clone-menu.png" srcset="/wp-content/uploads/-server-clone-menu@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/bitbucket-server-clone-menu.png" srcset="/wp-content/uploads/bitbucket-server-clone-menu@2x.png 2x" class="img-responsive center img-bordered">
 
 Next, GitKraken Client presents a list of forks of the current repository when adding remotes:
 
@@ -87,46 +87,3 @@ Of course, you still have the option of manually entering repo URLs.
 GitKraken connects to one Bitbucket Server account at a time. However, with GitKraken Pro's multiple <a href="/start-here/profiles">profile</a> support, you can easily switch between profiles that each have their own associated Bitbucket Server accounts.
 
 ***
-
-## Training resources
-
-Share these resources with your team to explain why collaborating with GitKraken Client is easier, and to get everyone up and running with Bitbucket and GitKraken quickly.
-
-
-<div class='center'>
-    <div class="flex-grid">
-        <div class="flex-item">
-            <a href='https://www.gitkraken.com/integrations/bitbucket#how-to-bitbucket-gitkraken' target='_blank' rel='noopener'>
-                <img src='/wp-content/uploads/-gitkraken.png'gitkraken-for-bitbucket-cheat-sheet-2@2x.jpg 2x" alt='How to use Bitbucket with GitKraken video thumbnail' style="height: 150px; width: auto; max-width: none;">
-                <p>How to use Bitbucket with GitKraken Video</p>
-            </a>
-        </div>
-        <div class="flex-item">
-            <a href='https://www.gitkraken.com/integrations/bitbucket#why-bitbucket-gitkraken' target='_blank' rel='noopener'>
-                <img src='/wp-content/uploads/gitkraken-bitbucket-whitepaper.jpg' srcset="/wp-content/uploads/gitkraken-bitbucket-whitepaper@2x.jpg 2x" alt='GitKraken for Bitbucket Users cover' style="height: 150px; width: auto; max-width: none;">
-                <p>Bitbucket White Paper<br />(PDF)</p>
-            </a>
-        </div>
-        <div class="flex-item">
-            <a href='https://www.gitkraken.com/pdfs/gitkraken-git-gui-cheat-sheet' target='_blank' rel='noopener'>
-                <img src='/wp-content/uploads/gitkraken-cheat-sheet.png' srcset="/wp-content/uploads/gitkraken-cheat-sheet@2x.png 2x" alt='GitKraken Cheat Sheet cover' style="height: 150px; width: auto; max-width: none;">
-                <p>GitKraken Client Cheat Sheet<br />(PDF)</p>
-            </a>
-        </div>
-    </div>
-    <div class="flex-grid">
-        <div class="flex-item">
-            <a href='https://www.gitkraken.com/pdfs/why-gitkraken' target='_blank' rel='noopener'>
-                <img src='/wp-content/uploads/why-gitkraken.jpg' srcset="/wp-content/uploads/why-gitkraken@2x.jpg 2x" alt='Why GitKraken cover' style="height: 150px; width: auto; max-width: none;">
-                <p>Why GitKraken<br />(PDF)</p>
-            </a>
-        </div>
-        <div class="flex-item">
-            <a href='https://www.gitkraken.com/learn/git' target='_blank' rel='noopener'>
-                <img src='/wp-content/uploads/lgwgk.jpg' alt='Learning Git With GitKraken Image' style="height: 150px; width: auto; max-width: none;">
-                <p>Learning Git Tutorial<br />Videos</p>
-            </a>
-        </div>
-        <div class="flex-item"></div>
-    </div>
-</div>

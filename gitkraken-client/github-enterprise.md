@@ -28,11 +28,11 @@ GitKraken allows you to connect to GitHub Enterprise, which will help you find r
 
 To authenticate with GitHub Enterprise, navigate to the upper right corner to access <kbd><i> <i class="fas fa-cog"></i> Preferences    <i class='fa fa-caret-right'></i>     Integrations</i></kbd>
 
-<img src="/wp-content/uploads/preferences-github-enterprise.png" srcset="/wp-content/uploads/preferences-github-enterprise@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/preferences.png" srcset="/wp-content/uploads/preferences@2x.png" class="img-bordered img-responsive center">
 
 Or alternatively if you are in the <kbd>New Tab</kbd> view, click on <kbd>Preferences</kbd> under <strong>Customize</strong>.
 
-<img src="/wp-content/uploads/customize-github-enterprise.png" srcset="/wp-content/uploads/customize-github-enterprise@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/customize.png" srcset="/wp-content/uploads/customize@2x.png" class="img-bordered img-responsive center">
 
 From the Integrations window, enter your _Host Domain_ then click the Generate an access token on _your URL_ link.
 
