@@ -1,6 +1,6 @@
 ---
 
-title: Bitbucket
+title: GitKraken Client Bitbucket Integration
 description: Integrate GitKraken with your Bitbucket repository by following these steps.
 taxonomy:
     category: gitkraken-client

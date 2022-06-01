@@ -1,6 +1,6 @@
 ---
 
-title: GitLab Self-Managed
+title: GitKraken Client GitLab Self-Managed Integration
 description: Easily integrate GitKraken with you GitLab Self-Managed repository. Learn how to link GitKraken and GitLab Self-Managed by following these steps.
 taxonomy:
     category: gitkraken-client
