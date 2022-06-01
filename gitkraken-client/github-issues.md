@@ -36,17 +36,17 @@ You'll then see a success message below and the connection will be active in Git
 
 Once connected, your GitHub issues will start to appear in the left panel. You will initally see  _My Open Issues_ and _All Open Issues_ filters by default. You can edit or remove these as needed.
 
-<img src="/wp-content/uploads/issues-panel.png" srcset="/wp-content/uploads/issues-panel@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/issues-panel-github-issues.png" srcset="/wp-content/uploads/issues-panel-github-issues@2x.png" class="img-bordered img-responsive center">
 
 Hover over any issue to get a preview of the issue Title, Description, Status, Labels, Assignees and Reporter.
 
-<img src="/wp-content/uploads/issues-preview.png" srcset="/wp-content/uploads/issues-preview@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/issues-preview-github-issues.png" srcset="/wp-content/uploads/issues-preview-github-issues@2x.png" class="img-bordered img-responsive center">
 
 ### View and Edit GitHub Issue Details
 
 Click to select an issue to view the issue details.
 
-<img src="/wp-content/uploads/github-details.gif" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/github-details-github-issues.gif" class="img-bordered img-responsive center">
 
 Here any edits made here will be reflected in your GitHub issues.
 
@@ -54,7 +54,7 @@ Here any edits made here will be reflected in your GitHub issues.
 
 From the left panel, click the <button class='button button--success button--ui button--nolink'>+</button> icon to add a new GitHub issue.
 
-<img src="/wp-content/uploads/new-issue.png" srcset="/wp-content/uploads/new-issue@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/new-issue-github-issues.png" srcset="/wp-content/uploads/new-issue-github-issues@2x.png" class="img-bordered img-responsive center">
 
 Note that required fields are denoted by `*`. Your new issue will automatically be added to your GitHub issues.
 
@@ -62,7 +62,7 @@ Note that required fields are denoted by `*`. Your new issue will automatically 
 
 You may create filters to view the issues you need. We use the same syntax that GitHub uses for thier issues.
 
-<img src="/wp-content/uploads/new-filter.png" srcset="/wp-content/uploads/new-filter@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/new-filter-github-issues.png" srcset="/wp-content/uploads/new-filter-github-issues@2x.png" class="img-bordered img-responsive center">
 
 You can refer to [GitHub issue filtering](https://docs.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests) docs from GitHub for more information.
 
@@ -70,7 +70,7 @@ You can refer to [GitHub issue filtering](https://docs.github.com/en/github/sear
 
 You may create a branches tied to an issue from the issue details view <button class='button button--success button--ui button--nolink'>Create a branch for this issue</button> button. You can also right-click the issue or click the <kbd> <i class="fa fa-ellipsis-v"></i> </kbd>.
 
-<img src="/wp-content/uploads/create-branch.png" srcset="/wp-content/uploads/create-branch@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/create-branch-github-issues.png" srcset="/wp-content/uploads/create-branch-github-issues@2x.png" class="img-bordered img-responsive center">
 
 The branch name will automatically prefill based on the issue name. After the branch is created, these branches will be denoted with the GitHub icon to reflect its link to a GitHub issue.
 
@@ -80,6 +80,6 @@ From here, it should be possible to configure triggers on the GitHub side for ch
 
 You can quickly navigate to the issue in GitHub from the <kbd> <i class="fa fa-ellipsis-v"></i> </kbd> menu or by clicking <i class="fa fa-external-link" aria-hidden="true"></i> in the top right.
 
-<img src="/wp-content/uploads/view-issue.png" srcset="/wp-content/uploads/view-issue@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/view-issue-github-issues.png" srcset="/wp-content/uploads/view-issue-github-issues@2x.png" class="img-bordered img-responsive center">
 
 

@@ -1,6 +1,6 @@
 ---
 
-title: Jira and GitKraken Git GUI
+title: GitKraken Client and Jira Server Issues Integration
 description: Learn how to access Jira Issues from GitKraken Git GUI
 taxonomy:
     category: gitkraken-client
@@ -27,15 +27,15 @@ GitKraken Git GUI makes it easy to integrate with Jira Cloud and Jira Server.
 
 Set up the integration from the ISSUES pane in the left panel or from <kbd><i>Preferences    <i class='fa fa-caret-right'></i>     Integrations</i></kbd>.
 
-<img src="/wp-content/uploads//choose-boards.png" srcset="/wp-content/uploads//choose-boards@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/choose-boards-jira-server-integration.png" srcset="/wp-content/uploads/choose-boards-jira-server-integration@2x.png" class="img-bordered img-responsive center">
 
 Enter the Host Domain URL and the username and password you use to log into your Jira Server account.
 
-<img src="/wp-content/uploads/connect-jira-server.png" srcset="/wp-content/uploads/connect-jira-server@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/connect-jira-server-integration.png" srcset="/wp-content/uploads/connect-jira-server-integration@2x.png" class="img-bordered img-responsive center">
 
 With the correct username and password, and with a successful network connection to your Jira Server instance, the app should connect.
 
-<img src="/wp-content/uploads/connected.png" srcset="/wp-content/uploads/connected@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/connected-jira-integration.png" srcset="/wp-content/uploads/connected-jira-integration@2x.png" class="img-bordered img-responsive center">
 
 <div class='callout callout--warning'>
   <p><strong>Note:</strong> Some SSO (single sign on) configurations are not supported for the Jira Server integration at this time.</p>

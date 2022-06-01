@@ -38,7 +38,7 @@ From the Integrations window, select _GitLab.com_ and then hit the <button class
 
 This will open your default web browser where you can click <button class='button button--success button--ui button--nolink'>Continue authorization</button> and then log in with your GitLab credentials.
 
-<img src="/wp-content/uploads/authorize.png" srcset="/wp-content/uploads/authorize@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/authorize-gitlab.png" srcset="/wp-content/uploads/authorize-gitlab@2x.png 2x" class="img-responsive center img-bordered">
 
 <img src="/wp-content/uploads/gitlab-sign-in.png" srcset="/wp-content/uploads/gitlab-sign-in@2x.png 2x" class="img-responsive center img-bordered">
 
@@ -65,11 +65,11 @@ GitKraken's integration with GitLab provides handy information about your reposi
 
 First, you may search through your existing repositories when cloning:
 
-<img src="/wp-content/uploads/clone.png" srcset="/wp-content/uploads/clone@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/clone-gitlab.png" srcset="/wp-content/uploads/clone-gitlab@2x.png" class="img-bordered img-responsive center">
 
 Next, GitKraken presents a list of forks of the current repository when adding remotes:
 
-<img src="/wp-content/uploads/remote.png" srcset="/wp-content/uploads/remote@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/remote-gitlab.png" srcset="/wp-content/uploads/remote-gitlab@2x.png" class="img-bordered img-responsive center">
 
 Of course, you still have the option of manually entering repo URLs.
 
@@ -80,46 +80,3 @@ Of course, you still have the option of manually entering repo URLs.
 GitKraken connects to one GitLab account at a time. However, with GitKraken Pro's multiple <a href="/start-here/profiles">profile</a> support, you can easily switch between profiles that each have their own associated GitLab accounts.
 
 ***
-
-## Training resources
-
-Share these resources with your team to explain why collaborating with GitKraken is easier, and to get everyone up and running with GitLab and GitKraken quickly.
-
-
-<div class='center'>
-    <div class="flex-grid">
-        <div class="flex-item">
-            <a href='https://www.gitkraken.com/integrations/gitlab#how-to-gitlab-gitkraken' target='_blank' rel='noopener'>
-                <img src='/wp-content/uploads/gitlab-gitkraken.png'gitkraken-for-gitlab-cheat-sheet-2@2x.jpg 2x" alt='How to use GitLab with GitKraken video thumbnail' style="height: 150px; width: auto; max-width: none;">
-                <p>How to use GitLab with GitKraken Video</p>
-            </a>
-        </div>
-        <div class="flex-item">
-            <a href='https://www.gitkraken.com/integrations/gitlab#why-gitlab-gitkraken' target='_blank' rel='noopener'>
-                <img src='/wp-content/uploads/gitkraken-gitlab-whitepaper.jpg' srcset="/wp-content/uploads/gitkraken-gitlab-whitepaper@2x.jpg 2x" alt='GitKraken for GitLab Users cover' style="height: 150px; width: auto; max-width: none;">
-                <p>GitLab White Paper<br />(PDF)</p>
-            </a>
-        </div>
-        <div class="flex-item">
-        	<a href='https://www.gitkraken.com/pdfs/gitkraken-git-gui-cheat-sheet' target='_blank' rel='noopener'>
-        	    <img src='/wp-content/uploads/gitkraken-cheat-sheet.png' srcset="/wp-content/uploads/gitkraken-cheat-sheet@2x.png 2x" alt='GitKraken Cheat Sheet cover' style="height: 150px; width: auto; max-width: none;">
-        	    <p>GitKraken Cheat Sheet<br />(PDF)</p>
-        	</a>
-        </div>
-    </div>
-    <div class="flex-grid">
-        <div class="flex-item">
-        	<a href='https://www.gitkraken.com/pdfs/why-gitkraken' target='_blank' rel='noopener'>
-        	    <img src='/wp-content/uploads/why-gitkraken.jpg' srcset="/wp-content/uploads/why-gitkraken@2x.jpg 2x" alt='Why GitKraken cover' style="height: 150px; width: auto; max-width: none;">
-        	    <p>Why GitKraken<br />(PDF)</p>
-        	</a>
-        </div>
-        <div class="flex-item">
-            <a href='https://www.gitkraken.com/learn/git' target='_blank' rel='noopener'>
-                <img src='/wp-content/uploads/lgwgk.jpg' alt='Learning Git With GitKraken Image' style="height: 150px; width: auto; max-width: none;">
-                <p>Learning Git Tutorial<br />Videos</p>
-            </a>
-        </div>
-        <div class="flex-item"></div>
-    </div>
-</div>

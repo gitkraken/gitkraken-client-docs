@@ -145,7 +145,7 @@ GitKraken cannot see those repos when cloning or adding a fork unless the org sp
 
 * First check to see if access is allowed to GitKraken from your profile's [GitHub Applications](https://github.com/settings/connections/applications/a7557949433b7d282a76)
 * If access has been allowed, then the organization will need to allow [Organization Approval](https://help.github.com/articles/requesting-organization-approval-for-your-authorized-applications/)
-* If you are attempting to use GitKraken with a repository owned by a different individual, consider forking their repository to use GitKraken for your changes. Otherwise this other individual will need to first [install GitKraken](https://gitkraken.com) and connect it to GitHub (as shown in this page above) to authorize GitKraken.
+* If you are attempting to use GitKraken with a repository owned by a different individual, consider forking their repository to use GitKraken for your changes. Otherwise this other individual will need to first [install GitKraken](/gitkraken-client/how-to-install/) and connect it to GitHub (as shown in this page above) to authorize GitKraken.
 * For details about third-party application restrictions view [Third-party apps list](https://help.github.com/articles/about-third-party-application-restrictions/)
 
 ### GitHub Actions
@@ -159,51 +159,3 @@ Check out [GitHub Actions](/git-workflows-and-extensions/github-actions/) for mo
 GitKraken connects to one GitHub account at a time. However, with GitKraken Pro's multiple <a href="/start-here/profiles">profile</a> support, you can easily switch between profiles that each have their own associated GitHub accounts.
 
 ***
-
-## Training resources
-
-Share these resources with your team to explain why collaborating with GitKraken is easier, and to get everyone up and running with GitHub and GitKraken quickly.
-
-
-<div class='center'>
-    <div class="flex-grid">
-        <div class="flex-item">
-            <a href='https://www.gitkraken.com/integrations/github#how-to-github-gitkraken' target='_blank' rel='noopener'>
-                <img src='/wp-content/uploads/github-gitkraken.png'gitkraken-for-github-cheat-sheet-2@2x.jpg 2x" alt='How to use GitHub with GitKraken video thumbnail' style="height: 150px; width: auto; max-width: none;">
-                <p>How to use GitHub with GitKraken Video</p>
-            </a>
-        </div>
-        <div class="flex-item">
-            <a href='https://www.gitkraken.com/integrations/github#why-github-gitkraken' target='_blank' rel='noopener'>
-                <img src='/wp-content/uploads/gitkraken-github-whitepaper.jpg' srcset="/wp-content/uploads/gitkraken-github-whitepaper@2x.jpg 2x" alt='GitKraken for GitHub Users cover' style="height: 150px; width: auto; max-width: none;">
-                <p>GitHub White Paper<br />(PDF)</p>
-            </a>
-        </div>
-        <div class="flex-item">
-            <a href='https://www.gitkraken.com/pdfs/gitkraken-for-github-cheat-sheet' target='_blank' rel='noopener'>
-                <img src='/wp-content/uploads/gitkraken-for-github-cheat-sheet-2.jpg' srcset="/wp-content/uploads/gitkraken-for-github-cheat-sheet-2@2x.jpg 2x" alt='GitKraken for GitHub Users cover' style="height: 150px; width: auto; max-width: none;">
-                <p>GitHub Cheat Sheet<br />(PDF)</p>
-            </a>
-        </div>
-    </div>
-    <div class="flex-grid">
-        <div class="flex-item">
-        	<a href='https://www.gitkraken.com/pdfs/gitkraken-git-gui-cheat-sheet' target='_blank' rel='noopener'>
-        	    <img src='/wp-content/uploads/gitkraken-cheat-sheet.png' srcset="/wp-content/uploads/gitkraken-cheat-sheet@2x.png 2x" alt='GitKraken Cheat Sheet cover' style="height: 150px; width: auto; max-width: none;">
-        	    <p>GitKraken Cheat Sheet<br />(PDF)</p>
-        	</a>
-        </div>
-        <div class="flex-item">
-        	<a href='https://www.gitkraken.com/pdfs/why-gitkraken' target='_blank' rel='noopener'>
-        	    <img src='/wp-content/uploads/why-gitkraken.jpg' srcset="/wp-content/uploads/why-gitkraken@2x.jpg 2x" alt='Why GitKraken cover' style="height: 150px; width: auto; max-width: none;">
-        	    <p>Why GitKraken<br />(PDF)</p>
-        	</a>
-        </div>
-        <div class="flex-item">
-            <a href='https://www.gitkraken.com/learn/git' target='_blank' rel='noopener'>
-                <img src='/wp-content/uploads/lgwgk.jpg' alt='Learning Git With GitKraken Image' style="height: 150px; width: auto; max-width: none;">
-                <p>Learning Git Tutorial<br />Videos</p>
-            </a>
-        </div>
-    </div>
-</div>

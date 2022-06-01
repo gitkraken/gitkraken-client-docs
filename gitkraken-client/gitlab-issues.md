@@ -10,7 +10,7 @@ taxonomy:
 GitKraken Git GUI makes it easy to integrate with GitLab Issues.
 
 <div class='callout callout--basic'>
-    <p>The GitLab Issues integration is view-only for free users. To unlock all features for the GitLab Issues integration, consider upgrading to <a href="https://gitkraken.com/pricing"> GitKraken Pro </a>. </p>
+    <p>The GitLab Issues integration is view-only for free users. To unlock all features for the GitLab Issues integration, consider upgrading to a <a href="https://gitkraken.com/pricing">paid GitKraken subscription</a>.</p>
 </div>
 
 ***
@@ -29,7 +29,7 @@ From the Integrations window, select _GitLab.com_ and then hit the <button class
 
 This will open your default web browser where you can click <button class='button button--success button--ui button--nolink'>Continue authorization</button> and then log in with your GitLab credentials.
 
-<img src="/wp-content/uploads/authorize.png" srcset="/wp-content/uploads/authorize@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/authorize-gitlab.png" srcset="/wp-content/uploads/authorize-gitlab@2x.png 2x" class="img-responsive center img-bordered">
 
 <img src="/wp-content/uploads/gitlab-sign-in.png" srcset="/wp-content/uploads/gitlab-sign-in@2x.png 2x" class="img-responsive center img-bordered">
 
@@ -43,11 +43,11 @@ You'll then see a success message below and the connection will be active in Git
 
 Once connected, your GitLab issues will start to appear in the left panel. You will initally see  _My Issues_ and _All Issues_ filters by default. You can edit or remove these as needed.
 
-<img src="/wp-content/uploads/issue-list.png" srcset="/wp-content/uploads/issue-list@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/issue-list-gitlab.png" srcset="/wp-content/uploads/issue-list-gitlab@2x.png" class="img-bordered img-responsive center">
 
 Hover over any issue to get a preview of the issue Title, Description, labels, milestones and assignee.
 
-<img src="/wp-content/uploads/view-issue.png" srcset="/wp-content/uploads/view-issue@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/view-issue-gitlab.png" srcset="/wp-content/uploads/view-issue-gitlab@2x.png" class="img-bordered img-responsive center">
 
 ***
 
@@ -85,7 +85,7 @@ You can refer to [GitLab issue filtering](https://docs.gitlab.com/ee/user/search
 
 You may create a branches tied to an issue from the issue details view <button class='button button--success button--ui button--nolink'>Create a branch for this issue</button> button. You can also right-click the issue or click the <kbd> <i class="fa fa-ellipsis-v"></i> </kbd>.
 
-<img src="/wp-content/uploads/create-branch-from-issuer.png" srcset="/wp-content/uploads/create-branch-from-issue@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/create-branch-gitlab-issue.png" srcset="/wp-content/uploads/create-branch-gitlab-issue@2x.png" class="img-bordered img-responsive center">
 
 The branch name will automatically prefill based on the issue name. After the branch is created, these branches will be denoted with the GitLab icon to reflect its link to a GitLab issue.
 
