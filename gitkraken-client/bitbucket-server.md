@@ -76,7 +76,7 @@ First, you may search through your existing repositories when cloning:
 
 Next, GitKraken Client presents a list of forks of the current repository when adding remotes:
 
-<img src="/wp-content/uploads/-server-add-remote.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/bitbucket-server-add-remote.png" class="img-responsive center img-bordered">
 
 Of course, you still have the option of manually entering repo URLs.
 
