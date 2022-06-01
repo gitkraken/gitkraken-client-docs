@@ -28,23 +28,23 @@ GitKraken allows you to connect to GitHub Enterprise, which will help you find r
 
 To authenticate with GitHub Enterprise, navigate to the upper right corner to access <kbd><i> <i class="fas fa-cog"></i> Preferences    <i class='fa fa-caret-right'></i>     Integrations</i></kbd>
 
-<img src="/wp-content/uploads/preferences.png" srcset="/wp-content/uploads/preferences@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/preferences-github-enterprise.png" srcset="/wp-content/uploads/preferences-github-enterprise@2x.png" class="img-bordered img-responsive center">
 
 Or alternatively if you are in the <kbd>New Tab</kbd> view, click on <kbd>Preferences</kbd> under <strong>Customize</strong>.
 
-<img src="/wp-content/uploads/customize.png" srcset="/wp-content/uploads/customize@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/customize-github-enterprise.png" srcset="/wp-content/uploads/customize-github-enterprise@2x.png" class="img-bordered img-responsive center">
 
 From the Integrations window, enter your _Host Domain_ then click the Generate an access token on _your URL_ link.
 
-<img src="/wp-content/uploads/authentication.png" srcset="/wp-content/uploads/authentication@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/authentication-github-enterprise.png" srcset="/wp-content/uploads/authentication-github-enterprise@2x.png" class="img-bordered img-responsive center">
 
 This opens a web browser where you next log in with your GitHub Enterprise credentials and generate an access token.
 
-<img src='/wp-content/uploads/accesstoken.png' class='center img-bordered'>
+<img src='/wp-content/uploads/accesstoken-github-enterprise.png' class='center img-bordered'>
 
 Copy your token to the clipboard as this is the only time you will see this token.  Paste the token into GitKraken and click on <button class='button button--success button--ui button--nolink'>Connect</button>.
 
-<img src="/wp-content/uploads/authentication-connect.png" srcset="/wp-content/uploads/authentication-connect@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/authentication-connect-github-enterprise.png" srcset="/wp-content/uploads/authentication-connect-github-enterprise@2x.png" class="img-bordered img-responsive center">
 
 ### Generating an SSH Key for GitHub Enterprise
 <div class='callout callout'>
@@ -52,7 +52,7 @@ Copy your token to the clipboard as this is the only time you will see this toke
 </div>
 Once your GitHub Enterprise account has been connected to GitKraken, you may easily generate an SSH key and add it to your GitHub Enterprise account from <kbd><i>Preferences    <i class='fa fa-caret-right'></i>     Integrations</i></kbd>.
 
-<img src='/wp-content/uploads/ssh.png' srcset='/wp-content/uploads/ssh@2x.png' class='center img-responsive img-bordered'>
+<img src='/wp-content/uploads/ssh-github-enterprise.png' srcset='/wp-content/uploads/ssh-github-enterprise@2x.png' class='center img-responsive img-bordered'>
 
 Click the <button class='button button--success button--ui button--nolink'>Generate SSH key and add to GitHub Enterprise</button> button and watch the magic happen.
 
@@ -65,51 +65,3 @@ Alternatively add existing  _SSH Defaults_ with <button class='button button--ui
 GitKraken connects to one GitHub Enterprise account at a time. However, with GitKraken Pro's multiple <a href="/start-here/profiles">profile</a> support, you can easily switch between profiles that each have their own associated GitHub Enterprise accounts.
 
 ***
-
-## Training resources
-
-Share these resources with your team to explain why collaborating with GitKraken is easier, and to get everyone up and running with GitHub and GitKraken quickly.
-
-
-<div class='center'>
-    <div class="flex-grid">
-        <div class="flex-item">
-            <a href='https://www.gitkraken.com/integrations/github#how-to-github-gitkraken' target='_blank' rel='noopener'>
-                <img src='/wp-content/uploads/github-gitkraken.png'gitkraken-for-github-cheat-sheet-2@2x.jpg 2x" alt='How to use GitHub with GitKraken video thumbnail' style="height: 150px; width: auto; max-width: none;">
-                <p>How to use GitHub with GitKraken Video</p>
-            </a>
-        </div>
-        <div class="flex-item">
-            <a href='https://www.gitkraken.com/integrations/github#why-github-gitkraken' target='_blank' rel='noopener'>
-                <img src='/wp-content/uploads/gitkraken-github-whitepaper.jpg' srcset="/wp-content/uploads/gitkraken-github-whitepaper@2x.jpg 2x" alt='GitKraken for GitHub Users cover' style="height: 150px; width: auto; max-width: none;">
-                <p>GitHub White Paper<br />(PDF)</p>
-            </a>
-        </div>
-        <div class="flex-item">
-            <a href='https://www.gitkraken.com/pdfs/gitkraken-for-github-cheat-sheet' target='_blank' rel='noopener'>
-                <img src='/wp-content/uploads/gitkraken-for-github-cheat-sheet-2.jpg' srcset="/wp-content/uploads/gitkraken-for-github-cheat-sheet-2@2x.jpg 2x" alt='GitKraken for GitHub Users cover' style="height: 150px; width: auto; max-width: none;">
-                <p>GitHub Cheat Sheet<br />(PDF)</p>
-            </a>
-        </div>
-    </div>
-    <div class="flex-grid">
-        <div class="flex-item">
-        	<a href='https://www.gitkraken.com/pdfs/gitkraken-git-gui-cheat-sheet' target='_blank' rel='noopener'>
-        	    <img src='/wp-content/uploads/gitkraken-cheat-sheet.png' srcset="/wp-content/uploads/gitkraken-cheat-sheet@2x.png 2x" alt='GitKraken Cheat Sheet cover' style="height: 150px; width: auto; max-width: none;">
-        	    <p>GitKraken Cheat Sheet<br />(PDF)</p>
-        	</a>
-        </div>
-        <div class="flex-item">
-        	<a href='https://www.gitkraken.com/pdfs/why-gitkraken' target='_blank' rel='noopener'>
-        	    <img src='/wp-content/uploads/why-gitkraken.jpg' srcset="/wp-content/uploads/why-gitkraken@2x.jpg 2x" alt='Why GitKraken cover' style="height: 150px; width: auto; max-width: none;">
-        	    <p>Why GitKraken<br />(PDF)</p>
-        	</a>
-        </div>
-        <div class="flex-item">
-            <a href='https://www.gitkraken.com/learn/git' target='_blank' rel='noopener'>
-                <img src='/wp-content/uploads/lgwgk.jpg' alt='Learning Git With GitKraken Image' style="height: 150px; width: auto; max-width: none;">
-                <p>Learning Git Tutorial<br />Videos</p>
-            </a>
-        </div>
-    </div>
-</div>
