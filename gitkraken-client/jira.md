@@ -14,7 +14,7 @@ GitKraken Git GUI makes it easy to integrate with Jira Cloud and Jira Server.
 </div>
 
 <div class='callout callout--basic'>
-    <p>The Jira integration is view-only for free users. To unlock all features for the Jira integration, consider upgrading to <a href="https://gitkraken.com/pricing"> Paid GitKraken plan</a>. </p>
+    <p>The Jira integration is view-only for free users. To unlock all features for the Jira integration, consider upgrading to a <a href="https://gitkraken.com/pricing">paid GitKraken subscription</a>.</p>
 </div>
 ***
 
@@ -22,7 +22,7 @@ GitKraken Git GUI makes it easy to integrate with Jira Cloud and Jira Server.
 
 Set up the integration from the ISSUES pane in the left panel or from <kbd><i>Preferences    <i class='fa fa-caret-right'></i>     Integrations</i></kbd>.
 
-<img src="/wp-content/uploads/connect-jira.png" srcset="/wp-content/uploads/connect-jira@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/connect-jira-integration.png" srcset="/wp-content/uploads/connect-jira-integration@2x.png" class="img-bordered img-responsive center">
 
 You will then be prompted by an Atlassian page to allow GitKraken Git GUI to connect to your Jira account. Hit <em>Accept</em> to proceed.
 
