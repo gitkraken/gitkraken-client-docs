@@ -105,9 +105,9 @@ Next navigate to `Environmental Variables...` <i class='fa fa-caret-right'></i> 
 
 <img src="/wp-content/uploads/lfs-AddPathVariable-1.png" srcset="/wp-content/uploads/lfs-AddPathVariable@2x-1.png 2x" class="img-responsive center img-bordered">
 
-<img src="/wp-content/uploads/git-lfs/lfs-AddPathVariable-2.png" srcset="/wp-content/uploads/lfs-AddPathVariable@2x-2.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/lfs-AddPathVariable-2.png" srcset="/wp-content/uploads/lfs-AddPathVariable@2x-2.png 2x" class="img-responsive center img-bordered">
 
-<img src="/wp-content/uploads/git-lfs/lfs-AddPathVariable-3.png" srcset="/wp-content/uploads/lfs-AddPathVariable@2x-3.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/lfs-AddPathVariable-3.png" srcset="/wp-content/uploads/lfs-AddPathVariable@2x-3.png 2x" class="img-responsive center img-bordered">
 
 You will likely need to add both git and git LFS (LFS can have multiple paths, you would want to add them all).
 
@@ -147,7 +147,7 @@ When you initialize a new repository, you will have the option to _Initialize wi
 
 Once LFS is initialized on a repository, add tracking patterns to the `.gitattributes` file.  These tracking patterns will tell LFS which files to monitor in your repository.
 
-<img src='/wp-content/uploads/git-lfs/tracking-patterns-lfs.png' srcset='/wp-content/uploads/tracking-patterns-lfs@2x.png 2x' class='img-responsive center img-bordered'/>
+<img src='/wp-content/uploads/tracking-patterns-lfs.png' srcset='/wp-content/uploads/tracking-patterns-lfs@2x.png 2x' class='img-responsive center img-bordered'/>
 
 Access the `.gitattributes` file by going to <em class='context-menu'>Preferences <i class="fa fa-caret-right"></i> LFS</em> or by editing the `.gitattributes` file directly in your text editor.
 
@@ -155,7 +155,7 @@ As another option, add tracking patterns to the repository’s `.gitattributes` 
 
 Select the WIP node, right click the file you wish to be tracked by LFS, and select the desired option under LFS.
 
-<img src='/wp-content/uploads/git-lfs/context-menu-lfs.png' srcset='/wp-content/uploads/git-lfs/context-menu-lfs@2x.png 2x' class='img-responsive center img-bordered' />
+<img src='/wp-content/uploads/context-menu-lfs.png' srcset='/wp-content/uploads/context-menu-lfs@2x.png 2x' class='img-responsive center img-bordered' />
 
 <div class='callout callout--success'>
     <p>Note: GitKraken Client will automatically perform an LFS pull after cloning a repo or initializing a submodule with LFS </p>
@@ -185,42 +185,43 @@ Click the arrow on the button and select the desired command. Other than _Prune_
     <p><strong>Note:</strong> Pruning is not automatic. Pruning is considered a destructive operation, so be careful about when you run the <em>Prune</em> command. See the <a href="https://github.com/git-lfs/git-lfs/blob/master/docs/man/git-lfs-prune.1.ronn" target="_blank">Git LFS documentation</a> to learn more.</p>
 </div>
 
-## LFS Features &amp; interface
+## LFS FAQ
+### LFS Features &amp; interface
 
-### I updated to v3.0.0 of GitKraken Client but I cannot find LFS anywhere?
+#### I updated to v3.0.0 of GitKraken Client but I cannot find LFS anywhere?
 
 You will need to make sure you have Git v1.8.5 and LFS v2.0.0 installed on your local machine.
 
 
-### I switched repos and now I do not see the LFS BETA button. Where did it go?
+#### I switched repos and now I do not see the LFS BETA button. Where did it go?
 
 It is most likely that you have switched to a repository that does not have LFS initialized. If you wish to initialize this repo with LFS, you can do so by navigating to the hamburger menu → LFS → Initialize LFS on this repo.
 
-### I added a LFS tracking pattern in GitKraken Client but files with that pattern are not being tracked by LFS, what gives?
+#### I added a LFS tracking pattern in GitKraken Client but files with that pattern are not being tracked by LFS, what gives?
 
 Only new files will be tracked by the newly added pattern. If files of the newly added pattern are already being tracked by Git, you will need to untrack them and then re-track them.
 
 The easiest way to do this in GitKraken Client is to remove the files from the repository (Git will think they have been removed/deleted), commit, then re-add the files and re-commit. The re-added files should now follow your new tracking pattern.
 
-### After trying to push my files, I see a prompt requiring my credentials. What credentials is it referring to?
+#### After trying to push my files, I see a prompt requiring my credentials. What credentials is it referring to?
 
 This prompt occurs if your LFS server credentials are not cached. If you are using the same remote hosting service (such as GitHub), then enter the hosting service credentials.
 
 If you are using an internal LFS server (or another LFS service), you will need to enter the credentials for the LFS server.
 
-## Common Pitfalls
+### Common Pitfalls
 
-### Why is LFS STILL not showing up? 
+#### Why is LFS STILL not showing up? 
 
-If LFS is still not appearing as an option in GitKraken Client preferences menu, you may need to add it to your `Path` variable. This can happen if git or git LFS is not installed in the default directory. You should [Verify Git and LFS Versions](/git-workflows-and-extensions/intro-and-requirements/#verify-git-and-lfs-versions).
+If LFS is still not appearing as an option in GitKraken Client preferences menu, you may need to add it to your `Path` variable. This can happen if git or git LFS is not installed in the default directory. You should [Verify Git and LFS Versions](/gitkraken-client/git-lfs/#elementor-toc__heading-anchor-2).
 
-### SSH Keys in GitKraken Client and the CLI
+#### SSH Keys in GitKraken Client and the CLI
 Unlike most features in GitKraken Client, the LFS feature does require git for the CLI as well as LFS. This means that if you are trying to use SSH, your key will need to be configured in your GitKraken Client and for the CLI.
 
 You can automatically generate an SSH Key in GitKraken Client in **Preferences -> Authentication -> General** and save wherever you want locally, or the key will be  in your `.gitkraken\profiles` folder if you generate from a specific integration. 
 
 You can also use the SSH Agent option to setup and manage your keys, and then tell GitKraken Client to use your agent. [Adding an SSH Key to an SSH Agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) by GitHub
 
-### Using LFS installed using Homebrew on macOS
+#### Using LFS installed using Homebrew on macOS
 
 If LFS was installed using Homebrew, it may not appear in your path. You can run `sudo launchctl config user path "/usr/local/bin:$PATH"` to add homebrew utilities to the PATH for GUI apps. You can see more information on this from the [Homebrew documentation](https://docs.brew.sh/FAQ#my-mac-apps-dont-find-usrlocalbin-utilities).

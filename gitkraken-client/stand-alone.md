@@ -1,13 +1,13 @@
 ---
 
-Title: Stand Alone 
+Title: Stand-Alone Client
 description: No Git tools are required for GitKraken Stand-Alone, so once you’ve run the installer, you can open the app and get going.
 taxonomy:
     category: gitkraken-client
 
 ---
 
-GitKraken Stand-Alone is built for enterprises of 100+ who work in a disconnected development environment. You get all the same core <a href="https://www.gitkraken.com/git-client" target=_blank>GitKraken features</a>, along with these additional benefits:
+GitKraken Stand-Alone is built for enterprises of 10+ who work in a disconnected development environment. You get all the same core <a href="https://www.gitkraken.com/git-client" target=_blank>GitKraken features</a>, along with these additional benefits:
 
 - For use without internet
 - No account creation required
@@ -90,7 +90,7 @@ When you first open GitKraken Stand-Alone Client, you will be prompted to load t
 
 <img src="/wp-content/uploads/license.png" class="img-responsive center img-bordered">
 
-If do not have the license, please contact your GitKraken administrator. If you are the GitKraken administrator, please contact <a href="mailto:sales@gitkraken.com" target=_blank>sales@gitkraken.com</a> for the license file associated with your purchase.
+If do not have the license, please contact your GitKraken administrator. If you are the GitKraken administrator, yiou can find your license file on app.gitkraken.com. If you have an older account or you need assistance locating your license file, [contact us](https://www.gitkraken.com/contact).
 
 Once the license file is applied, you are ready to get crackin'!
 
