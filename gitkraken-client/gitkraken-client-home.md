@@ -18,11 +18,6 @@ Check out the Video and links below, or use the left navigation to start explori
     <iframe width='560' height='315' src='https://www.youtube.com/embed/RiAeNSFjjLc?rel=0&vq=hd1080' frameborder='0' allowfullscreen></iframe>
 </div>
 
-
-<div class='embed-container embed-container--16-9'>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/playlist?list=PLe6EXFvnTV7-_41SpakZoTIYCgX4aMTdU" frameborder="0" gesture="media" allowfullscreen></iframe>
-</div>
-
 ***
 
 ## Getting Started
