@@ -11,7 +11,6 @@ The legendary Git client with an intuitive Git GUI & powerful CLI.
 
 Check out the Video and links below, or use the left navigation to start exploring.
 
-<a id="get-started"></a>
 ## GitKraken Client Tutorial
 
 <div class='embed-container embed-container--16-9'>
