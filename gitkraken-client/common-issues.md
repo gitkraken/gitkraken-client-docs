@@ -96,5 +96,3 @@ Some Windows users are seeing the taskbar icon show incorrectly for GitKraken. T
 
 ### Solution:
 You can delete the old folder `C:\Users\USER\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Axosoft, LLC`, start GitKraken from the start menu, and then pin it to the taskbar again to resolve this.
-
-Error not here? Check out our [technical issues FAQ](/faq/#technical-issues)
