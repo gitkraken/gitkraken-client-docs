@@ -13,8 +13,17 @@ Check out the Video and links below, or use the left navigation to start explori
 
 ## GitKraken Client Tutorial
 
-<div class='embed-container embed-container--16-9'>
+<!-- <div class='embed-container embed-container--16-9'>
     <iframe width='560' height='315' src='https://www.youtube.com/embed/RiAeNSFjjLc?rel=0&vq=hd1080' frameborder='0' allowfullscreen></iframe>
+</div> -->
+
+
+## GitKraken Tutorials
+
+Need a hand jumping into the product? Here's a playlist with a few video tutorials.
+
+<div class='embed-container embed-container--16-9'>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/playlist?list=PLe6EXFvnTV78WqGmGSq8JPnafR3lAa55n" frameborder="0" gesture="media" allowfullscreen></iframe>
 </div>
 
 ***
