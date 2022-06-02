@@ -86,7 +86,7 @@ Read more about Trello filters on the [Trello support site](https://help.trello.
 
 You may create a branches tied to a card from the card details view.
 
-<img src="/wp-content/uploads/create-branch-trello-integration.gif" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/create-branch-jira-integration.gif" class="img-bordered img-responsive center">
 
 The branch name will automatically prefill based on the card name. After the branch is created, these branches will be denoted with an icon to reflect its link to a Trello card.
 

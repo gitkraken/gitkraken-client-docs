@@ -37,7 +37,7 @@ This usually indicates that there is a casing difference between the local branc
 
 <div class='callout callout--warning'>
     <p>Note: You may need an intermediate name change to get the branch named correctly.  For example: Test-branch > temp-name > test-branch</p>
-</div>/wp-content/uploads/
+</div>
 
 ***
 ## Some branches or files not appearing - Capitalization issue

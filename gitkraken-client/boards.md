@@ -11,7 +11,7 @@ taxonomy:
     <p> GitKraken Boards and GitKraken Timelines will sunset at the end of 2022. Please read our <a href="https://www.gitkraken.com/boards-and-timelines" target="_blank">full anouncement and FAQ</a> to learn more. </p>
 </div>
 
-For anthing related to GitKraken Boards, refer [this documnetation](https://support.gitkraken.com/boards/quick-start/)
+For anthing related to GitKraken Boards, refer to [this documnetation](https://support.gitkraken.com/boards/quick-start/)
 
 ***
 
