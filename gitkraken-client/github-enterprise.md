@@ -44,7 +44,7 @@ This opens a web browser where you next log in with your GitHub Enterprise crede
 
 Copy your token to the clipboard as this is the only time you will see this token.  Paste the token into GitKraken and click on <button class='button button--success button--ui button--nolink'>Connect</button>.
 
-<img src="/wp-content/uploads/authentication-connect-github-enterprise.png" srcset="/wp-content/uploads/authentication-connect-github-enterprise@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/authentication-connect-github-enterprise.png" srcset="/wp-content/uploads/authentication-connect-github-enterprise.png" class="img-bordered img-responsive center">
 
 ### Generating an SSH Key for GitHub Enterprise
 <div class='callout callout'>

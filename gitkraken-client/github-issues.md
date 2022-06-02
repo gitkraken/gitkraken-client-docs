@@ -10,7 +10,7 @@ taxonomy:
 GitKraken Git GUI makes it easy to integrate with GitHub Issues.
 
 <div class='callout callout--basic'>
-    <p>The GitHub Issues integration is view-only for free users. To unlock all features for the GitHub Issues integration, consider upgrading to <a href="https://gitkraken.com/pricing"> GitKraken Pro </a>. </p>
+    <p>The GitHub Issues integration is view-only for free users. To unlock all features for the GitHub Issues integration, consider upgrading to a <a href="https://gitkraken.com/pricing"> paid GitKraken license </a>. </p>
 </div>
 
 ### Connect GitHub Integration

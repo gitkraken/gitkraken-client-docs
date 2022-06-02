@@ -126,7 +126,7 @@ By default, the merge will default to the <kbd>Create a merge commit</kbd> setti
 
 ## Working with active pull requests
 
-GitKraken Client displays active pull requests in your graph with this <em class='context-menu'><img style='height:1.5em;' src='/wp-content/uploads/icons/gk-pull-request-icon.svg'></em> icon. Pull requests also appear in the left panel PULL REQUESTS section.
+GitKraken Client displays active pull requests in your graph with this <em class='context-menu'><img style='height:1.5em;' src='/wp-content/uploads/gk-pull-request-icon.svg'></em> icon. Pull requests also appear in the left panel PULL REQUESTS section.
 
 Sections in PULL REQUESTS each denote a filtered view of pull requests on this repository. GitKraken Client will start with several pull request filters for you, note the filters such as *My pull requests* and <i>All pull requests</i>. You can modify, delete, or create your own <a href="/working-with-repositories/pull-requests-filter-syntax/">pull request filters</a>.
 

@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-Tags <em class='context-menu'><img style='translate:rotate(180deg);height:1em;' src='/wp-content/uploads/icons/gk-tag-icon.svg'></em> are pointers to a commit.  Some examples of these are for marking versions of your product or important changes.
+Tags <em class='context-menu'><img style='translate:rotate(180deg);height:1em;' src='/wp-content/uploads/gk-tag-icon.svg'></em> are pointers to a commit.  Some examples of these are for marking versions of your product or important changes.
 
 ***
 ### Adding tags

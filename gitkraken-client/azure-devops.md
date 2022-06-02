@@ -36,11 +36,11 @@ From the Authentication window, enter your _Host Domain_ then click the <button 
 
 This opens a web browser where you next log in with your Azure DevOps credentials and generate an access token.
 
-<img src="/wp-content/uploads/accesstoken-github-enterprise.png" srcset="/wp-content/uploads/accesstoken-github-enterprise@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/accesstoken-github-enterprise.png" srcset="/wp-content/uploads/accesstoken-github-enterprise.png" class="img-bordered img-responsive center">
 
 Copy your token to the clipboard as this is the only time you will see this token.  Paste the token into GitKraken and click on <button class='button button--success button--ui button--nolink'>Connect</button>.
 
-<img src="/wp-content/uploads/authentication-connect-github-enterprise.png" srcset="/wp-content/uploads/authentication-connect-github-enterprise@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/authentication-connect-github-enterprise.png" srcset="/wp-content/uploads/authentication-connect-github-enterprise.png" class="img-bordered img-responsive center">
 
 ### Generating an SSH Key for Azure DevOps
 GitKraken uses your local SSH Config from _SSH Defaults_ to fetch and push unless you set up a Azure DevOps-specific SSH key, or enable your local SSH Agent.
