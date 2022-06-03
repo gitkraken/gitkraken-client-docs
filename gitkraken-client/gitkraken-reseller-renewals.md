@@ -21,7 +21,7 @@ If you are an unlicensed `Admin` on the customer account, update billing details
 ## Active account 
 
 1. Log into <a href="https://app.gitkraken.com" target="_blank">https://app.gitkraken.com</a>
-2. Click on <em class="context-menu">Organizations  <i class="fa fa-caret-right"></i> [Customer organization name]</em> 
+2. Click on <kbd><strong>Organization</strong></kbd> > <kbd><strong>[Customer organization name]</strong></kbd>
 3. Navigate to the <kbd>Subscriptions</kbd> tab 
 4. Under <strong>Subscription Details</strong>, select <button class='button button--primary button--ui button--nolink'><span style='color:#141422;'>Update Payment</span></button>
 

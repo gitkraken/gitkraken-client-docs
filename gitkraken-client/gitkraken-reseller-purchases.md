@@ -11,13 +11,12 @@ Follow this reseller guide for purchasing and user license management informatio
 
 ***
 
-<img src="/img/documentation/managing-organizations/purchasing-process.png" srcset="/img/documentation/managing-organizations/purchasing-process@2x.png 2x" class="img-responsive center img-bordered">
-
+<img src="/wp-content/uploads/purchasing-process.png" srcset="/wp-content/uploads/purchasing-process@2x.png 2x" class="img-responsive center img-bordered">
 
 ## 1. Create an account
 First, create a GitKraken account using your reseller email address by navigating to <a href="https://app.gitkraken.com/register" target="_blank">https://app.gitkraken.com/register</a>
 
-- Do not use the GitHub option. Fill out the form instead. 
+- Fill out the form, do not use the auto-sign-in options (like "sign in with GitHub.com"). 
 
 - Do not enter end-user information on the registration form. Resellers should register with their own email.
 
@@ -45,7 +44,7 @@ Find the user count associated with the customer request and select <button clas
 ## 3. Enter Organization, Billing Details, and transfer ownership
 
 <div class='callout callout--warning'>
-    <p><strong>Note:</strong> GitKraken Pro <strong>only accepts credit card payment, PayPal, and bank order</strong>. <br> <br> However, invoicing is supported for GitKraken Enterprise. Contact our <a href="mailto:salesg@gitkraken.com">Sales</a><sales@gitkraken.com> team to learn more.
+    <p><strong>Note:</strong> GitKraken Subscriptions<strong>only accept credit card payment, PayPal, and bank order</strong>. <br> <br> However, invoicing is supported for large purchases of GitKraken Enterprise. Contact our <a href="mailto:salesg@gitkraken.com">Sales</a><sales@gitkraken.com> team to learn more.
 </p>
 </div>
 
@@ -92,7 +91,7 @@ User roles:
 
 ### User Instructions 
 
-There are _no keys or license files_ to share with the users. Instead:
+There are **_no keys or license files_** to share with the users. Instead:
 
 - Users that have been added to the subscription will receive an email invitation from GitKraken with relevant instructions. 
 - Users will <a href="https://www.gitkraken.com/download" target="_blank">download GitKraken</a> and use their credentials to log-in. 

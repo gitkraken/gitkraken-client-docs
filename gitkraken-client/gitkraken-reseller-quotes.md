@@ -21,7 +21,7 @@ If you are an `Admin` or `Billing Contact (unlicensed)` on the customer account,
 Here's how to obtain a quote for new users on an existing team:
 
 1. Log into <a href="https://app.gitkraken.com" target="_blank">https://app.gitkraken.com</a>
-2. Click on <em class="context-menu">Organizations  <i class="fa fa-caret-right"></i> [Customer organization name]</em> 
+2. Click on <kbd><strong>Organization</strong></kbd> > <kbd><strong>[Customer organization name]</strong></kbd>
 3. Navigate to the <kbd>Subscriptions</kbd> tab 
 4. Under <strong>Subscription Details</strong>, increase *Total # of Users* to reflect the total user count including the additional licenses you are purchasing for the customer
 
@@ -38,7 +38,7 @@ To purchase the additional users, select <button class='button button--success b
 To gather the yearly renewal quote for the customer:
 
 1. Log into <a href="https://app.gitkraken.com" target="_blank">https://app.gitkraken.com</a>
-2. Click on <em class="context-menu">Organizations  <i class="fa fa-caret-right"></i> [Customer organization name]</em> 
+2. Click on <kbd><strong>Organization</strong></kbd> > <kbd><strong>[Customer organization name]</strong></kbd>
 3. Navigate to the <kbd>Subscriptions</kbd> tab 
 
 The <strong>Billing Summary</strong> will indicate the *Annual Total*. Please use this to provide the customer an official quote for the yearly renewal. The date of the renewal is listed *Next charge*. 

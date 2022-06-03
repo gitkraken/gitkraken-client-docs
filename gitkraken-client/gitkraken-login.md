@@ -7,7 +7,7 @@ taxonomy:
     
 ---
 
-You've installed the app; fantastic! Now to login with your account.
+You've installed GitKraken Client; fantastic! Now to login with your account.
 
 ***
 ## Logging into your account
@@ -40,16 +40,3 @@ If however GitKraken Client does not automatically log you in after signing in w
 <img src='/wp-content/uploads/google-token.png' srcset='/wp-content/uploads/google-token@2x.png 2x' class='img-bordered img-responsive center'>
 
 Additionally if your Google account has a GitKraken account associated, the app will automatically link the accounts together. 
-
-
-***
-
-## FAQ
-
-### Can I use my GitKraken Pro license on more than one computer?
-
-Yes, your GitKraken Pro paid subscription is associated with your email address, not a specific computer. So you can use GitKraken Pro on as many computers as you'd like!
-
-###I just subscribed but I do not see PRO in the lower right corner.
-
-Be sure you are logged in with the same email address registered with your GitKraken Pro subscription. You can check by navigating to <em class='context-menu'><i class="fa fa-bars"> </i>  <i class='fa fa-caret-right'></i> Sign into a different account</em>, and then verify that your email is correct.

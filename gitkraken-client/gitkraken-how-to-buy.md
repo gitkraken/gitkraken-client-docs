@@ -77,7 +77,7 @@ After purchase, add users to your subscription!
 Each user will need a GitKraken Client license, here is how to bestow a license:
 
 ### Allocating licenses
-1. Under <em class="context-menu">Organization  <i class="fa fa-caret-right"></i> [Your organization name]</em> , click <button class='button button--success button--ui button--nolink'>Add User</button>
+1. Under <kbd><strong>Organization</strong></kbd> > <kbd><strong>[Your organization name]</strong></kbd>, click <button class='button button--success button--ui button--nolink'>Add User</button>
 2. Enter the user email address
 3. Select the user role
 4. Click <button class='button button--success button--ui button--nolink'>Add user</button>
@@ -94,7 +94,7 @@ Additionally, you can set up a user as a <kbd>Billing Contact (unlicensed)</kbd>
 
 
 <div class='callout callout--success'>
-    <p> <strong>Tip:</strong> Questions about upgrading your plan or an order? Contact our <a href="mailto:sales@gitkraken.com">Success</a> or <a href="mailto:accounting@gitkraken.com">Accounting</a> teams as needed!</p>
+    <p> <strong>Tip:</strong> Questions about upgrading your plan or an order? <a href="https://www.gitkraken.com/contact">Contact us</a></p>!
 </div>
 
 ***
@@ -103,4 +103,4 @@ Additionally, you can set up a user as a <kbd>Billing Contact (unlicensed)</kbd>
 
 A copy of the invoice receipt will be automatically emailed to the purchaser's email address from accounting@gitkraken.com. Make sure to check your email filters!
 
-You may request a copy of your receipt by emailing <a href="mailto:accounting@gitkraken.com">Accounting</a>.
+You may request a copy of your receipt by <a href="https://www.gitkraken.com/contact#accounting">contacting accounting</a>.

@@ -45,7 +45,7 @@ When the trial ends, the *Owner* will be prompted to purchase licenses:
 
 <img src="/wp-content/uploads/trial-end-org-owner.png" srcset="/wp-content/uploads/trial-end-org-owner@2x.png 2x" class="img-responsive center img-bordered">
 
-The trial organization may be converted to a paid account at any time by logging into [https://app.gitkraken.com](https://app.gitkraken.com) and navigating to <em class="context-menu">Organization  <i class="fa fa-caret-right"></i> [Your organization name] <i class="fa fa-caret-right"></i> Subscription </em> and then <button class='button button--success button--ui button--nolink'>Reactivate</button>. 
+The trial organization may be converted to a paid account at any time by logging into [https://app.gitkraken.com](https://app.gitkraken.com) and navigating to <kbd><strong>Organization</strong></kbd> > <kbd><strong>[Your organization name]</strong></kbd> > <kbd><strong>Subscription</strong></kbd> and then <button class='button button--success button--ui button--nolink'>Reactivate</button>. 
 
 The Reactivate action will convert the trial organization to paid account with all the users previously added. There is no need to re-add users.
 
