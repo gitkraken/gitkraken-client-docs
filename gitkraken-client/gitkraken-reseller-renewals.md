@@ -25,7 +25,7 @@ If you are an unlicensed `Admin` on the customer account, update billing details
 3. Navigate to the <kbd>Subscriptions</kbd> tab 
 4. Under <strong>Subscription Details</strong>, select <button class='button button--primary button--ui button--nolink'><span style='color:#141422;'>Update Payment</span></button>
 
-<img src="/img/documentation/managing-organizations/buy/edit-billing-other.png"class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/edit-billing-other.png"class="img-bordered img-responsive center">
 
 The <strong>Billing Summary</strong> panel provides overview of the subscription, including user count, cost, and renewal date. Please utlize this to provide the customer an <a href="/account/quotes">official renewal quote</a>.
 
@@ -42,4 +42,4 @@ To reactivate and successfully renew the customer's existing account:
 3. Navigate to the <kbd>Subscriptions</kbd> tab 
 4. At the bottom of <strong>Billing Summary</strong>, select <button class='button button--success button--ui button--nolink'>Reactivate</button>. 
 
-<img src="/img/documentation/managing-organizations/buy/reactivate-account.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/reactivate-account.png" class="img-responsive center img-bordered">

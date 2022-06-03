@@ -1,7 +1,7 @@
 ---
 
 title: How to buy
-description: Learn how to buy your GitKraken Pro subscription.
+description: Learn how to buy your GitKraken subscription.
 taxonomy:
     category: gitkraken-client
     
@@ -23,6 +23,7 @@ If you are buying the subscription on behalf of an organization, don't worry. Gi
 <div class='callout callout--danger'>
     <p><strong>Note:</strong> Check your email to verify your account registration. You will not be able to manage your organization until this step is complete.</p>
 </div>
+
 ***
 
 ## 2. Choose a plan
@@ -31,14 +32,14 @@ After account creation, choose your plan. Select the corresponding <button class
 
 If you need to come back to this page later, navigate directly to [https://app.gitkraken.com](https://app.gitkraken.com), or click _Manage Account_ from the user menu dropdown in-app when ready.
 
-<img src="/img/documentation/managing-organizations/buy/GK-plans.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/gk-plans1.png" class="img-responsive center img-bordered">
 
 ***
 ## 3. Enter billing
 
 Next, enter the Organization name followed by the billing details.
 
-<img src="/img/documentation/managing-organizations/buy/billing.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/billing.png" class="img-responsive center img-bordered">
 
 If paying via Paypal, please first follow the prompts to authenticate with Paypal.
 
@@ -54,11 +55,11 @@ You may purchase a GitKraken product via ACH, SEPA, BACS transfer by selecting t
 
 To enter a VAT number, first select your <kbd>Country</kbd>. If the selected country supports VAT, the `Enter VAT number` link will appear which you may click.
 
-<img src="/img/documentation/managing-organizations/buy/enter-VAT.png" srcset="/img/documentation/managing-organizations/buy/enter-VAT@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/enter-VAT.png" srcset="/wp-content/uploads/enter-VAT@2x.png 2x" class="img-responsive center img-bordered">
 
 Then you may enter the details as part of your purchase.
 
-<img src="/img/documentation/managing-organizations/buy/vat-form.png" srcset="/img/documentation/managing-organizations/buy/vat-form@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/vat-form.png" srcset="/wp-content/uploads/vat-form@2x.png 2x" class="img-responsive center img-bordered">
 
 VAT details will display on the GitKraken invoice automatically emailed to the purchaser from accounting@gitkraken.com.
 
@@ -71,7 +72,7 @@ VAT details will display on the GitKraken invoice automatically emailed to the p
 
 After purchase, add users to your subscription! 
 
-<img src="/img/documentation/managing-organizations/buy/licenses-page.png" srcset="/img/documentation/managing-organizations/buy/licenses-page@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/licenses-page.png" srcset="/wp-content/uploads/licenses-page@2x.png 2x" class="img-responsive center img-bordered">
 
 Each user will need a GitKraken Client license, here is how to bestow a license:
 

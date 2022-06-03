@@ -62,9 +62,7 @@ Once you have GPG installed on your machine, you will need to configure GitKrake
     * You may need to configure the GPG Program setting first.
     + If you installed GPG while GitKraken Client was open, you may need to fully close GitKraken Client and re-launch it.
 
-+ **GPG Program:** This is the location of where GPG is installed on your local machine. If GPG is on your path, GitKraken Client should automatically detect the GPG program. However, it is possible to have multiple installations of GPG so you can specify which one GitKraken Client should point to by using the
-<button class='button button--primary button--ui button--nolink'><span style='color:#E9EEFF;'>Browse</span></button>
-button.
++ **GPG Program:** This is the location of where GPG is installed on your local machine. If GPG is on your path, GitKraken Client should automatically detect the GPG program. However, it is possible to have multiple installations of GPG so you can specify which one GitKraken Client should point to by using the <button class='button button--primary button--ui button--nolink'><span style='color:#E9EEFF;'>Browse</span></button> button.
 
 <img src="/wp-content/uploads/gpg-browse-button.png" srcset="/wp-content/uploads/gpg-browse-button.png 2x" class="img-bordered img-responsive center">
 

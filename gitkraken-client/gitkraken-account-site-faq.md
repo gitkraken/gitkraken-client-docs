@@ -22,14 +22,14 @@ If you have questions about your trial, please [contact our sales team](https://
 
 Yes. If you are the `Owner` of a <strong>GitKraken Pro</strong> account, then you may transfer ownership to a different user from your account.
 
-<img src="/img/documentation/managing-organizations/buy/transfer-ownership.png" srcset="/img/documentation/managing-organizations/buy/transfer-ownership.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/transfer-ownership.png" srcset="/wp-content/uploads/transfer-ownership.png" class="img-responsive center img-bordered">
 
 
 ***
 
 ### Are licenses transferable to other users?
 
-Yes. You can reallocate a <strong>GitKraken Pro</strong> license to a different user at any time by [managing your subscription](/account/organizations).
+Yes. You can reallocate a license to a different user in your organization at any time by [managing your subscription](/account/organizations).
 
 
 ***
@@ -44,7 +44,7 @@ The <kbd>User</kbd> role does not have permission to allocate, edit or remove us
 
 ### Can I pay using a Purchase Order.
 
-We only accept credit card payments for GitKraken Client Pro. We do however accept purchase orders for [GitKraken Enterprise or Stand-Alone](https://gitkraken.com/pricing).
+We only accept credit card payments for GitKraken Client Pro and Teams. We do however accept purchase orders for [GitKraken Enterprise or Stand-Alone](https://gitkraken.com/pricing).
 
 ***
 
@@ -80,32 +80,16 @@ If using the GitKraken Stand-Alone Client, the client will lock upon license exp
 
 ***
 
-## Reseller Questions
-
 ### What if I am a reseller?
 
 Resellers may purchase GitKraken Client Pro licenses on behalf of an end-user. Please check out our [Reseller Guide](/account/new-pro-purchases) for specific reseller purchasing instructions.
 
-
-
-### Can I pay with a Purchase Order?
-
-We only accept credit card payments, PayPal and bank order.
+***
 
 ### I will pay using a credit card, but I need the credit card details removed after purchase.
 
 Please email <accounting@gitkraken.com> with any request to manually remove billing details from an account. We typically fulfill these requests within 1 business day.
 
-### I just purchased. Where is my key? Shouldn't I get emailed a license?
 
-While GitKraken Client is a downloadable application, there is no key for your account. All licenses are managed from [https://app.gitkraken.com](https://app.gitkraken.com/). Additionally, any users you add to your account will be emailed a link to activate their account automatically.
-
-### Are licenses transferable to other users?
-
-Yes. You can reallocate a license to a different user at any time by [managing your subscription](/account/organizations).
-
-### Can I use my GitKraken Pro license on more than one computer?
-
-Yes, your GitKraken Pro paid subscription is associated with your email address, not a specific computer. So you can use GitKraken Pro on as many computers as you'd like!
 
 

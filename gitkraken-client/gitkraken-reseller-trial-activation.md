@@ -9,7 +9,7 @@ taxonomy:
 
 All newly activated GitKraken accounts will automatically start a free 7-day trial of all GitKraken Client paid features.
 
-<img src="/img/documentation/managing-organizations/trial/trial-start.png" srcset="/img/documentation/managing-organizations/trial/trial-start@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/trial-start.png" srcset="/wp-content/uploads/trial-start@2x.png 2x" class="img-responsive center img-bordered">
 
 Hitting the <kbd>Continue my X day trial</kbd> will dismiss the prompt and return you to the application.
 
@@ -21,19 +21,19 @@ You may add users at any point during your 7 day trial to add 21 days to your tr
 
 If you have already dismissed the prompt, you may access the option from your notifications <i class="fas fa-bell"></i> icon or by clicking the `TRIAL` flag in the bottom right of the UI.
 
-<img src="/img/documentation/managing-organizations/trial/extend-trial.png" srcset="/img/documentation/managing-organizations/trial/extend-trial@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/extend-trial.png" srcset="/wp-content/uploads/extend-trial@2x.png 2x" class="img-responsive center img-bordered">
 
 The app will open a new window and prompt you for the name of the trial organization. You may change this name later from the organization's *Settings*.
 
-<img src="/img/documentation/managing-organizations/trial/create-trial-org.png" srcset="/img/documentation/managing-organizations/trial/create-trial-org@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/create-trial-org.png" srcset="/wp-content/uploads/create-trial-org@2x.png 2x" class="img-responsive center img-bordered">
 
 After setting the name, add your user(s) by clicking the <button class='button button--success button--ui button--nolink'>Add User</button> button.
 
-<img src="/img/documentation/managing-organizations/trial/add-trial-user.png" srcset="/img/documentation/managing-organizations/trial/add-trial-user@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/add-trial-user.png" srcset="/wp-content/uploads/add-trial-user@2x.png 2x" class="img-responsive center img-bordered">
 
 Once you add user(s), you may dismiss the window. The app will automatically update with the new trial extension:
 
-<img src="/img/documentation/managing-organizations/trial/extended-trial.png" srcset="/img/documentation/managing-organizations/trial/extended-trial@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/extended-trial.png" srcset="/wp-content/uploads/extended-trial@2x.png 2x" class="img-responsive center img-bordered">
 
 ***
 
@@ -43,7 +43,7 @@ A trial organization will continue to exist after the trial period ends. However
 
 When the trial ends, the *Owner* will be prompted to purchase licenses:
 
-<img src="/img/documentation/managing-organizations/trial/trial-end-org-owner.png" srcset="/img/documentation/managing-organizations/trial/trial-end-org-owner@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/trial-end-org-owner.png" srcset="/wp-content/uploads/trial-end-org-owner@2x.png 2x" class="img-responsive center img-bordered">
 
 The trial organization may be converted to a paid account at any time by logging into [https://app.gitkraken.com](https://app.gitkraken.com) and navigating to <em class="context-menu">Organization  <i class="fa fa-caret-right"></i> [Your organization name] <i class="fa fa-caret-right"></i> Subscription </em> and then <button class='button button--success button--ui button--nolink'>Reactivate</button>. 
 

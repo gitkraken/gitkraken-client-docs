@@ -13,7 +13,7 @@ If you are using the [GitHub integration](/integrations/github/) or the [GitHub 
 ## Forking a repo
 To add a new fork, first [open a repository](/working-with/open-clone-init/#opening-an-existing-project) in GitKraken Client.
 
-Then click the <button class='button button--success button--ui button--nolink'>+</button> icon when hovering over <em class='context-menu'><img src='/wp-content/uploads/icons/gk-remote-icon.svg' style='height:1em;'> Remote</em> in the left panel and click on the <kbd>GitHub.com</kbd> or the <kbd>GitHub Enterprise</kbd> tab.
+Then click the <button class='button button--success button--ui button--nolink'>+</button> icon when hovering over <em class='context-menu'><img src='/wp-content/uploads/gk-remote-icon.svg' style='height:1em;'> Remote</em> in the left panel and click on the <kbd>GitHub.com</kbd> or the <kbd>GitHub Enterprise</kbd> tab.
 
 <img src="/wp-content/uploads/add-remote.png" srcset="/wp-content/uploads/add-remote@2x.png" class="img-bordered img-responsive center">
 

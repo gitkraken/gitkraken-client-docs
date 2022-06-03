@@ -20,7 +20,7 @@ If you <strong>are</strong> listed as an unlicensed `Admin` to the account:
 3. Navigate to the <kbd>Subscriptions</kbd> tab 
 4. Under <strong>Subscription Details</strong>, increase *Total # of Users* to reflect the total user count including the additional licenses you are purchasing for the customer
 
-<img src="/img/documentation/managing-organizations/buy/existing-purchases.gif" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/existing-purchases.gif" class="img-responsive center img-bordered">
 
 The <strong>Billing Summary</strong> will populate the cost of add additional users to the customer account. Please utilize this to provide the customer an <a href="/account/quotes">official quote</a> for adding users.
 
