@@ -48,7 +48,7 @@ Below are platform-specific details on minimum requirements.
 Double-click the downloaded executable file, and follow the installation instructions.
 
 #### Data Location
-GitKraken data is stored within your home profile in `C:\Users\{user}\AppData\Roaming` or `%APPDATA%/.gitkraken` on older versions. No data is stored outside of the user's machine or remote services _(GitHub Enterprise, Bitbucket Server, etc)_.
+GitKraken data is stored within your home profile in ``C:\Users\{user}\AppData\Roaming`` or ``%APPDATA%\.gitkraken`` on older versions. No data is stored outside of the user's machine or remote services _(GitHub Enterprise, Bitbucket Server, etc)_.
 
 
 
@@ -113,10 +113,10 @@ You can also place your license file directly into certain directory locations f
 
 **Windows:**
 
-- `C:\ProgramData\GitKraken`
+- ``C:\ProgramData\GitKraken``
 
 - directory above the `exe`
 
 - directory of the `exe`
 
-- `%APPDATA%\.gitkraken`
+- ``%APPDATA%\.gitkraken``
