@@ -22,7 +22,7 @@ Check out the introduction video and links below to get started with GitKraken C
 ## Getting Started
 
 
-- [Interface Basics](/gitkraken-client/interface/) - Get familiar with the intuitive GitKraken Client UI..
+- [Interface Basics](/gitkraken-client/interface/) - Get familiar with the intuitive GitKraken Client UI.
 - [How to Install](/gitkraken-client/how-to-install/) -  Quick, easy instructions for Windows, Mac & Linux. 
 - [New to Git](/gitkraken-client/guide/) - Get started using & learning Git with GitKraken Client.
 - [Cheat Sheet](https://www.gitkraken.com/pdfs/gitkraken-git-gui-cheat-sheet) - Quick reference for keyboard shortcuts & common actions.
