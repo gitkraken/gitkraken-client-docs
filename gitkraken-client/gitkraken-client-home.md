@@ -7,9 +7,9 @@ taxonomy:
 
 ---
 
-The legendary Git client with an intuitive Git GUI & powerful CLI.
+Everything you need to know about the legendary Git client with an intuitive Git GUI & powerful CLI.
 
-Check out the Video and links below, or use the left navigation to start exploring.
+Check out the introduction video and links below to get started with GitKraken Client. Use the left navigation to explore further.
 
 ## GitKraken Client Tutorial
 
@@ -21,23 +21,24 @@ Check out the Video and links below, or use the left navigation to start explori
 
 ## Getting Started
 
-- [Interface Basics](/gitkraken-client/interface/) - Learn about the layout of GitKraken.
-- [How to install](/gitkraken-client/how-to-install/) - Straightforward install, but here are some instructions just in case.
-- [New to git](/gitkraken-client/guide/) - For all those Git noobs out there.
-- [Cheat sheet](https://www.gitkraken.com/pdfs/gitkraken-git-gui-cheat-sheet) - Quick reference for common actions.
-- [Integrations](/gitkraken-client/integrations/) - List of our current integrations with other tools.
-- [Release notes](/gitkraken-client/current/) - See the most recent features and bug fixes.
-- [FAQ](/gitkraken-client/faq/) - Fequently Asked Questions, answers included!
+
+- [Interface Basics](/gitkraken-client/interface/) - Get familiar with the intuitive GitKraken Client UI..
+- [How to Install](/gitkraken-client/how-to-install/) -  Quick, easy instructions for Windows, Mac & Linux. 
+- [New to Git](/gitkraken-client/guide/) - Get started using & learning Git with GitKraken Client.
+- [Cheat Sheet](https://www.gitkraken.com/pdfs/gitkraken-git-gui-cheat-sheet) - Quick reference for keyboard shortcuts & common actions.
+- [Integrations](/gitkraken-client/integrations/) - Set up repo hosting & issue tracking integrations.
+- [Release Notes](/gitkraken-client/current/) - Keep up with all the new features & improvements.
+- [FAQ](/gitkraken-client/faq/) - Find answers to frequently asked questions.
 
 ***
 
-## Other places to check out
+## Additional Resources
 
-Have an idea or feedback for improving GitKraken? Upvote existing user suggestions ⬆️ or add your idea 📝.
+Have an idea or feedback for improving GitKraken Client? Upvote existing user suggestions ⬆️ or add your idea 📝.
 [Make a Feature Request ☑](https://feedback.gitkraken.com/)
 
 Join our public slack community and interact with other GitKraken Client users from around the world 🌐.
-[GitKraken Slack](https://slack.gitkraken.com/)
+[Join GitKraken Slack](https://slack.gitkraken.com/)
 
 Didn't find what you're looking for in all of our documentation and help articles? Then please contact our support team.
 [Contact Support ✉](https://www.gitkraken.com/git-client/contact-support)
