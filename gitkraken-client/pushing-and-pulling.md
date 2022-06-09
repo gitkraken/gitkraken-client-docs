@@ -80,7 +80,7 @@ If you are ahead of the remote branch, there are local commits that have not yet
 
 It is possible to be both ahead of and behind a remote.  However if you are both ahead and behind a remote, you will not be able to perform a _Pull (fast-forward if possible)_ as the branches have diverged. Consider rebasing onto the remote first.
 
-GitKraken Client automatically fetches updates from your remote repositories every minute by default.  You can change this setting from <em class='context-menu'>Preferences <i class='fa fa-caret-right'></i> General</em> menu.
+GitKraken Client automatically fetches updates from your remote repositories every minute by default.  You can change this setting from <kbd><strong>Preferences > General</strong></kbd> menu.
 
 ### Fast-forwarding
 Fast forwarding moves the currently checked out commit to one that was added later, replaying all commits in between in the order which they happened.

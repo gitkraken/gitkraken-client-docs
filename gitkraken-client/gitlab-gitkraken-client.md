@@ -78,5 +78,3 @@ Of course, you still have the option of manually entering repo URLs.
 ## Connecting to multiple GitLab accounts
 
 GitKraken connects to one GitLab account at a time. However, with GitKraken Pro's multiple <a href="/start-here/profiles">profile</a> support, you can easily switch between profiles that each have their own associated GitLab accounts.
-
-***

@@ -21,7 +21,7 @@ To clone a remote repository over HTTPS, first navigate to your hosting service 
 
 
 
-Then go to GitKraken Client and clone the project through <em class='context-menu'>File <i class="fa fa-caret-right"></i> Clone</em>.
+Then go to GitKraken Client and clone the project through <kbd><strong>File > Clone Repo</strong></kbd>.
 
 <img src='/wp-content/uploads/clone.png' srcset='/wp-content/uploads/clone@2x.png 2x' class='img-bordered img-responsive center'>
 
@@ -38,7 +38,7 @@ By default when cloning a repo using HTTPS, your remote tracking at `origin` wil
 
 Before you can clone a repo over SSH, you must first set up your SSH keys in GitKraken Client.
 
-Navigate to <em class='context-menu'>Preferences <i class="fa fa-caret-right"></i> SSH</em>.
+Navigate to <kbd><strong>Preferences > SSH</strong></kbd>.
 
 <img src="/wp-content/uploads/authentication.png" srcset="/wp-content/uploads/authentication@2x.png" class="img-bordered img-responsive center">
 
@@ -110,7 +110,7 @@ Well if it's not working 100% of the time, the most common issues are:
 * SSH-agent on Windows &mdash; GitKraken Client currently only supports Pageant for the SSH agent for Windows.
  * You can download PuTTY and Pageant from their page <a href='http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html' target='_blank'>here</a>.
 * Misconfigured SSH settings &mdash; remote URL format
- * Check in <em class='context-menu'>Preferences <i class='fa fa-caret-right'></i> Authentication</em> to confirm that your SSH settings are correct.
+ * Check in <kbd><strong>Preferences > SSH</strong></kbd> to confirm that your SSH settings are correct.
  * Edit remotes in the left ref panel to ensure push and pull urls are set and in the correct format
 * Expected use of SSH config &mdash; GitKraken Client does not currently respect your SSH config and cannot make use of any remote server nicknames or identities.
  * You can either load your SSH key directly into GitKraken Client or use your system&rsquo;s SSH agent to authenticate with your remote.
@@ -119,7 +119,7 @@ Well if it's not working 100% of the time, the most common issues are:
 ***
 ## Forget all
 
-You may tell GitKraken to forget all usernames and passwords from <em class='context-menu'> Preferences <i class='fa fa-caret-right'></i> Authentication</em>:
+You may tell GitKraken to forget all usernames and passwords from <kbd><strong>Preferences > General</strong></kbd>:
 
 <img src="/wp-content/uploads/forget-all.png" srcset="/wp-content/uploads/forget-all@2x.png" class="img-bordered img-responsive center">
 

@@ -17,4 +17,4 @@ For anthing related to GitKraken Boards, refer to [this documnetation](https://s
 
 ## Remove GitKraken Boards from the toolbar
 
-To remove Boards from the toolbar navigate to <em class='context-menu'>Preferences <i class='fa fa-caret-right'></i> UI Preferences</em> and uncheck _Show Boards button in toolbar_.
+To remove Boards from the toolbar navigate to <kbd><strong>Preferences > UI Preferences</strong></kbd> and uncheck _Show Boards button in toolbar_.

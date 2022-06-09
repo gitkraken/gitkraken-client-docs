@@ -15,7 +15,7 @@ Submodules allow you to include other Git repositories within a Git repository a
 
 ***
 ## Adding submodules
-Add a submodule by clicking the <button class='button button--success button--ui button--nolink'>+</button> when hovering over <em class='context-menu'><img src='/wp-content/uploads/icons/gk-submodules-icon.svg' style='height:1em;'> Submodules</em> in the left panel. Paste the HTTPS or SSH link to the repository, and then enter the path.
+Add a submodule by clicking the <button class='button button--success button--ui button--nolink'>+</button> when hovering over <img src='/wp-content/uploads/icons/gk-new-submodules-icon.svg' style='height:1em;'> _Submodules_ in the left panel. Paste the HTTPS or SSH link to the repository, and then enter the path.
 
 <img src="/wp-content/uploads//add-submodule.png" srcset="/wp-content/uploads//add-submodule@2x.png" class="img-bordered img-responsive center">
 
