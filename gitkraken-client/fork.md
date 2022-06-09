@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-If you are using the [GitHub integration](/integrations/github/) or the [GitHub Enterprise integration](/integrations/github-enterprise/), then you may fork repos right from GitKraken Client.
+If you are using the [GitHub integration](/gitkraken-client/github-gitkraken-client/) or the [GitHub Enterprise integration](/integrations/github-enterprise/), then you may fork repos right from GitKraken Client.
 
 ***
 ## Forking a repo

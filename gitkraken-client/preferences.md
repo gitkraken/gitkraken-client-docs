@@ -125,17 +125,17 @@ GitKraken Client uses profiles to store your app preferences, current [Tabs](/st
 
 GitKraken Client supports HTTPS and SSH authentication, and provides useful integrations with many Git hosting services. Here's how to get started.
 
-- [General SSH settings](/integrations/authentication/#ssh)
-- [GitHub Integration](/integrations/github/)
-- [GitHub Enterprise Integration](/integrations/github-enterprise/)
-- [GitLab Integration](/integrations/gitlab/)
-- [GitLab Self-Managed Integration](/integrations/gitlab-self-hosted/)
-- [Bitbucket Integration](/integrations/bitbucket/)
-- [Bitbucket Server Integration](/integrations/bitbucket-server/)
-- [Azure DevOps Integration](/integrations/visual-studio-team-services/)
-- [TFS, AWS CodeCommit, custom service, etc](/integrations/authentication/)
-- [Jira Cloud Integration](/integrations/jira/)
-- [Jira Server Integration](/integrations/jira-server/)
+- [General SSH settings](/gitkraken-client/authentication/#ssh)
+- [GitHub Integration](/gitkraken-client/github-gitkraken-client/)
+- [GitHub Enterprise Integration](/gitkraken-client/github-enterprise/)
+- [GitLab Integration](/gitkraken-client/gitlab/)
+- [GitLab Self-Managed Integration](/gitkraken-client/gitlab-self-hosted/)
+- [Bitbucket Integration](/gitkraken-client/bitbucket/)
+- [Bitbucket Server Integration](/gitkraken-client/bitbucket-server/)
+- [Azure DevOps Integration](/gitkraken-client/visual-studio-team-services/)
+- [TFS, AWS CodeCommit, custom service, etc](/gitkraken-client/authentication/)
+- [Jira Cloud Integration](/gitkraken-client/jira/)
+- [Jira Server Integration](/gitkraken-client/jira-server/)
 
 ## Notifications
 

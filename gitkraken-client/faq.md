@@ -95,8 +95,6 @@ That error usually indicates something is stopping GitKraken from opening the re
 
 If you have git installed, try running `git status` from the terminal. If you have pending changes, try stashing or committing those changes or switching branches, and see if that allows you to load the repo in GitKraken Client.  
 
-On Windows machines, it is possible that a file path became [too long](https://support.gitkraken.com/start-here/preferences/#longpaths-windows-only).
-
 There could also be an issue with the directory path itself. Try cloning this repository to a different local directory.
 
 

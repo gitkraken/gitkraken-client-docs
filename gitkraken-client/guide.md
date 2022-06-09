@@ -48,7 +48,7 @@ When initializing a Git repo or cloning from a remote, you will notice a `.git` 
 ### Working directory
 The working directory is the currently checked out version of the files in the local repository.  When you change branches, pull in changes, or reset, GitKraken Client will update the files in the working directory to reflect the changes.
 
-For more information on Git repositories, check out the [Git repository tutorial](https://blog.axosoft.com/2016/10/28/git-tutorial-repository/) blog post including a video from one of our developers.
+For more information on Git repositories, check out the [Git repository tutorial](https://www.gitkraken.com/learn/git/tutorials/what-is-a-git-repository) blog post including a video from one of our developers.
 
 ***
 
