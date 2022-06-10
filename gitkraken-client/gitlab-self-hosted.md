@@ -67,5 +67,3 @@ Alternatively add existing  _SSH Defaults_ with <button class='button button--ui
 ## Connecting to multiple GitLab Self-Managed accounts
 
 GitKraken connects to one GitLab Self-Managed account at a time. However, with GitKraken Pro's multiple <a href="/start-here/profiles">profile</a> support, you can easily switch between profiles that each have their own associated GitLab Self-Managed accounts.
-
-***

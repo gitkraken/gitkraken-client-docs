@@ -47,7 +47,7 @@ Assign the Base Distinguished Names, Access Group, and Admin Group Common Names.
   * **Access Group Common Names** - Used to specify the group name whose users will be granted licenses for GitKraken.  If no access group is specified, all users found will be granted a license.
 
   * **Admin Group Common Names** - Used to specify the group name whose users will be granted admin access to the GitKraken Self-Hosted site.  If no admin group is specified, no users found will be granted admin rights.
-<img src='/wp-content/uploads/base-dn.png' srcset='//wp-content/uploads/base-dn@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/base-dn.png' srcset='/wp-content/uploads/base-dn@2x.png' class='img-bordered img-responsive center'>
 
 Assign the user attributes needed to identify LDAP users.
 

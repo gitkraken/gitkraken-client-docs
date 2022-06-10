@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-GitKraken Client tracks errors from <em class='context-menu'> Help <i class='fa fa-caret-right'></i> Support Logs <i class='fa fa-caret-right'></i> View Error Logs </em>.
+GitKraken Client tracks errors from <kbd><strong>Help > Support > View Error Logs</strong></kbd>.
 
 <img src="/wp-content/uploads/view-error-log.png" srcset="/wp-content/uploads/view-error-log@2x.png" class="img-responsive center img-bordered">
 

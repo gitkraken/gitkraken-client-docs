@@ -129,7 +129,7 @@ GitHub users may also merge a pull request by clicking the <button class='button
 
 <img src='/wp-content/uploads//merge-options.png' srcset='/wp-content/uploads//merge-options@2x.png' class='img-bordered img-responsive center'>
 
-By default, the merge will default to the <kbd>Create a merge commit</kbd> setting, however you may also choose between <kbd>Squash and merge</kbd> and the <kbd>Rebase and merge</kbd>,
+By default, the merge will default to the <kbd>Create a merge commit</kbd> setting, however you may also choose between <kbd>Squash and merge</kbd> and the <kbd>Rebase and merge</kbd>.
 
 <div class='callout callout--basic'>
   <p>Not seeing something update in the pull request view? Try refreshing GitKraken Client to get the latest updates.</p>
@@ -157,5 +157,3 @@ Check out [GitHub Actions](/git-workflows-and-extensions/github-actions/) for mo
 ## Connecting to multiple GitHub accounts
 
 GitKraken connects to one GitHub account at a time. However, with GitKraken Pro's multiple <a href="/start-here/profiles">profile</a> support, you can easily switch between profiles that each have their own associated GitHub accounts.
-
-***

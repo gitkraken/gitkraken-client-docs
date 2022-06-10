@@ -165,7 +165,7 @@ In this example, we'll create a `pre-commit` hook. This hook validates the git c
 ### Creating the git hook
 
 #### Step 1
-First navigate to the hooks directory for the target repo. Open a Visual Studio Code window and navigate to <em class="context-menu">repo&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp; &nbsp;.git &nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right">&nbsp;&nbsp;&nbsp;</i>hooks</em>. From here, add a new file to the `.git/hooks` directory called `pre-commit`.
+First navigate to the hooks directory for the target repo. Open a Visual Studio Code window and navigate to <kbd><strong>~/repo/.git/hooks</strong></kbd>. From here, add a new file to the `.git/hooks` directory called `pre-commit`.
 
 <img src='/wp-content/uploads/vscode-to-hooks.png' class='img-responsive center img-bordered' />
 

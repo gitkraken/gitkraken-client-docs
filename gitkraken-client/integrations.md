@@ -11,23 +11,23 @@ taxonomy:
 
 GitKraken Client allows you to connect many different services and platforms, making it easy to work with your remote repositories. 
 
-- [GitHub](/integrations/github/)
-- [GitHub Enterprise](/integrations/github-enterprise/)
-- [GitLab](/integrations/gitlab/)
-- [GitLab Self-Managed](/integrations/gitlab-self-hosted/)
-- [Bitbucket](/integrations/bitbucket)
-- [Bitbucket Server](/integrations/bitbucket-server/)
-- [Azure DevOps](/integrations/azure-devops/)
+- [GitHub](/gitkraken-client/github-gitkraken-client/)
+- [GitHub Enterprise](/gitkraken-client/github-enterprise/)
+- [GitLab](/gitkraken-client/gitlab/)
+- [GitLab Self-Managed](/gitkraken-client/gitlab-self-hosted/)
+- [Bitbucket](/gitkraken-client/bitbucket)
+- [Bitbucket Server](/gitkraken-client/bitbucket-server/)
+- [Azure DevOps](/gitkraken-client/azure-devops/)
 
 ## Issue tracker integrations
 
 GitKraken Client makes it easy to integrate with a wide variety of issue tracking and project management tools.
 
-- [Jira](/integrations/jira/)
-- [Jira Server](/integrations/jira-server/)
-- [GitKraken Boards](/integrations/boards/)
-- [Trello](/integrations/trello/)
-- [GitLab Issues](/integrations/gitlab-issues/)
-- [GitLab Self-Managed Issues](/integrations/gitlab-self-managed-issues/)
-- [GitHub Issues](/integrations/github-issues/)
-- [GitHub Enterprise Issues](/integrations/github-enterprise-issues/)
+- [Jira](/gitkraken-client/jira/)
+- [Jira Server](/gitkraken-client/jira-server/)
+- [GitKraken Boards](/gitkraken-client/boards/)
+- [Trello](/gitkraken-client/trello/)
+- [GitLab Issues](/gitkraken-client/gitlab-issues/)
+- [GitLab Self-Managed Issues](/gitkraken-client/gitlab-self-managed-issues/)
+- [GitHub Issues](/gitkraken-client/github-issues/)
+- [GitHub Enterprise Issues](/gitkraken-client/github-enterprise-issues/)

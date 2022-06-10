@@ -94,7 +94,7 @@ Additionally, you can set up a user as a <kbd>Billing Contact (unlicensed)</kbd>
 
 
 <div class='callout callout--success'>
-    <p> <strong>Tip:</strong> Questions about upgrading your plan or an order? <a href="https://www.gitkraken.com/contact">Contact us</a></p>!
+    <p> <strong>Tip:</strong> Questions about upgrading your plan or an order? <a href="https://www.gitkraken.com/contact">Contact us</a>!</p>
 </div>
 
 ***

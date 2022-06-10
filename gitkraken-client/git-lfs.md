@@ -149,7 +149,7 @@ Once LFS is initialized on a repository, add tracking patterns to the `.gitattri
 
 <img src='/wp-content/uploads/tracking-patterns-lfs.png' srcset='/wp-content/uploads/tracking-patterns-lfs@2x.png 2x' class='img-responsive center img-bordered'/>
 
-Access the `.gitattributes` file by going to <em class='context-menu'>Preferences <i class="fa fa-caret-right"></i> LFS</em> or by editing the `.gitattributes` file directly in your text editor.
+Access the `.gitattributes` file by going to <kbd><strong>Preferences > LFS</strong></kbd> or by editing the `.gitattributes` file directly in your text editor.
 
 As another option, add tracking patterns to the repository’s `.gitattributes` file through the Unstage pane in the right panel.
 
@@ -169,7 +169,7 @@ When a file matches a pattern that is being tracked by LFS, an LFS tag appears n
 
 Clicking on the file shows the LFS reference information:
 
-<img src='/wp-content/uploads/lfs-ref.png' srcset='/wp-content/uploads/lfs-ref@2x.png 2x' class='img-responsive center img-bordered'/ >
+<img src='/wp-content/uploads/lfs-ref.png' srcset='/wp-content/uploads/lfs-ref@2x.png 2x' class='img-responsive center img-bordered'/>
 
 Staging and committing LFS tracked files results in the reference files being saved to your local repo and the actual files being saved to your local LFS cache.
 
@@ -218,7 +218,7 @@ If LFS is still not appearing as an option in GitKraken Client preferences menu,
 #### SSH Keys in GitKraken Client and the CLI
 Unlike most features in GitKraken Client, the LFS feature does require git for the CLI as well as LFS. This means that if you are trying to use SSH, your key will need to be configured in your GitKraken Client and for the CLI.
 
-You can automatically generate an SSH Key in GitKraken Client in **Preferences -> Authentication -> General** and save wherever you want locally, or the key will be  in your `.gitkraken\profiles` folder if you generate from a specific integration. 
+You can automatically generate an SSH Key in GitKraken Client in <kbd><strong>Preferences > SSH</strong></kbd> and save wherever you want locally, or the key will be  in your `.gitkraken\profiles` folder if you generate from a specific integration. 
 
 You can also use the SSH Agent option to setup and manage your keys, and then tell GitKraken Client to use your agent. [Adding an SSH Key to an SSH Agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) by GitHub
 

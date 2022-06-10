@@ -67,7 +67,7 @@ A toolbar above the panel will display the current repo name, branch, tag, and n
 
 ### Terminal Preferences 
 
-Navigate to <em class='context-menu'>Preferences <i class='fa fa-caret-right'></i> Terminal</em> to change your Terminal preferences.
+Navigate to <kbd><strong>Preferences > Terminal</strong></kbd> to change your Terminal preferences.
 
 <div class='callout callout--basic'>
     <p><strong>Note:</strong> The following shells are available depending on operating system: PowerShell for Windows, ZSH/Bash for Mac and Linux. The Terminal will utilize your operating system's default shell. To switch shells you'll need to set the new shell as default in your operating system settings and restart your computer for auto-complete to continue working as expected </p>
