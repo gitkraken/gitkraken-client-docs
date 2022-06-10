@@ -44,7 +44,7 @@ Find the user count associated with the customer request and select <button clas
 ## 3. Enter Organization, Billing Details, and transfer ownership
 
 <div class='callout callout--warning'>
-    <p><strong>Note:</strong> GitKraken Subscriptions<strong>only accept credit card payment, PayPal, and bank order</strong>. <br> <br> However, invoicing is supported for large purchases of GitKraken Enterprise. Contact our <a href="mailto:salesg@gitkraken.com">Sales</a><sales@gitkraken.com> team to learn more.
+    <p><strong>Note:</strong> GitKraken Subscriptions <strong>only accept credit card payment, PayPal, and bank order</strong>. <br> <br> However, invoicing is supported for large purchases of GitKraken Enterprise. Contact our <a href="mailto:salesg@gitkraken.com">Sales</a><sales@gitkraken.com> team to learn more.
 </p>
 </div>
 
@@ -96,7 +96,3 @@ There are **_no keys or license files_** to share with the users. Instead:
 - Users that have been added to the subscription will receive an email invitation from GitKraken with relevant instructions. 
 - Users will <a href="https://www.gitkraken.com/download" target="_blank">download GitKraken</a> and use their credentials to log-in. 
 - They will see Pro features and status once they log-in to the client with their email address from the subscription. 
-
-***
-
-

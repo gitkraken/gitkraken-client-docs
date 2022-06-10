@@ -40,7 +40,7 @@ The <kbd>User</kbd> role does not have permission to allocate, edit or remove us
 
 ### Can I pay using a Purchase Order.
 
-We only accept credit card payments for GitKraken Client Pro and Teams. We do however accept purchase orders for [GitKraken Enterprise or Stand-Alone](https://gitkraken.com/pricing).
+We only accept credit card payments for GitKraken Client Pro and Teams. We do however accept purchase orders for [GitKraken Self-Hosted or Stand-Alone](https://gitkraken.com/pricing).
 
 ***
 ### When are invoices sent when I purchase a paid license?

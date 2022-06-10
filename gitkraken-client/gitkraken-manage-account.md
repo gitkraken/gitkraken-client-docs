@@ -11,18 +11,18 @@ Whether a solo user on a personal license, or an owner managing multiple teams a
 
 ***
 ## Sign-up
-Sign-up is easy. If you're logging into GitKraken using another account such as [GitHub](/integrations/github), you're already done! ✅
+Sign-up is easy. If you're logging into GitKraken using another account such as [GitHub](/gitkraken-client/github-gitkraken-client/), you're already done! ✅
 
 If you don't have a GitKraken account yet, [register](https://app.gitkraken.com/register) your account today.
 
 ***
 
 ## Organizations
-The <kbd>Organizations</kbd> section shows your organization(s). Click on an organization to manage the [Users](/organizations/#manage-users), [Teams](/glo/teams/), and Subscriptions.
+The <kbd>Organizations</kbd> section shows your organization(s). Click on an organization to manage the [Users](/gitkraken-client/gitkraken-mange-account/#manage-users/), [Teams](/gitkraken-client/teams/), and Subscriptions.
 
 To access your account and manage your organization(s), navigate to [https://app.gitkraken.com](https://app.gitkraken.com), or click <kbd>Manage Account</kbd> from the user menu dropdown <em class="context-menu"><i class="fa fa-bars"> </i>  </em> in GitKraken.
 
-Once you log into your account, click <em class="context-menu">Organization  <i class="fa fa-caret-right"></i> [Your organization name]</em> to add users.
+Once you log into your account, click <kbd><strong>Organization > [Your organization name]</strong></kbd> to add users.
 
 <img src="/wp-content/uploads/subscriptions.png" srcset="/wp-content/uploads/subscriptions@2x.png 2x" class="img-responsive center img-bordered">
 
@@ -31,11 +31,11 @@ Subsriptions can be added to an organization by clicking the <button class='butt
 
 <img src="/wp-content/uploads/gk-plans1.png"  class="img-responsive center img-bordered">
 
-Once a subscription is added to the organization owner or admin roles may add users to the account using their email address (see [Manage Users](/account/organizations/#manage-users) section below).
+Once a subscription is added to the organization owner or admin roles may add users to the account using their email address (see [Manage Users](/gitkraken-client/gitkraken-mange-account/#manage-users/) section below).
 
 ### Rename organization
 
-To rename your Organization, log into [https://app.gitkraken.com](https://app.gitkraken.com) as the `Owner` or `Admin` and then navigate to <kbd><strong>Organization</strong></kbd> > <kbd><strong>[Your organization name]</strong></kbd> > <kbd><strong>Settings</strong></kbd>. 
+To rename your Organization, log into [https://app.gitkraken.com](https://app.gitkraken.com) as the `Owner` or `Admin` and then navigate to <kbd><strong>Organization > [Your organization name] > Settings</strong></kbd>. 
 
 <img src="/wp-content/uploads/rename.png" class="img-responsive center img-bordered">
 
@@ -48,7 +48,7 @@ If you have any expired GitKraken subscriptions, you may hide these expired orga
 
 <img src="/wp-content/uploads/hide-expired-organizations.png" class="img-responsive center img-bordered">
 
-You can also manually choose to hide an organization in the sidebar from the <kbd><strong>Organization</strong></kbd> > <kbd><strong>[Your organization name]</strong></kbd> > <kbd><strong>Subscription</strong></kbd> menu.
+You can also manually choose to hide an organization in the sidebar from the <kbd><strong>Organization > [Your organization name] > Subscription</strong></kbd> menu.
 
 <img src="/wp-content/uploads/hide-organization.png" class="img-responsive center img-bordered">
 
@@ -69,7 +69,7 @@ There are four roles for a GitKraken user within an organization's account:
 ## Manage users
 
 ### Allocating licenses
-1. Under <kbd><strong>Organization</strong></kbd> > <kbd><strong>[Your organization name]</strong></kbd>, click <button class='button button--success button--ui button--nolink'>Add User</button>
+1. Under <kbd><strong>Organization > [Your organization name]</strong></kbd>, click <button class='button button--success button--ui button--nolink'>Add User</button>
 2. Enter the user email address
 3. Select the user role
 4. Click <button class='button button--success button--ui button--nolink'>Add user</button>
@@ -81,7 +81,7 @@ Additionally, you can set up a user as a <kbd>Billing Contact (unlicensed)</kbd>
 
 ### Buying more licenses
 
-First log into [https://app.gitkraken.com](https://app.gitkraken.com) and click through to <em class="context-menu">Organization  <i class="fa fa-caret-right"></i> [Your organization name] <i class="fa fa-caret-right"></i> Subscription</em>.
+First log into [https://app.gitkraken.com](https://app.gitkraken.com) and click through to <kbd><strong>Organization > [Your organization name] > Subscription</strong></kbd>.
 
 Increase the user count and then complete the purchase. User upgrades are always prorated to your billing cycle.
 
@@ -111,14 +111,14 @@ From the *Users* pane in the left panel, click to <button class='button button--
 
 To import users click the `Add User` button. From here you can import users via a `.csv` file. 
 
-<img src="/img/documentation/account-site-import-button.png"/> 
+<img src="/wp-content/uploads/account-site-import-button.png" class="img-responsive center img-bordered"/> 
 
 When importing users, be sure to have columns for `Email`, `Username`, `Role`, `User License`.
 
 
 If you need to export users, you may access this option from the Users list on [https://app.gitkraken.com](https://app.gitkraken.com).
 
-<img src="/img/documentation/account-site-export-arrow.png"/> 
+<img src="/wp-content/uploads/account-site-export-arrow.png" class="img-responsive center img-bordered"/> 
 
 The export will contain columns for `Email`, `Username`, `Role`, `User License`.
 
@@ -128,7 +128,7 @@ Review billing information or switch between credit card and Paypal at any time.
 
 ### Editing billing
 
-To edit your billing or to switch payment methods, first log in as an `Admin` or the `Owner` and click <kbd><strong>Organization</strong></kbd> > <kbd><strong>[Your organization name]</strong></kbd>. 
+To edit your billing or to switch payment methods, first log in as an `Admin` or the `Owner` and click <kbd><strong>Organization > [Your organization name]</strong></kbd>. 
 
 Click **Subscription** to update the subscription.  From here you may select <button class='button button--primary button--ui button--nolink'><span style='color:#141422;'>Update Payment</span></button> to change your card details or switch payment methods.
 
@@ -145,7 +145,7 @@ Each billing cycle, our accounting system will send the owner listed a subscript
 
 If you are the `Owner` of a <strong>GitKraken Pro</strong> or <strong>GitKraken Enterprise</strong> account, then you may transfer ownership to a different user from [https://app.gitkraken.com](https://app.gitkraken.com).
 
-To transfer ownership, navigate to <kbd><strong>Organization</strong></kbd> > <kbd><strong>[Your organization name]</strong></kbd> > <kbd><strong>Settings</strong></kbd>. Then select the existing user who will become the new `Owner`.
+To transfer ownership, navigate to <kbd><strong>Organization > [Your organization name] > Settings</strong></kbd>. Then select the existing user who will become the new `Owner`.
 
 <img src="/wp-content/uploads/transfer-ownership.png" class="img-responsive center img-bordered">
 
@@ -153,7 +153,7 @@ To transfer ownership, navigate to <kbd><strong>Organization</strong></kbd> > <k
 ***
 ## Cancellations
 
-To cancel, first log into your GitKraken account as the `Admin` or `Owner` and click <kbd><strong>Organization</strong></kbd> > <kbd><strong>[Your organization name]</strong></kbd> > <kbd><strong>Subscription</strong></kbd>.
+To cancel, first log into your GitKraken account as the `Admin` or `Owner` and click <kbd><strong>Organization > [Your organization name] > Subscription</strong></kbd>.
 
 You may then `Cancel Subscription` from the lower left corner.
 
@@ -169,4 +169,4 @@ Click on <kbd>Organizations</kbd> and then click on the name of the expired or c
 
 Then click on <kbd>Subscription</kbd> in the left panel, where you may update the license total or billing details before hitting <button class='button button--success button--ui button--nolink'>Reactivate</button>.
 
-<img src="/wp-content/uploads/reactivate-pro-suite.png" srcset="/wp-content/uploads/reactivate-pro-suite@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/reactivate-account.png" srcset="/wp-content/uploads/reactivate-account@2x.png" class="img-responsive center img-bordered">

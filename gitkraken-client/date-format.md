@@ -17,12 +17,12 @@ In some cases on Linux, defining the `LANG` variable will not be enough for GitK
 ## Windows
 If GitKraken Client is not recognizing your Windows system's date format, please verify whether the correct language package is installed on your machine.
 
-First, check that your system's date, time, or number formats is set to `Match Windows display language` by navigating to <em class="context-menu"> Control Panel <i class="fa fa-caret-right"></i> Change date, time, or number formats <i class="fa fa-caret-right"></i> Format </em>:
+First, check that your system's date, time, or number formats is set to `Match Windows display language` by navigating to <kbd><strong>Control Panel > Change date, time, or number formats > Format</strong></kbd>:
 
 
 <img src="/wp-content/uploads/formatSetting.png" srcset="/wp-content/uploads/formatSetting@2x.png 2x" class="img-responsive center img-bordered">
 
-Once this is configured, navigate to <em class="context-menu"> Settings <i class="fa fa-caret-right"></i> Time & language </em>:
+Once this is configured, navigate to <kbd><strong>Settings > Time & language</strong></kbd>:
 
 <img src="/wp-content/uploads/time-language.png" srcset="/wp-content/uploads/time-language@2x.png 2x" class="img-responsive center img-bordered">
 

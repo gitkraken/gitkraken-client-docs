@@ -11,7 +11,7 @@ If you are an `Admin` or `Billing Contact (unlicensed)` on the customer account,
 
 
 <div class='callout callout--warning'>
-    <p> If you are a reseller and NOT listed on the customer account, reach out to our <a href="mailto:sales@gitkraken.com">Sales</a> team for assistance. </p>
+    <p> If you are a reseller and NOT listed on the customer account, reach out to our <a href="https://www.gitkraken.com/contact">Sales</a> team for assistance. </p>
 </div>
  
 ***
