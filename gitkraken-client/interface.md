@@ -22,7 +22,7 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
 <h3>Undo</h3>
 <div class="flex-wrap">
 	<div class="flex-item">
-		<img src='/wp-content/uploads/gk-new-undo-icon.svg' class='img-responsive' style="width: 70px"></div>
+		<img src='/wp-content/uploads/gk-new-undo-icon.svg' class='img-responsive'></div>
 	<div class="flex-item">
 		<p>Many actions performed in GitKraken Client can be undone. If an action is undoable, the <kbd>Undo</kbd> button will be a solid color ready for action.</p>
 	</div>
@@ -31,7 +31,7 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
 <h3>Redo</h3>
 <div class="flex-wrap">
 	<div class="flex-item">
-		<img src='/wp-content/uploads/gk-new-redo-icon.svg' class='img-responsive' style="width: 70px">
+		<img src='/wp-content/uploads/gk-new-redo-icon.svg' class='img-responsive'>
 	</div>
 	<div class="flex-item">
 		<p>What if you undid something, only to realize that you didn't want to undo it? GitKraken Client also has a </kbd>Redo</kbd> button so you can undo your undos.</p>
@@ -42,7 +42,7 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
 <h3>Pull</h3>
 <div class="flex-wrap">
 	<div class="flex-item">
-		<img src='/wp-content/uploads/gk-new-pull-icon.svg' class='img-responsive' style="width: 100px">
+		<img src='/wp-content/uploads/gk-new-pull-icon.svg' class='img-responsive'>
 	</div>
 	<div class="flex-item">
 		<p>Pull changes from your remote repos with this button. See the <kbd><i class='fa fa-caret-down'></i></kbd> button next to the icon? Click that to customize the type of pull you want to perform:</p>
@@ -59,7 +59,7 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
 <h3>Push</h3>
 <div class="flex-wrap">
 	<div class="flex-item">
-		<img src='/wp-content/uploads//gk-new-push-icon.svg' class='img-responsive' style="width: 70px">
+		<img src='/wp-content/uploads//gk-new-push-icon.svg' class='img-responsive'>
 	</div>
 	<div class="flex-item">
 		<p>Push changes to the remote repo as set in your upstream.</p>
@@ -69,7 +69,7 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
 <h3>Branch</h3>
 <div class="flex-wrap">
 	<div class="flex-item">
-		<img src='/wp-content/uploads//gk-new-branch-icon.svg' class='img-responsive' style="width: 70px">
+		<img src='/wp-content/uploads//gk-new-branch-icon.svg' class='img-responsive'>
 	</div>
 	<div class="flex-item">
 		<p>Create a branch on your current local repo.</p>
@@ -79,7 +79,7 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
 <h3>Stash</h3>
 <div class="flex-wrap">
 	<div class="flex-item">
-		<img src='/wp-content/uploads//gk-new-stash-icon.svg' class='img-responsive' style="width: 70px">
+		<img src='/wp-content/uploads//gk-new-stash-icon.svg' class='img-responsive'>
 	</div>
 	<div class="flex-item">
 		<p>Stash your work-in-process (<code>// WIP</code>) changes.</p>
@@ -90,7 +90,7 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
 <h3>Pop Stash</h3>
 <div class="flex-wrap">
 	<div class="flex-item">
-		<img src='/wp-content/uploads//gk-new-pop-icon.svg' class='img-responsive' style="width: 70px">
+		<img src='/wp-content/uploads//gk-new-pop-icon.svg' class='img-responsive'>
 	</div>
 	<div class="flex-item">
 		<p>Ready to restore your <code>// WIP</code>? Pop that stash and carry on as you were.</p>
@@ -100,7 +100,7 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
 <h3>LFS</h3>
 <div class="flex-wrap">
 	<div class="flex-item">
-		<img src='/wp-content/uploads//gk-lfs-icon.svg' class='img-responsive' style="width: 70px">
+		<img src='/wp-content/uploads//gk-lfs-icon.svg' class='img-responsive'>
 	</div>
 	<div class="flex-item">
 		<p> Have large files in your repo? This button will appear when you have <a href="/git-workflows-and-extensions/intro-and-requirements/">LFS</a> enabled on the repository.</p>
@@ -118,7 +118,7 @@ Referred to as the left "ref" panel, GitKraken Client shows the properties below
 <h3>Local</h3>
 <div class="flex-wrap">
 	<div class="flex-item">
-		<img src='/wp-content/uploads/gk-new-local-icon.svg' class='img-responsive' style="width: 70px">
+		<img src='/wp-content/uploads/gk-new-local-icon.svg' class='img-responsive'>
 	</div>
 	<div class="flex-item">
 		<p>References to local branches &mdash; pointers to specific commits allowing work to be separated.</p>
@@ -130,7 +130,7 @@ Referred to as the left "ref" panel, GitKraken Client shows the properties below
 <h3>Remote</h3>
 <div class="flex-wrap">
 	<div class="flex-item">
-		<img src='/wp-content/uploads/gk-new-remote-icon.svg' class='img-responsive' style="width: 70px">
+		<img src='/wp-content/uploads/gk-new-remote-icon.svg' class='img-responsive'>
 	</div>
 	<div class="flex-item">
 		<p>References to remote branches.</p>
@@ -141,7 +141,7 @@ Referred to as the left "ref" panel, GitKraken Client shows the properties below
 <h3>Pull Requests</h3>
 <div class="flex-wrap">
 	<div class="flex-item">
-		<img src='/wp-content/uploads/gk-new-pull-requests-icon.svg' class='img-responsive' style="width: 70px">
+		<img src='/wp-content/uploads/gk-new-pull-requests-icon.svg' class='img-responsive'>
 	</div>
 	<div class="flex-item">
 		<p>This shows active requests for merging one branch into another. With the GitHub or Bitbucket integration, new PRs can be created directly from GitKraken Client.</p>
@@ -173,7 +173,7 @@ Referred to as the left "ref" panel, GitKraken Client shows the properties below
 <h3>Tags</h3>
 <div class="flex-wrap">
 	<div class="flex-item">
-		<img src='/wp-content/uploads/gk-new-tags-icon.svg' class='img-responsive'style="width: 70px">
+		<img src='/wp-content/uploads/gk-new-tags-icon.svg' class='img-responsive>
 	</div>
 	<div class="flex-item">
 		<p>These represent active pointers to commits but never move. <a href="/working-with-repositories/tags">Tag</a>, you're it!</p>
@@ -183,7 +183,7 @@ Referred to as the left "ref" panel, GitKraken Client shows the properties below
 <h3>Stashes</h3>
 <div class="flex-wrap">
 	<div class="flex-item">
-		<img src='/wp-content/uploads/gk-new-stash-icon.svg' class='img-responsive' style="width: 70px">
+		<img src='/wp-content/uploads/gk-new-stash-icon.svg' class='img-responsive'>
 	</div>
 	<div class="flex-item">
 		<p>Stored file changes in the working copy.</p>
@@ -195,7 +195,7 @@ Referred to as the left "ref" panel, GitKraken Client shows the properties below
 <h3>Submodules</h3>
 <div class="flex-wrap">
 	<div class="flex-item">
-		<img src='/wp-content/uploads//gk-new-submodules-icon.svg' class='img-responsive' style="width: 70px">
+		<img src='/wp-content/uploads//gk-new-submodules-icon.svg' class='img-responsive'>
 	</div>
 	<div class="flex-item">
 		<p>A Git repository in a subdirectory of the current repository.</p>
