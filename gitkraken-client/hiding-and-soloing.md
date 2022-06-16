@@ -13,9 +13,9 @@ The left panel allows you to modify the view of the graph for cleanliness and fo
 
 <img src="/wp-content/uploads//solo-hide.gif" class="img-bordered img-responsive center">
 
-<div class="flex-wrap">
+<div class="flex-wrap" style="align-items: flex-start">
     <div class="flex-item">
-        <img src="/wp-content/uploads/gk-hide-icon-green.svg" class='img-responsive' style="width: 70px">
+        <img src="/wp-content/uploads/gk-hide-icon-green.svg" class='img-responsive' style="width: 70px; height: 70px">
     </div>
     <div class="flex-item">
         <h3>Hide</h3>
@@ -25,9 +25,9 @@ The left panel allows you to modify the view of the graph for cleanliness and fo
     </div>
 </div>
 
- <div class="flex-wrap">
+ <div class="flex-wrap" style="align-items: flex-start">
     <div class="flex-item">
-        <img src="/wp-content/uploads/gk-solo-icon-orange.svg" class='img-responsive' style="width: 70px">
+        <img src="/wp-content/uploads/gk-solo-icon-orange.svg" class='img-responsive' style="width: 70px; height: 70px">
     </div>
     <div class="flex-item">
         <h3>Solo</h3>
