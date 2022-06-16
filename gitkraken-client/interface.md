@@ -158,7 +158,7 @@ Referred to as the left "ref" panel, GitKraken Client shows the properties below
 		<p>Lets you see and work with your issues in GitKraken Client</p>
 		<p>Hook up to your remote issue tracker of choice - such as <a href="/integrations/jira/">Jira</a>, <a href="/integrations/boards/">Boards</a>, <a href="/integrations/github-issues/">GitHub</a>, <a href="/integrations/gitlab-issues/">GitLab</a>, or <a href="/integrations/trello/">Trello</a>.</p>
 	</div>
-</div>
+</div> 
 
 <h3>Teams</h3>
 <div class="flex-wrap">
