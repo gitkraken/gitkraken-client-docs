@@ -29,12 +29,25 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
 </div>
 
 <h3>Redo</h3>
-<img src='/wp-content/uploads/gk-new-redo-icon.svg' class='img-responsive' style="width: 70px">
-<p>What if you undid something, only to realize that you didn't want to undo it? GitKraken Client also has a </kbd>Redo</kbd> button so you can undo your undos.</p>
+<div class="flex-wrap">
+	<div class="flex-item">
+		<img src='/wp-content/uploads/gk-new-redo-icon.svg' class='img-responsive' style="width: 70px">
+	</div>
+	<div class="flex-item">
+		<p>What if you undid something, only to realize that you didn't want to undo it? GitKraken Client also has a </kbd>Redo</kbd> button so you can undo your undos.</p>
+	</div>
+</div>
+
 
 <h3>Pull</h3>
-<img src='/wp-content/uploads/gk-new-pull-icon.svg' class='img-responsive' style="width: 100px">
-<p>Pull changes from your remote repos with this button. See the <kbd><i class='fa fa-caret-down'></i></kbd> button next to the icon? Click that to customize the type of pull you want to perform:</p>
+<div class="flex-wrap">
+	<div class="flex-item">
+		<img src='/wp-content/uploads/gk-new-pull-icon.svg' class='img-responsive' style="width: 100px">
+	</div>
+	<div class="flex-item">
+		<p>Pull changes from your remote repos with this button. See the <kbd><i class='fa fa-caret-down'></i></kbd> button next to the icon? Click that to customize the type of pull you want to perform:</p>
+	</div>
+</div>
 
 * Fetch All
 * Pull (fast-forward if possible)
@@ -44,25 +57,55 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
 <div class='callout callout--basic'><p><strong>Tip:</strong> If you find yourself repeatedly performing the same pull actions, set the default pull type by clicking the <i class="fa fa-circle"></i> icon to the pull type's left. The default selection will appear as a <i class="fa fa-dot-circle"></i> icon.</p></div>
 
 <h3>Push</h3>
-<img src='/wp-content/uploads//gk-new-push-icon.svg' class='img-responsive' style="width: 70px">
-<p>Push changes to the remote repo as set in your upstream.</p>
+<div class="flex-wrap">
+	<div class="flex-item">
+		<img src='/wp-content/uploads//gk-new-push-icon.svg' class='img-responsive' style="width: 70px">
+	</div>
+	<div class="flex-item">
+		<p>Push changes to the remote repo as set in your upstream.</p>
+	</div>
+</div>
 
 <h3>Branch</h3>
-<img src='/wp-content/uploads//gk-new-branch-icon.svg' class='img-responsive' style="width: 70px">
-<p>Create a branch on your current local repo.</p>
+<div class="flex-wrap">
+	<div class="flex-item">
+		<img src='/wp-content/uploads//gk-new-branch-icon.svg' class='img-responsive' style="width: 70px">
+	</div>
+	<div class="flex-item">
+		<p>Create a branch on your current local repo.</p>
+	</div>
+</div>
 
 <h3>Stash</h3>
-<img src='/wp-content/uploads//gk-new-stash-icon.svg' class='img-responsive' style="width: 70px">
-<p>Stash your work-in-process (<code>// WIP</code>) changes.</p>
+<div class="flex-wrap">
+	<div class="flex-item">
+		<img src='/wp-content/uploads//gk-new-stash-icon.svg' class='img-responsive' style="width: 70px">
+	</div>
+	<div class="flex-item">
+		<p>Stash your work-in-process (<code>// WIP</code>) changes.</p>
+	</div>
+</div>
 
 
 <h3>Pop Stash</h3>
-<img src='/wp-content/uploads//gk-new-pop-icon.svg' class='img-responsive' style="width: 70px">
-<p>Ready to restore your <code>// WIP</code>? Pop that stash and carry on as you were.</p>
+<div class="flex-wrap">
+	<div class="flex-item">
+		<img src='/wp-content/uploads//gk-new-pop-icon.svg' class='img-responsive' style="width: 70px">
+	</div>
+	<div class="flex-item">
+		<p>Ready to restore your <code>// WIP</code>? Pop that stash and carry on as you were.</p>
+	</div>
+</div>
 
 <h3>LFS</h3>
-<img src='/wp-content/uploads//gk-lfs-icon.svg' class='img-responsive' style="width: 70px">
-<p> Have large files in your repo? This button will appear when you have <a href="/git-workflows-and-extensions/intro-and-requirements/">LFS</a> enabled on the repository.</p>
+<div class="flex-wrap">
+	<div class="flex-item">
+		<img src='/wp-content/uploads//gk-lfs-icon.svg' class='img-responsive' style="width: 70px">
+	</div>
+	<div class="flex-item">
+		<p> Have large files in your repo? This button will appear when you have <a href="/git-workflows-and-extensions/intro-and-requirements/">LFS</a> enabled on the repository.</p>
+	</div>
+</div>
 
 
 <div class='callout callout--basic'><p><strong>Note:</strong> Toggle the toolbar labels by navigating to <kbd><strong>Preferences > UI Preferences</strong></kbd> and toggling the <code>Show toolbar icon labels</code> checkbox.</p></div>
