@@ -28,7 +28,7 @@ The left panel allows you to modify the view of the graph for cleanliness and fo
  <div class="flex-wrap">
     <div class="flex-item">
         <img src="/wp-content/uploads/gk-solo-icon-orange.svg" class='img-responsive' style="width: 70px">
-    <div>
+    </div>
     <div class="flex-item">
         <h3>Solo</h3>
         <p>Soloing a branch will hide all other branches which have not been soloed, showing <i>only</i> soloed branches.</p>

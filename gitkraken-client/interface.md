@@ -116,42 +116,91 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
 Referred to as the left "ref" panel, GitKraken Client shows the properties below specific to your repository.  The panel and each pane can be collapsed or expanded as needed.
 
 <h3>Local</h3>
-<img src='/wp-content/uploads/gk-new-local-icon.svg' class='img-responsive' style="width: 70px">
-<p>References to local branches &mdash; pointers to specific commits allowing work to be separated.</p>
-<p>If you need help with branches, visit our <a href="/working-with-repositories/branching-and-merging">Branching and Merging</a> page.</p>
+<div class="flex-wrap">
+	<div class="flex-item">
+		<img src='/wp-content/uploads/gk-new-local-icon.svg' class='img-responsive' style="width: 70px">
+	</div>
+	<div class="flex-item">
+		<p>References to local branches &mdash; pointers to specific commits allowing work to be separated.</p>
+		<p>If you need help with branches, visit our <a href="/working-with-repositories/branching-and-merging">Branching and Merging</a> page.</p>
+	</div>
+</div>
+
 
 <h3>Remote</h3>
-<img src='/wp-content/uploads/gk-new-remote-icon.svg' class='img-responsive' style="width: 70px">
-<p>References to remote branches.</p>
-<p>Set sail into <a href="/working-with-repositories/pushing-and-pulling">pushing and pulling remotes</a> for more.</p>
+<div class="flex-wrap">
+	<div class="flex-item">
+		<img src='/wp-content/uploads/gk-new-remote-icon.svg' class='img-responsive' style="width: 70px">
+	</div>
+	<div class="flex-item">
+		<p>References to remote branches.</p>
+		<p>Set sail into <a href="/working-with-repositories/pushing-and-pulling">pushing and pulling remotes</a> for more.</p>
+	</div>
+</div>
 
 <h3>Pull Requests</h3>
-<img src='/wp-content/uploads/gk-new-pull-requests-icon.svg' class='img-responsive' style="width: 70px">
-<p>This shows active requests for merging one branch into another. With the GitHub or Bitbucket integration, new PRs can be created directly from GitKraken Client.</p>
-<p>Create your <a href="/working-with-repositories/pull-requests">Pull Request</a> to get your contribution merged.</p>
+<div class="flex-wrap">
+	<div class="flex-item">
+		<img src='/wp-content/uploads/gk-new-pull-requests-icon.svg' class='img-responsive' style="width: 70px">
+	</div>
+	<div class="flex-item">
+		<p>This shows active requests for merging one branch into another. With the GitHub or Bitbucket integration, new PRs can be created directly from GitKraken Client.</p>
+		<p>Create your <a href="/working-with-repositories/pull-requests">Pull Request</a> to get your contribution merged.</p>
+	</div>
+</div>
 
 <h3>Issues</h3>
-<i class="fa fa-list-ul fa-3x" aria-hidden="true"></i>
-<p>Lets you see and work with your issues in GitKraken Client</p>
-<p>Hook up to your remote issue tracker of choice - such as <a href="/integrations/jira/">Jira</a>, <a href="/integrations/boards/">Boards</a>, <a href="/integrations/github-issues/">GitHub</a>, <a href="/integrations/gitlab-issues/">GitLab</a>, or <a href="/integrations/trello/">Trello</a>.</p>
+<div class="flex-wrap">
+	<div class="flex-item">
+		<i class="fa fa-list-ul fa-3x" aria-hidden="true"></i>
+	</div>
+	<div class="flex-item">
+		<p>Lets you see and work with your issues in GitKraken Client</p>
+		<p>Hook up to your remote issue tracker of choice - such as <a href="/integrations/jira/">Jira</a>, <a href="/integrations/boards/">Boards</a>, <a href="/integrations/github-issues/">GitHub</a>, <a href="/integrations/gitlab-issues/">GitLab</a>, or <a href="/integrations/trello/">Trello</a>.</p>
+	</div>
 
 <h3>Teams</h3>
-<i class="fa fa-users fa-3x" aria-hidden="true"></i>
-<p>Easily see what your <a href="/working-with-repositories/team-view/">Team</a> members are working on.</p>
+<div class="flex-wrap">
+	<div class="flex-item">
+		<i class="fa fa-users fa-3x" aria-hidden="true"></i>
+	</div>
+	<div class="flex-item">
+		<p>Easily see what your <a href="/working-with-repositories/team-view/">Team</a> members are working on.</p>
+	</div>
+</div>
 
 <h3>Tags</h3>
-<img src='/wp-content/uploads/gk-new-tags-icon.svg' class='img-responsive'style="width: 70px">
-<p>These represent active pointers to commits but never move. <a href="/working-with-repositories/tags">Tag</a>, you're it!</p>
+<div class="flex-wrap">
+	<div class="flex-item">
+		<img src='/wp-content/uploads/gk-new-tags-icon.svg' class='img-responsive'style="width: 70px">
+	</div>
+	<div class="flex-item">
+		<p>These represent active pointers to commits but never move. <a href="/working-with-repositories/tags">Tag</a>, you're it!</p>
+	</div>
+</div>
 
 <h3>Stashes</h3>
-<img src='/wp-content/uploads/gk-new-stash-icon.svg' class='img-responsive' style="width: 70px">
-<p>Stored file changes in the working copy.</p>
-<p>For saving your loot to play with later, here's more on <a href="/working-with-commits/stashing">stashes</a>.</p>
+<div class="flex-wrap">
+	<div class="flex-item">
+		<img src='/wp-content/uploads/gk-new-stash-icon.svg' class='img-responsive' style="width: 70px">
+	</div>
+	<div class="flex-item">
+		<p>Stored file changes in the working copy.</p>
+		<p>For saving your loot to play with later, here's more on <a href="/working-with-commits/stashing">stashes</a>.</p>
+	</div>
+</div>
+
 
 <h3>Submodules</h3>
-<img src='/wp-content/uploads//gk-new-submodules-icon.svg' class='img-responsive' style="width: 70px">
-<p>A Git repository in a subdirectory of the current repository.</p>
-<p>Git-inception with <a href="/working-with-repositories/submodules">submodules</a> anyone?</p>
+<div class="flex-wrap">
+	<div class="flex-item">
+		<img src='/wp-content/uploads//gk-new-submodules-icon.svg' class='img-responsive' style="width: 70px">
+	</div>
+	<div class="flex-item">
+		<p>A Git repository in a subdirectory of the current repository.</p>
+		<p>Git-inception with <a href="/working-with-repositories/submodules">submodules</a> anyone?</p>
+	</div>
+</div>
 
 
 ***
