@@ -20,8 +20,13 @@ From left to right, GitKraken Client displays a left reference panel, center gra
 In addition to Undo and Redo, the main toolbar houses common repo actions.
 
 <h3>Undo</h3>
-<img src='/wp-content/uploads/gk-new-undo-icon.svg' class='img-responsive' style="width: 70px">
-<p>Many actions performed in GitKraken Client can be undone. If an action is undoable, the <kbd>Undo</kbd> button will be a solid color ready for action.</p>
+<div class="flex-wrap">
+	<div class="flex-item">
+		<img src='/wp-content/uploads/gk-new-undo-icon.svg' class='img-responsive' style="width: 70px"></div>
+	<div class="flex-item">
+		<p>Many actions performed in GitKraken Client can be undone. If an action is undoable, the <kbd>Undo</kbd> button will be a solid color ready for action.</p>
+	</div>
+</div>
 
 <h3>Redo</h3>
 <img src='/wp-content/uploads/gk-new-redo-icon.svg' class='img-responsive' style="width: 70px">
