@@ -173,7 +173,7 @@ Referred to as the left "ref" panel, GitKraken Client shows the properties below
 <h3>Tags</h3>
 <div class="flex-wrap">
 	<div class="flex-item">
-		<img src='/wp-content/uploads/gk-new-tags-icon.svg' class='img-responsive>
+		<img src='/wp-content/uploads/gk-new-tags-icon.svg' class='img-responsive'>
 	</div>
 	<div class="flex-item">
 		<p>These represent active pointers to commits but never move. <a href="/working-with-repositories/tags">Tag</a>, you're it!</p>
