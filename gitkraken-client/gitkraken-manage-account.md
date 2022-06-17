@@ -115,7 +115,6 @@ To import users click the `Add User` button. From here you can import users via 
 
 When importing users, be sure to have columns for `Email`, `Username`, `Role`, `User License`.
 
-
 If you need to export users, you may access this option from the Users list on [https://app.gitkraken.com](https://app.gitkraken.com).
 
 <img src="/wp-content/uploads/account-site-export-arrow.png" class="img-responsive center img-bordered"/> 
@@ -168,5 +167,3 @@ Click on <kbd>Organizations</kbd> and then click on the name of the expired or c
 <img src="/wp-content/uploads/org-expired.png" srcset="/wp-content/uploads/org-expired@2x.png 2x" class="img-responsive center img-bordered">
 
 Then click on <kbd>Subscription</kbd> in the left panel, where you may update the license total or billing details before hitting <button class='button button--success button--ui button--nolink'>Reactivate</button>.
-
-<img src="/wp-content/uploads/reactivate-account.png" srcset="/wp-content/uploads/reactivate-account@2x.png" class="img-responsive center img-bordered">
