@@ -15,6 +15,134 @@ Behold the evolution of GitKraken Client! Find out what&rsquo;s new, what&rsquo;
 Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) to see what we’re working on.
 
 ***
+<a id="v8-6-0"></a>
+## Version 8.6.0
+
+### Tuesday, June 14, 2022
+
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TsRKcb7hP0I?controls=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+_You don't have to be a an intergalactic Space Ranger to know that when it comes to navigating a repo, fast is good. You'll be seeing performance improvements…performance improvements everywhere, with the release of GitKraken Client v8.6._
+
+### New ✨
+
+_You've got a friend in GitKraken._
+
+- Users can now create Workspaces using Bitbucket Server repos.
+- Users can now select Git Bash as their default shell in Windows for GitKraken CLI.
+    - Users can set Git Bash as their default terminal by navigating to <kbd>Preferences</kbd> → <kbd>Terminal</kbd> → <kbd>Default Terminal</kbd> and selecting "Git Bash" from the dropdown menu.
+- Repo and Terminal Tab aliases:
+    - Users can now set an alias for a repository.
+        - To set an alias, users can right-click on a Repo Tab and select the <kbd>Alias repository</kbd> option. 
+        - Setting an alias through a Repo Tab will cause GitKraken Client to store that name for the repo and reference it as an “Alias Repository”. 
+    -  Users can set an alias for individual Terminal Tabs.
+        - To rename any Terminal Tab, users can right-click on the tab and select the <kbd>Rename tab</kbd> option. 
+        - Setting an alias to a Terminal Tab results in only renaming that specific tab. 
+- Users can now set GitKraken Client to skip submodule updates while performing Git actions, either globally or per repo.
+
+### Improvements 🙌
+
+_Faster for LFS, big repos, and beyond._
+
+- Git LFS performance improvements: 
+    - Users will see faster performance when cloning LFS repositories.
+    - Users will note much faster checkout times in LFS repositories.		
+- Sections in the left panel will now be collapsed by default.
+- Users can now set the maximum number of commits shown in the Commit Graph as low as  500 commits.
+    - To set the shown commit limit, navigate to <kbd>Preferences</kbd> → <kbd>General</kbd> and look for <kbd>Max Commits in Graph</kbd> towards the bottom of that menu.
+- Users will note improved performance when the open repo has a large number of stashes.
+- When creating a pull request from a branch that starts with an issue ID (e.g, GK-123-feature-branch), a link to the associated issue will now be added to the pull request description automatically.
+
+### Bug Fixes 🐛
+
+_You are a sad, strange little bug, and you don't have my pity._
+
+- When creating a new branch from an issue, users will see the input box as expected.
+- When working with remote branches in the left panel, the context menu will remain available.
+- GitLab avatars will now more consistently display correctly.
+- Branches will immediately refresh when a checkout is performed in a Terminal Tab.
+- Users connected to an Azure DevOps integration using Azure's older hostname style (eg. {organization}.visualstudio.com) will now be able to use Workspaces and the Pull Requests section in the left panel.
+-  Users leveraging Azure DevOps Workspaces will no longer see a misleading ‘Add a Repository’ button in their Workspace. Users will need to visit Azure DevOps directly to add repositories to their Workspaces.
+
+
+***
+<a id="v8-5-0"></a>
+## Version 8.5.0
+
+### Tuesday, May 17th, 2022
+
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DJhsfHyL_m8?controls=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+</div>
+
+_The GitKraken team is proud to announce these improvements to Workspaces, Teams, and the GitKraken CLI. Lower your blast shield, trust your feelings, and prepare for the release of GitKraken Client v8.5._
+
+
+### New ✨
+
+_Git is what gives a dev their power...It binds the galaxy together._
+
+- GitKraken WorkSpaces now support Azure DevOps repositories.
+    - Any Workspace created for Azure DevOps will automatically include repos for a selected Azure Project.
+    - Workspaces can currently support up to 100 repositories for an Azure Project.
+- Visual interactive rebase can now be initiated from the GitKraken CLI, which you can access from a Terminal Tab or a Repo Tab by clicking the <kbd>Terminal</kbd> icon in the top toolbar.
+    - Users can type either `gk rebase -i` or `gk rebase --interactive` along with two refs to open the interactive rebase view. If only one ref is passed it will perform the rebase of the branch currently checked out onto the specified ref.
+
+### Improvements 🙌
+
+_An elegant Git client for a more civilized age._
+
+- Git LFS Improvements:
+    - Users will experience a reduced delay in updating the graph and commit detail panel when selecting commits in LFS enabled repos.
+    - Note: Significant work towards reducing checkout times for LFS repos is underway and we plan to include these improvements in the GitKraken Client v8.6.0 release, scheduled for June.
+- When creating a new Team, members can now be added as part of the creation process.
+- Team members are now sorted by username in the Teams section, found in the left panel of GitKraken Client.
+- Improvements to GitKraken Workspaces: 
+    - Workspaces can now be shared as Team Workspaces, allowing users to share the Workspace with specific teams within their Organization.  
+	- In the Workspaces Repository view, clicking on the name of a repository will open it in a Repo Tab. 
+        - Users can view repository information by clicking on the Open Repository Details option, found on the right side of the Repositories view.  
+    - Organization admins and owners will see a new "Show All Workspaces" checkbox, allowing a simplified way to see all available Workspaces.  
+    - Users can now leverage [GitHub’s search syntax](https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests) when using the Workspaces Pull Requests view search.
+    - Users will find more options for filtering in the Workspaces Pull Requests view. The new options include: 
+        - "Opened by Me", to show pull requests that were opened by the user. This filter is available for GitHub, GitHub Enterprise, GitLab, and GitLab Self-Managed repositories.
+        - "At Risk", to show any pull requests that are not drafts and have been open for longer than 7 days. This filter is currently only available for GitHub, GitHub Enterprise, GitLab, and GitLab Self-Managed repositories.
+        - "By repository", to limit the view to a single repo within the Workspace. This filter is currently available for Azure DevOps, GitHub, GitHub Enterprise, Gitlab, and Gitlab Self-Managed repositories.
+- For Windows users, GitKraken Client will now respect the `core.longpaths` setting in `.gitconfig`. Previously, GitKraken Client had its own longpaths setting independent of the user’s `.gitconfig` setting.
+    - On Windows, `core.longpaths` now only applies to the files in the working directory, not in the .git directory, to maintain compatibility with Git for Windows.
+- GitKraken CLI autocomplete will now be able to suggest more than one argument in these commands: 
+    - `git add` 
+    - `npm install`
+    - `npm remove`
+    - `yarn add`
+    - `yarn remove`
+- Notifications with a Call to Action will now be marked as read when the CTA is clicked.
+- Users encountering merge conflicts can now right-click on the conflicts shown in the Commit Panel to reveal new options for easier and faster conflict resolution. The new options available are: 
+    - "Take current", which applies the changes from the branch currently checked out to resolve the conflict.
+    - "Take incoming", which applies the changes from the incoming branch to resolve the conflict.
+
+
+### Bug Fixes 🐛
+
+_Bugs…You will never find a more wretched hive of scum and villainy._
+
+- GitKraken Client will now open as expected for users on OpenSSL 3 Linux distributions such as Ubuntu 22.04 and Fedora 36.
+- Users will see increased performance when opening a commit diff for very large images. Large images will now display as a binary file Instead of producing an error.
+    - For large files, such as images and other media, we recommend using [Git LFS](https://support.gitkraken.com/git-workflows-and-extensions/git-lfs/). 
+- Dotted graph lines will no longer take precedence when overlapping with solid lines in graph views.
+- Users can now type in the GitKraken Terminal as expected on a wider range of OS versions.
+- When un-hiding a remote, users can continue hiding or un-hiding remotes without waiting for the triggered automatic fetch to resolve.
+- Azure DevOps integrations and all self hosted integrations will now work properly on our new Teams license tier.
+- Users with hundreds or thousands of Azure DevOps Projects will see improved performance when integrating Azure DevOps.
+- Users can now use quotation marks when naming Workspaces.
+- All Organization and Team actions will remain available after using the login screen.
+- The scrollbar in the GitKraken Terminal will now remain clickable in all situations.
+- When a user pushes many files up at once to GitHub, they will no longer experience an OAuth infinite loop.
+- Opening repositories via `gitkraken --path <path>` when GitKraken is already open will now work as expected.
+
+***
 <a id="v8-4-0"></a>
 ## Version 8.4.0
 
