@@ -48,7 +48,7 @@ Below are platform-specific details on minimum requirements.
 Double-click the downloaded executable file, and follow the installation instructions.
 
 #### Data Location
-GitKraken data is stored within your home profile in ``C:\Users\{user}\AppData\Roaming`` or ``%APPDATA%\.gitkraken`` on older versions. No data is stored outside of the user's machine or remote services _(GitHub Enterprise, Bitbucket Server, etc)_.
+GitKraken data is stored within your home profile in <kbd>C:\Users\{user}\AppData\Roaming</kbd> or <kbd>%APPDATA%\.gitkraken</kbd> on older versions. No data is stored outside of the user's machine or remote services _(GitHub Enterprise, Bitbucket Server, etc)_.
 
 
 
