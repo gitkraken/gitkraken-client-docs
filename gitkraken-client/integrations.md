@@ -13,7 +13,7 @@ GitKraken Client allows you to connect many different services and platforms, ma
 
 - [GitHub](/gitkraken-client/github-gitkraken-client/)
 - [GitHub Enterprise](/gitkraken-client/github-enterprise/)
-- [GitLab](/gitkraken-client/gitlab/)
+- [GitLab](/gitkraken-client/gitlab-gitkraken-client/)
 - [GitLab Self-Managed](/gitkraken-client/gitlab-self-hosted/)
 - [Bitbucket](/gitkraken-client/bitbucket)
 - [Bitbucket Server](/gitkraken-client/bitbucket-server/)
