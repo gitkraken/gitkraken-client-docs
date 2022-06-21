@@ -15,7 +15,7 @@ By signing a commit, other users with your public key can verify the commit was 
 
 ###Commit Signing Requirements
 
-Before you start signing your commits, you will first need to install and configure GPG. GPG download files can be found [here](https://www.gnupg.org/download/index.html). Our recommendations to get GPG installed quickly are below.
+Before you start signing your commits, you will first need to install and configure GPG. Our recommendations to get GPG installed quickly are below.
 
 <div class='callout callout--warning'>
     <p><strong>Note:</strong> If you have GitKraken Client open, we recommend closing the application before installing GPG. </p>
@@ -32,6 +32,9 @@ Before you start signing your commits, you will first need to install and config
 	+ **Fedora:** `dnf install gnupg2`
 	+ **CentOS/RHEL:** `yum install gnupg2`
 
+
+All GPG download files can be found [here](https://www.gnupg.org/download/index.html).
+
 Once you have installed GPG to your machine, you can verify it is installed and check the version by opening your terminal and running `gpg --version`.
 
 <div class='callout callout--success'>
@@ -45,7 +48,7 @@ Once you have installed GPG to your machine, you can verify it is installed and 
 
 If you have GPG installed on your local machine, you will be able to generate a GPG key pair from within GitKraken Client.
 <div class='callout callout--success'>
-    <p><strong>Note:</strong> Make sure that you have [configured GPG inside of GitKraken Client](/git-workflows-and-extensions/commit-signing-with-gpg/#configure-gpg-in-gitkraken).</p>
+    <p><strong>Note:</strong> Make sure that you have <a href="/gitkraken-client/commit-signing-with-gpg/#configure-gpg-in-gitkraken">configured GPG inside of GitKraken Client</a>.</p>
 </div>
 
 Under `Preferences` → `GPG Preferences`, there is an option to `Generate new GPG Key`. If you wish to enter a passphrase, make sure you do so prior to selecting `Generate`.
