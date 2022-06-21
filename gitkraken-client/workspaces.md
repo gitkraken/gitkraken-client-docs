@@ -26,6 +26,18 @@ You can give the Workspace a name, icon, description, and make it personal or sh
 
 <img src="/wp-content/uploads/create-workspace.gif" class="img-bordered img-responsive center">
 
+## Workspace type
+
+Workspaces are available as either a _Personal_ or _Team_ type.
+
+**Personal Workspaces** are only accessible by you on this machine.
+
+**Team Workspaces** will be available for the selected teams within your organization. This helps ensure that everyone is up-to-date on the same set of repositories by offering [multi-repository actions](/gitkraken-client/workspaces/#multi-repository-actions) and the ability to [work with all pull requests](/working-with-repositories/workspaces/#pull-requests) from these repositories. 
+
+<img src="/wp-content/uploads/workspace-type.png" srcset="/wp-content/uploads/workspace-type@2x.png" class="img-bordered img-responsive center">
+
+Learn more about [how to create a team](/start-here/teams/). 
+
 ## Edit a workspace
 
 Edit a workspace by selecting the ellipsis <i class="fas fa-ellipsis-v"></i> icon by the Workspace name.
@@ -46,25 +58,17 @@ Workspaces expose the state of all repositories so you can see the last checked-
 
 <img src="/wp-content/uploads/repos-status.png" srcset="/wp-content/uploads/repos-status@2x.png" class="img-bordered img-responsive center">
 
-## Workspace type
-
-**Personal Workspaces** are only accessible by you on this machine.
-
-**Shared Workspaces** will be available for the selected teams within your organization. This helps ensure that everyone is up-to-date on the same set of repositories and allows new team members to onboard quickly by cloning all repositories in a Workspace at once.
-
-<img src="/wp-content/uploads/workspace-type.png" srcset="/wp-content/uploads/workspace-type@2x.png" class="img-bordered img-responsive center">
-
 ## Workspace breadcrumb in toolbar
 
 The option to remove the Workspace breadcrumb in the toolbar can be toggled under <kbd> Preferences > UI Customization > _Show Workspace breadcrumb in toolbar_</kbd>.
 
 <img src="/wp-content/uploads/breadcrumb-setting.png" srcset="/wp-content/uploads/breadcrumb-setting@2x.png" class="img-bordered img-responsive center">
 
-## View README
+## View Repository Details
 
-You may single click a workspace to view its README.md.
+You may select the <i class="fa-solid fa-list"></i> icon to open the repository details.
 
-<img src="/wp-content/uploads/readme.png" srcset="/wp-content/uploads/readme@2x.png" class="img-bordered img-responsive center">
+<img src="/img/documentation/repositories/workspaces/repository-details.png" srcset="/img/documentation/repositories/workspaces/repository-details@2x.png" class="img-bordered img-responsive center">
 
 ## Pull requests
 
@@ -74,9 +78,16 @@ To view a workspaces pull requests, select a workspace and then select `Pull Req
 
 <img src="/wp-content/uploads/pull-requests.png" srcset="/wp-content/uploads/pull-requests@2x.png" class="img-bordered img-responsive center">
 
-Select `Filter pull requests` to filter for pull requests assigned to you or filter for pull requests that are at risk. Additionally, you can search for pull requests by title.
+Select `Filter pull requests` to filter for pull requests with the following options:
+
+* "Opened by Me", to show pull requests that were opened by the user. This filter is available for GitHub, GitHub Enterprise, GitLab, and GitLab Self-Managed repositories.
+* "At Risk", to show any pull requests that are not drafts and have been open for longer than 7 days. This filter is currently only available for GitHub, GitHub Enterprise, GitLab, and GitLab Self-Managed repositories.
+* "By repository", to limit the view to a single repo within the Workspace. This filter is currently available for Azure DevOps, GitHub, GitHub Enterprise, Gitlab, and Gitlab Self-Managed repositories.
+
+The search allows searching by pull request titles for all services. For GitHub.com workspaces, <a href="https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests">GitHub's search syntax</a> can also be used.
 
 <img src="/wp-content/uploads/filter-and-search.png" srcset="/wp-content/uploads/filter-and-search@2x.png" class="img-bordered img-responsive center">
+
 
 At risk pull requests are pull requests that have not been updated in more than 7 days. This is indicated by the `At risk` label.
 
