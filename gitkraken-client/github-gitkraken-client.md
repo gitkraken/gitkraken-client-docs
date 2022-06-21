@@ -50,9 +50,13 @@ From the Integrations window, select **GitHub.com** and then hit the <button cla
 
 This opens a web browser where you first log in with your GitHub credentials to allow GitKraken access.
 
-Upon login, a success message appears and the connection will be active in GitKraken.
+Upon login, a success message appears. Finish connecting by selecting `Open GitKraken`. 
 
 <img src="/wp-content/uploads/github-success.png" srcset="/wp-content/uploads/github-success@2x.png" class="img-bordered img-responsive center">
+
+Alternativley, you can connect the integration by copy and pasting the OAuth token manually. 
+ 
+<img src="/wp-content/uploads/github-oauth-token.png" class="img-bordered img-responsive center"> 
 
 ### Generating an SSH Key for GitHub
 <div class='callout callout'>

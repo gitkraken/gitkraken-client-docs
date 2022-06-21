@@ -12,7 +12,7 @@ GitKraken Workspaces allow you to create easily accessible groups of repositorie
 <div class='callout callout--warning'>
     <p>
         <strong>Note:</strong>
-            Workspaces can contain repositories hosted on GitHub.com, GitHub Enterprise, GitLab.com, GitLab Self-Managed, and Bitbucket.com. To create a Workspace, the integration must be connected under <kbd>Preferences > Integrations</kbd>.
+            To create a Workspace, the integration for the desired service must be connected under <kbd>Preferences > Integrations</kbd>.
     </p>
 </div>
 

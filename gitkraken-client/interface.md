@@ -276,6 +276,16 @@ Hover over an open tab to quickly see the end portion of the file path.
 
 <img src='/wp-content/uploads/tab-hover.png' class='img-bordered img-responsive center'>
 
+### Tab alias and name
+
+An alias can be set for repository tabs. To give an alias to a repository tab, right-click the tab and select <kbd>Alias reposiotry</kbd>. After filling out the name, select save.
+
+<img src='/wp-content/uploads/repository-alias.png' class='img-bordered img-responsive center'>
+
+A name can be set for terminal tabs. To give a name to a terminal tab, right-click the tab and select <kbd>Rename Tab</kbd>. After filling out the name, select save.
+
+<img src='/wp-content/uploads/terminal-name.png' class='img-bordered img-responsive center'>
+
 ***
 
 ## Columns

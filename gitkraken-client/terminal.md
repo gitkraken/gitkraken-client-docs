@@ -69,10 +69,12 @@ A toolbar above the panel will display the current repo name, branch, tag, and n
 
 Navigate to <kbd><strong>Preferences > Terminal</strong></kbd> to change your Terminal preferences.
 
-<div class='callout callout--basic'>
-    <p><strong>Note:</strong> The following shells are available depending on operating system: PowerShell for Windows, ZSH/Bash for Mac and Linux. The Terminal will utilize your operating system's default shell. To switch shells you'll need to set the new shell as default in your operating system settings and restart your computer for auto-complete to continue working as expected </p>
-</div>
-
 <img src="/wp-content/uploads/terminal-preferences.png" class="img-responsive center img-bordered">
 
+#### Setting the default terminal on Mac and Linux
 
+ZSH and Bash are currently supported for Mac and Linux. To switch shells you'll need to set the new shell as default in your operating system settings and restart your computer for auto-complete to continue working as expected.
+
+#### Setting the default terminal on Windows
+
+PowerShell and Bash are currently supported for Windows. To switch shells, adjust the _Default Terminal_ under <em class='context-menu'>Preferences > Terminal</em>.

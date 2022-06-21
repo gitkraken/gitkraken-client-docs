@@ -90,7 +90,7 @@ Enabling this option will force GitKraken Client to always show all commits in r
 
 ### Max Commits in Graph
 
-Set the max number of commits GitKraken Client will show in the graph. Lower counts may help improve performance, and the minimum value is 2000 commits.
+Set the max number of commits GitKraken Client will show in the graph. Lower counts may help improve performance, and the minimum value is 500 commits.
 
 ### Remember tabs
 
@@ -191,6 +191,7 @@ These settings only effect `Terminal` tabs.
 - Enable Autocomplete Suggestions
 - Show Graph Panel by Default
 - Terminal Theme
+- Default Terminal (Windows only)
  
 ## Repo-Specific Preferences
 
@@ -202,6 +203,7 @@ Repo-Specific preferences only apply to the repo currently open in GitKraken Cli
 - [LFS](/git-workflows-and-extensions/intro-and-requirements/)
 - [Issues](/integrations/jira/)
 - [Team](/working-with-repositories/team-view)
+- [Submodules](/gitkraken-client/submodules/#keep-submodules-up-to-date)
 
 You may configure unique repo-specific settings for each repo.
 

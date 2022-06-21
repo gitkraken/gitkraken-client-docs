@@ -40,9 +40,13 @@ From the Integrations window, select Bitbucket.org and then hit the <button clas
 
 This will open a web browser where you will need to log in with your Bitbucket credentials to allow GitKraken access.
 
-Upon login, you'll see a success message below and the connection will be active in GitKraken Client.
+Upon login, a success message appears. Finish connecting by selecting `Open GitKraken`. 
 
 <img src="/wp-content/uploads//bitbucket-success.png" srcset="/wp-content/uploads//bitbucket-success@2x.png 2x" class="img-responsive center img-bordered">
+
+Alternativley, you can connect the integration by copy and pasting the OAuth token manually. 
+ 
+<img src="/wp-content/uploads/bitbucket-oauth-token.png" class="img-bordered img-responsive center"> 
 
 ***
 ## Generating SSH keys for Bitbucket.
