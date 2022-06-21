@@ -56,14 +56,66 @@ Click the <kbd>Show Hidden Organizations</kbd> button to show hidden organizatio
 
 
 ***
+
 ## Roles
 
-There are four roles for a GitKraken user within an organization's account:
+There are four roles for a GitKraken user within an organization's account. Owners, Admins, and Users all consume a license which allows them to use GitKraken Client. The Billing Contact role does not use a license and is intended only for managing the organization.
 
-* **Owner**: Add or edit users plus access to billing. No one but the owner can transfer ownership
-* **Admin**: Add or edit users plus manage billing
-* **User**: General user
-* **Billing Contact (unlicensed)**: Does not consume a license. Add or edit general users plus manage billing
+* **Owner**: Full use of GitKraken Client. Add or edit users plus access to billing. No one but the owner can transfer ownership.
+* **Admin**: Full use of GitKraken Client. Add or edit users plus manage billing.
+* **User**: Full use of GitKraken Client. General user.
+* **Billing Contact (unlicensed)**: Does not consume a license. Add or edit general users plus manage billing.
+
+
+<table class='table table--bordered table--shortcuts'>
+    <thead>
+        <tr>
+            <th>Permission</th>
+            <th>Owner</th>
+            <th>Admin</th>
+            <th>User</th>
+            <th>Billing Contact</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Licensed to use GitKraken</td>
+            <th>X</th>
+            <th>X</th>
+            <th>X</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Add, edit, and remove users</td>
+            <th>X</th>
+            <th>X</th>
+            <th></th>
+            <th>X</th>
+        </tr>
+        <tr>
+            <td>Create and manage teams</td>
+            <th>X</th>
+            <th>X</th>
+            <th></th>
+            <th>X</th>
+        </tr>
+        <tr>
+            <td>Manage billing and purchase licenses</td>
+            <th>X</th>
+            <th>X</th>
+            <th></th>
+            <th>X</th>
+        </tr>
+        <tr>
+            <td><a href="/gitkraken-client/gitkraken-mange-account/#transfer-ownership">Transfer ownership</a> of the organization</td>
+            <th>X</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </tbody>
+</table>
+
 
 ***
 ## Manage users
