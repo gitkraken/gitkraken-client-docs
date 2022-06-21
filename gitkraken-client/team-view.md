@@ -27,6 +27,8 @@ Additional lines to their files will be shown in <span style="color: green;">gre
 
 <img src="/wp-content/uploads/file-changes.png" srcset="/wp-content/uploads/file-changes.png" class="img-bordered img-responsive center">
 
+Learn more about [how to create a team](/start-here/teams/).
+
 ***
 
 ### Status

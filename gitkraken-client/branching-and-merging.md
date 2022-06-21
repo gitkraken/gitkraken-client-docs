@@ -137,6 +137,15 @@ GitKraken Client does _not support_ the following merge tools:
 
 While GitKraken Client allows Git Config Default merge tools, not all tools will be compatible. Find more information about configuring a <a href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_external_merge_tools">default merge tool in your Git Config</a>.
 
+### Resolving a conflicted file using current or incoming
+
+You may resolve a conflicted file by right-clicking the file in the commit panel and selecting the option `Take current (branch)` or `Take incoming (branch)`.
+
+* `Take current (branch)` will apply the changes of the current branch.
+* `Take incoming (branch)` will apply the changes of the incoming branch.
+
+<img src='/img/documentation/repositories/current-incoming.png' class='img-bordered img-responsive center'/>
+
 ***
 
 ## Rebasing

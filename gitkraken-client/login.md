@@ -25,21 +25,19 @@ If you're logging into GitKraken using another account such as [GitHub](/integra
 
 If you don't have `GitKraken` yet, [register](https://app.gitkraken.com/register) your account today. Or if you need to manage your paid subscription, click to [manage subscription](https://app.gitkraken.com/register).
 
-## Sign in with GitHub or Google
+## Sign in with GitHub, GitLab, Bitbucket or Google
 
-When navigating to <em class='context-menu'><i class="fa fa-bars"> </i>  <i class='fa fa-caret-right'></i> Sign into a different account</em>, you may choose to sign in with GitHub or Google:
+When navigating to <kbd><strong>File > Sign into a different account</strong></kbd>, you may choose to sign in with GitHub, GitLab, Bitbucket, or Google:
 
 <img src='/wp-content/uploads/login/sign-in.png' srcset='/wp-content/uploads/login/sign-in@2x.png 2x' class='img-bordered img-responsive center'>
 
-Should you choose GitHub, this will open your default browser and authenticate your account with GitHub. If you are already signed into GitHub on your browser, GitKraken Client will sign you in using that GitHub account.
+Should you choose GitHub, GitLab, or Bitbucket, this will open your default browser and authenticate your account. If you are already signed into the site on your browser, GitKraken Client will sign you in using that account.
 
-If you choose Google, GitKraken Client will open a new browser window. Select the Google account you wish to connect, and then GitKraken Client will finish the authentication.
-
-If however GitKraken Client does not automatically log you in after signing in with Google, you may manually enter the Oauth token provided on the success page that appears after you sign into Google, to complete the authentication.
+Once you see the "Success!" message, select `Open GitKraken` to proceed with the login. If however GitKraken Client does not automatically log you in after signing in with one of these services, you may manually enter the Oauth token provided on the success page, to complete the authentication.
 
 <img src='/wp-content/uploads/login/google-token.png' srcset='/wp-content/uploads/login/google-token@2x.png 2x' class='img-bordered img-responsive center'>
 
-Additionally if your Google account has a GitKraken account associated, the app will automatically link the accounts together.
+Additionally if your Google, GitHub, GitLab, or Bitbucket account has a GitKraken account associated, the app will automatically link the accounts together. 
 
 
 ***

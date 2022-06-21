@@ -42,9 +42,13 @@ This will open your default web browser where you can click <button class='butto
 
 <img src="/wp-content/uploads/gitlab-sign-in.png" srcset="/wp-content/uploads/gitlab-sign-in@2x.png 2x" class="img-responsive center img-bordered">
 
-You'll then see a success message below and the connection will be active in GitKraken 🎉
+Upon login, a success message appears. Finish connecting by selecting `Open GitKraken`. 
 
 <img src="/wp-content/uploads/auth-success-gitlab.png" srcset="/wp-content/uploads/auth-success-gitlab@2x.png 2x" class="img-responsive center img-bordered">
+
+Alternativley, you can connect the integration by copy and pasting the OAuth token manually. 
+ 
+<img src="/wp-content/uploads/gitlab-oauth-token.png" class="img-bordered img-responsive center"> 
 
 ### Generating an SSH Key for GitLab
 <div class='callout callout'>

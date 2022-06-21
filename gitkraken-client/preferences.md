@@ -90,7 +90,7 @@ Enabling this option will force GitKraken Client to always show all commits in r
 
 ### Max Commits in Graph
 
-Set the max number of commits GitKraken Client will show in the graph. Lower counts may help improve performance, and the minimum value is 2000 commits.
+Set the max number of commits GitKraken Client will show in the graph. Lower counts may help improve performance, and the minimum value is 500 commits.
 
 ### Remember tabs
 
@@ -98,10 +98,11 @@ This will remember open tabs when you quit GitKraken Client. This option will al
 
 ### Longpaths (Windows Only)
 
-By default, Windows only supports file paths less than 260 characters. Enabling this option allows GitKraken Client to work with repositories and file paths that exceed 260 characters.
+For Windows users, GitKraken Client will respect the `core.longpaths` setting in the global .gitconfig. Adjusting this setting will change `core.longpaths` in your .gitconfig. `core.longpaths` only applies to the files in the working directory, not in the .git directory, to maintain compatibility with Git for Windows.
 
 ### AutoCRLF (Windows Only)
-Enabling this option auto-converts CRLF line endings into LF when adding a file to index, and vice versa when checking out code onto your file system. For more information check out this [git documentation](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_core_autocrlf).
+
+For Windows users, GitKraken Client will respect the `core.autocrlf` setting in the global .gitconfig. Adjusting this setting will change `core.autocrlf` in your .gitconfig. Enabling this option auto-converts CRLF line endings into LF when adding a file to index, and vice versa when checking out code onto your file system. For more information check out this [git documentation](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_core_autocrlf)
 
 ### Use extended logging in activity log
 
@@ -191,6 +192,7 @@ These settings only effect `Terminal` tabs.
 - Enable Autocomplete Suggestions
 - Show Graph Panel by Default
 - Terminal Theme
+- Default Terminal (Windows only)
  
 ## Repo-Specific Preferences
 
@@ -202,6 +204,7 @@ Repo-Specific preferences only apply to the repo currently open in GitKraken Cli
 - [LFS](/git-workflows-and-extensions/intro-and-requirements/)
 - [Issues](/integrations/jira/)
 - [Team](/working-with-repositories/team-view)
+- [Submodules](/gitkraken-client/submodules/#keep-submodules-up-to-date)
 
 You may configure unique repo-specific settings for each repo.
 

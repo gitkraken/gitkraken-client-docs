@@ -50,5 +50,12 @@ Below are possible statuses of your submodules and their remedies:
 - _Added but not initialized_ -- Right click and select initialize.
 - _Added and initialized but not committed_ -- When adding a submodule, commit the submodule folder to the repository and insert the reference to the submodule in the <code>.gitmodules</code> file.
 
+### Keep submodules up to date
+
+There is a setting to automatically _Keep submodules up to date_ when performing Git actions. This can be enabled or disabled:
+
++ Globally - from <kbd>Preferences > General</kbd>
++ Per repository - from <kbd>Preferences > Submodules</kbd>
+
 ### GitKraken Client and subtree, not submodules
 GitKraken Client does not currently support subtree in-app.
