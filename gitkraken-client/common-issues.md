@@ -64,11 +64,6 @@ If you have any of the above in place try the following:
 This should allow you to log in without issue. If that still does not work, please contact our [support team](https://www.gitkraken.com/contact) and we can troubleshoot further.
 
 ***
-## Windows taskbar icon is not showing the GitKraken logo
-Some Windows users are seeing the taskbar icon show incorrectly for GitKraken. This is due to the start menu shortcut moving from `C:\Users\USER\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Axosoft, LLC` to `C:\Users\USER\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitKraken`. 
-
-### Solution:
-You can delete the old folder `C:\Users\USER\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Axosoft, LLC`, start GitKraken from the start menu, and then pin it to the taskbar again to resolve this.
 
 ## Some branches or files not appearing - Capitalization issue
 
@@ -77,6 +72,8 @@ This most often occurs when having multiple remote banches nested together, but 
 This can cause some branches to not appear in GitKraken. This can also apply to naming files with same name and different capitalization.
 
  To avoid these capitalization issues, we reccomend giving each branch and remote a unique name.
+
+***
 
 ## Cannot log in - Cannot read property 'email' of null
 When trying to log in, you may see the following error: `Cannot read property 'email' of null`. This is commonly related to a network issue such as a proxy, firewall, or security application. The most common occurrence is something like Zscaler.
@@ -91,6 +88,9 @@ If you have any of the above in place try the following:
 - Restart GitKraken Client and authenticate normally
 
 This should allow you to log in without issue.
+
+***
+
 ## Windows taskbar icon is not showing the GitKraken logo
 Some Windows users are seeing the taskbar icon show incorrectly for GitKraken. This is due to the start menu shortcut moving from ``C:\Users\USER\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Axosoft, LLC`` to ``C:\Users\USER\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitKraken``. 
 
