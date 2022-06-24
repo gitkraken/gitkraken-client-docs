@@ -1,6 +1,6 @@
 ---
 
-title: GitKraken Client Bitbucket Self-Hosted Integration
+title: Bitbucket Server Integration
 description: Integrate GitKraken Client with your Bitbucket Server repository by following these steps.
 taxonomy:
     category: gitkraken-client

@@ -1,5 +1,5 @@
 ---
-Title: GitKraken Client Azure DevOps Integration
+Title: Azure DevOps Integration
 Description: Integrate GitKraken with your Azure DevOps (formerly VSTS) repository by following these steps.
 taxonomy:
     category: gitkraken-client
