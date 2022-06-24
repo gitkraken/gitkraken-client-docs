@@ -40,30 +40,6 @@ This usually indicates that there is a casing difference between the local branc
 </div>
 
 ***
-## Some branches or files not appearing - Capitalization issue
-
-This most often occurs when having multiple remote banches nested together, but the capitalization differs. For example: Feature/foo and feature/foo may either be detected as the same branch OR a different branch depending on how your Operating Sytem treats capitalization.
-
-This can cause some branches to not appear in GitKraken. This can also apply to naming files with same name and different capitalization.
-
- To avoid these capitalization issues, we reccomend giving each branch and remote a unique name.
-
-***
-## Cannot log in - Cannot read property 'email' of null
-When trying to log in, you may see the following error: `Cannot read property 'email' of null`. This is commonly related to a network issue such as a proxy, firewall, or security application. The most common occurrence is something like Zscaler.
-
-### Solution:
-If you have any of the above in place try the following:
-
-- Sign in with GitHub authentication
-- Approve the GitKraken application
-- Continue as free with 0 days
-- Click on free icon in bottom right, this brings up a web page inside GitKraken Client which authenticates against Zscaler
-- Restart GitKraken Client and authenticate normally
-
-This should allow you to log in without issue. If that still does not work, please contact our [support team](https://www.gitkraken.com/contact) and we can troubleshoot further.
-
-***
 
 ## Some branches or files not appearing - Capitalization issue
 
