@@ -43,11 +43,11 @@ This usually indicates that there is a casing difference between the local branc
 
 ## Some branches or files not appearing - Capitalization issue
 
-This most often occurs when having multiple remote banches nested together, but the capitalization differs. For example: Feature/foo and feature/foo may either be detected as the same branch OR a different branch depending on how your Operating Sytem treats capitalization.
+This most often occurs when having multiple remote banches nested together, but the capitalization differs. For example: `Feature/foo` and `feature/foo` may either be detected as the same branch OR a different branch depending on how your Operating Sytem treats capitalization.
 
 This can cause some branches to not appear in GitKraken. This can also apply to naming files with same name and different capitalization.
 
- To avoid these capitalization issues, we reccomend giving each branch and remote a unique name.
+ To avoid these capitalization issues, we recommend giving each branch and remote a unique name.
 
 ***
 
