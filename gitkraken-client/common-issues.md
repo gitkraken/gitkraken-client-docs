@@ -47,11 +47,11 @@ This most often occurs when having multiple remote banches nested together, but 
 
 Symptoms:
 
-- Branches to not appear in GitKraken - only one of the branches will be detected. 
-- This can also apply to files - if two files share the same name with only different capitalization.
+- Branches not appearing in GitKraken - only one of the branches will be detected when they share a name. 
+- This can also apply to files. If two files share the same name with only different capitalization one may appear deleted, moved, or not at all.
 - This can also manifest as the file being staged but not showing as staged when running a `git status`.
 
- To avoid these capitalization issues, we recommend giving each branch, file, and remote a unique name.
+To avoid these capitalization issues, we recommend giving each branch, file, and remote a unique name.
 
 ***
 
