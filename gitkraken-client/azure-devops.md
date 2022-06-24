@@ -69,4 +69,4 @@ Of course, you still have the option of manually entering repo URLs.
 
 ## Connecting to multiple Azure DevOps accounts
 
-GitKraken connects to one Azure DevOps account at a time. However, with a GitKraken Pro/Teams/Enterprise plan's multiple <a href="/start-here/profiles">profile</a> support, you can easily switch between profiles that each have their own associated Azure DevOps accounts.
+GitKraken connects to one Azure DevOps account at a time. However, with a paid GitKraken Pro/Teams/Enterprise plan, you can easily switch between multiple <a href="/start-here/profiles">profiles</a> that each have their own associated Azure DevOps accounts.
