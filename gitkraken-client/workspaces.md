@@ -68,7 +68,7 @@ The option to remove the Workspace breadcrumb in the toolbar can be toggled unde
 
 You may select the <i class="fa-solid fa-list"></i> icon to open the repository details.
 
-<img src="/img/documentation/repositories/workspaces/repository-details.png" srcset="/img/documentation/repositories/workspaces/repository-details@2x.png" class="img-bordered img-responsive center">
+<img src="/_images/repository-details.png" srcset="/_images/repository-details@2x.png" class="img-bordered img-responsive center">
 
 ## Pull requests
 
