@@ -34,7 +34,7 @@ Below are platform-specific instructions and details on minimum requirements.
 Double-click the downloaded executable file. You will see a splash screen while GitKraken Client is insalled, and then the application will automatically start.
 
 ### Data Location
-GitKraken Client data is stored with your home profile in <kbd>C:\Users\{user}\AppData\Roaming</kbd> in the `.gitkraken` folder.
+GitKraken Client data is stored with your home profile in `C:\\Users\\{user}\\AppData\\Roaming` in the `.gitkraken` folder.
 
 ***
 ## Mac OS (.dmg file)
