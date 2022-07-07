@@ -50,6 +50,8 @@ sudo sh loadImages.sh
 sudo docker-compose up
 ```
 
+**Note**: If server configuration is lost after upgrading, verify that `docker-compose up` was ran from the same directory as before.
+
 **Note**: If upgrading in CentOS or RHEL7, you may need to specify the full path to the docker-compose installation.  The following commands should allow you to run the docker-compose command successfully:
 
 ```
