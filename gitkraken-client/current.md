@@ -42,7 +42,8 @@ GitKraken Client v8.7 has been released! There are a number of updates in this v
 - [Naming branch from issue](/gitkraken-client/current/#name-branch-when-creating-branch-from-issue) - When viewing an issue from inside GitKraken Client, there is now a short text field for naming the branch when creating a branch from the issue.
 - [Git LFS performance improvements](/gitkraken-client/current/#git-lfs-performance-improvements):
     - Users will see faster performance when cloning LFS repositories with submodules
-    - Users will note much faster performance for general GitKraken Client actions 
+    - Users will note much faster performance for general GitKraken Client actions, e.g. reset, merge 
+ 
 
 ### Bug Fixes 🐛
 
