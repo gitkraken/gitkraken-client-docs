@@ -1,6 +1,6 @@
 ---
 
-title: Diff, Blame, and History 
+title: Diff, Patch, Blame, and History 
 description: Compare your changes with diffs in GitKraken Client. Learn about where to access diffs, file blame, and more.
 taxonomy:
     category: gitkraken-client
