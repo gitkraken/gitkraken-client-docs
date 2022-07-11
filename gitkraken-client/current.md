@@ -18,10 +18,7 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 <a id="v8-7-0"></a>
 ## Version 8.7.0
 
-### Tuesday, July 12th, 2022
-
-
-
+### Wednesday, July 13th, 2022
 
 GitKraken Client v8.7 has been released! There are a number of updates in this version making a splash, and some key highlights include:
 
