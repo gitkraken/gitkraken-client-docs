@@ -33,7 +33,7 @@ _We hemmed in some new threads._
     - [Create patch from Command Palette](/gitkraken-client/current/#create-patch-from-command-palette)
     - [Apply patch from Command Palette](/gitkraken-client/current/#apply-patch-from-command-palette)
 - [Left panel improvements](/gitkraken-client/current/#left-panel-improvements-toggle-sections) - Left Panel now has a context menu to toggle visibility of the different sections.
-- [New Tab update](/gitkraken-client/current/#updated-ui-and-layout-for-new-tab-view_) - Updated UI and layout.
+- [New Tab update](/gitkraken-client/current/#updated-ui-and-layout-for-new-tab-view) - Updated UI and layout.
 - [Terminal Tab](/gitkraken-client/current/#repo-aliases-in-terminal-tab-titles) - Repo aliases will now show in Terminal Tab titles.
 - [More fuzzy search](/gitkraken-client/current/#fuzzy-search-in-gk-history-and-gk-blame-commands) - Enabled fuzzy search in `gk history` and `gk blame` commands in GitKraken CLI.
 - [Search tabs list](/gitkraken-client/current/#users-may-now-search-tabs-by-repo-alias-in-the-tabs-list) - Users may now search tabs by repo alias in the tabs list.
@@ -94,7 +94,7 @@ You may also use the <kbd>Shift</kbd> or <kbd>Ctrl</kbd> key to multi-select fil
 
 #### Create patch from Command Palette
 
-Click on the Command Palette icon on the toolbar, or use the keyboard shortcut <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> to launch Command Palette.
+Click on the Command Palette icon on the toolbar, or use the keyboard shortcut <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> to launch Command Palette.
 
 <img src="/wp-content/uploads/create-patch-from-command-palette.png" class="img-responsive center img-bordered">
 
@@ -102,7 +102,7 @@ Here, you may search “patch” to access the <kbd>Create patch from working di
 
 #### Apply patch from Command Palette
 
-Use the keyboard shortcut <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> or click the wand icon in the top right of the UI to bring up the Command Palette. Type “Apply patch” to summon the <kbd>Apply patch</kbd> command, and select it to open your file explorer. 
+Use the keyboard shortcut <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> or click the wand icon in the top right of the UI to bring up the Command Palette. Type “Apply patch” to summon the <kbd>Apply patch</kbd> command, and select it to open your file explorer. 
 
 <img src="/wp-content/uploads/apply-patch.png" class="img-responsive center img-bordered">
 
@@ -115,7 +115,7 @@ Select your <code>.patch</code> file to then apply changes to your working direc
 <div class='callout callout--basic'>
     <p>
         <strong>Note:</strong>
-            GitKraken Client does not yet support generating patches from binary files. This is a preliminary release with better support coming, and if you have feedback please contact <a href="mailto:support@gitkraken.com">support@gitkraken.com</a>.
+            GitKraken Client does not yet support generating patches from binary files. This is a preliminary release with better support coming, and if you have feedback please [contact us](https://www.gitkraken.com/git-client/contact-support) .
     </p>
 </div>
 
