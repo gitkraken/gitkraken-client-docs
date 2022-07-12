@@ -23,16 +23,16 @@ Perfomance issues in GitKraken Client are often related to a specific repository
 
 #### Additional troubleshooting steps
 
-- Disable auto-fetch by setting the [Auto-fetch](/preferences/#auto-fetch) Interval to 0. 
+- Disable auto-fetch by setting the [Auto-fetch](/gitkraken-client/preferences/#auto-fetch) Interval to 0. 
 
 - Perform a [git status](https://git-scm.com/docs/git-status) on the repository.
 
 - [Delete local branches](branching-and-merging/#delete-a-branch) that are not needed. 
 
-- [Soloing or Hiding](/hiding-and-soloing) branches/tags.
+- [Soloing or Hiding](/gitkraken-client/hiding-and-soloing/) branches/tags.
 
-- Make sure that GitKraken Client is set to only show the [most recent 2,000 commits](/preferences/#max-commits-in-graph).
+- Set the Max Commits in Graph to [show fewer commits](/gitkraken-client/preferences/#max-commits-in-graph).
 
-- If [working with an LFS repository](/working-with-files/), you can perfom an LFS prune.
+- If [working with an LFS repository](/gitkraken-client/git-lfs/), you can perfom an LFS prune.
 
 - Restart GitKraken Client daily
