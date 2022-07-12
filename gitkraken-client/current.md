@@ -115,7 +115,7 @@ Select your <code>.patch</code> file to then apply changes to your working direc
 <div class='callout callout--basic'>
     <p>
         <strong>Note:</strong>
-            GitKraken Client does not yet support generating patches from binary files. This is a preliminary release with better support coming, and if you have feedback please contact support@gitkraken.com.
+            GitKraken Client does not yet support generating patches from binary files. This is a preliminary release with better support coming, and if you have feedback please contact <a href="mailto:support@gitkraken.com">support@gitkraken.com</a>.
     </p>
 </div>
 
