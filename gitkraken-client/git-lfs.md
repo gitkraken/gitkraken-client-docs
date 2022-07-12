@@ -186,12 +186,12 @@ Click the arrow on the button and select the desired command. Other than _Prune_
 </div>
 
 ## LFS FAQ
+
 ### LFS Features &amp; interface
 
 #### I updated to v3.0.0 of GitKraken Client but I cannot find LFS anywhere?
 
 You will need to make sure you have Git v1.8.5 and LFS v2.0.0 installed on your local machine.
-
 
 #### I switched repos and now I do not see the LFS BETA button. Where did it go?
 
@@ -218,7 +218,7 @@ If LFS is still not appearing as an option in GitKraken Client preferences menu,
 #### SSH Keys in GitKraken Client and the CLI
 Unlike most features in GitKraken Client, the LFS feature does require git for the CLI as well as LFS. This means that if you are trying to use SSH, your key will need to be configured in your GitKraken Client and for the CLI.
 
-You can automatically generate an SSH Key in GitKraken Client in <kbd><strong>Preferences > SSH</strong></kbd> and save wherever you want locally, or the key will be  in your `.gitkraken\profiles` folder if you generate from a specific integration. 
+You can automatically generate an SSH Key in GitKraken Client in <kbd><strong>Preferences > SSH</strong></kbd> and save wherever you want locally, or the key will be  in your `~\\.gitkraken\\profiles` folder if you generate from a specific integration. 
 
 You can also use the SSH Agent option to setup and manage your keys, and then tell GitKraken Client to use your agent. [Adding an SSH Key to an SSH Agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) by GitHub
 
