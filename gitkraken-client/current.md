@@ -20,10 +20,11 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ### Wednesday, July 13th, 2022
 
-GitKraken Client v8.7 has been released! There are a number of updates in this version making a splash, and some key highlights include:
-
+GitKraken Client v8.7 has been released! Whether you're covering a tear, or just adding some flair – we’ve got you patched.
 
 ### New + Improved ✨ 
+
+_We hemmed in some new threads._
 
 - [Watch v8.7 feature demo](/gitkraken-client/current/#watch-v8-7-feature-demo) 🎥
 - GitKraken Client now supports the ability to create and apply patches.
@@ -43,6 +44,7 @@ GitKraken Client v8.7 has been released! There are a number of updates in this v
  
 
 ### Bug Fixes 🐛
+_We’ve stitched up a few loose ends._
 
 - Fixed issue related to GitKraken CLI's autocomplete in Git Bash.
 - In Workspaces, users will be notified if attempting to open a deleted or unreachable repo from the repo details section.
@@ -107,6 +109,15 @@ Use the keyboard shortcut <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> or cl
 Select your <code>.patch</code> file to then apply changes to your working directory. From here, you may continue to modify files, move to stage and commit, or continue with your workflow. 
 
 <img src="/wp-content/uploads/after-apply-patch.png" class="img-responsive center img-bordered">
+
+
+
+<div class='callout callout--basic'>
+    <p>
+        <strong>Note:</strong>
+            GitKraken Client does not yet support generating patches from binary files. This is a preliminary release with better support coming, and if you have feedback please contact support@gitkraken.com.
+    </p>
+</div>
 
 ### Left panel improvements: toggle sections
 
