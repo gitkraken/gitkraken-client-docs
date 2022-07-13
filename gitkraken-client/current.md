@@ -15,6 +15,172 @@ Behold the evolution of GitKraken Client! Find out what&rsquo;s new, what&rsquo;
 Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) to see what we’re working on.
 
 ***
+<a id="v8-7-0"></a>
+## Version 8.7.0
+
+### Wednesday, July 13th, 2022
+
+GitKraken Client v8.7 has been released! Whether you're covering a tear, or just adding some flair – we’ve got you patched.
+
+### New + Improved ✨ 
+
+_We hemmed in some new threads._
+
+- [Watch v8.7 feature demo](/gitkraken-client/current/#watch-v8-7-feature-demo) 🎥
+- GitKraken Client now supports the ability to create and apply patches.
+    - [Create patch from commit(s)](/gitkraken-client/current/#create-patch-from-commits)
+    - [Create patch from uncommitted file(s)](/gitkraken-client/current/#create-patch-from-files)
+    - [Create patch from Command Palette](/gitkraken-client/current/#create-patch-from-command-palette)
+    - [Apply patch from Command Palette](/gitkraken-client/current/#apply-patch-from-command-palette)
+- [Left panel improvements](/gitkraken-client/current/#left-panel-improvements-toggle-sections) - Left Panel now has a context menu to toggle visibility of the different sections.
+- [New Tab update](/gitkraken-client/current/#updated-ui-and-layout-for-new-tab-view) - Updated UI and layout.
+- [Terminal Tab](/gitkraken-client/current/#repo-aliases-in-terminal-tab-titles) - Repo aliases will now show in Terminal Tab titles.
+- [More fuzzy search](/gitkraken-client/current/#fuzzy-search-in-gk-history-and-gk-blame-commands) - Enabled fuzzy search in `gk history` and `gk blame` commands in GitKraken CLI.
+- [Search tabs list](/gitkraken-client/current/#users-may-now-search-tabs-by-repo-alias-in-the-tabs-list) - Users may now search tabs by repo alias in the tabs list.
+- [Naming branch from issue](/gitkraken-client/current/#name-branch-when-creating-branch-from-issue) - When viewing an issue from inside GitKraken Client, there is now a short text field for naming the branch when creating a branch from the issue.
+- [Git LFS performance improvements](/gitkraken-client/current/#git-lfs-performance-improvements):
+    - Users will see faster performance when cloning LFS repositories with submodules
+    - Users will note much faster performance for general GitKraken Client actions, e.g. reset, merge 
+ 
+
+### Bug Fixes 🐛
+_We’ve stitched up a few loose ends._
+
+- Fixed issue related to GitKraken CLI's autocomplete in Git Bash.
+- In Workspaces, users will be notified if attempting to open a deleted or unreachable repo from the repo details section.
+- Fixed task lists for GitLab issues showing `&nbsp`.
+- Commit graph will immediately update when the app performs a fetch or force push from the terminal.
+- Fixed issue where if two profiles both have the same repo tab open, switching profiles would cause issues to disappear from the left panel.
+- Changing accounts will now properly reset the selected Workspace.
+- In the Workspace Pull Request section, removing a filter and quickly selecting a PR will no longer generate a blank screen.
+
+### Watch v8.7 feature demo
+
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Yhxv9e1jyDE?controls=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+</div>
+
+### Patch Support
+
+A patch, or patchfile, is a file describing changes between 2 files. Patch files can be used to distribute changes that a given user would like to make to a particular revision without codifying it onto a git server. 
+
+Patch files are especially useful in distributing changes to/from environments where SCM may not be available and remain widespread in older development flows.
+
+With this update, users gain another way to share and save changes.
+
+#### Create patch from commit(s)
+
+Right-click on a commit in the graph to access the new option for creating a patch. 
+
+<img src="/wp-content/uploads/create-patch-from-commit.png" class="img-responsive center img-bordered">
+
+Click the <kbd>Create patch from commit</kbd> option and the app will prompt you to select the save location for the <code>.patch</code> file.
+
+You may also use the <kbd>Shift</kbd> or <kbd>Ctrl</kbd> key to multi-select commits and then right click on the selection to access the same patch option. 
+
+<img src="/wp-content/uploads/create-patch-from-multiple-commits.png" class="img-responsive center img-bordered">
+
+#### Create patch from file(s)
+
+From the commit panel, right-click on a file to access the <kbd>Create patch from file changes</kbd> option.
+
+<img src="/wp-content/uploads/create-patch-from-file.png" class="img-responsive center img-bordered">
+
+Like the option above, this will prompt you to select the save location for the patch file.
+
+You may also use the <kbd>Shift</kbd> or <kbd>Ctrl</kbd> key to multi-select files and then right click on the selection to access the patch option. 
+
+<img src="/wp-content/uploads/create-patch-from-multiple-files.png" class="img-responsive center img-bordered">
+
+#### Create patch from Command Palette
+
+Click on the Command Palette icon on the toolbar, or use the keyboard shortcut <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> to launch Command Palette.
+
+<img src="/wp-content/uploads/create-patch-from-command-palette.png" class="img-responsive center img-bordered">
+
+Here, you may search “patch” to access the <kbd>Create patch from working directory changes</kbd> option and get prompted to select a save location.
+
+#### Apply patch from Command Palette
+
+Use the keyboard shortcut <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> or click the wand icon in the top right of the UI to bring up the Command Palette. Type “Apply patch” to summon the <kbd>Apply patch</kbd> command, and select it to open your file explorer. 
+
+<img src="/wp-content/uploads/apply-patch.png" class="img-responsive center img-bordered">
+
+Select your <code>.patch</code> file to then apply changes to your working directory. From here, you may continue to modify files, move to stage and commit, or continue with your workflow. 
+
+<img src="/wp-content/uploads/after-apply-patch.png" class="img-responsive center img-bordered">
+
+
+
+<div class='callout callout--basic'>
+    <p>
+        <strong>Note:</strong>
+            GitKraken Client does not yet support generating patches from binary files. This is a preliminary release with better support coming, and if you have feedback please [contact us](https://www.gitkraken.com/git-client/contact-support) .
+    </p>
+</div>
+
+### Left panel improvements: toggle sections
+
+The left panel can get crowded, so we want to be able to let users disable sections that are not relevant to them.
+
+Now when  you right click headers on the left panel, a context menu appears to remove or add sections.
+
+<img src="/wp-content/uploads/left-panel-toggle-sections.png" class="img-responsive center img-bordered">
+
+### Updated UI and layout for New Tab view
+
+The New Tab view has been reorganized! There are now distinct sections for Repositories, Workspaces, Integrations, and Other app actions. 
+
+<img src="/wp-content/uploads/new-tab-view.png" class="img-responsive center img-bordered">
+
+Be sure to try out the integrations!
+
+### Repo aliases in Terminal Tab titles
+
+In our previous v8.6 release, the app provided the option to set an alias for a repository by right-clicking on the repo tab. With v8.7, the alias name will carry over when you open the repo in a Terminal Tab. 
+
+<img src="/wp-content/uploads/alias-terminal-tab.png" class="img-responsive center img-bordered">
+
+### Fuzzy search in `gk history` and `gk blame` commands 
+
+From the GitKraken CLI, you may now use the fuzzy search to drill down on a file name when using the  `gk history` and `gk blame` commands.
+
+<img src="/wp-content/uploads/gk-history-fuzzy-search.gif" class="img-responsive center img-bordered">
+
+Just start typing the name of the file to filter the list of matching files, and then hit enter to select the file for the command. 
+
+### Users may now search tabs by repo alias in the tabs list
+
+In the toolbar, users may click this arrow icon next to the notifications icon to expand a list of all currently open tabs. With v8.7, you may now search using repo alias to filter the list further, and quickly jump to that tab.
+
+<img src="/wp-content/uploads/search-by-alias.png" class="img-responsive center img-bordered">
+
+
+### Name branch when creating branch from issue
+
+When viewing an issue from inside GitKraken Client, there is now a short text field for naming the branch when creating a branch from the issue.
+
+<img src="/wp-content/uploads/name-branch-from-issue.png" class="img-responsive center img-bordered">
+
+Consider setting up [Issue Tracker Integrations](l/gitkraken-client/jira/) like Jira, Trello, GitHub Issues, or GitLab Issues to get access to this handy feature.
+
+### Git LFS performance improvements
+
+On top of performance improvements from the previous release, GitKraken Client v8.7 brings even more boosts. Users will see faster performance when cloning LFS repositories with submodules and note much faster performance for general GitKraken Client actions. 
+
+Here are some actions that should see improvements:
+
+- Cloning a repo with LFS submodule
+- Merge
+- Reset hard
+- Undo a hard reset
+- Discard all changes
+- Discard unstaged changes
+- Discard submodule changes
+
+
+
+***
 <a id="v8-6-0"></a>
 ## Version 8.6.0
 
