@@ -144,7 +144,7 @@ You may resolve a conflicted file by right-clicking the file in the commit panel
 * `Take current (branch)` will apply the changes of the current branch.
 * `Take incoming (branch)` will apply the changes of the incoming branch.
 
-<img src='/img/documentation/repositories/current-incoming.png' class='img-bordered img-responsive center'/>
+<img src='/wp-content/uploads/current-incoming.png' class='img-bordered img-responsive center'/>
 
 ***
 

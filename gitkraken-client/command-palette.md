@@ -94,6 +94,10 @@ Use the _Command Palette_ to open repositories, history for files in the current
 ### Checkout
  * `Checkout` + `{branch name}`
 
+ ### Patch
+ * `Create patch from all working directory changes`
+ * `Apply patch`
+
 ### Logs
  * `Activity logs`
  * `View Error Logs`

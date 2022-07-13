@@ -113,7 +113,11 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
 ***
 ## Left reference panel
 
-Referred to as the left "ref" panel, GitKraken Client shows the properties below specific to your repository.  The panel and each pane can be collapsed or expanded as needed.
+Referred to as the left "ref" panel, GitKraken Client shows the properties below specific to your repository.
+
+The panel and each section can be collapsed or expanded as needed. Sections can also be toggled by right-clicking a section and selecting the desired section from the context menu.
+
+<img src='/wp-content/uploads/toggle-section.png' srcset='/wp-content/uploads/toggle-section@2x.png' class='img-bordered img-responsive center'>
 
 <h3>Local</h3>
 <div class="flex-wrap">
