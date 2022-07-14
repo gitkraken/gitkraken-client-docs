@@ -1,7 +1,7 @@
 ---
 
-Title: Error Logs
-Description: Review GitKraken Client's error logs to navigate rough waters.
+title: Error Logs
+description: Review GitKraken Client's error logs to navigate rough waters.
 taxonomy:
     category: gitkraken-client
 

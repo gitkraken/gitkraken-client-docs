@@ -1,6 +1,6 @@
 ---
 
-Title: Stand-Alone Client
+title: Stand-Alone Client
 description: No Git tools are required for GitKraken Stand-Alone, so once you’ve run the installer, you can open the app and get going.
 taxonomy:
     category: gitkraken-client
