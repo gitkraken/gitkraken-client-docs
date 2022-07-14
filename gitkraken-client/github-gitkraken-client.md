@@ -1,7 +1,7 @@
 ---
 
 title: GitKraken Client GitHub Integration
-fescription: Integrate GitKraken with you GitHub repository by following these steps.
+description: Integrate GitKraken with you GitHub repository by following these steps.
 taxonomy:
     category: gitkraken-client
 
