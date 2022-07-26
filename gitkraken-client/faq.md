@@ -84,7 +84,7 @@ You are done! Your local project is now on your hosting service.
 
 You may sign into a different account by selecting your profile icon in the top right corner and selecting _Sign into a different account_. 
 
-While there is no way to sign out of GitKraken, you may delete all of your GitKraken data by deleting the `~./gitkraken` folder. You can find the Data Location for your operating system [here](/gitkraken-client/how-to-install/).
+While there is no way to sign out of GitKraken, you may delete all of your GitKraken data by deleting the `~/.gitkraken` folder. You can find the Data Location for your operating system [here](/gitkraken-client/how-to-install/).
 
 ## Technical issues
 
