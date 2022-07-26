@@ -15,6 +15,48 @@ Behold the evolution of GitKraken Client! Find out what&rsquo;s new, what&rsquo;
 Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) to see what we’re working on.
 
 ***
+
+<a id="v8-7-0"></a>
+## Version 8.8.0
+
+### Wednesday, July 13th, 2022
+
+GitKraken Client v8.7 has been released! Whether you're covering a tear, or just adding some flair – we’ve got you patched.
+
+### New + Improved ✨ 
+
+_We hemmed in some new threads._
+
+- [Watch v8.7 feature demo](/gitkraken-client/current/#watch-v8-7-feature-demo) 🎥
+- GitKraken Client now supports the ability to create and apply patches.
+    - [Create patch from commit(s)](/gitkraken-client/current/#create-patch-from-commits)
+    - [Create patch from uncommitted file(s)](/gitkraken-client/current/#create-patch-from-files)
+    - [Create patch from Command Palette](/gitkraken-client/current/#create-patch-from-command-palette)
+    - [Apply patch from Command Palette](/gitkraken-client/current/#apply-patch-from-command-palette)
+- [Left panel improvements](/gitkraken-client/current/#left-panel-improvements-toggle-sections) - Left Panel now has a context menu to toggle visibility of the different sections.
+- [New Tab update](/gitkraken-client/current/#updated-ui-and-layout-for-new-tab-view) - Updated UI and layout.
+- [Terminal Tab](/gitkraken-client/current/#repo-aliases-in-terminal-tab-titles) - Repo aliases will now show in Terminal Tab titles.
+- [More fuzzy search](/gitkraken-client/current/#fuzzy-search-in-gk-history-and-gk-blame-commands) - Enabled fuzzy search in `gk history` and `gk blame` commands in GitKraken CLI.
+- [Search tabs list](/gitkraken-client/current/#users-may-now-search-tabs-by-repo-alias-in-the-tabs-list) - Users may now search tabs by repo alias in the tabs list.
+- [Naming branch from issue](/gitkraken-client/current/#name-branch-when-creating-branch-from-issue) - When viewing an issue from inside GitKraken Client, there is now a short text field for naming the branch when creating a branch from the issue.
+- [Git LFS performance improvements](/gitkraken-client/current/#git-lfs-performance-improvements):
+    - Users will see faster performance when cloning LFS repositories with submodules
+    - Users will note much faster performance for general GitKraken Client actions, e.g. reset, merge 
+ 
+
+### Bug Fixes 🐛
+_We’ve stitched up a few loose ends._
+
+- Fixed issue related to GitKraken CLI's autocomplete in Git Bash.
+- In Workspaces, users will be notified if attempting to open a deleted or unreachable repo from the repo details section.
+- Fixed task lists for GitLab issues showing `&nbsp`.
+- Commit graph will immediately update when the app performs a fetch or force push from the terminal.
+- Fixed issue where if two profiles both have the same repo tab open, switching profiles would cause issues to disappear from the left panel.
+- Changing accounts will now properly reset the selected Workspace.
+- In the Workspace Pull Request section, removing a filter and quickly selecting a PR will no longer generate a blank screen.
+
+***
+
 <a id="v8-7-0"></a>
 ## Version 8.7.0
 
