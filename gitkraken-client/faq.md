@@ -23,7 +23,7 @@ The answers to your important **F**requently **A**sked **Q**uestions.
         
         
         
-## Features & interface
+## Features & interfaces
 
 ***
 
