@@ -7,16 +7,17 @@ taxonomy:
 
 ---
 
-Single Sign On (SSO) is an easy way to sign in to mutliple different applications using one authentication method. 
+GitKraken offers a Single Sign On (SSO) option as an easy way to sign in to your account. 
 
-Once your organization has setup SSO with an Identity Provider (IdP), the Owner/Admin on your GitKraken organization can link your orgazation to that identity provider. Then, any users associated with your IdP can login to GitKraken apps and services with a single click. 🎉
+Once your organization has setup SSO with an Identity Provider (IdP), the Owner or an Admin on your GitKraken organization can link your orgazation to that identity provider. Then, any users associated with your IdP can login to GitKraken apps and services with a single click. 🎉
 
 <div class='callout callout--warning'>
     <p><strong>Note:</strong> You must have an active GitKraken Teams or Enterprise License to enable SSO</p>
 </div>
+
 ## What is SSO?
 
-Let’s first review the <a href='https://en.wikipedia.org/wiki/Single_sign-on' target='_blank'>Wikipedia</a> definition of SSO:
+The <a href='https://en.wikipedia.org/wiki/Single_sign-on' target='_blank'>Wikipedia</a> definition of SSO:
 
 *“Single sign-on is an authentication scheme that allows a user to log in with a single ID to any of several related, yet independent, software systems. True single sign-on allows the user to log in once and access services without re-entering authentication factors.”*
 
@@ -41,18 +42,26 @@ Examples of Identity Provider applications are:
 The Identity Providers provide services that allow third party applications to authenticate their users. 
 The authentication mechanism they provide is called “Oauth”, which allows third party applications to authenticate users without accessing/storing their password. 
 
+**Third party applications:** These are the applications that use IdP services to authenticate users. The end user is redirected to the IdP to instead login there. Then the Idp directs back to the 3rd party app to complete the login, confirming that the user is who they claim to be.
+
+Examples of  third party apps:
+* <a href='https://www.gitkraken.com/' target='_blank'>GitKraken</a> 
+* <a href='https://slack.com/' target='_blank'>Slack</a> 
+* <a href='https://www.atlassian.com/software/jira' target='_blank'>Jira</a> 
+
 ***
 ## SSO in GitKraken
 
-GitKraken is a third party application so, we don’t have to worry about how the users are created on the Identity Provider (Idp: okta, azure etc), or the groups they belong to. We just have to initiate an oauth authentication flow with the IdP. For doing so, we need to know what IdP we should use, and we will need some data about the IdP.
+GitKraken is the 3rd party application in this scenario - you tell us which IdP(s) you want to use and then use those to login instead. If your organization has already setup SSO with an IdP and in GitKraken, simply [sign in](/gitkraken-client/single-sign-on/#logging-in-using-sso) and you are all set! 
 
+If you need to setup SSO for your GitKraken Organization see [Setting up SSO on a GitKraken Organization](/gitkraken-client/single-sign-on/#setting-up-sso-on-a-gitKraken-organization)
 ### Supported Identity Providers
 
 GitKraken may initiate an Oauth authentication flow with the following supported Identity Providers (IdPs):
 
 * <a href='https://azure.microsoft.com/' target='_blank'>Azure Active Directory</a> 
 * <a href='https://www.okta.com/' target='_blank'>Okta</a>
-* <a href='https://cloud.google.com/identity-platform' target='_blank'>Google Identity Platform</a>
+* <a href='https://cloud.google.com/identity-platform' target='_blank'>Google Identity Platform (G Suite)</a>
 * <a href='https://www.pingidentity.com/en.html' target='_blank'>Ping Identity</a>
 
 <div class='callout callout--warning'>
@@ -68,7 +77,6 @@ Single Sign On is only availibe as part of the <a href='https://www.gitkraken.co
 * SSO is set up at the Organization level. Each organization can have 0,1, or many IdPs connected simultaneously.
 * SSO can only be setup by the Owner or by an Admin of the organization. 
 
-
 How to set up SSO:
 
 1. <a href='https://app.gitkraken.com/' target='_blank'>Login</a> to GitKraken and navigate to the organization you want to enable SSO for.
@@ -80,11 +88,9 @@ How to set up SSO:
 
 3. Click the `Endable SSO` checkbox and you will be presented with some additional fields.
 
-**Organization Domain Name:** The domain that is used for everyone who wants to use SSO to login. Each user must have a matching domain in their email address and must be defined in the IdP.
+**Organization Domain Name:** The domain that is used for everyone who wants to use SSO to login. Each user must have a matching domain in their email address and each user must be defined in the IdP.
 
-this is the domain that each and every mail user that belongs to this organization and wants to use SSO must have. For instance, in the example above this organization Domain is: nurias.domain.com so the users that belong to this organization and want to use SSO must have email address that belongs to this domain, for example: john@nurias.domain.com, katherin@nurias.domain.com etc. Otherwise if a user with an email that doesn’t belong to this domain, that also belongs to this gitKraken organization won’t be able to use SSO for logging in, (he/she should use other login methods like, user/password, login with github etc).R2FwbEdCZWxid1Z0M0FYdnRHNUpydz09
-
-There is just one domain allowed per Organization, and it must be unique. The accounts site doesn’t allow to use a domain that is being used by another organization.
+There is only one domain allowed per GitKraken organization, and it must be unique. If your domain is already in use you can <a href='https://www.gitkraken.com/git-client/contact-support' target='_blank'>contact us</a> to investigate further.
 
 **JIT, Enable Just In Time Provisioning:** This allows users in this domain to login with their email and be automatically provisioned a license. In order for a user to be automatically given a license:
 
@@ -158,4 +164,3 @@ When logging into GitKraken Client, GitLens, <a href='https://account.gitkraken.
 <img src="/wp-content/uploads/sso-sign-in.png" class="img-bordered img-responsive center">
 
 After clicking “Sign in with SSO”, the SSO form will open and ask for an email address to use for SSO login. GitKraken will then check the email and determine whether the email address belongs to a single IdP for SSO. When the email address is successfully identified, the user will be taken to that IdP to login.
-## Troubleshooting / Error Messages
