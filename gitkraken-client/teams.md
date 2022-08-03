@@ -7,12 +7,12 @@ taxonomy:
 
 ---
 
-GitKraken Client users with Pro and <a href="https://www.gitkraken.com/gitkraken-enterprise">Enterprise Cloud</a> accounts can use Teams to group users within an Organization.
+GitKraken Client users with Pro, Teams, or <a href="https://www.gitkraken.com/gitkraken-enterprise">Enterprise Cloud</a> accounts can use Teams to group users within an Organization.
 
 Teams offer the ability to see what branches and files members of your organization are currently working on using the <a href="/working-with-repositories/team-view/">Team View</a>. 
 
 <div class='callout callout--basic'>
-    <p><strong>Note:</strong> Pro accounts are limited to 1 Team. Upgrade to <a href="https://app.gitkraken.com/subscription">GitKraken Enterprise</a> to create and manage more than 1 Team.
+    <p><strong>Note:</strong> Pro accounts are limited to 1 Team. Upgrade to a <a href="https://app.gitkraken.com/subscription">GitKraken Teams or Enterprise Cloud</a> plan to create and manage more than 1 Team.
 </div>
 
 ***
