@@ -28,11 +28,13 @@ The signs are all around us…and they’re pointing to an epic release of GitKr
 _No yield signs here - we’ve made it easier to get connected to your favorite Git client with Single Sign On for multiple providers._
 
 - [Watch v8.8 feature demo](/gitkraken-client/current/#watch-v8-8-feature-demo) 🎥
-- [Single Sign On](/gitkraken-client/current/#what-is-single-sign-on-sso) - GitKraken may now initiate an Oauth authentication flow with the following supported Identity Providers (IdPs):
-    - Azure Active Directory
-    - Okta
-    - Google Identity Platform
-    - Ping Identity
+- [Single Sign On](/gitkraken-client/current/#what-is-single-sign-on-sso) 
+
+    - GitKraken may now initiate an Oauth authentication flow with the following supported Identity Providers (IdPs):
+        - Azure Active Directory
+        - Okta
+        - Google Identity Platform
+        - Ping Identity
     - Resources:
         - [Requirements and configuration](/gitkraken-client/current/#requirements-and-configuration)
         - [Signing in with SSO](/gitkraken-client/current/#signing-in-with-sso)
@@ -117,9 +119,13 @@ GitKraken may now initiate an Oauth authentication flow with the following suppo
 
 Please note that your IdP will first need to be configured before setting up the connection in GitKraken. For assistance, please contact your IdP administrator or consult the IdP documentation for help. 
 
-Additional requirements:
-- Configurable only by GitKraken Owner or Admin organization
-- Subscribed to either the Teams or Enterprise plan
+<div class='callout callout--basic'>
+    <p>
+        <strong>Additional requirements:</strong>
+            SSO is only configurable by the GitKraken Owner or Admin and you must be subscribed to either the <a href="https://www.gitkraken.com/git-client/pricing">Teams or Enterprise</a> plan.
+    </p>
+</div>
+
 
 Ready to get started? Then follow the [How to set up SSO in GitKraken](https://help.gitkraken.com/gitkraken-client/single-sign-on/) documentation.
 
@@ -302,7 +308,7 @@ Select your <code>.patch</code> file to then apply changes to your working direc
 <div class='callout callout--basic'>
     <p>
         <strong>Note:</strong>
-            GitKraken Client does not yet support generating patches from binary files. This is a preliminary release with better support coming, and if you have feedback please [contact us](https://www.gitkraken.com/git-client/contact-support) .
+            GitKraken Client does not yet support generating patches from binary files. This is a preliminary release with better support coming, and if you have feedback please <a href="https://www.gitkraken.com/git-client/contact-support">contact us</a>.
     </p>
 </div>
 
