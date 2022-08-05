@@ -28,37 +28,31 @@ The signs are all around us…and they’re pointing to an epic release of GitKr
 _No yield signs here - we’ve made it easier to get connected to your favorite Git client with Single Sign On for multiple providers._
 
 - [Watch v8.8 feature demo](/gitkraken-client/current/#watch-v8-8-feature-demo) 🎥
-- Single Sign On - GitKraken may now initiate an Oauth authentication flow with the following supported Identity Providers (IdPs):
+- [Single Sign On](/gitkraken-client/current/#what-is-single-sign-on-sso) - GitKraken may now initiate an Oauth authentication flow with the following supported Identity Providers (IdPs):
     - Azure Active Directory
     - Okta
     - Google Identity Platform
     - Ping Identity
     - Resources:
-        - [What is SSO?](/gitkraken-client/current/#create-patch-from-commits)
-        - [Requirements and configuration](/gitkraken-client/current/#create-patch-from-commits)
-        - [Signing in with SSO]((/gitkraken-client/current/#create-patch-from-commits))
+        - [Requirements and configuration](/gitkraken-client/current/#requirements-and-configuration)
+        - [Signing in with SSO](/gitkraken-client/current/#signing-in-with-sso)
 
-- Overview in Preview - A new Overview section has been added to Workspaces that focuses on the work most important to you across all the repos in a Workspace.
-    - This new view currently includes three sections:
-        - My Pull Requests - Shows all PRs opened by you, assigned to you, or awaiting your review.
-        - My Issues - Shows all issues created by you, assigned to you, or that mention you.
-        - Work in Progress - Shows all branches with uncommitted changes.
+- [Overview in Preview](/gitkraken-client/current/#workspace-updates-overview)
+    -  A new `Overview` section has been added to Workspaces that focuses on the work most important to you across all the repos in a Workspace.
 
-- Partial stash 
+- [Partial stash](/gitkraken-client/current/#partial-stash-support)
     - Right-click on a single file or a selection of files in the commit detail panel to see options for stashing and applying changes.
-- Left panel improvements
+- [Left panel improvements](/gitkraken-client/current/#left-panel-improvements)
     - Sections in the left panel are now always visible and don’t scroll out of view.
-    - Individual sections in the Left Panel can now be resized.
+    - Individual sections in the left panel can now be resized.
     - Aliases for submodules will now be displayed in the left panel.
 
-- New Tab view updates
-    - The Recent and Favorite Repos lists have been moved to the top of the Repositories section for easier access.
-- More autosuggest in GitKraken CLI 
+- [New Tab view updates](/gitkraken-client/current/#new-tab-view-updates)
+    - The `Recent` and `Favorite Repos` lists have been moved to the top of the `Repositories` section for easier access.
+- [More autosuggest in GitKraken CLI](/gitkraken-client/current/#more-autosuggest-in-gitkraken-cli)
     - Autocomplete for `git remote prune` and `git remote update` will now suggest remotes.
 - Fixed crashes and improved performance by approximately 2X to 3X when opening very large conflicts.
-- Improved performance loading commit details.
-
-
+- Improved the app performance when loading commit details.
 
  
 
@@ -85,7 +79,7 @@ _GitKraken exterminators have eliminated most signs of bugs…_
 
 ### Single Sign On
 
-### What is Single Sign On (SSO)?
+#### What is Single Sign On (SSO)?
 
 Let’s first review the Wikipedia definition of SSO:
 
@@ -112,7 +106,7 @@ The above diagram depicts what a typical SSO setup entails. These are the applic
 The Identity Providers provide services that allow third party applications to authenticate their users. 
 The authentication mechanism they provide is called “Oauth”, which allows third party applications to authenticate users without accessing/storing their password. 
 
-### Requirements and configuration
+#### Requirements and configuration
 
 GitKraken may now initiate an Oauth authentication flow with the following supported Identity Providers (IdPs)
 
@@ -127,55 +121,55 @@ Additional requirements:
 - Configurable only by GitKraken Owner or Admin organization
 - Subscribed to either the Teams or Enterprise plan
 
-Ready to get started? Then follow the [→Documentation: How to set up SSO in GitKraken](https://help.gitkraken.com/gitkraken-client/single-sign-on/)
+Ready to get started? Then follow the [How to set up SSO in GitKraken](https://help.gitkraken.com/gitkraken-client/single-sign-on/) documentation.
 
-### Signing in with SSO
+#### Signing in with SSO
 
 GitKraken Client users should see a new option to Sign in with SSO from the login screen.
 
 <img src="/wp-content/uploads/sign-in-with-SSO.png" class="img-responsive center img-bordered">
 
-After clicking “Sign in with SSO”, the SSO form will open and ask for an email address to use for SSO login. GitKraken will then check the email and determine whether the email address belongs to a single IdP for SSO. When the email address is successfully identified, the user will be taken to that IdP to login.
+After clicking <kbd>Sign in with SSO</kbd>, the SSO form will open and ask for an email address to use for SSO login. GitKraken will then check the email and determine whether the email address belongs to a single IdP for SSO. When the email address is successfully identified, the user will be taken to that IdP to login.
 
 If the email is not recognized, GitKraken will display a message that no IdP was found.
 
 Once authenticated, the user may use GitKraken Client.
 
-## Workspace Updates: Overview
+### Workspace Updates: Overview
 
-Workspaces now have a personalized Overview section 🎉
+Workspaces now have a personalized <kbd>Overview</kbd> section 🎉
 
 <img src="/wp-content/uploads/overview.png" class="img-responsive center img-bordered">
 
 This will provide you with a summary of all Pull Requests, Issues, and WIPs relevant to you for the repos grouped in your Workspace. 
 
-- My Pull Requests: shows all PRs opened by you, assigned to you, or awaiting your review
-- My Issues: shows all issues created by you, assigned to you, or that mention you.
-- Work in Progress: shows all branches with uncommitted changes
+- <kbd>My Pull Requests</kbd>: shows all PRs opened by you, assigned to you, or awaiting your review
+- <kbd>My Issues</kbd>: shows all issues created by you, assigned to you, or that mention you.
+- <kbd>Work in Progress</kbd>: shows all branches with uncommitted changes
 
 
 We’re excited to centralize key information that is relevant to the user. Now instead of hunting for these pieces of information separately, you can get a holistic view of what you’re working on.
 
-This Overview section is in Preview mode, and we’d love to hear your thoughts and feedback. Just click on the “Provide feedback on this view” prompt in the upper left of the Overview page to tell us what you think. 
+This <kbd>Overview</kbd> section is in `Preview`mode, and we’d love to hear your thoughts and feedback. Just click on the `Provide feedback on this view` prompt in the upper left of the Overview page to tell us what you think. 
 
-## Partial Stash Support
+### Partial Stash Support
 
 Sometimes you only need to stash some of the files in your WIP.  
 
-Partial stashing is now available through the "staged files" panel. Right-click individual files, or multiple files, and select the “Stash file” option to stash those selected files and have their changes reset.
+Partial stashing is now available through the Commit Panel. Right-click individual files, or multiple files, and select the <kbd>Stash file</kbd> option to stash those selected files and have their changes reset.
 
 <img src="/wp-content/uploads/partial-stash-multiple-files.png" class="img-responsive center img-bordered">
 
-### Apply changes from stash to working directory
+#### Apply changes from stash to working directory
 
 With partial stash, you may now partially apply a stash. When a stash is selected, right click files in the right panel to apply their changes to the working directory.
 
 <img src="/wp-content/uploads/apply-stash-multiple-files.png" class="img-responsive center img-bordered">
 
-### Partial stash tips
+#### Partial stash tips
 
-- You may name a partial stash by typing into the //WIP node or summary section before creating the stash.
-- Select additional files for stashing or applying by holding down the Shift or Control key.
+- You may name a partial stash by typing into the `//WIP` or summary section before creating the stash.
+- Select additional files for stashing or applying by holding down the <kbd>Shift</kbd> or <kbd>Control</kbd> key.
 - Applying a file from a stash does not remove the file from the stash – use this to safely explore!
 
 ### Left panel improvements
@@ -192,7 +186,7 @@ Don’t forget! In the previous release, we also made it possible to toggle left
 
 ### New Tab view updates
 
-Many thanks to our users for submitting feedback! With this release, we’ve moved the Favorites and Recent Repos list towards the top of the New Tab view.
+Many thanks to our users for submitting feedback! With this release, we’ve moved the `Favorites` and `Recent Repos` list towards the top of the <kbd>New Tab</kbd> view.
 
 <img src="/wp-content/uploads/new-tab-view-updates.png" class="img-responsive center img-bordered">
 
@@ -200,7 +194,7 @@ This should make it easier to access the repos you access regularly.
 
 ### More autosuggest in GitKraken CLI
 
-The `git remote prune` and `git remote update` commands will now suggest remotes in the GitKraken CLI.
+The <code>git remote prune</code> and <code>git remote update</code> commands will now suggest remotes in the GitKraken CLI.
 
 <img src="/wp-content/uploads/git-remote-prune.png" class="img-responsive center img-bordered">
 
