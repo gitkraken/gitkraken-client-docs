@@ -39,7 +39,7 @@ _No yield signs here - we’ve made it easier to get connected to your favorite 
         - [Requirements and configuration](/gitkraken-client/current/#requirements-and-configuration)
         - [Signing in with SSO](/gitkraken-client/current/#signing-in-with-sso)
 
-- [Overview in Preview](/gitkraken-client/current/#workspace-updates-overview)
+- [Overview in Workspaces](/gitkraken-client/current/#workspace-updates-overview)
     -  A new `Overview` section has been added to Workspaces that focuses on the work most important to you across all the repos in a Workspace.
 
 - [Partial stash](/gitkraken-client/current/#partial-stash-support)
