@@ -16,44 +16,195 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ***
 
-<a id="v8-7-0"></a>
+<a id="v8-8-0"></a>
 ## Version 8.8.0
 
 ### Tuesday, August 9th, 2022
 
-GitKraken Client v8.7 has been released! Whether you're covering a tear, or just adding some flair – we’ve got you patched.
+The signs are all around us…and they’re pointing to an epic release of GitKraken Client v8.8.
 
 ### New + Improved ✨ 
 
-_We hemmed in some new threads._
+_No yield signs here - we’ve made it easier to get connected to your favorite Git client with Single Sign On for multiple providers._
 
-- [Watch v8.7 feature demo](/gitkraken-client/current/#watch-v8-7-feature-demo) 🎥
-- GitKraken Client now supports the ability to create and apply patches.
-    - [Create patch from commit(s)](/gitkraken-client/current/#create-patch-from-commits)
-    - [Create patch from uncommitted file(s)](/gitkraken-client/current/#create-patch-from-files)
-    - [Create patch from Command Palette](/gitkraken-client/current/#create-patch-from-command-palette)
-    - [Apply patch from Command Palette](/gitkraken-client/current/#apply-patch-from-command-palette)
-- [Left panel improvements](/gitkraken-client/current/#left-panel-improvements-toggle-sections) - Left Panel now has a context menu to toggle visibility of the different sections.
-- [New Tab update](/gitkraken-client/current/#updated-ui-and-layout-for-new-tab-view) - Updated UI and layout.
-- [Terminal Tab](/gitkraken-client/current/#repo-aliases-in-terminal-tab-titles) - Repo aliases will now show in Terminal Tab titles.
-- [More fuzzy search](/gitkraken-client/current/#fuzzy-search-in-gk-history-and-gk-blame-commands) - Enabled fuzzy search in `gk history` and `gk blame` commands in GitKraken CLI.
-- [Search tabs list](/gitkraken-client/current/#users-may-now-search-tabs-by-repo-alias-in-the-tabs-list) - Users may now search tabs by repo alias in the tabs list.
-- [Naming branch from issue](/gitkraken-client/current/#name-branch-when-creating-branch-from-issue) - When viewing an issue from inside GitKraken Client, there is now a short text field for naming the branch when creating a branch from the issue.
-- [Git LFS performance improvements](/gitkraken-client/current/#git-lfs-performance-improvements):
-    - Users will see faster performance when cloning LFS repositories with submodules
-    - Users will note much faster performance for general GitKraken Client actions, e.g. reset, merge 
+- [Watch v8.8 feature demo](/gitkraken-client/current/#watch-v8-8-feature-demo) 🎥
+- Single Sign On - GitKraken may now initiate an Oauth authentication flow with the following supported Identity Providers (IdPs):
+    - Azure Active Directory
+    - Okta
+    - Google Identity Platform
+    - Ping Identity
+    - Resources:
+        - [What is SSO?](/gitkraken-client/current/#create-patch-from-commits)
+        - [Requirements and configuration](/gitkraken-client/current/#create-patch-from-commits)
+        - [Signing in with SSO]((/gitkraken-client/current/#create-patch-from-commits))
+
+- Overview in Preview - A new Overview section has been added to Workspaces that focuses on the work most important to you across all the repos in a Workspace.
+    - This new view currently includes three sections:
+        - My Pull Requests - Shows all PRs opened by you, assigned to you, or awaiting your review.
+        - My Issues - Shows all issues created by you, assigned to you, or that mention you.
+        - Work in Progress - Shows all branches with uncommitted changes.
+
+- Partial stash 
+    - Right-click on a single file or a selection of files in the commit detail panel to see options for stashing and applying changes.
+- Left panel improvements
+    - Sections in the left panel are now always visible and don’t scroll out of view.
+    - Individual sections in the Left Panel can now be resized.
+    - Aliases for submodules will now be displayed in the left panel.
+
+- New Tab view updates
+    - The Recent and Favorite Repos lists have been moved to the top of the Repositories section for easier access.
+- More autosuggest in GitKraken CLI 
+    - Autocomplete for `git remote prune` and `git remote update` will now suggest remotes.
+- Fixed crashes and improved performance by approximately 2X to 3X when opening very large conflicts.
+- Improved performance loading commit details.
+
+
+
  
 
 ### Bug Fixes 🐛
-_We’ve stitched up a few loose ends._
+_GitKraken exterminators have eliminated most signs of bugs…_
 
-- Fixed issue related to GitKraken CLI's autocomplete in Git Bash.
-- In Workspaces, users will be notified if attempting to open a deleted or unreachable repo from the repo details section.
-- Fixed task lists for GitLab issues showing `&nbsp`.
-- Commit graph will immediately update when the app performs a fetch or force push from the terminal.
-- Fixed issue where if two profiles both have the same repo tab open, switching profiles would cause issues to disappear from the left panel.
-- Changing accounts will now properly reset the selected Workspace.
-- In the Workspace Pull Request section, removing a filter and quickly selecting a PR will no longer generate a blank screen.
+- Users who installed GitKraken on Linux via Snap will no longer crash when opening file selection dialogs.
+- Resolving large conflicts with the context menu options will no longer crash GitKraken.
+- Fixed accounts not being listed when initializing a repo in a hosting provider.
+- GitKraken will now close open workspaces if the workspace was deleted from the organization.
+- Workspaces with no repositories will no longer load unexpected pull requests in the pull request section.
+- Fixed an issue where opening selected repositories within a workspace would open all repositories.
+- Fixed an issue where creating a new profile does not set a default organization even if the user belongs to an organization.
+- Fixed display issue for Google icon from the Google login/signup form.
+- Fixed a timing issue where the branch column would not show up for a workspace when you first create a workspace.
+- Fixed an issue where users could not create a workspace if the icon size was too big.
+- Removed unnecessary comment count column from Azure Workspaces.
+
+### Watch v8.8 feature demo
+
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VNvaHL6O1w4?controls=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+</div>
+
+### Single Sign On
+
+### What is Single Sign On (SSO)?
+
+Let’s first review the Wikipedia definition of SSO:
+
+_“Single sign-on is an authentication scheme that allows a user to log in with a single ID to any of several related, yet independent, software systems. True single sign-on allows the user to log in once and access services without re-entering authentication factors.”_
+
+<img src="/wp-content/uploads/SSO-setup.png" class="img-responsive center img-bordered">
+
+The above diagram depicts what a typical SSO setup entails. These are the applications or actors involved in the setup:
+
+<strong>Directory Server</strong>:  A Directory Server is an application that stores information about the “objects” that belong to an organization. An object can be: printers, computers, shared folders, users, groups (a group is just a group of users). Some objects can contain other objects, which then allows them to reflect hierarchical structures.  
+
+- Examples of Directory Server applications are:
+    - Microsoft Active Directory
+    - Oracle Identity Governance (OIG) Suite
+    - Jump Cloud
+
+<strong>Identity Provider</strong>:  An identity provider (abbreviated IdP or IDP) is a system entity that creates, maintains, and manages identity information for principals and also provides authentication services to relying applications within a federation or distributed network. An IdP provider stores 3 main components: Users, Groups, and Applications.
+
+- Examples of Identity Provider applications are:
+    - Okta
+    - Azure Active Directory
+    - Google Identity Platform
+
+The Identity Providers provide services that allow third party applications to authenticate their users. 
+The authentication mechanism they provide is called “Oauth”, which allows third party applications to authenticate users without accessing/storing their password. 
+
+### Requirements and configuration
+
+GitKraken may now initiate an Oauth authentication flow with the following supported Identity Providers (IdPs)
+
+- Azure Active Directory
+- Okta
+- Google Identity Platform
+- Ping Identity
+
+Please note that your IdP will first need to be configured before setting up the connection in GitKraken. For assistance, please contact your IdP administrator or consult the IdP documentation for help. 
+
+Additional requirements:
+- Configurable only by GitKraken Owner or Admin organization
+- Subscribed to either the Teams or Enterprise plan
+
+Ready to get started? Then follow the [→Documentation: How to set up SSO in GitKraken](https://help.gitkraken.com/gitkraken-client/single-sign-on/)
+
+### Signing in with SSO
+
+GitKraken Client users should see a new option to Sign in with SSO from the login screen.
+
+<img src="/wp-content/uploads/sign-in-with-SSO.png" class="img-responsive center img-bordered">
+
+After clicking “Sign in with SSO”, the SSO form will open and ask for an email address to use for SSO login. GitKraken will then check the email and determine whether the email address belongs to a single IdP for SSO. When the email address is successfully identified, the user will be taken to that IdP to login.
+
+If the email is not recognized, GitKraken will display a message that no IdP was found.
+
+Once authenticated, the user may use GitKraken Client.
+
+## Workspace Updates: Overview
+
+Workspaces now have a personalized Overview section 🎉
+
+<img src="/wp-content/uploads/overview.png" class="img-responsive center img-bordered">
+
+This will provide you with a summary of all Pull Requests, Issues, and WIPs relevant to you for the repos grouped in your Workspace. 
+
+- My Pull Requests: shows all PRs opened by you, assigned to you, or awaiting your review
+- My Issues: shows all issues created by you, assigned to you, or that mention you.
+- Work in Progress: shows all branches with uncommitted changes
+
+
+We’re excited to centralize key information that is relevant to the user. Now instead of hunting for these pieces of information separately, you can get a holistic view of what you’re working on.
+
+This Overview section is in Preview mode, and we’d love to hear your thoughts and feedback. Just click on the “Provide feedback on this view” prompt in the upper left of the Overview page to tell us what you think. 
+
+## Partial Stash Support
+
+Sometimes you only need to stash some of the files in your WIP.  
+
+Partial stashing is now available through the "staged files" panel. Right-click individual files, or multiple files, and select the “Stash file” option to stash those selected files and have their changes reset.
+
+<img src="/wp-content/uploads/partial-stash-multiple-files.png" class="img-responsive center img-bordered">
+
+### Apply changes from stash to working directory
+
+With partial stash, you may now partially apply a stash. When a stash is selected, right click files in the right panel to apply their changes to the working directory.
+
+<img src="/wp-content/uploads/apply-stash-multiple-files.png" class="img-responsive center img-bordered">
+
+### Partial stash tips
+
+- You may name a partial stash by typing into the //WIP node or summary section before creating the stash.
+- Select additional files for stashing or applying by holding down the Shift or Control key.
+- Applying a file from a stash does not remove the file from the stash – use this to safely explore!
+
+### Left panel improvements
+
+Users may now resize sections inside of the left panel. Simply drag the edge of the panes to expand or contract a pane.
+
+<img src="/wp-content/uploads/resize-left-panel.gif" class="img-responsive center img-bordered">
+
+Additionally, the left panel section headers will now remain visible as you resize the window or left panel panes. 
+
+Don’t forget! In the previous release, we also made it possible to toggle left panel panes on or off. Use this to customize the view to fit your needs and tastes. 
+
+<img src="/wp-content/uploads/left-panel-toggle-sections.png" class="img-responsive center img-bordered">
+
+### New Tab view updates
+
+Many thanks to our users for submitting feedback! With this release, we’ve moved the Favorites and Recent Repos list towards the top of the New Tab view.
+
+<img src="/wp-content/uploads/new-tab-view-updates.png" class="img-responsive center img-bordered">
+
+This should make it easier to access the repos you access regularly. 
+
+### More autosuggest in GitKraken CLI
+
+The `git remote prune` and `git remote update` commands will now suggest remotes in the GitKraken CLI.
+
+<img src="/wp-content/uploads/git-remote-prune.png" class="img-responsive center img-bordered">
+
+Hopefully this saves you extra typing or the need to remember that remote name. 
 
 ***
 
