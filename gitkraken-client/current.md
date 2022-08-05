@@ -85,7 +85,7 @@ _GitKraken exterminators have eliminated most signs of bugs…_
 
 Let’s first review the Wikipedia definition of SSO:
 
-_“Single sign-on is an authentication scheme that allows a user to log in with a single ID to any of several related, yet independent, software systems. True single sign-on allows the user to log in once and access services without re-entering authentication factors.”_
+_“Single sign-on is an authentication scheme that allows a user to log in with a single ID to any of several related, yet independent, software systems.”_
 
 <img src="/wp-content/uploads/SSO-setup.png" class="img-responsive center img-bordered">
 
