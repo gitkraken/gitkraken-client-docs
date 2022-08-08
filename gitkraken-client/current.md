@@ -19,7 +19,7 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 <a id="v8-8-0"></a>
 ## Version 8.8.0
 
-### Tuesday, August 9th, 2022
+### Wednesday, August 10th, 2022
 
 The signs are all around us…and they’re pointing to an epic release of GitKraken Client v8.8.
 
