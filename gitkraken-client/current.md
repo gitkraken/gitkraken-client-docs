@@ -76,7 +76,7 @@ _GitKraken exterminators have eliminated most signs of bugs…_
 ### Watch v8.8 feature demo
 
 <div class='embed-container embed-container--16-9'>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/VNvaHL6O1w4?controls=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OFdkyaUvu9E?controls=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ### Single Sign On
