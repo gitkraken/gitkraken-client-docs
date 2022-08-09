@@ -113,7 +113,7 @@ Instead of hunting for these pieces of information separately, you can get a hol
 
 <div class='callout callout--warning'>
     <p>
-        <strong>Note:</strong> This Overview section is in Preview mode, and we’d love to hear your thoughts and feedback. Just click on the “Provide feedback on this view” prompt in the upper left of the Overview page to tell us what you think. .
+        <strong>Note:</strong> This Overview section is in Preview mode, and we’d love to hear your thoughts and feedback. Just click on the “Provide feedback on this view” prompt in the upper left of the Overview page to tell us what you think.
     </p>
 </div>
 

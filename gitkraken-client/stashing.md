@@ -72,7 +72,6 @@ You can also partially apply a stash. When a stash is selected, right click file
 
 <img src='/wp-content/uploads/partial-stash-apply.png' class='img-bordered img-responsive center'>
 
-
 Partial stash tips
 
 * You may name a partial stash by typing into the //WIP node or summary section before creating the stash.

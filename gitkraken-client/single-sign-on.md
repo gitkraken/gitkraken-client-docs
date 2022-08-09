@@ -9,13 +9,13 @@ taxonomy:
 
 GitKraken offers a Single Sign On (SSO) option as an easy way to sign in to your account. 
 
-Once your organization has setup SSO with an Identity Provider (IdP), the Owner or an Admin on your GitKraken organization can link your orgazation to that identity provider. Then, any users associated with your IdP can login to GitKraken apps and services with a single click. 🎉
+Once your organization has setup SSO with an Identity Provider (IdP), the Owner or an Admin on your GitKraken organization can link your orgazation to that identity provider. Then, any users associated with your IdP can login to GitKraken apps and services quickly. 🎉
 
 <div class='callout callout--warning'>
     <p><strong>Note:</strong> You must have an active GitKraken Teams or Enterprise License to enable SSO</p>
 </div>
 
-## What is SSO?
+## What is Single Sign On (SSO)?
 
 The <a href='https://en.wikipedia.org/wiki/Single_sign-on' target='_blank'>Wikipedia</a> definition of SSO:
 
@@ -62,15 +62,16 @@ GitKraken may initiate an Oauth authentication flow with the following supported
 * <a href='https://azure.microsoft.com/' target='_blank'>Azure Active Directory</a> 
 * <a href='https://www.okta.com/' target='_blank'>Okta</a>
 * <a href='https://cloud.google.com/identity-platform' target='_blank'>Google Identity Platform (G Suite)</a>
-* <a href='https://www.pingidentity.com/en.html' target='_blank'>Ping Identity</a>
 
 <div class='callout callout--warning'>
-    <p><strong>Note:</strong> Your IdP(s) will first need to be configured before setting up the connection in GitKraken. For assistance please contact your IdP administrator or consult the IdP documentation for help.</p>
+    <p><strong>Note:</strong> Your IdP(s) will first need to be configured before setting up the connection in GitKraken.</p>
 </div>
+
+While we do not support the IdP setup, check out this [example IdP setup](/gitkraken-client/single-sign-on/#example-idp-setup-instructions) to see what this portion typically looks like.
 
 ### License Requirements
 
-Single Sign On is only availibe as part of the <a href='https://www.gitkraken.com/git-client/pricing' target='_blank'>teams and enterprise plans</a>. 
+Single Sign On is availibe as part of the <a href='https://www.gitkraken.com/git-client/pricing' target='_blank'>teams and enterprise plans</a>. 
 
 ### Setting up SSO on a GitKraken Organization
 
@@ -164,3 +165,56 @@ When logging into GitKraken Client, GitLens, <a href='https://account.gitkraken.
 <img src="/wp-content/uploads/sso-sign-in.png" class="img-bordered img-responsive center">
 
 After clicking “Sign in with SSO”, the SSO form will open and ask for an email address to use for SSO login. GitKraken will then check the email and determine whether the email address belongs to a single IdP for SSO. When the email address is successfully identified, the user will be taken to that IdP to login.
+
+
+## Example IdP setup instructions
+
+<div class='callout callout--warning'>
+    <p><strong>Note:</strong> These are example instructions to help you with Identity Provider setup. For assistance please contact your IdP administrator or consult the IdP documentation for help.</p>
+</div>
+
+How to Create SAML Application in G Suite:
+
+1. Go to https://admin.google.com/ 
+
+2. Click on “Apps” and then “Web and mobile apps”
+
+<img src="/wp-content/uploads/sso-example-idp-1.jpg" class="img-bordered img-responsive center">
+
+3. Click on “Add app” 
+
+<img src="/wp-content/uploads/sso-example-idp-2.jpg" class="img-bordered img-responsive center">
+
+4. Click “Add custom SAML app”
+
+<img src="/wp-content/uploads/sso-example-idp-3.jpg" class="img-bordered img-responsive center">
+
+5. Type in your app name
+
+<img src="/wp-content/uploads/sso-example-idp-4.jpg" class="img-bordered img-responsive center">
+
+6. Copy your “SSO URL” and “Certificate”
+
+<img src="/wp-content/uploads/sso-example-idp-5.jpg" class="img-bordered img-responsive center">
+
+7. Type in your “https://baseURL/oauth/sso/callback” for “ACS URL” and “Entity ID”
+
+<img src="/wp-content/uploads/sso-example-idp-6.jpg" class="img-bordered img-responsive center">
+
+8. Add desired attributes and click on “Finish”
+
+<img src="/wp-content/uploads/sso-example-idp-7.jpg" class="img-bordered img-responsive center">
+
+9. Click on “TEST SAML LOGIN”
+
+<img src="/wp-content/uploads/sso-example-idp-8.jpg" class="img-bordered img-responsive center">
+
+10. Click on “ALLOW ACCESS”
+
+<img src="/wp-content/uploads/sso-example-idp-9.jpg" class="img-bordered img-responsive center">
+
+11. Select “ON for everyone” and save 
+
+<img src="/wp-content/uploads/sso-example-idp-10.jpg" class="img-bordered img-responsive center">
+
+Now you are all set to [setup your your SSO on a GitKraken Organization](/gitkraken-client/single-sign-on/#setting-up-sso-on-a-gitKraken-organization)
