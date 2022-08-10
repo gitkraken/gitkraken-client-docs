@@ -9,7 +9,7 @@ taxonomy:
 
 GitKraken offers a Single Sign On (SSO) option as an easy way to sign in to your account. 
 
-Once your organization has setup SSO with an Identity Provider (IdP), the Owner or an Admin on your GitKraken organization can link your orgazation to that identity provider. Then, any users associated with your IdP can login to GitKraken apps and services quickly. 🎉
+Once your organization has setup SSO with an Identity Provider (IdP), the Owner or an Admin on your GitKraken organization can link your organization to that identity provider. Then, any users associated with your IdP can login to GitKraken apps and services quickly. 🎉
 
 <div class='callout callout--warning'>
     <p><strong>Note:</strong> You must have an active GitKraken Teams or Enterprise License to enable SSO</p>
@@ -23,24 +23,23 @@ The <a href='https://en.wikipedia.org/wiki/Single_sign-on' target='_blank'>Wikip
 
 <img src="/wp-content/uploads/sso-example-diagram.png" class="img-bordered img-responsive center">
 
-The above diagram depicts what a typical SSO setup entails. These are the applications or actors involved in the setup:
+The above diagram depicts what a typical SSO setup entails. Here is some relevant terminology:
 
-**Directory Server:**  A Directory Server is an application that stores information about the “objects” that belong to an organization. An object can be: printers, computers, shared folders, users, groups (a group is just a group of users). Some objects can contain other objects, which then allows them to reflect hierarchical structures.  
+**Directory Server:**  A Directory Server is an application that stores information about the “objects” that belong to an organization. An object is typically something like: printers, computers, shared folders, users, or groups. Some objects can contain other objects which then allows them to reflect hierarchical structures.  
 
 Examples of Directory Server applications are:
 * <a href='https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/ad-ds-getting-started' target='_blank'>Microsoft Active Directory</a> 
 * <a href='https://www.oracle.com/security/identity-management/governance/' target='_blank'>Oracle Identity Governance (OIG) Suite</a> 
 * <a href='https://jumpcloud.com/' target='_blank'>Jump Cloud</a> 
 
-**Identity Provider:**  An identity provider (abbreviated IdP or IDP) is a system entity that creates, maintains, and manages identity information for principals and also provides authentication services to relying applications within a federation or distributed network. An IdP provider stores 3 main components: Users, Groups, and Applications.
+**Identity Provider:**  An identity provider (abbreviated IdP or IDP) is a system entity that creates, maintains, and manages identity information as well as providing authentication services to relying applications within a distributed network. An IdP provider stores 3 main components: Users, Groups, and Applications.
 
 Examples of Identity Provider applications are:
 * <a href='https://azure.microsoft.com/' target='_blank'>Azure Active Directory</a> 
 * <a href='https://www.okta.com/' target='_blank'>Okta</a>
 * <a href='https://cloud.google.com/identity-platform' target='_blank'>Google Identity Platform</a>
 
-The Identity Providers provide services that allow third party applications to authenticate their users. 
-The authentication mechanism they provide is called “Oauth”, which allows third party applications to authenticate users without accessing/storing their password. 
+The Identity Providers provide services that allow third party applications to authenticate their users. The authentication mechanism they provide is called “Oauth”, which allows third party applications to authenticate users without accessing/storing their password. 
 
 **Third party applications:** These are the applications that use IdP services to authenticate users. The end user is redirected to the IdP to instead login there. Then the Idp directs back to the 3rd party app to complete the login, confirming that the user is who they claim to be.
 
@@ -52,7 +51,7 @@ Examples of  third party apps:
 ***
 ## SSO in GitKraken
 
-GitKraken is a 3rd party application in this scenario - you setup which IdP(s) you want to use and we will use them to log them in. If your organization has already setup SSO with an IdP and in GitKraken, simply [sign in](/gitkraken-client/single-sign-on/#logging-in-using-sso) and you are all set! 
+GitKraken is a 3rd party application in this scenario. You (or an Owner/Admin) setup which IdP(s) you want to use and we will use them to log them in. If your organization has already setup SSO with an IdP and in GitKraken, simply [sign in](/gitkraken-client/single-sign-on/#logging-in-using-sso) and you are all set! 
 
 If you need to setup SSO for your GitKraken Organization see [Setting up SSO on a GitKraken Organization](/gitkraken-client/single-sign-on/#setting-up-sso-on-a-gitkraken-organization)
 ### Supported Identity Providers
@@ -87,7 +86,7 @@ How to set up SSO:
 2. On the left menu click on **SSO**.
 
 <div class='callout callout--warning'>
-    <p>If you do not see the SSO option, confirm that: you are logged in as the Owner or an Admin for this organization, your organization has either a Teams or Enterprise subscription</p>
+    <p>If you do not see the SSO option, confirm that: 1. You are logged in as the Owner or an Admin for this organization 2. Your organization has either a Teams or Enterprise subscription</p>
 </div>
 
 3. Click the `Enable SSO` checkbox and you will be presented with some additional fields:
@@ -98,15 +97,15 @@ There is only one domain allowed per GitKraken organization, and it must be uniq
 
 **JIT, Enable Just In Time Provisioning:** This allows users in this domain to login with their email and be automatically provisioned a license. In order for a user to be automatically given a license:
 
-* Just in time provisioning must be enabled (JIT option checked)☑ .
+* Just in time provisioning must be enabled (JIT option checked)☑.
 * The user email must be part of the SSO domain on the IdP.
-* There must be an availible licence on the GitKraken Organization.
+* There must be an available license on the GitKraken Organization.
 
-If this field is checked, when a user logs in into the Accounts Site for the first time, without having a license, using SSO with an email which domains belong to a gitKraken org. If there is any available license in the gitkraken org he/she will be automatically given one. 
+When a user logs in for the first time using SSO, and all three of the above conditions are met, they will be automatically given a GitKraken license.
 
-Click on <button class='button button--success button--ui button--nolink'>Save changes</button> to store the SSO configuration. Once this is completed you will see the <button class='button button--success button--ui button--nolink'>Configure SSO Connection</button> button appear.
+4. Click on <button class='button button--success button--ui button--nolink'>Save changes</button> to store the SSO configuration. Once this is completed you will see the <button class='button button--success button--ui button--nolink'>Configure SSO Connection</button> button appear.
 
-4. Click the <button class='button button--success button--ui button--nolink'>Configure SSO Connection</button> button to setup the connection between your GitKraken Organization and the Identity Provider. You will now be able to configue the connetion using [Metadata](/gitkraken-client/single-sign-on/#add-sso-connection-using-metadata).
+5. Click the <button class='button button--success button--ui button--nolink'>Configure SSO Connection</button> button to setup the connection between your GitKraken Organization and the Identity Provider. You will now be able to configue the connetion using [Metadata](/gitkraken-client/single-sign-on/#add-sso-connection-using-metadata).
 
 ### Add SSO Connection using Metadata
 
@@ -153,8 +152,7 @@ Azure is configured using a metadata URL.
 
 <img src="/wp-content/uploads/sso-azure-paste-metadata-url.png" class="img-bordered img-responsive center">
 
-7. Click on <button class='button button--success button--ui button--nolink'>Create Connection</button>. Optionally, you can check “Don’t enable this connection immediately” to not automatically enable this connection and prevent users from using it.
-
+7. Click on <button class='button button--success button--ui button--nolink'>Create Connection</button>. Optionally, you can check “Don’t enable this connection immediately” and choose to later enable it.
 
 <div class='callout callout--none'>
     <p><strong>Note:</strong> “Just in time provisioning” is either turned on or turned off for all connections in the Organization.</p>

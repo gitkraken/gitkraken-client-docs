@@ -34,7 +34,7 @@ _No yield signs here - we’ve made it easier to get connected to your favorite 
         - Azure Active Directory
         - Okta
         - Google Identity Platform
-        - Ping Identity
+        
     - Resources:
         - [Requirements and configuration](/gitkraken-client/current/#requirements-and-configuration)
         - [Signing in with SSO](/gitkraken-client/current/#signing-in-with-sso)
@@ -115,7 +115,6 @@ GitKraken may now initiate an Oauth authentication flow with the following suppo
 - Azure Active Directory
 - Okta
 - Google Identity Platform
-- Ping Identity
 
 Please note that your IdP will first need to be configured before setting up the connection in GitKraken. For assistance, please contact your IdP administrator or consult the IdP documentation for help. 
 
