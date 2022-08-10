@@ -104,11 +104,9 @@ There is only one domain allowed per GitKraken organization, and it must be uniq
 
 If this field is checked, when a user logs in into the Accounts Site for the first time, without having a license, using SSO with an email which domains belong to a gitKraken org. If there is any available license in the gitkraken org he/she will be automatically given one. 
 
-Click on <button class='button button--success button--ui button--nolink'>Save changes</button>, for storing the SSO configuration. Once that is completed, you will see the <button class='button button--success button--ui button--nolink'>Configure SSO Connection</button> button appear.
+Click on <button class='button button--success button--ui button--nolink'>Save changes</button> to store the SSO configuration. Once this is completed you will see the <button class='button button--success button--ui button--nolink'>Configure SSO Connection</button> button appear.
 
-4. Click the <button class='button button--success button--ui button--nolink'>Configure SSO Connection</button> button to setup the connection between your GitKraken Organization and the Identity Provider.
-
-Here you will see a list of all of the currently setup SSO connections. 
+4. Click the <button class='button button--success button--ui button--nolink'>Configure SSO Connection</button> button to setup the connection between your GitKraken Organization and the Identity Provider. You will now be able to configue the connetion using [Metadata](/gitkraken-client/single-sign-on/#add-sso-connection-using-metadata).
 
 ### Add SSO Connection using Metadata
 
@@ -118,9 +116,9 @@ Click on <button class='button button--success button--ui button--nolink'>Add Us
 + **IdP Metadata URL /IdP Metadata:** depending on the  IdP we can use one or both of thse options for setting up the SSO connection. 
 + **Don't enable this conenction immediately** ✅ by default new connections are automatically enabled. This checkbox will create the connection but users will not be able to login using SSO with this IdP until it is enabled.
 
-Example 1: setting up Otka
+**Example 1:** setting up Otka
 
-Okta is configured by using a metadata file.
+Okta is configured using a metadata file.
 1. Access your Okta instance.
 2. Navigate to the Application that you want to use.
 3. Click on “Sign on” and scroll down to SAML Signing Certificates:
@@ -137,8 +135,9 @@ Okta is configured by using a metadata file.
 
 <img src="/wp-content/uploads/sso-okta-paste-metadata.png" class="img-bordered img-responsive center">
 
-Example 2: setting up Azure
+**Example 2:** setting up Azure
 
+Azure is configured using a metadata URL.
 1. Access to your Azure account, and go to Active Directory -> Enterprise Applications.
 
 <img src="/wp-content/uploads/sso-azure-applications.png" class="img-bordered img-responsive center">
@@ -167,7 +166,7 @@ When logging into GitKraken Client, GitLens, <a href='https://account.gitkraken.
 
 <img src="/wp-content/uploads/sso-sign-in.png" class="img-bordered img-responsive center">
 
-After clicking “Sign in with SSO”, the SSO form will open and ask for an email address to use for SSO login. Enter your email address and GitKraken will determine which SSO Option(s) are availible and present them to you. Click an option and you will be sent to the IdP to complete the login process.
+After clicking **Sign in with SSO**, the SSO form will open and ask for an email address to use for SSO login. Enter your email address and GitKraken will determine which SSO option(s) are availible and present them to you. Click an option and you will be sent to the IdP login page to complete the process.
 
 ## Example Identity Provider (IdP) setup instructions
 
