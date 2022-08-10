@@ -57,3 +57,23 @@ The stash will now appear in the left panel and the graph with the desired name.
 <img src='/wp-content/uploads/custom-stash-panel.png' srcset='/wp-content/uploads/custom-stash-panel@2x.png' class='img-bordered img-responsive center'>
 
 <img src='/wp-content/uploads/custom-stash-graph.png' srcset='/wp-content/uploads/custom-stash-graph@2x.png' class='img-bordered img-responsive center'>
+
+### Partial stash
+
+Sometimes you only need to stash some of the files in your WIP.  
+
+Partial stashing is found in the "staged files" panel. Right-click individual files, or multiple files, and select the “Stash file” option to stash those selected files and have their changes reset.
+
+<img src='/wp-content/uploads/partial-stash.png' class='img-bordered img-responsive center'>
+
+**Apply changes from stash to working directory**
+
+You can also partially apply a stash. When a stash is selected, right click files in the right panel to apply their changes to the working directory.
+
+<img src='/wp-content/uploads/partial-stash-apply.png' class='img-bordered img-responsive center'>
+
+Partial stash tips
+
+* You may name a partial stash by typing into the //WIP node or summary section before creating the stash.
+* Select additional files for stashing or applying by holding down the Shift or Control key.
+* Applying a file from a stash does not remove the file from the stash – use this to safely explore!

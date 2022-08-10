@@ -98,3 +98,23 @@ At risk pull requests are pull requests that have not been updated in more than 
 If you are working with a GitHub.com workspace, you may select a pull request to work with the <a href="/working-with-repositories/pull-requests/#github-pull-request-view">GitHub pull request view</a>.
 
 <img src="/wp-content/uploads/github-pull-request.png" srcset="/wp-content/uploads/github-pull-request@2x.png" class="img-bordered img-responsive center">
+
+## Overview
+
+The overview section will provide you with a summary of Pull Requests, Issues, and WIPs relevant to you for the repos grouped in your Workspace. 
+
+<img src="/wp-content/uploads/workspace-overview.png" class="img-bordered img-responsive center">
+
+* My Pull Requests: shows all PRs opened by you, assigned to you, or awaiting your review
+* My Issues: shows all issues created by you, assigned to you, or that mention you.
+* Work in Progress: shows all branches with uncommitted changes
+
+Instead of hunting for these pieces of information separately, you can get a holistic view of what you’re working on.
+
+<div class='callout callout--warning'>
+    <p>
+        <strong>Note:</strong> This Overview section is in Preview mode, and we’d love to hear your thoughts and feedback. Just click on the “Provide feedback on this view” prompt in the upper left of the Overview page to tell us what you think.
+    </p>
+</div>
+
+

@@ -224,4 +224,4 @@ You can also use the SSH Agent option to setup and manage your keys, and then te
 
 #### Using LFS installed using Homebrew on macOS
 
-If LFS was installed using Homebrew, it may not appear in your path. You can run `sudo launchctl config user path "/usr/local/bin:$PATH"` to add homebrew utilities to the PATH for GUI apps. You can see more information on this from the [Homebrew documentation](https://docs.brew.sh/FAQ#my-mac-apps-dont-find-usrlocalbin-utilities).
+If LFS was installed using Homebrew, it may not appear in your path. You can run `sudo launchctl config user path "/opt/homebrew/bin:$PATH"` to add homebrew utilities to the PATH for GUI apps. You can see more information on this from the [Homebrew documentation](https://docs.brew.sh/FAQ#my-mac-apps-dont-find-usrlocalbin-utilities).
