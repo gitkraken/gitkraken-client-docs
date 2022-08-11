@@ -13,7 +13,7 @@ You've installed the app; fantastic! Now to login with your account.
 ## Logging into your account
 If you already have a GitKraken account, click your profile icon in the upper right corner to sign into your account.
 
-<img src="/wp-content/uploads/sign-into-a-different-account.png" srcset="/wp-content/uploads/login/sign-into-a-different-account@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/sign-into-a-different-account.png" class="img-responsive center img-bordered">
 
 
 Alternatively, navigate to <kbd><strong>File > Sign into a Different Account</strong></kbd>
