@@ -41,7 +41,7 @@ All remote branches are located in the left panel.
 ## Push <img src='/wp-content/uploads/gk-push-icon.svg' style='height:1em;'>
 Pushing takes any local changes <em class='context-menu'><i class="fa fa-laptop" aria-hidden="true"></i></em>, and making them available on the remote <em class='context-menu'><i class="fa fa-globe" aria-hidden="true"></i></em>.
 
-Push the currently checked out branch by clicking <kbd>Push <img src='/wp-content/uploads/icons/gk-push-icon.svg' style='height:1em;'></kbd> in the main toolbar, or by right clicking on the branch, and selecting <em class='context-menu'>Push</em>.
+Push the currently checked out branch by clicking <kbd>Push <img src='/wp-content/uploads/gk-push-icon.svg' style='height:1em;'></kbd> in the main toolbar, or by right clicking on the branch, and selecting <em class='context-menu'>Push</em>.
 
 <img src="/wp-content/uploads//push.png" srcset="/wp-content/uploads//push@2x.png" class="img-bordered img-responsive center">
 
