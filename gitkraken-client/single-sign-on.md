@@ -169,7 +169,7 @@ After clicking **Sign in with SSO**, the SSO form will open and ask for an email
 ## Example Identity Provider (IdP) setup instructions
 
 <div class='callout callout--warning'>
-    <p><strong>Note:</strong> These are example instructions to help you with Identity Provider setup. For assistance please contact your IdP administrator or consult the IdP documentation for help.</p>
+    <p><strong>Note:</strong> These are example instructions to help you with Identity Provider setup. In most cases all you will need from us is the callback URL: https://api.gitkraken.com/oauth/sso/callback. If you need assistance please contact your IdP administrator or consult the IdP documentation for help.</p>
 </div>
 
 ### G Suite
