@@ -275,7 +275,7 @@ How to Create SAML Application in Okta:
 
 <img src="/wp-content/uploads/sso-otka-3.png" class="img-bordered img-responsive center">
 
-7. Enter a name of application (such as "GitKraken SSO" or whatever you prefer).
+7. Enter a name of application (such as "GitKraken SSO").
 
 <img src="/wp-content/uploads/sso-otka-4.png" class="img-bordered img-responsive center">
 
@@ -287,7 +287,7 @@ Step 9: Scroll down to the attribute statement and fill in the optional fields.
 
 <img src="/wp-content/uploads/sso-otka-6.png" class="img-bordered img-responsive center">
 
-Step 10: Select “I am an okta customer adding an internal app” from option menu and then click to finish
+Step 10: Select “I am an Okta customer adding an internal app” from option menu and then click to finish
 
 <img src="/wp-content/uploads/sso-otka-7.png" class="img-bordered img-responsive center">
 
