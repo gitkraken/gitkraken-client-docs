@@ -119,7 +119,7 @@ Click on <button class='button button--success button--ui button--nolink'>Add Us
 
 Okta is configured using a metadata file.
 1. Access your Okta instance.
-2. Navigate to the Application that you want to use.
+2. Navigate to the Application that you want to use. See our [Otka example](/gitkraken-client/single-sign-on/#otka) for an example of how to make one.
 3. Click on “Sign on” and scroll down to SAML Signing Certificates:
 
 <img src="/wp-content/uploads/sso-okta-certs.png" class="img-bordered img-responsive center">
@@ -134,14 +134,14 @@ Okta is configured using a metadata file.
 
 <img src="/wp-content/uploads/sso-okta-paste-metadata.png" class="img-bordered img-responsive center">
 
-**Example 2:** setting up Azure
+**Example 2:** setting up Azure Active Directory
 
 Azure is configured using a metadata URL.
 1. Access to your Azure account, and go to Active Directory -> Enterprise Applications.
 
 <img src="/wp-content/uploads/sso-azure-applications.png" class="img-bordered img-responsive center">
 
-2. Navigate to the application that you want to use.
+2. Navigate to the application that you want to use. See our [Azure Active Directory example](/gitkraken-client/single-sign-on/#azure-active-directory) for an example of how to make one.
 3. On the left menu select “Single Sign-on”.
 4. Scroll down to the section: “SAML Signing Certificate”.
 
@@ -220,9 +220,9 @@ How to Create SAML Application in G Suite:
 
 Now you are all set to [setup your SSO on a GitKraken Organization](/gitkraken-client/single-sign-on/#setting-up-sso-on-a-gitKraken-organization)
 
-### Azure
+### Azure Active Directory
 
-How to Create SAML Application in Azure:
+How to Create SAML Application in Azure Active Directory:
 
 1. In a browser, Go to Azure login portal.
 2. Enter your azure credentials and login.
