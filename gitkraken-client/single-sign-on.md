@@ -178,43 +178,43 @@ How to Create SAML Application in G Suite:
 
 1. Go to https://admin.google.com/ 
 
-2. Click on “Apps” and then “Web and mobile apps”
+2. Click on *Apps* and then *Web and mobile apps*.
 
 <img src="/wp-content/uploads/sso-example-idp-1.jpg" class="img-bordered img-responsive center">
 
-3. Click on “Add app” 
+3. Click on *Add app*. 
 
 <img src="/wp-content/uploads/sso-example-idp-2.jpg" class="img-bordered img-responsive center">
 
-4. Click “Add custom SAML app”
+4. Click *Add custom SAML app*.
 
 <img src="/wp-content/uploads/sso-example-idp-3.jpg" class="img-bordered img-responsive center">
 
-5. Type in your app name
+5. Type in your app name (such as GitKraken SSO).
 
 <img src="/wp-content/uploads/sso-example-idp-4.jpg" class="img-bordered img-responsive center">
 
-6. Copy your “SSO URL” and “Certificate”
+6. Copy your *SSO URL* and *Certificate*.
 
 <img src="/wp-content/uploads/sso-example-idp-5.jpg" class="img-bordered img-responsive center">
 
-7. Type in your “https://baseURL/oauth/sso/callback” for “ACS URL” and “Entity ID”
+7. Type in your `https://api.gitkraken.com/oauth/sso/callback` for *ACS URL* and *Entity ID*.
 
 <img src="/wp-content/uploads/sso-example-idp-6.jpg" class="img-bordered img-responsive center">
 
-8. Add desired attributes and click on “Finish”
+8. Add desired attributes and click on *Finish*.
 
 <img src="/wp-content/uploads/sso-example-idp-7.jpg" class="img-bordered img-responsive center">
 
-9. Click on “TEST SAML LOGIN”
+9. Click on *TEST SAML LOGIN*.
 
 <img src="/wp-content/uploads/sso-example-idp-8.jpg" class="img-bordered img-responsive center">
 
-10. Click on “ALLOW ACCESS”
+10. Click on *ALLOW ACCESS*.
 
 <img src="/wp-content/uploads/sso-example-idp-9.jpg" class="img-bordered img-responsive center">
 
-11. Select “ON for everyone” and save 
+11. Select *ON for everyone* and save.
 
 <img src="/wp-content/uploads/sso-example-idp-10.jpg" class="img-bordered img-responsive center">
 
@@ -235,15 +235,15 @@ How to Create SAML Application in Azure Active Directory:
 
 <img src="/wp-content/uploads/sso-azure-2.png" class="img-bordered img-responsive center">
 
-6. Select "Create your own application". 
+6. Select *Create your own application*. 
 
 <img src="/wp-content/uploads/sso-azure-3.png" class="img-bordered img-responsive center">
 
-7. Give your application name (you can use "GitKraken SSO" or whatever you prefer) and select "Integrate any other application you don't find in the gallery (Non-gallery)".
+7. Give your application name (such as "GitKraken SSO") and select "Integrate any other application you don't find in the gallery (Non-gallery)".
 
 <img src="/wp-content/uploads/sso-azure-4.png" class="img-bordered img-responsive center">
 
-8. Select Single sign-onfrom the left sidebar and then choose “SAML”.
+8. Select Single sign-onfrom the left sidebar and then choose *SAML*.
 
 <img src="/wp-content/uploads/sso-azure-5.png" class="img-bordered img-responsive center">
 
@@ -267,7 +267,7 @@ How to Create SAML Application in Okta:
 <img src="/wp-content/uploads/sso-otka-1.png" class="img-bordered img-responsive center">
 
 4. Click on Add Application.  
-5. Select "Create New App". 
+5. Select *Create New App*. 
 
 <img src="/wp-content/uploads/sso-otka-2.png" class="img-bordered img-responsive center">
 
