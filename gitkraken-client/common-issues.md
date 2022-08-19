@@ -72,7 +72,7 @@ This should allow you to log in without issue.
 ***
 
 ## Windows taskbar icon is not showing the GitKraken logo
-Some Windows users are seeing the taskbar icon show incorrectly for GitKraken. This is due to the start menu shortcut moving from ``C:\Users\USER\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Axosoft, LLC`` to ``C:\Users\USER\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitKraken``. 
+Some Windows users are seeing the taskbar icon show incorrectly for GitKraken. This is due to the start menu shortcut moving from ``C:\\Users\\USER\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Axosoft, LLC`` to ``C:\\Users\\USER\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\GitKraken``. 
 
 ### Solution:
-You can delete the old folder ``C:\Users\USER\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Axosoft, LLC``, start GitKraken from the start menu, and then pin it to the taskbar again to resolve this.
+You can delete the old folder ``C:\\Users\\USER\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Axosoft, LLC``, start GitKraken from the start menu, and then pin it to the taskbar again to resolve this.
