@@ -313,12 +313,12 @@ How to Create SAML Application in Ping Identity
 
 <img src="/wp-content/uploads/sso-pingidentity-5.png" class="img-bordered img-responsive center">
 
-6.	Type in your environment name (in *TRIAL ENVIRONMENT NAME*), then click “Finish”. Now your environment is created. Go ahead and click on it.
+6.	Type in your environment name (in *TRIAL ENVIRONMENT NAME*), then click *Finish*. Now your environment is created. Go ahead and click on it.
 
 <img src="/wp-content/uploads/sso-pingidentity-6.png" class="img-bordered img-responsive center">
 <img src="/wp-content/uploads/sso-pingidentity-6-2.png" class="img-bordered img-responsive center">
 
-7.	Select *Identities* to add some users. Once you are done adding them, go ahead and click on *Groups*, then click on the plus button to add a group. (Make sure to add users with their email addresses).
+7.	Select Identities to add some users. Once you are done adding them click on Groups, and then click on the plus button to add a group. (Make sure to add users with their email addresses).
 
 <img src="/wp-content/uploads/sso-pingidentity-7.png" class="img-bordered img-responsive center">
 <img src="/wp-content/uploads/sso-pingidentity-7-2.png" class="img-bordered img-responsive center">
@@ -353,11 +353,11 @@ How to Create SAML Application in Ping Identity
 <img src="/wp-content/uploads/sso-pingidentity-14.png" class="img-bordered img-responsive center">
 <img src="/wp-content/uploads/sso-pingidentity-14-2.png" class="img-bordered img-responsive center">
 
-15. Time to add the group we created.
+15. Time to add the group we created in Step 8.
 
 <img src="/wp-content/uploads/sso-pingidentity-15.png" class="img-bordered img-responsive center">
 
-16.	Click on the button below.
+16.	Select the pencil icon pictured below.
 
 <img src="/wp-content/uploads/sso-pingidentity-16.png" class="img-bordered img-responsive center">
 
@@ -370,7 +370,7 @@ How to Create SAML Application in Ping Identity
 
 <img src="/wp-content/uploads/sso-pingidentity-18.png" class="img-bordered img-responsive center">
 
-19.	Go to your organization and click on *SSO* then click on *Enable SSO*. Type in your domain in *Organization Domain Name* with *.com* . Then click on *Configure SSO Connection*.
+19.	On app.gitkraken.com, go to your organization and click on *SSO* then click on *Enable SSO*. Type in your domain in *Organization Domain Name* with *.com* . Then click on *Configure SSO Connection*.
 
 <img src="/wp-content/uploads/sso-pingidentity-19.png" class="img-bordered img-responsive center">
 
