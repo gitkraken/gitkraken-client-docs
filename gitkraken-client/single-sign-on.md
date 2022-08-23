@@ -292,3 +292,90 @@ Step 10: Select “I am an Okta customer adding an internal app” from option m
 <img src="/wp-content/uploads/sso-otka-7.png" class="img-bordered img-responsive center">
 
 Now you are all set to [setup your SSO on a GitKraken Organization](/gitkraken-client/single-sign-on/#setting-up-sso-on-a-gitKraken-organization)
+
+### Ping Identity
+
+How to Create SAML Application in Ping Identity
+
+1. Go to https://www.pingidentity.com/en/account/sign-on.html
+
+2. Create an account or sign in your existing one.
+
+3. Go to the home page and click on *Add Environment*.
+
+<img src="/wp-content/uploads/sso-pingidentity-3.png" class="img-bordered img-responsive center">
+
+4. Select the appropriate solution based on your need (in this guide, we use *Customer solution*) and click *Next*.
+
+<img src="/wp-content/uploads/sso-pingidentity-4.png" class="img-bordered img-responsive center">
+
+5.	Select *PingOne SSO*, then click *Next*.
+
+<img src="/wp-content/uploads/sso-pingidentity-5.png" class="img-bordered img-responsive center">
+
+6.	Type in your environment name (in *TRIAL ENVIRONMENT NAME*), then click “Finish”. Now your environment is created. Go ahead and click on it.
+
+<img src="/wp-content/uploads/sso-pingidentity-6.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/sso-pingidentity-6-2.png" class="img-bordered img-responsive center">
+
+7.	Select *Identities* to add some users. Once you are done adding them, go ahead and click on *Groups*, then click on the plus button to add a group. (Make sure to add users with their email addresses).
+
+<img src="/wp-content/uploads/sso-pingidentity-7.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/sso-pingidentity-7-2.png" class="img-bordered img-responsive center">
+
+8.	Select *Groups*, then click on the plus button to add a group. Once you have that, you can add the users to your group.
+
+<img src="/wp-content/uploads/sso-pingidentity-8.png" class="img-bordered img-responsive center">
+
+9.	Select *Connections*.
+
+<img src="/wp-content/uploads/sso-pingidentity-9.png" class="img-bordered img-responsive center">
+
+10.	Click on the plus button.
+
+<img src="/wp-content/uploads/sso-pingidentity-10.png" class="img-bordered img-responsive center">
+
+11.	Enter a name for your application, then select *SAML Application*. Next click on the *Configure* button which appears once you select your application type.
+
+<img src="/wp-content/uploads/sso-pingidentity-11.png" class="img-bordered img-responsive center">
+
+12.	Select *Manually Enter*. Type in the URL for *ACS URLs* and *Entity ID*, then click on *Save*.
+
+<img src="/wp-content/uploads/sso-pingidentity-12.png" class="img-bordered img-responsive center">
+
+13.	Click on the toggle button so the users would have access to your application.
+
+<img src="/wp-content/uploads/sso-pingidentity-13.png" class="img-bordered img-responsive center">
+
+14.	Click on *Attributes* then add email as your new attribute.
+
+<img src="/wp-content/uploads/sso-pingidentity-14.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/sso-pingidentity-14-2.png" class="img-bordered img-responsive center">
+
+15. Time to add the group we created.
+
+<img src="/wp-content/uploads/sso-pingidentity-15.png" class="img-bordered img-responsive center">
+
+16.	Click on the button below.
+
+<img src="/wp-content/uploads/sso-pingidentity-16.png" class="img-bordered img-responsive center">
+
+17.	Click on the plus icon to add the group, then click on *Save*.
+
+<img src="/wp-content/uploads/sso-pingidentity-17.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/sso-pingidentity-17-2.png" class="img-bordered img-responsive center">
+
+18.	Go to the *Configuration* tab to copy your *IDP Metadata URL* and download your metadata (*Download Metadata* button).
+
+<img src="/wp-content/uploads/sso-pingidentity-18.png" class="img-bordered img-responsive center">
+
+19.	Go to your organization and click on *SSO* then click on *Enable SSO*. Type in your domain in *Organization Domain Name* with *.com* . Then click on *Configure SSO Connection*.
+
+<img src="/wp-content/uploads/sso-pingidentity-19.png" class="img-bordered img-responsive center">
+
+20.	Click on *Add Using Metadata* and type in a *Connection name* and from the *Identity Provider* select *Ping Identity*. Then use the *IDP Metadata URL* and *Metadata* from step 18 for *IdP Metadata URL* and *IdP Metadata*. Click on *Create Connection*
+
+<img src="/wp-content/uploads/sso-pingidentity-20.png" class="img-bordered img-responsive center">
+
+21.	Now the users who were added in step 7 can *Sign in with SSO*.
+
