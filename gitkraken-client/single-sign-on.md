@@ -340,6 +340,7 @@ How to Create SAML Application in Ping Identity
 <img src="/wp-content/uploads/sso-pingidentity-11.png" class="img-bordered img-responsive center">
 
 12.	Select *Manually Enter*. Type in the URL for *ACS URLs* and *Entity ID*, then click on *Save*.
+(URL: `https://api.gitkraken.com/oauth/sso/callback`))
 
 <img src="/wp-content/uploads/sso-pingidentity-12.png" class="img-bordered img-responsive center">
 
