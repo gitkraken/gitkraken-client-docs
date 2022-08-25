@@ -61,12 +61,13 @@ GitKraken may initiate an Oauth authentication flow with the following supported
 * <a href='https://azure.microsoft.com/' target='_blank'>Azure Active Directory</a> 
 * <a href='https://www.okta.com/' target='_blank'>Okta</a>
 * <a href='https://cloud.google.com/identity-platform' target='_blank'>Google Identity Platform (G Suite)</a>
+* <a href='https://www.pingidentity.com/' target='_blank'>Ping Identity</a>
 
 <div class='callout callout--warning'>
     <p><strong>Note:</strong> Your IdP(s) will first need to be configured before setting up the connection in GitKraken.</p>
 </div>
 
-While we do not assist in setting up with an identity provider, check out this [example IdP setup](/gitkraken-client/single-sign-on/#example-idp-setup-instructions) to see what this portion typically looks like.
+While we do not assist in setting up the identity provider, the [example IdP setup section](/gitkraken-client/single-sign-on/#example-identity-provider-idp-setup-instructions) gives step-by-step instructions for what this typically looks like.
 
 ### License Requirements
 
