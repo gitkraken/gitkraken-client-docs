@@ -41,5 +41,5 @@ Join our public slack community and interact with other GitKraken Client users f
 [Join GitKraken Slack](https://slack.gitkraken.com/)
 
 Didn't find what you're looking for in all of our documentation and help articles? Then please contact our support team.
-[Contact Support ✉](https://www.gitkraken.com/git-client/contact-support)
+[Contact Support](https://help.gitkraken.com/gitkraken-client/contact-support)
 
