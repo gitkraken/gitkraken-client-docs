@@ -117,4 +117,39 @@ Instead of hunting for these pieces of information separately, you can get a hol
     </p>
 </div>
 
+## Team Overview
 
+On a [Team workspace](/gitkraken-client/workspaces/#workspace-type), there is now a Teams Workspace section. This view shows all pull requests and issues for the repositories in your Workspace - giving you a high level view of your teams' coding efforts. 
+
+<img src="/wp-content/uploads/team-overview.png" srcset="/wp-content/uploads/team-overview@2x.png" class="img-bordered img-responsive center">
+
+### Team Pull Requests 
+
+The Team Pull Requests sections has the following columns:
+
+* Last Updated 
+* PR title with link to open the pull request in the hosting provider
+* PR Author
+* Repo name with link to open the repo in GitKraken Client
+* Review status
+* PR status
+  * Shows status for “Draft” or “At Risk” pull requests
+* Checks 
+* Lines added/removed
+* PR branch
+  * Double click to check out directly in GitKraken Client
+* GitHub.com Workspaces Only:
+  * Shortcut to open the Pull Request Panel
+  * Filter by assignee or author
+
+### Team Issues 
+
+Team Issues will show all GitHub Issues, GitLab Issues, Jira Cloud Issues, Jira Server, or Trello cards associated with the repo. 
+
+<img src="/wp-content/uploads/team-issues-switch.png" srcset="/wp-content/uploads/team-issues-switch@2x.png" class="img-bordered img-responsive center">
+
+<div class='callout callout--warning'>
+    <p>
+        <strong>Note:</strong> This Team Overview section is in Preview mode, and we’d love to hear your thoughts and feedback. Just click on the “Provide feedback on this view” prompt in the upper left of the Overview page to tell us what you think.
+    </p>
+</div>
