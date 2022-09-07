@@ -119,11 +119,17 @@ Instead of hunting for these pieces of information separately, you can get a hol
 
 ## Team Overview
 
-On a [Team workspace](/gitkraken-client/workspaces/#workspace-type), there is now a Teams Workspace section. This view shows all pull requests and issues for the repositories in your Workspace - giving you a high level view of your teams' coding efforts. 
+On a [Team workspace](/gitkraken-client/workspaces/#workspace-type), you will see a Teams Workspace section. This view shows all pull requests and issues for the repositories in your Workspace - giving you a high level view of your team's coding efforts. 
 
-<img src="/wp-content/uploads/team-overview.png" srcset="/wp-content/uploads/team-overview@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/8-9-team-overview.png" srcset="/wp-content/uploads/8-9-team-overview.png" class="img-bordered img-responsive center">
+
+You can switch the Issue Tracker provider from the My Issues section in the Overview tab. 
+
+<img src="/wp-content/uploads/8-9-team-issues-switch.png" srcset="/wp-content/uploads/8-9-team-issues-switch.png" class="img-bordered img-responsive center">
 
 ### Team Pull Requests 
+
+<img src="/wp-content/uploads/8-9-filter-by-author-assignee.png" srcset="/wp-content/uploads/8-9-filter-by-author-assignee.png" class="img-bordered img-responsive center">
 
 The Team Pull Requests sections has the following columns:
 
@@ -146,10 +152,11 @@ The Team Pull Requests sections has the following columns:
 
 Team Issues will show all GitHub Issues, GitLab Issues, Jira Cloud Issues, Jira Server, or Trello cards associated with the repo. 
 
-<img src="/wp-content/uploads/team-issues-switch.png" srcset="/wp-content/uploads/team-issues-switch@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/8-9-team-issues-switch.png" srcset="/wp-content/uploads/8-9-team-issues-switch.png" class="img-bordered img-responsive center">
 
 <div class='callout callout--warning'>
     <p>
         <strong>Note:</strong> This Team Overview section is in Preview mode, and we’d love to hear your thoughts and feedback. Just click on the “Provide feedback on this view” prompt in the upper left of the Overview page to tell us what you think.
     </p>
 </div>
+
