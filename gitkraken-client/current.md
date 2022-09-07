@@ -21,9 +21,50 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ### Wednesday, September 7th, 2022
 
-The signs are all around us…and they’re pointing to an epic release of GitKraken Client v8.8.
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bX_XOGALutI?controls=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+</div>
 
-### New + Improved ✨ 
+_“Ah! After 10,000 years I’m free. Time to conquer Earth!”_
+### New ✨
+_“Alpha, Rita’s escaped! Recruit a team of developers with attitude.”_
+
+- Added the <kbd>Team Overview</kbd> section for Workspaces:
+  - Shows all Pull Requests and all Issues for repos in Team Workspace.
+  - This view is in `Preview`, and feedback is welcome. A link to submit feedback can be found at the top of the view.
+
+### Improvements 🙌
+_Thanks to Alpha, the command center got some mighty upgrades._
+
+- Left panel filtering experience improved:
+  - Issues and Pull Requests, which have separate, integration-specific filtering unaffected by the global filter, will automatically collapse while performing a global filter.
+  - Sections can be collapsed and expanded while filtering.
+  - We continue to listen to feedback and plan even more left panel improvements.
+- GitHub users may open the in-app Pull Request Panel from Workspace sections.
+- Added the keyboard shortcut <kbd>Ctrl + Shift + E</kbd> which opens checked repositories from the Workspace Repository section in your preferred external editor.
+- Added the ability to switch issue tracker in the Workspace `Overview` page.
+- Added a gray draft PR indicator in the Workspace `Overview` page.
+- `Repository` and `Pull Request` sections in Workspaces have been updated to reflect the new styles in `Overview`.
+- Added colors to the last updated date displayed in the pull request and issue tables in Workspaces.
+- `At Risk` PRs are now highlighted with a ⚠️ icon in the PR Status column.
+- `Team Overview` for Workspaces associated with GitHub repos can be filtered by Author or Assignee.
+- Jira Server connections now support authentication with personal access tokens (PAT).
+- In-app support forms have been removed in favor of linking to the support form on our website.
+
+### Bug Fixes 🐛
+_Rita made her monsters grow, but our megazord saved Angel Grove from their clutches._ 
+
+- Fixed an issue where GitLab Self-Managed remotes would not display a user’s avatar as the icon.
+- Fixed an issue where inputting an invalid token when signing in closes the token input box.
+- Fixed issues with checking out pull request branches from the Workspace `Overview` section.
+- Fixed an issue where searching in the Workspace `Overview` with upper case would not show any results.
+- Fixed an issue where having a pre-push hook fail when deleting a tag would cause a looping Oauth prompt to show up.
+- Fixed an issue where users could not delete tags from remotes.
+- Fixed an issue where editing profiles from <kbd>Preferences -> Profiles</kbd> could make it appear that the user had switched profiles.
+- Fixed an issue where the log-in screen had poor contrast on light themes.
+- Fixed an issue where commits would not immediately be inserted into the graph after using <kbd>Show All Tags</kbd> to unhide one or more tags.
+
+
 
 
 ***
@@ -33,13 +74,17 @@ The signs are all around us…and they’re pointing to an epic release of GitKr
 
 ### Wednesday, August 10th, 2022
 
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OFdkyaUvu9E?controls=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
 The signs are all around us…and they’re pointing to an epic release of GitKraken Client v8.8.
 
 ### New + Improved ✨ 
 
 _No yield signs here - we’ve made it easier to get connected to your favorite Git client with Single Sign On for multiple providers._
 
-- [Watch v8.8 feature demo](/gitkraken-client/current/#watch-v8-8-feature-demo) 🎥
 - [Single Sign On](/gitkraken-client/current/#what-is-single-sign-on-sso) 
 
     - GitKraken may now initiate an Oauth authentication flow with the following supported Identity Providers (IdPs):
@@ -85,11 +130,6 @@ _GitKraken exterminators have eliminated most signs of bugs…_
 - Fixed an issue where users could not create a workspace if the icon size was too big.
 - Removed unnecessary comment count column from Azure Workspaces.
 
-### Watch v8.8 feature demo
-
-<div class='embed-container embed-container--16-9'>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/OFdkyaUvu9E?controls=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>
-</div>
 
 ### Single Sign On
 
@@ -224,13 +264,16 @@ Hopefully this saves you extra typing or the need to remember that remote name.
 
 ### Wednesday, July 13th, 2022
 
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Yhxv9e1jyDE?controls=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+</div>
+
 GitKraken Client v8.7 has been released! Whether you're covering a tear, or just adding some flair – we’ve got you patched.
 
 ### New + Improved ✨ 
 
 _We hemmed in some new threads._
 
-- [Watch v8.7 feature demo](/gitkraken-client/current/#watch-v8-7-feature-demo) 🎥
 - GitKraken Client now supports the ability to create and apply patches.
     - [Create patch from commit(s)](/gitkraken-client/current/#create-patch-from-commits)
     - [Create patch from uncommitted file(s)](/gitkraken-client/current/#create-patch-from-files)
@@ -257,12 +300,6 @@ _We’ve stitched up a few loose ends._
 - Fixed issue where if two profiles both have the same repo tab open, switching profiles would cause issues to disappear from the left panel.
 - Changing accounts will now properly reset the selected Workspace.
 - In the Workspace Pull Request section, removing a filter and quickly selecting a PR will no longer generate a blank screen.
-
-### Watch v8.7 feature demo
-
-<div class='embed-container embed-container--16-9'>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Yhxv9e1jyDE?controls=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>
-</div>
 
 ### Patch Support
 
