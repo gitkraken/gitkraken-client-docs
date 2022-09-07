@@ -29,25 +29,27 @@ _“Ah! After 10,000 years I’m free. Time to conquer Earth!”_
 ### New ✨
 _“Alpha, Rita’s escaped! Recruit a team of developers with attitude.”_
 
-- Added the <kbd>Team Overview</kbd> section for Workspaces:
-  - Shows all Pull Requests and all Issues for repos in Team Workspace.
-  - This view is in `Preview`, and feedback is welcome. A link to submit feedback can be found at the top of the view.
+- [Team Overview](/gitkraken-client/current/#team-overview) - Added the <kbd>Team Overview</kbd> section for Workspaces:
+  - [Team Pull Requests](/gitkraken-client/current/#team-pull-requests) - Shows all Pull Requests and all Issues for repos in Team Workspace.
+  - [Team Issues](/gitkraken-client/current/#team-issues) This view is in `Preview`, and feedback is welcome. A link to submit feedback can be found at the top of the view.
 
 ### Improvements 🙌
 _Thanks to Alpha, the command center got some mighty upgrades._
 
-- Left panel filtering experience improved:
+
+- [Workspace UI improvements](/gitkraken-client/current/#workspace-ui-updates)
+    - GitHub users may open the in-app Pull Request Panel from Workspace sections.
+    - Added the ability to switch issue tracker in the Workspace `Overview` page.
+    - Added a gray draft PR indicator in the Workspace `Overview` page.
+    - `Repository` and `Pull Request` sections in Workspaces have been updated to reflect the new styles in `Overview`.
+     Added colors to the last updated date displayed in the pull request and issue tables in Workspaces.
+    - `At Risk` PRs are now highlighted with a ⚠️ icon in the PR Status column.
+    - `Team Overview` for Workspaces associated with GitHub repos can be filtered by Author or Assignee.
+- [Left panel improvements](/gitkraken-client/current/#left-panel-improvement) - Left panel filtering experience improved:
   - Issues and Pull Requests, which have separate, integration-specific filtering unaffected by the global filter, will automatically collapse while performing a global filter.
   - Sections can be collapsed and expanded while filtering.
   - We continue to listen to feedback and plan even more left panel improvements.
-- GitHub users may open the in-app Pull Request Panel from Workspace sections.
 - Added the keyboard shortcut <kbd>Ctrl + Shift + E</kbd> which opens checked repositories from the Workspace Repository section in your preferred external editor.
-- Added the ability to switch issue tracker in the Workspace `Overview` page.
-- Added a gray draft PR indicator in the Workspace `Overview` page.
-- `Repository` and `Pull Request` sections in Workspaces have been updated to reflect the new styles in `Overview`.
-- Added colors to the last updated date displayed in the pull request and issue tables in Workspaces.
-- `At Risk` PRs are now highlighted with a ⚠️ icon in the PR Status column.
-- `Team Overview` for Workspaces associated with GitHub repos can be filtered by Author or Assignee.
 - Jira Server connections now support authentication with personal access tokens (PAT).
 - In-app support forms have been removed in favor of linking to the support form on our website.
 
