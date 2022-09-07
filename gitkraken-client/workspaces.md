@@ -129,9 +129,11 @@ You can switch the Issue Tracker provider from the My Issues section in the Over
 
 ### Team Pull Requests 
 
+This section of the Team Overview will show all Pull Requests related to your selected team.
+
 <img src="/wp-content/uploads/8-9-filter-by-author-assignee.png" srcset="/wp-content/uploads/8-9-filter-by-author-assignee.png" class="img-bordered img-responsive center">
 
-The Team Pull Requests sections has the following columns:
+The Team Pull Requests section has the following columns:
 
 * Last Updated 
 * PR title with link to open the pull request in the hosting provider
@@ -148,9 +150,13 @@ The Team Pull Requests sections has the following columns:
   * Shortcut to open the Pull Request Panel
   * Filter by assignee or author
 
+<img src="/wp-content/uploads/8-9-team-pull-requests-columns.png" srcset="/wp-content/uploads/8-9-team-pull-requests-columns.png" class="img-bordered img-responsive center">
+
 ### Team Issues 
 
 Team Issues will show all GitHub Issues, GitLab Issues, Jira Cloud Issues, Jira Server, or Trello cards associated with the repo. 
+
+With Team Issues, it’s easy to switch between Jira or Trello and back to either GitHub Issues or GitLab Issues. If you select Jira or Trello, you can also filter by project so that you only see issues that matter to you.
 
 <img src="/wp-content/uploads/8-9-team-issues-switch.png" srcset="/wp-content/uploads/8-9-team-issues-switch.png" class="img-bordered img-responsive center">
 

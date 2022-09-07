@@ -112,7 +112,7 @@ The Team Overview is in Preview, and feedback is welcome. A link to submit feedb
 
 GitKraken Client v8.9 also updates the UI for the Repositories and Pull Request sections in Workspaces – providing clearer information at a glance through updated color coding and iconography.
 
-<img src="/wp-content/uploads/5-GK-Release-8-9.gif" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/8-9-GK-Release-8-9.gif" class="img-responsive center img-bordered">
 
 #### Overview > My Issues > Set Issue Tracker
 
