@@ -43,7 +43,7 @@ _Thanks to Alpha, the command center got some mighty upgrades._
     - Added the ability to switch issue tracker in the Workspace `Overview` page.
     - Added a gray draft PR indicator in the Workspace `Overview` page.
     - `Repository` and `Pull Request` sections in Workspaces have been updated to reflect the new styles in `Overview`.
-     Added colors to the last updated date displayed in the pull request and issue tables in Workspaces.
+    - Added colors to the last updated date displayed in the pull request and issue tables in Workspaces.
     - `At Risk` PRs are now highlighted with a ⚠️ icon in the PR Status column.
     - `Team Overview` for Workspaces associated with GitHub repos can be filtered by Author or Assignee.
 - [Left panel improvements](/gitkraken-client/current/#left-panel-improvement) - Left panel filtering experience improved:
