@@ -31,7 +31,8 @@ _“Alpha, Rita’s escaped! Recruit a team of developers with attitude.”_
 
 - [Team Overview](/gitkraken-client/current/#team-overview) - Added the <kbd>Team Overview</kbd> section for Workspaces:
   - [Team Pull Requests](/gitkraken-client/current/#team-pull-requests) - Shows all Pull Requests and all Issues for repos in Team Workspace.
-  - [Team Issues](/gitkraken-client/current/#team-issues) This view is in `Preview`, and feedback is welcome. A link to submit feedback can be found at the top of the view.
+  - [Team Issues](/gitkraken-client/current/#team-issues) - Displays list of 
+  - This view is in `Preview`, and feedback is welcome. A link to submit feedback can be found at the top of the view.
 
 ### Improvements 🙌
 _Thanks to Alpha, the command center got some mighty upgrades._
@@ -71,17 +72,17 @@ _Rita made her monsters grow, but our megazord saved Angel Grove from their clut
 
 Your teams have a new hub with the Team Overview in Workspaces. 
 
-<img src="/wp-content/uploads/1-team-overview.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/8-9-team-overview.png" class="img-responsive center img-bordered">
 
 This new broad view shows all Pull Requests and all Issues for the repos in your Workspace – giving you a high level view of your team’s coding efforts. 
 
 #### Team Pull Requests
 
-<img src="/wp-content/uploads/2-filter-by-author-assignee.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/8-9-filter-by-author-assignee.png" class="img-responsive center img-bordered">
 
 If your Workspace repos are hosted on GitHub, you may filter the Team Pull Requests by assignee or author.
 
-<img src="/wp-content/uploads/3-team-pull-requests-columns.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/8-9-team-pull-requests-columns.png" class="img-responsive center img-bordered">
 
 The Team Pull Requests sections has the following columns:
 
@@ -103,7 +104,7 @@ The Team Pull Requests sections has the following columns:
 
 Team Issues will show all GitHub Issues, GitLab Issues, Jira Cloud Issues, Jira Server, or Trello cards associated with the repo. 
 
-<img src="/wp-content/uploads/4-team-issues-switch.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/8-9-team-issues-switch.png" class="img-responsive center img-bordered">
 
 With Team Issues, it’s easy to switch between Jira or Trello and back to either GitHub Issues or GitLab Issues. If you select Jira or Trello, you can also filter by project so that you only see issues that matter to you.
 
@@ -120,13 +121,13 @@ GitKraken Client v8.9 also updates the UI for the Repositories and Pull Request 
 
 You may now switch the Issue Tracker provider from the My Issues section in the Overview tab. 
 
-<img src="/wp-content/uploads/6-my-issues-switch.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/8-9-my-issues-switch.png" class="img-responsive center img-bordered">
 
 ### Left panel improvement
  
 In the left panel, you may now expand or collapse sections when filtering the left panel.
 
-<img src="/wp-content/uploads/7-left-panel.gif" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/8-9-left-panel.gif" class="img-responsive center img-bordered">
 
 We plan to continue pushing more left panel improvements in future releases. Thanks for your feedback so far!
 
