@@ -65,7 +65,68 @@ _Rita made her monsters grow, but our megazord saved Angel Grove from their clut
 - Fixed an issue where commits would not immediately be inserted into the graph after using <kbd>Show All Tags</kbd> to unhide one or more tags.
 
 
+### Team Overview 
 
+Your teams have a new hub with the Team Overview in Workspaces. 
+
+<img src="/wp-content/uploads/1-team-overview.png" class="img-responsive center img-bordered">
+
+This new broad view shows all Pull Requests and all Issues for the repos in your Workspace – giving you a high level view of your team’s coding efforts. 
+
+#### Team Pull Requests
+
+<img src="/wp-content/uploads/2-filter-by-author-assignee.png" class="img-responsive center img-bordered">
+
+If your Workspace repos are hosted on GitHub, you may filter the Team Pull Requests by assignee or author.
+
+<img src="/wp-content/uploads/3-team-pull-requests-columns.png" class="img-responsive center img-bordered">
+
+The Team Pull Requests sections has the following columns:
+
+- Last Updated 
+- PR title with link to open the Pull Request in the hosting provider
+- PR Author
+- Repo name with link to open the repo in GitKraken Client
+- Review status
+- PR status
+    - Shows status for “Draft” or “At Risk” Pull Requests
+- Checks 
+- Lines added/removed
+- PR branch
+    - Double click to check out directly in GitKraken Client
+- Shortcut to open the Pull Request Panel
+    - GitHub Repos only
+
+#### Team Issues
+
+Team Issues will show all GitHub Issues, GitLab Issues, Jira Cloud Issues, Jira Server, or Trello cards associated with the repo. 
+
+<img src="/wp-content/uploads/4-team-issues-switch.png" class="img-responsive center img-bordered">
+
+With Team Issues, it’s easy to switch between Jira or Trello and back to either GitHub Issues or GitLab Issues. If you select Jira or Trello, you can also filter by project so that you only see issues that matter to you.
+
+
+The Team Overview is in Preview, and feedback is welcome. A link to submit feedback can be found at the top of the view.
+
+### Workspace UI updates 
+
+GitKraken Client v8.9 also updates the UI for the Repositories and Pull Request sections in Workspaces – providing clearer information at a glance through updated color coding and iconography.
+
+<img src="/wp-content/uploads/5-GK-Release-8-9.gif" class="img-responsive center img-bordered">
+
+#### Overview > My Issues > Set Issue Tracker
+
+You may now switch the Issue Tracker provider from the My Issues section in the Overview tab. 
+
+<img src="/wp-content/uploads/6-my-issues-switch.png" class="img-responsive center img-bordered">
+
+### Left panel improvement
+ 
+In the left panel, you may now expand or collapse sections when filtering the left panel.
+
+<img src="/wp-content/uploads/7-left-panel.gif" class="img-responsive center img-bordered">
+
+We plan to continue pushing more left panel improvements in future releases. Thanks for your feedback so far!
 
 ***
 
