@@ -142,7 +142,7 @@ The Team Pull Requests section has the following columns:
 * Review status
 * PR status
   * Shows status for “Draft” or “At Risk” pull requests
-* Checks 
+* Checks - Shows CI/CD results
 * Lines added/removed
 * PR branch
   * Double click to check out directly in GitKraken Client
@@ -156,7 +156,7 @@ The Team Pull Requests section has the following columns:
 
 Team Issues will show all GitHub Issues, GitLab Issues, Jira Cloud Issues, Jira Server, or Trello cards associated with the repo. 
 
-With Team Issues, it’s easy to switch between Jira or Trello and back to either GitHub Issues or GitLab Issues. If you select Jira or Trello, you can also filter by project so that you only see issues that matter to you.
+With Team Issues it is easy to switch between Jira or Trello and back to either GitHub Issues or GitLab Issues. If you select Jira or Trello, you can also filter by project so that you only see issues that matter to you.
 
 <img src="/wp-content/uploads/8-9-team-issues-switch.png" srcset="/wp-content/uploads/8-9-team-issues-switch.png" class="img-bordered img-responsive center">
 
