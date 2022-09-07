@@ -30,8 +30,8 @@ _“Ah! After 10,000 years I’m free. Time to conquer Earth!”_
 _“Alpha, Rita’s escaped! Recruit a team of developers with attitude.”_
 
 - [Team Overview](/gitkraken-client/current/#team-overview) - Added the <kbd>Team Overview</kbd> section for Workspaces:
-  - [Team Pull Requests](/gitkraken-client/current/#team-pull-requests) - Shows all Pull Requests and all Issues for repos in Team Workspace.
-  - [Team Issues](/gitkraken-client/current/#team-issues) - Displays list of 
+  - [Team Pull Requests](/gitkraken-client/current/#team-pull-requests) - Shows all Pull Requests for repos in Team Workspace and provided quick actions.
+  - [Team Issues](/gitkraken-client/current/#team-issues) - Displays list of all Issues for repos in Team Workspace.
   - This view is in `Preview`, and feedback is welcome. A link to submit feedback can be found at the top of the view.
 
 ### Improvements 🙌
@@ -91,14 +91,11 @@ The Team Pull Requests sections has the following columns:
 - PR Author
 - Repo name with link to open the repo in GitKraken Client
 - Review status
-- PR status
-    - Shows status for “Draft” or “At Risk” Pull Requests
+- PR status - Shows status for “Draft” or “At Risk” Pull Requests
 - Checks 
 - Lines added/removed
-- PR branch
-    - Double click to check out directly in GitKraken Client
-- Shortcut to open the Pull Request Panel
-    - GitHub Repos only
+- PR branch - Double click to check out directly in GitKraken Client
+- Shortcut to open the Pull Request Panel - GitHub Repos only
 
 #### Team Issues
 
