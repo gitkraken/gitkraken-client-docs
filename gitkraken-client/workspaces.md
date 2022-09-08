@@ -117,4 +117,52 @@ Instead of hunting for these pieces of information separately, you can get a hol
     </p>
 </div>
 
+## Team Overview
+
+On a [Team workspace](/gitkraken-client/workspaces/#workspace-type), you will see a Teams Workspace section. This view shows all pull requests and issues for the repositories in your Workspace - giving you a high level view of your team's coding efforts. 
+
+<img src="/wp-content/uploads/8-9-team-overview.png" srcset="/wp-content/uploads/8-9-team-overview.png" class="img-bordered img-responsive center">
+
+You can switch the Issue Tracker provider from the My Issues section in the Overview tab. 
+
+<img src="/wp-content/uploads/8-9-team-issues-switch.png" srcset="/wp-content/uploads/8-9-team-issues-switch.png" class="img-bordered img-responsive center">
+
+### Team Pull Requests 
+
+This section of the Team Overview will show all Pull Requests related to your selected team.
+
+<img src="/wp-content/uploads/8-9-filter-by-author-assignee.png" srcset="/wp-content/uploads/8-9-filter-by-author-assignee.png" class="img-bordered img-responsive center">
+
+The Team Pull Requests section has the following columns:
+
+* Last Updated 
+* PR title with link to open the pull request in the hosting provider
+* PR Author
+* Repo name with link to open the repo in GitKraken Client
+* Review status
+* PR status
+  * Shows status for “Draft” or “At Risk” pull requests
+* Checks - Shows CI/CD results
+* Lines added/removed
+* PR branch
+  * Double click to check out directly in GitKraken Client
+* GitHub.com Workspaces Only:
+  * Shortcut to open the Pull Request Panel
+  * Filter by assignee or author
+
+<img src="/wp-content/uploads/8-9-team-pull-requests-columns.png" srcset="/wp-content/uploads/8-9-team-pull-requests-columns.png" class="img-bordered img-responsive center">
+
+### Team Issues 
+
+Team Issues will show all GitHub Issues, GitLab Issues, Jira Cloud Issues, Jira Server, or Trello cards associated with the repo. 
+
+With Team Issues it is easy to switch between Jira or Trello and back to either GitHub Issues or GitLab Issues. If you select Jira or Trello, you can also filter by project so that you only see issues that matter to you.
+
+<img src="/wp-content/uploads/8-9-team-issues-switch.png" srcset="/wp-content/uploads/8-9-team-issues-switch.png" class="img-bordered img-responsive center">
+
+<div class='callout callout--warning'>
+    <p>
+        <strong>Note:</strong> This Team Overview section is in Preview mode, and we’d love to hear your thoughts and feedback. Just click on the “Provide feedback on this view” prompt in the upper left of the Overview page to tell us what you think.
+    </p>
+</div>
 
