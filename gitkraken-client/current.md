@@ -23,7 +23,7 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ### Bug Fixes 🐛
 
-- Fixed an crash on some Windows machines when opening the preferences menu.
+- Fixed an crash on some Windows machines when opening the <kbd>Preferences</kbd> menu.
 
 ***
 
