@@ -19,7 +19,7 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 <a id="v8-9-0"></a>
 ## Version 8.9.1
 
-### Thursday, September 15th, 2022
+### Wednesday, September 14th, 2022
 
 ### Bug Fixes 🐛
 
