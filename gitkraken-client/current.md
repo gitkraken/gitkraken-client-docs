@@ -16,6 +16,30 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ***
 
+
+<a id="v8-10-0"></a>
+## Version 8.10.0
+
+_“It's electric!”_
+
+### Tuesday, October 4th, 2022
+
+### Improvements 🙌
+
+- GitKraken Client has been updated to Electron 19.
+- <kbd>New Tab</kbd> layout has been rearranged to make it easier to access Repositories, Workspaces, and the Terminal Tab.
+- You can now double click a section header in the left panel to maximize that section. This option is also available in a context menu.
+
+
+### Bug Fixes 🐛
+
+- Fixed an issue where the breadcrumb in Azure repo tabs would direct users to add the repo to a Workspace when this is not supported.
+- Fixed an issue where the SSH key options were not being displayed for Azure and self hosted integrations.
+- Fixed an issue where the Workspace Overview page would say there are no PR’s/issues during initial loading.
+
+
+***
+
 <a id="v8-9-0"></a>
 ## Version 8.9.1
 
