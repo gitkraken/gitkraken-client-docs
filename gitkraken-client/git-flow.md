@@ -76,9 +76,11 @@ Tags can be created from the Gitflow menu, or from the command line. When creati
 
 <img src="/wp-content/uploads//finish-release-tag.gif" class="img-bordered img-responsive center">
 
+<br>
+<br>
 <img src="/wp-content/uploads//tag-message.png" class="img-bordered img-responsive center">
 
-In Preferences > Gitflow, you can set a tag prefix.  This prefix will be added to the tag name when creating a tag from the Gitflow menu.  For example, if you set the tag prefix to `v`, and create a tag from a `release/1.0.0` branch, GitKraken Client will create a tag named `v1.0.0`.
+In `Preferences > Gitflow`, you can set a tag prefix.  This prefix will be added to the tag name when creating a tag from the Gitflow menu.  For example, if you set the tag prefix to `v`, and create a tag from a `release/1.0.0` branch, GitKraken Client will create a tag named `v1.0.0`.
 
 <img src="/wp-content/uploads//tag-prefix.png" class="img-bordered img-responsive center">
 
