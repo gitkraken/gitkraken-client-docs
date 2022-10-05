@@ -339,8 +339,14 @@ By default GitKraken Self-Hosted server will run on port 3000.
     environment:
         GITKRAKEN_ENTERPRISE_URL: http://localhost:80
   ```
+<span>4.</span> *Optional* Update the base URL from localhost. If you want to access the user management page from outside of this server, you will want to update the base URL. This means updating `GITKRAKEN_ENTERPRISE_URL`, for example:
 
-<span>4.</span> Configure where GitKraken client releases are stored on your host server.
+  ```yaml
+    environment:
+        GITKRAKEN_ENTERPRISE_URL: http://gitkraken.example.com:80
+  ```
+  
+<span>5.</span> Configure where GitKraken client releases are stored on your host server.
 By default the releases folder is set to _./gk-data/release_. You can change the location by opening up
 the _docker-compose.yml_ file and finding the section under `gk-enterprise-controller`:
 ```
@@ -349,12 +355,12 @@ volumes:
 ```
 and modifying _./gk-data/release_ to point to another directory on your host server.
 
-<span>5.</span> Create the folder specified in the above step on your host server.
+<span>6.</span> Create the folder specified in the above step on your host server.
 
-<span>6.</span> Extract _release.zip_ in the folder you created on your host server
+<span>7.</span> Extract _release.zip_ in the folder you created on your host server
 (releases will always be extracted in this folder).
 
-<span>7.</span> In the same folder containing the _docker-compose.yml_ file, run the following command:
+<span>8.</span> In the same folder containing the _docker-compose.yml_ file, run the following command:
 ```
 sudo docker-compose up
 ```
@@ -365,5 +371,5 @@ sudo systemctl start docker.service
 sudo /usr/local/bin/docker-compose up
 ```
 
-<span>8.</span> Navigate to http://localhost:3000 and complete the setup
-(the port in the URL should match the port from step 3, if it was changed).
+<span>9.</span> Navigate to http://localhost:3000 and complete the setup
+(the port in the URL should match the port from step 3, and the URL should match step 4, if either was changed).
