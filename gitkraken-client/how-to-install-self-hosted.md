@@ -339,7 +339,7 @@ By default GitKraken Self-Hosted server will run on port 3000.
     environment:
         GITKRAKEN_ENTERPRISE_URL: http://localhost:80
   ```
-<span>4.</span> *Optional* Update the base URL from localhost. If you want to access the user management page from outside of this server, you will want to update the base URL. This means updating `GITKRAKEN_ENTERPRISE_URL`, for example:
+<span>4.</span> *Optional* Update the base URL from localhost. If you want to access the user management page from outside of this server, you will want to update the base URL. This means updating `GITKRAKEN_ENTERPRISE_URL` wherever it exists in the `docker-compose.yml` file. An example:
 
   ```yaml
     environment:
