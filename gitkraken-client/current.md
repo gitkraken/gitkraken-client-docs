@@ -27,7 +27,6 @@ _“It's electric!”_
 ### Improvements 🙌
 
 - GitKraken Client has been updated to Electron 17.
-    - More updates are planned for a future release.
 - <kbd>New Tab</kbd> layout has been rearranged to make it easier to access Repositories, Workspaces, and the Terminal Tab.
 - You can now double click a section header in the left panel to maximize that section. This option is also available in a context menu.
 
