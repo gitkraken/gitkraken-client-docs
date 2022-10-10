@@ -118,6 +118,7 @@ Referred to as the left "ref" panel, GitKraken Client shows the properties below
 * The panel and each section can be collapsed or expanded as needed. 
 * The panel and each section can be resized by clicking and dragging. 
 * Sections can be toggled by right-clicking a section and selecting the desired section from the context menu.
+* Sections can be maximized by double-clicking a section header.
 
 <img src='/wp-content/uploads/left-panel-resize-and-collapse.gif' class='img-bordered img-responsive center'>
 
