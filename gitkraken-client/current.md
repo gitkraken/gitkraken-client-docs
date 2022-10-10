@@ -22,11 +22,12 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 _“It's electric!”_
 
-### Tuesday, October 4th, 2022
+### Monday, October 10th, 2022
 
 ### Improvements 🙌
 
-- GitKraken Client has been updated to Electron 19.
+- GitKraken Client has been updated to Electron 17.
+    - More updates are planned for a future release.
 - <kbd>New Tab</kbd> layout has been rearranged to make it easier to access Repositories, Workspaces, and the Terminal Tab.
 - You can now double click a section header in the left panel to maximize that section. This option is also available in a context menu.
 
