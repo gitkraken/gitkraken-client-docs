@@ -16,9 +16,12 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ***
 
-
 <a id="v8-10-0"></a>
 ## Version 8.10.0
+
+<div class='callout callout--warning'>
+    <p><strong>Note:</strong> this version has been causing issues for some users and has been withdrawn. Refer to the 8.9.1 note for the current version.</p>
+</div>
 
 _“It's electric!”_
 
@@ -40,7 +43,7 @@ _“It's electric!”_
 
 ***
 
-<a id="v8-9-0"></a>
+<a id="v8-9-1"></a>
 ## Version 8.9.1
 
 ### Wednesday, September 14th, 2022
