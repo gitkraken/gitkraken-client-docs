@@ -15,6 +15,17 @@ Behold the evolution of GitKraken Client! Find out what&rsquo;s new, what&rsquo;
 Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) to see what we’re working on.
 
 ***
+<a id="v8-10-1"></a>
+## Version 8.10.1
+
+### Tuesday, October 18th, 2022
+
+### Bug Fixes 🐛
+
+- Fixed an issue where some Linux distributions could no longer launch GitKraken Client.
+- Fixed an issue where Window Server could no longer launch GitKraken Client.
+
+***
 
 <a id="v8-10-0"></a>
 ## Version 8.10.0
