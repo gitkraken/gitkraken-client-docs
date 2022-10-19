@@ -41,7 +41,7 @@ Here are [Docker's requirements](https://docs.docker.com/engine/installation/lin
     * Trusty 14.04 (LTS)
 
 <div class='callout callout--neutral'>
-  <p>Note: Looking to skip the server installation? Then check out our  <a href="/standalone/standalone/">GitKraken Stand-Alone</a> solution.</p>
+  <p>Note: Looking to skip the server installation? Then check out our  <a href="/gitkraken-client/stand-alone/">GitKraken Stand-Alone</a> solution.</p>
 </div>
 
 
