@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-GitKraken offers a Single Sign On (SSO) option as an easy way to sign in to your account. This is only for use with the cloud versions of GitKraken, it is not availibe for the serverless options.
+GitKraken offers a Single Sign On (SSO) option as an easy way to sign in to your account. This is only for use with the cloud versions of GitKraken, it is not available for the serverless options.
 
 Once your organization has set up SSO with an Identity Provider (IdP), the Owner or an Admin on your GitKraken organization can link your organization to that identity provider. Then, any users associated with your IdP can login to GitKraken apps and services. 🎉
 
