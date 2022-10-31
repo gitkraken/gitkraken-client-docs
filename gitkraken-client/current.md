@@ -14,6 +14,30 @@ Behold the evolution of GitKraken Client! Find out what&rsquo;s new, what&rsquo;
 
 Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) to see what we’re working on.
 
+
+***
+
+<a id="v8-10-2"></a>
+## Version 8.10.2
+
+### Tuesday, November 1st, 2022
+
+### New ✨
+
+- Workspace Overview section will now show Pull Requests for Bitbucket repos for the current user.
+
+### Improvements 🙌
+
+- When a GitLab token expires, GitKraken Client will now show a prompt to re-login. This should address previous issues working with GitLab repos.
+- Workspaces can now be viewed across machines and profiles. Be sure to sign into the same GitKraken account to access Workspaces on a different machine. 
+- Improved Commit Graph responsiveness when bringing the app into focus.
+
+### Bug Fixes 🐛
+
+- Jira issues will no longer break if there is no vote field on an issue.
+- Removing your remote from the Left Panel no longer causes rows to overlap.
+- Links in blame commit messages will now open in an external browser.
+
 ***
 <a id="v8-10-1"></a>
 ## Version 8.10.1
