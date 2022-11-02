@@ -1,13 +1,13 @@
 ---
 
-title: Configure
-description: Instructions for configuring GitKraken Self-Hosted Enterprise Server
+title: Configure GitKraken Self-Hosted Server
+description: Instructions for configuring GitKraken Self-Hosted Server
 taxonomy:
     category: gitkraken-client
 
 ---
 
-After installing GitKraken Self-Hosted, you are ready to configure the Enterprise Server.
+After installing GitKraken Self-Hosted Server (AKA Enterprise Self-Hosted), you are ready to configure the Server.
 
 ***
 

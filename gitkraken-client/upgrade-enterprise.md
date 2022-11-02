@@ -1,7 +1,7 @@
 ---
 
-title: Upgrade Self-Hosted GitKraken
-description: Learn how to upgrade your GitKraken Enterprise Server instance
+title: Upgrade GitKraken Self-Hosted Server
+description: Learn how to upgrade your GitKraken Self-Hosted Server instance
 taxonomy:
     category: gitkraken-client
 
@@ -14,7 +14,7 @@ The upgrade procedure is the same whether you are running GitKraken Self-Hosted 
 
 <a id="upgrade-enterprise-server"></a>
 
-## Upgrade Enterprise Server
+## Upgrade Self-Hosted Server
 
 <span>1.</span> Go to the folder where the previous installation of GitKraken Self-Hosted resides
 (the folder that contains the _docker-compose.yml_).
@@ -61,7 +61,7 @@ sudo /usr/local/bin/docker-compose up
 
 <a id="upgrade-enterprise-clients"></a>
 
-## Upgrade Enterprise Clients
+## Upgrade Self-Hosted Clients
 <span>1.</span> Open your _docker-compose.yml_ file where you installed GitKraken Self-Hosted.
 
 <span>2.</span> Locate the `gk-enterprise-controller` service. Under volumes, there should be a volume:

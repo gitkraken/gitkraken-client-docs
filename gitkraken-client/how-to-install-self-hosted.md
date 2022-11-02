@@ -1,13 +1,13 @@
 ---
 
-title: Install Self-Hosted GitKraken
-description: How to install GitKraken Self-Hosted Enterprise server
+title: Install GitKraken Self-Hosted Server
+description: How to install GitKraken Self-Hosted Server
 taxonomy:
     category: gitkraken-client
 
 ---
 
-GitKraken Self-Hosted runs on a Linux virtual machine (CentOS, Ubuntu, or RHEL7) inside Docker containers, so before we can boldy go where no Kraken has gone before, we'll have to install Docker.
+GitKraken Self-Hosted Server runs on a Linux virtual machine (CentOS, Ubuntu, or RHEL7) inside Docker containers, so before we can boldy go where no Kraken has gone before, we'll have to install Docker.
 
 [Jump](#install_centos) to CentOS</br>
 [Jump](#install_ubuntu) to Ubuntu</br>
@@ -110,7 +110,7 @@ chmod +x /usr/local/bin/docker-compose
 sudo systemctl start docker
 ```
 
-<span>8.</span> Install GitKraken Self-Hosted - [jump](#install_enterprise) to Installation section.
+<span>8.</span> Install GitKraken Self-Hosted Server - [jump](#install_enterprise) to Installation section.
 
 <a id="install_ubuntu"></a>
 
@@ -165,7 +165,7 @@ curl -L https://github.com/docker/compose/releases/download/1.14.0/docker-compos
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-<span>9.</span> Install GitKraken Self-Hosted - [jump](#install_enterprise) to Installation section.
+<span>9.</span> Install GitKraken Self-Hosted Server - [jump](#install_enterprise) to Installation section.
 
 ### Without internet access
 
@@ -296,11 +296,11 @@ chmod +x /usr/local/bin/docker-compose
 sudo systemctl start docker
 ```
 
-<span>8.</span> Install GitKraken Self-Hosted - [jump](#install_enterprise) to Installation section.
+<span>8.</span> Install GitKraken Self-Hosted Server - [jump](#install_enterprise) to Installation section.
 
 <a id="install_enterprise"></a>
 
-##  Install GitKraken Self-Hosted
+##  Install GitKraken Self-Hosted Server
 
 <span>1.</span> Extract _GitKrakenEnterpriseServer.zip_ in a folder of your choosing
 (all commands in the following instructions will be performed in that folder).

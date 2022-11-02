@@ -1,7 +1,7 @@
 ---
 
-title: Self-Hosted GitKraken
-description: Learn about the Self-Hosted installation of GitKraken Client
+title: GitKraken On-Premise Self-Hosted Server
+description: Learn about the installation of GitKraken On-Premise Self-Hosted Server
 taxonomy:
     category: gitkraken-client
 
@@ -9,19 +9,19 @@ taxonomy:
 
 ## Overview
 
-GitKraken Self-Hosted is the installed version of GitKraken Client. Its main use is to allow users to login without leaving your internal network.
+GitKraken On-Premise Self-Hosted Server is the installed version of GitKraken Client that lives entirely within your network. It is also known as *GitKraken Enterprise Self-Hosted*, *GitKraken Enterprise On-Premise Serverless*, or simply *GitKraken Self-Hosted*. Its main use is to allow users to login without leaving your internal network.
 
-Benefits of Self-Hosted:
+Benefits of Self-Hosted Server:
 
 - For use without internet
-- Supports LDAP for user management
+- Supports both built-in authentication using email as well as LDAP for user management
 - Control version updates
 
 <img src='/wp-content/uploads/manage-users.png' srcset='/wp-content/uploads/manage-users@2x.png 2x' class='img-bordered img-responsive center'>
 
 ## System Requirements
 
-GitKraken Self-Hosted runs on a small spec Linux server (or virtual machine) inside Docker containers.
+GitKraken Self-Hosted Server runs on a small spec Linux server (or virtual machine) inside Docker containers.
 
   * Requires a Linux server running on CentOS, Ubuntu, or Red Hat Enterprise Linux 7 (RHEL7).
   * The server needs to be able to run Docker CE with at least:
@@ -41,7 +41,7 @@ Here are [Docker's requirements](https://docs.docker.com/engine/installation/lin
     * Trusty 14.04 (LTS)
 
 <div class='callout callout--neutral'>
-  <p>Note: Looking to skip the server installation? Then check out our  <a href="/gitkraken-client/stand-alone/">GitKraken Stand-Alone</a> solution.</p>
+  <p>Looking to skip the server installation and maintenance? Then check out our <a href="/gitkraken-client/stand-alone/">Serverless</a> solution.</p>
 </div>
 
 
