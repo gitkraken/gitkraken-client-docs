@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-GitKraken On-Premise Serverless (also known as *GitKraken Stand-Alone* or simply *GitKraken Serverless*) is built for teams and enterprises who work in a disconnected development environment. You get most of the same core <a href="https://www.gitkraken.com/git-client" target=_blank>GitKraken features</a>, along with these additional benefits:
+GitKraken Client On-Premise Serverless (also known as *GitKraken Stand-Alone* or simply *GitKraken Serverless*) is built for teams and enterprises who work in a disconnected development environment. You get most of the same core <a href="https://www.gitkraken.com/git-client" target=_blank>GitKraken features</a>, along with these additional benefits:
 
 - For use without internet
 - No account creation required
@@ -25,14 +25,14 @@ GitKraken On-Premise Serverless (also known as *GitKraken Stand-Alone* or simply
 There are 3 steps to installing GitKraken Serverless
 
 1. <a href="https://gitkraken.com/download-stand-alone" target=_blank>Download</a> GitKraken Serverless
-2. Install GitKraken Client
+2. Install GitKraken Serverless
 3. Load `.dat` license file
 
 ### 1. Download GitKraken Serverless
 
 The GitKraken Serverless Clients are available on our <a href="https://gitkraken.com/download-stand-alone" target=_blank>downloads</a> page.
 
-If you are unable to access this page, please contact your GitKraken administrator for Serverless client downloads. There is a high probability they have made the files available in a different, internal location.
+If you are unable to access this page, please contact your GitKraken administrator for GitKraken Serverless client downloads. There is a high probability they have made the files available in a different, internal location.
 
 
 ### 2. Install GitKraken Serverless
