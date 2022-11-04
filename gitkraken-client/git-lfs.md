@@ -193,7 +193,7 @@ Click the arrow on the button and select the desired command. Other than _Prune_
 
 You will need to make sure you have Git v1.8.5 and LFS v2.0.0 installed on your local machine.
 
-#### I switched repos and now I do not see the LFS BETA button. Where did it go?
+#### I switched repos and now I do not see the LFS button. Where did it go?
 
 It is most likely that you have switched to a repository that does not have LFS initialized. If you wish to initialize this repo with LFS, you can do so by navigating to the hamburger menu → LFS → Initialize LFS on this repo.
 
