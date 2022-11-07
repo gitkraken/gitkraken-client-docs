@@ -35,7 +35,7 @@ This will open your default web browser where you can click <button class='butto
 
 You'll then see a success message below and the connection will be active in GitKraken 🎉
 
-<img src="/wp-content/uploads/auth-success-gitlab.png" srcset="/wp-content/uploads/auth-success-gitlab@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/auth-success-gitlab-1.png" srcset="/wp-content/uploads/auth-success-gitlab-1@2x.png 2x" class="img-responsive center img-bordered">
 
 ***
 
