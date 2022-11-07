@@ -29,7 +29,7 @@ If you don't have `GitKraken` yet, [register](https://app.gitkraken.com/register
 
 When navigating to <kbd><strong>File > Sign into a different account</strong></kbd>, you may choose to sign in with GitHub, GitLab, Bitbucket, or Google:
 
-<img src='/wp-content/uploads/sign-in.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/sign-in-1.png' class='img-bordered img-responsive center'>
 
 Should you choose GitHub, GitLab, or Bitbucket, this will open your default browser and authenticate your account. If you are already signed into the site on your browser, GitKraken Client will sign you in using that account.
 

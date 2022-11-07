@@ -34,7 +34,7 @@ Workspaces are available as either a _Personal_ or _Team_ type.
 
 **Team Workspaces** will be available for the selected teams within your organization. This helps ensure that everyone is up-to-date on the same set of repositories by offering [multi-repository actions](/gitkraken-client/workspaces/#multi-repository-actions) and the ability to [work with all pull requests](/working-with-repositories/workspaces/#pull-requests) from these repositories. 
 
-<img src="/wp-content/uploads/workspace-type.png" srcset="/wp-content/uploads/workspace-type@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/workspace-type-1.png" srcset="/wp-content/uploads/workspace-type-1@2x.png" class="img-bordered img-responsive center">
 
 Learn more about [how to create a team](/start-here/teams/). 
 
@@ -86,7 +86,7 @@ Select `Filter pull requests` to filter for pull requests with the following opt
 
 The search allows searching by pull request titles for all services. For GitHub.com workspaces, <a href="https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests">GitHub's search syntax</a> can also be used.
 
-<img src="/wp-content/uploads/filter-and-search.png" srcset="/wp-content/uploads/filter-and-search@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/filter-and-search-1.png" srcset="/wp-content/uploads/filter-and-search-1@2x.png" class="img-bordered img-responsive center">
 
 
 At risk pull requests are pull requests that have not been updated in more than 7 days. This is indicated by the `At risk` label.

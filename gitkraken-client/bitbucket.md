@@ -42,7 +42,7 @@ This will open a web browser where you will need to log in with your Bitbucket c
 
 Upon login, a success message appears. Finish connecting by selecting `Open GitKraken`. 
 
-<img src="/wp-content/uploads//bitbucket-success.png" srcset="/wp-content/uploads//bitbucket-success@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads//bitbucket-success-1.png" srcset="/wp-content/uploads//bitbucket-success-1@2x.png 2x" class="img-responsive center img-bordered">
 
 Alternativley, you can connect the integration by copy and pasting the OAuth token manually. 
  

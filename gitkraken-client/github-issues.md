@@ -29,7 +29,7 @@ This will open your default web browser where you can click <button class='butto
 
 You'll then see a success message below and the connection will be active in GitKraken 🎉
 
-<img src="/wp-content/uploads/github-success.png" srcset="/wp-content/uploads/github-success@2x.png 2x" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/github-success-1.png" srcset="/wp-content/uploads/github-success-1@2x.png 2x" class="img-responsive center img-bordered">
 
 
 ### Preview GitHub Issues

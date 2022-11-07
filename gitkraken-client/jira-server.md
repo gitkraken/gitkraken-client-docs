@@ -31,7 +31,7 @@ Set up the integration from the ISSUES pane in the left panel or from <kbd><i>Pr
 
 Enter the Host Domain URL and a Personal Access Token generated from Jira Server.
 
-<img src="/wp-content/uploads/connect-jira-server-integration.png" srcset="/wp-content/uploads/connect-jira-server-integration@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/connect-jira-server-integration-1.png" srcset="/wp-content/uploads/connect-jira-server-integration-1@2x.png" class="img-bordered img-responsive center">
 
 With a successful network connection to your Jira Server instance, the app will connect.
 

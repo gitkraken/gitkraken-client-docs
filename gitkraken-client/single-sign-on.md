@@ -202,7 +202,7 @@ How to Create SAML Application in G Suite:
 
 7. Enter the callback URL `https://api.gitkraken.com/oauth/sso/callback` for *ACS URL* and *Entity ID*.
 
-<img src="/wp-content/uploads/sso-example-idp-6.jpg" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/sso-example-idp-6-1.jpg" class="img-bordered img-responsive center">
 
 8. Add desired attributes and click on *Finish*.
 
@@ -255,7 +255,7 @@ How to create SAML application in Azure Active Directory:
 
 10.  Input the *Entity ID* URI and *Reply URL*. Both of these should direct to `https://api.gitkraken.com/oauth/sso/callback` for GitKraken SSO. 
 
-<img src="/wp-content/uploads/sso-azure-7.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/sso-azure-7-1.png" class="img-bordered img-responsive center">
 
 Now you are all set to [setup your SSO on a GitKraken Organization](/gitkraken-client/single-sign-on/#setting-up-sso-on-a-gitKraken-organization)
 ### Otka
@@ -287,7 +287,7 @@ How to Create SAML Application in Okta:
 
 8. Configure SAML Integration. The *Single sign on URL* and *Audience URI* fields should direct to `https://api.gitkraken.com/oauth/sso/callback`.
 
-<img src="/wp-content/uploads/sso-otka-5.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/sso-otka-5-1.png" class="img-bordered img-responsive center">
 
 Step 9: Scroll down to the attribute statement and fill in the optional fields.
 
