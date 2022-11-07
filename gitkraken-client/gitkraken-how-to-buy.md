@@ -10,7 +10,7 @@ taxonomy:
 Here's how to purchase your GitKraken subscription.
 
 <div class='callout callout--success'>
-  <p>Do you work in an air-gapped network? Or looking for GitKraken Client option that does not require account creation? Then check out our  <a href="/gitkraken-client/stand-alone/">GitKraken Stand-Alone</a> solution for teams of 10+.</p>
+  <p>Do you work in an air-gapped network? Or looking for GitKraken Client option that does not require account creation? Then check out our  <a href="/gitkraken-client/stand-alone/">GitKraken On-Premise Serverless</a> solution for teams of 10+.</p>
 </div>
 
 ***
