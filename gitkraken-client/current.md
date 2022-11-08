@@ -14,7 +14,7 @@ Behold the evolution of GitKraken Client! Find out what&rsquo;s new, what&rsquo;
 
 Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) to see what we’re working on.
 
-a id="v8-10-3"></a>
+<a id="v8-10-3"></a>
 ## Version 8.10.3
 
 ### Monday, November 7th, 2022
