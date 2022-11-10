@@ -1,6 +1,6 @@
 ---
 
-title: GitKraken Client Release Notes
+title: GitKraken Client Release 
 description: View a history of the new features and fixes in GitKraken Client's Version 8.
 og_image: /img/GitKrakenClient-Hero.png
 taxonomy:
