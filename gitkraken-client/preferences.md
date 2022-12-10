@@ -161,6 +161,9 @@ The following UI preferences are available:
 - Show toolbar icon labels
 - Enable spell checking
 - Display author initials instead of avatars (Gravatar) 
+- SHow ghost branch/tag when hovering over or selecting a commit
+- Highlight associated rows when hovering over a branch
+- Show Workspace breadcrumb in toolbar
 - Show GitKraken Boards button in toolbar
 - Show GitKraken Timelines in toolbar
 - Show commit author in graph
