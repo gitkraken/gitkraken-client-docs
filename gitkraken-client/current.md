@@ -92,6 +92,7 @@ This version helps you create a hub for all your repos and makes working with mu
 
 
 ### Workspaces
+
 #### Local Workspaces
 
 GitKraken Client 9.0 brings a whole new way to organize your repos. Users may now create <kbd>Local Workspaces</kbd> to group repositories on your machine. 
@@ -176,7 +177,7 @@ In GitKraken Client, you will now see a “Ghost” branch when you hover over a
 
 Users may toggle this setting on or off from <kbd>Preferences > UI Customization</kbd>. 
 
-#### Commit highlighting
+##### Commit highlighting
 
 When you hover over a branch, the app will highlight all commits referenced by that branch.
 
