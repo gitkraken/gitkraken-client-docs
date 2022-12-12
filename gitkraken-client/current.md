@@ -53,6 +53,7 @@ This version helps you create a hub for all your repos and makes working with mu
         - Merge Rate: The percentage of merged pull requests compared to open pull requests for the selected timeframe. 
         - Open: The total number of pull requests opened for the selected timeframe.
         - Merged:The total number of pull requests merged for the selected timeframe.
+    - Note: GitKraken Insights will be gradually rolled out to all users. Look for it soon! 
 - [Ghost branches](/gitkraken-client/current/#ghost-branches) 👻
   - A “ghost” branch is now displayed when hovering over commits in the graph that shows the closest branch in the <kbd>BRANCH / TAG</kbd> column. This can be toggled on/off in <kbd>Preferences > UI Customization</kbd>.
 - [Commit highlighting](/gitkraken-client/current/#commit-highlighting) 💡
