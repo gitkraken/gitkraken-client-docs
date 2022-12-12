@@ -17,13 +17,13 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 <a id="v9-0-0"></a>
 ## Version 9.0.0
 
-_“Ready to tear into presents? Santa’s “Workspace” has been coding around-the-clock to release these gifts 🎁”_
-
-### Tuesday, December 13th, 2022
-
 <div class='embed-container embed-container--16-9'>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/gy-lwoVAFCg" frameborder="0" allowfullscreen></iframe>
 </div>
+
+### Tuesday, December 13th, 2022
+
+_“Ready to tear into presents? Santa’s “Workspace” has been coding around-the-clock to release these gifts 🎁”_
 
 We know how tedious it can be to figure out what repos have recent WIPs and which repos to open next. That's why we're so excited to present GitKraken Client 9.0, and transform your development workflow.
 
