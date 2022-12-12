@@ -11,15 +11,19 @@ GitKraken Workspaces allow you to create easily accessible groups of repositorie
 
 ***
 
-## Create a workspace
+## Access workspaces
 
-To create a Workspace, navigate to the Workspaces tab. If this is your first time creating one, select <button class="button button--success button--ui button--nolink">+ Create a Worspace</button>. Otherwise, select <button class="button button--success button--ui button--nolink">+ New Workspace</button>. You can give the Workspace a name, icon, description, and make it a local or cloud workspace.
+To access Workspaces, select the Workspace tab in the top left or use the command palette (`command/ctrl + shift + P`) and search "Open Workspaces".
+
+<img src="/wp-content/uploads/access-workspaces.png" srcset="/wp-content/uploads/access-workspaces@2x.png" class="img-bordered img-responsive center">
 
 ## Cloud workspaces
 
-Cloud workspaces will be available for the selected [teams](/start-here/teams/) within your organization. This helps ensure that everyone is up-to-date on the same set of repositories by offering [multi-repository actions] and the ability to [work with all pull requests] from these repositories. 
+Cloud workspaces will be available for you to work with on any machiene and the selected [teams](/start-here/teams/) within your organization. This helps ensure that everyone is up-to-date on the same set of repositories by offering [multi-repository actions](/gitkraken-client/workspaces/#multi-repository-actions) and the ability to [work with all pull requests](/gitkraken-client/workspaces/#pull-requests) from these repositories. 
 
-To create a Cloud Workspace you must provide a workspace name, a provider, and a repository or repositories. Optionally, you can also provide an icon, description and share with teams.
+### Create a Cloud Workspace
+
+To create a Cloud Workspace, select <button class="button button--success button--ui button--nolink">+ New Workspace</button> (or <button class="button button--success button--ui button--nolink">+ Create a Worspace</button>.). You must provide a workspace name, a provider, and a repository or repositories. Optionally, you can also provide an icon, description and share with teams.
 
 <img src="/wp-content/uploads/create-workspace.gif" class="img-bordered img-responsive center">
 
@@ -38,7 +42,7 @@ Actions can be performed on multiple repositories within the workspace at once, 
 
 The following multi-repository actions can be performed:
 - Clone: clone all selected repositories. HTTPS will be used by default unless you have SSH configured in your [Integration settings](https://help.gitkraken.com/gitkraken-client/integrations/). 
-- Fetch: fetch all selected repositories
+- Fetch: fetch all selected repositories.
 - Open in GitKraken Client or an external editor: open all selected repositories in GitKraken or in your [default editor](/start-here/preferences/#external-editor).
 - Locate in filesystem: point to all selected repositories locally or update the local location of the repositories if they have changed. 
 - Remove: remove all selected repositories from the workspace.
@@ -55,7 +59,7 @@ Select `Filter pull requests` to filter for pull requests with the following opt
 
 * "Opened by Me", to show pull requests that were opened by the user. This filter is available for GitHub, GitHub Enterprise, GitLab, and GitLab Self-Managed repositories.
 * "At Risk", to show any pull requests that are not drafts and have been open for longer than 7 days. This filter is currently only available for GitHub, GitHub Enterprise, GitLab, and GitLab Self-Managed repositories.
-* "By repository", to limit the view to a single repo within the Workspace. This filter is currently available for Azure DevOps, GitHub, GitHub Enterprise, Gitlab, and Gitlab Self-Managed repositories.
+* "By repository", to limit the view to a single repository within the Workspace. This filter is currently available for Azure DevOps, GitHub, GitHub Enterprise, Gitlab, and Gitlab Self-Managed repositories.
 
 The search allows searching by pull request titles for all services. For GitHub.com workspaces, <a href="https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests">GitHub's search syntax</a> can also be used.
 
@@ -104,7 +108,7 @@ The Team Pull Requests section has the following columns:
 * Last Updated 
 * PR title with link to open the pull request in the hosting provider
 * PR Author
-* Repo name with link to open the repo in GitKraken Client
+* Repository name with link to open the reposotiry in GitKraken Client
 * Review status
 * PR status
   * Shows status for “Draft” or “At Risk” pull requests
@@ -128,9 +132,37 @@ With Team Issues it is easy to switch between Jira or Trello and back to either 
 
 ## Local Workspaces
 
+Local Workspaces give you quick access to repositories you use the most on this machiene, display statuses, allow multi-repository actions and more!
+
+### Create a Local Workspace
+
+To create a Local Workspace, select <button class="button button--success button--ui button--nolink">+ New Workspace</button> (or <button class="button button--success button--ui button--nolink">+ Create a Worspace</button>.). Select “Local Workspace” and then name your Workspace, and browse to select repositories to add to your Local Workspace. You may select individual repositories, a directory of repositories, or a VS Code Workspace (.code-workspace). Optionally, you can also provide an icon and description. 
+
+<img src="/wp-content/uploads/create-local-workspace.png" class="img-bordered img-responsive center">
+
 ### Multi-repository actions
 
-### Create a Cloud workspace from a Local workspace
+Actions can be performed on multiple repositories within the workspace at once. To perform an action on multiple repositories, select the check box next to the repository name and then select the desired action from the options at the top.
+
+The following multi-repository actions can be performed:
+- Fetch: fetch all selected repositories.
+- Open in GitKraken Client or an external editor: open all selected repositories in GitKraken or in your [default editor](/start-here/preferences/#external-editor).
+- Remove: remove all selected repositories from the workspace.
+
+### Create a Cloud Workspace from a Local Workspace
+
+You can create a Cloud Workspace from a Local Workspace which will enable more visibility into your pull requests, issues, and share your Workspace with teams.
+
+To do this, select your local workspace to open it and then select `Create cloud workspace`. From here, you will need to select the provider for your new Cloud Workspace, select the repositories you would like added, and you can even add more repositories to this workspace from your provider.
+
+<img src="/wp-content/uploads/create-local-workspace.png" class="img-bordered img-responsive center">
+
+<div class='callout callout--warning'>
+    <p>
+        <strong>Note:</strong>
+            To create a Cloud Workspace, the integration for the desired service must be connected under <kbd>Preferences > Integrations</kbd>.
+    </p>
+</div>
 
 ## Edit a workspace
 
@@ -138,9 +170,9 @@ Edit a workspace by selecting the ellipsis <i class="fas fa-ellipsis-v"></i> ico
 
 <img src="/wp-content/uploads/edit-a-workspace.png" srcset="/wp-content/uploads/edit-a-workspace@2x.png" class="img-bordered img-responsive center">
 
-Adjust the content you want displayed for each view by selecting the settings <i class="fa-thin fa-gear"></i>.
+You can adjust the content you want displayed for each view by selecting the settings <i class="fa-thin fa-gear"></i>.
 
-
+<img src="/wp-content/uploads/configure-focus-view.png" class="img-bordered img-responsive center">
 
 ## View Repository Details
 
