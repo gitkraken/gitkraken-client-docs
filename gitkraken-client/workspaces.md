@@ -11,17 +11,17 @@ GitKraken Workspaces allow you to create easily accessible groups of repositorie
 
 ***
 
-## Access workspaces
+## Access Workspaces
 
-To access Workspaces, select the Workspace tab in the top left or use the command palette (`command/ctrl + shift + P`) and search "Open Workspaces".
+To access Workspaces, select the Workspace tab in the top left or use the Command Palette (`command/ctrl + shift + P`) and search "Open Workspaces".
 
 <img src="/wp-content/uploads/access-workspaces.png" srcset="/wp-content/uploads/access-workspaces@2x.png" class="img-bordered img-responsive center">
 
 ***
 
-## Cloud workspaces
+## Cloud Workspaces
 
-Cloud workspaces will be available for you to work with on any machiene and the selected [teams](/start-here/teams/) within your organization. This helps ensure that everyone is up-to-date on the same set of repositories by offering [multi-repository actions](/gitkraken-client/workspaces/#cloud-multi-repository-actions) and the ability to [work with all pull requests](/gitkraken-client/workspaces/#pull-requests) from these repositories. 
+Cloud Workspaces will be available for you to work with on any machiene and the selected [teams](/start-here/teams/) within your organization. This helps ensure that everyone is up-to-date on the same set of repositories by offering [multi-repository actions](/gitkraken-client/workspaces/#cloud-multi-repository-actions) and the ability to [work with all pull requests](/gitkraken-client/workspaces/#pull-requests) from these repositories. 
 
 ### Create a Cloud Workspace
 
@@ -32,13 +32,13 @@ To create a Cloud Workspace, select <button class="button button--success button
 <div class='callout callout--warning'>
     <p>
         <strong>Note:</strong>
-            To create a Cloud Workspace, the integration for the desired service must be connected under <kbd>Preferences > Integrations</kbd>.
+            The integration for the desired service must be connected under <kbd>Preferences > Integrations</kbd> to create a Cloud Workspace.
     </p>
 </div>
 
 ### Cloud multi-repository actions
 
-Actions can be performed on multiple repositories within the workspace at once, making it easy to get a new member of your team onboarded quickly or keep repository information up-to-date. To perform an action on multiple repositories, select the check box next to the repository name and then select the desired action from the options at the top.
+Actions can be performed on multiple repositories within the Workspace at once, making it easy to get a new member of your team onboarded quickly or keep repository information up-to-date. To perform an action on multiple repositories, select the check box next to the repository name and then select the desired action from the options at the top.
 
 <img src="/wp-content/uploads/cloud-multi-action.png" srcset="/wp-content/uploads/cloud-multi-action@2x.png" class="img-bordered img-responsive center">
 
@@ -47,13 +47,13 @@ The following multi-repository actions can be performed:
 - Fetch: fetch all selected repositories.
 - Open in GitKraken Client or an external editor: open all selected repositories in GitKraken or in your [default editor](/start-here/preferences/#external-editor).
 - Locate in filesystem: point to all selected repositories locally or update the local location of the repositories if they have changed. 
-- Remove: remove all selected repositories from the workspace.
+- Remove: remove all selected repositories from the Workspace.
 
 ### Pull requests
 
-The Pull Request section will show all open pull requests for all repositories within the selected workspace. Information shown here includes the pull request title, pull request number, CI status, the name of the branch being merged, and number of comments.
+The Pull Request section will show all open pull requests for all repositories within the selected Workspace. Information shown here includes the pull request title, pull request number, CI status, the name of the branch being merged, and number of comments.
 
-To view a workspaces pull requests, select a workspace and then select `Pull Requests`.
+To view a Workspaces pull requests, select a Workspace and then select `Pull Requests`.
 
 <img src="/wp-content/uploads/pull-requests-2.png" srcset="/wp-content/uploads/pull-requests-2@2x.png" class="img-bordered img-responsive center">
 
@@ -63,7 +63,7 @@ Select `Filter pull requests` to filter for pull requests with the following opt
 * "At Risk", to show any pull requests that are not drafts and have been open for longer than 7 days. This filter is currently only available for GitHub, GitHub Enterprise, GitLab, and GitLab Self-Managed repositories.
 * "By repository", to limit the view to a single repository within the Workspace. This filter is currently available for Azure DevOps, GitHub, GitHub Enterprise, Gitlab, and Gitlab Self-Managed repositories.
 
-The search allows searching by pull request titles for all services. For GitHub.com workspaces, <a href="https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests">GitHub's search syntax</a> can also be used.
+The search allows searching by pull request titles for all services. For GitHub.com Workspaces, <a href="https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests">GitHub's search syntax</a> can also be used.
 
 <img src="/wp-content/uploads/filter-and-search-2.png" srcset="/wp-content/uploads/filter-and-search-2@2x.png" class="img-bordered img-responsive center">
 
@@ -73,7 +73,7 @@ At risk pull requests are pull requests that have not been updated in more than 
 
 ### GitHub pull request view
 
-If you are working with a GitHub.com workspace, you may select a pull request to work with the <a href="/working-with-repositories/pull-requests/#github-pull-request-view">GitHub pull request view</a>.
+If you are working with a GitHub.com Workspace, you may select a pull request to work with the <a href="/working-with-repositories/pull-requests/#github-pull-request-view">GitHub pull request view</a>.
 
 <img src="/wp-content/uploads/github-pull-request.png" srcset="/wp-content/uploads/github-pull-request@2x.png" class="img-bordered img-responsive center">
 
@@ -91,7 +91,7 @@ Instead of hunting for these pieces of information separately, you can get a hol
 
 ### Team view
 
-On a Cloud workspace, you will see a Team View section. This view shows all pull requests and issues for the repositories in your Workspace - giving you a high level view of your team's coding efforts. 
+On a Cloud Workspace, you will see a Team View section. This view shows all pull requests and issues for the repositories in your Workspace - giving you a high level view of your team's coding efforts. 
 
 <img src="/wp-content/uploads/team-view.png" srcset="/wp-content/uploads/team-view.png" class="img-bordered img-responsive center">
 
@@ -146,33 +146,33 @@ To create a Local Workspace, select <button class="button button--success button
 
 ### Local multi-repository actions
 
-Actions can be performed on multiple repositories within the workspace at once. To perform an action on multiple repositories, select the check box next to the repository name and then select the desired action from the options at the top.
+Actions can be performed on multiple repositories within the Workspace at once. To perform an action on multiple repositories, select the check box next to the repository name and then select the desired action from the options at the top.
 
 The following multi-repository actions can be performed:
 - Fetch: fetch all selected repositories.
 - Open in GitKraken Client or an external editor: open all selected repositories in GitKraken or in your [default editor](/start-here/preferences/#external-editor).
-- Remove: remove all selected repositories from the workspace.
+- Remove: remove all selected repositories from the Workspace.
 
 ### Create a Cloud Workspace from a Local Workspace
 
 You can create a Cloud Workspace from a Local Workspace which will enable more visibility into your pull requests, issues, and share your Workspace with teams.
 
-To do this, select your local workspace to open it and then select `Create cloud workspace`. From here, you will need to select the provider for your new Cloud Workspace, select the repositories you would like added, and you can even add more repositories to this workspace from your provider.
+To do this, select your local Workspace to open it and then select `Create cloud workspace`. From here, you will need to select the provider for your new Cloud Workspace, select the repositories you would like added, and you can even add more repositories to this Workspace from the selected provider.
 
 <img src="/wp-content/uploads/create-local-workspace.png" class="img-bordered img-responsive center">
 
 <div class='callout callout--warning'>
     <p>
         <strong>Note:</strong>
-            To create a Cloud Workspace, the integration for the desired service must be connected under <kbd>Preferences > Integrations</kbd>.
+            The integration for the desired service must be connected under <kbd>Preferences > Integrations</kbd> to create a Cloud Workspace.
     </p>
 </div>
 
 ***
 
-## Edit a workspace
+## Edit a Workspace
 
-Edit a workspace by selecting the ellipsis <i class="fas fa-ellipsis-v"></i> icon by the Workspace name.
+Edit a Workspace by selecting the ellipsis <i class="fas fa-ellipsis-v"></i> icon by the Workspace name.
 
 <img src="/wp-content/uploads/edit-a-workspace.png" srcset="/wp-content/uploads/edit-a-workspace@2x.png" class="img-bordered img-responsive center">
 
