@@ -81,7 +81,7 @@ If you are working with a GitHub.com Workspace, you may select a pull request to
 
 The Focus View section will provide you with a summary of Pull Requests, Issues, and WIPs relevant to you for the repositories grouped in your Workspace. 
 
-<img src="/wp-content/uploads/focus-view.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/Focus-View.png" class="img-bordered img-responsive center">
 
 * My Pull Requests: shows all PRs opened by you, assigned to you, or awaiting your review
 * My Issues: shows all issues created by you, assigned to you, or that mention you.
@@ -142,7 +142,7 @@ Local Workspaces allow you to create easily accessible groups of reposities, tak
 
 To create a Local Workspace, select <button class="button button--success button--ui button--nolink">+ New Workspace</button> (or <button class="button button--success button--ui button--nolink">+ Create a Worspace</button>). Then, select “Local Workspace”, name your Workspace, and browse to select repositories to add to your Local Workspace. You may select individual repositories, a directory of repositories, or a VS Code Workspace (.code-workspace). Optionally, you can also provide an icon and description. 
 
-<img src="/wp-content/uploads/create-local-workspace.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/create-local-workspace-1.gif" class="img-bordered img-responsive center">
 
 ### Local multi-repository actions
 
@@ -159,7 +159,7 @@ You can create a Cloud Workspace from a Local Workspace which will enable more v
 
 To do this, select your local Workspace to open it and then select `Create cloud workspace`. From here, you will need to select the provider for your new Cloud Workspace, select the repositories you would like added, and you can even add more repositories to this Workspace from the selected provider.
 
-<img src="/wp-content/uploads/create-local-workspace.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/Create-cloud-workspace-2.png" class="img-bordered img-responsive center">
 
 <div class='callout callout--warning'>
     <p>
