@@ -25,6 +25,10 @@ To enable GitKraken Insights, you’ll first need to open a Cloud Workspace and 
 
 <img src="/wp-content/uploads/insights-connect.png" class="img-responsive center img-bordered">
 
+You can also connect Gitkraken Insights to your remote hosting service from <kbd>Preferences > Integrations</kbd>
+
+<img src="/wp-content/uploads/insights-connect-integration.png" class="img-responsive center img-bordered">
+
 ### Metrics
 
 <img src="/wp-content/uploads/insights-metrics.png" class="img-responsive center img-bordered">
