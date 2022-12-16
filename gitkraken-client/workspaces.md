@@ -136,7 +136,7 @@ With Team Issues it is easy to switch between Jira or Trello and back to either 
 
 ## Local Workspaces
 
-Local Workspaces allow you to create easily accessible groups of reposities, take actions across multiple repositories, view details about their state at a glance, and share them with your team.
+Local Workspaces allow you to create easily accessible groups of repositories, take actions across multiple repositories, view details about their state at a glance, and share them with your team.
 
 ### Create a Local Workspace
 
