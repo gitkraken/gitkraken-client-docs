@@ -14,6 +14,33 @@ Behold the evolution of GitKraken Client! Find out what&rsquo;s new, what&rsquo;
 
 Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) to see what we’re working on.
 
+<a id="v9-0-1"></a>
+## Version 9.0.1
+
+_“The only thing more constant than software bugs, is the need to fix them.”_ 
+
+### Wednesday, January 4th, 2023
+
+### Improvements 🙌
+
+- The `Open repo` command in the Command Palette will now show repos from deep linking and Local Workspaces. 
+
+### Bug Fixes 🐛
+- Fixed a bug on MacOS where having the UI theme set to `Sync with system` caused high CPU usage.
+- Workspaces:
+  - Issues will now load in Workspace when using GitHub Issues or GitLab Issues. 
+  - GitKraken Insights metrics section will still show even if there are no open PRs. 
+  - Fixed blank Workspace tab that would show after upgrading to 9.0. 
+- Fixed issue saving token when a user manually enters the token to login with GitHub.
+- Submodules:
+  - Fixed error when discarding all changes after adding a submodule.
+  - Fixed submodule not initializing after renaming a submodule. 
+  - Fixed submodule not initializing when discarding all changes with submodule changes. 
+- Fixed performance hit when undoing `Discard all changes` with LFS files.
+- Fixed lag when resizing the commit message. 
+
+
+***
 <a id="v9-0-0"></a>
 ## Version 9.0.0
 
