@@ -33,7 +33,7 @@ Below are platform-specific instructions and details on minimum requirements.
 ### Install Instructions
 Double-click the downloaded executable file. You will see a splash screen while GitKraken Client is insalled, and then the application will automatically start.
 
-### Data Location
+### Windows Data Location
 GitKraken Client data is stored with your home profile in `C:\\Users\\{user}\\AppData\\Roaming` in the `.gitkraken` folder.
 
 ***
@@ -46,7 +46,7 @@ Double click the downloaded DMG file and when prompted, drag and drop the GitKra
 
 <img src="/wp-content/uploads/mac-install.png" class="img-responsive center img-bordered">
 
-### Data Location
+### Mac OS Data Location
 GitKraken Client data is stored in `/Users/{user}/.gitkraken` == `~/.gitkraken`.
 
 ***
@@ -84,7 +84,7 @@ Or [download the file](https://gitkraken.com/download/linux-rpm).
 
 Snap is an easy-to-install package for Linux distributions (supported versions above). Get it from the snap store or [Snapcraft.io](https://snapcraft.io/gitkraken).
 
-### Data Location
+### Linux Data Location
 GitKraken Client data is stored in `/home/{user}/.gitkraken` == `~/.gitkraken`.
 
 ## Run GitKraken Client
