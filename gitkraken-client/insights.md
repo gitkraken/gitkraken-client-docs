@@ -43,8 +43,6 @@ Once you've connected to your remote hosting service, you'll be able to see the 
 * **Open**: The total number of pull requests opened for the selected timeframe.
 * **Merged**: The total number of pull requests merged for the selected timeframe.
 
-You can see the metrics for the last 7 or 14 days (only available for Cycle Time and Average Throughput).
-
 The <i class="fa-solid fa-circle-info"></i> icon will provide information about the metric.
 
-<img src="/wp-content/uploads/insights-metrics-info.gif" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/gkc-insights-info.png" class="img-responsive center img-bordered">
