@@ -76,3 +76,14 @@ Some Windows users are seeing the taskbar icon show incorrectly for GitKraken. T
 
 ### Solution:
 You can delete the old folder ``C:\\Users\\USER\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Axosoft, LLC``, start GitKraken from the start menu, and then pin it to the taskbar again to resolve this.
+
+## Why can't I see my GitHub remotes or repositories in the drop down menu? Why am I getting an error about GitHub organization permissions?
+
+In order to work with with a repository owned by a GitHub organization with the GitHub integrtion connected, you need an organization to first allow access.
+
+<img src="/wp-content/uploads/error.png" class="img-bordered img-responsive center">
+
+* First check to see if access is allowed to GitKraken from your profile's [GitHub Applications](https://github.com/settings/connections/applications/a7557949433b7d282a76)
+* If access has been allowed, then the organization will need to allow [Organization Approval](https://help.github.com/articles/requesting-organization-approval-for-your-authorized-applications/)
+* If you are attempting to use GitKraken with a repository owned by a different individual, consider forking their repository to use GitKraken for your changes. Otherwise this other individual will need to first [install GitKraken](/gitkraken-client/how-to-install/) and connect it to GitHub to authorize GitKraken.
+* For details about third-party application restrictions view [Third-party apps list](https://help.github.com/articles/about-third-party-application-restrictions/)
