@@ -160,5 +160,17 @@ You can use and [external diff and merge tools](/working-with-repositories/branc
 
 ***
 
+### How to get SILLY (extended) logs
+
+To obtain extended SILLY (extended) logs:
+
+* Close GitKraken
+* (optional) Rename or move the \logs folder under ~\.gitkraken\logs. The data location for this folder on your OS can be found [here](/gitkraken-client/how-to-install/)
+* Start GitKraken from the CLI using the command `gitkraken -d SILLY`
+* Reproduce the issue or error
+* All logs will be under the \logs folder
+
+***
+
 <br>
-Can't find your question here? <a href='https://www.gitkraken.com/contact'>Contact us</a> and ask away.
+Can't find your question here? <a href='https://help.gitkraken.com/gitkraken-client/contact-support/'>Contact us</a> and ask away.
