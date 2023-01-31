@@ -74,4 +74,4 @@ For other errors, you may need to restart WSL. You can run the following command
 ```
 wsl --shutdown
 ```
-Then make sure to reopen your Linux distribution or GitKraken Client as administrator.
+Then, reopen your Linux distribution or GitKraken Client as administrator.
