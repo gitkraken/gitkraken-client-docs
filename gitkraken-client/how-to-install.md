@@ -58,6 +58,8 @@ GitKraken Client data is stored in `/Users/{user}/.gitkraken` == `~/.gitkraken`.
     <p>Note 📝 - GitKraken Client currently supports Ubuntu 18.04 LTS+, RHEL 7+, CentOS 7+, and Fedora 34+. While GitKraken Client may be able to be installed on other Linux distributions, we cannot guarantee that it will work as expected.</p>
 </div>
 
+If you're attempting to use GitKraken client within Windows Subsystem for Linux (WSL), visit our page on <a href="">How to use GitKraken Client WSL</a> for additional details.
+
 ### .deb
 GitKraken Client has a simple package available for Debian based distributions.
 ```
