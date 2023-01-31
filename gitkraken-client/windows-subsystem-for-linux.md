@@ -7,6 +7,8 @@ taxonomy:
 
 ---
 
+<img src="/wp-content/uploads/wsl-full-screen.png" srcset="/wp-content/uploads/wsl-full-screen@2x.png" class="img-bordered img-responsive center">
+
 Using <a href="https://learn.microsoft.com/en-us/windows/wsl/about" target="_blank">Windows Subsystem for Linux (WSL)</a>? GitKraken Client can work with repos stored on your WSL 2 file system when installed within the WSL 2 environment and using WSL’s built-in display server functionality, <a href="https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps" target="_blank">WSLg</a>, for GUI support.
 
 GitKraken Client will also detect where a repo is stored and allow you to open it in the proper version of GitKraken Client so you can better manage GitKraken when working with both Windows and WSL repos.
