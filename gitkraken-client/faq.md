@@ -153,10 +153,12 @@ Try running [git gc](https://git-scm.com/docs/git-gc) from the terminal on this 
 
 ***
 
-### My files are not showing up as expected or are marked as binary.
-GitKraken Client only supports `UTF-8` file encoding. Files may display in an unexpected way or be marked a binary if files are not encoded in UTF-8. 
+### My files are not showing up as expected or have strange characters.
+GitKraken Client expects most files to use `UTF-8` file encoding. If you are using another encoding type, you can set your type at the top when editing your file, or per-repository from the preferences menu.
 
-You can use and [external diff and merge tools](/working-with-repositories/branching-and-merging/#external-merge-tools) to work on files using other encoding types.
+You can also set your file encoding to `GUESS ENCODING` and GitKraken Client will try to match the file encoding so that it is displayed correctly. Take care to select the correct file encoding when editing the file, as selecting the incorrect encoding could lead to unexpected errors.
+
+
 
 ***
 

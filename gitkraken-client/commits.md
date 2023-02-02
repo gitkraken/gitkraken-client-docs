@@ -47,6 +47,10 @@ The commit panel will then show the co-author in the history for that commit:
 
 <img src='/wp-content/uploads/co-author-history.png' srcset='/wp-content/uploads/co-author-history@2x.png 2x' class='img-bordered img-responsive center'>
 
+### Skipping githooks
+
+You can select the option to skip hooks.
+
 ***
 
 <a id="commit-templates"></a>

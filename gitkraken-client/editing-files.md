@@ -55,3 +55,15 @@ To exit the file without saving your changes, hover over the blue dot, click the
 Clicking the <button class='button button--success button--ui button--nolink'>Stage File</span></button> button with pending changes will give you the options to `Save and stage` or `Stage saved changes only`. 
 
 <img src='/wp-content/uploads/save-stage.png' srcset='/wp-content/uploads/save-stage@2x.png 2x' class='img-bordered img-responsive center'>
+
+### Encoding
+
+All files have Encoding that defines how the binary should be read. 
+
+GitKraken Client expects most files to use `UTF-8` file encoding. If you are using another encoding type, you can set your type at the top when editing your file, or from the preferences menu.
+
+You can also set your file encoding to `GUESS ENCODING` and GitKraken Client will try to match the file encoding so that it is displayed correctly. Take care to select the correct file encoding when editing the file, as selecting the incorrect encoding could lead to unexpected errors.
+
+<div class='callout callout--warning'>
+    <p>Note 📝 - GitKraken Client is NOT intended to be used to change a file(s) encoding and it not change the encoding when saving. We recommend using another editor, such as VSCode, to make file encoding changes.</p>
+</div>
