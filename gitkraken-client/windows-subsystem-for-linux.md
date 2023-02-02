@@ -7,15 +7,20 @@ taxonomy:
 
 ---
 
+## Working with WSL 2
+
+<a href="https://learn.microsoft.com/en-us/windows/wsl/about" target="_blank">Windows Subsystem for Linux (WSL)</a>
+
+## How to User GitKraken Client with WSL 2
 <img src="/wp-content/uploads/wsl-full-screen.png" srcset="/wp-content/uploads/wsl-full-screen@2x.png" class="img-bordered img-responsive center">
 
-Using <a href="https://learn.microsoft.com/en-us/windows/wsl/about" target="_blank">Windows Subsystem for Linux (WSL)</a>? GitKraken Client can work with repos stored on your WSL 2 file system when installed within the WSL 2 environment and using WSL’s built-in display server functionality, <a href="https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps" target="_blank">WSLg</a>, for GUI support.
+GitKraken Client can work with repos stored on your WSL 2 file system when installed within the WSL 2 environment and using WSL’s built-in display server functionality, <a href="https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps" target="_blank">WSLg</a>, for GUI support. The Linux version of GitKraken client is upated to fix common issues when operating GitKraken within WSL 2, and includes settings to choose your preference for where to open web links, file editors, and file browsers.
 
 <div class='callout callout--warning'>
-    <p>Note: GitKraken Client does not currently support cross file system access for repos stored on both Windows and WSL 2 and should be installed on the operating system where your repos are stored for the best experience. You may still open cross file system repos at your own discretion. For more information, see the section on <a href=""> </a></p>
+    <p>Note: GitKraken Client does not currently support cross file system access for repos stored on both Windows and WSL 2 and should be installed on the operating system where your repos are stored for the best experience. Opening repos across file systems </p>
 </div>
 
-GitKraken Client will also detect where a repo is stored and allow you to open it in the proper version of GitKraken Client so you can better manage GitKraken when working with both Windows and WSL repos.
+GitKraken Client will also detect where a repo is stored and allow you to open it in the proper version of GitKraken Client so you can better manage GitKraken when working with both Windows and WSL repos. For more information, see the section on <a href=""> </a>.
 
 There are 4 steps to start using GitKraken Client with your WSL repos:
 1. Confirm the latest version of WSL 2 is installed that supports WSLg
@@ -72,6 +77,11 @@ Note: If you choose to install GitKraken Client from the .tar.gz file, gitkraken
 
 ## Preferences for GitKraken on WSL 2
 
+When running GitKraken Client within WSL 2, additional preferences are available to tell GitKraken where you'd like to open URLs and files opened by GitKraken. You'll see these settings in ```Preferences``` > ```General``` when running within WSL 2.
+
+<img src="/wp-content/uploads/wsl-host-settings.png" srcset="/wp-content/uploads/wsl-host-settings@2x.png" class="img-bordered img-responsive center">
+
+By default, URLs will open in your Windows default browser and other files opened by GitKraken will attempt to open on the host distribution.
 
 ## Known Issues
 
@@ -103,3 +113,7 @@ You will be asked to choose an option to proceed:
 - ```Open Anyway``` will open the repository. Features may behave in unintended ways, simply not function, and performance may be severely degraded when opening from a different operating system.
 
 - Closing the message will cancel opening the repository
+
+<div class='callout callout--warning'>
+    <p>Note: If you open a repository in WSL through a mapped network drive from Windows, GitKraken Client will not detect that the repository is being accessed across file systems and attempt to open normally. </p>
+</div>
