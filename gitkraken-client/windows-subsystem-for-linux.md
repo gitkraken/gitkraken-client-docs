@@ -12,7 +12,7 @@ taxonomy:
 Using <a href="https://learn.microsoft.com/en-us/windows/wsl/about" target="_blank">Windows Subsystem for Linux (WSL)</a>? GitKraken Client can work with repos stored on your WSL 2 file system when installed within the WSL 2 environment and using WSL’s built-in display server functionality, <a href="https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps" target="_blank">WSLg</a>, for GUI support.
 
 <div class='callout callout--warning'>
-    <p>Note: GitKraken Client does not currently support cross file system access for repos stored on both Windows and WSL 2 and should be installed on the operating system where your repos are stored for the best experience. You may still open cross file system repos at your own discretion. For more information, see the section on </p>
+    <p>Note: GitKraken Client does not currently support cross file system access for repos stored on both Windows and WSL 2 and should be installed on the operating system where your repos are stored for the best experience. You may still open cross file system repos at your own discretion. For more information, see the section on <a href=""> </a></p>
 </div>
 
 GitKraken Client will also detect where a repo is stored and allow you to open it in the proper version of GitKraken Client so you can better manage GitKraken when working with both Windows and WSL repos.
@@ -69,6 +69,10 @@ gitkraken
 ```
 Note: If you choose to install GitKraken Client from the .tar.gz file, gitkraken must be installed on ```PATH``` for this command to work
 ***
+
+## Preferences for GitKraken on WSL 2
+
+
 ## Known Issues
 
 - <a href="" target="_blank">HiDPI Displays cause WSLg to inconsistently scale the UI</a>
@@ -83,5 +87,19 @@ For other errors, you may need to restart WSL. You can run the following command
 wsl --shutdown
 ```
 Then, reopen your Linux distribution or GitKraken Client as administrator.
+***
 
 ## Working Across File Systems
+
+Microsoft recommends against working across operating systems when using WSL 2, and GitKraken does not currently support cross file system access of repos. To better manage multiple installations of GitKraken, GitKraken will notify you when opening a repo across operating systems and allow you to directly open the repo in the recommended installation of GitKraken. When attempting to open a new repo that is on WSL 2 from GitKraken installed on Windows, or Windows from GitKraken installed on WSL 2, the following message will appear:
+
+<img src="/wp-content/uploads/wsl-toast.png" srcset="/wp-content/uploads/wsl-toast@2x.png" class="img-bordered img-responsive center">
+
+You will be asked to choose an option to proceed:
+- ```Open Help Center``` will take you to this page in your browser for information on how to set up GitKraken within WSL 2.
+
+- ```Open with GitKraken on Ubuntu/Windows``` will open the repository you're attempting to open in the recommended version of GitKraken if installed in the operating system where the repository is stored. This will work for both Windows and WSL 2 repositories that are being access from a different operating system.
+
+- ```Open Anyway``` will open the repository. Features may behave in unintended ways, simply not function, and performance may be severely degraded when opening from a different operating system.
+
+- Closing the message will cancel opening the repository
