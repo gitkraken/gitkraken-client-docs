@@ -114,7 +114,7 @@ Microsoft recommends against working across operating systems when using WSL 2, 
 You will be asked to choose an option to proceed:
 - `Open Help Center` will take you to this page in your browser for information on how to set up GitKraken within WSL 2.
 
-- `Open with GitKraken on Ubuntu/Windows` will open the repository you're attempting to open in the recommended version of GitKraken if installed in the operating system where the repository is stored. This will work for both Windows and WSL 2 repositories that are being access from a different operating system.
+- `Open with GitKraken on Ubuntu/Windows` will open the repository you're attempting to open in the recommended version of GitKraken if installed in the operating system where the repository is stored. This will work for both Windows and WSL 2 repositories that are being accessed from a different operating system.
 
 - `Open Anyway` will open the repository. Features may behave in unintended ways, simply not function, and performance may be severely degraded when opening from a different operating system.
 
