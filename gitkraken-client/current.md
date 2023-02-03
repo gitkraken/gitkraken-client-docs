@@ -14,6 +14,54 @@ Behold the evolution of GitKraken Client! Find out what&rsquo;s new, what&rsquo;
 
 Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) to see what we’re working on.
 
+<a id="v9-1-0"></a>
+## Version 9.1.0
+
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZJCxngwraV4" frameborder="0" allowfullscreen></iframe>
+</div>
+
+_“You spoke. We listened.”_
+
+_Read the [full release notes](https://help.gitkraken.com/gitkraken-client/current/#version-9-1) and see how it all works!_
+
+### Tuesday, February 7th, 2023
+
+### New ✨
+
+- Improved WSL 2 support for the Linux version of GitKraken Client.
+ - Users may now install GitKraken Client in a WSL 2 distribution with WSLg and work with their Linux repos.
+  - For the best experience, we recommend users also install GitKraken Client on their Windows machine to work with repos hosted outside their WSLg distribution. 
+  - For installation or upgrade instructions, check out the [WSL 2 Help Center documentation](https://help.gitkraken.com/gitkraken-client/windows-subsystem-for-linux/).
+- New encoding support 🎉
+  - Configure from <kbd>Preferences > Encoding</kbd> or from the top right of any <kbd>File Diff</kbd> view.
+- Users may now bypass Git Hooks when committing after entering a commit message. 
+- `GitKraken Insights` is now available for <kbd>Cloud Workspaces</kbd> connected to Azure DevOps.
+
+
+### Improvements 🙌
+- Amend (rename) stashes:
+  - Right-click a stash in the graph and then click <kbd>Edit stash message</kbd>. 
+  - Right-click on a stash in the Left Panel to access <kbd>Edit stash message</kbd>.
+  - Click the stash message in the Commit Panel to edit the stash message. 
+- Workspace improvements:
+  - Workspace columns can now be sorted on Repositories, Issues, Pull Requests and WIP tables. 
+  - All `GitKraken Insights` metrics now have a dropdown for changing the time period between 7 days or 14 days.
+- From the <kbd>Interactive Rebase</kbd> editor, the first commit can now be set `Drop`. 
+
+
+### Bug Fixes 🐛
+- Fix submodules update being triggered twice during a Pull (rebase), Rebase, cherry-pick, revert commit, reset, checkout, or undo/redo.
+- <kbd>Local Workspaces</kbd> may now be edited again while working offline.
+- Users will now get a more helpful message when an integration fails to connect due to a problem with SSL certificate verification.
+- When amending commit messages, the draggable resize handle will now correctly resize the text box.
+- When amending commit/stash messages, the summary-line text input will now be focused automatically.
+- Fixed an issue where Jira Server issues would not show up for a Workspace.
+- Fixed a timing issue where Shared Workspaces would not show up for Organization owners if the user was not a team member of that Workspace.
+- Fixed an issue where manually inputting the token to login with GitHub would not save the token for the Github Provider.
+- Fixed a timing issue that caused branches not to show when relaunching the app from a Workspace.
+
+***
 <a id="v9-0-1"></a>
 ## Version 9.0.1
 
