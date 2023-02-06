@@ -58,14 +58,14 @@ Clicking the <button class='button button--success button--ui button--nolink'>St
 
 ## Encoding
 
-All files have Encoding that defines how the binary should be read. 
+All files have encoding that defines how the binary should be read. 
 
-GitKraken Client expects most files to use `UTF-8` file encoding. If you are using another encoding type, you can set your type at the top when editing your file, or from the preferences menu.
+GitKraken Client expects most files to use `UTF-8` file encoding. If you are using another encoding type, you can set it at the top when editing your file or from the preferences menu.
 
 You can also set your file encoding to `GUESS ENCODING` and GitKraken Client will try to match the file encoding so that it is displayed correctly. Take care to select the correct file encoding when editing the file, as selecting the incorrect encoding could lead to unexpected errors.
 
 <div class='callout callout--warning'>
-    <p>Note 📝 - GitKraken Client is NOT intended to be used to change a file(s) encoding and it not change the encoding when saving. We recommend using another editor, such as VSCode, to make file encoding changes.</p>
+    <p>Note 📝 - GitKraken Client is NOT intended to be used to change a file(s) encoding and it will not change the encoding when saving. We recommend using another editor, such as VSCode, to make file encoding changes.</p>
 </div>
 
 <img src='/wp-content/uploads/preferences-encoding-select.png' class='img-bordered img-responsive center'>
