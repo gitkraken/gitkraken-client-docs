@@ -23,28 +23,26 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 _“You spoke. We listened.”_
 
-_Read the [full release notes](https://help.gitkraken.com/gitkraken-client/current/#version-9-1) and see how it all works!_
-
 ### Tuesday, February 7th, 2023
 
 ### New ✨
 
-- Improved WSL 2 support for the Linux version of GitKraken Client.
+- [Improved WSL 2 support](/gitkraken-client/current/#improved-wsl-2-support) for the Linux version of GitKraken Client.
  - Users may now install GitKraken Client in a WSL 2 distribution with WSLg and work with their Linux repos.
   - For the best experience, we recommend users also install GitKraken Client on their Windows machine to work with repos hosted outside their WSLg distribution. 
   - For installation or upgrade instructions, check out the [WSL 2 Help Center documentation](https://help.gitkraken.com/gitkraken-client/windows-subsystem-for-linux/).
-- New encoding support 🎉
+- [New encoding support](/gitkraken-client/current/#encoding-support) 🎉
   - Configure from <kbd>Preferences > Encoding</kbd> or from the top right of any <kbd>File Diff</kbd> view.
-- Users may now bypass Git Hooks when committing after entering a commit message. 
+- Users may now [bypass Git Hooks](/gitkraken-client/current/#bypass-git-hooks) when committing after entering a commit message. 
 - `GitKraken Insights` is now available for <kbd>Cloud Workspaces</kbd> connected to Azure DevOps.
 
 
 ### Improvements 🙌
-- Amend (rename) stashes:
+- [Amend (rename) stashes](/gitkraken-client/current/#amend-stash-messages):
   - Right-click a stash in the graph and then click <kbd>Edit stash message</kbd>. 
   - Right-click on a stash in the Left Panel to access <kbd>Edit stash message</kbd>.
   - Click the stash message in the Commit Panel to edit the stash message. 
-- Workspace improvements:
+- [Workspace improvements](/gitkraken-client/current/#workspace-improvements):
   - Workspace columns can now be sorted on Repositories, Issues, Pull Requests and WIP tables. 
   - All `GitKraken Insights` metrics now have a dropdown for changing the time period between 7 days or 14 days.
 - From the <kbd>Interactive Rebase</kbd> editor, the first commit can now be set `Drop`. 
