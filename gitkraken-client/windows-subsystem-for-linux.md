@@ -11,8 +11,7 @@ taxonomy:
 
 <a href="https://learn.microsoft.com/en-us/windows/wsl/about" target="_blank">Windows Subsystem for Linux (WSL)</a> lets developers install a Linux distribution and use Linux applications, utilities, and Bash command-line tools directly on Windows. <a href="https://learn.microsoft.com/en-us/windows/wsl/compare-versions" target="_blank">WSL 2</a> utilizes an actual Linux kernel inside a managed virtual machine (VM) to provide improved performance and full system call capability, and is now the default WSL version. Microsoft notes that WSL 2 lacks performance across OS file systems however, and this issue can be addressed by storing your project files on the same operating system as the tools you are running to work on the project.
 
-Microsoft also introduced <a href="https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps"
-target="_blank">Windows Subsystem for Linux GUI (WSLg)</a>, a feature aimed to provide the ability to run Linux GUI applications which work best, or exclusively, in a Linux/WSL 2 environment. Using WSLg also better enables Linux GUI applications like the Linux version of GitKraken Client to feel native and natural to use on Windows by integrating them closely into the Windows desktop experience when running within WSL 2.
+Microsoft also introduced <a href="https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps" target="_blank">Windows Subsystem for Linux GUI (WSLg)</a>, a feature aimed to provide the ability to run Linux GUI applications which work best, or exclusively, in a Linux/WSL 2 environment. Using WSLg also better enables Linux GUI applications like the Linux version of GitKraken Client to feel native and natural to use on Windows by integrating them closely into the Windows desktop experience when running within WSL 2.
 
 ## How to use GitKraken Client with WSL 2
 
@@ -40,8 +39,9 @@ Below are instructions and minimum requirements to run GitKraken Client within W
 
 - Windows 11 or Windows 10 build 19044 or later
 - WSL 2 distribution
-- Most recent Linux version of GitKraken Client 
+- GitKraken Client version 9.1.0+ for Linux
 ***
+
 ## Install or Update WSL 2 with WSLg Support
 
 GitKraken Client will only work with WSL 2 on Windows 11 or Windows 10 build 19044 or later, which includes WSLg for GUI support.
