@@ -51,6 +51,10 @@ The commit panel will then show the co-author in the history for that commit:
 
 There may be times when you want to skip your Git hooks when making a commit. This can be done on a commit-by-commit basis by selecting the `Commit and skip hooks` option. 
 
+<div class='callout callout--warning'>
+    <p>Note 📝 - Using this option will bypass all hooks that trigger with git commit action.</p>
+</div>
+
 <img src='/wp-content/uploads/bypass-git-hooks.png' class='img-responsive center img-bordered' />
 
 ***
