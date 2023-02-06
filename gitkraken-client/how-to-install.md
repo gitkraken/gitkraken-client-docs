@@ -92,7 +92,7 @@ Snap is an easy-to-install package for Linux distributions (supported versions a
 GitKraken Client data is stored in `/home/{user}/.gitkraken` == `~/.gitkraken`.
 
 ### WSL
-If you're attempting to use GitKraken client within Windows Subsystem for Linux (WSL), visit our page on <a href="">How to use GitKraken Client with WSL</a> for additional details.
+If you're attempting to use GitKraken client within Windows Subsystem for Linux (WSL), visit our page on <a href="https://help.gitkraken.com/gitkraken-client/windows-subsystem-for-linux/">How to use GitKraken Client with WSL</a> for additional details.
 
 ## Run GitKraken Client
 
