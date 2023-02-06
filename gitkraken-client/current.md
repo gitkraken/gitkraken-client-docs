@@ -61,6 +61,66 @@ _Read the [full release notes](https://help.gitkraken.com/gitkraken-client/curre
 - Fixed an issue where manually inputting the token to login with GitHub would not save the token for the Github Provider.
 - Fixed a timing issue that caused branches not to show when relaunching the app from a Workspace.
 
+### Improved WSL 2 Support
+
+We’ve heard that WSL is an essential part of many of our users’ development setup, and as WSL's popularity continues to grow, we’re excited to start offering some improvements for users working in this environment. To give users an opportunity to have a more native-like experience as quickly as possible, we’ve improved the Linux version of GitKraken Client to fix common issues when operating within a WSL 2 environment.
+
+With 9.1, users may now install GitKraken Client in a WSL 2 distribution with WSLg and better work with their Linux repos. For the best experience, we recommend users install GitKraken Client both on their Windows machine as well as their WSLg Linux distro. This allows users to quickly swap between GitKraken Client on each of their operating systems. 
+
+<img src="/wp-content/uploads/WSL2.png" class="img-responsive center img-bordered">
+
+For more information about WSL 2 / WSLg, and the additional features we’ve introduced to better manage GitKraken Client in this environment, check out the [Help Center documentation](https://help.gitkraken.com/gitkraken-client/windows-subsystem-for-linux/).
+
+### Workspace Improvements
+
+Workspace columns can be sorted on Repositories, Issues, Pull Requests and WIP tables. This should help you better organize your Focus View or Team View. 
+
+<img src="/wp-content/uploads/sort-columns.gif" class="img-responsive center img-bordered">
+
+GitKraken Insights is now available for Cloud Workspaces connected to Azure DevOps, which should help Azure DevOps users measure how fast pull requests get merged.
+
+<img src="/wp-content/uploads/Insights-Azure.png" class="img-responsive center img-bordered">
+
+And all GitKraken Insights metrics now have a dropdown for changing the time period between a 7 day or 14 day time period for licensed users.
+
+<img src="/wp-content/uploads/insights-toggle.png" class="img-responsive center img-bordered">
+
+### Quality of Life Boosts
+
+#### Amend Stash Messages
+
+Users may now amend stash messages which should make renaming stashes a breeze. Just right-click a stash in the graph and then click “Edit stash message.” 
+
+<img src="/wp-content/uploads/Amend-Stash-graph.png" class="img-responsive center img-bordered">
+
+You may also right click on a stash in the Left Panel to access the same option.
+
+#### Bypass Git Hooks
+
+Another request from users — you may now bypass Git Hooks when committing. To bypass, first stage changes in a repo with Git Hooks enabled and then start typing your commit message. 
+
+<img src="/wp-content/uploads/Bypass.png" class="img-responsive center img-bordered">
+
+You may then click this split button option to commit and bypass the Git Hook.
+
+#### Encoding Support
+
+GitKraken Client 9.1 comes with new encoding support for ISO-8859-1, Windows-1252, and many more. To update the encoding for the app’s File Diff view, navigate to Preferences > Encoding and set your encoding selection for the repository.
+
+<img src="/wp-content/uploads/Encoding-Preferences.png" class="img-responsive center img-bordered">
+
+Alternatively, from any file diff in GitKraken Client, click this dropdown menu in the top right to change your encoding preference.
+
+<img src="/wp-content/uploads/File-encoding-DIFF.png" class="img-responsive center img-bordered">
+
+Of the two options, we recommend users to change the default encoding in their Preferences. That way you’ll be able to read all diffs with the correct characters.
+
+#### Interactive Rebase “Drop”
+
+And finally, when setting up an Interactive Rebase, you may now set the first commit to `Drop`. 
+
+<img src="/wp-content/uploads/interactive-rebase-drop.png" class="img-responsive center img-bordered">
+
 ***
 <a id="v9-0-1"></a>
 ## Version 9.0.1
