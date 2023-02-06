@@ -24,7 +24,7 @@ Hooks are stored in the `hooks` subdirectory of the `.git` directory. This folde
 
 Hooks are unique to your local repository and will not be copied over if you create a new repository. Feel free to add, change, or remove scripts from this folder as necessary.
 
-<img src='/wp-content/uploads//hook_location.png' srcset='/wp-content/uploads/hook_location@2x.png 2x' class='img-responsive center img-bordered' />
+<img src='/wp-content/uploads/hook_location.png' srcset='/wp-content/uploads/hook_location@2x.png 2x' class='img-responsive center img-bordered' />
 
 If running OSX or Linux, GitKraken Client will seamlessly detect any Git hooks in your repository if your scripts are set to be executable. If you forgot to set your files to executables, GitKraken Client will throw an error as a heads up.
 
@@ -149,7 +149,7 @@ Here are the hooks supported by GitKraken Client. Where appropriate, beneath eac
 
 
 ***
-## Git Hooks Example
+## Git hooks example
 
 Git hooks are scripts that perform automated actions when a specific action is performed in GitKraken Client or the command line. The git hook name usually indicates the hook’s trigger (e.g. pre-commit).
 
@@ -215,7 +215,7 @@ If the condition is met we move on to the next condition. If the global user.sig
 ```
 If the condition is successful the script will run and the commit will be made.
 
-#### Full Script
+#### Full script
 ```
 #!/bin/bash
 
@@ -242,3 +242,9 @@ fi
 
 ### Git hook in action
 <img src='/wp-content/uploads/hook-in-action.gif' class='img-responsive center img-bordered' />
+
+### Bypass git hooks
+
+There may be times when you want to skip your Git hooks when making a commit. This can be done on a commit-by-commit basis by selecting the `Commit and skip hooks` option. 
+
+<img src='/wp-content/uploads/bypass-git-hooks.png' class='img-responsive center img-bordered' />

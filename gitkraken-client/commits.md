@@ -47,9 +47,11 @@ The commit panel will then show the co-author in the history for that commit:
 
 <img src='/wp-content/uploads/co-author-history.png' srcset='/wp-content/uploads/co-author-history@2x.png 2x' class='img-bordered img-responsive center'>
 
-### Skipping githooks
+### Bypass git hooks
 
-You can select the option to skip hooks.
+There may be times when you want to skip your Git hooks when making a commit. This can be done on a commit-by-commit basis by selecting the `Commit and skip hooks` option. 
+
+<img src='/wp-content/uploads/bypass-git-hooks.png' class='img-responsive center img-bordered' />
 
 ***
 

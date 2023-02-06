@@ -56,7 +56,7 @@ Clicking the <button class='button button--success button--ui button--nolink'>St
 
 <img src='/wp-content/uploads/save-stage.png' srcset='/wp-content/uploads/save-stage@2x.png 2x' class='img-bordered img-responsive center'>
 
-### Encoding
+## Encoding
 
 All files have Encoding that defines how the binary should be read. 
 
@@ -67,3 +67,5 @@ You can also set your file encoding to `GUESS ENCODING` and GitKraken Client wil
 <div class='callout callout--warning'>
     <p>Note 📝 - GitKraken Client is NOT intended to be used to change a file(s) encoding and it not change the encoding when saving. We recommend using another editor, such as VSCode, to make file encoding changes.</p>
 </div>
+
+<img src='/wp-content/uploads/preferences-encoding-select.png' class='img-bordered img-responsive center'>
