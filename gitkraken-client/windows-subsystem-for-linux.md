@@ -1,29 +1,30 @@
 ---
 
-title: GitKraken Client Windows Subsystem for Linux
+title: GitKraken Client and Windows Subsystem for Linux (WSL)
 description: How to use GitKraken Client with Windows Subsystem for Linux (WSL)
 taxonomy:
     category: gitkraken-client
 
 ---
 
+Learn all about GitKraken Client and WSL 2.
 ## What is WSL/WSL 2?
 
 <a href="https://learn.microsoft.com/en-us/windows/wsl/about" target="_blank">Windows Subsystem for Linux (WSL)</a> lets developers install a Linux distribution and use Linux applications, utilities, and Bash command-line tools directly on Windows. <a href="https://learn.microsoft.com/en-us/windows/wsl/compare-versions" target="_blank">WSL 2</a> utilizes an actual Linux kernel inside a managed virtual machine (VM) to provide improved performance and full system call capability, and is now the default WSL version. Microsoft notes that WSL 2 lacks performance across OS file systems however, and this issue can be addressed by storing your project files on the same operating system as the tools you are running to work on the project.
 
-Microsoft also introduced <a href="https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps" target="_blank">Windows Subsystem for Linux GUI (WSLg)</a>, a feature aimed to provide the ability to run Linux GUI applications which work best, or exclusively, in a Linux/WSL 2 environment. Using WSLg also better enables Linux GUI applications like the Linux version of GitKraken Client to feel native and natural to use on Windows by integrating them closely into the Windows desktop experience when running within WSL 2.
+Microsoft also introduced <a href="https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps" target="_blank">Windows Subsystem for Linux GUI (WSLg)</a>, a feature aimed to provide the ability to run Linux GUI applications in a Linux/WSL 2 environment. Using WSLg also better enables Linux GUI applications like the Linux version of GitKraken Client to feel native and natural to use on Windows by integrating them closely into the Windows desktop experience when running within WSL 2.
 
 ## How to use GitKraken Client with WSL 2
 
 <img src="/wp-content/uploads/wsl-full-screen.png" srcset="/wp-content/uploads/wsl-full-screen@2x.png" class="img-bordered img-responsive center">
 
-GitKraken Client can work with repos stored on your WSL 2 file system when installed within the WSL 2 environment and using WSL’s built-in display server functionality, <a href="https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps" target="_blank">WSLg</a>, for GUI support. The Linux version of GitKraken client has been updated to fix common issues when operating GitKraken within WSL 2, and includes settings to [set preferences](#preferences_for_wsl) for where to open web links and files opened by GitKraken running within WSL 2.
+GitKraken Client can work with repos stored on your WSL 2 file system when installed within the WSL 2 environment and using WSL’s built-in display server functionality, <a href="https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps" target="_blank">WSLg</a>, for GUI support. The Linux version of GitKraken client has been updated to fix common issues when operating GitKraken within WSL 2, and includes settings to [set preferences](#preferences-for-gitkraken-on-wsl-2) for where to open web links and files opened by GitKraken running within WSL 2.
 
 <div class='callout callout--warning'>
-    <p>Note: GitKraken Client does not currently support cross file system access for repos stored on both Windows and WSL. GitKraken Client should be installed on the operating system where your repos are stored for the best experience. Opening repos across file systems may severly degrade performance and features may not work as intended.</p>
+    <p><strong>Note:</strong> GitKraken Client does not currently support cross file system access for repos stored on both Windows and WSL. GitKraken Client should be installed on the operating system where your repos are stored for the best experience. Opening repos across file systems may severly degrade performance and features may not work as intended.</p>
 </div>
 
-GitKraken Client will also detect where a repo is stored and allow you to open it in the proper version of GitKraken Client so you can better manage GitKraken when working with both Windows and WSL repos. For more information, see the section on [Working Across File Systems](#working_across_file_systems).
+GitKraken Client will also detect where a repo is stored and notify the end user via pop-up. This allows for quick management of GitKraken Client when working with both Windows and WSL repos. For more information, see the section on [Working Across File Systems](#working-across-file-systems-in-wsl-2).
 
 There are 4 steps to start using GitKraken Client with your WSL repos:
 1. Confirm the latest version of WSL 2 is installed that supports WSLg
@@ -40,13 +41,14 @@ Below are instructions and minimum requirements to run GitKraken Client within W
 - Windows 11 or Windows 10 build 19044 or later
 - WSL 2 distribution
 - GitKraken Client version 9.1.0+ for Linux
+
 ***
 
 ## Install or Update WSL 2 with WSLg Support
 
 GitKraken Client will only work with WSL 2 on Windows 11 or Windows 10 build 19044 or later, which includes WSLg for GUI support.
 
-If you already have WSL installed with a Linux distro, run the following command from PowerShell or Windows Command Prompt opened as administrator to update to the latest version of WSL.
+If you already have WSL installed with a Linux distro, run the following command from PowerShell or Windows Command Prompt to update to the latest version of WSL. Make sure to open as administrator if you use Windows Command Prompt.
 ```
 wsl --update 
 ```
@@ -86,11 +88,13 @@ When running GitKraken Client within WSL 2, additional preferences are available
 
 By default, URLs will open in your Windows default browser and other files opened by GitKraken will attempt to open on the host distribution.
 
+***
 ## Known Issues with WSL 2
 
 - <a href="https://github.com/microsoft/wslg/issues/388" target="_blank">HiDPI Displays cause WSLg to inconsistently scale the UI</a>
 - <a href="https://github.com/microsoft/wslg/issues/727" target="_blank">Window snapping does not work with WSLg</a>
 
+***
 ## Troubleshooting WSL 2
 
 If GitKraken loads with a black screen, or other graphical errors persist, try reopening GitKraken Client as administrator or update your graphics card drivers.
@@ -100,6 +104,7 @@ For other errors, you may need to restart WSL. You can run the following command
 wsl --shutdown
 ```
 Then, reopen your Linux distribution or GitKraken Client as administrator.
+
 ***
 ## Working Across File Systems in WSL 2
 
@@ -117,5 +122,5 @@ You will be asked to choose an option to proceed:
 - Closing the message will cancel opening the repository
 
 <div class='callout callout--warning'>
-    <p>Note: If you open a repository in WSL through a mapped network drive from Windows, GitKraken Client will not detect that the repository is being accessed across file systems and attempt to open normally. This may lead to unintended behavior and is not recommended.</p>
+    <p><strong>Note:</strong> If you open a repository in WSL through a mapped network drive from Windows, GitKraken Client will not detect that the repository is being accessed across file systems and attempt to open normally. This may lead to unintended behavior and is not recommended.</p>
 </div>
