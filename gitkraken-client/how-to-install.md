@@ -88,11 +88,11 @@ Note: for older distros that do not have ```dnf```, you should use ```yum``` ins
 
 Snap is an easy-to-install package for Linux distributions (supported versions above). Get it from the snap store or [Snapcraft.io](https://snapcraft.io/gitkraken).
 
-### WSL
-If you're attempting to use GitKraken client within Windows Subsystem for Linux (WSL), visit our page on <a href="">How to use GitKraken Client with WSL</a> for additional details.
-
 ### Linux Data Location
 GitKraken Client data is stored in `/home/{user}/.gitkraken` == `~/.gitkraken`.
+
+### WSL
+If you're attempting to use GitKraken client within Windows Subsystem for Linux (WSL), visit our page on <a href="">How to use GitKraken Client with WSL</a> for additional details.
 
 ## Run GitKraken Client
 
