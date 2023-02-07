@@ -14,6 +14,112 @@ Behold the evolution of GitKraken Client! Find out what&rsquo;s new, what&rsquo;
 
 Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) to see what we’re working on.
 
+<a id="v9-1-0"></a>
+## Version 9.1.0
+
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZJCxngwraV4" frameborder="0" allowfullscreen></iframe>
+</div>
+
+_“You spoke. We listened.”_
+
+### Tuesday, February 7th, 2023
+
+### New ✨
+
+- [Improved WSL 2 support](/gitkraken-client/current/#improved-wsl-2-support) for the Linux version of GitKraken Client.
+ - Users may now install GitKraken Client in a WSL 2 distribution with WSLg and work with their Linux repos.
+  - For the best experience, we recommend users also install GitKraken Client on their Windows machine to work with repos hosted outside their WSLg distribution. 
+  - For installation or upgrade instructions, check out the [WSL 2 Help Center documentation](https://help.gitkraken.com/gitkraken-client/windows-subsystem-for-linux/).
+- [New encoding support](/gitkraken-client/current/#encoding-support) 🎉
+  - Configure from <kbd>Preferences > Encoding</kbd> or from the top right of any <kbd>File Diff</kbd> view.
+- Users may now [bypass Git Hooks](/gitkraken-client/current/#bypass-git-hooks) when committing after entering a commit message. 
+- `GitKraken Insights` is now available for <kbd>Cloud Workspaces</kbd> connected to Azure DevOps.
+
+
+### Improvements 🙌
+- [Amend (rename) stashes](/gitkraken-client/current/#amend-stash-messages):
+  - Right-click a stash in the graph and then click <kbd>Edit stash message</kbd>. 
+  - Right-click on a stash in the Left Panel to access <kbd>Edit stash message</kbd>.
+  - Click the stash message in the Commit Panel to edit the stash message. 
+- [Workspace improvements](/gitkraken-client/current/#workspace-improvements):
+  - Workspace columns can now be sorted on Repositories, Issues, Pull Requests and WIP tables. 
+  - All `GitKraken Insights` metrics now have a dropdown for changing the time period between 7 days or 14 days for licensed users.
+- From the <kbd>Interactive Rebase</kbd> editor, the first commit can now be set `Drop`. 
+
+
+### Bug Fixes 🐛
+- Fix submodules update being triggered twice during a Pull (rebase), Rebase, cherry-pick, revert commit, reset, checkout, or undo/redo.
+- <kbd>Local Workspaces</kbd> may now be edited again while working offline.
+- Users will now get a more helpful message when an integration fails to connect due to a problem with SSL certificate verification.
+- When amending commit messages, the draggable resize handle will now correctly resize the text box.
+- When amending commit/stash messages, the summary-line text input will now be focused automatically.
+- Fixed an issue where Jira Server issues would not show up for a Workspace.
+- Fixed a timing issue where Shared Workspaces would not show up for Organization owners if the user was not a team member of that Workspace.
+- Fixed an issue where manually inputting the token to login with GitHub would not save the token for the Github Provider.
+- Fixed a timing issue that caused branches not to show when relaunching the app from a Workspace.
+
+### Improved WSL 2 Support
+
+We’ve heard that WSL is an essential part of many of our users’ development setup, and as WSL's popularity continues to grow, we’re excited to start offering some improvements for users working in this environment. To give users an opportunity to have a more native-like experience as quickly as possible, we’ve improved the Linux version of GitKraken Client to fix common issues when operating within a WSL 2 environment.
+
+With 9.1, users may now install GitKraken Client in a WSL 2 distribution with WSLg and better work with their Linux repos. For the best experience, we recommend users install GitKraken Client both on their Windows machine as well as their WSLg Linux distro. This allows users to quickly swap between GitKraken Client on each of their operating systems. 
+
+<img src="/wp-content/uploads/wsl2.png" class="img-responsive center img-bordered">
+
+For more information about WSL 2 / WSLg, and the additional features we’ve introduced to better manage GitKraken Client in this environment, check out the [Help Center documentation](https://help.gitkraken.com/gitkraken-client/windows-subsystem-for-linux/).
+
+### Workspace Improvements
+
+Workspace columns can be sorted on Repositories, Issues, Pull Requests and WIP tables. This should help you better organize your Focus View or Team View. 
+
+<img src="/wp-content/uploads/sort-columns.gif" class="img-responsive center img-bordered">
+
+GitKraken Insights is now available for Cloud Workspaces connected to Azure DevOps, which should help Azure DevOps users measure how fast pull requests get merged.
+
+<img src="/wp-content/uploads/insights-azure.png" class="img-responsive center img-bordered">
+
+And all GitKraken Insights metrics now have a dropdown for changing the time period between a 7 day or 14 day time period for licensed users.
+
+<img src="/wp-content/uploads/insights-toggle.png" class="img-responsive center img-bordered">
+
+### Quality of Life Boosts
+
+#### Amend Stash Messages
+
+Users may now amend stash messages which should make renaming stashes a breeze. Just right-click a stash in the graph and then click “Edit stash message.” 
+
+<img src="/wp-content/uploads/amend-stash-graph.png" class="img-responsive center img-bordered">
+
+You may also right click on a stash in the Left Panel to access the same option.
+
+#### Bypass Git Hooks
+
+Another request from users — you may now bypass Git Hooks when committing. To bypass, first stage changes in a repo with Git Hooks enabled and then start typing your commit message. 
+
+<img src="/wp-content/uploads/bypass.png" class="img-responsive center img-bordered">
+
+You may then click this split button option to commit and bypass the Git Hook.
+
+#### Encoding Support
+
+GitKraken Client 9.1 comes with new encoding support for ISO-8859-1, Windows-1252, and many more. To update the encoding for the app’s File Diff view, navigate to Preferences > Encoding and set your encoding selection for the repository.
+
+<img src="/wp-content/uploads/encoding-preferences.png" class="img-responsive center img-bordered">
+
+Alternatively, from any file diff in GitKraken Client, click this dropdown menu in the top right to change your encoding preference.
+
+<img src="/wp-content/uploads/file-encoding-diff.png" class="img-responsive center img-bordered">
+
+Of the two options, we recommend users to change the default encoding in their Preferences. That way you’ll be able to read all diffs with the correct characters.
+
+#### Interactive Rebase “Drop”
+
+And finally, when setting up an Interactive Rebase, you may now set the first commit to `Drop`. 
+
+<img src="/wp-content/uploads/interactive-rebase-drop.png" class="img-responsive center img-bordered">
+
+***
 <a id="v9-0-1"></a>
 ## Version 9.0.1
 
