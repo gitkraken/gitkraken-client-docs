@@ -62,7 +62,7 @@ GitKraken Client data is stored in `/Users/{user}/.gitkraken` == `~/.gitkraken`.
 GitKraken Client has a simple package available for Debian based distributions.
 ```
 wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
-sudo dpkg -i gitkraken-amd64.deb
+sudo apt install gitkraken-amd64.deb
 ```
 Or [download the file](https://gitkraken.com/download/linux-deb).
 
@@ -76,9 +76,13 @@ Or [download the file](https://gitkraken.com/download/linux-gzip).
 ### .rpm
 ```
 wget https://release.gitkraken.com/linux/gitkraken-amd64.rpm
-sudo yum install ./gitkraken-amd64.rpm
+sudo dnf install ./gitkraken-amd64.rpm
 ```
 Or [download the file](https://gitkraken.com/download/linux-rpm).
+
+Note: for older distros that do not have ```dnf```, you should use ```yum``` instead.
+
+
 
 ### Snap
 
@@ -86,6 +90,9 @@ Snap is an easy-to-install package for Linux distributions (supported versions a
 
 ### Linux Data Location
 GitKraken Client data is stored in `/home/{user}/.gitkraken` == `~/.gitkraken`.
+
+### WSL
+If you're attempting to use GitKraken client within Windows Subsystem for Linux (WSL), visit our page on <a href="https://help.gitkraken.com/gitkraken-client/windows-subsystem-for-linux/">How to use GitKraken Client with WSL</a> for additional details.
 
 ## Run GitKraken Client
 
