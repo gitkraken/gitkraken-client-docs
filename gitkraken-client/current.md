@@ -65,7 +65,7 @@ We’ve heard that WSL is an essential part of many of our users’ development 
 
 With 9.1, users may now install GitKraken Client in a WSL 2 distribution with WSLg and better work with their Linux repos. For the best experience, we recommend users install GitKraken Client both on their Windows machine as well as their WSLg Linux distro. This allows users to quickly swap between GitKraken Client on each of their operating systems. 
 
-<img src="/wp-content/uploads/wsl2.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/wsl-2.png" class="img-responsive center img-bordered">
 
 For more information about WSL 2 / WSLg, and the additional features we’ve introduced to better manage GitKraken Client in this environment, check out the [Help Center documentation](https://help.gitkraken.com/gitkraken-client/windows-subsystem-for-linux/).
 
@@ -105,7 +105,7 @@ You may then click this split button option to commit and bypass the Git Hook.
 
 GitKraken Client 9.1 comes with new encoding support for ISO-8859-1, Windows-1252, and many more. To update the encoding for the app’s File Diff view, navigate to Preferences > Encoding and set your encoding selection for the repository.
 
-<img src="/wp-content/uploads/encoding-preferences.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/encoding-preferences2.png" class="img-responsive center img-bordered">
 
 Alternatively, from any file diff in GitKraken Client, click this dropdown menu in the top right to change your encoding preference.
 

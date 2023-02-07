@@ -201,7 +201,7 @@ These settings only effect `Terminal` tabs.
 
 Repo-Specific preferences only apply to the repo currently open in GitKraken Client. The following preferences are repo-specific:
 
-- [Encoding](/editing-files/#encoding)
+- [Encoding](/gitkraken-client/editing-files/#encoding)
 - [Gitflow](/git-workflows-and-extensions/git-flow/)
 - [Git Hooks](/working-with-repositories/githooks/)
 - [Commit Template](/working-with-commits/commits/#commit-templates)
