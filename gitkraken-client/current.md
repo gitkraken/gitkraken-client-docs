@@ -44,7 +44,7 @@ _“You spoke. We listened.”_
   - Click the stash message in the Commit Panel to edit the stash message. 
 - [Workspace improvements](/gitkraken-client/current/#workspace-improvements):
   - Workspace columns can now be sorted on Repositories, Issues, Pull Requests and WIP tables. 
-  - All `GitKraken Insights` metrics now have a dropdown for changing the time period between 7 days or 14 days.
+  - All `GitKraken Insights` metrics now have a dropdown for changing the time period between 7 days or 14 days for licensed users.
 - From the <kbd>Interactive Rebase</kbd> editor, the first commit can now be set `Drop`. 
 
 
