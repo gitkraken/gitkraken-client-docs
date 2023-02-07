@@ -77,7 +77,7 @@ Workspace columns can be sorted on Repositories, Issues, Pull Requests and WIP t
 
 GitKraken Insights is now available for Cloud Workspaces connected to Azure DevOps, which should help Azure DevOps users measure how fast pull requests get merged.
 
-<img src="/wp-content/uploads/insights-azure.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/insights-azure2.png" class="img-responsive center img-bordered">
 
 And all GitKraken Insights metrics now have a dropdown for changing the time period between a 7 day or 14 day time period for licensed users.
 
@@ -89,7 +89,7 @@ And all GitKraken Insights metrics now have a dropdown for changing the time per
 
 Users may now amend stash messages which should make renaming stashes a breeze. Just right-click a stash in the graph and then click “Edit stash message.” 
 
-<img src="/wp-content/uploads/amend-stash-graph.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/amend-stash-graph2.png" class="img-responsive center img-bordered">
 
 You may also right click on a stash in the Left Panel to access the same option.
 
@@ -97,7 +97,7 @@ You may also right click on a stash in the Left Panel to access the same option.
 
 Another request from users — you may now bypass Git Hooks when committing. To bypass, first stage changes in a repo with Git Hooks enabled and then start typing your commit message. 
 
-<img src="/wp-content/uploads/bypass.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/bypass2.png" class="img-responsive center img-bordered">
 
 You may then click this split button option to commit and bypass the Git Hook.
 
@@ -109,7 +109,7 @@ GitKraken Client 9.1 comes with new encoding support for ISO-8859-1, Windows-125
 
 Alternatively, from any file diff in GitKraken Client, click this dropdown menu in the top right to change your encoding preference.
 
-<img src="/wp-content/uploads/file-encoding-diff.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/file-encoding-diff2.png" class="img-responsive center img-bordered">
 
 Of the two options, we recommend users to change the default encoding in their Preferences. That way you’ll be able to read all diffs with the correct characters.
 
