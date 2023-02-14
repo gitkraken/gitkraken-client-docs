@@ -14,6 +14,21 @@ Behold the evolution of GitKraken Client! Find out what&rsquo;s new, what&rsquo;
 
 Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) to see what we’re working on.
 
+***
+
+<a id="v9-1-1"></a>
+## Version 9.1.1
+
+_“9.1.1, what's your emergency?”_
+
+### Tuesday, February 14th, 2023
+
+### Bug Fixes 🐛
+
+- Updated OpenSSL to 1.1.1t, which includes important security updates. 
+- Fixed file contents not loading when opening diffs/merges in external tools.
+
+***
 <a id="v9-1-0"></a>
 ## Version 9.1.0
 
