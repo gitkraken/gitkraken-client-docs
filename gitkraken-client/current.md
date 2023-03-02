@@ -14,6 +14,38 @@ Behold the evolution of GitKraken Client! Find out what&rsquo;s new, what&rsquo;
 
 Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) to see what we’re working on.
 
+
+***
+
+<a id="v9-2-0"></a>
+## Version 9.2.0
+
+_“Hocus Focus!”_
+
+
+### Tuesday, March 7th, 2023
+
+### New ✨
+
+- GitKraken Insights:
+    - Sparkline graphs will now show the shape and trends of `GitKraken Insights` for each metric. 
+- Focus View Updates:
+    - View, checkout, and start a branch from an issue in the <kbd>My Issues</kbd> section of the Focus View.
+    - You may now hide entire sections for Focus View in Workspaces. Customize away!
+- Issue View for Workspaces:
+    - Added ability to open the issue panel for Workspace issues.
+
+
+### Improvements 🙌
+- Updated Azure Devops integration page with “Work Items” scope.
+- Added a new UI setting for hiding the workspace tab when the tab is closed.
+- Upgraded to Electron 21.
+
+
+### Bug Fixes 🐛
+- Disconnecting GitLab Insights integration will no longer affect the connection status for other Insights integrations. 
+- Fixed several bugs with keyboard shortcuts in the Interactive Rebase view.
+
 ***
 
 <a id="v9-1-1"></a>
