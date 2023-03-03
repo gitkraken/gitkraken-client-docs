@@ -31,6 +31,12 @@ You can also connect Gitkraken Insights to your remote hosting service from <kbd
 
 <img src="/wp-content/uploads/insights-connect-integration.png" class="img-responsive center img-bordered">
 
+<div class='callout callout--note'>
+    <p>
+        <strong>Note:</strong> When using Insights, we will attempt to add webhooks to your workspace repositories in order to reduce API calls and improve data performance.
+    </p>
+</div>
+
 ### Metrics
 
 <img src="/wp-content/uploads/insights-metrics.png" class="img-responsive center img-bordered">
