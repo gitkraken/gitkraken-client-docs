@@ -26,7 +26,7 @@ Below are platform-specific instructions and details on minimum requirements.
 
 ***
 ## Windows (.exe file)
-* **System requirements:** Windows 10
+* **System requirements:** Windows 10+
 * [Download (64-bit)](https://gitkraken.com/download/windows64)
 * [Download (32-bit)](https://gitkraken.com/download/windows)
 
