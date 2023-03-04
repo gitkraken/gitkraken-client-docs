@@ -1,6 +1,6 @@
 ---
 
-title: GitKraken Client terms and conditions
+title: GitKraken Client Terms and Conditions
 description: Learn about GitKraken Client Support terms and conditions
 taxonomy:
     category: gitkraken-client
@@ -14,7 +14,7 @@ Our goal is to ensure you can use GitKraken Client effortlessly and with minimal
 
 ---
 
-## GitKraken Client Support Terms and Conditions
+## GitKraken Client Support
 
 - Support requests for GitKraken Client are to be submitted at [Contact Support](https://help.gitkraken.com/gitkraken-client/contact-support/). Interactions with users submitting tickets are done primarily through emails, though other communication services such as phone calls, screenshare services might be used to deliver Support Services. 
 
