@@ -20,31 +20,39 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 <a id="v9-2-0"></a>
 ## Version 9.2.0
 
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZL2Mj8yDI-I" frameborder="0" allowfullscreen></iframe>
+</div>
+
 _“Hocus Focus!”_
 
+_Read the [full release notes](https://help.gitkraken.com/gitkraken-client/current/#version-9-2) and see how it all works!_
 
 ### Tuesday, March 7th, 2023
 
 ### New ✨
 
 - GitKraken Insights:
-    - Sparkline graphs will now show the shape and trends of `GitKraken Insights` for each metric. 
+  - Sparkline graphs will now show the shape and trends of `GitKraken Insights` for each metric. 
 - Focus View Updates:
-    - View, checkout, and start a branch from an issue in the <kbd>My Issues</kbd> section of the Focus View.
-    - You may now hide entire sections for Focus View in Workspaces. Customize away!
+  - View, checkout, and start a branch from an issue in the <kbd>My Issues</kbd> section of the Focus View.
+  - You may now hide entire sections for Focus View in Workspaces. Customize away!
 - Issue View for Workspaces:
-    - Added ability to open the issue panel for Workspace issues.
-
+  - Added ability to open the issue panel for Workspace issues.
 
 ### Improvements 🙌
 - Updated Azure Devops integration page with “Work Items” scope.
 - Added a new UI setting for hiding the workspace tab when the tab is closed.
 - Upgraded to Electron 21.
+- Improved stability for font loading.
+- Updated font selection settings to present monospace fonts accurately.
 
 
 ### Bug Fixes 🐛
 - Disconnecting GitLab Insights integration will no longer affect the connection status for other Insights integrations. 
 - Fixed several bugs with keyboard shortcuts in the Interactive Rebase view.
+- GitKraken Insights will now successfully connect for Cloud Workspaces connected to Azure DevOps. 
+
 
 ***
 
