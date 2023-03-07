@@ -183,7 +183,7 @@ Most LFS actions, such as Checkout, Fetch, Pull, and Push will happen automatica
 Click the arrow on the button and select the desired command. Other than _Prune_, all of the commands are run by GitKraken Client via the traditional operations.
 
 <div class='callout callout--success'>
-    <p><strong>Note:</strong> Pruning is not automatic. Pruning is considered a destructive operation, so be careful about when you run the <em>Prune</em> command. See the <a href="https://github.com/git-lfs/git-lfs/blob/master/docs/man/git-lfs-prune.1.ronn" target="_blank">Git LFS documentation</a> to learn more.</p>
+    <p><strong>Note:</strong> Pruning is not automatic. Pruning is considered a destructive operation, so be careful about when you run the <em>Prune</em> command. See the <a href="https://github.com/git-lfs/git-lfs/blob/main/docs/man/git-lfs-prune.adoc" target="_blank">Git LFS documentation</a> to learn more.</p>
 </div>
 
 ## LFS FAQ

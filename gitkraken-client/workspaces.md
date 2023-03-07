@@ -203,3 +203,7 @@ Workspaces expose the state of all repositories so you can see the last checked-
 The option to remove the Workspace breadcrumb in the toolbar can be toggled under <kbd> Preferences > UI Customization > _Show Workspace breadcrumb in toolbar_</kbd>.
 
 <img src="/wp-content/uploads/breadcrumb-setting.png" srcset="/wp-content/uploads/breadcrumb-setting@2x.png" class="img-bordered img-responsive center">
+
+## Requirement for Azure Workspaces
+
+In order to create Azure workspaces within GiKraken Client, `Third-party application access via OAuth` will need to be anabled in Azure from `Organization Settings > Policies`. You can find more information on this setting [here](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops).
