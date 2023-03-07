@@ -84,10 +84,12 @@ The Focus View section will provide you with a summary of Pull Requests, Issues,
 <img src="/wp-content/uploads/workspace-focus-view-sort-columns.gif" class="img-bordered img-responsive center">
 
 * My Pull Requests: shows all PRs opened by you, assigned to you, or awaiting your review
-* My Issues: shows all issues created by you, assigned to you, or that mention you.
+* My Issues: shows all issues created by you, assigned to you, or that mention you.  Click the icon to open the Issue View for the selected issue, where you can view, edit issue details and create a branch for the issue.
 * Work in Progress: shows all branches with uncommitted changes
 
 Instead of hunting for these pieces of information separately, you can get a holistic view of what you’re working on.
+
+
 
 ### Team view
 
@@ -97,7 +99,7 @@ On a Cloud Workspace, you will see a Team View section. This view shows all pull
 
 You can switch the Issue Tracker provider from the My Issues section in the Overview tab. 
 
-<img src="/wp-content/uploads/8-9-team-issues-switch.png" srcset="/wp-content/uploads/8-9-team-issues-switch.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/9-2-team-issues-switch.png" srcset="/wp-content/uploads/9-2-team-issues-switch.png" class="img-bordered img-responsive center">
 
 #### Team Pull Requests 
 
@@ -130,7 +132,11 @@ Team Issues will show all GitHub Issues, GitLab Issues, Jira Cloud Issues, Jira 
 
 With Team Issues it is easy to switch between Jira or Trello and back to either GitHub Issues or GitLab Issues. If you select Jira or Trello, you can also filter by project so that you only see issues that matter to you.
 
-<img src="/wp-content/uploads/8-9-team-issues-switch.png" srcset="/wp-content/uploads/8-9-team-issues-switch.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/9-2-team-issues-switch.png" srcset="/wp-content/uploads/9-2-team-issues-switch.png" class="img-bordered img-responsive center">
+
+View, edit and tie a branch to the issue with the Issue View from Workspace. 
+
+<img src="/wp-content/uploads/issue-view-workspaces.png" srcset="/wp-content/uploads/issue-view-workspaces.png" class="img-bordered img-responsive center">
 
 ***
 
