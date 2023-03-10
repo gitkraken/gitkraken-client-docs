@@ -99,6 +99,18 @@ By default, URLs will open in your Windows default browser and other files opene
 
 If GitKraken loads with a black screen, or other graphical errors persist, try reopening GitKraken Client as administrator or update your graphics card drivers.
 
+If graphical errors are still present, you can disable GPU hardware acceleration by running GitKraken Client with the following command:
+
+```
+gitkraken --disable-gpu
+```
+
+If you are receiving a `NET:ERR_CERT_AUTHORITY_INVALID` error when attempting to login, try running GitKraken Client with the following command:
+
+```
+gitkraken --ignore-certificate-errors
+```
+
 For other errors, you may need to restart WSL. You can run the following command from PowerShell or Windows Command Prompt running as administrator:
 ```
 wsl --shutdown

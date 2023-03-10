@@ -153,6 +153,15 @@ Try running [git gc](https://git-scm.com/docs/git-gc) from the terminal on this 
 
 ***
 
+### I'm having display or graphical issues 
+Hardware acceleration may cause graphical instability or other issues on some systems, such as GitKraken Client displaying in a blank window.
+
+You can disable GPU hardware acceleration by running GitKraken Client from a command line with the the following command:
+```
+gitkraken --disable-gpu
+```
+***
+
 ### My files are not showing up as expected or have strange characters.
 GitKraken Client expects most files to use `UTF-8` file encoding. If you are using another encoding type, you can set your type at the top when editing your file, or per-repository from the preferences menu.
 
