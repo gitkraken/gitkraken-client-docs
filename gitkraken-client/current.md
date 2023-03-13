@@ -17,6 +17,21 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ***
 
+<a id="v9-2-1"></a>
+## Version 9.2.1
+
+_“Why did the font go to the doctor? Because it had Type-Face!”_
+
+### Monday, March 13th, 2023
+
+### Bug Fixes 🐛
+
+- Fixed a crash on MacOS that could occur based on the user’s installed fonts.
+- Resolved `.build-id` Electron conflict in the RPM package.
+
+
+***
+
 <a id="v9-2-0"></a>
 ## Version 9.2.0
 
