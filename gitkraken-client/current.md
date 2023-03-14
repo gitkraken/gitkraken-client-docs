@@ -18,7 +18,7 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 ***
 
 <a id="v9-2-0"></a>
-## Version 9.2.0.0
+## Version 9.2.0
 
 <div class='embed-container embed-container--16-9'>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ZL2Mj8yDI-I" frameborder="0" allowfullscreen></iframe>
