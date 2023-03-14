@@ -116,11 +116,11 @@ Click on <button class='button button--success button--ui button--nolink'>Add Us
 + **IdP Metadata URL /IdP Metadata:** depending on the  IdP we can use one or both of these options for setting up the SSO connection. 
 + **Don't enable this connection immediately** ✅ by default new connections are automatically enabled. This checkbox will create the connection but users will not be able to login using SSO with this IdP until it is enabled.
 
-**Example 1:** setting up Otka
+**Example 1:** setting up Okta
 
 Okta is configured using a metadata file.
 1. Access your Okta instance.
-2. Navigate to the Application that you want to use. See our [Otka example](/gitkraken-client/single-sign-on/#otka) for an example of how to make one.
+2. Navigate to the Application that you want to use. See our [Okta example](/gitkraken-client/single-sign-on/#Okta) for an example of how to make one.
 3. Click on “Sign on” and scroll down to SAML Signing Certificates:
 
 <img src="/wp-content/uploads/sso-okta-certs.png" class="img-bordered img-responsive center">
@@ -258,44 +258,44 @@ How to create SAML application in Azure Active Directory:
 <img src="/wp-content/uploads/sso-azure-7-1.png" class="img-bordered img-responsive center">
 
 Now you are all set to [setup your SSO on a GitKraken Organization](/gitkraken-client/single-sign-on/#setting-up-sso-on-a-gitKraken-organization)
-### Otka
+### Okta
 
 <div class='callout callout--warning'>
-    <p><strong>Note:</strong> Logging through OKTA Dashboard is not supported.</p>
+    <p><strong>Note:</strong> Logging through Okta Dashboard is not supported.</p>
 </div>
 
 How to Create SAML Application in Okta:
 
 1. In a browser go to the Okta login page.
-2. Enter your Otka credentials and login.
+2. Enter your Okta credentials and login.
 3. Go to admin dashboard and select *Applications* in navigation bar.
 
-<img src="/wp-content/uploads/sso-otka-1.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/sso-okta-1.png" class="img-bordered img-responsive center">
 
 4. Click on *Add Application*.  
 5. Select *Create New App*. 
 
-<img src="/wp-content/uploads/sso-otka-2.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/sso-okta-2.png" class="img-bordered img-responsive center">
 
 6. Select *SAML 2.0* as a Sign on Method and click to next button.
 
-<img src="/wp-content/uploads/sso-otka-3.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/sso-okta-3.png" class="img-bordered img-responsive center">
 
 7. Enter a name of application (such as "GitKraken SSO").
 
-<img src="/wp-content/uploads/sso-otka-4.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/sso-okta-4.png" class="img-bordered img-responsive center">
 
 8. Configure SAML Integration. The *Single sign on URL* and *Audience URI* fields should direct to `https://api.gitkraken.com/oauth/sso/callback`.
 
-<img src="/wp-content/uploads/sso-otka-5-1.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/sso-okta-5-1.png" class="img-bordered img-responsive center">
 
 Step 9: Scroll down to the attribute statement and fill in the optional fields.
 
-<img src="/wp-content/uploads/sso-otka-6.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/sso-okta-6.png" class="img-bordered img-responsive center">
 
 Step 10: Select “I am an Okta customer adding an internal app” from option menu and then click to finish.
 
-<img src="/wp-content/uploads/sso-otka-7.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/sso-okta-7.png" class="img-bordered img-responsive center">
 
 Now you are all set to [setup your SSO on a GitKraken Organization](/gitkraken-client/single-sign-on/#setting-up-sso-on-a-gitKraken-organization)
 

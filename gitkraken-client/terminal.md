@@ -7,9 +7,9 @@ taxonomy:
 
 ---
 
-Open the terminal to use Git CLI commands while still viewing the graph.
+Open the Terminal to use Git CLI commands while still viewing the graph.
 
-To get started open up a repository and click the terminal <i class="fa fa-terminal" aria-hidden="true"></i> button in the toolbar, from the new tab view by clicking <kbd>New Terminal Tab</kbd>, or by searching for "terminal" in the <a href="/working-with-repositories/command-palette">command palette</a>.
+To get started open up a repository and click the Terminal <i class="fa fa-terminal" aria-hidden="true"></i> button in the toolbar, from the new tab view by clicking <kbd>New Terminal Tab</kbd>, or by searching for "terminal" in the <a href="/working-with-repositories/command-palette">command palette</a>.
 
 <img src="/wp-content/uploads/open-gitkraken-terminal.gif" class="img-responsive center img-bordered">
 
@@ -33,7 +33,7 @@ Auto-complete suggestions will also appear for flags.
 <img src="/wp-content/uploads/autocomplete-suggestions-flags.png" class="img-responsive center img-bordered">
 
 <div class='callout callout--warning'>
-    <p><strong>Note:</strong> Other auto-complete programs can cause GitKraken CLI's auto-complete suggestions to not work. You may need to uninstall or disable these programs before using the Terminal.</p>
+    <p><strong>Note:</strong> Other auto-complete programs can cause the Terminal auto-complete suggestions to not work. You may need to uninstall or disable these programs before using the Terminal.</p>
 </div>
 
 ### GK Commands
@@ -45,7 +45,7 @@ As well as suggestions for additional parameters.
 
 <img src="/wp-content/uploads/autocomplete-suggestions-gk-diff.png" class="img-responsive center img-bordered">
 
-Different views can be accessed using the `gk` CLI program:
+Different views can be accessed using the `gk` CLI program in the Terminal:
 
 * `gk panel`: toggles the visualization panel. Also has parameters to reposition the panel top/bottom/left/right.
 * `gk graph`: shows the graph view. Same behavior as the `gk panel`, but additionally it will return to the graph if you're in a different view, and has subcommands for toggling the graph columns with the keyboard.
