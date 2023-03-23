@@ -1,6 +1,6 @@
 ---
 
-title: GitKraken Client Terms and Conditions
+title: GitKraken Client Support Terms and Conditions
 description: Learn about GitKraken Client Support terms and conditions
 taxonomy:
     category: gitkraken-client
