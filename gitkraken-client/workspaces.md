@@ -95,7 +95,7 @@ Instead of hunting for these pieces of information separately, you can get a hol
 
 On a Cloud Workspace, you will see a Team View section. This view shows all pull requests and issues for the repositories in your Workspace - giving you a high level view of your team's coding efforts. 
 
-<img src="/wp-content/uploads/team-view.png" srcset="/wp-content/uploads/team-view.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/team-view@2x.png" class="img-bordered img-responsive center">
 
 You can switch the Issue Tracker provider from the My Issues section in the Overview tab. 
 
