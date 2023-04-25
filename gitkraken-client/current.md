@@ -17,6 +17,51 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ***
 
+<a id="v9-4-0"></a>
+## Version 9.4.0
+
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/UZmwAu-2UYw" frameborder="0" allowfullscreen></iframe>
+</div>
+
+_“Wait, Azure is a color?”_
+
+### Thursday, April 6th, 2023
+
+### New ✨
+
+- Azure DevOps Integration Boosts:
+  - View and edit Azure Work Items in Workspaces from `Focus View` or `Team View`.
+    - Create a branch from an Azure Work Item.
+- One-click integration connection from <kbd>Preferences > Integrations > Azure DevOps</kbd> (but you can still use personal access tokens too). 
+- Sign into the app with Azure.
+
+
+### Bug Fixes 🐛
+- Fixed an issue where the Workspace issue branch column would not update if a branch for the issue was deleted. 
+- Fixed an issue where the Work In Progress table was not working for Azure DevOps Cloud Workspaces.
+
+
+***
+
+<a id="v9-2-1"></a>
+## Version 9.2.1
+
+_“Why did the font go to the doctor? Because it had Type-Face!”_
+
+### Monday, March 13th, 2023
+
+### Bug Fixes 🐛
+
+- Fixed a crash on MacOS that could occur based on the user’s installed fonts.
+- Resolved `.build-id` Electron conflict in the RPM package.
+
+
+
+
+***
+
+
 <a id="v9-3-0"></a>
 ## Version 9.3.0
 
