@@ -42,22 +42,6 @@ _“Wait, Azure is a color?”_
 - Fixed an issue where the Work In Progress table was not working for Azure DevOps Cloud Workspaces.
 
 
-***
-
-<a id="v9-2-1"></a>
-## Version 9.2.1
-
-_“Why did the font go to the doctor? Because it had Type-Face!”_
-
-### Monday, March 13th, 2023
-
-### Bug Fixes 🐛
-
-- Fixed a crash on MacOS that could occur based on the user’s installed fonts.
-- Resolved `.build-id` Electron conflict in the RPM package.
-
-
-
 
 ***
 
