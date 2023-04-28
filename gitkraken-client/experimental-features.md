@@ -15,10 +15,9 @@ Coming from the icy depths of the git ocean are GitKraken Client experimental fe
 
 Navigate to <i class="fas fa-cog"></i><kbd><strong>Preferences</strong><i class='fa fa-caret-right'></i><strong>Experimental</strong></i></kbd> to access the experimental features menu.
 
+Experimental Features are still under development - treat these as an early sneak peek at some of the new functionality we're working on at GitKraken. Experimental features may not work as intended and could be changed or removed in the future. These settings are entirely optional and can be turned off at any time.
 
-The features listed here are still under development and are provided to give you an early look at some of the new functionality we're working on at GitKraken. Experimental features may not work as intended and could be changed or removed in the future. These settings are entirely optional, so if you run into any issues, you can turn them off at any time.
-
-If you do experience issues, or have any other feedback, please reach out to our team at the link below to help us improve GitKraken Client
+If you do experience issues, or have any other feedback, please reach out to us [Contact Support](https://help.gitkraken.com/gitkraken-client/contact-support/?issue_category__customer_facing_field_=Experimental+feedback&subject=GitKraken+Client+Experimental+feedback).
 
 ### Git Executable
 
