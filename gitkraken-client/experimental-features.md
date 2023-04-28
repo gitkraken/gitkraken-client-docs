@@ -13,7 +13,7 @@ Coming from the icy depths of the git ocean are GitKraken Client experimental fe
 
 ## Experimental Features
 
-Navigate to <i class="fas fa-cog"></i><kbd><strong>Preferences</strong><i class='fa fa-caret-right'></i><strong>Experimental<strong></i></kbd> to access the experimental features menu.
+Navigate to <i class="fas fa-cog"></i><kbd><strong>Preferences</strong><i class='fa fa-caret-right'></i><strong>Experimental</strong></i></kbd> to access the experimental features menu.
 
 
 The features listed here are still under development and are provided to give you an early look at some of the new functionality we're working on at GitKraken. Experimental features may not work as intended and could be changed or removed in the future. These settings are entirely optional, so if you run into any issues, you can turn them off at any time.
@@ -70,11 +70,11 @@ Once the commit message has been generated, you can still fully edit the message
 
 #### More about OpenAI
 
-First, go here to login or create an account:
+Login or create an account:
 https://chat.openai.com/auth/login
 
-Next you can visit OpenAI's verview and documentation pages to learn more about how it works:
+OpenAI's overview and documentation pages to learn more about how it works:
 https://platform.openai.com/
 
-To specifically generate an API key for GitKraken to use navigate to:
+To specifically generate an API key for GitKraken to use:
 https://platform.openai.com/account/api-keys 
