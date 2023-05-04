@@ -197,6 +197,12 @@ These settings only effect `Terminal` tabs.
 - Terminal Theme
 - Default Terminal (Windows only)
  
+## Experimental
+
+Activate [Experimental Features](/gitkraken-client/experimental-features.md) and try out ideas that are still being worked on.
+
+- Git Binary: Use Git executable instead of NodeGit Git actions (partially, not all git actions are implemented to Git executable)
+- AI Commit Message Generation
 ## Repo-Specific Preferences
 
 Repo-Specific preferences only apply to the repo currently open in GitKraken Client. The following preferences are repo-specific:
