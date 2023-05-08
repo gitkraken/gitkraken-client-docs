@@ -1,7 +1,7 @@
 ---
 
 title: GitKraken Client Release Notes
-description: View a history of the new features and fixes in GitKraken Client's Version 8.
+description: View a history of the new features and fixes in GitKraken Client's Version 9.
 og_image: /img/GitKrakenClient-Hero.png
 taxonomy:
     category: gitkraken-client
@@ -16,6 +16,47 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 
 ***
+<a id="v9-4-0"></a>
+## Version 9.4.0
+
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0EXUm9MI9uo" frameborder="0" allowfullscreen></iframe>
+</div>
+
+_“A release for the bold and curious.”_
+
+### Monday, May 8th, 2023
+
+### New ✨
+
+- <kbd>Experimental</kbd> section now available from `Preferences`, and users may now opt-in for:
+  - Experiment 1: AI Generated Commit Messages
+    - Generate commit messages from any staged changes by connecting with an OpenAI API key. 
+  - Experiment 2: Bundled Git Executable
+    - GitKraken Client will use Git instead of the Nodegit library for actions like fetch and commits, plus deliver some performance improvements. 
+- Refreshed the new-user onboarding, for a smoother experience into the app. 
+
+
+### Improvements 🙌
+- When adding repos to a `Workspace` connected to Azure DevOps, you may now select specific Azure DevOps repos instead of syncing an entire project. 
+- Improved position of “traffic light” window controls on MacOS.
+- Improved the left panel resize handle UI.
+
+### Bug Fixes 🐛
+- Deleting the default branch name setting no longer sets the default branch name to empty string in `.gitconfig`.
+- Changing this setting also no longer edits the .gitconfig file at all if the sync `.gitconfig` with profile setting is not checked.
+- Basic text-editing context menu has been added to Left Panel filter input.
+- Added error toast if the app detects different capitalization in remote URLs.
+- Fixed issue retaining selected Jira project or Trello board when changing `Workspaces`.
+- Fix duplicate repos in the Local Workspace repo list when the repo was deleted from the users machine.
+- Fix error ‘Checkout Failed: stdout maxbuffer length exceeded’ when checking out in some big LFS repos.
+- Improved the app’s handling of commits with an empty message.
+- Fixed a case where opening a file in an external editor would not complete the action. 
+
+
+
+***
+
 
 <a id="v9-3-0"></a>
 ## Version 9.3.0
