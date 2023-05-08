@@ -25,7 +25,7 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 _“A release for the bold and curious.”_
 
-### Thursday, May 4th, 2023
+### Monday, May 8th, 2023
 
 ### New ✨
 
