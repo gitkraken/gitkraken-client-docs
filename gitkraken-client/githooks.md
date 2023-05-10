@@ -236,6 +236,13 @@ fi
 ### Git hook in action
 <img src='/wp-content/uploads/gkc-hook-in-action.gif' class='img-responsive center img-bordered' />
 
+### Environment Variables & Git Hooks
+
+GitKraken uses a non-interactive shell to run its git hooks so you may need to edit your rc profile (e.g. .bashrc or .zshenv) to allow your extensions and/or environment variables to run in non-interactive shells. 
+
+Bash shell sources env variables for both interactive and non-interactive definitions from your <i>.bashrc</i> file. But for ZSH, <i>.zshrc</i> is only sourced for interactive shells. Non-interactive definitions for ZSH should go in <i>.zshenv</i>.
+
+
 ### Bypass git hooks
 
 There may be times when you want to skip your Git hooks when making a commit. This can be done on a commit-by-commit basis by selecting the `Commit and skip hooks` option. 
