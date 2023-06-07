@@ -20,7 +20,7 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 ## Version 9.5.0
 
 <div class='embed-container embed-container--16-9'>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/CDpfKxVsE5k" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KsF5DLYqIcc" frameborder="0" allowfullscreen></iframe>
 </div>
 
 _“How complex can it be?”_
