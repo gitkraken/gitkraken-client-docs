@@ -14,6 +14,74 @@ Behold the evolution of GitKraken Client! Find out what&rsquo;s new, what&rsquo;
 
 Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) to see what we’re working on.
 
+***
+
+<a id="v9-5-0"></a>
+## Version 9.5.0
+
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CDpfKxVsE5k" frameborder="0" allowfullscreen></iframe>
+</div>
+
+_“How complex can it be?”_
+
+### Wednesday, June 7th, 2023
+
+
+### On-Premise 🖥
+
+- Git Executable has been enabled for all On-Premise users to allow Git to directly perform actions like fetch, commit, and much more instead of the Nodegit library. 
+  - Users may toggle the setting from <kbd>Preferences > Experimental</kbd>. 
+- On-Premise and Serverless clients now also benefit from the new first time user experience. 
+
+
+### New ✨
+
+- Workspaces got a power boost:
+  - Invite individuals from your GitKraken Org to a Workspace.
+- Pull all repos in a Workspace using the <kbd>Pull all</kbd> button located in the Repositories page.
+- ✨ Preview feature:  Added a `Complexity` column to the Workspace Focus View, Team View, and  Pull Requests page:
+  - Complexity is a scale of 1 to 4 that scores a pull request’s complexity based on:
+    - Number of lines changed
+    - Number of files change
+    - Number of commits made
+
+### Improvements 🙌
+- Git Executable has been enabled for all GitKraken Client users to allow Git to directly perform actions like fetch, commit, and much more instead of the Nodegit library. 
+  - Provides performance improvements for fetch, commit, and more. 
+  - Users may toggle the setting off or on from <kbd>Preferences > Experimental</kbd>. 
+    - Note: This update will be slowly rolled out within the first week of the 9.5 release.
+- New user experience improvements:
+  - New users may now start with one of their Cloud Workspaces when launching the app for the first time. 
+    - When starting with a Cloud Workspace, the Workspace now opens on the Repositories view.
+  - During onboarding, users can configure SSH keys for integrations.
+  - Improved the URL clone user interface on the new user onboarding.
+- Workspace improvements:
+  - Added single dropdown to change the time period for all `GitKraken Insights` metrics.
+  - Added additional options to locate or clone a repository when checking out a branch or viewing a Pull Request from a Workspace.
+  - Updated messaging when opening the Workspace and no integration is connected.
+- Improved syntax highlighting and additional language support in the GitHub Pull Request View.
+- Added icons in Pull Request View timeline for comments, requested changes, and reviews.
+- Added logging for Git commands with GitKraken Client log system.
+- Requires enabling both the “Git Executable” setting from <kbd>Preferences > Experimental</kbd> and the `Use extended logging in activity log` setting from <kbd>Preferences</kbd>.
+- Support viewing Git hook output using Git Executable feature.
+- Added option to close login modal using the `Esc` key.
+
+
+
+### Bug Fixes 🐛
+- Fixed case where Git binary wouldn’t fetch from `HTTPS` remotes on older Linux distros (ex. CentOS-7).
+- Fixed case where Git binary wouldn’t fetch from `HTTPS` remotes in Snap installs.
+- Fixed issue where editing working directory files while multiple commits were selected caused diff display issues for selected commit range.
+- Fixed delay with loading spinner appearing. 
+- Fixed UI display issue with long emails in the sample commit during the first time user onboarding. 
+- Fixed various “unique key prop” errors in Workspaces.
+- Azure Issues status now reflects the status options on the main Azure app. 
+- Fixed an issue where users were shown an upgrade button in the issue view panel when the issue’s repo is not cloned or located.
+- Fixed an issue where the Workspace search bar would disappear.
+- Fixed an issue where the Workspace repository page would not load a repo’s ahead/behind data.
+- Git binary no longer incorrectly uses bundled SSH instead of system's OpenSSH when `Use Local Agent`”` setting is enabled.
+
 
 ***
 <a id="v9-4-0"></a>
