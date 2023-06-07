@@ -43,6 +43,10 @@ Find below a list of features using the Git binary if the Git Executable experim
 - branch rename
 - branch delete (local branch only)
 
+**Added in 9.5.0:**
+- remote branch delete
+- tag delete (local and remote)
+
 ---
 
 ### AI Commit Message Generation
