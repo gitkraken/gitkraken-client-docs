@@ -63,7 +63,7 @@ _“How complex can it be?”_
 - Improved syntax highlighting and additional language support in the GitHub Pull Request View.
 - Added icons in Pull Request View timeline for comments, requested changes, and reviews.
 - Added logging for Git commands with GitKraken Client log system.
-- Requires enabling both the “Git Executable” setting from <kbd>Preferences > Experimental</kbd> and the `Use extended logging in activity log` setting from <kbd>Preferences</kbd>.
+  - Requires enabling both the “Git Executable” setting from <kbd>Preferences > Experimental</kbd> and the `Use extended logging in activity log` setting from <kbd>Preferences</kbd>.
 - Support viewing Git hook output using Git Executable feature.
 - Added option to close login modal using the `Esc` key.
 
@@ -80,7 +80,7 @@ _“How complex can it be?”_
 - Fixed an issue where users were shown an upgrade button in the issue view panel when the issue’s repo is not cloned or located.
 - Fixed an issue where the Workspace search bar would disappear.
 - Fixed an issue where the Workspace repository page would not load a repo’s ahead/behind data.
-- Git binary no longer incorrectly uses bundled SSH instead of system's OpenSSH when `Use Local Agent`”` setting is enabled.
+- Git binary no longer incorrectly uses bundled SSH instead of system's OpenSSH when `Use Local Agent` setting is enabled.
 
 
 ***
