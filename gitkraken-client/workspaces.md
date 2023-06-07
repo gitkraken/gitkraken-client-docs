@@ -25,7 +25,7 @@ Cloud Workspaces will be available for you to work with on any machine and the s
 
 ### Create a Cloud Workspace
 
-To create a Cloud Workspace, select <button class="button button--success button--ui button--nolink">+ New Workspace</button> (or <button class="button button--success button--ui button--nolink">+ Create a Worspace</button>). Then, select "Cloud Workspace”, name your Workspace, selecting the hosting service, and then select repositories to add. Optionally, you can also provide an icon, description and select teams to share with.
+To create a Cloud Workspace, select <button class="button button--success button--ui button--nolink">+ New Workspace</button> (or <button class="button button--success button--ui button--nolink">+ Create a Worspace</button>). Then, select "Cloud Workspace”, name your Workspace, selecting the hosting service, and then select repositories to add. Optionally, you can also provide an icon, description and select teams or individual users to share with.
 
 <img src="/wp-content/uploads/create-cloud-workspace.gif" class="img-bordered img-responsive center">
 
@@ -45,13 +45,19 @@ Actions can be performed on multiple repositories within the Workspace at once, 
 The following multi-repository actions can be performed:
 - Clone: clone all selected repositories. HTTPS will be used by default unless you have SSH configured in your [Integration settings](https://help.gitkraken.com/gitkraken-client/integrations/). 
 - Fetch: fetch all selected repositories.
+- Pull: pull all selected repositories.
 - Open in GitKraken Client or an external editor: open all selected repositories in GitKraken or in your [default editor](/start-here/preferences/#external-editor).
 - Locate in filesystem: point to all selected repositories locally or update the local location of the repositories if they have changed. 
 - Remove: remove all selected repositories from the Workspace.
 
 ### Pull requests
 
-The Pull Request section will show all open pull requests for all repositories within the selected Workspace. Information shown here includes the pull request title, pull request number, CI status, the name of the branch being merged, and number of comments.
+The Pull Request section will show all open pull requests for all repositories within the selected Workspace. Information shown here includes the pull request title, pull request number, CI status, complexity, the name of the branch being merged, and number of comments.
+
+Complexity is a scale of 1 to 4 that scores a pull request’s complexity based on:
+  - Number of lines changed
+  - Number of files change
+  - Number of commits made
 
 To view a Workspaces pull requests, select a Workspace and then select `Pull Requests`.
 
@@ -156,6 +162,7 @@ Actions can be performed on multiple repositories within the Workspace at once. 
 
 The following multi-repository actions can be performed:
 - Fetch: fetch all selected repositories.
+- Pull: pull all selected repositories.
 - Open in GitKraken Client or an external editor: open all selected repositories in GitKraken or in your [default editor](/start-here/preferences/#external-editor).
 - Remove: remove all selected repositories from the Workspace.
 
