@@ -1,6 +1,6 @@
 ---
 
-title: GitKraken Client Release Note!!
+title: GitKraken Client Release Notes
 description: View a history of the new features and fixes in GitKraken Client's Version 9.
 og_image: /img/GitKrakenClient-Hero.png
 taxonomy:
