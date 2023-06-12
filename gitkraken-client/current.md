@@ -16,6 +16,18 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ***
 
+<a id="v9-5-1"></a>
+## Version 9.5.1
+
+“Squashed bugs.”
+
+### Monday, June 12th, 2023
+
+### Bug Fixes 🐛
+- Fixed an issue where a merge is aborted when there are conflicts and the merging branch is checked out.
+- Fixed an issue that would occur when squashing certain commits.
+
+***
 <a id="v9-5-0"></a>
 ## Version 9.5.0
 
