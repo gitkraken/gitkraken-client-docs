@@ -9,6 +9,9 @@ taxonomy:
 
 GitKraken Client can connect to repositories hosted on most services (like TFS, AWS CodeCommit, [Google Cloud Source Repositories](/integrations/authentication/#google-cloud-source-repositories), custom service, etc), over HTTPS or SSH.
 
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OA9o09Bq5M8?ecver=1" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ***
 ## HTTPS
