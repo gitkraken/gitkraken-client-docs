@@ -37,6 +37,11 @@ If you're coming from a Git project you already have locally, navigate to <kbd><
 
 ***
 ### Cloning an existing project
+
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OA9o09Bq5M8?ecver=1" frameborder="0" allowfullscreen></iframe>
+</div>
+
 If your project is not on your local machine or you want a new copy, clone the project through <kbd><strong>File > Clone</strong></kbd>.
 
 <img src='/wp-content/uploads/clone-url.png' srcset='/wp-content/uploads/clone-url@2x.png 2x' class='img-bordered img-responsive center'>
