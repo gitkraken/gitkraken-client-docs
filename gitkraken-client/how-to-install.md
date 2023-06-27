@@ -30,6 +30,10 @@ Below are platform-specific instructions and details on minimum requirements.
 * [Download (64-bit)](https://gitkraken.com/download/windows64)
 * [Download (32-bit)](https://gitkraken.com/download/windows)
 
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/obIK_732_9M?ecver=1" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ### Install Instructions
 Double-click the downloaded executable file. You will see a splash screen while GitKraken Client is insalled, and then the application will automatically start.
 
