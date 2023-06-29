@@ -154,6 +154,10 @@ View, edit and tie a branch to the issue with the Issue View from Workspace.
 
 Local Workspaces allow you to create easily accessible groups of repositories, take actions across multiple repositories, view details about their state at a glance, and share them with your team.
 
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8xlbH2tNZwc?ecver=1" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ### Create a Local Workspace
 
 To create a Local Workspace, select <button class="button button--success button--ui button--nolink">+ New Workspace</button> (or <button class="button button--success button--ui button--nolink">+ Create a Worspace</button>). Then, select “Local Workspace”, name your Workspace, and browse to select repositories to add to your Local Workspace. You may select individual repositories, a directory of repositories, or a VS Code Workspace (.code-workspace). Optionally, you can also provide an icon and description. 
