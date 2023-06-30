@@ -16,6 +16,52 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ***
 
+<a id="v9-6-0"></a>
+## Version 9.6.0
+
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GcKqlqDzFDU" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+_“Insights get a solo 🎻”_
+
+### Wednesday, July 5th, 2023
+
+### New ✨
+ - GitKraken Insights in Workspaces:
+   - GitKraken Insights has been moved from the Pull Request page to its own Insights page.
+   - Added a "Last updated date" timestamp.
+   - Added a refresh button for an easier time updating Insights metrics. 
+ - Azure DevOps Workspaces:
+  - Users may now create a manually managed Azure DevOps Workspace from a Workspace synced with an Azure Project. 
+
+### Improvements 🙌
+ - Git Executable
+   - Added support for SSH commit signing while using the Git Executable. Commit signing will need to be configured in your gitconfig for now (via `gpg.format`, `user.signingKey`, and `gpg.ssh.allowedSignersFile`).
+   - Added support for SSH strict host key checking. 
+ - Resize commit messages in the Commit Panel to see more (or less) of the message.
+  - First select a commit in the graph to access the resize handle for the commit message in the Commit Panel. 
+ - Improved performance of `View all files` on large repositories.
+ 
+
+### Bug Fixes 🐛
+ - Pull request panel will once again auto-populate with the commit message when the pull request contains only one commit.
+ - When the experimental "Git Executable" feature is enabled, SSH settings for specific integrations will no longer be overridden by the SSH agent.
+ - Cloud Workspaces:
+   - Fixed Azure DevOps projects not appearing when creating/editing a Cloud Workspace.
+   - Fixed `MENTIONED` and `ASSIGNED TO ME` filters on Azure DevOps Cloud Workspaces.
+   - Cloud Workspaces that have already been fetched will no longer disappear when there is an interruption fetching Cloud Workspaces (such as losing connection to the Internet).
+   - Fixed an issue of `cannot read properties of null (reading 'match')` when using the Git Executable experimental feature.
+   - Failure cases in Workspaces have better error messaging to tell the user what is wrong:
+     - ...When GitKraken's integration permissions have been revoked externally (e.g. from the GitHub website).
+     - ...When a Jira administrator attempts to view the issues of a private project which they do not have permission to view.
+ - Fixed an issue where Local Workspaces were not loading.
+ - Fixed an issues with adding or viewing Workspaces in the breadcrumbs for repos without a remote.
+ - Fixed an issue where Jira issue types were not loaded after selecting a Jira project.
+
+***
+
 <a id="v9-5-1"></a>
 ## Version 9.5.1
 
