@@ -59,6 +59,7 @@ _“Insights get a solo 🎻”_
  - Fixed an issue where Local Workspaces were not loading.
  - Fixed an issues with adding or viewing Workspaces in the breadcrumbs for repos without a remote.
  - Fixed an issue where Jira issue types were not loaded after selecting a Jira project.
+ - Fixed an issue where button labels were missing when signing in with SSO and more than one provider is available.
 
 ***
 
