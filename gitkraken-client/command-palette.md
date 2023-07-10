@@ -9,6 +9,11 @@ taxonomy:
 
 The _Command Palette_ is a faster way to access GitKraken Client's actions.
 
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lNsQesvuRj4?ecver=1" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
 ***
 
 Use the _Command Palette_ to open repositories, history for files in the current repository, and settings.
