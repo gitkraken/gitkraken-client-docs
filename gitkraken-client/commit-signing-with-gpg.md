@@ -13,6 +13,8 @@ In Git, you may commit using any name and email address. However, Git supports s
 
 By signing a commit, other users with your public key can verify the commit was created by the owner of that key. Users can also share their public key with their remote hosting service, such as GitHub, so that commits appear as verified on their website.
 
+***
+
 ###Commit Signing with GPG
 
 ####Requirements
@@ -44,7 +46,6 @@ Once you have installed GPG to your machine, you can verify it is installed and 
 </div>
 
 <img src="/wp-content/uploads/gpg-verify.png" srcset="/wp-content/uploads/gpg-verify@2x.png 2x" class="img-bordered img-responsive center">
-
 
 ####Generating a GPG Key In GitKraken
 
@@ -98,7 +99,6 @@ Below is a list of possible signature codes and what they mean:
 + `BADSIG` -- The signature with the keyid has not been verified.
 + `ERRSIG` -- It was not possible to check the signature. This may be caused by a missing public key or an unsupported algorithm.
 
-
 ####Uploading Your GPG Key to a Remote Hosting Service
 
 To upload your GPG public key to your remote hosting service, we recommend viewing the documentation for the respective hosting service:
@@ -133,10 +133,14 @@ Make sure to upload the updated key on your hosting service once you have saved.
 ####Deleting your GPG Key
 
 You can delete your key via terminal with the command `gpg --delete-secret-keys` simply append your username or key ID.
+
 <img src="/wp-content/uploads/delete-key.png" class="img-bordered img-responsive center">
 
 There will be several prompts to make sure that you *really* want to delete your GPG key:
+
 <img src="/wp-content/uploads/delete-key-for-sure.png"  class="img-bordered img-responsive center">
+
+***
 
 ###Commit Signing with SSH
 
@@ -149,35 +153,33 @@ SSH signature verification is available in Gitkraken 9.6.0 as Experimental featu
 `ssh -V`
 - Windows: Install <a href="https://git-scm.com/" target="_blank">Git Bash</a>
 
-
 ####Create SSH Key
 
 Open a Terminal and run this command:
-`ssh-keygen -t ed25519 -C "your_email@example.com"``
+
+`ssh-keygen -t ed25519 -C "your_email@example.com"`
 
 <img src="/wp-content/uploads/gkc-ssh-keygen.png" srcset="/wp-content/uploads/gkc-ssh-keygen@2x.png 2x" class="img-bordered img-responsive center">
 
-
-
 ####Configure git to sign commits with SSH
+
 Run this command to use SSH for signing commits and pointing to the key previously created:
 `git config --global gpg.format sshgit config --global user.signingkey /PATH/TO/.SSH/KEY.PUB`
 
-
 ####Create allowed_signers file
 
-
 This file is needed to verify the key used to sign the commits is valid and known by git
-`touch ~/.ssh/allowed_signers`
-`git config gpg.ssh.allowedSignersFile ~/.ssh/allowed_signers`
-`echo "$(git config --get user.email) namespaces=\"git\" $(cat ~/.ssh/<MY_KEY>.pub)" >> ~/.ssh/allowed_signers`
-
+```
+touch ~/.ssh/allowed_signers
+git config gpg.ssh.allowedSignersFile ~/.ssh/allowed_signers
+echo "$(git config --get user.email) namespaces=\"git\" $(cat ~/.ssh/<MY_KEY>.pub)" >> ~/.ssh/allowed_signers
+```
 
 ####Enable Commit Signing by Default in Gitkraken:
+
 Preferences > GPG > Sign Commits/Tags By defaultPreferences > Experimental > Use Git Executable and select a git executable 2.34 or later
 
 <img src="/wp-content/uploads/gkc-git-executable.png" srcset="/wp-content/uploads/gkc-git-executable@2x.png 2x" class="img-bordered img-responsive center">
-
 
 ####Add the SSH key to your remote hosting 
 
