@@ -32,18 +32,19 @@ _“Insights get a solo 🎻”_
  - GitKraken Insights in Workspaces:
    - GitKraken Insights has been moved from the Pull Request page to its own Insights page.
    - Added a "Last updated date" timestamp.
-   - Added a refresh button for an easier time updating Insights metrics. 
+   - Added a refresh button for an easier time updating Insights metrics.
  - Azure DevOps Workspaces:
-  - Users may now create a manually managed Azure DevOps Workspace from a Workspace synced with an Azure Project. 
+  - Users may now create a manually managed Azure DevOps Workspace from a Workspace synced with an Azure Project.
 
 ### Improvements 🙌
- - Git Executable
-   - Added support for SSH commit signing while using the Git Executable. Commit signing will need to be configured in your gitconfig for now (via `gpg.format`, `user.signingKey`, and `gpg.ssh.allowedSignersFile`).
-   - Added support for SSH strict host key checking. 
+ - Git Executable:
+   - The Git Executable feature will now be enabled by default for all GitKraken Client users.
+   - Added support for SSH commit signing while using the Git Executable. Commit signing will need to be configured in your gitconfig for now (via `gpg.format`, `user.signingKey`, and `gpg.ssh.allowedSignersFile`). Note that actions that do not currently use the Git Executable (like rebasing) will still use GPG for signing.
+   - Added support for SSH strict host key checking.
  - Resize commit messages in the Commit Panel to see more (or less) of the message.
-  - First select a commit in the graph to access the resize handle for the commit message in the Commit Panel. 
+  - First select a commit in the graph to access the resize handle for the commit message in the Commit Panel.
  - Improved performance of `View all files` on large repositories.
- 
+
 
 ### Bug Fixes 🐛
  - Pull request panel will once again auto-populate with the commit message when the pull request contains only one commit.
@@ -57,9 +58,11 @@ _“Insights get a solo 🎻”_
      - ...When GitKraken's integration permissions have been revoked externally (e.g. from the GitHub website).
      - ...When a Jira administrator attempts to view the issues of a private project which they do not have permission to view.
  - Fixed an issue where Local Workspaces were not loading.
- - Fixed an issues with adding or viewing Workspaces in the breadcrumbs for repos without a remote.
+ - Fixed issues with adding or viewing Workspaces in the breadcrumbs for repos without a remote.
  - Fixed an issue where Jira issue types were not loaded after selecting a Jira project.
+ - Fixed an issue where Cherry Picks / Revert completion messages falsely claimed that, "the current branch already has all changes from the commit."
  - Fixed an issue where button labels were missing when signing in with SSO and more than one provider is available.
+ - Fixed an issue where many auto-fetches could queue up in the background.
 
 ***
 
