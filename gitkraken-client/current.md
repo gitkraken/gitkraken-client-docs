@@ -26,7 +26,7 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 _“Insights get a solo 🎻”_
 
-### Monday, July 10th, 2023
+### Tuesday, July 11th, 2023
 
 ### New ✨
  - GitKraken Insights in Workspaces:
