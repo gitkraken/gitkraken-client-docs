@@ -47,6 +47,11 @@ Find below a list of features using the Git binary if the Git Executable experim
 - remote branch delete
 - tag delete (local and remote)
 
+**Added in 9.6.0:**
+- support for SSH commit signing (configured from your gitconfig)
+    - actions that do not currently use the Git Executable (like rebasing) will still use GPG for signing
+- support for SSH strict host key checking
+
 ---
 
 ### AI Commit Message Generation
