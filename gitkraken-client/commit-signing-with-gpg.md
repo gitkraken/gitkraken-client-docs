@@ -1,7 +1,7 @@
 ---
 
-title: Commit Signing with gpg
-description: Learn how to create GPG keys and sign your commits in GitKraken Client
+title: Commit Signing
+description: Learn how to sign your commits in GitKraken Client
 taxonomy:
     category: gitkraken-client
 
@@ -9,11 +9,15 @@ taxonomy:
 
 ##What is Commit Signing?
 
-In Git, you may commit using any name and email address. However, Git supports signing commits and annotated tags using a GPG key pair.
+In Git, you may commit using any name and email address. However, Git supports signing commits and annotated tags using a GPG or SSH key pair.
 
 By signing a commit, other users with your public key can verify the commit was created by the owner of that key. Users can also share their public key with their remote hosting service, such as GitHub, so that commits appear as verified on their website.
 
-###Commit Signing Requirements
+***
+
+###Commit Signing with GPG
+
+####Requirements
 
 Before you start signing your commits, you will first need to install and configure GPG. Our recommendations to get GPG installed quickly are below.
 
@@ -43,8 +47,7 @@ Once you have installed GPG to your machine, you can verify it is installed and 
 
 <img src="/wp-content/uploads/gpg-verify.png" srcset="/wp-content/uploads/gpg-verify@2x.png 2x" class="img-bordered img-responsive center">
 
-
-###Generating a GPG Key In GitKraken
+####Generating a GPG Key In GitKraken
 
 If you have GPG installed on your local machine, you will be able to generate a GPG key pair from within GitKraken Client.
 <div class='callout callout--success'>
@@ -55,7 +58,7 @@ Under `Preferences` → `GPG Preferences`, there is an option to `Generate new G
 
 <img src="/wp-content/uploads/generate-new-gpg-key.png" srcset="/wp-content/uploads/generate-new-gpg-key@2x.png 2x" class="img-bordered img-responsive center">
 
-###Configure GPG in GitKraken
+####Configure GPG in GitKraken
 
 Once you have GPG installed on your machine, you will need to configure GitKraken to use GPG. Launch GitKraken Client and navigate to Preferences → GPG Preferences.
 
@@ -77,7 +80,7 @@ Once you have GPG installed on your machine, you will need to configure GitKrake
 
 + **Generate new GPG Key:** GitKraken Client will generate a new GPG key for you, see [Generating a GPG Key In GitKraken](/git-workflows-and-extensions/commit-signing-with-gpg/#generating-a-gpg-key-in-gitkraken).
 
-###Verifying a Local Commit is Signed
+####Verifying a Local Commit is Signed
 
 You can verify a commit has been signed by selecting a commit and viewing the commit panel. An icon will appear to the left of the commit SHA on signed commits only.
 
@@ -96,18 +99,17 @@ Below is a list of possible signature codes and what they mean:
 + `BADSIG` -- The signature with the keyid has not been verified.
 + `ERRSIG` -- It was not possible to check the signature. This may be caused by a missing public key or an unsupported algorithm.
 
-
-###Uploading Your GPG Key to a Remote Hosting Service
+####Uploading Your GPG Key to a Remote Hosting Service
 
 To upload your GPG public key to your remote hosting service, we recommend viewing the documentation for the respective hosting service:
 
 * <em class='context-menu'><i class="fab fa-github"></i></em> [GitHub](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account)
 * <em class='context-menu'><i class="fab fa-gitlab" aria-hidden="true"></i></em> [GitLab](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/#adding-a-gpg-key-to-your-account)
-* <em class='context-menu'><i class="fab fa-bitbucket" aria-hidden="true"></i></em> [Bitbucket](https://confluence.atlassian.com/bitbucketserver/using-gpg-keys-913477014.html#UsingGPGkeys-AddaGPGkeytoBitbucketServer)
+* <em class='context-menu'><i class="fab fa-bitbucket" aria-hidden="true"></i></em> Only Bitbucket Server[Bitbucket](https://confluence.atlassian.com/bitbucketserver/using-gpg-keys-913477014.html#UsingGPGkeys-AddaGPGkeytoBitbucketServer)
 
 To copy your GPG public key in GitKraken Client, navigate to Preferences → GPG Preferences and below your Signing Key, select `Copy GPG Public Key`.
 
-###Editing Your GPG Key
+####Editing Your GPG Key
 
 Editing your gpg key is helpful when you wish to add another email address to a key or renew an expired key. To edit a GPG key, navigate to your terminal and enter `gpg --list-secret-keys --keyid-format LONG`. This command will output a list of your GPG keys, take note of the ID of the key you wish to edit.
 
@@ -128,11 +130,60 @@ For a complete list you can review [GNU’s documentation](https://www.gnupg.org
 
 Make sure to upload the updated key on your hosting service once you have saved. See [Uploading Your GPG Key to a Remote Hosting Service](/git-workflows-and-extensions/commit-signing-with-gpg/#uploading-your-gpg-key-to-a-remote-hosting-service).
 
-###Deleting your GPG Key
+####Deleting your GPG Key
 
 You can delete your key via terminal with the command `gpg --delete-secret-keys` simply append your username or key ID.
+
 <img src="/wp-content/uploads/delete-key.png" class="img-bordered img-responsive center">
 
 There will be several prompts to make sure that you *really* want to delete your GPG key:
+
 <img src="/wp-content/uploads/delete-key-for-sure.png"  class="img-bordered img-responsive center">
+
+***
+
+###Commit Signing with SSH
+
+SSH signature verification is available in Gitkraken 9.6.0 as Experimental feature
+
+####Requirements
+
+- MacOS and Linux: Git and OpenSSH should be pre-installed. To check if are installed, open a terminal and run
+`git -v`
+`ssh -V`
+- Windows: Install <a href="https://git-scm.com/" target="_blank">Git Bash</a>
+
+####Create SSH Key
+
+Open a Terminal and run this command:
+
+`ssh-keygen -t ed25519 -C "your_email@example.com"`
+
+<img src="/wp-content/uploads/gkc-ssh-keygen.png" srcset="/wp-content/uploads/gkc-ssh-keygen@2x.png 2x" class="img-bordered img-responsive center">
+
+####Configure git to sign commits with SSH
+
+Run this command to use SSH for signing commits and pointing to the key previously created:
+`git config --global gpg.format sshgit config --global user.signingkey /PATH/TO/.SSH/KEY.PUB`
+
+####Create allowed_signers file
+
+This file is needed to verify the key used to sign the commits is valid and known by git
+```
+touch ~/.ssh/allowed_signers
+git config gpg.ssh.allowedSignersFile ~/.ssh/allowed_signers
+echo "$(git config --get user.email) namespaces=\"git\" $(cat ~/.ssh/<MY_KEY>.pub)" >> ~/.ssh/allowed_signers
+```
+
+####Enable Commit Signing by Default in Gitkraken:
+
+Preferences > GPG > Sign Commits/Tags By defaultPreferences > Experimental > Use Git Executable and select a git executable 2.34 or later
+
+<img src="/wp-content/uploads/gkc-git-executable.png" srcset="/wp-content/uploads/gkc-git-executable@2x.png 2x" class="img-bordered img-responsive center">
+
+####Add the SSH key to your remote hosting 
+
+* <em class='context-menu'><i class="fab fa-github"></i></em> [GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+* <em class='context-menu'><i class="fab fa-gitlab" aria-hidden="true"></i></em> [GitLab](https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account)
+* <em class='context-menu'><i class="fab fa-bitbucket" aria-hidden="true"></i></em> Commit Signing verification is not supported on Bitbucket.org
 
