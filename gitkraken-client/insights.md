@@ -11,7 +11,7 @@ taxonomy:
 
 GitKraken Insights is a powerful tool that helps you visualize how pull requests are merged into your repositories. It provides a visual representation of your repository's history, allowing you to see how your codebase has evolved over time. You can use this information to make informed decisions about how to improve your workflow.
 
-Insights is available for Github.com, Bitbucket.org, Gitlab.com, and Azure DevOps (Hosted).
+Insights is available for Github.com, Bitbucket.com, Gitlab.com, and Azure DevOps (Hosted).
 
 <img src="/wp-content/uploads/gkc-insights-tab.png" srcset="/wp-content/uploads/gkc-insights-tab@2x.png" class="img-bordered img-responsive center">
 
