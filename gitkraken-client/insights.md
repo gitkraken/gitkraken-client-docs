@@ -13,7 +13,7 @@ GitKraken Insights is a powerful tool that helps you visualize how pull requests
 
 Insights is available for Github.com, Bitbucket.org, Gitlab.com, and Azure DevOps (Hosted).
 
-<img src="/wp-content/uploads/Insights.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/gkc-insights-tab.png" srcset="/wp-content/uploads/gkc-insights-tab@2x.png" class="img-bordered img-responsive center">
 
 <div class='callout callout--warning'>
     <p>
@@ -25,7 +25,8 @@ Insights is available for Github.com, Bitbucket.org, Gitlab.com, and Azure DevOp
 
 To enable GitKraken Insights, you’ll first need to open a Cloud Workspace and then navigate to the Pull Request section. From here, click to connect to your remote hosting service.
 
-<img src="/wp-content/uploads/insights-connect.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/gkc-insights-connect.png" srcset="/wp-content/uploads/gkc-insights-connect@2x.png" class="img-bordered img-responsive center">
+
 
 You can also connect Gitkraken Insights to your remote hosting service from <kbd>Preferences > Integrations</kbd>
 
@@ -39,7 +40,7 @@ You can also connect Gitkraken Insights to your remote hosting service from <kbd
 
 ### Metrics
 
-<img src="/wp-content/uploads/insights-metrics.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/gkc-insights-metrics.png" srcset="/wp-content/uploads/gkc-insights-metrics@2x.png" class="img-bordered img-responsive center">
 
 Once you've connected to your remote hosting service, you'll be able to see the following metrics:
 
