@@ -7,6 +7,12 @@ taxonomy:
 
 ---
 
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZgYjeaJDbX8?ecver=1" frameborder="0" allowfullscreen></iframe>
+</div>
+
+***
+
 GitKraken Client uses profiles to store your app preferences, current [Tabs](/start-here/interface/#tabs), and Git config information.
 
 

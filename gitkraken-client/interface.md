@@ -214,6 +214,11 @@ Referred to as the left "ref" panel, GitKraken Client shows the properties below
 ***
 
 ## Commit Panel
+
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ujgcCLBQvm0?ecver=1" frameborder="0" allowfullscreen></iframe>
+</div>
+
 The Commit Panel is where files and changes from your working directory are staged and committed.
 
 <img src='/wp-content/uploads/commit-panel@2x.png' class='img-bordered img-responsive center'>
