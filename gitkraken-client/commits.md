@@ -151,6 +151,10 @@ If you're a keyboard fan, you may also enjoy using the keyboard shortcut
 
 ### Reverting commits
 
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/U_axv67W1Ik?ecver=1" frameborder="0" allowfullscreen></iframe>
+</div>
+
 If you wish to revert a commit (perhaps Undo is not available), the option is available when right-clicking on a commit node. This will create a new commit to reverse your previous changes.
 
 <img src='/wp-content/uploads/revert-commit.png' srcset='/wp-content/uploads/revert-commit@2x.png 2x' class='img-bordered img-responsive center'>
