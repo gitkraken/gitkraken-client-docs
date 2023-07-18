@@ -17,6 +17,11 @@ From left to right, GitKraken Client displays a left reference panel, center gra
 <img src="/wp-content/uploads/interface.png" class="img-responsive center">
 
 ## Toolbar
+
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Xv9EAJqucOI?ecver=1" frameborder="0" allowfullscreen></iframe>
+</div>
+
 In addition to Undo and Redo, the main toolbar houses common repo actions.
 
 <h3>Undo</h3>
