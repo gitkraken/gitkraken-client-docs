@@ -5,6 +5,9 @@ description: Easily integrate GitKraken with you GitLab Self-Managed repository.
 taxonomy:
     category: gitkraken-client
 
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BhIX7fGSM8k?ecver=1" frameborder="0" allowfullscreen></iframe>
+</div>
 ---
 
 GitKraken allows you to connect to GitLab Self-Managed (CE or EE), which will help you find repos when cloning or adding your remotes.

@@ -118,6 +118,10 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
 ***
 ## Left reference panel
 
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4uSXlUUU0ds?ecver=1" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Referred to as the left "ref" panel, GitKraken Client shows the properties below specific to your repository.
 
 * The panel and each section can be collapsed or expanded as needed. 
