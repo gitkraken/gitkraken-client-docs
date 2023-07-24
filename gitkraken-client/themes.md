@@ -5,6 +5,9 @@ description: Using and creating themes in GitKraken Client.
 taxonomy:
     category: gitkraken-client
 
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_TMprlLc740?ecver=1" frameborder="0" allowfullscreen></iframe>
+</div>
 ---
 
 ## Built-in Themes
