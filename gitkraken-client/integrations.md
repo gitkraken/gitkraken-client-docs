@@ -12,7 +12,7 @@ taxonomy:
 GitKraken Client allows you to connect many different services and platforms, making it easy to work with your remote repositories. 
 
 - [GitHub](/gitkraken-client/github-gitkraken-client/)
-- [GitHub Enterprise](/gitkraken-client/github-enterprise/)
+- [GitHub Enterprise Server](/gitkraken-client/github-enterprise/)
 - [GitLab](/gitkraken-client/gitlab-gitkraken-client/)
 - [GitLab Self-Managed](/gitkraken-client/gitlab-self-hosted/)
 - [Bitbucket](/gitkraken-client/bitbucket)
@@ -30,4 +30,4 @@ GitKraken Client makes it easy to integrate with a wide variety of issue trackin
 - [GitLab Issues](/gitkraken-client/gitlab-issues/)
 - [GitLab Self-Managed Issues](/gitkraken-client/gitlab-self-managed-issues/)
 - [GitHub Issues](/gitkraken-client/github-issues/)
-- [GitHub Enterprise Issues](/gitkraken-client/github-enterprise-issues/)
+- [GitHub Enterprise Server Issues](/gitkraken-client/github-enterprise-issues/)
