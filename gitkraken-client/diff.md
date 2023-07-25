@@ -7,6 +7,9 @@ taxonomy:
 
 ---
 
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-0bn2H63axM?ecver=1" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Compare changes within GitKraken Client _diffs_. Learn where to access _diffs_, and how to access _file history_ or _file blame_.
 
