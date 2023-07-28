@@ -43,7 +43,6 @@ _“Sharing is caring.”_
  - Fixed an issue where the GPG program could be set to an invalid value, causing issues with GPG actions.
  - Fixed cases of improper UI for the Workspace pull request list when using the search bar.
  - Fixed cases where a blank screen could appear while viewing a repo's README from a Workspace.
-
 ***
 
 <a id="v9-6-0"></a>
