@@ -11,7 +11,7 @@ GitKraken allows you to connect to GitHub Enterprise Server, which will help you
 
 **Benefits**
 
-* Create repositories on GitHub Enterprise Serveraccount including .gitignore and license
+* Create repositories on GitHub Enterprise Server account including .gitignore and license
 * Automatically generate an SSH key pair and add it to GitHub Enterprise Server
 * [Fork repositories](/working-with-repositories/fork/) from GitKraken
 * Save authentication into profiles
