@@ -16,6 +16,38 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ***
 
+<a id="v9-6-1"></a>
+## Version 9.6.1
+
+_“Sharing is caring.”_
+
+### Tuesday, August 1st, 2023
+
+### New ✨
+ - Added a share button in the Workspaces tab for inviting organization members and/or teams to join a Workspace.
+
+### Improvements 🙌
+ - Upgraded to Electron 22.
+ - Experimental Feature - Git Executable:
+   - Added push support.
+   - Force push will now default to `--force-with-lease`, and prompt to `fetch` or `push --force` (without lease) when the remote ref and remote-tracking branch are different.
+   - Added support for streaming Git Hooks output.
+ - Renamed the GitKraken Terminal command `gk` to `gkc`.
+
+### Bug Fixes 🐛
+ - Fixed an issue loading Workspace pull requests when repos have too many pull requests.
+ - Fixed an issue where GitKraken Client couldn't start if the last opened repository was no longer openable.
+ - Fixed instances where the Git info in the Workspace repository list would not display.
+ - Fixed error toast that appears when a rebase fails due to conflicts.
+ - Fixed an issue where GitKraken Client wouldn't show that a merge was active after resolving a conflict.
+ - Fixed an issue where Workspace pull requests would not display if a team, bot, or mannequin was a requested reviewer.
+ - Fixed an issue where the GPG program could be set to an invalid value, causing issues with GPG actions.
+ - Fixed cases of improper UI for the Workspace pull request list when using the search bar.
+ - Fixed cases where a blank screen could appear while viewing a repo's README from a Workspace.
+ - Fixed tilde resolution of `core.hooksPath` in some cases.
+
+***
+
 <a id="v9-6-0"></a>
 ## Version 9.6.0
 
