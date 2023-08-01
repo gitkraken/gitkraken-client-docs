@@ -30,6 +30,7 @@ _“Sharing is caring.”_
  - Upgraded to Electron 22.
  - Experimental Feature - Git Executable:
    - Added push support.
+   - Force push will now default to `--force-with-lease`, and prompt to `fetch` or `push --force` (without lease) when the remote ref and remote-tracking branch are different.
    - Added support for streaming Git Hooks output.
  - Renamed the GitKraken Terminal command `gk` to `gkc`.
 
@@ -43,6 +44,8 @@ _“Sharing is caring.”_
  - Fixed an issue where the GPG program could be set to an invalid value, causing issues with GPG actions.
  - Fixed cases of improper UI for the Workspace pull request list when using the search bar.
  - Fixed cases where a blank screen could appear while viewing a repo's README from a Workspace.
+ - Fixed tilde resolution of `core.hooksPath` in some cases.
+
 ***
 
 <a id="v9-6-0"></a>
