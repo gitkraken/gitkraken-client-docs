@@ -52,6 +52,10 @@ Find below a list of features using the Git binary if the Git Executable experim
     - actions that do not currently use the Git Executable (like rebasing) will still use GPG for signing
 - support for SSH strict host key checking
 
+**Added in 9.6.1:**
+- push
+- support for streaming Git hooks output
+
 ---
 
 ### AI Commit Message Generation
