@@ -16,6 +16,10 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ***
 
+Added a change. 
+
+***
+
 <a id="v9-6-1"></a>
 ## Version 9.6.1
 
