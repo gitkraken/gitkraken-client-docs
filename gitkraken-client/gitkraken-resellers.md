@@ -22,7 +22,7 @@ First, create a GitKraken account using your reseller email address by navigatin
 + After account creation you will need to verify your email before taking any action. This is done by selecting the link sent to your email.
 
 <div class='callout callout--basic'>
-   	<p>Note: If you make GitKraken purchases for multiple customers and already have a GitKraken account, choose to Sign into an existing account and continue onto Step 2.</p>
+   	<p>If you make GitKraken purchases for multiple customers and already have a GitKraken account, choose to sign into an existing account and continue onto Step 2.</p>
 </div>
 
 <img src="/wp-content/uploads/gitkraken-reseller-guide-create-an-account-or-sign-in.png" class="img-responsive center img-bordered">
@@ -48,7 +48,7 @@ You will be guided through selecting a product for the customer organization, fo
 
 
 <div class='callout callout--basic'>
-   	<p>Note: GitKraken Subscriptions only accept card, PayPal, and ACH bank payments. However, invoicing is supported for large purchases of GitKraken Enterprise. Contact our Customer Success team to learn more.</p>
+   	<p>GitKraken Subscriptions only accept card, PayPal, and ACH bank payments. However, invoicing is supported for large purchases of GitKraken Enterprise. Contact our Customer Success team to learn more.</p>
 </div>
 
 To complete the purchase, input:
@@ -69,18 +69,18 @@ You can [add users](/gitkraken-client/gitkraken-organization/#add-users) to the 
 
 Follow this reseller guide for purchasing additional licenses on an existing account.
 
-1. Log into app.gitkraken.com
-2. Select on the customer’s Organization listed in the left sidebar
-3. Navigate to the Subscriptions tab
-4. Under Subscription Details, increase total quantiy of Users to reflect the total user count including the additional licenses you are purchasing for the customer
-5. The Billing Summary will populate the cost of add additional users to the customer account. Please utilize this to provide the customer an official quote for adding users.
-6. Update your billing details if needed and select “Complete Purchase.” The customer will have immediate access to the additional licenses.
+1. Log into [app.gitkraken.com](https://app.gitkraken.com/)
+2. Select the customer’s organization listed in the left sidebar
+3. Navigate to the "Subscriptions" tab
+4. Under Subscription Details, increase total quantiy of users to reflect the total user count including the additional licenses you are purchasing for the customer
+5. The Billing Summary will populate the cost of add additional users to the customer account. Please utilize this to provide the customer an official quote for adding users
+6. Update your billing details if needed and select “Complete Purchase.” The customer will have immediate access to the additional licenses
 
 <img src="/wp-content/uploads/existing-purchases.gif" class="img-responsive center img-bordered">
 
 <div class='callout callout--basic'>
-   	<p>Note: The cost to add users to an existing account is prorated against the billing cycle of the initial purchase of the account.</p>
-       	<p>Note: If you are a reseller and the customer’s organization is not listed on your GitKraken account, contact our [Customer Success team](https://www.gitkraken.com/sales-inquiries) for assistance.</p>
+   	<p>The cost to add users to an existing account is prorated against the billing cycle of the initial purchase of the account.</p>
+       	<p>If you are a reseller and the customer’s organization is not listed on your GitKraken account, contact our [Customer Success team](https://www.gitkraken.com/sales-inquiries) for assistance.</p>
 </div>
 
 ***
@@ -92,19 +92,19 @@ Follow this reseller guide for purchasing additional licenses on an existing acc
 Here’s how to obtain a quote for an upgrade (either adding licenses or changing plans).
 
 1. Log into [app.gitkraken.com](https://app.gitkraken.com/)
-2. Select on the customer’s Organization listed in the left sidebar
-3. Navigate to the Subscriptions tab
+2. Select the customer’s organization listed in the left sidebar
+3. Navigate to the "Subscriptions" tab
 4. Make the upgrade you would like (either adding licenses or changing plans) but don’t select purchase yet
-5. The Billing Summary will populate the cost of the upgrade on the customer’s subscription. Please use this to provide the customer an official quote for the upgrade.
+5. The Billing Summary will populate the cost of the upgrade on the customer’s subscription. Please use this to provide the customer an official quote for the upgrade
 
 <img src="/wp-content/uploads/gitkraken-reseller-guide-upgrade-quote.png" class="img-responsive center img-bordered">
 
 ### Renewal Quote
 
 1. Log into [app.gitkraken.com](https://app.gitkraken.com/)
-2. Select on the customer’s Organization listed in the left sidebar
-3. Navigate to the Subscriptions tab
-4. The Billing Summary will indicate the Annual Total. Please use this to provide the customer an official quote for the yearly renewal. The date of the renewal is listed as “Next charge.”
+2. Select the customer’s organization listed in the left sidebar
+3. Navigate to the "Subscriptions" tab
+4. The Billing Summary will indicate the Annual Total. Please use this to provide the customer an official quote for the yearly renewal. The date of the renewal is listed as “Next charge”
 
 <img src="/wp-content/uploads/gitkraken-reseller-guide-renewal-quote.png" class="img-responsive center img-bordered">
 

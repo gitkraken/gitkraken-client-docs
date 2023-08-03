@@ -7,18 +7,18 @@ taxonomy:
     
 ---
 
-A GitKraken Organization is a collection of [GitKraken accounts](/gitkraken-client/gitkraken-account/) which unlocks a shared [subscription](/gitkraken-client/gitkraken-subscriptions/) , collaboration features between members, and administration of the members in the organization.
+A GitKraken organization is a collection of [GitKraken accounts](/gitkraken-client/gitkraken-account/) which unlocks a shared [subscription](/gitkraken-client/gitkraken-subscriptions/), collaboration features between members, and administration of the members in the organization.
 
 
 ***
 
 ## Create
 
-To create an organization, go to [app.gitkraken.com](https://app.gitkraken.com/), or select “Manage Account” in the drop down menu inside of GitKraken Client, and select “Create Organization” in the left side menu. If you are not part of any organization, you can select “New Trial Organization”. The creator of the organization is automatically the owner of it.
+To create an organization, go to [app.gitkraken.com](https://app.gitkraken.com/), or select “Manage Account” in the drop down menu inside of GitKraken Client, and select “Create Organization” in the left side menu. If you are not part of any organization, you can select “New Trial Organization." The creator of the organization is automatically the [owner](/gitkraken-client/gitkraken-organization/##roles) of it.
 
 <img src="/wp-content/uploads/gitkraken-organization-create.png" class="img-responsive center img-bordered">
 
-You also have the option to purchase an organization for someone else that would be the owner and use the subscription. This will ask who the owner is by email and will send them email instructions with next steps. You will be set as the Billing Contact.
+You also have the option to purchase an organization for someone else that would be the [owner](/gitkraken-client/gitkraken-organization/##roles) and use the subscription. To do this, check "This purchase is for someone else" in the checkout page and it will ask who the owner is by email and sends them email instructions with next steps. You will be the owner of the organization until they accept, then you will be set as the [Billing Contact](/gitkraken-client/gitkraken-organization/##roles).
 
 <img src="/wp-content/uploads/gitkraken-organization-create-2.png" class="img-responsive center img-bordered">
 
@@ -26,11 +26,11 @@ You also have the option to purchase an organization for someone else that would
 
 ## Add Users
 
-To add someone to your organization, go to [app.gitkraken.com](https://app.gitkraken.com/), select your organization in the left sidebar, select users, and finally select Add Users. Here you can enter as many email addresses as you want and the [role](/gitkraken-client/gitkraken-organization/#roles) (in the drop down) you would like to assign them all. 
+To add someone to your organization, go to [app.gitkraken.com](https://app.gitkraken.com/), select your organization in the left sidebar, select "Users," and finally select "Add Users." Here you can enter as many email addresses as you want and the [role](/gitkraken-client/gitkraken-organization/#roles) (in the drop down) you would like to assign them all. 
 
 <img src="/wp-content/uploads/gitkraken-organization-add-users.png" class="img-responsive center img-bordered">
 
-Only members that have a [role](/gitkraken-client/gitkraken-organization/#roles) with permission can add users to an organization. When you do add someone, it will consume a license of your subscription. If all available licenses are consumed when adding a user, a billing summary will show up during the process, select purchase to complete the transaction and add the users.
+Only members that have a [role](/gitkraken-client/gitkraken-organization/#roles) with permission can add users to an organization. When you do add someone, it will consume a license of your subscription. If all available licenses are consumed when adding a user, a billing summary will show up during the process, select "Purchase" to complete the transaction and add the users.
 
 <img src="/wp-content/uploads/gitkraken-organization-add-users-2.png" class="img-responsive center img-bordered">
 
@@ -42,9 +42,9 @@ You can also add licenses in bulk to your organization separately from adding us
 
 Any Owner, Admin, or Billing Contact may remove users and then add users to reallocate licenses.
 
-Note: the Billing Contact role cannot remove or edit Owner or Admin users.
+The Billing Contact role cannot remove or edit Owner or Admin users.
 
-To reallocate a license, navigate to Users and then select Remove for the desired user. Then, you can add the new user. 
+To reallocate a license, navigate to Users and then select "Remove" for the desired user. Then, you can add the new user. 
 
 ***
 
@@ -146,7 +146,7 @@ Single sign-on (SSO) is available for organizations that require it. SSO require
 
 ### How to setup SSO
 
-We can keep the existing instructions for this starting with the [Setting up SSO](/gitkraken-client/single-sign-on/#setting-up-sso-on-a-gitkraken-organization) section.
+See how to setup SSO by visiting the [Setting up SSO](/gitkraken-client/single-sign-on/#setting-up-sso-on-a-gitkraken-organization/###setting-up-ssp-on-a-gitKraken-organization) section.
 
 ***
 
@@ -154,7 +154,7 @@ We can keep the existing instructions for this starting with the [Setting up SSO
 
 Visiting the Settings section of your organization will give you a snapshot of your subscription and allow you to edit a few key aspects of your organization like changing the name and [transferring ownership](/gitkraken-client/gitkraken-organization/#transfer-ownership) of the organization.
 
-you can hide organizations that you do not wish to see from the sidebar view by checking the “Hide organization in the sidebar” box. You can also rename an organization by typing the desired name into **Organization Name** and then selecting save. 
+you can hide organizations that you do not wish to see from the sidebar view by checking the “Hide organization in the sidebar” box. You can also rename an organization by typing the desired name into **Organization Name** and then selecting "Save."
 
 <img src="/wp-content/uploads/gitkraken-organization-settings.png" class="img-responsive center img-bordered">
 
@@ -162,7 +162,7 @@ you can hide organizations that you do not wish to see from the sidebar view by 
 
 ## Transfer Ownership
 
-If you’re the owner of an organization and would like to make someone else the owner you can do that. First you need to make sure to first add that account to the organization. Once the account is added to your organization, go to your organization, select Settings and then “Transfer ownership.” You will select the user within the organization to become the owner (and type their email to confirm). Once you select the red “Transfer Ownership,” the transfer is final and cannot be undone unless the new owner transfers ownership back to the original owner.
+If you’re the [owner](/gitkraken-client/gitkraken-organization/##roles) of an organization and would like to make someone else the owner you can do that. First you need to make sure to first add that account to the organization. Once the account is added to your organization, go to your organization, select "Settings" and then “Transfer ownership.” You will select the user within the organization to become the owner (and type their email to confirm). Once you select “Transfer Ownership,” the transfer is final and cannot be undone unless the new owner transfers ownership back to the original owner.
 
 <img src="/wp-content/uploads/gitkraken-organization-transfer-organization.gif" class="img-responsive center img-bordered">
 
