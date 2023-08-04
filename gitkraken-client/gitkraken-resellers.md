@@ -80,7 +80,7 @@ Follow this reseller guide for purchasing additional licenses on an existing acc
 
 <div class='callout callout--basic'>
    	<p>The cost to add users to an existing account is prorated against the billing cycle of the initial purchase of the account.</p>
-       	<p>If you are a reseller and the customer’s organization is not listed on your GitKraken account, contact our [Customer Success team](https://www.gitkraken.com/sales-inquiries) for assistance.</p>
+       	<p>If you are a reseller and the customer’s organization is not listed on your GitKraken account, contact our <a href="https://www.gitkraken.com/sales-inquiries">Customer Success team</a> for assistance.</p>
 </div>
 
 ***
@@ -107,5 +107,3 @@ Here’s how to obtain a quote for an upgrade (either adding licenses or changin
 4. The Billing Summary will indicate the Annual Total. Please use this to provide the customer an official quote for the yearly renewal. The date of the renewal is listed as “Next charge”
 
 <img src="/wp-content/uploads/gitkraken-reseller-guide-renewal-quote.png" class="img-responsive center img-bordered">
-
-***

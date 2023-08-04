@@ -18,7 +18,7 @@ To create an organization, go to [app.gitkraken.com](https://app.gitkraken.com/)
 
 <img src="/wp-content/uploads/gitkraken-organization-create.png" class="img-responsive center img-bordered">
 
-You also have the option to purchase an organization for someone else that would be the [owner](/gitkraken-client/gitkraken-organization/##roles) and use the subscription. To do this, check "This purchase is for someone else" in the checkout page and it will ask who the owner is by email and sends them email instructions with next steps. You will be the owner of the organization until they accept, then you will be set as the [Billing Contact](/gitkraken-client/gitkraken-organization/##roles).
+You also have the option to purchase an organization for someone else that would be the [owner](/gitkraken-client/gitkraken-organization/#roles) and use the subscription. To do this, check "This purchase is for someone else" in the checkout page and it will ask who the owner is by email and sends them email instructions with next steps. You will be the owner of the organization until they accept, then you will be set as the [Billing Contact](/gitkraken-client/gitkraken-organization/#roles).
 
 <img src="/wp-content/uploads/gitkraken-organization-create-2.png" class="img-responsive center img-bordered">
 
@@ -146,7 +146,7 @@ Single sign-on (SSO) is available for organizations that require it. SSO require
 
 ### How to setup SSO
 
-See how to setup SSO by visiting the [Setting up SSO](/gitkraken-client/single-sign-on/#setting-up-sso-on-a-gitkraken-organization/###setting-up-ssp-on-a-gitKraken-organization) section.
+See how to setup SSO by visiting the [Setting up SSO](/gitkraken-client/single-sign-on/#setting-up-sso-on-a-gitkraken-organization/#setting-up-ssp-on-a-gitKraken-organization) section.
 
 ***
 
@@ -162,8 +162,6 @@ you can hide organizations that you do not wish to see from the sidebar view by 
 
 ## Transfer Ownership
 
-If you’re the [owner](/gitkraken-client/gitkraken-organization/##roles) of an organization and would like to make someone else the owner you can do that. First you need to make sure to first add that account to the organization. Once the account is added to your organization, go to your organization, select "Settings" and then “Transfer ownership.” You will select the user within the organization to become the owner (and type their email to confirm). Once you select “Transfer Ownership,” the transfer is final and cannot be undone unless the new owner transfers ownership back to the original owner.
+If you’re the [owner](/gitkraken-client/gitkraken-organization/#roles) of an organization and would like to make someone else the owner you can do that. First you need to make sure to first add that account to the organization. Once the account is added to your organization, go to your organization, select "Settings" and then “Transfer ownership.” You will select the user within the organization to become the owner (and type their email to confirm). Once you select “Transfer Ownership,” the transfer is final and cannot be undone unless the new owner transfers ownership back to the original owner.
 
 <img src="/wp-content/uploads/gitkraken-organization-transfer-organization.gif" class="img-responsive center img-bordered">
-
-***

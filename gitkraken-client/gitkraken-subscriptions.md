@@ -7,7 +7,7 @@ taxonomy:
     
 ---
 
-Subscriptions are tied directly to an [organization](/gitkraken-client/gitkraken-organization/), even if the subscription is for one user. The subscription is identical for everyone in the organization and one license is required for every member (unless their [role](/gitkraken-client/gitkraken-organization/##roles) does not use a license).
+Subscriptions are tied directly to an [organization](/gitkraken-client/gitkraken-organization/), even if the subscription is for one user. The subscription is identical for everyone in the organization and one license is required for every member (unless their [role](/gitkraken-client/gitkraken-organization/#roles) does not use a license).
 
 ## How to Purchase
 To purchase a subscription for the first time follow these steps:
