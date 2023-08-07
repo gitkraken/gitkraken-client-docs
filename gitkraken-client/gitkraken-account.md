@@ -42,5 +42,3 @@ You can delete your GitKraken account at any time by navigating to the "ACCOUNT 
 
 One exception to this is if you are a non-admin of a GitKraken organization. This is due to company organizations having administrative control over employee accounts. You need to ask an administrator of the GitKraken organization to remove your account from it before deleting your GitKraken account.
 GitKraken is compliant with GDPR. Once you delete your GitKraken account, it cannot be undone. By doing so you will lose the remainder of your subscription (if applicable), cloud workspaces, Insights, organizations, and more.
-
-***

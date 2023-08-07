@@ -29,7 +29,7 @@ Or you may login by navigating to <kbd><strong>the profile dropdown</strong></kb
 
 <img src='/wp-content/uploads/login.png' class='img-bordered img-responsive center'>
 
-<img src='/wp-content/uploads/sign-in-with-github.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/sign-in-with-github-2.png' class='img-bordered img-responsive center'>
 
 When you sign in with GitHub, GitKraken Client will check whether your GitHub account has the GitHub Student Pack. If the app sees the pack, you should see the `Pro` flag in the bottom right of the UI and you will be able to open private repos.
 
