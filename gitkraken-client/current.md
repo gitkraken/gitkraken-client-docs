@@ -31,7 +31,7 @@ _“Shall we compare dates?”_
 - Your working directory can now be compared against any commit or branch! This can be accomplished in two ways:
     - Right-click a commit or branch, and choose `Compare commit against working directory`
     - Use <kbd>Ctrl</kbd> click (or <kbd>Cmd</kbd> click on MacOS) to select your Work-in-Progress ("WIP") node, along with the commit of your choice.
- - GitKraken Client will now attempt to pull Date/Time settings from OS preferences, along with an override in <kbd>Preferences > UI Customization</kbd>.
+- GitKraken Client will now attempt to pull Date/Time settings from OS preferences, along with an override in <kbd>Preferences > UI Customization</kbd>.
    - Windows: Region & Short date format preferences
    - macOS: Region & Date format preferences
    - All: LC_ALL & LC_TIME environment variables
