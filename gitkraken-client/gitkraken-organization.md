@@ -146,7 +146,7 @@ Single sign-on (SSO) is available for organizations that require it. SSO require
 
 ### How to setup SSO
 
-See how to setup SSO by visiting the [Setting up SSO](/gitkraken-client/single-sign-on/#setting-up-sso-on-a-gitkraken-organization/#setting-up-ssp-on-a-gitKraken-organization) section.
+See how to setup SSO by visiting the [Setting up SSO](/gitkraken-client/single-sign-on/#setting-up-sso-on-a-gitkraken-organization) section.
 
 ***
 
