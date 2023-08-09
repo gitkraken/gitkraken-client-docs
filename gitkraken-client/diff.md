@@ -127,6 +127,15 @@ This will produced a combined diff, which lists all files that were added, modif
 </div>
 
 ***
+
+## Diff a WIP
+
+When you have a Work in Progress (WIP), you can diff this against any commit or branch by ctrl/command clicking the WIP and then the other desired commit. Alternativley, with your WIP sleected, you can right-click the desired commit or branch and select `compare commit against working directory`.
+
+<img src='/wp-content/uploads/gkc-wip-diff.png' class='img-bordered img-responsive center'>
+
+***
+
 ## File Blame and History
 
 _File History_ and _File Blame_ information display in the same view.
