@@ -158,6 +158,8 @@ The following UI preferences are available:
 
 - [Theme](/start-here/themes)
 - Notification location
+- Date/Time Locale
+- Date/Time Short Format
 - Show toolbar icon labels
 - Enable spell checking
 - Display author initials instead of avatars (Gravatar) 
@@ -169,6 +171,12 @@ The following UI preferences are available:
 - Show commit author in graph
 - Show commit date/time in graph
 - Show commit sha in graph
+
+### Date/Time Locale and Short Format
+
+Date and Time Locale can be set from the UI Customization to match your system or you can set a custom locale. The Date/Time Short Format will match the Date/Time Locale. However, you can define a custom format as well.
+
+See all formatting options that can be used <a href="https://momentjs.com/docs/#/displaying/format/">here</a>. 
 
 ## GPG Preferences
 
@@ -203,6 +211,7 @@ Activate [Experimental Features](/gitkraken-client/experimental-features.md) and
 
 - Git Binary: Use Git executable instead of NodeGit Git actions (partially, not all git actions are implemented to Git executable)
 - AI Commit Message Generation
+
 ## Repo-Specific Preferences
 
 Repo-Specific preferences only apply to the repo currently open in GitKraken Client. The following preferences are repo-specific:
