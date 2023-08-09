@@ -146,7 +146,7 @@ Single sign-on (SSO) is available for organizations that require it. SSO require
 
 ### How to setup SSO
 
-See how to setup SSO by visiting the [Setting up SSO](/gitkraken-client/single-sign-on/#setting-up-sso-on-a-gitkraken-organization/#setting-up-ssp-on-a-gitKraken-organization) section.
+See how to setup SSO by visiting the [Setting up SSO](/gitkraken-client/single-sign-on/#setting-up-sso-on-a-gitkraken-organization) section.
 
 ***
 
@@ -154,7 +154,7 @@ See how to setup SSO by visiting the [Setting up SSO](/gitkraken-client/single-s
 
 Visiting the Settings section of your organization will give you a snapshot of your subscription and allow you to edit a few key aspects of your organization like changing the name and [transferring ownership](/gitkraken-client/gitkraken-organization/#transfer-ownership) of the organization.
 
-you can hide organizations that you do not wish to see from the sidebar view by checking the “Hide organization in the sidebar” box. You can also rename an organization by typing the desired name into **Organization Name** and then selecting "Save."
+You can hide organizations that you do not wish to see from the sidebar view by checking the “Hide organization in the sidebar” box. You can also rename an organization by typing the desired name into **Organization Name** and then selecting "Save."
 
 <img src="/wp-content/uploads/gitkraken-organization-settings.png" class="img-responsive center img-bordered">
 

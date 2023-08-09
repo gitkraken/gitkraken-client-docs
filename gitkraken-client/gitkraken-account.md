@@ -29,6 +29,7 @@ Once you have created your GitKraken account, your account is tied to the primar
 ## Personalization
 
 You can personalize your account to determine how you appear to other users within any GitKraken [organization](/gitkraken-client/gitkraken-organization/) your account may be associated with. You can personalize your account at [app.gitkraken.com](https://app.gitkraken.com/account-info) once you have logged in. Here you can change your avatar, name, username, email, and password.
+
 If you select “Change avatar,” you will be taken to [Gravatar](https://gravatar.com). This is where you can select your avatar which your GitKraken account pulls from Gravatar and is associated with the shared email between your GitKraken account and your Gravatar. Please note that it may take several hours for your avatar change to reflect in GitKraken.
 
 <img src="/wp-content/uploads/gitkraken-account-personalization.png" class="img-responsive center img-bordered">
@@ -41,4 +42,5 @@ If you select “Change avatar,” you will be taken to [Gravatar](https://grava
 You can delete your GitKraken account at any time by navigating to the "ACCOUNT INFO" section and selecting "<span style='color: red;'>Delete my Account</span>." Complete the confirmation instructions and select "<span style='color: red;'>Delete your Account</span>" to complete the process.
 
 One exception to this is if you are a non-admin of a GitKraken organization. This is due to company organizations having administrative control over employee accounts. You need to ask an administrator of the GitKraken organization to remove your account from it before deleting your GitKraken account.
+
 GitKraken is compliant with GDPR. Once you delete your GitKraken account, it cannot be undone. By doing so you will lose the remainder of your subscription (if applicable), cloud workspaces, Insights, organizations, and more.
