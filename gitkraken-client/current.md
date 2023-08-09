@@ -16,6 +16,38 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ***
 
+<a id="v9-7-0"></a>
+## Version 9.7.0
+
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nWt2PK0zQXA" frameborder="0" allowfullscreen></iframe>
+</div>
+
+_“Shall we compare dates?”_
+
+### Wednesday, August 9th, 2023
+
+### New ✨
+- Your working directory can now be compared against any commit or branch! This can be accomplished in two ways:
+    - Right-click a commit or branch, and choose `Compare commit against working directory`
+    - Use <kbd>Ctrl</kbd> click (or <kbd>Cmd</kbd> click on MacOS) to select your Work-in-Progress ("WIP") node, along with the commit of your choice.
+ - GitKraken Client will now attempt to pull Date/Time settings from OS preferences, along with an override in <kbd>Preferences > UI Customization</kbd>.
+   - Windows: Region & Short date format preferences
+   - macOS: Region & Date format preferences
+   - All: LC_ALL & LC_TIME environment variables
+
+### Improvements 🙌
+ - Experimental Feature - Git Executable:
+   - Added tag support.
+   - Added GPG Preferences setting for SSH commit signing. 
+ - Added an indicator for repositories in the Workspace `REPOSITORIES` list when multiple paths are detected. Clicking this will allow the user to specify which repository to use.
+
+### Bug Fixes 🐛
+ - Fixed an issue where `Pull Requests` were not loading for Bitbucket Workspaces.
+ - Improved home directory detection on Windows.
+ - App will now create `~/.ssh` directory if it doesn't exist when updating `~/.ssh/known_hosts`.
+
+***
 <a id="v9-6-1"></a>
 ## Version 9.6.1
 
