@@ -130,7 +130,7 @@ This will produced a combined diff, which lists all files that were added, modif
 
 ## Diff a WIP
 
-When you have a Work in Progress (WIP), you can diff this against any commit by right-clicking the desired commit and selecting `compare commit against working directory`.
+When you have a Work in Progress (WIP), you can diff this against any commit or branch by ctrl/command clicking the WIP and then the other desired commit. Alternativley, with your WIP sleected, you can right-click the desired commit or branch and select `compare commit against working directory`.
 
 <img src='/wp-content/uploads/gkc-wip-diff.png' class='img-bordered img-responsive center'>
 
