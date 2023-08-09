@@ -56,6 +56,9 @@ Find below a list of features using the Git binary if the Git Executable experim
 - push
 - support for streaming Git hooks output
 
+**Added in 9.7.0:**
+- Signing tags with SSH
+
 ---
 
 ### AI Commit Message Generation
