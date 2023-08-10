@@ -144,7 +144,10 @@ There will be several prompts to make sure that you *really* want to delete your
 
 ###Commit Signing with SSH
 
-SSH signature verification is available in Gitkraken 9.6.0 as Experimental feature
+Commit Signing with SSH is available in Gitkraken Client through Git Executable feature.
+
+<img src="/wp-content/uploads/gkc-gpg-ssh-preferences.png" class="img-bordered img-responsive center">
+
 
 ####Requirements
 
@@ -161,25 +164,35 @@ Open a Terminal and run this command:
 
 <img src="/wp-content/uploads/gkc-ssh-keygen.png" srcset="/wp-content/uploads/gkc-ssh-keygen@2x.png 2x" class="img-bordered img-responsive center">
 
-####Configure git to sign commits with SSH
 
-Run this command to use SSH for signing commits and pointing to the key previously created:
-`git config --global gpg.format sshgit config --global user.signingkey /PATH/TO/.SSH/KEY.PUB`
+####Enable Git Executable feature
+
+Go to <kbd>Preferences > Experimental > Git Executable</kbd> and enable it.
+
+<img src="/wp-content/uploads/gkc-git-executable.png" srcset="/wp-content/uploads/gkc-git-executable@2x.png 2x" class="img-bordered img-responsive center">
+
+####Select SSH as your GPG format for signing
+
+At <kbd>Preferences > GPG > GPG Format</kbd>, select <kbd>SSH</kbd>.
+
+Automatically Gitkraken client will change your preferences in `.gitconfig` and populate GPG SSH Program with ssh-keygen
+
+####Select the signing key
+
+On <kbd>Signing key</kbd>, click on <kbd>Browse</kbd> and select the `.pub` key file previously generated.
 
 ####Create allowed_signers file
-
 This file is needed to verify the key used to sign the commits is valid and known by git
+
+On your terminal, run:
 ```
 touch ~/.ssh/allowed_signers
-git config gpg.ssh.allowedSignersFile ~/.ssh/allowed_signers
-echo "$(git config --get user.email) namespaces=\"git\" $(cat ~/.ssh/<MY_KEY>.pub)" >> ~/.ssh/allowed_signers
 ```
+And select the file in Gitkraken client.
 
 ####Enable Commit Signing by Default in Gitkraken:
 
-Preferences > GPG > Sign Commits/Tags By defaultPreferences > Experimental > Use Git Executable and select a git executable 2.34 or later
-
-<img src="/wp-content/uploads/gkc-git-executable.png" srcset="/wp-content/uploads/gkc-git-executable@2x.png 2x" class="img-bordered img-responsive center">
+Preferences > GPG > Sign Commits/Tags By default
 
 ####Add the SSH key to your remote hosting 
 
