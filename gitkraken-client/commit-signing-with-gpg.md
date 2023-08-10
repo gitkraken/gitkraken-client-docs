@@ -173,20 +173,27 @@ Go to <kbd>Preferences > Experimental > Git Executable</kbd> and enable it.
 
 ####Select SSH as your GPG format for signing
 
+[Which program to select](https://git-scm.com/docs/git-config#Documentation/git-config.txt-gpgltformatgtprogram)
+
 At <kbd>Preferences > GPG > GPG Format</kbd>, select <kbd>SSH</kbd>.
 
 Automatically Gitkraken client will change your preferences in `.gitconfig` and populate GPG SSH Program with ssh-keygen
 
 ####Select the signing key
 
+[How to select SSH signing key](https://git-scm.com/docs/git-config#Documentation/git-config.txt-usersigningKey)
+
 On <kbd>Signing key</kbd>, click on <kbd>Browse</kbd> and select the `.pub` key file previously generated.
 
 ####Create allowed_signers file
-This file is needed to verify the key used to sign the commits is valid and known by git
+This file is needed to verify the key used to sign the commits is valid and known by git.
+[Allowed Signers file help](https://git-scm.com/docs/git-config#Documentation/git-config.txt-gpgsshallowedSignersFile)
 
 On your terminal, run:
 ```
 touch ~/.ssh/allowed_signers
+echo "$(git config --get user.email) namespaces=\"git\" $(cat ~/.ssh/<MY_KEY>.pub)" >> ~/.ssh/allowed_signers
+
 ```
 And select the file in Gitkraken client.
 
