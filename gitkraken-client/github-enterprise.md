@@ -36,7 +36,7 @@ Or alternatively if you are in the <kbd>New Tab</kbd> view, click on <kbd>Prefer
 
 From the Integrations window, enter your _Host Domain_ then click the Generate an access token on _your URL_ link.
 
-<img src="/wp-content/uploads/authentication-github-enterprise.png" srcset="/wp-content/uploads/authentication-github-enterprise@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/gkc-github-enterprise-server-integration.png" class="img-bordered img-responsive center">
 
 This opens a web browser where you next log in with your GitHub Enterprise Server credentials and generate an access token.
 
@@ -44,7 +44,7 @@ This opens a web browser where you next log in with your GitHub Enterprise Serve
 
 Copy your token to the clipboard as this is the only time you will see this token.  Paste the token into GitKraken and click on <button class='button button--success button--ui button--nolink'>Connect</button>.
 
-<img src="/wp-content/uploads/authentication-connect-github-enterprise.png" srcset="/wp-content/uploads/authentication-connect-github-enterprise.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/gkc-github-enterprise-server-integration-2.png" class="img-bordered img-responsive center">
 
 ### Generating an SSH Key for GitHub Enterprise Server
 <div class='callout callout'>
@@ -52,7 +52,7 @@ Copy your token to the clipboard as this is the only time you will see this toke
 </div>
 Once your GitHub Enterprise Server account has been connected to GitKraken, you may easily generate an SSH key and add it to your GitHub Enterprise Server account from <kbd><i>Preferences    <i class='fa fa-caret-right'></i>     Integrations</i></kbd>.
 
-<img src='/wp-content/uploads/ssh-github-enterprise.png' srcset='/wp-content/uploads/ssh-github-enterprise@2x.png' class='center img-responsive img-bordered'>
+<img src='/wp-content/uploads/gkc-github-enterprise-server-add-key.png' class='center img-responsive img-bordered'>
 
 Click the <button class='button button--success button--ui button--nolink'>Generate SSH key and add to GitHub Enterprise Server</button> button and watch the magic happen.
 
