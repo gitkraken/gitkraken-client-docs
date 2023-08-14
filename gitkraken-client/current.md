@@ -16,6 +16,19 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ***
 
+<a id="v9-7-1"></a>
+## Version 9.7.1
+
+_"How much work could a working directory work if a working directory could work wood?"_
+
+### Tuesday, August 15th, 2023
+
+### Bug Fixes 🐛
+- Improved performance when selecting the working directory.
+
+
+***
+
 <a id="v9-7-0"></a>
 ## Version 9.7.0
 
