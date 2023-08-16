@@ -27,15 +27,15 @@ TODO
 
 Open with GitKraken: From GitHub's Code and GitLab’s Clone dropdowns, you can open a repository directly in GitKraken Client or with GitLens in Visual Studio Code.
 
-<img src="/wp-content/uploads/TODO.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/be-clone.png" class="img-bordered img-responsive center">
 
 Open Compairison in Visual Studio Code: From the pull request view on GitHub or GitLab, you can select "Open Comparison in VS Code" from the Code dropdowns for an easy transition into GitLens in Visual Studio Code.
 
-<img src="/wp-content/uploads/TODO.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/be-pull-request.png" class="img-bordered img-responsive center">
 
 Open with GitKraken button on commit pages: From a commit page on GitHub or GitLab, you can select "Open with GitKraken".
 
-<img src="/wp-content/uploads/TODO.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/be-commit.png" class="img-bordered img-responsive center">
 
 ***
 
