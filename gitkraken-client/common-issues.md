@@ -8,6 +8,28 @@ taxonomy:
 ---
 
 ***
+### General Troubleshooting for GitKraken Client 9.4.0+
+
+In 9.4.0, GitKraken introduced the experimental feature for the [Git Executable](/gitkraken-client/experimental-features/#git-executable). As this is currently an experimental feature that our team is continuing to improve on, you can try adjusting your use of the Git Executable.
+
+Under `Preferences > Experimental`, first try adjusting the `Git Executable` version used. If you are using the “Bundled with GitKraken” version (comes pre-installed with GitKraken) try changing this to your own version of Git. If you do not have this installed, it can be downloaded [here](https://git-scm.com/download).
+
+The reason this may help is because the Bundled version is a minimal install of Git, which does not include all features (specifically bash programs that may be used in Git Hooks).
+
+<img src="/wp-content/uploads/gkc-git-executable-version.png" class="img-responsive center img-bordered">
+
+If using your own version does not resolve the issue, try unchecking `Use Git Executable`.
+
+<img src="/wp-content/uploads/gkc-use-git-executable.png" class="img-responsive center img-bordered">
+
+If this does resolve your issue, it is very important to note that GitKraken Client is transitioning all actions to the Git Executable (from LibGit2/nodegit) and the Git Executable will become the exclusive way GitKraken Client performs Git operations in a future release.
+
+As such, it is crucial for our team to be made aware of any issues related to using the Git Executable so we can look into and address them. Please reach out to our [support team](https://help.gitkraken.com/gitkraken-client/contact-support/) if you experience any issues with using this Experimental feature.
+
+For more information on what this feature is and why it is being implimented, you can check out this [blog post](https://www.gitkraken.com/blog/gitkraken-client-migrating-from-libgit2-to-git-executable).
+
+***
+
 ## Integration - 1000 Error (1002, 1003, 1005, 1007)
 When attempting to connect to one of our integrations, you may see `Error 1002`, `Error 1003`, `Error 1005` or `Error 1007`.
 
