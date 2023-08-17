@@ -14,7 +14,7 @@ In 9.4.0, GitKraken introduced the experimental feature for the [Git Executable]
 
 Under `Preferences > Experimental`, first try adjusting the `Git Executable` version used. If you are using the “Bundled with GitKraken” version (comes pre-installed with GitKraken) try changing this to your own version of Git. If you do not have this installed, it can be downloaded [here](https://git-scm.com/download).
 
-The reason this may help is because the Bundled version is a minimal install of Git, which does not insclude all features.
+The reason this may help is because the Bundled version is a minimal install of Git, which does not include all features (specifically bash programs that may be used in Git Hooks).
 
 <img src="/wp-content/uploads/gkc-git-executable-version.png" class="img-responsive center img-bordered">
 
