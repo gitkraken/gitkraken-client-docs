@@ -24,7 +24,7 @@ If using your own version does not resolve the issue, try unchecking `Use Git Ex
 
 If this does resolve your issue, it is very important to note that GitKraken Client is transitioning all actions to the Git Executable (from LibGit2/nodegit) and the Git Executable will become the exclusive way GitKraken Client performs Git operations in a future release.
 
-As such, it is crutial for our team to be made aware of any issues related to using the Git Executable so we can look into and address them. Please reach out to our [support team](https://help.gitkraken.com/gitkraken-client/contact-support/) if you experience any issues with using this Experimental feature.
+As such, it is crucial for our team to be made aware of any issues related to using the Git Executable so we can look into and address them. Please reach out to our [support team](https://help.gitkraken.com/gitkraken-client/contact-support/) if you experience any issues with using this Experimental feature.
 
 For more information on what this feature is and why it is being implimented, you can check out this [blog post](https://www.gitkraken.com/blog/gitkraken-client-migrating-from-libgit2-to-git-executable).
 
