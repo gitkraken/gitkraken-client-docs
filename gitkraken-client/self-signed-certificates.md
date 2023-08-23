@@ -16,7 +16,7 @@ GitKraken's remote hosting platform integrations may require users to have a cer
 Self-signed certificates must be added to your trusted root directory before GitKraken will recognize the cert. This can be done through your operating system or in many browsers.
 
 <div class='callout callout--basic'>
-    <p><strong>Note:</strong> SSL settings in the global <code>.gitconfig</code> file are not honored by GitKraken.</p>
+    <p><strong>Note:</strong> If you have the <a href="https://help.gitkraken.com/gitkraken-client/experimental-features/#git-executable">Git Executable</a> enabled, SSL settings in the global <code>.gitconfig</code> file are honored by GitKraken Client.</p>
 </div>
 
 ### Using Google Chrome on Windows
