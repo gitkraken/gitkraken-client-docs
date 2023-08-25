@@ -69,9 +69,9 @@ To view a Workspaces pull requests, select a Workspace and then select `Pull Req
 
 Select `Filter pull requests` to filter for pull requests with the following options:
 
-* "Opened by Me", to show pull requests that were opened by the user. This filter is available for GitHub, GitHub Enterprise, GitLab, and GitLab Self-Managed repositories.
-* "At Risk", to show any pull requests that are not drafts and have been open for longer than 7 days. This filter is currently only available for GitHub, GitHub Enterprise, GitLab, and GitLab Self-Managed repositories.
-* "By repository", to limit the view to a single repository within the Workspace. This filter is currently available for Azure DevOps, GitHub, GitHub Enterprise, Gitlab, and Gitlab Self-Managed repositories.
+* "Opened by Me", to show pull requests that were opened by the user. This filter is available for GitHub, GitHub Enterprise Server, GitLab, and GitLab Self-Managed repositories.
+* "At Risk", to show any pull requests that are not drafts and have been open for longer than 7 days. This filter is currently only available for GitHub, GitHub Enterprise Server, GitLab, and GitLab Self-Managed repositories.
+* "By repository", to limit the view to a single repository within the Workspace. This filter is currently available for Azure DevOps, GitHub, GitHub Enterprise Server, Gitlab, and Gitlab Self-Managed repositories.
 
 The search allows searching by pull request titles for all services. For GitHub.com Workspaces, <a href="https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests">GitHub's search syntax</a> can also be used.
 

@@ -128,7 +128,7 @@ GitKraken Client supports HTTPS and SSH authentication, and provides useful inte
 
 - [General SSH settings](/gitkraken-client/authentication/#ssh)
 - [GitHub Integration](/gitkraken-client/github-gitkraken-client/)
-- [GitHub Enterprise Integration](/gitkraken-client/github-enterprise/)
+- [GitHub Enterprise Server Integration](/gitkraken-client/github-enterprise/)
 - [GitLab Integration](/gitkraken-client/gitlab/)
 - [GitLab Self-Managed Integration](/gitkraken-client/gitlab-self-hosted/)
 - [Bitbucket Integration](/gitkraken-client/bitbucket/)
