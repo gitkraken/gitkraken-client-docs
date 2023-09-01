@@ -14,6 +14,20 @@ Behold the evolution of GitKraken Client! Find out what&rsquo;s new, what&rsquo;
 
 Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) to see what we’re working on.
 
+
+***
+
+<a id="v9-8-0"></a>
+## Version 9.8.0
+
+_"How much work could a working directory work if a working directory could work wood?"_
+
+### Tuesday, September 5th, 2023
+
+### Bug Fixes 🐛
+- Improved performance when selecting the working directory.
+
+
 ***
 
 <a id="v9-7-1"></a>
