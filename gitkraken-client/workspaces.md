@@ -44,7 +44,7 @@ To create a Cloud Workspace, select <button class="button button--success button
 
 Actions can be performed on multiple repositories within the Workspace at once, making it easy to get a new member of your team onboarded quickly or keep repository information up-to-date. To perform an action on multiple repositories, select the check box next to the repository name and then select the desired action from the options at the top.
 
-<img src="/wp-content/uploads/cloud-multi-action.png" srcset="/wp-content/uploads/cloud-multi-action@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/gkc-cloud-workspace-multi-action.png" class="img-bordered img-responsive center">
 
 The following multi-repository actions can be performed:
 - Clone: clone all selected repositories. HTTPS will be used by default unless you have SSH configured in your [Integration settings](https://help.gitkraken.com/gitkraken-client/integrations/). 
