@@ -20,13 +20,32 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 <a id="v9-8-0"></a>
 ## Version 9.8.0
 
-_"How much work could a working directory work if a working directory could work wood?"_
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BnYk4XmoLTc" frameborder="0" allowfullscreen></iframe>
+</div>
 
-### Tuesday, September 5th, 2023
+_“Because context switching is why you forget things.”_
+
+### Tuesday, September 7th, 2023
+
+### New ✨
+ - The Focus View has been improved!
+   - Pull Requests, Issues and Works in Progress have been combined into a single view.
+    - We also added buckets for PRs, ISSUES, and WIPS only.
+      - Filter PRs by `Mine`, `Created by Me`, `Assigned to Me`, or `Needs my review`.
+      - Filter ISSUES by `Mine`, `Created by Me`, `Assigned to Me`, or `Mentioned`.
+   - Note: If you're new to Focus View, you may access the Focus View tab from any [Cloud Workspace](https://help.gitkraken.com/gitkraken-client/workspaces/#cloud-workspaces). 
+
+### Improvements 🙌
+ - Enhanced 'Invite Users' Modal: Added X button for email removal and improved email display as individual components.
 
 ### Bug Fixes 🐛
-- Improved performance when selecting the working directory.
-
+ - Experimental Feature - Git Executable:
+  - Improved handling of ssh_config options, specifically `StrictHostKeyChecking` and `UserKnownHostsFile` and their interaction with remote actions.
+ - Fixed Workspace repo list having duplicate entries when an Azure repo is deleted.
+ - Fixed a bug where Jira Server issues could not be opened in the browser due to a malformed URL.
+ - Fixed cursor jumping to end of input when updating the Date/Time Short Format preference.
+ - Fixed the Workspaces tab re-loading data when closing other tabs.
 
 ***
 
