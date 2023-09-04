@@ -89,13 +89,17 @@ If you are working with a GitHub.com Workspace, you may select a pull request to
 
 ### Focus view
 
-The Focus View section will provide you with a summary of Pull Requests, Issues, and WIPs relevant to you for the repositories grouped in your Workspace. The columns are sortable to make it esier to see what is going on across all of your Workspace repositories.
+The Focus View section will provide you with a summary of Pull Requests, Issues, and WIPs relevant to you for the repositories grouped in a single view on your workspace. You have a search bar to filter the results and columns that represent different states of the PRs, Issues, and WIPs.
+<img src="/wp-content/uploads/focus_view.2.0.gif" class="img-bordered img-responsive center">
 
-<img src="/wp-content/uploads/workspace-focus-view-sort-columns.gif" class="img-bordered img-responsive center">
+* ALL: Shows all pull requests, issues, and WIPs for the repositories in your Workspace.
+* PRS: Shows all open pull requests for the repositories in your Workspace.
+* ISSUES: Shows all issues for the repositories in your Workspace.
+* WIPS: Shows all uncommitted changes for the repositories in your Workspace.
 
-* My Pull Requests: shows all PRs opened by you, assigned to you, or awaiting your review
-* My Issues: shows all issues created by you, assigned to you, or that mention you.  Click the icon to open the Issue View for the selected issue, where you can view, edit issue details and create a branch for the issue.
-* Work in Progress: shows all branches with uncommitted changes
+In addition, you can filter the Pull Requests and Issues by the following:
+* Filter PRs by `Mine`, `Created by Me`, `Assigned to Me`, or `Needs my review`.
+* Filter ISSUES by `Mine`, `Created by Me`, `Assigned to Me`, or `Mentioned`.
 
 Instead of hunting for these pieces of information separately, you can get a holistic view of what you’re working on.
 
