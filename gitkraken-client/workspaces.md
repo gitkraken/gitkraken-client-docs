@@ -90,7 +90,7 @@ If you are working with a GitHub.com Workspace, you may select a pull request to
 ### Focus view
 
 The Focus View section will provide you with a summary of Pull Requests, Issues, and WIPs relevant to you for the repositories grouped in a single view on your workspace. You have a search bar to filter the results and columns that represent different states of the PRs, Issues, and WIPs.
-<img src="/wp-content/uploads/focus_view.2.0.gif" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/focus_view2.0.gif" class="img-bordered img-responsive center">
 
 * ALL: Shows all pull requests, issues, and WIPs for the repositories in your Workspace.
 * PRS: Shows all open pull requests for the repositories in your Workspace.
