@@ -24,7 +24,7 @@ _“The graph-ity of these bugs demanded a hotfix!”_
 ### Wednesday, September 6th, 2023
 
 ### Bug Fixes 🐛
-- Fixed a bug where double-clicking a branch in the graph was not checking out the branch.
+- Fixed a bug where double-clicking a branch in the Left Panel was not checking out the branch.
 - Fixed a bug where graph columns could not be resized.
 - Fixed a bug where filtering by author was not working in the graph.
 
