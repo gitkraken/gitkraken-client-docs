@@ -14,6 +14,19 @@ Behold the evolution of GitKraken Client! Find out what&rsquo;s new, what&rsquo;
 
 Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) to see what we’re working on.
 
+***
+
+<a id="v9-8-1"></a>
+## Version 9.8.1
+
+_“The graph-ity of these bugs demanded a hotfix!”_
+
+### Wednesday, September 6th, 2023
+
+### Bug Fixes 🐛
+- Fixed a bug where double-clicking a branch in the graph was not checking out the branch.
+- Fixed a bug where graph columns could not be resized.
+- Fixed a bug where filtering by author was not working in the graph.
 
 ***
 
@@ -26,7 +39,7 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 _“Because context switching is why you forget things.”_
 
-### Tuesday, September 7th, 2023
+### Tuesday, September 5th, 2023
 
 ### New ✨
  - The Focus View has been improved!
