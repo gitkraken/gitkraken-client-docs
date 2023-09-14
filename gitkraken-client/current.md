@@ -15,6 +15,17 @@ Behold the evolution of GitKraken Client! Find out what&rsquo;s new, what&rsquo;
 Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) to see what we’re working on.
 
 ***
+<a id="v9-8-2"></a>
+## Version 9.8.2
+
+_"How many upgrades until Electron becomes a Proton?"_
+
+### Friday, September 15th, 2023
+
+### Bug Fixes 🐛
+- Upgraded to Electron 22.3.24.
+
+***
 
 <a id="v9-8-1"></a>
 ## Version 9.8.1
