@@ -38,7 +38,7 @@ Have an idea or feedback for improving GitKraken Client? Upvote existing user su
 [Make a Feature Request ☑](https://feedback.gitkraken.com/)
 
 Join our public slack community and interact with other GitKraken Client users from around the world 🌐.
-[Join GitKraken Slack](https://slack.gitkraken.com/)
+[Join GitKraken Slack](https://www.gitkraken.com/join-slack-community)
 
 Didn't find what you're looking for in all of our documentation and help articles? Then please contact our support team.
 [Contact Support](https://help.gitkraken.com/gitkraken-client/contact-support)
