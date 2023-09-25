@@ -109,8 +109,10 @@ If you would like to use another diff tool, navigate to <em class="context-menu"
 ```
 [diff]
   tool = meld
+[difftool]
+  prompt = false
 [difftool "meld"]
-  cmd = \"C:\\Program Files\\Meld\\Meld.exe\" "$LOCAL" "$REMOTE"
+  cmd = meld "$LOCAL" "$REMOTE"
 ```
 
 ***
