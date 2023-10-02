@@ -59,6 +59,10 @@ Find below a list of features using the Git binary if the Git Executable experim
 **Added in 9.7.0:**
 - Signing tags with SSH
 
+**Added in 9.9.0:**
+- Added revert commit support.
+- Added pageant ssh agent support.
+
 ---
 
 ### AI Commit Message Generation
