@@ -124,7 +124,7 @@ When `Use Cloud Patches` is enabled, GitKraken will be able to create a Cloud Pa
 
 ### New Commit Graph
 
-We have updated to an imporved commit graph to offer more customization. The new commit graph is on by default but can be temporarily disabled from `Preferences > Experimental > Enable new commit graph`.
+We have updated to an improved commit graph to offer more customization. The new commit graph is on by default but can be temporarily disabled from `Preferences > Experimental > Enable new commit graph`.
 
 Some additional features currently offered by the new commit graph include:
 
