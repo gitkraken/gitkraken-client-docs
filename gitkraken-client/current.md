@@ -27,19 +27,20 @@ _“Let's finally pin down that cloud.”_
 ### Tuesday, October 3rd, 2023
 
 ### New ✨
+
 - Experimental Feature - Cloud Patches:
-   - Share your work with others by creating a Cloud Patch from any WIP node.
-   - Select a WIP to access "Share all files as cloud patch" button in the Commit Panel.
-   - Create a Cloud Patch from staged changes.
-   - Apply a Cloud Patch by following a Cloud Patch URL to open in GitKraken Client and then review the contents in the Commit Panel.
-   - Cloud Patches are organized in the Left Panel, where you may re-apply a patch to your working directory or re-copy the URL.
- - Focus View now supports pinning and snoozing for PRs and ISSUES.
- - Experimental Feature - New Commit Graph:
-   - Added "Compact Graph Column" option from Commit Graph settings gear.
-   - Drag and drop to reorder columns.
-   - Added inline commit descriptions.
-   - Improved performance when resizing the app window.
-   - This feature will be defaulted on for all users.
+  - Share your work with others by creating a Cloud Patch from any WIP node.
+  - Select a WIP to access "Share all files as cloud patch" button in the Commit Panel.
+  - Create a Cloud Patch from staged changes.
+  - Apply a Cloud Patch by following a Cloud Patch URL to open in GitKraken Client and then review the contents in the Commit Panel.
+  - Cloud Patches are organized in the Left Panel, where you may re-apply a patch to your working directory or re-copy the URL.
+- Focus View now supports pinning and snoozing for PRs and ISSUES.
+- Experimental Feature - New Commit Graph:
+  - Added "Compact Graph Column" option from Commit Graph settings gear.
+  - Drag and drop to reorder columns.
+  - Added inline commit descriptions.
+  - Improved performance when resizing the app window.
+  - This feature will be defaulted on for all users.
 
 
 ### Improvements 🙌
