@@ -15,6 +15,65 @@ Behold the evolution of GitKraken Client! Find out what&rsquo;s new, what&rsquo;
 Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) to see what we’re working on.
 
 ***
+<a id="v9-9-0"></a>
+## Version 9.9.0
+
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8J-YLeIYIWs " frameborder="0" allowfullscreen></iframe>
+</div>
+
+_“Let's finally pin down that cloud.”_
+
+### Tuesday, October 3rd, 2023
+
+### New ✨
+- Experimental Feature - Cloud Patches:
+   - Share your work with others by creating a Cloud Patch from any WIP node.
+   - Select a WIP to access "Share all files as cloud patch" button in the Commit Panel.
+   - Create a Cloud Patch from staged changes.
+   - Apply a Cloud Patch by following a Cloud Patch URL to open in GitKraken Client and then review the contents in the Commit Panel.
+   - Cloud Patches are organized in the Left Panel, where you may re-apply a patch to your working directory or re-copy the URL.
+ - Focus View now supports pinning and snoozing for PRs and ISSUES.
+ - Experimental Feature - New Commit Graph:
+   - Added "Compact Graph Column" option from Commit Graph settings gear.
+   - Drag and drop to reorder columns.
+   - Added inline commit descriptions.
+   - Improved performance when resizing the app window.
+   - This feature will be defaulted on for all users.
+
+
+### Improvements 🙌
+ - Experimental Feature - Git Executable:
+   - Added revert commit support.
+   - Added pageant ssh agent support.
+ - Focus View now displays an issues status.
+
+
+### Bug Fixes 🐛
+ - Experimental Feature - Git Executable:
+   - Fixed an issue where the commit graph would fail to load in some cases.
+   - Conflicting git config `fetch.pruneTags` will only be allowed for the main remote.
+   - Fixed a problem with remote actions when a non-standard SSH port was used.
+   - Fixed a problem in Git Executable with known_hosts file on Windows.
+   - Commit signing with SSH can now use a different SSH key than the one used for credentials.
+ - Fixed an issue where the commit message viewer did not change its height when clicked.
+ - Fixed a missing option to remove a repo for Azure Workspaces whose repos were manually added.
+ - Fixed an issue where locating an Azure repo in a Workspace did not save its location.
+ - Fixed a bug where GitLab issue descriptions would disappear when clicking the edit button in the issue view panel.
+ - Fixed an issue where some macOS icon sizes would look distorted.
+ - When immediately committing a cherry-pick or revert:
+   - If there is a conflict, hooks will not be executed.
+   - If there are no changes, no empty commit will be generated.
+ - Fixed an issue where repositories could not be deleted on Windows.
+ - Fixed an issue where the incorrect date/time format would sometimes display in the settings UI.
+ - Fixed an issue where the incorrect locale would sometimes be used for date/time formatting.
+ - Removed unnecessary scroll bars around the commit message field.
+ - Fixed the following issues with `gitkraken://` deep links:
+   - Fixed an issue where opening a deep link would prompt users to select a repo even if one of those repos is the active tab.
+   - Partially fixed an issue where opening a deep link would prompt users to select a repo, but only offer slightly-rephrased versions of the same file path. (Some issues are still known with regards to letter casing on Windows, and uncommon file paths.)
+ - Focus View no longer loads Jira Issues set to Done.
+
+***
 <a id="v9-8-2"></a>
 ## Version 9.8.2
 

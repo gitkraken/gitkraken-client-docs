@@ -90,6 +90,7 @@ If you are working with a GitHub.com Workspace, you may select a pull request to
 ### Focus view
 
 The Focus View section will provide you with a summary of Pull Requests, Issues, and WIPs relevant to you for the repositories grouped in a single view on your workspace. You have a search bar to filter the results and columns that represent different states of the PRs, Issues, and WIPs.
+
 <img src="/wp-content/uploads/focus_view2.0.gif" class="img-bordered img-responsive center">
 
 * ALL: Shows all pull requests, issues, and WIPs for the repositories in your Workspace.
@@ -97,13 +98,15 @@ The Focus View section will provide you with a summary of Pull Requests, Issues,
 * ISSUES: Shows all issues for the repositories in your Workspace.
 * WIPS: Shows all uncommitted changes for the repositories in your Workspace.
 
-In addition, you can filter the Pull Requests and Issues by the following:
+You can filter the Pull Requests and Issues by the following:
 * Filter PRs by `Mine`, `Created by Me`, `Assigned to Me`, or `Needs my review`.
 * Filter ISSUES by `Mine`, `Created by Me`, `Assigned to Me`, or `Mentioned`.
 
+Pull Requests and Issues can be pinned (and unpinned) by selecting the <i class="fa-solid fa-thumbtack"></i> icon to move them to the top of the list. Additionally, they can be Snoozed (and removed from Snoozed) by selecting the <i class="fa-solid fa-snooze"></i> icon, to move them to the Snoozed section. 
+
+<img src="/wp-content/uploads/pin-and-snooze.gif" class="img-bordered img-responsive center">
+
 Instead of hunting for these pieces of information separately, you can get a holistic view of what you’re working on.
-
-
 
 ### Team view
 

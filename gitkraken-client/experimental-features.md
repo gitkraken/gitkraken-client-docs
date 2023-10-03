@@ -1,4 +1,4 @@
----
+ ---
 
 title: Experimental Features
 description: Learn about experimental features that are being worked on for possible future inclusion into GitKraken Client.
@@ -59,6 +59,10 @@ Find below a list of features using the Git binary if the Git Executable experim
 **Added in 9.7.0:**
 - Signing tags with SSH
 
+**Added in 9.9.0:**
+- Added revert commit support.
+- Added pageant ssh agent support.
+
 ---
 
 ### AI Commit Message Generation
@@ -99,3 +103,37 @@ https://platform.openai.com/
 
 To specifically generate an API key for GitKraken Client to use:
 https://platform.openai.com/account/api-keys 
+
+---
+
+### Cloud Patches
+
+A Cloud Patch is a Git patch GitKraken securely stores for you so you can easily share changes with your team. The code is transferred directly from your machine into secure storage - this is managed by GitKraken. Currently, anybody with access to the Cloud Patch link can view the code and apply the patch to their repository.
+
+To create a Cloud Patch, right-click a file(s) in your working directory and select `Share file(s) as cloud patch`. You can also click the share icon <i class="fa-regular fa-share"></i> in the commit panel. Once created, you can select `copy cloud patch link` from the toast or by right-clicking a Cloud Patch in the left panel where all your Cloud Patches will be listed.
+
+<img src='/wp-content/uploads/gkc-create-cloud-patch.png' class='img-bordered img-responsive center'>
+
+This link can be shared with users to open the patch in GitKraken. When a link is selected, the user will be prompted to open the client, clone or open the repository if not known to GitKraken Client, and then select the base branch to apply the patch to. From here, they can simply select `apply patch to <branch>`. 
+
+<img src='/wp-content/uploads/gkc-apply-cloud-patch.png' class='img-bordered img-responsive center'>
+
+When `Use Cloud Patches` is enabled, GitKraken will be able to create a Cloud Patch for you to share with other developers. To disable the ability to create a Cloud Patch, uncheck `Preferences > Experimental > Use Cloud Patches`. 
+
+---
+
+### New Commit Graph
+
+We have updated to an improved commit graph to offer more customization. The new commit graph is on by default but can be temporarily disabled from `Preferences > Experimental > Enable new commit graph`.
+
+Some additional features currently offered by the new commit graph include:
+
+- A "Compact Graph Column" option from Commit Graph settings gear.
+- Drag and drop to reorder columns.
+- Added inline commit descriptions.
+
+To access the Compact Graph Column or add/remove columns, select the gear icon at the top right of the commit graph.
+
+<img src='/wp-content/uploads/gkc-commit-graph-settings.png' class='img-bordered img-responsive center'>
+
+If you do experience issues, or have any other feedback, please reach out to us [Contact Support](https://help.gitkraken.com/gitkraken-client/contact-support/?issue_category__customer_facing_field_=Experimental+feedback&subject=GitKraken+Client+Experimental+feedback).
