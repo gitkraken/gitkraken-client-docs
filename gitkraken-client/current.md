@@ -15,6 +15,19 @@ Behold the evolution of GitKraken Client! Find out what&rsquo;s new, what&rsquo;
 Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) to see what we’re working on.
 
 ***
+
+<a id="v9-9-1"></a>
+## Version 9.9.1
+
+_“Don't put all your bits in one bucket.”_
+
+### Friday, October 6th, 2023
+
+### Bug Fixes 🐛
+ - Fixed an issue where the improved commit graph could not display Bitbucket Server repositories
+
+***
+
 <a id="v9-9-0"></a>
 ## Version 9.9.0
 
