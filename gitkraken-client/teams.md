@@ -10,8 +10,8 @@ taxonomy:
 GitKraken Client users with <a href="https://www.gitkraken.com/git-client/pricing">Pro, Teams, or Enterprise Cloud</a> accounts can use the Teams feature to group users within an Organization.
 
 Teams can be utilized for:
-- The <a href="/working-with-repositories/team-view/">Team View</a> - see what branches and files others are working on and detect potential conflcits. 
-- Sharing a <a href="/workspaces/#create-a-cloud-workspace">Workspace</a> - manage, share and take action on a gorup of repositories.
+- The [Team View](/gitkraken-client/working-with-repositories/team-view/) - see what branches and files others are working on and detect potential conflcits. 
+- [Sharing a Workspace](https://help.gitkraken.com/gitkraken-client/workspaces/#create-a-cloud-workspace) - manage, share and take action on a gorup of repositories.
 
 <div class='callout callout--basic'>
     <p><strong>Note:</strong> Pro accounts are limited to 1 Team. Upgrade to a <a href="https://app.gitkraken.com/subscription">GitKraken Teams or Enterprise Cloud</a> plan to create and manage more than 1 Team.
