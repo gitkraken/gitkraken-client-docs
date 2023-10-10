@@ -67,7 +67,7 @@ Find below a list of features using the Git binary if the Git Executable experim
 
 ### AI Commit Message Generation
 
-With this setting enabled, GitKraken Client will have the ability to generate commit messages from any staged changes. You can access this feature from the Command Palette (⌘P/Ctrl P, or the magic wand icon () in the toolbar), or you can click the sparkle icon () in the commit panel when you have staged changes.
+With this setting enabled, GitKraken Client will have the ability to generate commit messages from any staged changes. You can access this feature from the Command Palette (⌘P/Ctrl P, or the magic wand icon ✨ in the toolbar), or you can click the sparkle icon () in the commit panel when you have staged changes.
 
 <div class='callout callout--danger'>
     <p> This feature requires sending a diff of your code changes to OpenAI. Ensure your code does not contain sensitive information before generating a commit message.</p>
@@ -85,7 +85,7 @@ Once you have AI commit message generation enabled you will see ✨ sparkles ✨
 
 <img src='/wp-content/uploads/gkc-commit-message-ai-gen.gif' class='img-bordered img-responsive center'>
 
-Once the commit message has been generated, you can still fully edit the message before committing. You can also click the ✨to have OpenAI try again.
+Once the commit message has been generated, you can still fully edit the message before committing. You can also click the ✨ to have OpenAI try again.
 
 <div class='callout callout--danger'>
     <p>Be aware that using OpenAI/chatGPT has a cost. At the time of this writing, the maximum cost per request is about $0.02. OpenAI offers free trial accounts with $5.00 of credit to get started.</p>
@@ -110,7 +110,7 @@ https://platform.openai.com/account/api-keys
 
 A Cloud Patch is a Git patch GitKraken securely stores for you so you can easily share changes with your team. The code is transferred directly from your machine into secure storage - this is managed by GitKraken. Currently, anybody with access to the Cloud Patch link can view the code and apply the patch to their repository.
 
-To create a Cloud Patch, right-click a file(s) in your working directory and select `Share file(s) as cloud patch`. You can also click the share icon <i class="fa-regular fa-share"></i> in the commit panel. Once created, you can select `copy cloud patch link` from the toast or by right-clicking a Cloud Patch in the left panel where all your Cloud Patches will be listed.
+To create a Cloud Patch, right-click a file(s) in your working directory and select `Share file(s) as cloud patch`. You can also click the share icon <i class="fa-solid fa-share"></i> in the commit panel. Once created, you can select `copy cloud patch link` from the toast or by right-clicking a Cloud Patch in the left panel where all your Cloud Patches will be listed.
 
 <img src='/wp-content/uploads/gkc-create-cloud-patch.png' class='img-bordered img-responsive center'>
 
