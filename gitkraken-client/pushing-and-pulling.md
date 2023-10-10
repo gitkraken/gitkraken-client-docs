@@ -63,7 +63,7 @@ Drag and drop a branch to a remote to access the <kbd>Push</kbd> action. You may
 
 ***
 ## Fetching
-Pulling and fetching take updates from the remote and get them into our local repo.
+Pulling and fetching take updates from the remote and get them into our local repo. You can fetch by selecting the Pull dropdown. Additionally, you can select the radio button next to the desired option to change the behavior of this button.
 
 <img src="/wp-content/uploads//pull-options.png" srcset="/wp-content/uploads//pull-options@2x.png" class="img-bordered img-responsive center">
 
