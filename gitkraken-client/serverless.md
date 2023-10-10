@@ -42,7 +42,7 @@ Once you download the client, double click the file to install the GitKraken Ser
 Below are platform-specific details on minimum requirements.
 
 ### Windows (.exe file)
-* **System requirements:** Windows 10
+* **System requirements:** Windows 10+
 
 #### Install Instructions
 Double-click the downloaded executable file, and follow the installation instructions.
@@ -51,10 +51,12 @@ Double-click the downloaded executable file, and follow the installation instruc
 GitKraken data is stored within your home profile in `C:\\Users\\{user}\\AppData\\Roaming` or `%APPDATA%\\.gitkraken` on older versions. No data is stored outside of the user's machine or remote services _(GitHub Enterprise, Bitbucket Server, etc)_.
 
 
-
 ***
+
 ### Mac OS (.dmg file)
-* **System requirements:** Mac OS X 10.11+
+* **System requirements:**
+    * Intel: macOS 10.15+
+    * Apple Silicon: macOS 11+
 
 #### Install Instructions
 Double click the downloaded DMG file and when prompted, drag and drop the GitKraken icon to your Applications folder.
