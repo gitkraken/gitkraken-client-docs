@@ -42,7 +42,9 @@ GitKraken Client data is stored with your home profile in `C:\\Users\\{user}\\Ap
 
 ***
 ## Mac OS (.dmg file)
-* **System requirements:** Mac OS X 10.11+
+* **System requirements:**
+    * Intel: macOS 10.15+
+    * Apple Silicon: macOS 11+
 * [Download](https://gitkraken.com/download/mac)
 
 <div class='embed-container embed-container--16-9'>

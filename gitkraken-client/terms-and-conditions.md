@@ -8,9 +8,9 @@ taxonomy:
 ---
 
 
-Our goal is to ensure you can use GitKraken Client effortlessly and with minimal friction. In the unlikely event that you need to reach out to a human, refer to our current Terms and Conditions, below
+Our goal is to ensure you can use GitKraken Client effortlessly and with minimal friction. In the unlikely event that you need to reach out to a human, refer to our current Terms and Conditions below.
 
-👈 You can always reach out to us by using the [Contact support](https://help.gitkraken.com/gitkraken-client/contact-support/ ) link in the left panel.
+You can always reach out to us by using the [Contact support](https://help.gitkraken.com/gitkraken-client/contact-support/).
 
 ---
 

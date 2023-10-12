@@ -122,7 +122,7 @@ Use the <kbd>Shift</kbd> or <kbd>Cmd/Ctrl</kbd> key to select multiple commits i
 
 <img src="/wp-content/uploads/select-commits.gif" srcset="/wp-content/uploads/select-commits.gif" class="img-bordered img-responsive center">
 
-This will produced a combined diff, which lists all files that were added, modified, renamed or deleted between the selected commits in the Commit Panel.
+This will produce a combined diff, which lists all files that were added, modified, renamed or deleted between the selected commits in the Commit Panel.
 
 <div class='callout callout--basic'>
     <p><strong>Note:</strong> Are you looking to diff branches? Consider using the <kbd>Cmd/Ctrl</kbd> key to select the head commits of each branch.</p>
