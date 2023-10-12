@@ -26,7 +26,7 @@ Be sure you are logged in with the same email address registered with your GitKr
 
 Yes. If you are the `Owner` of a <strong>Paid</strong> subscription, then you may transfer ownership to a different user from your account.
 
-<img src="/wp-content/uploads/transfer-ownership.png" srcset="/wp-content/uploads/transfer-ownership.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/transfer-ownership-1.png" class="img-responsive center img-bordered">
 
 ***
 

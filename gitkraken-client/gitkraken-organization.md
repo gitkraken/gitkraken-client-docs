@@ -16,11 +16,11 @@ A GitKraken organization is a collection of [GitKraken accounts](/gitkraken-clie
 
 To create an organization, go to [app.gitkraken.com](https://app.gitkraken.com/), or select “Manage Account” in the drop down menu inside of GitKraken Client, and select “Create Organization” in the left side menu. If you are not part of any organization, you can select “New Trial Organization." The creator of the organization is automatically the [owner](/gitkraken-client/gitkraken-organization/##roles) of it.
 
-<img src="/wp-content/uploads/gitkraken-organization-create.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/gitkraken-organization-create-1.png" class="img-responsive center img-bordered">
 
 You also have the option to purchase an organization for someone else that would be the [owner](/gitkraken-client/gitkraken-organization/#roles) and use the subscription. To do this, check "This purchase is for someone else" in the checkout page and it will ask who the owner is by email and sends them email instructions with next steps. You will be the owner of the organization until they accept, then you will be set as the [Billing Contact](/gitkraken-client/gitkraken-organization/#roles).
 
-<img src="/wp-content/uploads/gitkraken-organization-create-2.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/gitkraken-organization-new-owner.png" class="img-responsive center img-bordered">
 
 ***
 
@@ -32,7 +32,7 @@ To add someone to your organization, go to [app.gitkraken.com](https://app.gitkr
 
 Only members that have a [role](/gitkraken-client/gitkraken-organization/#roles) with permission can add users to an organization. When you do add someone, it will consume a license of your subscription. If all available licenses are consumed when adding a user, a billing summary will show up during the process, select "Purchase" to complete the transaction and add the users.
 
-<img src="/wp-content/uploads/gitkraken-organization-add-users-2.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/gitkraken-organization-add-users-3.png" class="img-responsive center img-bordered">
 
 You can also add licenses in bulk to your organization separately from adding users by going to the [Subscription](/gitkraken-client/gitkraken-subscriptions/) section in your organization.
 
@@ -56,7 +56,7 @@ To import multiple users via CSV select the “Add User” button. From here you
 
 To export users to a CSV, select “Export via CSV”. The export will contain columns for Email, Username, Role, User License.
 
-<img src="/wp-content/uploads/gitkraken-organization-import-and-export-users-2.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/gitkraken-organization-import-and-export-users-3.png" class="img-responsive center img-bordered">
 
 ***
 
@@ -156,7 +156,7 @@ Visiting the Settings section of your organization will give you a snapshot of y
 
 You can hide organizations that you do not wish to see from the sidebar view by checking the “Hide organization in the sidebar” box. You can also rename an organization by typing the desired name into **Organization Name** and then selecting "Save."
 
-<img src="/wp-content/uploads/gitkraken-organization-settings.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/gitkraken-organization-settings-1.png" class="img-responsive center img-bordered">
 
 ***
 
@@ -164,4 +164,4 @@ You can hide organizations that you do not wish to see from the sidebar view by 
 
 If you’re the [owner](/gitkraken-client/gitkraken-organization/#roles) of an organization and would like to make someone else the owner you can do that. First you need to make sure to first add that account to the organization. Once the account is added to your organization, go to your organization, select "Settings" and then “Transfer ownership.” You will select the user within the organization to become the owner (and type their email to confirm). Once you select “Transfer Ownership,” the transfer is final and cannot be undone unless the new owner transfers ownership back to the original owner.
 
-<img src="/wp-content/uploads/gitkraken-organization-transfer-organization.gif" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/gitkraken-organization-transfer-organization-1.gif" class="img-responsive center img-bordered">
