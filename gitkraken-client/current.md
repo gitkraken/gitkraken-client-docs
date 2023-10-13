@@ -32,7 +32,7 @@ _“Don't put all your bits in one bucket.”_
 ## Version 9.9.0
 
 <div class='embed-container embed-container--16-9'>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/8J-YLeIYIWs " frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8J-YLeIYIWs" frameborder="0" allowfullscreen></iframe>
 </div>
 
 _“Let's finally pin down that cloud.”_
