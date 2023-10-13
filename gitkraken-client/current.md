@@ -16,6 +16,22 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ***
 
+<a id="v9-9-2"></a>
+## Version 9.9.2
+
+_“null is like the absence of color on a computer monitor, a black hole in space, an empty room, or a silent scream.”_ 👻
+
+### Friday, October 13th, 2023
+
+### Improvements 🙌
+ - Upgraded to Electron 22.3.25.
+
+### Bug Fixes 🐛
+ - Experimental Feature - Git Executable:
+   - Fixed "Cannot read properties of null (reading 'startsWith')" due to error reading gpg key from settings.
+
+***
+
 <a id="v9-9-1"></a>
 ## Version 9.9.1
 
