@@ -21,7 +21,7 @@ If you want to utilize additional features such as the terminal or LFS, <a href=
 Below are platform-specific instructions and details on minimum requirements.
 
 <div class='callout callout--basic'>
-    <p>Looking for <em>GitKraken on-Premise Self-Hosted</em> installation instructions? Then please start in with our <a href="/enterprise/system-requirements">On-Premise System Requirements</a> page. </p>
+    <p>Looking for <em>GitKraken On-Premise Self-Hosted</em> installation instructions? Then please start in with our <a href="/enterprise/system-requirements">On-Premise System Requirements</a> page. </p>
 </div>
 
 ***

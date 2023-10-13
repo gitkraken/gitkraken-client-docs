@@ -72,7 +72,7 @@ If using the GitKraken Stand-Alone Client, the client will lock upon license exp
 ***
 ### What if I am a reseller?
 
-Resellers may purchase GitKraken Pro subscriptions on behalf of an end-user. Please check out our [Reseller Guide](/account/new-pro-purchases) for specific reseller purchasing instructions.
+Resellers may purchase GitKraken subscriptions on behalf of an end-user. Please check out our [Reseller Guide](/account/new-pro-purchases) for specific reseller purchasing instructions.
 
 ***
 
