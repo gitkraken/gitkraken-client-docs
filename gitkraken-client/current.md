@@ -19,8 +19,6 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 <a id="v9-10-0"></a>
 ## Version 9.10.0
 
-_Read the [full release notes](https://help.gitkraken.com/gitkraken-client/current/#version-9-10-0) and see how it all works!_
-
 ### Tuesday, November 7th, 2023
 
 ### New ✨
