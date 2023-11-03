@@ -16,6 +16,60 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ***
 
+<a id="v9-10-0"></a>
+## Version 9.10.0
+
+_Read the [full release notes](https://help.gitkraken.com/gitkraken-client/current/#version-9-10-0) and see how it all works!_
+
+### Tuesday, November 7th, 2023
+
+### New ✨
+ - Commit and push! Added an option to auto-push on commit.
+   - Stage changes and type a commit message to access option for commit and push. 
+   - You can set the default behavior of the commit button for each repo under `Preferences -> Commit`
+ - You can now snooze a Focus View item for a set duration.
+
+### Improvements 🙌
+ - Enabled Cloud Patches by default.
+   - You can now easily share your changes with other developers by creating a Cloud Patch from your WIP or from the context menu of any commit. Copy the generated link to share the changes.
+   - Added ability to delete Cloud Patches from Left Panel.
+   - Toggle feature on or off in Preferences > Experimental.
+ - Experimental Feature - Git Executable:
+   - Provided more information about SSH supported versions on Windows in Experimental Settings.
+   - Added support for _Pull (fast-forward if possible)_ and _Pull (fast-forward only)_.
+   - Added cherry-pick support.
+ - Focus View improvements:
+   - Added a clear button to the Focus View search bar.
+   - Added a refresh button to the Focus View.
+ - Added a helpful warning when signing with an SSH key, and the configured key is a public key, but the corresponding private key has not been added to the SSH Agent.
+ - Added the ability to turn off commit lazy loading on the Commit Graph in Preferences.
+ - Added the ability to set how to display commit message descriptions in the Commit Graph. 
+ - Added emojis support for commits messages on the Commit Graph.
+
+
+### Bug Fixes 🐛
+ - Experimental Feature - Git Executable:
+   - Show info toast to remove user from remote url if integration is used.
+   - Fixed a problem with SSH_ASKPASS in Windows 10.
+   - Fixed GPG signing with passphrase not working when using installed git version (Windows).
+   - Improved PuTTY detection.
+ - SSH credentials prompt when not using the Git Executable will now show the SSH key file path, not the remote URL.
+ - Improved performance in Commit Graph when opening a repository with thousands of grouped branches / tags.
+ - Improved loading time of avatars in the Commit Graph when switching tabs.
+ - Fixed an issue where the displayed number of items in the Focus View tabs was incorrect.
+ - Fixed an issue where the Commit Graph may display lines incorrectly.
+ - Fixed an issue where duplicate WIP items would appear in the Focus View repos with the same local path but different remotes. 
+ - Fixed an issue where users on older dpkg versions may not be able to install the debian package.
+ - Fixed an issue in Commit Graph when hovering over annotated tag icon, the tag message was not appearing in the tooltip.
+ - Fixed an issue that was preventing the drag and drop of soloed and hidden branches with the Commit Graph.
+ - Fixed an issue where the prompt to refresh the GitLab token would appear more often than required. 
+ - Fixed an issue where Cloud Patch links would not work if the app was closed on macOS.
+ - Fixed an issue where the scroll position resets after closing a diff view with the Commit Graph.
+ - Fixed an issue with branch check out from the dropdown menu of a grouped branch.
+ - Fixed an issue where the Focus View is in a infinite loading state when failing to load pull requests or issues.
+ - Fixed an issue with deleting unsaved branch names when scrolling away from the branch name input. 
+ 
+***
 <a id="v9-9-2"></a>
 ## Version 9.9.2
 
