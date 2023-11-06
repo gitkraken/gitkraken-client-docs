@@ -69,6 +69,35 @@ _"Commit and push code to the wrong branch."_ 😇
  - Fixed an issue where the Focus View is in a infinite loading state when failing to load pull requests or issues.
  - Fixed an issue with deleting unsaved branch names when scrolling away from the branch name input. 
  
+ ### Commit and Push
+
+Need to combine 2 actions in 1 click? As a highly requested feature, we're delighted to share GitKraken Client now offers a "Commit and push" option.
+
+<img src="/wp-content/uploads/Commit-and-Push-9-10.png" class="img-responsive center img-bordered">
+
+The option appears when you stage files, and type a commit message. Then just click the arrow icon to choose "Commit and push." For extra convenience, you can set the commit default setting by navigating to <kbd>Preferences > Commit > Default commit action</kbd>.
+
+<img src="/wp-content/uploads/commit-and-push-preferences.png" class="img-responsive center img-bordered">
+
+
+### Cloud Patches
+
+ Traditional coding collaboration relies heavily on pull requests, causing developers to wait which then delays valuable feedback. We're redefining how developers work together, by inviting collaboration earlier in the development cycle.
+
+ Enter Cloud Patches. From any WIP, you will now see a "Share" icon in the Commit Panel. You can either share all changes in your WIP, or share staged changes only. 
+
+<img src="/wp-content/uploads/Cloud-Patches-Creation.gif" class="img-responsive center img-bordered">
+
+Once the Cloud Patch is created, you can copy the URL to your clipboard and send that to another collaborator. Any person who clicks the link will have the option to open the Cloud Patch in either GitKraken Client or GitLens. Then they can choose whether or not to immediately commit the patch, or add it to their WIP. 
+
+<img src="/wp-content/uploads/Click-Cloud-Patch-URL.gif" class="img-responsive center img-bordered">
+
+Cloud Patches are listed in the Left Panel, and you may re-apply or delete patches from here. 
+
+<img src="/wp-content/uploads/Delete-Cloud-Patches.png" class="img-responsive center img-bordered">
+
+With Cloud Patches, you can engage in meaningful discussions and collaborate long before creating a pull request. We believe this promotes early feedback and smooth review processes.
+ 
 ***
 <a id="v9-9-2"></a>
 ## Version 9.9.2
