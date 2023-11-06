@@ -73,7 +73,7 @@ Need to combine 2 actions in 1 click? As a highly requested feature, we're delig
 
 <img src="/wp-content/uploads/Commit-and-Push-9-10.png" class="img-responsive center img-bordered">
 
-The option appears when you stage files, and type a commit message. Then just click the arrow icon to choose "Commit and push." For extra convenience, you can set the commit default setting by navigating to <kbd>Preferences > Commit > Default commit action</kbd>.
+The option appears when you stage files, and type a commit message. Then just click the arrow icon to choose "Commit and push." For extra convenience, you can set the commit default setting for a repo by navigating to <kbd>Preferences > Commit > Default commit action</kbd>.
 
 <img src="/wp-content/uploads/commit-and-push-preferences.png" class="img-responsive center img-bordered">
 
