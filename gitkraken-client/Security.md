@@ -9,7 +9,7 @@ taxonomy:
 
 Below is a chart outlining some basic security information regarding the type of data that we collect and how we store it.
 
-| Service | What information are we collecting | How is this information secured in the transfer| Where is this information stored (Data residency) | How is this information secured in storage |
+| Service | What information are we collecting | How is this information secured in the transfer| Where is this information stored | How is this information secured in storage |
 | --- | --- | --- | --- | --- |
 | Workspaces/Insights | Repo meta-data issues/PR’s | Encrypted with TLS | MongoDB Atlas | Encrypted at rest (AES-256) |
 | Teams & Users | Repo-relative file paths, number of lines changed | Encrypted with TLS | MongoDB Atlas | Encrypted at rest (AES-256) |
