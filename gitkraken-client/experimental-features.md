@@ -63,6 +63,9 @@ Find below a list of features using the Git binary if the Git Executable experim
 - Added revert commit support.
 - Added pageant ssh agent support.
 
+**Added in 9.10.0:**
+- Added Pull (fast-forward if possible) and Pull (fast-forward only) support.
+- Added cherry-pick support
 ---
 
 ### AI Commit Message Generation

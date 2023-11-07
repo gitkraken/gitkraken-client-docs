@@ -24,6 +24,13 @@ Select the files you wish to stage, and click on any files you wish to review in
 
 When you’re ready, type your message and hit commit to commit your changes. You can also use this **Commit** keyboard shortcut <kbd>&#8984;</kbd> + <kbd>Enter</kbd> for Mac or <kbd>Ctrl</kbd> + <kbd>Enter</kbd> if you are on Linux or Windows.
 
+## Commit and push
+
+You can commit and automatically push your changes to the remote. Stage changes and type a commit message to enable the option for commit and push.
+
+<img src='/wp-content/uploads/9-10-commit-push.png' class='img-bordered img-responsive center'>
+
+
 <img src='/wp-content/uploads/commit.png' srcset='/wp-content/uploads/commit@2x.png 2x' class='img-bordered img-responsive center'>
 
 The graph updates with your commit, but the undo button or this keyboard shortcut
