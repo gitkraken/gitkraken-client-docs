@@ -19,7 +19,7 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 <a id="v9-10-0"></a>
 ## Version 9.10.0
 
-### Tuesday, November 7th, 2023
+### Wednesday, November 8th, 2023
 
 ### New ✨
  - Commit and push! Added an option to auto-push on commit.
