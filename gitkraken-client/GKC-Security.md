@@ -1,6 +1,6 @@
 ---
 
-title: Security Information
+title: Security Information for GKC
 description: Data Security Information
 taxonomy:
     category: gitkraken-client
