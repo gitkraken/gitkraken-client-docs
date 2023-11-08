@@ -102,9 +102,9 @@ You can filter the Pull Requests and Issues by the following:
 * Filter PRs by `Mine`, `Created by Me`, `Assigned to Me`, or `Needs my review`.
 * Filter ISSUES by `Mine`, `Created by Me`, `Assigned to Me`, or `Mentioned`.
 
-Pull Requests and Issues can be pinned (and unpinned) by selecting the <i class="fa-solid fa-thumbtack"></i> icon to move them to the top of the list. Additionally, they can be Snoozed (and removed from Snoozed) by selecting the <i class="fa-solid fa-snooze"></i> icon, to move them to the Snoozed section. 
+Pull Requests and Issues can be pinned (and unpinned) by selecting the <i class="fa-solid fa-thumbtack"></i> icon to move them to the top of the list. Additionally, you have the option to Snooze PRs either indefinitely or for a specific duration by clicking the <i class="fa-solid fa-snooze"></i> icon, which will relocate them to the 'Snoozed' section. To retrieve these PRs, simply visit the 'Snoozed' section and remove them from the snooze state."
 
-<img src="/wp-content/uploads/pin-and-snooze.gif" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/9-10-pin-and-snooze.gif" class="img-bordered img-responsive center">
 
 Instead of hunting for these pieces of information separately, you can get a holistic view of what you’re working on.
 

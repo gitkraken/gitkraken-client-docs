@@ -219,7 +219,7 @@ Repo-Specific preferences only apply to the repo currently open in GitKraken Cli
 - [Encoding](/gitkraken-client/editing-files/#encoding)
 - [Gitflow](/git-workflows-and-extensions/git-flow/)
 - [Git Hooks](/working-with-repositories/githooks/)
-- [Commit Template](/working-with-commits/commits/#commit-templates)
+- [Commit](/working-with-commits/commits/)
 - [LFS](/git-workflows-and-extensions/intro-and-requirements/)
 - [Issues](/integrations/jira/)
 - [Team](/working-with-repositories/team-view)
