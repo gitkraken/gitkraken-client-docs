@@ -115,9 +115,7 @@ A Cloud Patch is a Git patch GitKraken securely stores for you so you can easily
 
 To create a Cloud Patch, click the share icon <i class="fa-solid fa-share"></i> in the WIP commit panel and stage the changes you want to include in the Cloud Patch. You can also create a Cloud Patch from a commit by right-clicking on a commit in the Commit Graph and selecting `Share commit as Cloud Patch`. Once created, you can select `Copy Cloud Patch link` from the toast or by right-clicking a Cloud Patch in the left panel where all your Cloud Patches will be listed.
 
-<img src='/wp-content/uploads/gkc-create-cloud-patch.png' class='img-bordered img-responsive center'>
-
-This link can be shared with users to open the patch in GitKraken. When a link is selected, the user will be prompted to open the client, clone or open the repository if not known to GitKraken Client, and then select the base branch to apply the patch to. From here, they can simply select `apply patch to <branch>`. 
+This link can be shared with users to open the Cloud Patch in GitKraken. When a Cloud Patch link is opened, the user will be prompted to open the client, clone or open the repository if not known to GitKraken Client, and then select the base branch to apply the patch to. From here, they can simply select `apply patch to <branch>`. 
 
 <img src='/wp-content/uploads/gkc-apply-cloud-patch.png' class='img-bordered img-responsive center'>
 
