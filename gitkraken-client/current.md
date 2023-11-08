@@ -86,11 +86,11 @@ The option appears when you stage files, and type a commit message. Then just cl
 
  Enter Cloud Patches. From any WIP, you will now see a "Share" icon in the Commit Panel. You can either share all changes in your WIP, or share staged changes only. 
 
-<img src="/wp-content/uploads/Cloud-Patches-Creation.gif" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/Cloud-Patches-Creation-2.gif" class="img-responsive center img-bordered">
 
 Once the Cloud Patch is created, you can copy the URL to your clipboard and send that to another collaborator. Any person who clicks the link will have the option to open the Cloud Patch in either GitKraken Client or GitLens. Then they can choose whether or not to immediately commit the patch, or add it to their WIP. 
 
-<img src="/wp-content/uploads/Click-Cloud-Patch-URL.gif" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/Click-Cloud-Patch-URL-2.gif" class="img-responsive center img-bordered">
 
 Cloud Patches are listed in the Left Panel, and you may re-apply or delete patches from here. 
 
