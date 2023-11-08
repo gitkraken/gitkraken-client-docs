@@ -19,6 +19,8 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 <a id="v9-10-0"></a>
 ## Version 9.10.0
 
+_"Commit and push code to the wrong branch."_ 😇
+
 ### Wednesday, November 8th, 2023
 
 ### New ✨
