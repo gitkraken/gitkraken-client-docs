@@ -113,7 +113,7 @@ https://platform.openai.com/account/api-keys
 
 A Cloud Patch is a Git patch GitKraken securely stores for you so you can easily share changes with your team. The code is transferred directly from your machine into secure storage - this is managed by GitKraken. Currently, anybody with access to the Cloud Patch link can view the code and apply the patch to their repository.
 
-To create a Cloud Patch, right-click a file(s) in your working directory and select `Share file(s) as cloud patch`. You can also click the share icon <i class="fa-solid fa-share"></i> in the commit panel. Once created, you can select `copy cloud patch link` from the toast or by right-clicking a Cloud Patch in the left panel where all your Cloud Patches will be listed.
+To create a Cloud Patch, click the share icon <i class="fa-solid fa-share"></i> in the WIP commit panel and stage the changes you want to include in the Cloud Patch. You can also create a Cloud Patch from a commit by right-clicking on a commit in the Commit Graph and selecting `Share commit as Cloud Patch`. Once created, you can select `Copy Cloud Patch link` from the toast or by right-clicking a Cloud Patch in the left panel where all your Cloud Patches will be listed.
 
 <img src='/wp-content/uploads/gkc-create-cloud-patch.png' class='img-bordered img-responsive center'>
 
