@@ -119,6 +119,10 @@ This link can be shared with users to open the Cloud Patch in GitKraken. When a 
 
 <img src='/wp-content/uploads/gkc-apply-cloud-patch.png' class='img-bordered img-responsive center'>
 
+To delete a cloud path, right-click it and select `Delete Cloud Patch`.
+
+<img src="/wp-content/uploads/gkc-delete-cloud-patch.png" class="img-bordered img-responsive center">
+
 When `Use Cloud Patches` is enabled, GitKraken will be able to create a Cloud Patch for you to share with other developers. To disable the ability to create a Cloud Patch, uncheck `Preferences > Experimental > Use Cloud Patches`. 
 
 ---
