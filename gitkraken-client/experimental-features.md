@@ -111,20 +111,41 @@ https://platform.openai.com/account/api-keys
 
 ### Cloud Patches
 
-A Cloud Patch is a Git patch GitKraken securely stores for you so you can easily share changes with your team. The code is transferred directly from your machine into secure storage - this is managed by GitKraken. Currently, anybody with access to the Cloud Patch link can view the code and apply the patch to their repository.
+#### What are Cloud Patches and why would you want to use them
+
+A Cloud Patch is a Git patch that GitKraken securely stores for you so it can be easily shared with others across GitKraken Client, GitLens, and the GitKraken CLI. The patch is directly transferred from your machine into secure storage. 
+
+Cloud Patches allow the ability to engage early with your team before a pull request. They can be created as soon as you have a work in progress. This can help with collaborating on changes prior to a pull request and minimize the delay of pull request reviews. 
+
+#### How to setup Cloud Patches
+
+To enable Cloud Patches in GitKraken Client, check `Use Cloud Patches` under `Preferences > Experimental`. To disable Cloud Patches per client, simply uncheck this option.
+
+#### How to work with Cloud Patches
 
 To create a Cloud Patch, click the share icon <i class="fa-solid fa-share"></i> in the WIP commit panel and stage the changes you want to include in the Cloud Patch. You can also create a Cloud Patch from a commit by right-clicking on a commit in the Commit Graph and selecting `Share commit as Cloud Patch`. Once created, you can select `Copy Cloud Patch link` from the toast or by right-clicking a Cloud Patch in the left panel where all your Cloud Patches will be listed.
 
-This link can be shared with users to open the Cloud Patch in GitKraken. When a Cloud Patch link is opened, the user will be prompted to open the client, clone or open the repository if not known to GitKraken Client, and then select the base branch to apply the patch to. From here, they can simply select `apply patch to <branch>`. 
+<img src='/wp-content/uploads/gkc-create-cloud-patch.png' class='img-bordered img-responsive center'>
 
-<img src='/wp-content/uploads/gkc-apply-cloud-patch.png' class='img-bordered img-responsive center'>
+This link can be shared with users to open the Cloud Patch in GitKraken Client or GitLens. When a Cloud Patch link is opened, the user will be prompted to open the client, clone or open the repository if not known to GitKraken Client, and then select the base branch to apply the patch to. From here, they can simply select `apply patch to <branch>`. 
+
+<img src='/wp-content/uploads/gkc-apply-cloud-patch.gif' class='img-bordered img-responsive center'>
 
 To delete a cloud path, right-click it and select `Delete Cloud Patch`.
 
 <img src="/wp-content/uploads/gkc-delete-cloud-patch.png" class="img-bordered img-responsive center">
 
-When `Use Cloud Patches` is enabled, GitKraken will be able to create a Cloud Patch for you to share with other developers. To disable the ability to create a Cloud Patch, uncheck `Preferences > Experimental > Use Cloud Patches`. 
+#### Known issues and workarounds
 
+*What if I do not want GitKraken to host my Cloud Patches or have my Cloud Patch data stored on your servers?*
+
+We offer the ability for you to host Cloud Patches on your own AWS S3 storage instances. In order to set this up, please reach out to our [support team](https://help.gitkraken.com/gitkraken-client/contact-support/) and include the following information about your bucket:
+ 
+ * Name of AWS bucket
+ * AWS region the bucket is located in
+
+ Once we have that information, we will provide you with a bucket policy that can be attached to your bucket through the Permissions Bucket Policy Editor. After that is completed, Cloud Patches will be stored on your own bucket. 
+ 
 ---
 
 ### New Commit Graph
