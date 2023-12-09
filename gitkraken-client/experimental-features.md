@@ -129,7 +129,7 @@ To create a Cloud Patch, click the share icon <i class="fa-solid fa-share"></i> 
 
 This link can be shared with users to open the Cloud Patch in GitKraken Client or GitLens. When a Cloud Patch link is opened, the user will be prompted to open the client, clone or open the repository if not known to GitKraken Client, and then select the base branch to apply the patch to. From here, they can simply select `apply patch to <branch>`. 
 
-<img src='/wp-content/uploads/gkc-apply-cloud-patch.gif' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/gkc-apply-cloud-patch-example.gif' class='img-bordered img-responsive center'>
 
 To delete a cloud path, right-click it and select `Delete Cloud Patch`.
 
@@ -141,8 +141,8 @@ To delete a cloud path, right-click it and select `Delete Cloud Patch`.
 
 We offer the ability for you to host Cloud Patches on your own AWS S3 storage instances. In order to set this up, please reach out to our [support team](https://help.gitkraken.com/gitkraken-client/contact-support/) and include the following information about your bucket:
  
- * Name of AWS bucket
- * AWS region the bucket is located in
+ - Name of AWS bucket
+ - AWS region the bucket is located in
 
  Once we have that information, we will provide you with a bucket policy that can be attached to your bucket through the Permissions Bucket Policy Editor. After that is completed, Cloud Patches will be stored on your own bucket. 
  
