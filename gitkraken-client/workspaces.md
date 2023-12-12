@@ -106,6 +106,15 @@ Pull Requests and Issues can be pinned (and unpinned) by selecting the <i class=
 
 <img src="/wp-content/uploads/9-10-pin-and-snooze.gif" class="img-bordered img-responsive center">
 
+From the Focus View, you can take action quickly on items such as:
+- Merge pull request
+- Close pull request
+- Update issue status
+- Mark issue as closed
+- Open pull request/issue in the browser
+
+<img src="/wp-content/uploads/Focus-View-Actions.png" class="img-bordered img-responsive center">
+
 Instead of hunting for these pieces of information separately, you can get a holistic view of what you’re working on.
 
 ### Team view
