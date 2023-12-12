@@ -35,13 +35,13 @@ _"Don't be so tight-fisted with that patch. Or actually, do be?"_
    - You can now share Cloud Patches directly with members of your organization by selecting specific users when creating a Cloud Patch.
    - You can now view Cloud Patches shared with you in the Cloud Patches Left Panel section under `Shared with Me`.
  - You can now create Cloud Patches from the Command Palette (<kbd>Ctrl/Cmd+P</kbd>).
- - You can now use the left and right arrow keys (as well as `h` and `l`) to navigate between a commit in the Commit Graph and the first file in that commit.
+ - You can now use the left and right arrow keys (as well as <kbd>h</kbd> and <kbd>l</kbd>) to navigate between a commit in the Commit Graph and the first file in that commit.
 
 ### Improvements 🙌
  - Experimental Feature - Git Executable:
    - Added merge support.
    - Add pull support when the selected branch is not active.
-   - Added new log level (GIT_SILLY) to get extra info about `git` and `ssh` commands in logs.
+   - Added new log level `GIT_SILLY` to get extra info about `git` and `ssh` commands in logs.
  - Added new UI Customization setting in preferences to use generic hosting service icons in `branch/tags`.
 
 ### Bug Fixes 🐛
@@ -64,7 +64,9 @@ _"Don't be so tight-fisted with that patch. Or actually, do be?"_
  - Improved performance in the Commit Graph when moving between commits using the up/down keys.
  - Fixed an issue where inviting users to an organization would silently fail.
  - Added missing options for `detached head` context menu: `Copy commit sha`, `Solo`, `Hide`, `Create patch` and `Create cloud patch`.
- - Fixed an issue where Gitlab Self Managed Workspaces would not load repos, merge requests, or issues if a repo was deleted.
+ - Fixed an issue where GitLab Self-Managed Workspaces would not load repos, merge requests, or issues if a repo was deleted.
+ - Fixed an issue where some deep links may not be recognized by GitKraken Client.
+ - Fixed an issue where patch files containing multi-byte characters could fail to apply.
 
  ### New actions from Focus View
 
