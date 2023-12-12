@@ -66,6 +66,12 @@ Find below a list of features using the Git binary if the Git Executable experim
 **Added in 9.10.0:**
 - Added Pull (fast-forward if possible) and Pull (fast-forward only) support.
 - Added cherry-pick support
+
+**Added in 9.11.0:**
+- Added merge support.
+- Add pull support when the selected branch is not active.
+- Added new log level `GIT_SILLY` to get extra info about `git` and `ssh` commands in logs.
+
 ---
 
 ### AI Commit Message Generation
@@ -131,6 +137,8 @@ To disable Cloud Patches per client, simply uncheck `Use Cloud Patches`.
 To create a Cloud Patch, click the share icon <i class="fa-solid fa-share"></i> in the WIP commit panel and stage the changes you want to include in the Cloud Patch. You can also create a Cloud Patch from a commit by right-clicking on a commit in the Commit Graph and selecting `Share commit as Cloud Patch`. Once created, you can select `Copy Cloud Patch link` from the toast or by right-clicking a Cloud Patch in the left panel where all your Cloud Patches will be listed.
 
 <img src='/wp-content/uploads/gkc-create-cloud-patch.png' class='img-bordered img-responsive center'>
+
+
 
 This link can be shared with users to open the Cloud Patch in GitKraken Client or GitLens. When a Cloud Patch link is opened, the user will be prompted to open the client, clone or open the repository if not known to GitKraken Client, and then select the base branch to apply the patch to. From here, they can simply select `apply patch to <branch>`. 
 
