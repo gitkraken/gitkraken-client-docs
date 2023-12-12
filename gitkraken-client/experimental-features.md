@@ -138,12 +138,11 @@ To create a Cloud Patch, click the share icon <i class="fa-solid fa-share"></i> 
 
 <img src='/wp-content/uploads/gkc-create-cloud-patch.png' class='img-bordered img-responsive center'>
 
-When creating a Cloud Patch, you have the options to share with `Anyone with the link`, `Anyone in my org`, or `Only collaborators`. When sharing with You can now share Cloud Patches directly with members of your organization by selecting specific users when creating a Cloud Patch.
-- You can now view Cloud Patches shared with you in the Cloud Patches Left Panel section under `Shared with Me`.
+When creating a Cloud Patch, you have the options to share with `Anyone with the link`, `Anyone in my org`, or `Only collaborators`. You can also share Cloud Patches directly with members of your organization. Cloud Patches shared with you can be viewed in the Cloud Patches Left Panel section under `Shared with Me`.
 
 <img src='/wp-content/uploads/Cloud-Patch-Permissions.png' class='img-bordered img-responsive center'>
 
-This link can be shared with users to open the Cloud Patch in GitKraken Client or GitLens. When a Cloud Patch link is opened, the user will be prompted to open the client, clone or open the repository if not known to GitKraken Client, and then select the base branch to apply the patch to. From here, they can simply select `apply patch to <branch>`. 
+Cloud Patch links can be shared with users to open the Cloud Patch in GitKraken Client or GitLens. When a Cloud Patch link is opened, the user will be prompted to open the client, clone or open the repository if not known to GitKraken Client, and then select the base branch to apply the patch to. From here, they can simply select `apply patch to <branch>`. 
 
 <img src='/wp-content/uploads/gkc-apply-cloud-patch-example.gif' class='img-bordered img-responsive center'>
 
