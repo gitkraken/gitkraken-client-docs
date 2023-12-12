@@ -66,6 +66,22 @@ _"Don't be so tight-fisted with that patch. Or actually, do be?"_
  - Added missing options for `detached head` context menu: `Copy commit sha`, `Solo`, `Hide`, `Create patch` and `Create cloud patch`.
  - Fixed an issue where Gitlab Self Managed Workspaces would not load repos, merge requests, or issues if a repo was deleted.
 
+ ### New actions from Focus View
+
+Focus View is wonderful for reviewing a list of all your pull requests, issues, and WIPs for the repositories in your Workspace. With this release, you may now access actions like "Merge" and "Close" for pull requests, along with options to "Update Status" to update the status field of an issue.
+
+<img src="/wp-content/uploads/Focus-View-Actions.png" class="img-responsive center img-bordered">
+
+ ### Set permissions for Cloud Patches
+
+ Cloud Patches are here to make it easy to share code and quickly get feedback. This release adds permission settings to the Cloud Patch creation process.
+
+<img src="/wp-content/uploads/Cloud-Patch-Permissions.png" class="img-responsive center img-bordered">
+
+ Choose between making the Cloud Patch available to anyone with the link, to people in your GitKraken organization, or to specific collaborators. When you share with a specific collaborator, that person will see the Cloud Patch in the Left Panel when they next open GitKraken Client. 
+
+ <img src="/wp-content/uploads/only-collaborators.png" class="img-responsive center img-bordered">
+
 ***
 
 <a id="v9-10-0"></a>

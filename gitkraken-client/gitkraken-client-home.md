@@ -14,7 +14,7 @@ Check out the introduction video and links below to get started with GitKraken C
 ## GitKraken Client Tutorial
 
 <div class='embed-container embed-container--16-9'>
-    <iframe width='560' height='315' src='https://www.youtube.com/embed/RiAeNSFjjLc?rel=0&vq=hd1080' frameborder='0' allowfullscreen></iframe>
+    <iframe width='560' height='315' src='https://www.youtube.com/embed/LBlijN29gb8?rel=0&vq=hd1080' frameborder='0' allowfullscreen></iframe>
 </div>
 
 ***
