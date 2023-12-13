@@ -110,9 +110,11 @@ We know keyboard shortcuts help get things done faster, and here’s a handy lis
         <tr>
             <td>Select the item to the right</td>
             <td><kbd>L</kbd> or <kbd>&rarr;</kbd></td>
+            <td><kbd>L</kbd> or <kbd>&rarr;</kbd></td>
         </tr>
         <tr>
             <td>Select the item to the left</td>
+            <td><kbd>H</kbd> or <kbd>&larr;</kbd></td>
             <td><kbd>H</kbd> or <kbd>&larr;</kbd></td>
         </tr>
         <tr>
