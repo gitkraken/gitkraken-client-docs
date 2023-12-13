@@ -66,6 +66,12 @@ Find below a list of features using the Git binary if the Git Executable experim
 **Added in 9.10.0:**
 - Added Pull (fast-forward if possible) and Pull (fast-forward only) support.
 - Added cherry-pick support
+
+**Added in 9.11.0:**
+- Added merge support.
+- Add pull support when the selected branch is not active.
+- Added new log level `GIT_SILLY` to get extra info about `git` and `ssh` commands in logs.
+
 ---
 
 ### AI Commit Message Generation
@@ -82,7 +88,7 @@ With this setting enabled, GitKraken Client will have the ability to generate co
 
 **Prompt:** This is what is sent to OpenAI. We have it pre-filled to hopefully get Open AI on the right track. However, you can enter whatever you want here and it will be sent when you click ✨.
 
-#### How to use in GKC
+#### How to use in GitKraken Client
 
 Once you have AI commit message generation enabled you will see ✨ sparkles ✨ in the commit message field. Stage your changes and click this button to get the AI magic started!
 
@@ -132,7 +138,11 @@ To create a Cloud Patch, click the share icon <i class="fa-solid fa-share"></i> 
 
 <img src='/wp-content/uploads/gkc-create-cloud-patch.png' class='img-bordered img-responsive center'>
 
-This link can be shared with users to open the Cloud Patch in GitKraken Client or GitLens. When a Cloud Patch link is opened, the user will be prompted to open the client, clone or open the repository if not known to GitKraken Client, and then select the base branch to apply the patch to. From here, they can simply select `apply patch to <branch>`. 
+When creating a Cloud Patch, you have the options to share with `Anyone with the link`, `Anyone in my org`, or `Only collaborators`. You can also share Cloud Patches directly with members of your organization. Cloud Patches shared with you can be viewed in the Cloud Patches Left Panel section under `Shared with Me`.
+
+<img src='/wp-content/uploads/Cloud-Patch-Permissions.png' class='img-bordered img-responsive center'>
+
+Cloud Patch links can be shared with users to open the Cloud Patch in GitKraken Client or GitLens. When a Cloud Patch link is opened, the user will be prompted to open the client, clone or open the repository if not known to GitKraken Client, and then select the base branch to apply the patch to. From here, they can simply select `apply patch to <branch>`. 
 
 <img src='/wp-content/uploads/gkc-apply-cloud-patch-example.gif' class='img-bordered img-responsive center'>
 

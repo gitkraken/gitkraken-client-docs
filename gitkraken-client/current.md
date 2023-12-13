@@ -16,6 +16,76 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ***
 
+<a id="v9-11-0"></a>
+## Version 9.11.0
+
+_"Don't be so tight-fisted with that patch. Or actually, do be?"_ 
+
+### Wednesday, December 13th, 2023
+
+### New ✨
+ - Added new actions to Focus View items:
+   - Merge pull request
+   - Close pull request
+   - Update issue status
+   - Mark issue as closed
+   - Open pull request/issue in the browser
+ - Added new ways to share Cloud Patches:
+   - You can now set link permissions on your Cloud Patch links to allow access to `Anyone with the link`, `Anyone in my org`, or `Only collaborators`.
+   - You can now share Cloud Patches directly with members of your organization by selecting specific users when creating a Cloud Patch.
+   - You can now view Cloud Patches shared with you in the Cloud Patches Left Panel section under `Shared with Me`.
+ - You can now create Cloud Patches from the Command Palette (<kbd>Ctrl/Cmd+P</kbd>).
+ - You can now use the left and right arrow keys (as well as <kbd>h</kbd> and <kbd>l</kbd>) to navigate between a commit in the Commit Graph and the first file in that commit.
+
+### Improvements 🙌
+ - Experimental Feature - Git Executable:
+   - Added merge support.
+   - Add pull support when the selected branch is not active.
+   - Added new log level `GIT_SILLY` to get extra info about `git` and `ssh` commands in logs.
+ - Added new UI Customization setting in preferences to use generic hosting service icons in `branch/tags`.
+
+### Bug Fixes 🐛
+ - The commit message view in the Commit Panel now resizes properly when rebasing.
+ - Fixed an issue where SSH signed tags would display the signature in their tooltip.
+ - Fixed an issue where pull requests for GitHub Enterprise would not load in Workspaces.
+ - Fixed an issue where dragging a Commit Graph label onto a Left Panel branch could present a fast-forward option for the wrong remote.
+ - Fixed an issue where you could not scroll horizontally on the Commit Graph using the mouse wheel or the two-finger scroll on a trackpad.
+ - Fixed an issue where navigating between commits using the up and down keys did not move the vertical scroll bar if the `branch/tag` column was hidden in the Commit Graph.
+ - Fixed an issue where the Commit Graph could display a black region after closing an issue view.
+ - Fixed an issue where the Commit Graph would not always take you to the commit when searching.
+ - Fixed an issue where grouped `branch/tag` nodes would not expand after losing focus on Windows and Linux.
+ - Fixed an issue where synced Azure Workspaces would have duplicate entries in the repositories page.
+ - Moved the `branch/tag` icons after their name label in the Commit Graph.
+ - Fixed a case where the Focus View was in an infinite loading state if no issue tracker is selected.
+ - Fixed an issue where detached heads were displayed in the `TAGS` section instead of the `BRANCH` section of the Left Panel.
+ - Fixed an issue where the context menu would not display when dragging a tag into a local branch.
+ - Fixed an issue where cloning repos from Workspaces would not work if at least 1 repo failed to fetch data.
+ - Fixed flicker on commit selection when holding up/down on the Commit Graph.
+ - Improved performance in the Commit Graph when moving between commits using the up/down keys.
+ - Fixed an issue where inviting users to an organization would silently fail.
+ - Added missing options for `detached head` context menu: `Copy commit sha`, `Solo`, `Hide`, `Create patch` and `Create cloud patch`.
+ - Fixed an issue where GitLab Self-Managed Workspaces would not load repos, merge requests, or issues if a repo was deleted.
+ - Fixed an issue where some deep links may not be recognized by GitKraken Client.
+ - Fixed an issue where patch files containing multi-byte characters could fail to apply.
+
+ ### New actions from Focus View
+
+Focus View is wonderful for reviewing a list of all your pull requests, issues, and WIPs for the repositories in your Workspace. With this release, you may now access actions like "Merge" and "Close" for pull requests, along with options to "Update Status" to update the status field of an issue.
+
+<img src="/wp-content/uploads/Focus-View-Actions.png" class="img-responsive center img-bordered">
+
+ ### Set permissions for Cloud Patches
+
+ Cloud Patches are here to make it easy to share code and quickly get feedback. This release adds permission settings to the Cloud Patch creation process.
+
+<img src="/wp-content/uploads/Cloud-Patch-Permissions.png" class="img-responsive center img-bordered">
+
+ Choose between making the Cloud Patch available to anyone with the link, to people in your GitKraken organization, or to specific collaborators. When you share with a specific collaborator, that person will see the Cloud Patch in the Left Panel when they next open GitKraken Client. 
+
+ <img src="/wp-content/uploads/only-collaborators.png" class="img-responsive center img-bordered">
+
+***
+
 <a id="v9-10-0"></a>
 ## Version 9.10.0
 
