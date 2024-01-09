@@ -17,7 +17,7 @@ You can always reach out to us by using the [Contact support](https://help.gitkr
 ## GitKraken Client Support
 
 - Support requests for GitKraken Client are to be submitted at [Contact Support](https://help.gitkraken.com/gitkraken-client/contact-support/). Interactions with users submitting tickets are done primarily through emails, though other communication services such as phone calls, screenshare services might be used to deliver Support Services. 
-- Support Hours are 7:00am to 4:00pm Monday to Friday, ArizonaTime (UTC-7) with a response time of 1 (one) business day. While support requests can be submitted by users at any time, responses to requests and interactions with support are provided during Support Hours only.
+- Support Hours are 7:00am to 4:00pm Monday to Friday, Arizona Time (UTC-7) with a response time of 1 (one) business day. While support requests can be submitted by users at any time, responses to requests and interactions with support are provided during Support Hours only.
 - The following product plans are guaranteed support: Pro, Teams and Enterprise. Enterprise encompasses cloud, on-premise server and on-premise serverless plans. This includes any bundle products which contain GitKraken Client. 
 - GitKraken Client is available for Windows, Mac, and Linux systems, see the current supported versions on our [how to install](https://help.gitkraken.com/gitkraken-client/how-to-install/) page.
 - Best effort support is provided for Students and Education users, we aim to respond quickly and help as much as possible, but we do not have any guaranteed response window.
@@ -53,4 +53,4 @@ However, even under these circumstances, we will provide as much advance notice 
 
 
 
-Visit the [EULA](https://www.gitkraken.com/eula) and [Privacy Policy](https://www.gitkraken.com/privacy) pages for more infromation.
+Visit the [EULA](https://www.gitkraken.com/eula) and [Privacy Policy](https://www.gitkraken.com/privacy) pages for more information.
