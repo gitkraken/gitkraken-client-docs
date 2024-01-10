@@ -16,6 +16,36 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ***
 
+<a id="v9-11-1"></a>
+## Version 9.11.1
+
+### Wednesday, January 10th, 2024
+
+### New ✨
+-  You can now edit link permissions for Cloud Patches after creation.
+
+### Improvements 🙌
+- Upgraded to Electron 27.
+- Experimental Feature - Git Executable:
+    - Friendlier GPG errors
+- Experimental Feature - AI Commit Message Generation:
+    - You can now select an OpenAI model to use with `gpt-4` support added.
+    - You can test whether an OpenAI API key is valid with a button in <kbd>Preferences > Experimental</kbd>.
+- Added the ability to customize more date/time formats in <kbd>Preferences > UI Customization > Date/Time</kbd>.
+
+### Bug Fixes 🐛
+- Experimental Feature - Git Executable:
+    - Fixed an issue where invalid credentials with HTTPS remotes showed an info toast instead of prompting for valid credentials.
+    - Fixed a problem on MacOS and Linux where SSH commit signing could only be used with `ssh-keygen`.
+- Fixed an issue where the compact `Graph` column in the Commit Graph may not display correctly when moving the horizontal scroll bar using the trackpad.
+- Fixed an issue where selecting multiple branches in the left panel was not working on Windows or Linux.
+- Fixed an issue where the `Date/Time` column of the Commit Graph was not taking into account the time portion set in <kbd>Preferences > UI Customization > Date/Time Format</kbd>.
+- Fixed several issues where resolving a `gitkraken://` link wouldn't cancel properly when the user interrupted locating the relevant repository.
+- Fixed an issue where navigating between files in the commit panel with the keyboard didn't work as expected.
+- Cloud Patches will no longer fail to create on repositories without a remote.
+
+***
+
 <a id="v9-11-0"></a>
 ## Version 9.11.0
 
