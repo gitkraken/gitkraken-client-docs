@@ -1,3 +1,5 @@
+You can write code with GitKraken Client.
+
 ---
 
 title: Diff, Patch
