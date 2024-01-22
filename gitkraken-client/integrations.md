@@ -25,7 +25,6 @@ GitKraken Client makes it easy to integrate with a wide variety of issue trackin
 
 - [Jira](/gitkraken-client/jira/)
 - [Jira Server](/gitkraken-client/jira-server/)
-- [GitKraken Boards](/gitkraken-client/boards/)
 - [Trello](/gitkraken-client/trello/)
 - [GitLab Issues](/gitkraken-client/gitlab-issues/)
 - [GitLab Self-Managed Issues](/gitkraken-client/gitlab-self-managed-issues/)
