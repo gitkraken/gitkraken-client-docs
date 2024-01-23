@@ -42,33 +42,42 @@ Once you download the client, double click the file to install the GitKraken Ser
 Below are platform-specific details on minimum requirements.
 
 ### Windows (.exe file)
+
 * **System requirements:** Windows 10+
 
 #### Install Instructions
+
 Double-click the downloaded executable file, and follow the installation instructions.
 
 #### Data Location
+
 GitKraken data is stored within your home profile in `C:\\Users\\{user}\\AppData\\Roaming` or `%APPDATA%\\.gitkraken` on older versions. No data is stored outside of the user's machine or remote services _(GitHub Enterprise, Bitbucket Server, etc)_.
 
 
 ***
 
 ### Mac OS (.dmg file)
+
 * **System requirements:**
-    * Intel: macOS 10.15+
-    * Apple Silicon: macOS 11+
+    * Intel: MacOS 10.15+
+    * Apple Silicon: MacOS 11+
 
 #### Install Instructions
+
 Double click the downloaded DMG file and when prompted, drag and drop the GitKraken icon to your Applications folder.
 
 #### Data Location
+
 GitKraken data is stored in `/Users/{user}/.gitkraken` == `~/.gitkraken`. No data is stored outside of user's machine or remote services _(GitHub Enterprise, Bitbucket Server, etc)_.
 
 ***
+
 ### Linux (.deb and .tar.gz files)
+
 * **System requirements:** Ubuntu LTS 18.04 or later
 
 #### .deb
+
 GitKraken has a simple package available for Debian based distributions.
 ```
 wget https://release.gitkraken.com/linux-standalone/gitkraken-amd64.deb
@@ -76,29 +85,32 @@ dpkg -i gitkraken-amd64.deb
 ```
 
 #### .tar
+
 ```
 wget https://release.gitkraken.com/linux-standalone/gitkraken-amd64.tar.gz
 tar -xvzf gitkraken-amd64.tar.gz
 ```
 
 #### Data Location
+
 GitKraken data is stored in `/home/{user}/.gitkraken` == `~/.gitkraken`. No data is stored outside of user's machine or remote services _(GitHub Enterprise, Bitbucket Server, etc)_.
 
 ***
 
 ### 3. Load license file
 
-When you first open GitKraken Stand-Alone Client, you will be prompted to load the `.dat` license file. 
+When you first open GitKraken Serverless Client, you will be prompted to load the `.dat` license file. 
 
 <img src="/wp-content/uploads/license.png" class="img-responsive center img-bordered">
 
-If do not have the license, please contact your GitKraken administrator. If you are the GitKraken administrator, you can find your license file on app.gitkraken.com. If you have an older account or you need assistance locating your license file, [contact us](https://help.gitkraken.com/gitkraken-client/contact-support/).
+If you do not have the license, please contact your GitKraken administrator. If you are the GitKraken administrator, you can find your license file on app.gitkraken.com. If you have an older account or you need assistance locating your license file, [contact us](https://help.gitkraken.com/gitkraken-client/contact-support/).
 
 Once the license file is applied, you are ready to get crackin'!
 
 <img src="/wp-content/uploads/standalone.png" srcset="/wp-content/uploads/standalone@2x.png 2x" class="img-responsive center img-bordered">
 
 #### License.dat Location
+
 You can also place your license file into specific directory locations for GitKraken to check. Here are all of the locations GitKraken Client will look:
 
 **Linux/Mac:**
@@ -122,3 +134,9 @@ You can also place your license file into specific directory locations for GitKr
 - directory of the `exe`
 
 - ``%APPDATA%\.gitkraken``
+
+#### Updating License file
+
+If your license has expired, you can replace your license file in one of the above mentioned locations or manually provide your new license file. To manually update the file in the client, select the text `Licensed to [Your Organization] for [number] users` in the bottom left and then select `Update License`.
+
+<img src="/wp-content/uploads/update-license-file.png" class="img-responsive center img-bordered">
