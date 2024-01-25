@@ -33,6 +33,24 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
     - You can test whether an OpenAI API key is valid with a button in <kbd>Preferences > Experimental</kbd>.
 - Added the ability to customize more date/time formats in <kbd>Preferences > UI Customization > Date/Time</kbd>.
 
+### Improvements 🙌
+- Upgraded to Electron 27.
+- Experimental Feature - Git Executable:
+    - Friendlier GPG errors
+- Experimental Feature - AI Commit Message Generation:
+    - You can now select an OpenAI model to use with `gpt-4` support added.
+    - You can test whether an OpenAI API key is valid with a button in <kbd>Preferences > Experimental</kbd>.
+- Added the ability to customize more date/time formats in <kbd>Preferences > UI Customization > Date/Time</kbd>.
+
+### Improvements 🙌
+- Upgraded to Electron 27.
+- Experimental Feature - Git Executable:
+    - Friendlier GPG errors
+- Experimental Feature - AI Commit Message Generation:
+    - You can now select an OpenAI model to use with `gpt-4` support added.
+    - You can test whether an OpenAI API key is valid with a button in <kbd>Preferences > Experimental</kbd>.
+- Added the ability to customize more date/time formats in <kbd>Preferences > UI Customization > Date/Time</kbd>.
+
 ### Bug Fixes 🐛
 - Experimental Feature - Git Executable:
     - Fixed an issue where invalid credentials with HTTPS remotes showed an info toast instead of prompting for valid credentials.

@@ -19,6 +19,15 @@ Check out the introduction video and links below to get started with GitKraken C
 
 ***
 
+### Improvements 🙌
+- Upgraded to Electron 27.
+- Experimental Feature - Git Executable:
+    - Friendlier GPG errors
+- Experimental Feature - AI Commit Message Generation:
+    - You can now select an OpenAI model to use with `gpt-4` support added.
+    - You can test whether an OpenAI API key is valid with a button in <kbd>Preferences > Experimental</kbd>.
+- Added the ability to customize more date/time formats in <kbd>Preferences > UI Customization > Date/Time</kbd>.
+
 ## Getting Started
 
 
