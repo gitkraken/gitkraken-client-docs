@@ -7,7 +7,7 @@ taxonomy:
     
 ---
 
-A GitKraken organization is a collection of [GitKraken accounts](/gitkraken-client/gitkraken-account/) which unlocks a shared [subscription](/gitkraken-client/gitkraken-subscriptions/), collaboration features between members, and administration of the members in the organization.
+A GitKraken organization is a collection of [GitKraken accounts](/gitkraken-client/gitkraken-account/) which unlocks a shared [subscription](/gitkraken-client/gitkraken-subscriptions/), collaboration features between members, and administration of the members in the organization. If you are creating an account for the first time, an organization will automatically be created for you.
 
 
 ***
@@ -16,11 +16,11 @@ A GitKraken organization is a collection of [GitKraken accounts](/gitkraken-clie
 
 To create an organization, go to [app.gitkraken.com](https://app.gitkraken.com/), or select “Manage Account” in the drop down menu inside of GitKraken Client, and select "New Organization” in the left side menu. Next, select the tier that is best for your organization (Pro, Teams, or Enterprise). The creator of the organization is automatically the [owner](/gitkraken-client/gitkraken-organization/##roles) of it.
 
-<img src="/wp-content/uploads/gitkraken-create-organization-1.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/gitkraken-create-organization-2.png" class="img-responsive center img-bordered">
 
 You also have the option to purchase an organization for someone else that would be the [owner](/gitkraken-client/gitkraken-organization/#roles) and use the subscription. To do this, check "This purchase is for someone else" in the checkout page and it will ask who the owner is by email and sends them email instructions with next steps. You will be the owner of the organization until they accept, then you will be set as the [Billing Contact](/gitkraken-client/gitkraken-organization/#roles).
 
-<img src="/wp-content/uploads/gitkraken-organization-new-owner.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/gitkraken-organization-new-owner-1.png" class="img-responsive center img-bordered">
 
 ***
 
