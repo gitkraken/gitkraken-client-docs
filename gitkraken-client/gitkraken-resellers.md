@@ -33,7 +33,7 @@ Once you have created your GitKraken account, your account is tied to the primar
 
 ### 2. Create a New Organization
 
-After account creation, navigate to the left user panel, select your organization, and then "Purcahse License". Then select the number of users and proceed by selecting `Buy [Subscription]`. 
+After account creation, navigate to the left user panel, select your organization, and then "Purchase License". Then select the number of users and proceed by selecting `Buy [Subscription]`. 
 
 <img src="/wp-content/uploads/gitkraken-reseller-guide-create-a-new-organization-2.png" class="img-responsive center img-bordered">
 
