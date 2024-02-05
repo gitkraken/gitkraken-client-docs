@@ -55,3 +55,7 @@ You can see the metrics for the last 7 or 14 days.
 The <i class="fa-solid fa-circle-info"></i> icon will provide information about the metric.
 
 <img src="/wp-content/uploads/insights-metrics-info.gif" class="img-responsive center img-bordered">
+
+### Requirement for Azure Insights and Workspaces
+
+In order to work with Insights and [Workspaces](/gitkraken-client/workspaces/) for Azure, `Third-party application access via OAuth` will need to be enabled in Azure from `Organization Settings > Policies`. You can find more information on this setting [here](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops).

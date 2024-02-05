@@ -241,6 +241,6 @@ The option to remove the Workspace breadcrumb in the toolbar can be toggled unde
 
 <img src="/wp-content/uploads/breadcrumb-setting.png" srcset="/wp-content/uploads/breadcrumb-setting@2x.png" class="img-bordered img-responsive center">
 
-## Requirement for Azure Workspaces
+## Requirement for Azure Workspaces and Insights
 
-In order to create Azure workspaces within GiKraken Client, `Third-party application access via OAuth` will need to be enabled in Azure from `Organization Settings > Policies`. You can find more information on this setting [here](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops).
+In order to work with Workspaces and [Insights](/gitkraken-client/insights/) for Azure, `Third-party application access via OAuth` will need to be enabled in Azure from `Organization Settings > Policies`. You can find more information on this setting [here](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops).
