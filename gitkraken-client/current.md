@@ -28,7 +28,7 @@ _“Lucario, use Focus Blast!”_
    - You can access the new Focus View from the new Focus View tab. Note, the Focus View will no longer show within a Cloud Workspace.
    - You can still filter items by Workspace using the Workspace filter dropdown.
 - You can now host Cloud Patches on your own dedicated storage for the highest level of security (Requires an Enterprise plan).
-   - Your organization's admin can configure a self-managed environment for your Cloud Patches at https://dev.gitkraken.dev/settings/security.
+   - Your organization's admin can configure a self-managed environment for your Cloud Patches at https://gitkraken.dev/settings/security.
    - When creating a Cloud Patch, GitKraken Client will display a message to confirm it will be securely stored on your organization's storage.
 
 ### Improvements 🙌
