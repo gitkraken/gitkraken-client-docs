@@ -16,6 +16,40 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ***
 
+<a id="v9-12-0"></a>
+## Version 9.12.0
+
+_“Lucario, use Focus Blast!”_
+
+### Tuesday, February 13th, 2024
+
+### New ✨
+ - The new Focus View has improved to display all of your PRs, Issues, and WIPs.
+   - You can access the new Focus View from the new Focus View tab. Note, the Focus View will no longer show within a Cloud Workspace.
+   - You can still filter items by Workspace using the Workspace filter dropdown.
+- You can now host Cloud Patches on your own dedicated storage for the highest level of security (Requires an Enterprise plan).
+   - Your organization's admin can configure a self-managed environment for your Cloud Patches at https://dev.gitkraken.dev/settings/security.
+   - When creating a Cloud Patch, GitKraken Client will display a message to confirm it will be securely stored on your organization's storage.
+
+### Improvements 🙌
+ - Experimental Feature - Git Executable:
+   - Added clone support.
+   - Improved stability and performance when authenticating with Git remotes.
+ - Updated to Monaco 0.45.0
+   - This brings improvements to the file/diff/merge editors.
+
+### Bug Fixes 🐛
+ - Experimental Feature - Git Executable:
+   - Fixed an issue where relative paths for `core.hooksPath` failed to execute hooks.
+   - Fixed an issue where SSH and Git version information was parsed incorrectly.
+   - Fixed an issue on Windows where updating the file `known_hosts` was not working for rare cases.
+ - Fixed an issue where checking out a branch for a pull request in the Focus View would not fetch the remote before checking the branch out.
+ - Fixed an issue on macOS where opening a file in Finder from GitKraken Client could cause Finder to freeze.
+ - Fixed an issue where the diff view could disappear after quickly selecting a commit in the Commit Graph using the right arrow key or the mouse.
+ - Fixed an issue where repos may not load for GitLab Self-Managed instances with self-signed certificates.
+
+
+***
 <a id="v9-11-1"></a>
 ## Version 9.11.1
 
