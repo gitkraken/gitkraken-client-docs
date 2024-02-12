@@ -72,6 +72,9 @@ Find below a list of features using the Git binary if the Git Executable experim
 - Add pull support when the selected branch is not active.
 - Added new log level `GIT_SILLY` to get extra info about `git` and `ssh` commands in logs.
 
+**Added in 9.12.0:**
+- Added clone support.
+
 ---
 
 ### AI Commit Message Generation
