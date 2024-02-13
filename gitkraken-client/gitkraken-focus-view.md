@@ -7,7 +7,27 @@ taxonomy:
 
 ---
 
-The Focus View displays all of your Pull Requests, Issues, and Works In Progress (WIPs) relevant to you for a selected workspace. You have a search bar to filter the results and columns that represent different states of the PRs, Issues, and WIPs, and dropdown selectors for workspace-based filtering.
+The Focus View displays all of your Pull Requests, Issues, and Works In Progress (WIPs) relevant to you for a selected filters. You have a search bar to filter the results and columns that represent different states of the PRs, Issues, and WIPs, and dropdown selectors for workspace-based filtering.
+
+### Getting started with the Focus View
+
+The Focus View tab can be found in the top-left corner. By default, it displays a list of your Pull Requests, WIPs and Issues directly from your Hosting Service and Issue Tracker, not limiting to a Workspace.
+
+#### Connect Integrations
+
+Integrate your repositories, issues, and pull requests with the Focus View to consolidate your workflow.
+
+You can easily connect your integrations at <kbd>Preferences > Integrations</kbd>
+
+<img src="/wp-content/uploads/gkc-focus-view-hosting-service.png" class="img-bordered img-responsive center">
+
+#### Set up Workspaces and Integrations
+
+Create a [Workspace](/gitkraken-client/workspaces/) with the relevant integration. Once created, you will be able to filter and focus on WIPs for specific repositories, issues, and pull requests.
+
+
+
+
 
 <img src="/wp-content/uploads/gkc-focus-view2.0-9-12.gif" class="img-bordered img-responsive center">
 

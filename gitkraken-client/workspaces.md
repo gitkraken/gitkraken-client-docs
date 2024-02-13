@@ -89,7 +89,7 @@ If you are working with a GitHub.com Workspace, you may select a pull request to
 
 ### Focus view
 
-The Focus View displays all of your Pull Requests, Issues, and Works In Progress (WIPs) relevant to you for a selected workspace. You have a search bar to filter the results and columns that represent different states of the PRs, Issues, and WIPs, and dropdown selectors for workspace-based filtering.
+The Focus View displays all of your Pull Requests, Issues, and Works In Progress (WIPs) relevant to you for a selected filters. You have a search bar to filter the results and columns that represent different states of the PRs, Issues, and WIPs, and dropdown selectors for workspace-based filtering.
 To access additional details, please explore the dedicated section on [Focus View](/gitkraken-client/gitkraken-focus-view/)
 
 
