@@ -87,12 +87,6 @@ If you are working with a GitHub.com Workspace, you may select a pull request to
 
 <img src="/wp-content/uploads/github-pull-request.png" srcset="/wp-content/uploads/github-pull-request@2x.png" class="img-bordered img-responsive center">
 
-### Focus view
-
-The Focus View displays all of your Pull Requests, Issues, and Works In Progress (WIPs) relevant to you for a selected filters. You have a search bar to filter the results and columns that represent different states of the PRs, Issues, and WIPs, and dropdown selectors for workspace-based filtering.
-To access additional details, please explore the dedicated section on [Focus View](/gitkraken-client/gitkraken-focus-view/)
-
-
 ### Team view
 
 On a Cloud Workspace, you will see a Team View section. This view shows all pull requests and issues for the repositories in your Workspace - giving you a high level view of your team's coding efforts. 
