@@ -89,33 +89,9 @@ If you are working with a GitHub.com Workspace, you may select a pull request to
 
 ### Focus view
 
-The Focus View displays all of your Pull Requests, Issues, and WIPs relevant to you for a selected workspace. You have a search bar to filter the results and columns that represent different states of the PRs, Issues, and WIPs.
+The Focus View displays all of your Pull Requests, Issues, and Works In Progress (WIPs) relevant to you for a selected workspace. You have a search bar to filter the results and columns that represent different states of the PRs, Issues, and WIPs, and dropdown selectors for workspace-based filtering.
+To access additional details, please explore the dedicated section on [Focus View](/gitkraken-client/gitkraken-focus-view/)
 
-<img src="/wp-content/uploads/gkc-focus-view2.0-9-12.gif" class="img-bordered img-responsive center">
-
-* ALL: Shows all pull requests, issues, and WIPs for the repositories in selected Workspace.
-* PRS: Shows all open pull requests for the repositories in selected Workspace.
-* ISSUES: Shows all issues for the repositories in selected Workspace.
-* WIPS: Shows all uncommitted changes for the repositories in selected Workspace.
-
-You can filter the Pull Requests and Issues by the following:
-* Filter PRs by `Mine`, `Created by Me`, `Assigned to Me`, or `Needs my review`.
-* Filter ISSUES by `Mine`, `Created by Me`, `Assigned to Me`, or `Mentioned`.
-
-Pull Requests and Issues can be pinned (and unpinned) by selecting the <i class="fa-solid fa-thumbtack"></i> icon to move them to the top of the list. Additionally, you have the option to Snooze PRs either indefinitely or for a specific duration by clicking the <i class="fa-solid fa-snooze"></i> icon, which will relocate them to the 'Snoozed' section. To retrieve these PRs, simply visit the 'Snoozed' section and remove them from the snooze state."
-
-<img src="/wp-content/uploads/gkc-focus-view-9-12.gif" class="img-bordered img-responsive center">
-
-From the Focus View, you can take action quickly on items such as:
-- Merge pull request
-- Close pull request
-- Update issue status
-- Mark issue as closed
-- Open pull request/issue in the browser
-
-<img src="/wp-content/uploads/gkc-focus-view-actions-9-12.png" class="img-bordered img-responsive center">
-
-Instead of hunting for these pieces of information separately, you can get a holistic view of what you’re working on.
 
 ### Team view
 
