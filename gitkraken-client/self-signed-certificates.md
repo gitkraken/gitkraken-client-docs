@@ -96,9 +96,9 @@ openssl x509 -outform der -in DOWNLOADED-CERT-NAME -out DOWNLOADED-CERT-NAME.crt
 certutil -d sql:$HOME/.pki/nssdb -A -t "CT,C,C" -n DOWNLOADED-CERT-NAME.crt -i DOWNLOADED-CERT-NAME.crt
 ```
 
-Finally, run:
+Finally, run the following to verify it was added:
 ```
-certutil -d sql:$HOME/.pki/nssdb -L to verify it was added
+certutil -d sql:$HOME/.pki/nssdb -L
 ```
 
 Now close Chrome completely and re-open. Navigate to the site to confirm that you are no longer recieving a certificate warning.
