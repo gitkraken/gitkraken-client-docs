@@ -127,13 +127,13 @@ You can also place your license file into specific directory locations for GitKr
 
 **Windows:**
 
-- ``C:\ProgramData\GitKraken``
+- `C:\\ProgramData\\GitKraken`
 
 - directory above the `exe`
 
 - directory of the `exe`
 
-- ``%APPDATA%\.gitkraken``
+- `%APPDATA%\\.gitkraken`
 
 #### Updating License file
 
