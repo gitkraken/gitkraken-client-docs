@@ -120,6 +120,10 @@ https://platform.openai.com/account/api-keys
 
 ### Cloud Patches
 
+<div class='embed-container embed-container--16-9'>
+    <iframe width='560' height='315' src='https://www.youtube.com/embed/kKZKoKVQYKY?rel=0&vq=hd1080' frameborder='0' allowfullscreen></iframe>
+</div>
+
 #### What are Cloud Patches and why would you want to use them
 
 A Cloud Patch is a Git patch that GitKraken securely stores for you so it can be easily shared with others across GitKraken Client, GitLens, and the GitKraken CLI. The patch is directly transferred from your machine into secure storage. 

@@ -10,7 +10,7 @@ taxonomy:
 Pushing and pulling are the keys to collaboration.  🤝
 
 <div class='embed-container embed-container--16-9'>
-    <iframe width='560' height='315' src='https://www.youtube.com/embed/Lb4yvfrX_7I?rel=0&vq=hd1080' frameborder='0' allowfullscreen></iframe>
+    <iframe width='560' height='315' src='https://www.youtube.com/embed/EZFyiSLr-Bc?rel=0&vq=hd1080' frameborder='0' allowfullscreen></iframe>
 </div>
 
 

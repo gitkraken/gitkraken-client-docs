@@ -9,6 +9,10 @@ taxonomy:
 
 GitKraken Workspaces allow you to create easily accessible groups of repositories, take action across multiple repos, view details about their state at a glance, and share them with your team.
 
+<div class='embed-container embed-container--16-9'>
+    <iframe width='560' height='315' src='https://www.youtube.com/embed/tuCaD5A6eEE?rel=0&vq=hd1080' frameborder='0' allowfullscreen></iframe>
+</div>
+
 ***
 
 ## Access Workspaces
