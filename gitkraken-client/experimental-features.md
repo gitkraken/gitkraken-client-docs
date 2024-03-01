@@ -145,7 +145,15 @@ To create a Cloud Patch, click the share icon <i class="fa-solid fa-share"></i> 
 
 <img src='/wp-content/uploads/gkc-create-cloud-patch.png' class='img-bordered img-responsive center'>
 
-When creating a Cloud Patch, you have the options to share with `Anyone with the link`, `Anyone in my org`, or `Only collaborators`. You can also share Cloud Patches directly with members of your organization. Cloud Patches shared with you can be viewed in the Cloud Patches Left Panel section under `Shared with Me`.
+When creating a Cloud Patch, you have the following sharing options:
+
+- `Anyone with the link`: Anyone that has access to the public link will be able to work with the Cloud Patch.
+
+- `Anyone in my org`: Anyone in the GitKraken Organization will be able to work with the Cloud Patch. They will be required to authenticate with a GitKraken account to access it.
+
+- `Only collaborators`: Only users in the GitKraken Organization who have been selected when sharing will be able to work with the Cloud Patch. They will be required to authenticate with a GitKraken account to access it.
+
+Cloud Patches shared with you can be viewed in the Cloud Patches Left Panel section under `Shared with Me`.
 
 <img src='/wp-content/uploads/Cloud-Patch-Permissions.png' class='img-bordered img-responsive center'>
 
