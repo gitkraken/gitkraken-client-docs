@@ -16,6 +16,47 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ***
 
+<a id="v9-13-0"></a>
+## Version 9.13.0
+
+_“So like, how many versions will 9.X go before finally jumping to 10.X?”_
+
+### Tuesday, March 5th, 2024
+
+### New ✨
+
+### Improvements 🙌
+
+ - Focus View:
+   - Focus View will now show hosting service connection status from the `Hosting Service` dropdown, and provide a link to `Preferences` if not connected.
+   - Added the ability to select a repo for issues in the Focus View that are not tied to a repository.
+   - Selecting a Cloud Workspace in the `Workspace` dropdown in the Focus View now ensures the correct hosting service for that Workspace is selected.
+ - Experimental Feature - Git Executable:
+   - Added rebase support.
+   - Added pull (rebase) support.
+   - Added checkout suppport.
+   - LFS improvements by calling git-lfs directly.
+ - Upgraded to Electron 28.
+ - Upgraded libgit2 to 1.7.2.
+
+### Bug Fixes 🐛
+ - Fetch:
+   - Fixed an issue where a remote can't be fetched again until GitKraken Client is restarted.
+   - Fixed an issue properly handling a remote auto-fetching in the background when the user tries to manually fetch.
+   - Fixed an issue on macOS where GitKraken Client might not find the GPG path.
+   - Fixed an issue where Jira Issues for the Focus View would not load if the token was expired.
+   - Fixed an issue where the Focus View filter `Needs my review` would show reviewed pull requests.
+   - Fixed a regression where a remote couldn't be fetched while a different remote was already fetching.
+   - Fixed a regression where fetch spinners on remotes in the Left Panel would take a long time to appear.
+ - Experimental Feature - Git Executable:
+   - Fixed an issue with LFS repositories where credentials were blocking the application in some cases.
+ - Fixed an issue where Focus View items were not sorted.
+ - Fixed an issue where Focus View items would not be removed when they are merged (pull requests) or set to done (issues).
+ - Background colors for added/removed lines in the diff editor now correctly respect theme variables.
+ - Improved reliability at loading Workspace repositories.
+ - Fixed an issue where Azure DevOps Workspaces would show duplicate repositories in the repositories page.
+
+***
 <a id="v9-12-0"></a>
 ## Version 9.12.0
 
