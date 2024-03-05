@@ -75,6 +75,12 @@ Find below a list of features using the Git binary if the Git Executable experim
 **Added in 9.12.0:**
 - Added clone support.
 
+**Added in 9.13.9:**
+- Added rebase support.
+- Added pull (rebase) support.
+- Added checkout suppport.
+- LFS improvements by calling git-lfs directly.
+
 ---
 
 ### AI Commit Message Generation
