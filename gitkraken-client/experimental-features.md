@@ -174,21 +174,3 @@ To delete a cloud path, right-click it and select `Delete Cloud Patch`.
 #### Self-Hosting Cloud Patch data
 
 If you do not want your Cloud Patch data stored on GitKraken Servers, we offer the ability for you to host Cloud Patches on your own AWS S3 storage instance. For more information on configuring this, see our documentation [here](/gk-dev/gk-dev-home/#self-hosted).
- 
----
-
-### New Commit Graph
-
-We have updated to an improved commit graph to offer more customization. The new commit graph is on by default but can be temporarily disabled from `Preferences > Experimental > Enable new commit graph`.
-
-Some additional features currently offered by the new commit graph include:
-
-- A "Compact Graph Column" option from Commit Graph settings gear.
-- Drag and drop to reorder columns.
-- Added inline commit descriptions.
-
-To access the Compact Graph Column or add/remove columns, select the gear icon at the top right of the commit graph.
-
-<img src='/wp-content/uploads/gkc-commit-graph-settings.png' class='img-bordered img-responsive center'>
-
-If you do experience issues, or have any other feedback, please reach out to us [Contact Support](https://help.gitkraken.com/gitkraken-client/contact-support/?issue_category__customer_facing_field_=Experimental+feedback&subject=GitKraken+Client+Experimental+feedback).
