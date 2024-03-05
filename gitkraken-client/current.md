@@ -21,9 +21,10 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 _“So like, how many versions will 9.X go before finally jumping to 10.X?”_
 
-### Tuesday, March 5th, 2024
+### Tuesday, March 6th, 2024
 
 ### New ✨
+ - Added the ability to add reviewers to a new Azure Devops PR.
 
 ### Improvements 🙌
 
