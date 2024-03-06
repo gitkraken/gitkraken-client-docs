@@ -15,7 +15,7 @@ GitKraken allows you to connect to Azure DevOps (formerly VSTS), which will help
 * Clone from Azure DevOps repo list
 * Identify Azure DevOps repos with remote avatars on graph
 * Add remotes for Azure DevOps repos
-* Create and view Pull Requests
+* Create and view Pull Requests, including the option to add Reviewers.
 
 
 ***
