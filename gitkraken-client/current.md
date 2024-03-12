@@ -19,6 +19,10 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 <a id="v9-13-0"></a>
 ## Version 9.13.0
 
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8ifqSzZTiOY" frameborder="0" allowfullscreen></iframe>
+</div>
+
 _“So like, how many versions will 9.X go before finally jumping to 10.X?”_
 
 ### Wednesday, March 6th, 2024
