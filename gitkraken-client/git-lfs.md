@@ -41,8 +41,8 @@ If you wish to learn more about how Git LFS works with Git, visit the [GitHub re
 
 To enable LFS in GitKraken Client, you must first install Git and LFS. The minimum requirements are:
 
-* Git version 2.11+
-* LFS version 2.0.1+
+* Git version 2.39.3+
+* LFS version 3.0.0+
 * GitKraken Client version 7.0.0+
 
 <div class='callout callout--success'>
