@@ -144,10 +144,9 @@ There will be several prompts to make sure that you *really* want to delete your
 
 ###Commit Signing with SSH
 
-Commit Signing with SSH is available in Gitkraken Client through Git Executable feature.
+Commit Signing with SSH is available in GitKraken Client through Git Executable feature.
 
 <img src="/wp-content/uploads/gkc-gpg-ssh-preferences.png" class="img-bordered img-responsive center">
-
 
 ####Requirements
 
@@ -164,7 +163,6 @@ Open a Terminal and run this command:
 
 <img src="/wp-content/uploads/gkc-ssh-keygen.png" srcset="/wp-content/uploads/gkc-ssh-keygen@2x.png 2x" class="img-bordered img-responsive center">
 
-
 ####Enable Git Executable feature
 
 Go to <kbd>Preferences > Experimental > Git Executable</kbd> and enable it.
@@ -177,7 +175,7 @@ Go to <kbd>Preferences > Experimental > Git Executable</kbd> and enable it.
 
 At <kbd>Preferences > GPG > GPG Format</kbd>, select <kbd>SSH</kbd>.
 
-Automatically Gitkraken client will change your preferences in `.gitconfig` and populate GPG SSH Program with ssh-keygen.
+Automatically GitKraken Client will change your preferences in `.gitconfig` and populate GPG SSH Program with ssh-keygen.
 
 ####Select the signing key
 
@@ -186,18 +184,20 @@ Automatically Gitkraken client will change your preferences in `.gitconfig` and 
 On <kbd>Signing key</kbd>, click on <kbd>Browse</kbd> and select the `.pub` key file previously generated.
 
 ####Create allowed_signers file
+
 This file is needed to verify the key used to sign the commits is valid and known by git.
+
 [See this documentation to create the allowed_signers file](https://git-scm.com/docs/git-config#Documentation/git-config.txt-gpgsshallowedSignersFile)
 
 On your terminal, run:
 ```
 touch ~/.ssh/allowed_signers
 echo "$(git config --get user.email) namespaces=\"git\" $(cat ~/.ssh/<MY_KEY>.pub)" >> ~/.ssh/allowed_signers
-
 ```
-And select the file in Gitkraken client.
 
-####Enable Commit Signing by Default in Gitkraken:
+And select the file in GitKraken Client.
+
+####Enable Commit Signing by Default in GitKraken Client:
 
 Preferences > GPG > Sign Commits/Tags By default
 

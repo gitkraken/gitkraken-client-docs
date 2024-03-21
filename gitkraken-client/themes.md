@@ -27,7 +27,7 @@ If your system is capabale of it, you can set GitKraken Client to match your ope
 
 ## Custom Themes
 
-In addition to the default themes, GitKraken Client supports custom user-defined themes. Each of the .jsonc-default theme files you see in this folder can act as a template "base" for your new custom theme.
+In addition to the default themes, GitKraken Client supports custom user-defined themes. Theme files are located in `~\.gitkraken\themes\` - you can open the path to this directory from `Preferences > UI Customization > Theme` or find the Data Location on your operating system [here](/gitkraken-client/how-to-install/). Each of the .jsonc-default theme files you see in this folder can act as a template "base" for your new custom theme.
 
 ### Making Your Own Theme
 

@@ -40,7 +40,7 @@ Or alternatively if you are in the <kbd>New Tab</kbd> view, click on <kbd>Prefer
 
 From the _Integrations_ window, enter your _Host Domain_, then click the Generate a token on GitLab link.  Note the permissions that need to be assigned to the token on your GitLab Self-Managed server.
 
-<img src="/wp-content/uploads/authentication.png" srcset="/wp-content/uploads/authentication@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/authentication-gitlab-self-managed.png" srcset="/wp-content/uploads/authentication-gitlab-self-managed@2x.png" class="img-bordered img-responsive center">
 
 This opens a web browser where you will log in with your GitLab Self-Managed credentials and generate an access token.
 
