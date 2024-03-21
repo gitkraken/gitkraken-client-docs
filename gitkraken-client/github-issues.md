@@ -60,7 +60,7 @@ Note that required fields are denoted by `*`. Your new issue will automatically 
 
 ### Create Filters
 
-You may create filters to view the issues you need. We use the same syntax that GitHub uses for thier issues.
+You may create filters to view the issues you need. We use the same syntax that GitHub uses for their issues.
 
 <img src="/wp-content/uploads/new-filter-github-issues.png" srcset="/wp-content/uploads/new-filter-github-issues@2x.png" class="img-bordered img-responsive center">
 

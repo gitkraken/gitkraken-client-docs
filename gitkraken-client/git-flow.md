@@ -72,7 +72,7 @@ When finishing a hotfix, GitKraken Client will merge the changes into both `mast
 
 Tags are used to mark a specific point in the repository's history.  They are often used to mark a release.
 
-Tags can be created from the Gitflow menu, or from the command line. When creating a tag from the Gitflow menu, GitKraken Client will create a tag with the same name as the branch. For example, if you create a tag from a `release/1.0.0` branch, GitKraken Client will create a tag named `1.0.0`. Additionally, you can add a tag message when fishing a branch. This message will be added to the tag.
+Tags can be created from the Gitflow menu, or from the command line. When creating a tag from the Gitflow menu, GitKraken Client will create a tag with the same name as the branch. For example, if you create a tag from a `release/1.0.0` branch, GitKraken Client will create a tag named `1.0.0`. Additionally, you can add a tag message when finishing a branch. This message will be added to the tag.
 
 <img src="/wp-content/uploads//finish-release-tag.gif" class="img-bordered img-responsive center">
 
