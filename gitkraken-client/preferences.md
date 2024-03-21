@@ -26,7 +26,7 @@ The Owner and any Admins are able to:
 
 
 <div class='callout callout--warning'>
-    <p><strong>Note:</strong> the Organization section is only availibe to users who have a Pro or Enterprise license.
+    <p><strong>Note:</strong> the Organization section is only available to users who have a Pro or Enterprise license.
 </p>
 </div>
 

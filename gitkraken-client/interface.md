@@ -108,7 +108,7 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
 		<img src='/wp-content/uploads//gk-lfs-icon.svg' class='img-responsive'>
 	</div>
 	<div class="flex-item">
-		<p> Have large files in your repo? This button will appear when you have <a href="/git-workflows-and-extensions/intro-and-requirements/">LFS</a> enabled on the repository.</p>
+		<p> Have large files in your repo? This button will appear when you have <a href="/gitkraken-client/git-lfs/">LFS</a> enabled on the repository.</p>
 	</div>
 </div>
 

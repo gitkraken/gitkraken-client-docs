@@ -75,7 +75,7 @@ GitKraken Client data is stored in `/Users/{user}/.gitkraken` == `~/.gitkraken`.
 GitKraken Client has a simple package available for Debian based distributions.
 ```
 wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
-sudo apt install gitkraken-amd64.deb
+sudo apt install ./gitkraken-amd64.deb
 ```
 Or [download the file](https://gitkraken.com/download/linux-deb).
 
