@@ -110,8 +110,6 @@ This way, provided your keys are loaded, every action requiring a chat with your
 ### I'm having an SSH issue.
 Well if it's not working 100% of the time, the most common issues are:
 
-* SSH-agent on Windows &mdash; GitKraken Client currently only supports Pageant for the SSH agent for Windows.
- * You can download PuTTY and Pageant from their page <a href='http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html' target='_blank'>here</a>.
 * Misconfigured SSH settings &mdash; remote URL format
  * Check in <kbd><strong>Preferences > SSH</strong></kbd> to confirm that your SSH settings are correct.
  * Edit remotes in the left ref panel to ensure push and pull urls are set and in the correct format
