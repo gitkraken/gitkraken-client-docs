@@ -22,7 +22,7 @@ GitKraken Client allows you to connect many different services and platforms, ma
 - [Bitbucket Server](/gitkraken-client/bitbucket-server/)
 - [Azure DevOps](/gitkraken-client/azure-devops/)
 
-## Issue tracker integrations
+## Issue tracker integration
 
 GitKraken Client makes it easy to integrate with a wide variety of issue tracking and project management tools.
 

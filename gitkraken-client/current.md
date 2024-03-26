@@ -8,20 +8,20 @@ taxonomy:
 
 ---
 
-Behold the evolution of GitKraken Client! Find out what&rsquo;s new, what&rsquo;s fixed, or just take a trip down memory lane with a nostalgic swagger, remembering those bugs of yesterday.
+
 
 <a href="https://www.gitkraken.com/download" target="_blank" class="button button--basic ">Download Current Version Now</a>
 
 Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) to see what we’re working on.
 
 ***
+ ## Version 10.0
 
+ The big one!
+
+***
 <a id="v9-13-0"></a>
 ## Version 9.13.0
-
-<div class='embed-container embed-container--16-9'>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/8ifqSzZTiOY" frameborder="0" allowfullscreen></iframe>
-</div>
 
 _“So like, how many versions will 9.X go before finally jumping to 10.X?”_
 
