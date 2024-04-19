@@ -3,7 +3,7 @@
 title: Integrations
 description: Integrating with remote services and issue trackers has never been easier.
 taxonomy:
-    category: gitkraken-client
+    category: gitkraken-desktop
 
 ---
 <div class='embed-container embed-container--16-9'>

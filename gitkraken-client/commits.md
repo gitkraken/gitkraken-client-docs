@@ -3,7 +3,7 @@
 title: Committing Changes
 description: Commit to save your work with GitKraken Client easily when changing files.  Learn how to squash, amend and save work when committing.
 taxonomy:
-    category: gitkraken-client
+    category: gitkraken-desktop
 
 ---
 
