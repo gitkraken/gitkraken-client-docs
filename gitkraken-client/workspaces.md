@@ -128,7 +128,7 @@ The Team Pull Requests section has the following columns:
 
 #### Team Issues 
 
-Team Issues will show all GitHub Issues, GitLab Issues, Jira Cloud Issues, Jira Server, or Trello cards associated with the repo. 
+Team Issues will show all GitHub Issues, GitLab Issues, Jira Cloud Issues, Jira Data Center, or Trello cards associated with the repo. 
 
 With Team Issues it is easy to switch between Jira or Trello and back to either GitHub Issues or GitLab Issues. If you select Jira or Trello, you can also filter by project so that you only see issues that matter to you.
 

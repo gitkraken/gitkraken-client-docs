@@ -136,7 +136,7 @@ GitKraken Client supports HTTPS and SSH authentication, and provides useful inte
 - [Azure DevOps Integration](/gitkraken-client/visual-studio-team-services/)
 - [TFS, AWS CodeCommit, custom service, etc](/gitkraken-client/authentication/)
 - [Jira Cloud Integration](/gitkraken-client/jira/)
-- [Jira Server Integration](/gitkraken-client/jira-server/)
+- [Jira Data Center Integration](/gitkraken-client/jira-data-center/)
 
 ## Notifications
 

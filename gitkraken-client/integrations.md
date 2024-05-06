@@ -27,7 +27,7 @@ GitKraken Client allows you to connect many different services and platforms, ma
 GitKraken Client makes it easy to integrate with a wide variety of issue tracking and project management tools.
 
 - [Jira](/gitkraken-client/jira/)
-- [Jira Server](/gitkraken-client/jira-server/)
+- [Jira Data Center](/gitkraken-client/jira-data-center/)
 - [Trello](/gitkraken-client/trello/)
 - [GitLab Issues](/gitkraken-client/gitlab-issues/)
 - [GitLab Self-Managed Issues](/gitkraken-client/gitlab-self-managed-issues/)
