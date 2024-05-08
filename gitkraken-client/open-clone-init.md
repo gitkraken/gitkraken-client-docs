@@ -23,12 +23,27 @@ The essential setup process includes:
 Once this is complete, you are ready for your oceanic journey!
 
 ***
-## Projects in GitKraken Client
-There are three ways to start a Git repository when working on a project:
+## Repository Management
+
+The Repo Management tab is an overview of all your open repos, Workspaces, favorite repos. To open the Repo Management tab click on the folder icon at the top left or press <kbd>Alt + O or Cmd + O</kbd>
+
+<img src='wp-content/uploads/gkc-repo-mngmt-tab.png' class='img-bordered img-responsive center'>
+
+At the top right corner there are three ways to start a Git repository when working on a project:
 
 1. **Open** - Open a local Git repository already initialized and available locally.
 2. **Clone** - Clone a remote Git repository already initialized.
 3. **Init** - Create an empty Git repository or reinitialize an existing one.
+
+Additionally, you can create a new Workspace and manage your integrations.
+
+In the Repo Management tab you have a list of your already opened repos (Open Repositories), your favorites (Favorites) and your Workspaces.
+
+For each repo, you have three available actions:
+* Open repo in VS Code.
+* Open repository details (this toggles a panel with the README.md content)
+* Open/Close repo tab.
+
 
 ***
 
