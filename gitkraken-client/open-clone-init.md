@@ -93,19 +93,3 @@ All you need to do is fill out the fields and select <button class='button butto
      <p>GitKraken Client also allows initializing a repository directly to a remote Git hosting provider such as GitHub and Bitbucket.</p>
  </div>
 
-
-***
-
-### Delete a repository
-
-You may delete a repository by first navigating to the folder icon in the upper left corner of GitKraken Client UI.
-
-<img src='/wp-content/uploads/click-folder.png' srcset='/wp-content/uploads/click-folder@2x.png 2x' class='img-bordered img-responsive center'>
-
-Then browse through your repo list and right-click on the repository you wish to delete from your local machine. 
-
-<img src='/wp-content/uploads/delete-repo.png' srcset='/wp-content/uploads/delete-repo@2x.png 2x' class='img-bordered img-responsive center'>
-
-If you are unable to delete the repository, first make sure it is closed in GitKraken Client and then close any other applications which may be working with files in the repository. Restart GitKraken Client and try the delete again.
-
-Deleting the repo from within GitKraken Client will only delete your local copy of the repository. If you wish to delete your remote repository, you will need to perform that action directly by logging into your remote hosting service (GitHub, GitLab, etc).
