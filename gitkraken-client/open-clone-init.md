@@ -25,11 +25,11 @@ Once this is complete, you are ready for your oceanic journey!
 ***
 ## Repository Management
 
-The Repo Management tab is an overview of all your open repos, Workspaces, favorite repos. To open the Repo Management tab click on the folder icon at the top left or press <kbd>Alt + O or Cmd + O</kbd>
+The Repo Management tab provides an overview of your active repositories, Workspaces, and favorite repositories. To access the Repo Management tab, either click on the folder icon located at the top left or utilize the keyboard shortcut <kbd>Alt + O</kbd> (Windows/Linux) or <kbd>Cmd + O</kbd> (Mac).
 
 <img src='wp-content/uploads/gkc-repo-mngmt-tab.png' class='img-bordered img-responsive center'>
 
-At the top right corner there are three ways to start a Git repository when working on a project:
+At the top right corner, you'll find three options for managing Git repositories within your projects:
 
 1. **Open** - Open a local Git repository already initialized and available locally.
 2. **Clone** - Clone a remote Git repository already initialized.
@@ -37,10 +37,10 @@ At the top right corner there are three ways to start a Git repository when work
 
 Additionally, you can create a new Workspace and manage your integrations.
 
-In the Repo Management tab you have a list of your already opened repos (Open Repositories), your favorites (Favorites) and your Workspaces.
+In the Repo Management tab you will find a list of your active repos (Open Repositories), your favorites (Favorites) and your Workspaces.
 
 For each repo, you have three available actions:
-* Open repo in VS Code.
+* Open repository in VS Code.
 * Open repository details (this toggles a panel with the README.md content)
 * Open/Close repo tab.
 
