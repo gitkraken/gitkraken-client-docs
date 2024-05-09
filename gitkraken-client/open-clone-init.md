@@ -50,9 +50,9 @@ For each repo, you have three available actions:
 ### Opening an existing project
 GitKraken Client allows you to load your existing repositories and pick up where you left off. It's also useful for visualizing past work done.  
 
-If you're coming from a Git project you already have locally, navigate to <kbd><strong>File > Open Repo</strong></kbd> to get started immediately in GitKraken Client.
+If you're coming from a Git project you already have locally, navigate to <kbd><strong>File > Open Repo</strong></kbd> to get started immediately in GitKraken Client. A file explorer window will appear, select the repository folder to open it in Gitkraken Desktop.
 
-<img src='/wp-content/uploads/project.png' srcset='/wp-content/uploads/project@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='wp-content/uploads/gkc-repo-mngmt-open-repo.png' class='img-bordered img-responsive center'>
 
 ***
 ### Cloning an existing project
@@ -71,7 +71,7 @@ This will then prompt you to open the newly copied project in GitKraken Client.
 ### Initialize a new project
 Starting a project in GitKraken Client is easy through <kbd><strong>File > Init</strong></kbd>
 
-<img src='/wp-content/uploads/init.png' srcset='/wp-content/uploads/init@2x.png 2x' class='img-bordered img-responsive center'>
+<img src='wp-content/uploads/gkc-repo-mngmt-init-repo.png' class='img-bordered img-responsive center'>
 
 All you need to do is fill out the fields and select <button class='button button--success button--ui button--nolink'>Create Repository</span></button> for the magic to begin.
 
