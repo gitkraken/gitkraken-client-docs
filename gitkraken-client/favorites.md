@@ -20,7 +20,7 @@ Click on the star icon at the left of the repo.
 
 Once added, favorites will appear at the Favorites section in the Repo Management tab.
 
-<img src="/wp-content/uploads/list.png"  class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/gkc-repo-mngmt-tab-favorites-list.png"  class="img-bordered img-responsive center">
 
 ## Shortcut Keys
 
