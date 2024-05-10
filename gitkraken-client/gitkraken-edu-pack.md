@@ -21,7 +21,7 @@ GitKraken Pro is available for free to students through the GitHub Student Pack.
 
 Once GitHub has approved your pack, you must sign into your GitKraken account through GitHub <strong>1 more time</strong> to enable Pro.
 
-To sign in again, launch GitKraken Client and navigate to <kbd>File    <i class='fa fa-caret-right'></i>     Sign into a Different Account <i class='fa fa-caret-right'></i>  Sign in with GitHub</kbd>
+To sign in again, launch GitKraken Desktop and navigate to <kbd>File    <i class='fa fa-caret-right'></i>     Sign into a Different Account <i class='fa fa-caret-right'></i>  Sign in with GitHub</kbd>
 
 <img src='/wp-content/uploads/file.png' class='img-bordered img-responsive center'>
 
@@ -31,7 +31,7 @@ Or you may login by navigating to <kbd><strong>the profile dropdown</strong></kb
 
 <img src='/wp-content/uploads/gkc-sign-in-with-github-2.png' class='img-bordered img-responsive center'>
 
-When you sign in with GitHub, GitKraken Client will check whether your GitHub account has the GitHub Student Pack. If the app sees the pack, you should see the `Pro` flag in the bottom right of the UI and you will be able to open private repos.
+When you sign in with GitHub, GitKraken Desktop will check whether your GitHub account has the GitHub Student Pack. If the app sees the pack, you should see the `Pro` flag in the bottom right of the UI and you will be able to open private repos.
 
 If you don't see `Pro` then this means GitKraken does not see a pack with the email address tied to your GitHub account. This may mean you need to update the primary email address for your GitHub.com account.
 
@@ -56,5 +56,5 @@ You will have Pro while you have an active GitHub Student Pack. Once the pack ex
 
 ### Can I use my GitKraken Pro license on more than one computer?
 
-Yes, your GitKraken subscription is associated with your email address, not a specific computer. So you can use GitKraken Client on as many computers as you'd like!
+Yes, your GitKraken subscription is associated with your email address, not a specific computer. So you can use GitKraken Desktop on as many computers as you'd like!
 

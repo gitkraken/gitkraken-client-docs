@@ -11,7 +11,7 @@ Follow this reseller guide for purchasing additional licenses on an existing acc
 
 ***
 
-The customer is currently using GitKraken Client and would like to expand their account by purchasing additional GitKraken licenses.
+The customer is currently using GitKraken Desktop and would like to expand their account by purchasing additional GitKraken licenses.
 
 If you <strong>are</strong> listed as an unlicensed `Admin` to the account:
 

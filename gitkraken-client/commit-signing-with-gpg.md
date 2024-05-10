@@ -1,7 +1,7 @@
 ---
 
 title: Commit Signing
-description: Learn how to sign your commits in GitKraken Client
+description: Learn how to sign your commits in GitKraken Desktop
 taxonomy:
     category: gitkraken-client
 
@@ -22,7 +22,7 @@ By signing a commit, other users with your public key can verify the commit was 
 Before you start signing your commits, you will first need to install and configure GPG. Our recommendations to get GPG installed quickly are below.
 
 <div class='callout callout--warning'>
-    <p><strong>Note:</strong> If you have GitKraken Client open, we recommend closing the application before installing GPG. </p>
+    <p><strong>Note:</strong> If you have GitKraken Desktop open, we recommend closing the application before installing GPG. </p>
 </div>
 
 
@@ -49,9 +49,9 @@ Once you have installed GPG to your machine, you can verify it is installed and 
 
 ####Generating a GPG Key In GitKraken
 
-If you have GPG installed on your local machine, you will be able to generate a GPG key pair from within GitKraken Client.
+If you have GPG installed on your local machine, you will be able to generate a GPG key pair from within GitKraken Desktop.
 <div class='callout callout--success'>
-    <p><strong>Note:</strong> Make sure that you have <a href="/gitkraken-client/commit-signing-with-gpg/#configure-gpg-in-gitkraken">configured GPG inside of GitKraken Client</a>.</p>
+    <p><strong>Note:</strong> Make sure that you have <a href="/gitkraken-client/commit-signing-with-gpg/#configure-gpg-in-gitkraken">configured GPG inside of GitKraken Desktop</a>.</p>
 </div>
 
 Under `Preferences` → `GPG Preferences`, there is an option to `Generate new GPG Key`. If you wish to enter a passphrase, make sure you do so prior to selecting `Generate`.
@@ -60,25 +60,25 @@ Under `Preferences` → `GPG Preferences`, there is an option to `Generate new G
 
 ####Configure GPG in GitKraken
 
-Once you have GPG installed on your machine, you will need to configure GitKraken to use GPG. Launch GitKraken Client and navigate to Preferences → GPG Preferences.
+Once you have GPG installed on your machine, you will need to configure GitKraken to use GPG. Launch GitKraken Desktop and navigate to Preferences → GPG Preferences.
 
 <img src="/wp-content/uploads/gpg-preferences.png" srcset="/wp-content/uploads/gpg-preferences@2x.png 2x" class="img-bordered img-responsive center">
 
-+ **Signing Key:** This dropdown list will contain all of your local keys. Select the key you wish GitKraken Client to use when signing your commits and annotated tags. **If this list is blank you can try the following troubleshoots:**
++ **Signing Key:** This dropdown list will contain all of your local keys. Select the key you wish GitKraken Desktop to use when signing your commits and annotated tags. **If this list is blank you can try the following troubleshoots:**
     * You may need to configure the GPG Program setting first.
-    + If you installed GPG while GitKraken Client was open, you may need to fully close GitKraken Client and re-launch it.
+    + If you installed GPG while GitKraken Desktop was open, you may need to fully close GitKraken Desktop and re-launch it.
 
-+ **GPG Program:** This is the location of where GPG is installed on your local machine. If GPG is on your path, GitKraken Client should automatically detect the GPG program. However, it is possible to have multiple installations of GPG so you can specify which one GitKraken Client should point to by using the <button class='button button--primary button--ui button--nolink'><span style='color:#E9EEFF;'>Browse</span></button> button.
++ **GPG Program:** This is the location of where GPG is installed on your local machine. If GPG is on your path, GitKraken Desktop should automatically detect the GPG program. However, it is possible to have multiple installations of GPG so you can specify which one GitKraken Desktop should point to by using the <button class='button button--primary button--ui button--nolink'><span style='color:#E9EEFF;'>Browse</span></button> button.
 
 <img src="/wp-content/uploads/gpg-browse-button.png" srcset="/wp-content/uploads/gpg-browse-button.png 2x" class="img-bordered img-responsive center">
 
  If you do not know where GPG is installed on your local machine, launch a terminal and enter: `which gpg` for Mac & Linux. On Windows, use: `where gpg`
 
-+ **Sign Commits by Default:** Enabling this checkbox will have GitKraken Client sign any commit you create going forward.
++ **Sign Commits by Default:** Enabling this checkbox will have GitKraken Desktop sign any commit you create going forward.
 
-+ **Sign Tags by Default:** Enabling this checkbox will have GitKraken Client sign any annotated tags you create going forward.
++ **Sign Tags by Default:** Enabling this checkbox will have GitKraken Desktop sign any annotated tags you create going forward.
 
-+ **Generate new GPG Key:** GitKraken Client will generate a new GPG key for you, see [Generating a GPG Key In GitKraken](/git-workflows-and-extensions/commit-signing-with-gpg/#generating-a-gpg-key-in-gitkraken).
++ **Generate new GPG Key:** GitKraken Desktop will generate a new GPG key for you, see [Generating a GPG Key In GitKraken](/git-workflows-and-extensions/commit-signing-with-gpg/#generating-a-gpg-key-in-gitkraken).
 
 ####Verifying a Local Commit is Signed
 
@@ -107,7 +107,7 @@ To upload your GPG public key to your remote hosting service, we recommend viewi
 * <em class='context-menu'><i class="fab fa-gitlab" aria-hidden="true"></i></em> [GitLab](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/#adding-a-gpg-key-to-your-account)
 * <em class='context-menu'><i class="fab fa-bitbucket" aria-hidden="true"></i></em> Only Bitbucket Server[Bitbucket](https://confluence.atlassian.com/bitbucketserver/using-gpg-keys-913477014.html#UsingGPGkeys-AddaGPGkeytoBitbucketServer)
 
-To copy your GPG public key in GitKraken Client, navigate to Preferences → GPG Preferences and below your Signing Key, select `Copy GPG Public Key`.
+To copy your GPG public key in GitKraken Desktop, navigate to Preferences → GPG Preferences and below your Signing Key, select `Copy GPG Public Key`.
 
 ####Editing Your GPG Key
 
@@ -144,7 +144,7 @@ There will be several prompts to make sure that you *really* want to delete your
 
 ###Commit Signing with SSH
 
-Commit Signing with SSH is available in GitKraken Client through Git Executable feature.
+Commit Signing with SSH is available in GitKraken Desktop through Git Executable feature.
 
 <img src="/wp-content/uploads/gkc-gpg-ssh-preferences.png" class="img-bordered img-responsive center">
 
@@ -175,7 +175,7 @@ Go to <kbd>Preferences > Experimental > Git Executable</kbd> and enable it.
 
 At <kbd>Preferences > GPG > GPG Format</kbd>, select <kbd>SSH</kbd>.
 
-Automatically GitKraken Client will change your preferences in `.gitconfig` and populate GPG SSH Program with ssh-keygen.
+Automatically GitKraken Desktop will change your preferences in `.gitconfig` and populate GPG SSH Program with ssh-keygen.
 
 ####Select the signing key
 
@@ -195,9 +195,9 @@ touch ~/.ssh/allowed_signers
 echo "$(git config --get user.email) namespaces=\"git\" $(cat ~/.ssh/<MY_KEY>.pub)" >> ~/.ssh/allowed_signers
 ```
 
-And select the file in GitKraken Client.
+And select the file in GitKraken Desktop.
 
-####Enable Commit Signing by Default in GitKraken Client:
+####Enable Commit Signing by Default in GitKraken Desktop:
 
 Preferences > GPG > Sign Commits/Tags By default
 

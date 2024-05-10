@@ -1,6 +1,6 @@
 ---
 
-title: GitKraken Client GitHub Integration
+title: GitKraken Desktop GitHub Integration
 description: Integrate GitKraken with you GitHub repository by following these steps.
 taxonomy:
     category: gitkraken-client
@@ -105,7 +105,7 @@ From this view, GitHub users may edit the pull request:
 - Milestones
 - Labels
 
-From the upper right of the Pull Request view, you may click the <button class='button button--primary button--ui button--nolink'><span style='color:#141422;'>View file changes</span></button> button to review the affected files for this pull request. Note, code review and code comment are not currently available from within GitKraken Client.
+From the upper right of the Pull Request view, you may click the <button class='button button--primary button--ui button--nolink'><span style='color:#141422;'>View file changes</span></button> button to review the affected files for this pull request. Note, code review and code comment are not currently available from within GitKraken Desktop.
 
 <img src='/wp-content/uploads//view-changes.png' srcset='/wp-content/uploads//view-changes@2x.png' class='img-bordered img-responsive center'>
 
@@ -119,24 +119,24 @@ You can also quote other comments in your reply from the elipsies <kbd> <i class
 <img src='/wp-content/uploads//quote-reply.png' srcset='/wp-content/uploads//quote-reply@2x.png' class='img-bordered img-responsive center'>
 
 #### Branch checkout, build status, and adding remote
-If you double-click the branch name in the bottom right of the PR view, GitKraken Client will automatically check out the branch and open the graph.
+If you double-click the branch name in the bottom right of the PR view, GitKraken Desktop will automatically check out the branch and open the graph.
 
-If you click on the build status, GitKraken Client will take you to the build URL in your default web browser.
+If you click on the build status, GitKraken Desktop will take you to the build URL in your default web browser.
 
 <img src='/wp-content/uploads//build-status.png' srcset='/wp-content/uploads//build-status@2x.png' class='img-bordered img-responsive center'>
 
-Additionally if you have not added the remote, GitKraken Client will ask if you wish to add the remote to the app (which should help you review changes locally).
+Additionally if you have not added the remote, GitKraken Desktop will ask if you wish to add the remote to the app (which should help you review changes locally).
 
 #### Merging within pull request view
 
-GitHub users may also merge a pull request by clicking the <button class='button button--success button--ui button--nolink'>Merge pull request</button> button from within GitKraken Client.
+GitHub users may also merge a pull request by clicking the <button class='button button--success button--ui button--nolink'>Merge pull request</button> button from within GitKraken Desktop.
 
 <img src='/wp-content/uploads//merge-options.png' srcset='/wp-content/uploads//merge-options@2x.png' class='img-bordered img-responsive center'>
 
 By default, the merge will default to the <kbd>Create a merge commit</kbd> setting, however you may also choose between <kbd>Squash and merge</kbd> and the <kbd>Rebase and merge</kbd>.
 
 <div class='callout callout--basic'>
-  <p>Not seeing something update in the pull request view? Try refreshing GitKraken Client to get the latest updates.</p>
+  <p>Not seeing something update in the pull request view? Try refreshing GitKraken Desktop to get the latest updates.</p>
 </div>
 
 ### Why can't I see my remotes or repositories in the drop down menu?

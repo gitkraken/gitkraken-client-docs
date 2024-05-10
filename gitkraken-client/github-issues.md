@@ -1,6 +1,6 @@
 ---
 
-title: GitKraken Client GitHub Issues Integration
+title: GitKraken Desktop GitHub Issues Integration
 description: Learn how to access GitHub Issues from GitKraken Git GUI
 taxonomy:
     category: gitkraken-client

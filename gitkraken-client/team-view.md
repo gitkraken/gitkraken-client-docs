@@ -1,7 +1,7 @@
 ---
 
 title: Team View
-description: Working with the Team View in GitKraken Client.
+description: Working with the Team View in GitKraken Desktop.
 taxonomy:
     category: gitkraken-client
 
@@ -33,7 +33,7 @@ Learn more about [how to create a team](/start-here/teams/).
 
 ### Status
 
-The  <i class="fas fa-circle" style="color:green"></i> **status**  will display on the avatars of members in your GitKraken Organization or Team, indicating if they are actively using GitKraken Client. This activity status icon is visible in the Team View section in the Left Panel, or in the Organization view in Preferences.
+The  <i class="fas fa-circle" style="color:green"></i> **status**  will display on the avatars of members in your GitKraken Organization or Team, indicating if they are actively using GitKraken Desktop. This activity status icon is visible in the Team View section in the Left Panel, or in the Organization view in Preferences.
 
 <img src="/wp-content/uploads/status-in-teams.png" class="img-bordered img-responsive center">
 

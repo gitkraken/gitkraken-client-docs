@@ -1,7 +1,7 @@
 ---
 
 title: Diff, Patch, Blame, and History 
-description: Compare your changes with diffs in GitKraken Client. Learn about where to access diffs, file blame, and more.
+description: Compare your changes with diffs in GitKraken Desktop. Learn about where to access diffs, file blame, and more.
 taxonomy:
     category: gitkraken-client
 
@@ -11,19 +11,19 @@ taxonomy:
     <iframe width="560" height="315" src="https://www.youtube.com/embed/-0bn2H63axM?ecver=1" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Compare changes within GitKraken Client _diffs_. Learn where to access _diffs_, and how to access _file history_ or _file blame_.
+Compare changes within GitKraken Desktop _diffs_. Learn where to access _diffs_, and how to access _file history_ or _file blame_.
 
 ***
 
 <a id="what-is-a-diff-in-gitkraken"></a>
 
-## What is a diff in GitKraken Client?
+## What is a diff in GitKraken Desktop?
 
 A diff shows what was added or removed from a file. <span style='color: #d90171;'>Red</span> is for lines where content was removed whereas <span style='color: #7bd938;'>green</span> is for new lines added.
 
 <img src='/wp-content/uploads/diff-1.png' srcset='/wp-content/uploads/diff-1@2x.png 2x' class='img-bordered img-responsive center' />
 
-GitKraken Client's diff comes included with the following:
+GitKraken Desktop's diff comes included with the following:
 
 - Word diffing
 - Syntax highlighting
@@ -41,7 +41,7 @@ Access the diff of a file from:
 * **Staging**: Click on a file
 * **Commit node**: With a commit node selected, click on any file
 
-If you have two commits selected, GitKraken Client shows the difference between the two commits.
+If you have two commits selected, GitKraken Desktop shows the difference between the two commits.
 
 <img src='/wp-content/uploads/two-diffs.png' srcset='/wp-content/uploads/two-diffs@2x.png 2x' class='img-bordered img-responsive center'>
 
@@ -74,7 +74,7 @@ Configure your preferred external diff tool from <em class='context-menu'>Prefer
 
 <img src="/wp-content/uploads/externaldiff.png" srcset="/wp-content/uploads/externaldiff@2x.png" class="img-bordered img-responsive center">
 
-GitKraken Client currently _only supports_ the following diff tools:
+GitKraken Desktop currently _only supports_ the following diff tools:
 
 - Beyond Compare
 - FileMerge
@@ -181,5 +181,5 @@ Select your .patch file to then apply changes to your working directory.
 <img src='/wp-content/uploads/patch-applied.png' srcset='/wp-content/uploads/patch-applied@2x.png' class='img-bordered img-responsive center'>
 
 <div class='callout callout--basic'>
-    <p>Note: GitKraken Client does not yet support generating patches from binary files. This is a preliminary release with better support coming, and if you have feedback please reach out to our <a href="https://www.gitkraken.com/git-client/contact-support">support team</a>. </p>
+    <p>Note: GitKraken Desktop does not yet support generating patches from binary files. This is a preliminary release with better support coming, and if you have feedback please reach out to our <a href="https://www.gitkraken.com/git-client/contact-support">support team</a>. </p>
 </div>

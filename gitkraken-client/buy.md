@@ -10,7 +10,7 @@ taxonomy:
 Here's how to purchase your GitKraken subscription.
 
 <div class='callout callout--success'>
-  <p>Do you work in an air-gapped network? Or looking for GitKraken Client option that does not require account creation? Then check out our  <a href="/standalone/standalone/">GitKraken Stand-Alone</a> solution. for teams of 10+</p>
+  <p>Do you work in an air-gapped network? Or looking for GitKraken Desktop option that does not require account creation? Then check out our  <a href="/standalone/standalone/">GitKraken Stand-Alone</a> solution. for teams of 10+</p>
 </div>
 
 ***
@@ -73,7 +73,7 @@ After purchase, add users to your subscription!
 
 <img src="/wp-content/uploads/licenses-page.png" srcset="/wp-content/uploads/licenses-page@2x.png 2x" class="img-responsive center img-bordered">
 
-Each user will need a GitKraken Client license, here is how to bestow a license:
+Each user will need a GitKraken Desktop license, here is how to bestow a license:
 
 ### Allocating licenses
 1. Under <em class="context-menu">Organization  <i class="fa fa-caret-right"></i> [Your organization name]</em> , click <button class='button button--success button--ui button--nolink'>Add User</button>
@@ -88,7 +88,7 @@ Once the license is allocated, make sure the user is logging into the app with t
 
 If a user does not see the red Pro icon in the bottom right, have them [login again](/account/login).
 
-Additionally, you can set up a user as a <kbd>Billing Contact (unlicensed)</kbd>. This is perfect for people who don't need to use GitKraken Client, but wish to have access to manage the account subscription and settings.
+Additionally, you can set up a user as a <kbd>Billing Contact (unlicensed)</kbd>. This is perfect for people who don't need to use GitKraken Desktop, but wish to have access to manage the account subscription and settings.
 
 
 

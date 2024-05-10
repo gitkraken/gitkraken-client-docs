@@ -1,13 +1,13 @@
 ---
 
 title: Bitbucket Server Integration
-description: Integrate GitKraken Client with your Bitbucket Server repository by following these steps.
+description: Integrate GitKraken Desktop with your Bitbucket Server repository by following these steps.
 taxonomy:
     category: gitkraken-client
 
 ---
 
-GitKraken Client allows you to authenticate with Bitbucket Server, which will help you find repos on Bitbucket Server when cloning or adding your remotes.
+GitKraken Desktop allows you to authenticate with Bitbucket Server, which will help you find repos on Bitbucket Server when cloning or adding your remotes.
 
 **Benefits**
 
@@ -23,7 +23,7 @@ GitKraken Client allows you to authenticate with Bitbucket Server, which will he
 ## Connecting to Bitbucket Server
 
 <div class='callout callout'>
-    <p>Note 📝 - GitKraken Client supports any version of Bitbucket Server released within one year.</p>
+    <p>Note 📝 - GitKraken Desktop supports any version of Bitbucket Server released within one year.</p>
 </div>
 
 To authenticate with Bitbucket Server, navigate to the upper right corner to access <kbd><i> <i class="fas fa-cog"></i> Preferences    <i class='fa fa-caret-right'></i>     Integrations</i></kbd>
@@ -42,17 +42,17 @@ This opens a web browser where you will log in with your Bitbucket Server creden
 
 <img src='/wp-content/uploads/BitbucketServerPAT.png' class="img-responsive center img-bordered">
 
-Copy the token and paste it into GitKraken Client, then click the <button class='button button--success button--ui button--nolink'>Connect</span></button> button.
+Copy the token and paste it into GitKraken Desktop, then click the <button class='button button--success button--ui button--nolink'>Connect</span></button> button.
 
 <img src="/wp-content/uploads/bitbucket-server-connected.png" srcset="/wp-content/uploads/bitbucket-server-connected@2x.png 2x" class="img-responsive center img-bordered">
 
 ***
 ## Generating SSH keys for Bitbucket Server.
 <div class='callout callout'>
-    <p>Note 📝 - GitKraken Client uses your SSH key defined in <kbd><i>Preferences  <i class='fa fa-caret-right'></i>  SSH</i></kbd> for git operations unless you set up a BitBucket-specific SSH key, or enable your local SSH Agent.</p>
+    <p>Note 📝 - GitKraken Desktop uses your SSH key defined in <kbd><i>Preferences  <i class='fa fa-caret-right'></i>  SSH</i></kbd> for git operations unless you set up a BitBucket-specific SSH key, or enable your local SSH Agent.</p>
 </div>
 
-Once your Bitbucket Server account has been connected to your GitKraken Client, you may then generate an SSH key and add it to your Bitbucket Server account from <em class='context-menu'>Preferences     <i class='fa fa-caret-right'></i>    Integrations</em>
+Once your Bitbucket Server account has been connected to your GitKraken Desktop, you may then generate an SSH key and add it to your Bitbucket Server account from <em class='context-menu'>Preferences     <i class='fa fa-caret-right'></i>    Integrations</em>
 
 Click <button class='button button--success button--ui button--nolink'>Generate SSH key and copy to clipboard</span></button> and follow the toast prompt to add the key to your Bitbucket Server account. If you miss the toast pop-up or need to copy the public key later, you can use the link as well.
 
@@ -74,7 +74,7 @@ First, you may search through your existing repositories when cloning:
 
 <img src="/wp-content/uploads/bitbucket-server-clone-menu.png" srcset="/wp-content/uploads/bitbucket-server-clone-menu@2x.png 2x" class="img-responsive center img-bordered">
 
-Next, GitKraken Client presents a list of forks of the current repository when adding remotes:
+Next, GitKraken Desktop presents a list of forks of the current repository when adding remotes:
 
 <img src="/wp-content/uploads/bitbucket-server-add-remote.png" class="img-responsive center img-bordered">
 

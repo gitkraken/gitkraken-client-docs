@@ -1,13 +1,13 @@
 ---
 
 title: Activity Logs 
-description: Learn where to find feedback Activity Logs in GitKraken Client.
+description: Learn where to find feedback Activity Logs in GitKraken Desktop.
 taxonomy:
     category: gitkraken-client
 
 ---
 
-Learn how to view all Git actions made to repositories and all application actions made in GitKraken Client through Activity Logs.
+Learn how to view all Git actions made to repositories and all application actions made in GitKraken Desktop through Activity Logs.
 
 ***
 
@@ -15,9 +15,9 @@ Learn how to view all Git actions made to repositories and all application actio
 
 Looking to increase your project scope?
 
-Pop open the hood of your project and check out the <kbd>Activity Logs</kbd> located in the footer toolbar of GitKraken Client.
+Pop open the hood of your project and check out the <kbd>Activity Logs</kbd> located in the footer toolbar of GitKraken Desktop.
 
-<kbd>Activity Logs</kbd> provide real time feedback of application and repository-level interactions that occurred in GitKraken Client.
+<kbd>Activity Logs</kbd> provide real time feedback of application and repository-level interactions that occurred in GitKraken Desktop.
 
 <img src='/wp-content/uploads/activity.gif' class='img-bordered img-responsive center'>
 
@@ -29,7 +29,7 @@ Pop open the hood of your project and check out the <kbd>Activity Logs</kbd> loc
 
 ### Application Log
 
-The *Applications* tab in <kbd>Activity Logs</kbd> contains messages about actions made in GitKraken Client application. Discover events from your GitKraken Client instance such as: project creation, clearing SSH, setting global gitconfig, etc.
+The *Applications* tab in <kbd>Activity Logs</kbd> contains messages about actions made in GitKraken Desktop application. Discover events from your GitKraken Desktop instance such as: project creation, clearing SSH, setting global gitconfig, etc.
 
 <img src='/wp-content/uploads/app-level.png' srcset='/wp-content/uploads/app-level@2x.png' class='img-bordered img-responsive center'>
 

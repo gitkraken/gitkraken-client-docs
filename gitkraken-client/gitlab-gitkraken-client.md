@@ -1,6 +1,6 @@
 ---
 
-title: GitKraken Client GitLab Integration
+title: GitKraken Desktop GitLab Integration
 description: Integrate GitKraken with your GitLab repository by following these steps.
 taxonomy:
     category: gitkraken-client

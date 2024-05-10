@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-Git power-users of GitKraken Client: rejoice! Entering detached HEAD state is just a right click away.
+Git power-users of GitKraken Desktop: rejoice! Entering detached HEAD state is just a right click away.
 
 ***
 Detached HEAD state gives you the power to check out any commit and explore the older state of a repository without having to create a local branch. 
@@ -37,7 +37,7 @@ When you check out a branch, the `HEAD` tag indicator will disappear and your re
 </p>
 </div>
 
-Luckily, GitKraken Client will explicitly remind you of your detached state when you make a commit. You'll find this warning in at the top of the commit panel.
+Luckily, GitKraken Desktop will explicitly remind you of your detached state when you make a commit. You'll find this warning in at the top of the commit panel.
 
 <img src='/wp-content/uploads/detached-warning.png' srcset='/wp-content/uploads/detached-warning@2x.png 2x' class='img-bordered img-responsive center'>
 

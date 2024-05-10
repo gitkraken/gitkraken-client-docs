@@ -1,18 +1,18 @@
 ---
 
 title: Interface Basics
-description: Learn the basics of working with the GitKraken Client interface.
+description: Learn the basics of working with the GitKraken Desktop interface.
 taxonomy:
     category: gitkraken-client
 
 ---
 
-GitKraken Client's UI helps make sense of Git. Below we cover the layout and what the icons represent.
+GitKraken Desktop's UI helps make sense of Git. Below we cover the layout and what the icons represent.
 
 
 ***
 
-From left to right, GitKraken Client displays a left reference panel, center graph, and the Commit Panel when working with a repository.
+From left to right, GitKraken Desktop displays a left reference panel, center graph, and the Commit Panel when working with a repository.
 
 <img src="/wp-content/uploads/interface.png" class="img-responsive center">
 
@@ -29,7 +29,7 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
 	<div class="flex-item">
 		<img src='/wp-content/uploads/gk-new-undo-icon.svg' class='img-responsive'></div>
 	<div class="flex-item">
-		<p>Many actions performed in GitKraken Client can be undone. If an action is undoable, the <kbd>Undo</kbd> button will be a solid color ready for action.</p>
+		<p>Many actions performed in GitKraken Desktop can be undone. If an action is undoable, the <kbd>Undo</kbd> button will be a solid color ready for action.</p>
 	</div>
 </div>
 
@@ -39,7 +39,7 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
 		<img src='/wp-content/uploads/gk-new-redo-icon.svg' class='img-responsive'>
 	</div>
 	<div class="flex-item">
-		<p>What if you undid something, only to realize that you didn't want to undo it? GitKraken Client also has a </kbd>Redo</kbd> button so you can undo your undos.</p>
+		<p>What if you undid something, only to realize that you didn't want to undo it? GitKraken Desktop also has a </kbd>Redo</kbd> button so you can undo your undos.</p>
 	</div>
 </div>
 
@@ -122,7 +122,7 @@ In addition to Undo and Redo, the main toolbar houses common repo actions.
     <iframe width="560" height="315" src="https://www.youtube.com/embed/4uSXlUUU0ds?ecver=1" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Referred to as the left "ref" panel, GitKraken Client shows the properties below specific to your repository.
+Referred to as the left "ref" panel, GitKraken Desktop shows the properties below specific to your repository.
 
 * The panel and each section can be collapsed or expanded as needed. 
 * The panel and each section can be resized by clicking and dragging. 
@@ -160,7 +160,7 @@ Referred to as the left "ref" panel, GitKraken Client shows the properties below
 		<img src='/wp-content/uploads/gk-new-pull-requests-icon.svg' class='img-responsive'>
 	</div>
 	<div class="flex-item">
-		<p>This shows active requests for merging one branch into another. With the GitHub or Bitbucket integration, new PRs can be created directly from GitKraken Client.</p>
+		<p>This shows active requests for merging one branch into another. With the GitHub or Bitbucket integration, new PRs can be created directly from GitKraken Desktop.</p>
 		<p>Create your <a href="/working-with-repositories/pull-requests">Pull Request</a> to get your contribution merged.</p>
 	</div>
 </div>
@@ -171,7 +171,7 @@ Referred to as the left "ref" panel, GitKraken Client shows the properties below
 		<i class="fa fa-list-ul fa-3x" aria-hidden="true"></i>
 	</div>
 	<div class="flex-item">
-		<p>Lets you see and work with your issues in GitKraken Client</p>
+		<p>Lets you see and work with your issues in GitKraken Desktop</p>
 		<p>Hook up to your remote issue tracker of choice - such as <a href="/integrations/jira/">Jira</a>, <a href="/integrations/github-issues/">GitHub</a>, <a href="/integrations/gitlab-issues/">GitLab</a>, or <a href="/integrations/trello/">Trello</a>.</p>
 	</div>
 </div> 
@@ -263,7 +263,7 @@ Oooo <span style='color: #0669f7;'>c</span><span style='color: #8e00c2;'>o</span
 
 <img src='/wp-content/uploads/graph-gif.gif' class='figure img-floated img-floated--right'>
 
-The **graph** in GitKraken Client is the core of your repo and a representation of the [Directed Acyclic Graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph) (DAG).  Your commits are displayed here, along with commits from other contributors.
+The **graph** in GitKraken Desktop is the core of your repo and a representation of the [Directed Acyclic Graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph) (DAG).  Your commits are displayed here, along with commits from other contributors.
 
 Each row of the graph represents one commit, and the top is always for the latest changes. An interactive _//WIP_ (Work-In-Progress) node will show if the working directory has changed since the last commit.
 
@@ -322,7 +322,7 @@ A name can be set for terminal tabs. To give a name to a terminal tab, right-cli
 
 ## Columns
 
-GitKraken Client will show 3 columns in the header by default: <kbd>Branch/Tag</kbd>, <kbd>Graph</kbd>, and <kbd>Commit Message</kbd>. These 3 columns are static and cannot be rearranged or removed.
+GitKraken Desktop will show 3 columns in the header by default: <kbd>Branch/Tag</kbd>, <kbd>Graph</kbd>, and <kbd>Commit Message</kbd>. These 3 columns are static and cannot be rearranged or removed.
 
 <img src='/wp-content/uploads/columns@2x.png' class='img-bordered img-responsive center'>
 
@@ -342,7 +342,7 @@ In addition to using <kbd>cmd/ctrl</kbd>+<kbd>F</kbd> to search commits, users m
 
 <img src='/wp-content/uploads/filter-author@2x.png' class='img-bordered img-responsive center'>
 
-Columns may also be toggled from <kbd><strong>Preferences > UI Customization</strong></kbd>, GitKraken Client will remember which columns you have selected, column size, and orientation for each repo. 
+Columns may also be toggled from <kbd><strong>Preferences > UI Customization</strong></kbd>, GitKraken Desktop will remember which columns you have selected, column size, and orientation for each repo. 
 
 ***
 

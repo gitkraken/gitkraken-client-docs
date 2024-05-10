@@ -1,6 +1,6 @@
 ---
 
-title: GitKraken Client and Jira Server Issues Integration
+title: GitKraken Desktop and Jira Server Issues Integration
 description: Learn how to access Jira Issues from GitKraken Git GUI
 taxonomy:
     category: gitkraken-client

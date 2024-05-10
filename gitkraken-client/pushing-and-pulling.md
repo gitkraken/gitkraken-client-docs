@@ -47,13 +47,13 @@ Push the currently checked out branch by clicking <kbd>Push <img src='/wp-conten
 
 Pushing attempts to upload any new commits to the remote branch, then fast-forward the remote to bring it up to date with the local repo.
 
-If the remote branch cannot be fast-forwarded, the push will be refused.  If this is the case, GitKraken Client will provide the option to _Pull (fast-forward if possible)_, or <button class='button button--danger button--ui button--nolink'>Force Push</button>.
+If the remote branch cannot be fast-forwarded, the push will be refused.  If this is the case, GitKraken Desktop will provide the option to _Pull (fast-forward if possible)_, or <button class='button button--danger button--ui button--nolink'>Force Push</button>.
 
 <div class='callout callout--warning'>
     <p><strong>Caution:</strong> Forcing a push is considered destructive because it overwrites the remote branch by replacing it with the local branch.</p>
 </div>
 
-If the branch pushed does not exist on the remote, GitKraken Client will prompt you to name and create the new remote branch.  This is typically the fork name followed by a slash, and the branch name. i.e. `origin/my-branch`.
+If the branch pushed does not exist on the remote, GitKraken Desktop will prompt you to name and create the new remote branch.  This is typically the fork name followed by a slash, and the branch name. i.e. `origin/my-branch`.
 
 ### Drag and drop to push
 
@@ -80,7 +80,7 @@ If you are ahead of the remote branch, there are local commits that have not yet
 
 It is possible to be both ahead of and behind a remote.  However if you are both ahead and behind a remote, you will not be able to perform a _Pull (fast-forward if possible)_ as the branches have diverged. Consider rebasing onto the remote first.
 
-GitKraken Client automatically fetches updates from your remote repositories every minute by default.  You can change this setting from <kbd><strong>Preferences > General</strong></kbd> menu.
+GitKraken Desktop automatically fetches updates from your remote repositories every minute by default.  You can change this setting from <kbd><strong>Preferences > General</strong></kbd> menu.
 
 ### Fast-forwarding
 Fast forwarding moves the currently checked out commit to one that was added later, replaying all commits in between in the order which they happened.
@@ -104,7 +104,7 @@ There are three pulling options. Let's demonstrate what each one does by startin
 ### Pull (fast-forward if possible)
 _Pull (fast-forward if possible)_ fetches any updates on the remote branch, then attempts to _fast-forward_ the local branch.  If a _fast-forward_ is not possible, a _merge_ will be performed.
 
-This is the default option for new GitKraken Client users.
+This is the default option for new GitKraken Desktop users.
 
 <figure class='figure center'>
     <img src='/wp-content/uploads/example-pull-ff.png'>
@@ -112,7 +112,7 @@ This is the default option for new GitKraken Client users.
 </figure>
 
 ### Pull (fast-forward only)
-_Pull (fast-forward only)_ fetches any updates and then attempts a _fast-forward_.  If a fast-forward is not possible, GitKraken Client will not make any changes to the local repo.
+_Pull (fast-forward only)_ fetches any updates and then attempts a _fast-forward_.  If a fast-forward is not possible, GitKraken Desktop will not make any changes to the local repo.
 
 In our 2-commit example, a fast-forward is not possible as there are new commits added to both branches.
 
@@ -134,7 +134,7 @@ Our [interface](/start-here/interface) page covers this and more.
 
 ***
 ## Setting the upstream branch
-Whenever pushing, pulling, or fetching, GitKraken Client gets updates from the _Upstream_ branch.
+Whenever pushing, pulling, or fetching, GitKraken Desktop gets updates from the _Upstream_ branch.
 
 The _Upstream_ defaults to the remote branch where the local branch was checked out, but you may change the _Upstream_ to push, pull, or fetch from a different branch.
 

@@ -9,7 +9,7 @@ taxonomy:
 
 ## Overview
 
-**GitKraken On-Premise Self-Hosted Server** is the installed version of GitKraken Client that lives entirely within your network. It is also known as *GitKraken Enterprise Self-Hosted*, *GitKraken Enterprise On-Premise Server*, or simply *GitKraken Self-Hosted*. Its main use is to allow users to login without leaving your internal network.
+**GitKraken On-Premise Self-Hosted Server** is the installed version of GitKraken Desktop that lives entirely within your network. It is also known as *GitKraken Enterprise Self-Hosted*, *GitKraken Enterprise On-Premise Server*, or simply *GitKraken Self-Hosted*. Its main use is to allow users to login without leaving your internal network.
 
 Benefits of Self-Hosted Server:
 

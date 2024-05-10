@@ -1,13 +1,13 @@
 ---
 
 title: Submodules
-description: Submodules allow you to include other Git repositories within another Git repository. Work with submodules in GitKraken Client.
+description: Submodules allow you to include other Git repositories within another Git repository. Work with submodules in GitKraken Desktop.
 taxonomy:
     category: gitkraken-client
 
 ---
 
-Submodules allow you to include other Git repositories within a Git repository and can be managed directly inside of GitKraken Client.
+Submodules allow you to include other Git repositories within a Git repository and can be managed directly inside of GitKraken Desktop.
 
 <div class='embed-container embed-container--16-9'>
     <iframe width='560' height='315' src='https://www.youtube.com/embed/moC2KyxGb10?rel=0&vq=hd1080' frameborder='0' allowfullscreen></iframe>
@@ -34,9 +34,9 @@ To update submodules, navigate to the Submodule pane in the left panel and right
 If you clone a repository that contains a submodule, you will be prompted to initialize the submodule.  This will clone the submodule's repository and check out the referenced commit.
 
 ### Changing pointer commit
-To change the pointer commit, open the submodule in GitKraken Client and then check out the new commit. You may need to first create a branch on the target commit before you can check it out.
+To change the pointer commit, open the submodule in GitKraken Desktop and then check out the new commit. You may need to first create a branch on the target commit before you can check it out.
 
-Then when you exit the submodule, GitKraken Client will detect the change and ask you if you wish to save the change.
+Then when you exit the submodule, GitKraken Desktop will detect the change and ask you if you wish to save the change.
 
 <img src="/wp-content/uploads//submodule-commit.png" srcset="/wp-content/uploads//submodule-commit@2x.png" class="img-bordered img-responsive center">
 
@@ -57,5 +57,5 @@ There is a setting to automatically _Keep submodules up to date_ when performing
 + Globally - from <kbd>Preferences > General</kbd>
 + Per repository - from <kbd>Preferences > Submodules</kbd>
 
-### GitKraken Client and subtree, not submodules
-GitKraken Client does not currently support subtree in-app.
+### GitKraken Desktop and subtree, not submodules
+GitKraken Desktop does not currently support subtree in-app.

@@ -1,13 +1,13 @@
 ---
 
 title: Open, Clone, and Init
-description: Learn the basics of GitKraken Client, like initializing or cloning projects!
+description: Learn the basics of GitKraken Desktop, like initializing or cloning projects!
 taxonomy:
     category: gitkraken-client
 
 ---
 
-Whether you are a newborn or a wizened deep-ocean octopod, each user will need to open, clone, or initialize a repo in GitKraken Client.
+Whether you are a newborn or a wizened deep-ocean octopod, each user will need to open, clone, or initialize a repo in GitKraken Desktop.
 
 <div class='embed-container embed-container--16-9'>
     <iframe width='560' height='315' src='https://www.youtube.com/embed/8uxrA56VJgY?rel=0&vq=hd1080' frameborder='0' allowfullscreen></iframe>
@@ -17,13 +17,13 @@ Whether you are a newborn or a wizened deep-ocean octopod, each user will need t
 ## Setup
 The essential setup process includes:
 
-1. [Installing](/gitkraken-client/how-to-install) GitKraken Client
+1. [Installing](/gitkraken-client/how-to-install) GitKraken Desktop
 2. Creating an account and setting up your [profile](/gitkraken-client/profiles)
 
 Once this is complete, you are ready for your oceanic journey!
 
 ***
-## Projects in GitKraken Client
+## Projects in GitKraken Desktop
 There are three ways to start a Git repository when working on a project:
 
 1. **Open** - Open a local Git repository already initialized and available locally.
@@ -33,9 +33,9 @@ There are three ways to start a Git repository when working on a project:
 ***
 
 ### Opening an existing project
-GitKraken Client allows you to load your existing repositories and pick up where you left off. It's also useful for visualizing past work done.  
+GitKraken Desktop allows you to load your existing repositories and pick up where you left off. It's also useful for visualizing past work done.  
 
-If you're coming from a Git project you already have locally, navigate to <kbd><strong>File > Open Repo</strong></kbd> to get started immediately in GitKraken Client.
+If you're coming from a Git project you already have locally, navigate to <kbd><strong>File > Open Repo</strong></kbd> to get started immediately in GitKraken Desktop.
 
 <img src='/wp-content/uploads/project.png' srcset='/wp-content/uploads/project@2x.png 2x' class='img-bordered img-responsive center'>
 
@@ -50,11 +50,11 @@ If your project is not on your local machine or you want a new copy, clone the p
 
 <img src='/wp-content/uploads/clone-url.png' srcset='/wp-content/uploads/clone-url@2x.png 2x' class='img-bordered img-responsive center'>
 
-This will then prompt you to open the newly copied project in GitKraken Client.
+This will then prompt you to open the newly copied project in GitKraken Desktop.
 
 ***
 ### Initialize a new project
-Starting a project in GitKraken Client is easy through <kbd><strong>File > Init</strong></kbd>
+Starting a project in GitKraken Desktop is easy through <kbd><strong>File > Init</strong></kbd>
 
 <img src='/wp-content/uploads/init.png' srcset='/wp-content/uploads/init@2x.png 2x' class='img-bordered img-responsive center'>
 
@@ -66,16 +66,16 @@ All you need to do is fill out the fields and select <button class='button butto
  * Automatically creates a `.gitignore` file in your working copy.
 
 * License (**optional**)
- * On init, GitKraken Client will create a `LICENSE` file in your repository.
+ * On init, GitKraken Desktop will create a `LICENSE` file in your repository.
  * Check out the [Open Source Initiative](https://opensource.org/licenses) or find out more about [Choosing a License](http://choosealicense.com/).
 
 #### Output
 * A new initialized Git project at the specified repository path by creating a `.git` folder.
-* The project is opened in GitKraken Client
+* The project is opened in GitKraken Desktop
 * An "Initial commit" on a `master` branch containing a blank `README.md` along with a `.gitignore` and `LICENSE.md` if applicable.
 
  <div class='callout callout--success'>
-     <p>GitKraken Client also allows initializing a repository directly to a remote Git hosting provider such as GitHub and Bitbucket.</p>
+     <p>GitKraken Desktop also allows initializing a repository directly to a remote Git hosting provider such as GitHub and Bitbucket.</p>
  </div>
 
 
@@ -83,7 +83,7 @@ All you need to do is fill out the fields and select <button class='button butto
 
 ### Delete a repository
 
-You may delete a repository by first navigating to the folder icon in the upper left corner of GitKraken Client UI.
+You may delete a repository by first navigating to the folder icon in the upper left corner of GitKraken Desktop UI.
 
 <img src='/wp-content/uploads/click-folder.png' srcset='/wp-content/uploads/click-folder@2x.png 2x' class='img-bordered img-responsive center'>
 
@@ -91,6 +91,6 @@ Then browse through your repo list and right-click on the repository you wish to
 
 <img src='/wp-content/uploads/delete-repo.png' srcset='/wp-content/uploads/delete-repo@2x.png 2x' class='img-bordered img-responsive center'>
 
-If you are unable to delete the repository, first make sure it is closed in GitKraken Client and then close any other applications which may be working with files in the repository. Restart GitKraken Client and try the delete again.
+If you are unable to delete the repository, first make sure it is closed in GitKraken Desktop and then close any other applications which may be working with files in the repository. Restart GitKraken Desktop and try the delete again.
 
-Deleting the repo from within GitKraken Client will only delete your local copy of the repository. If you wish to delete your remote repository, you will need to perform that action directly by logging into your remote hosting service (GitHub, GitLab, etc).
+Deleting the repo from within GitKraken Desktop will only delete your local copy of the repository. If you wish to delete your remote repository, you will need to perform that action directly by logging into your remote hosting service (GitHub, GitLab, etc).

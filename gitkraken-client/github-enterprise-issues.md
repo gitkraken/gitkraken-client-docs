@@ -1,6 +1,6 @@
 ---
 
-title: GitKraken Client GitHub Enterprise Server Issues Integration
+title: GitKraken Desktop GitHub Enterprise Server Issues Integration
 description: Learn how to access GitHub Enterprise Server Issues from GitKraken Git GUI
 taxonomy:
     category: gitkraken-client

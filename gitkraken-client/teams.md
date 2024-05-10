@@ -1,13 +1,13 @@
 ---
 
 title: Teams
-description: Working with Teams in GitKraken Client.
+description: Working with Teams in GitKraken Desktop.
 taxonomy:
     category: gitkraken-client
 
 ---
 
-GitKraken Client users with <a href="https://www.gitkraken.com/git-client/pricing">Pro, Teams, or Enterprise Cloud</a> accounts can use the Teams feature to group users within an Organization.
+GitKraken Desktop users with <a href="https://www.gitkraken.com/git-client/pricing">Pro, Teams, or Enterprise Cloud</a> accounts can use the Teams feature to group users within an Organization.
 
 Teams can be utilized for:
 - The [Team View](/gitkraken-client/working-with-repositories/team-view/) - see what branches and files others are working on and detect potential conflcits. 
@@ -65,6 +65,6 @@ To add a user to a Team, select the Team and then select <button class="button b
 
 ### Suggested Members
 
-GitKraken Client will suggest users that contribute to the current repository that are not in your Organization. You may <button class="button button--success button--ui button--nolink">Invite</button> the member to your Organization to help future collaboration.
+GitKraken Desktop will suggest users that contribute to the current repository that are not in your Organization. You may <button class="button button--success button--ui button--nolink">Invite</button> the member to your Organization to help future collaboration.
 
 <img src="/wp-content/uploads/suggested-members.png" srcset="/wp-content/uploads/suggested-members@2x.png" class="img-bordered img-responsive center">

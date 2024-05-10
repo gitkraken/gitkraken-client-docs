@@ -1,7 +1,7 @@
 ---
 
 title: Stash
-description: Save your changes for later with stashing in GitKraken Client.
+description: Save your changes for later with stashing in GitKraken Desktop.
 taxonomy:
     category: gitkraken-client
 

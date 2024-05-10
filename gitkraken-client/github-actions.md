@@ -22,7 +22,7 @@ taxonomy:
 
 ###Create Workflow
 
-GitKraken Client will allow you to create new workflows from the left panel.
+GitKraken Desktop will allow you to create new workflows from the left panel.
 
 <img src='/wp-content/uploads/github-actions-left-panel.png' srcset='/wp-content/uploads/github-actions-left-panel@2x.png 2x' class='img-responsive center img-bordered' />
 

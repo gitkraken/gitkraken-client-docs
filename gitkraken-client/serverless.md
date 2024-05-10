@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-GitKraken Client On-Premise Serverless (also known as *GitKraken Stand-Alone* or simply *GitKraken Serverless*) is built for teams and enterprises who work in a disconnected development environment. You get most of the same core <a href="https://www.gitkraken.com/git-client" target=_blank>GitKraken features</a>, along with these additional benefits:
+GitKraken Desktop On-Premise Serverless (also known as *GitKraken Stand-Alone* or simply *GitKraken Serverless*) is built for teams and enterprises who work in a disconnected development environment. You get most of the same core <a href="https://www.gitkraken.com/git-client" target=_blank>GitKraken features</a>, along with these additional benefits:
 
 - For use without internet
 - No account creation required
@@ -111,7 +111,7 @@ Once the license file is applied, you are ready to get crackin'!
 
 #### License.dat Location
 
-You can also place your license file into specific directory locations for GitKraken to check. Here are all of the locations GitKraken Client will look:
+You can also place your license file into specific directory locations for GitKraken to check. Here are all of the locations GitKraken Desktop will look:
 
 **Linux/Mac:**
 

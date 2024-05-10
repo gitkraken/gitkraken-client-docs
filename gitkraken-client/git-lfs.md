@@ -1,7 +1,7 @@
 ---
 
 title: Git LFS
-description: Learn all about Git LFS within GitKraken Client.
+description: Learn all about Git LFS within GitKraken Desktop.
 taxonomy:
     category: gitkraken-client
 
@@ -17,7 +17,7 @@ Git LFS (<s>Legendary Fabled Squid</s> Large File Storage) is a Git extension fo
 
 Git LFS allows the user to track binary files directly or by extension. After the files are tracked, Git LFS manages the files as Git normally would, while Git just maintains a text file with metadata about the binary file.
 
-When viewing the diff of tracked LFS files in GitKraken Client, you will see a versioned URL, a generated SHA, and a size pertaining to the size of the original contents of the file:
+When viewing the diff of tracked LFS files in GitKraken Desktop, you will see a versioned URL, a generated SHA, and a size pertaining to the size of the original contents of the file:
 
 <img src='/wp-content/uploads/lfs-ref.png' srcset='/wp-content/uploads/lfs-ref@2x.png 2x' class='img-responsive center img-bordered' />
 
@@ -39,14 +39,14 @@ If you wish to learn more about how Git LFS works with Git, visit the [GitHub re
 
 ## Git LFS Requirements
 
-To enable LFS in GitKraken Client, you must first install Git and LFS. The minimum requirements are:
+To enable LFS in GitKraken Desktop, you must first install Git and LFS. The minimum requirements are:
 
 * Git version 2.39.3+
 * LFS version 3.0.0+
-* GitKraken Client version 7.0.0+
+* GitKraken Desktop version 7.0.0+
 
 <div class='callout callout--success'>
-    <p><strong>Note:</strong> Usually GitKraken Clientdoes not require Git CLI to perform its operations. However, since we do utilize Git CLI to interact with LFS files you will need to have <a href="https://git-scm.com/" target="_blank">Git installed</a> on your machine if you plan to use LFS. </p>
+    <p><strong>Note:</strong> Usually GitKraken Desktopdoes not require Git CLI to perform its operations. However, since we do utilize Git CLI to interact with LFS files you will need to have <a href="https://git-scm.com/" target="_blank">Git installed</a> on your machine if you plan to use LFS. </p>
 </div>
 
 ### Verify Git and LFS Versions
@@ -61,7 +61,7 @@ git version 2.13.0
 ```
 On Windows you may see some extra characters appended to the version which is expected. If an error appears, please install (or upgrade) Git on your machine.
 
-GitKraken Client requires version 2.3+ to run LFS. To install or upgrade Git on your machine, visit the [git-scm website](https://git-scm.com/).
+GitKraken Desktop requires version 2.3+ to run LFS. To install or upgrade Git on your machine, visit the [git-scm website](https://git-scm.com/).
 
 Run the following command in terminal or CMD to verify your machine's version of Git LFS:
 ```
@@ -76,7 +76,7 @@ If you do not have Git LFS installed or you have a version less than 2.0.0 insta
 After both Git and Git LFS are installed, verify that they are on your path either by running the commands above or by checking your path in the terminal.
 
 <div class='callout callout--success'>
-    <p><strong>Note:</strong> If GitKraken Client still cannot find Git or Git LFS, the terminal or CMD may be using a different path than the system or user path. For example, on OSX applications launched from the GUI have a different path than those launched from the terminal.</p>
+    <p><strong>Note:</strong> If GitKraken Desktop still cannot find Git or Git LFS, the terminal or CMD may be using a different path than the system or user path. For example, on OSX applications launched from the GUI have a different path than those launched from the terminal.</p>
 </div>
 
 On OSX and Linux, you can run the following command to see the location of Git LFS on the path:
@@ -121,7 +121,7 @@ Navigate to your Preferences and you should see the LFS tab in the left panel:
 <img src='/wp-content/uploads/lfs-tab.png' srcset='/wp-content/uploads/lfs-tab@2x.png 2x' class='img-responsive center img-bordered' />
 
 <div class='callout callout--warning'>
-    <p><strong>Note:</strong> If you do not see the LFS tab, make sure you have a GitKraken Client v3.0.0+ installed and you meet these <a href="/gitkraken-client/git-lfs/#git-lfs-requirements">System Requirements</a>.</p>
+    <p><strong>Note:</strong> If you do not see the LFS tab, make sure you have a GitKraken Desktop v3.0.0+ installed and you meet these <a href="/gitkraken-client/git-lfs/#git-lfs-requirements">System Requirements</a>.</p>
 </div>
 
 Click to initialize LFS on the repo:
@@ -159,7 +159,7 @@ Select the WIP node, right click the file you wish to be tracked by LFS, and sel
 <img src='/wp-content/uploads/context-menu-lfs.png' srcset='/wp-content/uploads/context-menu-lfs@2x.png 2x' class='img-responsive center img-bordered' />
 
 <div class='callout callout--success'>
-    <p>Note: GitKraken Client will automatically perform an LFS pull after cloning a repo or initializing a submodule with LFS </p>
+    <p>Note: GitKraken Desktop will automatically perform an LFS pull after cloning a repo or initializing a submodule with LFS </p>
 </div>
 
 ---
@@ -176,11 +176,11 @@ Staging and committing LFS tracked files results in the reference files being sa
 
 Once your repo is pushed to an LFS-capable remote, the reference files will be saved to the remote repo and the actual files will be pushed to your specified LFS server.
 
-Most LFS actions, such as Checkout, Fetch, Pull, and Push will happen automatically as you use the standard commands in GitKraken Client. However, if you want to use an LFS command in isolation, use the LFS toolbar menu:
+Most LFS actions, such as Checkout, Fetch, Pull, and Push will happen automatically as you use the standard commands in GitKraken Desktop. However, if you want to use an LFS command in isolation, use the LFS toolbar menu:
 
  <img src='/wp-content/uploads/lfs-dropdown.png' srcset='/wp-content/uploads/lfs-dropdown@2x.png 2x' class='img-responsive center img-bordered' />
 
-Click the arrow on the button and select the desired command. Other than _Prune_, all of the commands are run by GitKraken Client via the traditional operations.
+Click the arrow on the button and select the desired command. Other than _Prune_, all of the commands are run by GitKraken Desktop via the traditional operations.
 
 <div class='callout callout--success'>
     <p><strong>Note:</strong> Pruning is not automatic. Pruning is considered a destructive operation, so be careful about when you run the <em>Prune</em> command. See the <a href="https://github.com/git-lfs/git-lfs/blob/main/docs/man/git-lfs-prune.adoc" target="_blank">Git LFS documentation</a> to learn more.</p>
@@ -188,7 +188,7 @@ Click the arrow on the button and select the desired command. Other than _Prune_
 
 ## LFS FAQ
 
-### I updated to v3.0.0 of GitKraken Client but I cannot find LFS anywhere?
+### I updated to v3.0.0 of GitKraken Desktop but I cannot find LFS anywhere?
 
 You will need to make sure you have Git v1.8.5 and LFS v2.0.0 installed on your local machine.
 
@@ -196,11 +196,11 @@ You will need to make sure you have Git v1.8.5 and LFS v2.0.0 installed on your 
 
 It is most likely that you have switched to a repository that does not have LFS initialized. If you wish to initialize this repo with LFS, you can do so by navigating to the hamburger menu → LFS → Initialize LFS on this repo.
 
-### I added a LFS tracking pattern in GitKraken Client but files with that pattern are not being tracked by LFS, what gives?
+### I added a LFS tracking pattern in GitKraken Desktop but files with that pattern are not being tracked by LFS, what gives?
 
 Only new files will be tracked by the newly added pattern. If files of the newly added pattern are already being tracked by Git, you will need to untrack them and then re-track them.
 
-The easiest way to do this in GitKraken Client is to remove the files from the repository (Git will think they have been removed/deleted), commit, then re-add the files and re-commit. The re-added files should now follow your new tracking pattern.
+The easiest way to do this in GitKraken Desktop is to remove the files from the repository (Git will think they have been removed/deleted), commit, then re-add the files and re-commit. The re-added files should now follow your new tracking pattern.
 
 ### After trying to push my files, I see a prompt requiring my credentials. What credentials is it referring to?
 
@@ -212,14 +212,14 @@ If you are using an internal LFS server (or another LFS service), you will need 
 
 ### Why is LFS STILL not showing up? 
 
-If LFS is still not appearing as an option in GitKraken Client preferences menu, you may need to add it to your `Path` variable. This can happen if git or git LFS is not installed in the default directory. You should [Verify Git and LFS Versions](/gitkraken-client/git-lfs/#verify-git-and-lfs-versions).
+If LFS is still not appearing as an option in GitKraken Desktop preferences menu, you may need to add it to your `Path` variable. This can happen if git or git LFS is not installed in the default directory. You should [Verify Git and LFS Versions](/gitkraken-client/git-lfs/#verify-git-and-lfs-versions).
 
-### SSH Keys in GitKraken Client and the CLI
-Unlike most features in GitKraken Client, the LFS feature does require git for the CLI as well as LFS. This means that if you are trying to use SSH, your key will need to be configured in your GitKraken Client and for the CLI.
+### SSH Keys in GitKraken Desktop and the CLI
+Unlike most features in GitKraken Desktop, the LFS feature does require git for the CLI as well as LFS. This means that if you are trying to use SSH, your key will need to be configured in your GitKraken Desktop and for the CLI.
 
-You can automatically generate an SSH Key in GitKraken Client in <kbd><strong>Preferences > SSH</strong></kbd> and save wherever you want locally, or the key will be  in your `~\\.gitkraken\\profiles` folder if you generate from a specific integration. 
+You can automatically generate an SSH Key in GitKraken Desktop in <kbd><strong>Preferences > SSH</strong></kbd> and save wherever you want locally, or the key will be  in your `~\\.gitkraken\\profiles` folder if you generate from a specific integration. 
 
-You can also use the SSH Agent option to setup and manage your keys, and then tell GitKraken Client to use your agent. [Adding an SSH Key to an SSH Agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) by GitHub
+You can also use the SSH Agent option to setup and manage your keys, and then tell GitKraken Desktop to use your agent. [Adding an SSH Key to an SSH Agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) by GitHub
 
 ### Using LFS installed using Homebrew on macOS
 
