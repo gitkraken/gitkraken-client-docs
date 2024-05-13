@@ -74,9 +74,14 @@ As the name implies, this will create a "draft" pull request in GitHub. However 
 
 GitHub.com users may utilize the pull request view for GitHub pull requests.
 
-To enable this feature, first set up the [GitHub integration](/gitkraken-client/github-gitkraken-client/). Then with a GitHub repo open inside of GitKraken Client, select a pull request in the left panel to bring up the pull request view.
+To enable this feature, first set up the [GitHub integration](/gitkraken-client/github-gitkraken-client/). Then with a GitHub repo open inside of GitKraken Desktop, select a pull request in the left panel (or checkout the source branch and a PR icon with the number shows up next to the branch) to bring up the pull request view. Or from the Launchpad, click on the icon at the right side of the Pull Request.
 
-<img src='/wp-content/uploads//github-pr-view.png' srcset='/wp-content/uploads//github-pr-view@2x.png' class='img-bordered img-responsive center'>
+Repository tab:
+<img src='/wp-content/uploads/gkc-github-pr-view.png' class='img-bordered img-responsive center'>
+
+Launchpad:
+
+<img src='/wp-content/uploads/gkc-launchpad-pr-actions.png' class='img-bordered img-responsive center'>
 
 From this view, GitHub users may edit the pull request:
 
@@ -87,9 +92,19 @@ From this view, GitHub users may edit the pull request:
 - Milestones
 - Labels
 
-From the upper right of the Pull Request view, you may click the <button class='button button--primary button--ui button--nolink'><span style='color:#141422;'>View file changes</span></button> button to review the affected files for this pull request. Note, code review and code comment are not currently available from within GitKraken Client.
 
-<img src='/wp-content/uploads//view-changes.png' srcset='/wp-content/uploads//view-changes@2x.png' class='img-bordered img-responsive center'>
+From the upper right of the Pull Request view, you may click the <button class='button button--primary button--ui button--nolink'><span style='color:#141422;'>Review Code and Suggest Changes</span></button> button to review the affected files for this pull request. Note, code review and code comment are not currently available from within GitKraken Desktop.
+
+<img src='/wp-content/uploads/gkc-pr-code-suggestions.png' class='img-bordered img-responsive center'>
+
+
+### Review Code and Suggest Changes
+
+In Gitkraken Desktop, Review Code and Suggest Changes simplifies code review by allowing you to make suggestions and edits across the entire project, not just on the lines that were changed, GitKraken Desktop, and gitkraken.dev. When a Pull Request is open, you can make suggestions to the pull request that others can then review and accept to include in the pull request. 
+
+Open the Pull Request and click on <button class='button button--primary button--ui button--nolink'><span style='color:#141422;'>Edit to Suggest Changes to PR #XX</span></button>, edit the file, save changes and click on <button class='button button--success button--ui button--nolink'>Suggest X file change to PR #XX </button>
+
+<img src='/wp-content/uploads/gkc-pr-suggest-code-changes.png' class='img-bordered img-responsive center'>
 
 ### Comment on GitHub pull requests
 Users may comment on a pull request -- which is great for submitting reviews, approving pull requests, or requesting changes. You may also use the refresh icon in the top right to quickly refresh the comments feed.
