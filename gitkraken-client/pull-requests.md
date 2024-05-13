@@ -104,7 +104,7 @@ In Gitkraken Desktop, Review Code and Suggest Changes simplifies code review by 
 
 Open the Pull Request and click on <button class='button button--primary button--ui button--nolink'><span style='color:#141422;'>Edit to Suggest Changes to PR #XX</span></button>, edit the file, save changes and click on <button class='button button--success button--ui button--nolink'>Suggest X file change to PR #XX </button>
 
-<img src='/wp-content/uploads/gkc-pr-suggest-code-changes.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/gkc-pr-suggest-code-changes.gif' class='img-bordered img-responsive center'>
 
 ### Comment on GitHub pull requests
 Users may comment on a pull request -- which is great for submitting reviews, approving pull requests, or requesting changes. You may also use the refresh icon in the top right to quickly refresh the comments feed.
