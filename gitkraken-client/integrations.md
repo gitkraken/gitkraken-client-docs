@@ -12,7 +12,7 @@ taxonomy:
 
 ## Remote repo integrations
 
-GitKraken Client allows you to connect many different services and platforms, making it easy to work with your remote repositories. 
+GitKraken Desktop allows you to connect many different services and platforms, making it easy to work with your remote repositories. 
 
 - [GitHub](/gitkraken-client/github-gitkraken-client/)
 - [GitHub Enterprise Server](/gitkraken-client/github-enterprise/)
@@ -24,10 +24,10 @@ GitKraken Client allows you to connect many different services and platforms, ma
 
 ## Issue tracker integrations
 
-GitKraken Client makes it easy to integrate with a wide variety of issue tracking and project management tools.
+GitKraken Desktop makes it easy to integrate with a wide variety of issue tracking and project management tools.
 
 - [Jira](/gitkraken-client/jira/)
-- [Jira Server](/gitkraken-client/jira-server/)
+- [Jira Data Center](/gitkraken-client/jira-data-center/)
 - [Trello](/gitkraken-client/trello/)
 - [GitLab Issues](/gitkraken-client/gitlab-issues/)
 - [GitLab Self-Managed Issues](/gitkraken-client/gitlab-self-managed-issues/)

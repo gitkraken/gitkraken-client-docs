@@ -1,6 +1,6 @@
 ---
 
-title: GitKraken Client GitLab Issues Integration
+title: GitKraken Desktop GitLab Issues Integration
 description: Learn how to access GitLab Issues from GitKraken Git GUI
 taxonomy:
     category: gitkraken-client

@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-All newly activated GitKraken accounts will automatically start a free 7-day trial of all GitKraken Client paid features.
+All newly activated GitKraken accounts will automatically start a free 7-day trial of all GitKraken Desktop paid features.
 
 <img src="/wp-content/uploads//trial-start.png" srcset="/wp-content/uploads//trial-start@2x.png 2x" class="img-responsive center img-bordered">
 

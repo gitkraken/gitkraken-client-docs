@@ -74,7 +74,7 @@ Alternatively in the staging panel, `Discard Changes` is available in the contex
 
 ## Ignoring Files
 
-You can use the `.gitignore` file to tell GitKraken Client to ignore files in your repo that you don't want to be tracked.  
+You can use the `.gitignore` file to tell GitKraken Desktop to ignore files in your repo that you don't want to be tracked.  
 
 You can view the `.gitignore` documentation for rules and formatting on the  <a href="https://git-scm.com/docs/gitignore">git-scm website</a>.
 
@@ -87,10 +87,10 @@ From this menu you may choose to ignore:
  * All files with that same file extension
  * All files in that same directory 
 
-GitKraken Client will create the `.gitignore` file (unless one already exists) at the root of your repo directory and add the appropriate entry, based on your ignore selection.  
+GitKraken Desktop will create the `.gitignore` file (unless one already exists) at the root of your repo directory and add the appropriate entry, based on your ignore selection.  
 
 <div class='callout callout--note'>
-    <p><strong>Note:</strong> GitKraken Client will only look at the <code>.gitignore</code> located at the root of your repo directory.  Nested .gitignore files are not parsed.</p>
+    <p><strong>Note:</strong> GitKraken Desktop will only look at the <code>.gitignore</code> located at the root of your repo directory.  Nested .gitignore files are not parsed.</p>
 </div>
 
 <a name="ignoring-previously-tracked-files"></a>

@@ -1,7 +1,7 @@
 ---
 
 title: GitKraken Boards
-description: Integrate GitKraken Client with your GitKraken Boards for easy task tracking.
+description: Integrate GitKraken Desktop with your GitKraken Boards for easy task tracking.
 taxonomy:
     category: gitkraken-client
 

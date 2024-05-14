@@ -1,13 +1,13 @@
 ---
 
 title: Other Integrations
-description: Learn how to authenticate with GitKraken Client to manage your SSH keys for repositories and integrations.  Create a SSH key pair or bring your own!
+description: Learn how to authenticate with GitKraken Desktop to manage your SSH keys for repositories and integrations.  Create a SSH key pair or bring your own!
 taxonomy:
     category: gitkraken-client
 
 ---
 
-GitKraken Client can connect to repositories hosted on most services (like TFS, AWS CodeCommit, [Google Cloud Source Repositories](/integrations/authentication/#google-cloud-source-repositories), custom service, etc), over HTTPS or SSH.
+GitKraken Desktop can connect to repositories hosted on most services (like TFS, AWS CodeCommit, [Google Cloud Source Repositories](/integrations/authentication/#google-cloud-source-repositories), custom service, etc), over HTTPS or SSH.
 
 <div class='embed-container embed-container--16-9'>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/OA9o09Bq5M8?ecver=1" frameborder="0" allowfullscreen></iframe>
@@ -24,7 +24,7 @@ To clone a remote repository over HTTPS, first navigate to your hosting service 
 
 
 
-Then go to GitKraken Client and clone the project through <kbd><strong>File > Clone Repo</strong></kbd>.
+Then go to GitKraken Desktop and clone the project through <kbd><strong>File > Clone Repo</strong></kbd>.
 
 <img src='/wp-content/uploads/clone.png' srcset='/wp-content/uploads/clone@2x.png 2x' class='img-bordered img-responsive center'>
 
@@ -39,13 +39,13 @@ By default when cloning a repo using HTTPS, your remote tracking at `origin` wil
     <iframe width="560" height="315" src="https://www.youtube.com/embed/z7jVOenqFYk?ecver=1" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Before you can clone a repo over SSH, you must first set up your SSH keys in GitKraken Client.
+Before you can clone a repo over SSH, you must first set up your SSH keys in GitKraken Desktop.
 
 Navigate to <kbd><strong>Preferences > SSH</strong></kbd>.
 
 <img src="/wp-content/uploads/authentication.png" srcset="/wp-content/uploads/authentication@2x.png" class="img-bordered img-responsive center">
 
-Here you may choose an SSH key pair by browsing your file system, or let GitKraken Client generate a key for you (recommended). Make sure that you copy your public SSH key and paste it into your remote hosting service!
+Here you may choose an SSH key pair by browsing your file system, or let GitKraken Desktop generate a key for you (recommended). Make sure that you copy your public SSH key and paste it into your remote hosting service!
 
 Once your keys are set up, you are ready to clone.
 
@@ -53,7 +53,7 @@ Once your keys are set up, you are ready to clone.
 
 To clone a remote repository over SSH, first navigate to your hosting service and copy the SSH link.
 
-Then go to GitKraken Client and clone the project through <em class='context-menu'>File <i class="fa fa-caret-right"></i> Clone</em>.
+Then go to GitKraken Desktop and clone the project through <em class='context-menu'>File <i class="fa fa-caret-right"></i> Clone</em>.
 
 <img src='/wp-content/uploads/clone.png' srcset='/wp-content/uploads/clone@2x.png 2x' class='img-bordered img-responsive center'>
 
@@ -110,13 +110,13 @@ This way, provided your keys are loaded, every action requiring a chat with your
 ### I'm having an SSH issue.
 Well if it's not working 100% of the time, the most common issues are:
 
-* SSH-agent on Windows &mdash; GitKraken Client currently only supports Pageant for the SSH agent for Windows.
+* SSH-agent on Windows &mdash; GitKraken Desktop currently only supports Pageant for the SSH agent for Windows.
  * You can download PuTTY and Pageant from their page <a href='http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html' target='_blank'>here</a>.
 * Misconfigured SSH settings &mdash; remote URL format
  * Check in <kbd><strong>Preferences > SSH</strong></kbd> to confirm that your SSH settings are correct.
  * Edit remotes in the left ref panel to ensure push and pull urls are set and in the correct format
-* Expected use of SSH config &mdash; GitKraken Client does not currently respect your SSH config and cannot make use of any remote server nicknames or identities.
- * You can either load your SSH key directly into GitKraken Client or use your system&rsquo;s SSH agent to authenticate with your remote.
+* Expected use of SSH config &mdash; GitKraken Desktop does not currently respect your SSH config and cannot make use of any remote server nicknames or identities.
+ * You can either load your SSH key directly into GitKraken Desktop or use your system&rsquo;s SSH agent to authenticate with your remote.
 
 
 ***
@@ -132,18 +132,18 @@ Use this if you need the app to prompt for username or password for remote actio
 
 ## Proxy configuration
 
-GitKraken Client supports proxies for Windows, OSX, and Linux. GitKraken Client should recognize your proxy settings by default, however please review the additional instructions below if you are using an authenticated proxy such as <em>basic</em>, <em>NTLM</em>, <em>Negotiate</em>, or <em>Digest</em>.
+GitKraken Desktop supports proxies for Windows, OSX, and Linux. GitKraken Desktop should recognize your proxy settings by default, however please review the additional instructions below if you are using an authenticated proxy such as <em>basic</em>, <em>NTLM</em>, <em>Negotiate</em>, or <em>Digest</em>.
 
 ### Windows
 
-For Windows users, your Windows machine will prompt for your proxy credentials on GitKraken’s behalf. Enter the credentials to complete the proxy configuration with GitKraken Client.
+For Windows users, your Windows machine will prompt for your proxy credentials on GitKraken’s behalf. Enter the credentials to complete the proxy configuration with GitKraken Desktop.
 
 ### OSX
 
-If you’re using an authenticated proxy on OSX, GitKraken will directly ask for the proxy credentials. Enter the credentials to complete the proxy configuration with GitKraken Client.
+If you’re using an authenticated proxy on OSX, GitKraken will directly ask for the proxy credentials. Enter the credentials to complete the proxy configuration with GitKraken Desktop.
 
 ### Linux
-If you are using an authenticated proxy on Linux, GitKraken Client will directly ask for the proxy credentials. Additionally, you will need to run GitKraken Client with the command line flag:
+If you are using an authenticated proxy on Linux, GitKraken Desktop will directly ask for the proxy credentials. Additionally, you will need to run GitKraken Desktop with the command line flag:
 
     --proxy-server=10.200.0.1:8080
 
@@ -152,7 +152,7 @@ where <code>10.200.0.1</code> and <code>8080</code> are the proxy IP and proxy p
 
 ## Google Cloud Source Repositories
 
-Due to the non-standard way Google Source Cloud Repositories use HTTPS and SSH URLs, GitKraken Client will have trouble parsing the URLs. The SSH URL is normally formatted in this manner:
+Due to the non-standard way Google Source Cloud Repositories use HTTPS and SSH URLs, GitKraken Desktop will have trouble parsing the URLs. The SSH URL is normally formatted in this manner:
 
     ssh://example@gitkraken.com@source.developers.google.com:2021/p/test-project-12345/r/Test-Repo-1
 

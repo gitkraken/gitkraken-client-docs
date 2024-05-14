@@ -18,7 +18,7 @@ Your GitKraken account is your key to unlock the most personal experience across
 
 ## Login
 
-You can create your GitKraken account at [app.gitkraken.com](https://app.gitkraken.com/register) or from within GitKraken Client. When presented with the login page (see image below), you may need to select “Create an account” before selecting how you would like to create your GitKraken account. There are seven options available to create your GitKraken account and login. You can choose your preferred hosting service (GitHub, GitLab, Bitbucket, and Azure DevOps), login with email, Google, or [SSO](/gitkraken-client/single-sign-on/).
+You can create your GitKraken account at [app.gitkraken.com](https://app.gitkraken.com/register) or from within GitKraken Desktop. When presented with the login page (see image below), you may need to select “Create an account” before selecting how you would like to create your GitKraken account. There are seven options available to create your GitKraken account and login. You can choose your preferred hosting service (GitHub, GitLab, Bitbucket, and Azure DevOps), login with email, Google, or [SSO](/gitkraken-client/single-sign-on/).
 
 <img src="/wp-content/uploads/gitkraken-account-login.png" class="img-responsive center img-bordered">
 

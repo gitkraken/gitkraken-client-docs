@@ -1,7 +1,7 @@
 ---
 
 title: Filter Syntax
-description: Learn about pull request filter syntax in GitKraken Client.
+description: Learn about pull request filter syntax in GitKraken Desktop.
 taxonomy:
     category: gitkraken-client
 

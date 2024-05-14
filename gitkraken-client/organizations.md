@@ -75,7 +75,7 @@ There are four roles for a GitKraken user within an organization's account:
 4. Click <button class='button button--success button--ui button--nolink'>Add user</button>
 5. Celebrate
 
-Additionally, you can set up a user as a <kbd>Billing Contact (unlicensed)</kbd>. This is perfect for people who don't need to use GitKraken Client, but wish to have access to manage the account subscription and settings.
+Additionally, you can set up a user as a <kbd>Billing Contact (unlicensed)</kbd>. This is perfect for people who don't need to use GitKraken Desktop, but wish to have access to manage the account subscription and settings.
 
 
 

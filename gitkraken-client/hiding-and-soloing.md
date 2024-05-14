@@ -1,7 +1,7 @@
 ---
 
 title: Hiding and Soloing
-description: The secret menu to GitKraken Client.  Learn more about the Command bar, Command Palette, and general tips for working faster.  Learn GitKraken Client's Advanced Interface!
+description: The secret menu to GitKraken Desktop.  Learn more about the Command bar, Command Palette, and general tips for working faster.  Learn GitKraken Desktop's Advanced Interface!
 taxonomy:
     category: gitkraken-client
 

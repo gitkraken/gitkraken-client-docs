@@ -1,6 +1,6 @@
 ---
 
-title: GitKraken Client GitHub Enterprise Server Integration
+title: GitKraken Desktop GitHub Enterprise Server Integration
 description: Easily integrate GitKraken with you GitHub Enterprise Server repository. Learn how to link GitKraken and GitHub Enterprise Server by following these steps.
 taxonomy:
     category: gitkraken-client

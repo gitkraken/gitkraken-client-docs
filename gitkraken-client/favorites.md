@@ -12,15 +12,15 @@ Quickly access your favorite repos using the drop-down menu or shortcut keys.
 ***
 ## Adding favorites
 
-Navigate to <kbd><strong>File > Open</strong></kbd> to access the list of recently opened repositories.
+Navigate to <kbd><strong>File > Open</strong></kbd> to open the Repo Management tab.
 
-On hover, click the heart on the repo you wish to favorite. 
+Click on the star icon at the left of the repo.
 
-<img src="/wp-content/uploads/star-repos.png" srcset="/wp-content/uploads/star-repos@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/gkc-repo-mngmt-tab-star-repos.png" class="img-bordered img-responsive center">
 
-Once added, favorites will appear at the top of the drop-down menu in the main application. You can also right-click on any repo to favorite or unfavorite from here.
+Once added, favorites will appear at the Favorites section in the Repo Management tab.
 
-<img src="/wp-content/uploads/list.png"  class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/gkc-repo-mngmt-tab-favorites-list.png"  class="img-bordered img-responsive center">
 
 ## Shortcut Keys
 

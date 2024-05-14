@@ -1,13 +1,13 @@
 ---
 
-title: GitKraken Client and Jira Issues Integration
+title: GitKraken Desktop and Jira Issues Integration
 description: Learn how to access Jira Issues from GitKraken Git GUI
 taxonomy:
     category: gitkraken-client
 
 ---
 
-GitKraken Git GUI makes it easy to integrate with Jira Cloud and Jira Server.
+GitKraken Git GUI makes it easy to integrate with Jira Cloud and Jira Data Center.
 
 <div class='embed-container embed-container--16-9'>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/On83cso-w3U" frameborder="0" allowfullscreen></iframe>

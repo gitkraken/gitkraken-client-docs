@@ -1,13 +1,13 @@
 ---
 
 title: Keyboard Shortcuts
-description: At anytime in GitKraken Client, you can pull up a full list of keyboard shortcuts available. Work faster in GitKraken Client with keyboard shortcuts. Learn more.
+description: At anytime in GitKraken Desktop, you can pull up a full list of keyboard shortcuts available. Work faster in GitKraken Desktop with keyboard shortcuts. Learn more.
 taxonomy:
     category: gitkraken-client
 
 ---
 
-We know keyboard shortcuts help get things done faster, and here’s a handy list of the shortcuts currently supported by GitKraken Client.
+We know keyboard shortcuts help get things done faster, and here’s a handy list of the shortcuts currently supported by GitKraken Desktop.
 
 ***
 ### Open list of keyboard shortcuts

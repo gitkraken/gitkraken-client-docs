@@ -1,7 +1,7 @@
 ---
 
 title: Undo & Redo
-description: The secret menu to GitKraken Client.  Learn more about the Command bar, Command Palette and general tips for working faster.
+description: The secret menu to GitKraken Desktop.  Learn more about the Command bar, Command Palette and general tips for working faster.
 taxonomy:
     category: gitkraken-client
 
@@ -9,11 +9,11 @@ taxonomy:
 
 Ever use the command line, hit the enter key and have that awful moment where you're not sure if something dreadful just happened? How often do you or your coworkers find yourselves wishing you could undo something in Git?
 
-GitKraken Client can undo many of these changes with a single click of the undo button.
+GitKraken Desktop can undo many of these changes with a single click of the undo button.
 
 <img src='/wp-content/uploads/undo.png' srcset='/wp-content/uploads/undo@2x.png 2x' class='img-bordered img-responsive center'>
 
-The following actions can be undone in GitKraken Client:
+The following actions can be undone in GitKraken Desktop:
 
 + Checkout
 + Commit

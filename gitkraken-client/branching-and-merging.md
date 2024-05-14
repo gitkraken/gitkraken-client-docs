@@ -1,13 +1,13 @@
 ---
 
 title: Branching and Merging
-description: Learn about branching and merging in GitKraken Client.
+description: Learn about branching and merging in GitKraken Desktop.
 taxonomy:
     category: gitkraken-client
 
 ---
 
-Learn how to branch and merge in GitKraken Client. 🌳 🔀
+Learn how to branch and merge in GitKraken Desktop. 🌳 🔀
 
 <div class='embed-container embed-container--16-9'>
     <iframe width='560' height='315' src='https://www.youtube.com/embed/8-qRKyy-v7I?rel=0&vq=hd1080' frameborder='0' allowfullscreen></iframe>
@@ -29,7 +29,7 @@ Branch checkout updates files in the working directory to reflect the version de
 
 New commits are added to the checked out branch. If you find yourself on the wrong branch, <a href="/gitkraken-client/stashing">stash</a> your changes, switch to the correct branch, and then *pop* the stash.
 
-When you create a new branch, GitKraken Client will automatically checkout the branch for you:
+When you create a new branch, GitKraken Desktop will automatically checkout the branch for you:
 
 <figure class='figure center'>
     <img src='/wp-content/uploads/Add-branch.gif'>
@@ -75,9 +75,9 @@ Drag and drop one branch onto another to initiate a merge, or just right click t
 
 Merge conflicts may happen when team members make different changes to the same line of the same file, or when one team member edits a file and another deletes the same file. Oops!
 
-When collaboration goes wrong, GitKraken Client Merge Conflict Editor is here to clear the murky waters.
+When collaboration goes wrong, GitKraken Desktop Merge Conflict Editor is here to clear the murky waters.
 
-If your merge attempt triggers a merge conflict, GitKraken Client display the conflicting files in the Commit Panel.
+If your merge attempt triggers a merge conflict, GitKraken Desktop display the conflicting files in the Commit Panel.
 
 <img src="/wp-content/uploads/merge-conflict.png" srcset="/wp-content/uploads/merge-conflict@2x.png" class="img-bordered img-responsive center">
 
@@ -115,11 +115,11 @@ After the conflict is resolved, save the output and commit the changes.
 
 
 ### External merge tools
-Configure GitKraken Client to launch your tool of choice by navigating to <em class='context-menu'>Preferences <i class='fa fa-caret-right'></i> General</em>:
+Configure GitKraken Desktop to launch your tool of choice by navigating to <em class='context-menu'>Preferences <i class='fa fa-caret-right'></i> General</em>:
 
 <img src="/wp-content/uploads/configureExternalTool.png" srcset="/wp-content/uploads/configureExternalTool@2x.png" class="img-bordered img-responsive center">
 
-GitKraken Client currently supports the following merge tools:
+GitKraken Desktop currently supports the following merge tools:
 
 * Beyond Compare
 * FileMerge
@@ -132,14 +132,14 @@ If your merge tool from the list above is installed and is not showing up in the
 
 <img src='/wp-content/uploads/beyond-compare.png' srcset='/wp-content/uploads/beyond-compare@2x.png' class='img-bordered img-responsive center' />
 
-GitKraken Client does _not support_ the following merge tools:
+GitKraken Desktop does _not support_ the following merge tools:
 
 * Meld
 * SemanticMerge
 * TortoiseMerge
 * WinMerge
 
-While GitKraken Client allows Git Config Default merge tools, not all tools will be compatible. Find more information about configuring a <a href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_external_merge_tools">default merge tool in your Git Config</a>.
+While GitKraken Desktop allows Git Config Default merge tools, not all tools will be compatible. Find more information about configuring a <a href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_external_merge_tools">default merge tool in your Git Config</a>.
 
 ### Resolving a conflicted file using current or incoming
 
