@@ -27,7 +27,7 @@ Once this is complete, you are ready for your oceanic journey!
 
 The Repo Management tab provides an overview of your active repositories, Workspaces, and favorite repositories. To access the Repo Management tab, either click on the folder icon located at the top left or utilize the keyboard shortcut <kbd>Alt + O</kbd> (Windows/Linux) or <kbd>Cmd + O</kbd> (Mac).
 
-<img src='wp-content/uploads/gkc-repo-mngmt-tab.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/gkc-repo-mngmt-tab.png' class='img-bordered img-responsive center'>
 
 At the top right corner, you'll find three options for managing Git repositories within your projects:
 
@@ -52,7 +52,7 @@ GitKraken Desktop allows you to load your existing repositories and pick up wher
 
 If you're coming from a Git project you already have locally, navigate to <kbd><strong>File > Open Repo</strong></kbd> to get started immediately in GitKraken Desktop. A file explorer window will appear, select the repository folder to open it in Gitkraken Desktop.
 
-<img src='wp-content/uploads/gkc-repo-mngmt-open-repo.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/gkc-repo-mngmt-open-repo.png' class='img-bordered img-responsive center'>
 
 ***
 ### Cloning an existing project
@@ -71,7 +71,7 @@ This will then prompt you to open the newly copied project in GitKraken Desktop.
 ### Initialize a new project
 Starting a project in GitKraken Desktop is easy through <kbd><strong>File > Init</strong></kbd>
 
-<img src='wp-content/uploads/gkc-repo-mngmt-init-repo.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/gkc-repo-mngmt-init-repo.png' class='img-bordered img-responsive center'>
 
 All you need to do is fill out the fields and select <button class='button button--success button--ui button--nolink'>Create Repository</span></button> for the magic to begin.
 
