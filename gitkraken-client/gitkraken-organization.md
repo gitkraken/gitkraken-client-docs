@@ -14,7 +14,7 @@ A GitKraken organization is a collection of [GitKraken accounts](/gitkraken-clie
 
 ## Create
 
-To create an organization, go to [app.gitkraken.com](https://app.gitkraken.com/), or select “Manage Account” in the drop down menu inside of GitKraken Client, and select "New Organization” in the left side menu. Next, select the tier that is best for your organization (Pro, Teams, or Enterprise). The creator of the organization is automatically the [owner](/gitkraken-client/gitkraken-organization/##roles) of it.
+To create an organization, go to [app.gitkraken.com](https://app.gitkraken.com/), or select “Manage Account” in the drop down menu inside of GitKraken Desktop, and select "New Organization” in the left side menu. Next, select the tier that is best for your organization (Pro, Teams, or Enterprise). The creator of the organization is automatically the [owner](/gitkraken-client/gitkraken-organization/##roles) of it.
 
 <img src="/wp-content/uploads/gitkraken-create-organization-2.png" class="img-responsive center img-bordered">
 
@@ -125,7 +125,7 @@ Roles grant members permissions within an organization. There are four roles a u
 
 Teams are the best way to organize members of your GitKraken organization. In addition, teams can create Shared Workspaces to bring focus to their collaborative work and help identify conflicts by showing what files and branches your team is working on.
 
-Any member can create a team by visiting the Teams tab within the organization at [app.gitkraken.com](https://app.gitkraken.com/) or within GitKraken Client. For more information on creating and working with teams, see the [Teams](/gitkraken-client/teams/) page.
+Any member can create a team by visiting the Teams tab within the organization at [app.gitkraken.com](https://app.gitkraken.com/) or within GitKraken Desktop. For more information on creating and working with teams, see the [Teams](/gitkraken-client/teams/) page.
 
 <img src="/wp-content/uploads/gitkraken-organization-teams.png" class="img-responsive center img-bordered">
 

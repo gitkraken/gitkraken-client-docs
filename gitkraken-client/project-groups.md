@@ -9,7 +9,7 @@ taxonomy:
 
  Add a folder to better access folders with multiple repos.
 
- You may access the repository management window by clicking the file icon in the upper left corner of the app, from GitKraken Client home view, or from the [Command Palette](/start-here/command-palette).
+ You may access the repository management window by clicking the file icon in the upper left corner of the app, from GitKraken Desktop home view, or from the [Command Palette](/start-here/command-palette).
  
  <img src="/wp-content/uploads/open.png" srcset="/wp-content/uploads/open@2x.png" class="img-bordered img-responsive center">
 

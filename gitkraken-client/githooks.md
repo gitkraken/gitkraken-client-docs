@@ -1,7 +1,7 @@
 ---
 
 title: Git Hooks
-description: Compare your changes with diffs in GitKraken Client. Learn about where to access diffs, file blame, and more.
+description: Compare your changes with diffs in GitKraken Desktop. Learn about where to access diffs, file blame, and more.
 taxonomy:
     category: gitkraken-client
 
@@ -9,7 +9,7 @@ taxonomy:
 
 Git hooks are shell scripts that execute after an event such as a commit or push.
 
-In the following video, we will take you through the basics of what a Git hook is and demonstrate how to use one in GitKraken Client.
+In the following video, we will take you through the basics of what a Git hook is and demonstrate how to use one in GitKraken Desktop.
 
 <div class='embed-container embed-container--16-9'>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ZZgyILr-TjA?ecver=1" frameborder="0" allowfullscreen></iframe>
@@ -20,7 +20,7 @@ In the following video, we will take you through the basics of what a Git hook i
 
 ## Where are Git hooks?
 
-Hooks are stored in the `hooks` subdirectory of the `.git` directory. This folder is automatically created when you initialize a new repository in GitKraken Client and is located in `.git\hooks` in your project directory with a `README.sample` file in it.
+Hooks are stored in the `hooks` subdirectory of the `.git` directory. This folder is automatically created when you initialize a new repository in GitKraken Desktop and is located in `.git\hooks` in your project directory with a `README.sample` file in it.
 
 Hooks are unique to your local repository and will not be copied over if you create a new repository nor will be tracked by git. Feel free to add, change, or remove scripts from this folder as necessary.
 
@@ -29,7 +29,7 @@ Hooks are unique to your local repository and will not be copied over if you cre
 <img src='/wp-content/uploads/gkc_hook_location_explorer.png' srcset='/wp-content/uploads/gkc_hook_location_explorer@2x.png 2x' class='img-responsive center img-bordered' />
 
 
-Gitkraken client will seamlessly detect any Git hooks in your repository, but if you are running OSX or Linux, you need to give execution rights to the hook file. If you forgot to set your files to executables, GitKraken Client will throw an error as a heads up.
+GitKraken Desktop will seamlessly detect any Git hooks in your repository, but if you are running OSX or Linux, you need to give execution rights to the hook file. If you forgot to set your files to executables, GitKraken Desktop will throw an error as a heads up.
 
 <img src='/wp-content/uploads/gkc_hook_exit_error_126.png' srcset='/wp-content/uploads/gkc_hook_exit_error_126@2x.png 2x' class='img-responsive center img-bordered' />
 
@@ -47,9 +47,9 @@ This custom git hook path is defined on a per-repository basis.
 
 ***
 
-## What hooks are supported by GitKraken Client?
+## What hooks are supported by GitKraken Desktop?
 
-Here are the hooks supported by GitKraken Client. Where appropriate, beneath each hook are the actions during which GitKraken Client calls that hook:
+Here are the hooks supported by GitKraken Desktop. Where appropriate, beneath each hook are the actions during which GitKraken Desktop calls that hook:
 
 <table class='table table--bordered table--shortcuts'>
   <tbody>
@@ -156,11 +156,11 @@ Here are the hooks supported by GitKraken Client. Where appropriate, beneath eac
 ***
 ## Git hooks example
 
-Git hooks are scripts that perform automated actions when a specific action is performed in GitKraken Client or the command line. The git hook name usually indicates the hook’s trigger (e.g. pre-commit).
+Git hooks are scripts that perform automated actions when a specific action is performed in GitKraken Desktop or the command line. The git hook name usually indicates the hook’s trigger (e.g. pre-commit).
 
 Git hooks live under the .git folder of your repo in a directory called hooks. The path to the hooks will look similar to repo/.git/hooks.
 ### Tools needed
-- GitKraken Client
+- GitKraken Desktop
 - Text Editor - I will be using [Visual Studio Code](https://code.visualstudio.com/)
 - Terminal - I will be using [Gitkraken Terminal](https://help.gitkraken.com/gitkraken-client/terminal/)
 
@@ -188,7 +188,7 @@ Then use the command `chmod +x pre-commit` to make the pre-commit file executabl
 <img src='/wp-content/uploads/gkc-chmod-pre-commit.gif' class='img-responsive center img-bordered' />
 
 <div class='callout callout--warning'>
-    <p>Note 📝 - If you do not have your terminal setup in GitKraken Client, please review the <a href="/start-here/tips/#9-open-terminal">Start Here Tips</a> for setup details.</p>
+    <p>Note 📝 - If you do not have your terminal setup in GitKraken Desktop, please review the <a href="/start-here/tips/#9-open-terminal">Start Here Tips</a> for setup details.</p>
 </div>
 
 #### Step 3

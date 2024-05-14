@@ -162,7 +162,7 @@ Azure is configured using a metadata URL.
 ## Logging in using SSO
 
 
-When logging into GitKraken Client, GitLens, <a href='https://account.gitkraken.com/account-info' target='_blank'>account.gitkraken.com</a> , or anywhere else to access your GitKraken account, you will see the `Sign In with SSO` option.
+When logging into GitKraken Desktop, GitLens, <a href='https://account.gitkraken.com/account-info' target='_blank'>account.gitkraken.com</a> , or anywhere else to access your GitKraken account, you will see the `Sign In with SSO` option.
 
 <img src="/wp-content/uploads/sso-sign-in.png" class="img-bordered img-responsive center">
 

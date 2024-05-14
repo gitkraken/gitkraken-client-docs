@@ -1,17 +1,17 @@
 ---
 
 title: Adding and Removing
-description: Learn how to add and remove files in GitKraken Client.
+description: Learn how to add and remove files in GitKraken Desktop.
 taxonomy:
     category: gitkraken-client
 
 ---
-Learn how to add and remove files in GitKraken Client.
+Learn how to add and remove files in GitKraken Desktop.
 ***
 
 ## Adding a file
 
-Add a file to GitKraken Client using the Command Palette.
+Add a file to GitKraken Desktop using the Command Palette.
 
 To initiate the Command Palette, hit <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>P</kbd>, type `Create File`, and hit <kbd>Enter</kbd>.
 

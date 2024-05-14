@@ -1,7 +1,7 @@
 ---
 
 title: Themes
-description: Using and creating themes in GitKraken Client.
+description: Using and creating themes in GitKraken Desktop.
 taxonomy:
     category: gitkraken-client
 
@@ -13,7 +13,7 @@ taxonomy:
 
 ## Built-in Themes
 
-You can set your GitKraken Client theme by navigating to  <i class="fas fa-cog"></i> <em class='context-menu'>Preferences <i class='fa fa-caret-right'></i> UI Customization</em> menu. 
+You can set your GitKraken Desktop theme by navigating to  <i class="fas fa-cog"></i> <em class='context-menu'>Preferences <i class='fa fa-caret-right'></i> UI Customization</em> menu. 
 
 This can also be done quickly from the <i  class="fa fa-magic" style="transform: rotate(225deg)"></i> [Command Palette](/start-here/command-palette/) (shortcut <kbd>&#8984;</kbd><kbd>P</kbd> or <kbd>Ctrl</kbd><kbd>P</kbd>), typing `switch theme`, and then the name of the theme.
 
@@ -21,13 +21,13 @@ This can also be done quickly from the <i  class="fa fa-magic" style="transform:
 
 ### Sync with System
 
-If your system is capabale of it, you can set GitKraken Client to match your operating system's current theme. This can be done from the <i class="fas fa-cog"></i> <em class='context-menu'>Preferences <i class='fa fa-caret-right'></i> UI Customization</em> menu or the <i  class="fa fa-magic" style="transform: rotate(225deg)"></i> [Command Palette](/start-here/command-palette/).
+If your system is capabale of it, you can set GitKraken Desktop to match your operating system's current theme. This can be done from the <i class="fas fa-cog"></i> <em class='context-menu'>Preferences <i class='fa fa-caret-right'></i> UI Customization</em> menu or the <i  class="fa fa-magic" style="transform: rotate(225deg)"></i> [Command Palette](/start-here/command-palette/).
 
 ***
 
 ## Custom Themes
 
-In addition to the default themes, GitKraken Client supports custom user-defined themes. Theme files are located in `~\.gitkraken\themes\` - you can open the path to this directory from `Preferences > UI Customization > Theme` or find the Data Location on your operating system [here](/gitkraken-client/how-to-install/). Each of the .jsonc-default theme files you see in this folder can act as a template "base" for your new custom theme.
+In addition to the default themes, GitKraken Desktop supports custom user-defined themes. Theme files are located in `~\.gitkraken\themes\` - you can open the path to this directory from `Preferences > UI Customization > Theme` or find the Data Location on your operating system [here](/gitkraken-client/how-to-install/). Each of the .jsonc-default theme files you see in this folder can act as a template "base" for your new custom theme.
 
 ### Making Your Own Theme
 

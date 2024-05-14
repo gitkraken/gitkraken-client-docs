@@ -1,13 +1,13 @@
 ---
 
 title: Command Palette
-description: The _Command Palette_ is a faster way to access GitKraken Client's actions.
+description: The _Command Palette_ is a faster way to access GitKraken Desktop's actions.
 taxonomy:
     category: gitkraken-client
 
 ---
 
-The _Command Palette_ is a faster way to access GitKraken Client's actions.
+The _Command Palette_ is a faster way to access GitKraken Desktop's actions.
 
 <div class='embed-container embed-container--16-9'>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/lNsQesvuRj4?ecver=1" frameborder="0" allowfullscreen></iframe>

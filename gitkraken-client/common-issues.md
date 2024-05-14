@@ -1,14 +1,14 @@
 ---
 
 title: Common Issues
-description: Learn about common issues that you may encounter when using GitKraken Client.
+description: Learn about common issues that you may encounter when using GitKraken Desktop.
 taxonomy:
     category: gitkraken-client
 
 ---
 
 ***
-### General Troubleshooting for GitKraken Client 9.4.0+
+### General Troubleshooting for GitKraken Desktop 9.4.0+
 
 In 9.4.0, GitKraken introduced the experimental feature for the [Git Executable](/gitkraken-client/experimental-features/#git-executable). As this is currently an experimental feature that our team is continuing to improve on, you can try adjusting your use of the Git Executable.
 
@@ -22,7 +22,7 @@ If using your own version does not resolve the issue, try unchecking `Use Git Ex
 
 <img src="/wp-content/uploads/gkc-use-git-executable.png" class="img-responsive center img-bordered">
 
-If this does resolve your issue, it is very important to note that GitKraken Client is transitioning all actions to the Git Executable (from LibGit2/nodegit) and the Git Executable will become the exclusive way GitKraken Client performs Git operations in a future release.
+If this does resolve your issue, it is very important to note that GitKraken Desktop is transitioning all actions to the Git Executable (from LibGit2/nodegit) and the Git Executable will become the exclusive way GitKraken Desktop performs Git operations in a future release.
 
 As such, it is crucial for our team to be made aware of any issues related to using the Git Executable so we can look into and address them. Please reach out to our [support team](https://help.gitkraken.com/gitkraken-client/contact-support/) if you experience any issues with using this Experimental feature.
 
@@ -38,11 +38,11 @@ When attempting to connect to one of our integrations, you may see `Error 1002`,
 ### Solution:
 These are general authentication errors.  First, verify you used the correct credentials then try one of the following potential solutions:
 
-- If your credentials are correct, you can try signing out of the service in your default browser first, and then attempting the authentication from GitKraken Client again.
+- If your credentials are correct, you can try signing out of the service in your default browser first, and then attempting the authentication from GitKraken Desktop again.
 
-- Clear your browser cache, sign out of the git hosting service, then restart GitKraken Client and try again.
+- Clear your browser cache, sign out of the git hosting service, then restart GitKraken Desktop and try again.
 
-- If that is not working you can also try changing your operating system default browser to be a different browser. Once this is changed you can restart GitKraken Client and attempt to authenticate again.
+- If that is not working you can also try changing your operating system default browser to be a different browser. Once this is changed you can restart GitKraken Desktop and attempt to authenticate again.
 
 If that still does not work, please contact our [support team](https://www.gitkraken.com/contact) and we can troubleshoot further.
 
@@ -86,8 +86,8 @@ If you have any of the above in place try the following:
 - Sign in with GitHub authentication
 - Approve the GitKraken application
 - Continue as free with 0 days
-- Click on free icon in bottom right, this brings up a web page inside GitKraken Client which authenticates against Zscaler
-- Restart GitKraken Client and authenticate normally
+- Click on free icon in bottom right, this brings up a web page inside GitKraken Desktop which authenticates against Zscaler
+- Restart GitKraken Desktop and authenticate normally
 
 This should allow you to log in without issue.
 

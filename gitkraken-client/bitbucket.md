@@ -1,13 +1,13 @@
 ---
 
-title: GitKraken Client Bitbucket Integration
+title: GitKraken Desktop Bitbucket Integration
 description: Integrate GitKraken with your Bitbucket repository by following these steps.
 taxonomy:
     category: gitkraken-client
 
 ---
 
-GitKraken Client allows you to authenticate with Bitbucket, which will help you find repos on Bitbucket when cloning or adding your remotes.
+GitKraken Desktop allows you to authenticate with Bitbucket, which will help you find repos on Bitbucket when cloning or adding your remotes.
 
 **Benefits**
 
@@ -51,7 +51,7 @@ Alternativley, you can connect the integration by copy and pasting the OAuth tok
 ***
 ## Generating SSH keys for Bitbucket.
 <div class='callout callout'>
-    <p>Note 📝 - GitKraken Client uses your SSH key defined in <kbd><i>Preferences  <i class='fa fa-caret-right'></i>  SSH</i></kbd> for git operations unless you set up a BitBucket-specific SSH key, or enable your local SSH Agent.</p>
+    <p>Note 📝 - GitKraken Desktop uses your SSH key defined in <kbd><i>Preferences  <i class='fa fa-caret-right'></i>  SSH</i></kbd> for git operations unless you set up a BitBucket-specific SSH key, or enable your local SSH Agent.</p>
 </div>
 
 Once your Bitbucket account has been connected to GitKraken, you may then generate an SSH key and add it to your Bitbucket account from <kbd><i>Preferences    <i class='fa fa-caret-right'></i>    Integrations</i></kbd>
@@ -68,7 +68,7 @@ First, you may search through your existing repositories when cloning:
 
 <img src="/wp-content/uploads//clone.png" srcset="/wp-content/uploads//clone@2x.png" class="img-bordered img-responsive center">
 
-Next, GitKraken Client presents a list of forks of the current repository when adding remotes:
+Next, GitKraken Desktop presents a list of forks of the current repository when adding remotes:
 
 <img src="/wp-content/uploads//remote.png" srcset="/wp-content/uploads//remote@2x.png" class="img-bordered img-responsive center">
 

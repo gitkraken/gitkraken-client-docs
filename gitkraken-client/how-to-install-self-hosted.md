@@ -346,7 +346,7 @@ By default GitKraken Self-Hosted server will run on port 3000.
         GITKRAKEN_ENTERPRISE_URL: http://gitkraken.example.com:80
   ```
   
-<span>5.</span> Configure where GitKraken client releases are stored on your host server.
+<span>5.</span> Configure where GitKraken Desktop releases are stored on your host server.
 By default the releases folder is set to _./gk-data/release_. You can change the location by opening up
 the _docker-compose.yml_ file and finding the section under `gk-enterprise-controller`:
 ```

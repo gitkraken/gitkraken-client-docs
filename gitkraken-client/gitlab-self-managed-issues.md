@@ -1,6 +1,6 @@
 ---
 
-title: GitKraken Client GitLab Self-Managed Issues Integration
+title: GitKraken Desktop GitLab Self-Managed Issues Integration
 description: Learn how to access GitLab Self-Managed Issues from GitKraken Git GUI
 taxonomy:
     category: gitkraken-client

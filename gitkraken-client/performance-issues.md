@@ -1,19 +1,19 @@
 ---
 
 title: Performance Issues
-description: What to do if GitKraken Client is performing poorly
+description: What to do if GitKraken Desktop is performing poorly
 taxonomy:
     category: gitkraken-client
 
 ---
 
-We're always on a quest to streamline the git experience as well as improve the performance of GitKraken Client. If you're experiencing slow performance, it can often be remedied using one of the troubleshooting steps below.
+We're always on a quest to streamline the git experience as well as improve the performance of GitKraken Desktop. If you're experiencing slow performance, it can often be remedied using one of the troubleshooting steps below.
 
 ***
 
 ### Improving Performance
 
-Perfomance issues in GitKraken Client are often related to a specific repository. Some large or complex repositories with many references may cause GitKraken Client to slow down. 
+Perfomance issues in GitKraken Desktop are often related to a specific repository. Some large or complex repositories with many references may cause GitKraken Desktop to slow down. 
 
 #### How to troubleshoot slow performance
 
@@ -35,4 +35,4 @@ Perfomance issues in GitKraken Client are often related to a specific repository
 
 - If [working with an LFS repository](/gitkraken-client/git-lfs/), you can perfom an LFS prune.
 
-- Restart GitKraken Client daily
+- Restart GitKraken Desktop daily

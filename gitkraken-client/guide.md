@@ -1,19 +1,19 @@
 ---
 
 title: New to Git
-description: Learn how to get started with GitKraken Client.
+description: Learn how to get started with GitKraken Desktop.
 taxonomy:
     category: gitkraken-client
 
 ---
 
-Whether you are a newborn or a wizened deep-ocean octopod, this Getting Started Guide uses a basic workflow to provide an overview of GitKraken Client interface from cloning your repository to successfully executing Git actions.
+Whether you are a newborn or a wizened deep-ocean octopod, this Getting Started Guide uses a basic workflow to provide an overview of GitKraken Desktop interface from cloning your repository to successfully executing Git actions.
 
 ***
 
 ## Learning Git with GitKraken
 
-In this series, we'll provide Git tutorial videos. You'll learn Git concepts and how to apply them in GitKraken Client.
+In this series, we'll provide Git tutorial videos. You'll learn Git concepts and how to apply them in GitKraken Desktop.
 
 <div class='embed-container embed-container--16-9'>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/playlist?list=PLe6EXFvnTV7-_41SpakZoTIYCgX4aMTdU" frameborder="0" gesture="media" allowfullscreen></iframe>
@@ -34,7 +34,7 @@ Need a hand jumping into the product? Here's a playlist with a few video tutoria
 
 ## Define local
 
-Most of the work you do in GitKraken Client is using the local repository, meaning the files and changes are saved on your local machine.
+Most of the work you do in GitKraken Desktop is using the local repository, meaning the files and changes are saved on your local machine.
 
 You can easily identify any local branches in the graph as they are shown with the <em class='context-menu'><i class="fa fa-laptop" aria-hidden="true"></i></em> icon.
 
@@ -46,7 +46,7 @@ Because you make a copy of the entire remote repo, you can change branches, view
 When initializing a Git repo or cloning from a remote, you will notice a `.git` folder in the project root.  This contains all of the information required for the Git repository and if this folder is deleted, you would no longer be able to switch branches, pull from remotes, or view commit history.
 
 ### Working directory
-The working directory is the currently checked out version of the files in the local repository.  When you change branches, pull in changes, or reset, GitKraken Client will update the files in the working directory to reflect the changes.
+The working directory is the currently checked out version of the files in the local repository.  When you change branches, pull in changes, or reset, GitKraken Desktop will update the files in the working directory to reflect the changes.
 
 For more information on Git repositories, check out the [Git repository tutorial](https://www.gitkraken.com/learn/git/tutorials/what-is-a-git-repository) blog post including a video from one of our developers.
 
@@ -70,7 +70,7 @@ The newly initialized repository created results in a default `master` branch.  
 
 On our newly created repo, we'll branch off from `master` to silo our normal development.  To do this, right-click master on the graph and select <em class='context-menu'>Create branch here</em>.  Let's call this branch `develop` in "_enter branch name_" which is going to be an indefinite main track branch to the project.
 
-Once created, GitKraken Client will auto checkout `develop` and switch to that new branch.
+Once created, GitKraken Desktop will auto checkout `develop` and switch to that new branch.
 
 ### Changing file content
 Now that `develop` is set, we can make some new changes without affecting anything on production.
@@ -111,7 +111,7 @@ From the graph we see that `develop` is ahead of `master` by exactly 1 commit.
 
 In order to add this commit into the original branch, we will merge `develop` back into `master`.  This will take all of the changes introduced since the last commit and play them on this branch by performing a new commit (called a merge commit) with the changes.
 
-There are a few ways to perform the merge action in GitKraken Client, but perhaps the easiest is from within the graph.
+There are a few ways to perform the merge action in GitKraken Desktop, but perhaps the easiest is from within the graph.
 
 In the graph, you can see we have things in a new branch, `develop`, that we want in our source branch, `master`. Like any sensible person, we would only have to pick up `develop` and throw it at `master` right? Right! Simply drag `develop` and drop it on `master` to get the merge option.
 

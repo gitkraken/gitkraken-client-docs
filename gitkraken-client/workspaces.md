@@ -54,7 +54,7 @@ The following multi-repository actions can be performed:
 - Clone: clone all selected repositories. HTTPS will be used by default unless you have SSH configured in your [Integration settings](https://help.gitkraken.com/gitkraken-client/integrations/). 
 - Fetch: fetch all selected repositories.
 - Pull: pull all selected repositories. You can change the behavior of the pull button by selecting the dropdown and selecting the radio button next to the desired option.
-- Open in GitKraken Client or an external editor: open all selected repositories in GitKraken or in your [default editor](/start-here/preferences/#external-editor).
+- Open in GitKraken Desktop or an external editor: open all selected repositories in GitKraken or in your [default editor](/start-here/preferences/#external-editor).
 - Locate in filesystem: point to all selected repositories locally or update the local location of the repositories if they have changed. 
 - Remove: remove all selected repositories from the Workspace.
 
@@ -112,14 +112,14 @@ The Team Pull Requests section has the following columns:
 * Last Updated 
 * PR title with link to open the pull request in the hosting provider
 * PR Author
-* Repository name with link to open the reposotiry in GitKraken Client
+* Repository name with link to open the reposotiry in GitKraken Desktop
 * Review status
 * PR status
   * Shows status for “Draft” or “At Risk” pull requests
 * Checks - Shows CI/CD results
 * Lines added/removed
 * PR branch
-  * Double click to check out directly in GitKraken Client
+  * Double click to check out directly in GitKraken Desktop
 * GitHub.com Workspaces Only:
   * Shortcut to open the Pull Request Panel
   * Filter by assignee or author
@@ -161,7 +161,7 @@ Actions can be performed on multiple repositories within the Workspace at once. 
 The following multi-repository actions can be performed:
 - Fetch: fetch all selected repositories.
 - Pull: pull all selected repositories. You can change the behavior of the pull button by selecting the dropdown and selecting the radio button next to the desired option.
-- Open in GitKraken Client or an external editor: open all selected repositories in GitKraken or in your [default editor](/start-here/preferences/#external-editor).
+- Open in GitKraken Desktop or an external editor: open all selected repositories in GitKraken or in your [default editor](/start-here/preferences/#external-editor).
 - Remove: remove all selected repositories from the Workspace.
 
 ### Create a Cloud Workspace from a Local Workspace

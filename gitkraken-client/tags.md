@@ -1,7 +1,7 @@
 ---
 
 title: Tags
-description: Designating important points of the Git history. Creating Tags in GitKraken Client on commits is easy with the graph.
+description: Designating important points of the Git history. Creating Tags in GitKraken Desktop on commits is easy with the graph.
 taxonomy:
     category: gitkraken-client
 
@@ -12,7 +12,7 @@ Tags <em class='context-menu'><img style='translate:rotate(180deg);height:1em;' 
 ***
 ### Adding tags
 
-To create a new tag in GitKraken Client, right click on the commit you'd like to tag, and select <kbd>Create tag here</kbd> at the bottom.
+To create a new tag in GitKraken Desktop, right click on the commit you'd like to tag, and select <kbd>Create tag here</kbd> at the bottom.
 
 <img src="/wp-content/uploads/add-tag.png" srcset="/wp-content/uploads/add-tag.png" class="img-bordered img-responsive center">
 

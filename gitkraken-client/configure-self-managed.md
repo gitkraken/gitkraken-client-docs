@@ -84,7 +84,7 @@ Set the SMTP server IP address or hostname, the _SMTP port_, and the _From Addre
 <a id="super-user"></a>
 
 ### Super User
-The super user will be the Owner of the GitKraken Self-Hosted license.  The super user does not consume a license, cannot log into GitKraken client, and cannot be changed or viewed from the account site user management page.
+The super user will be the Owner of the GitKraken Self-Hosted license.  The super user does not consume a license, cannot log into GitKraken Desktop, and cannot be changed or viewed from the account site user management page.
 <img src='/wp-content/uploads/super-user.png' srcset='/wp-content/uploads/super-user@2x.png' class='img-bordered img-responsive center'>
 
 <div class='callout callout--neutral'>

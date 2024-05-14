@@ -1,13 +1,13 @@
 ---
 
 title: Interactive Rebase
-description: Learn about interactive rebase in GitKraken Client.
+description: Learn about interactive rebase in GitKraken Desktop.
 taxonomy:
     category: gitkraken-client
 
 ---
 
-Learn how to rewrite your commit history with interactive rebase in GitKraken Client.
+Learn how to rewrite your commit history with interactive rebase in GitKraken Desktop.
 
 ***
 
@@ -28,7 +28,7 @@ The drag and drop option will only show the interactive rebase option if:
 - You are not attempting to rebase a parent branch onto a child (like master into a feature branch)
 
 <div class='callout callout--note'>
-    <p><strong>Note:</strong> If you start the interactive rebase with GitKraken Client you must finish the rebase with GitKraken Client.</p>
+    <p><strong>Note:</strong> If you start the interactive rebase with GitKraken Desktop you must finish the rebase with GitKraken Desktop.</p>
 </div>
 
 ---

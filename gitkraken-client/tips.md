@@ -1,13 +1,13 @@
 ---
 
 title: Tips
-description: Find out all the things users should know to boost their GitKraken Client experience.
+description: Find out all the things users should know to boost their GitKraken Desktop experience.
 taxonomy:
     category: gitkraken-client
 
 ---
 
-Here's the TLDR of the best features in GitKraken Client.
+Here's the TLDR of the best features in GitKraken Desktop.
 
 ***
 
@@ -27,7 +27,7 @@ Each profile stores different app preferences and Git config information, which 
 
 ### 2. Use the Command Palette
 
-Work like the pros, and use the [Command Palette](/start-here/command-palette) to quickly access GitKraken Client actions.
+Work like the pros, and use the [Command Palette](/start-here/command-palette) to quickly access GitKraken Desktop actions.
 
 <img src="/wp-content/uploads/FFcommands.gif" srcset="/wp-content/uploads/FFcommands.gif" class="img-responsive center img-bordered">
 
@@ -78,7 +78,7 @@ For fast fingers, check out our [keyboard shortcuts](/start-here/keyboard-shortc
 
 ### 4. Create, Open and Edit Files in the Built-In Code Editor
 
-To create a file directly in GitKraken Client, use the keyboard shortcut  <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>P</kbd> to open the Command Palette, type `Create File`, and then type the name of your file before hitting <kbd>Enter</kbd>.
+To create a file directly in GitKraken Desktop, use the keyboard shortcut  <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>P</kbd> to open the Command Palette, type `Create File`, and then type the name of your file before hitting <kbd>Enter</kbd>.
 
 The code editor will automatically open so you can jump right in and start working on your project. 
 
@@ -92,7 +92,7 @@ Double click the file to bring it to File View. From File View, you can click to
 
 <img src='/wp-content/uploads/Updated-editor.gif' class='img-bordered img-responsive center'>
 
-Learn more about [editing files](/working-with-files/editing-files) in GitKraken Client.
+Learn more about [editing files](/working-with-files/editing-files) in GitKraken Desktop.
 
 To delete a file, right-click on the file from the Commit Panel to access the delete option. 
 
@@ -113,7 +113,7 @@ You can favorite a repository by right-cliking a recently opened repository in t
 
 ### 6. Integrate with GitHub, GitLab, Bitbucket, and Azure DevOps
 
-GitKraken Client allows you to authenticate with GitHub, GitLab, Bitbucket, and Azure DevOps (previously VSTS), which will help you find repos when cloning or adding your remotes.
+GitKraken Desktop allows you to authenticate with GitHub, GitLab, Bitbucket, and Azure DevOps (previously VSTS), which will help you find repos when cloning or adding your remotes.
 
 <img src="/wp-content/uploads/authentication.png" srcset="/wp-content/uploads/authentication@2x.png" class="img-bordered img-responsive center">
 
@@ -129,7 +129,7 @@ GitKraken Client allows you to authenticate with GitHub, GitLab, Bitbucket, and 
 
 ### 7. Build Status, Assignees, and Reviewers in PRs
 
-If you are using the GitLab or GitHub integration, you may also add a pull request assignee and label(s) to your pull request. GitKraken Client will then pass these values onto GitLab or GitHub when the pull request is created. 
+If you are using the GitLab or GitHub integration, you may also add a pull request assignee and label(s) to your pull request. GitKraken Desktop will then pass these values onto GitLab or GitHub when the pull request is created. 
 
 <img src='/wp-content/uploads/gitlab-assignee.png' srcset='/wp-content/uploads/gitlab-assignee@2x.png' class='img-bordered img-responsive center'>
 
@@ -163,7 +163,7 @@ Use the top toggle button to switch between Diff View, which shows the selected 
 
 ### 9. Open Terminal 
 
-You can open the terminal or CLI from GitKraken Client!
+You can open the terminal or CLI from GitKraken Desktop!
 
 To open the current repo folder in terminal, go to <em class="context-menu">File <i class='fa fa-caret-right'></i> Open Terminal</em> or use the keyboard shortcuts <kbd>opt</kbd> + <kbd>T</kbd> (Mac) / <kbd>alt</kbd> + <kbd>T</kbd> (Windows + Linux). 
 

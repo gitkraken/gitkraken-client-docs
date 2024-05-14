@@ -55,7 +55,7 @@ Enter a value of your choice. Most use "Personal" or "Self."
 ***
 ### I just purchased a license. Where is my key? Shouldn't I get emailed a license?
 
-While GitKraken Client is a downloadable application, there is no key for your account. All GitKraken licenses are managed from [https://app.gitkraken.com](https://app.gitkraken.com/). Additionally, any users you add to your account will be emailed a link to activate their account automatically.
+While GitKraken Desktop is a downloadable application, there is no key for your account. All GitKraken licenses are managed from [https://app.gitkraken.com](https://app.gitkraken.com/). Additionally, any users you add to your account will be emailed a link to activate their account automatically.
 
 ***
 ### Can I use my paid GitKraken subscription on more than one computer?
@@ -63,9 +63,9 @@ While GitKraken Client is a downloadable application, there is no key for your a
 Yes, your paid GitKraken subscription is associated with your email address, not a specific computer. So you can use GitKraken Pro on as many computers as you'd like!
 
 ***
-### What happens to my GitKraken Client when my subscription expires?
+### What happens to my GitKraken Desktop when my subscription expires?
 
-Your GitKraken Client will revert to the free version when the paid subscription expires. You will not lose any data, but the client will not open any private repos and you will only retain access to 1 [profile](/start-here/profiles/).
+Your GitKraken Desktop will revert to the free version when the paid subscription expires. You will not lose any data, but the client will not open any private repos and you will only retain access to 1 [profile](/start-here/profiles/).
 
 If using the GitKraken Stand-Alone Client, the client will lock upon license expiration until an updated license file is applied. 
 

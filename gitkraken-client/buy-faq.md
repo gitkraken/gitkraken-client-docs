@@ -44,7 +44,7 @@ The <kbd>User</kbd> role does not have permission to allocate, edit or remove us
 
 ### Can I pay using a Purchase Order.
 
-We only accept credit card payments for GitKraken Client Pro. We do however accept purchase orders for [GitKraken Enterprise or Stand-Alone](https://gitkraken.com/pricing).
+We only accept credit card payments for GitKraken Desktop Pro. We do however accept purchase orders for [GitKraken Enterprise or OnPremise Serverless](https://gitkraken.com/pricing).
 
 ***
 
@@ -62,7 +62,7 @@ Enter a value of your choice. Most use "Personal" or "Self."
 
 ### I just purchased a license. Where is my key? Shouldn't I get emailed a license?
 
-While GitKraken Client is a downloadable application, there is no key for your account. All GitKraken licenses are managed from [https://app.gitkraken.com](https://app.gitkraken.com/). Additionally, any users you add to your account will be emailed a link to activate their account automatically.
+While GitKraken Desktop is a downloadable application, there is no key for your account. All GitKraken licenses are managed from [https://app.gitkraken.com](https://app.gitkraken.com/). Additionally, any users you add to your account will be emailed a link to activate their account automatically.
 
 ***
 
@@ -72,9 +72,9 @@ Yes, your paid GitKraken subscription is associated with your email address, not
 
 ***
 
-### What happens to my GitKraken Client when my license expires?
+### What happens to my GitKraken Desktop when my license expires?
 
-Your GitKraken Client will revert to the free version when the paid license expires. You will not lose any data, but the client will not open any private repos and you will only retain access to 1 [profile](/start-here/profiles/).
+Your GitKraken Desktop will revert to the free version when the paid license expires. You will not lose any data, but the client will not open any private repos and you will only retain access to 1 [profile](/start-here/profiles/).
 
 If using the GitKraken Stand-Alone Client, the client will lock upon license expiration until an updated license file is applied.
 
@@ -82,4 +82,4 @@ If using the GitKraken Stand-Alone Client, the client will lock upon license exp
 
 ### What if I am a reseller?
 
-Resellers may purchase GitKraken Client Pro licenses on behalf of an end-user. Please check out our [Reseller Guide](/account/new-pro-purchases) for specific reseller purchasing instructions.
+Resellers may purchase GitKraken Desktop Pro licenses on behalf of an end-user. Please check out our [Reseller Guide](/account/new-pro-purchases) for specific reseller purchasing instructions.
