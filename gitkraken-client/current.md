@@ -21,7 +21,7 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 _Read the [full release notes](https://help.gitkraken.com/gitkraken-client/current/#version-10-0-0) and see how it all works!_
 
-### Tuesday, April 2nd, 2024
+### Tuesday, May 14th, 2024
 
 ### New ✨
  - GitKraken Client is now called GitKraken Desktop
