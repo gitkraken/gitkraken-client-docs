@@ -19,7 +19,7 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 <a id="v10-0-0"></a>
 ## Version 10.0.0
 
-_Read the [full release notes](https://help.gitkraken.com/gitkraken-client/current/#version-10-0-0) and see how it all works!_
+_“How many arms does Keif have? Ten-tacles.”_
 
 ### Tuesday, May 14th, 2024
 
