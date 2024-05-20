@@ -238,10 +238,11 @@ fi
 
 ### Environment Variables & Git Hooks
 
-GitKraken uses a non-interactive shell to run its git hooks so you may need to edit your rc profile (e.g. .bashrc or .zshenv) to allow your extensions and/or environment variables to run in non-interactive shells. 
+On macOS, GUI applications do not have access to the environment variables set in your shell profile. This means that if you have environment variables set in your shell profile that you want to use in your Git hooks, you need to use the following command:
 
-Bash shell sources env variables for both interactive and non-interactive definitions from your <i>.bashrc</i> file. But for ZSH, <i>.zshrc</i> is only sourced for interactive shells. Non-interactive definitions for ZSH should go in <i>.zshenv</i>.
-
+```
+launchctl setenv YOURVAR variable
+```
 
 ### Bypass git hooks
 

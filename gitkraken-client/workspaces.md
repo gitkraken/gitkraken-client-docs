@@ -32,7 +32,7 @@ Cloud Workspaces will be available for you to work with on any machine and the s
 
 ### Create a Cloud Workspace
 
-To create a Cloud Workspace, select <button class="button button--success button--ui button--nolink">+ New Workspace</button> (or <button class="button button--success button--ui button--nolink">+ Create a Worspace</button>). Then, select "Cloud Workspace”, name your Workspace, selecting the hosting service, and then select repositories to add. Optionally, you can also provide an icon, description and select teams or individual users to share with.
+To create a Cloud Workspace, select <button class="button button--success button--ui button--nolink">+ New Workspace</button>. Then, select "Cloud Workspace”, name your Workspace, selecting the hosting service, and then select repositories to add. Optionally, you can also provide an icon, description and select teams or individual users to share with.
 
 <img src="/wp-content/uploads/create-cloud-workspace.gif" class="img-bordered img-responsive center">
 
@@ -59,26 +59,14 @@ The following multi-repository actions can be performed:
 
 ### Pull requests
 
-The Pull Request section will show all open pull requests for all repositories within the selected Workspace. Information shown here includes the pull request title, pull request number, CI status, complexity, the name of the branch being merged, and number of comments.
+You can see all open pull requests for all repositories in [Launchpad](https://help.gitkraken.com/gitkraken-client/gitkraken-launchpad/) within the selected Workspace. Information shown here includes the pull request title, pull request number, CI status, complexity, the name of the branch being merged, and number of comments.
 
 Complexity is a scale of 1 to 4 that scores a pull request’s complexity based on:
   - Number of lines changed
   - Number of files change
   - Number of commits made
 
-To view a Workspaces pull requests, select a Workspace and then select `Pull Requests`.
 
-<img src="/wp-content/uploads/pull-requests-2.png" srcset="/wp-content/uploads/pull-requests-2@2x.png" class="img-bordered img-responsive center">
-
-Select `Filter pull requests` to filter for pull requests with the following options:
-
-* "Opened by Me", to show pull requests that were opened by the user. This filter is available for GitHub, GitHub Enterprise Server, GitLab, and GitLab Self-Managed repositories.
-* "At Risk", to show any pull requests that are not drafts and have been open for longer than 7 days. This filter is currently only available for GitHub, GitHub Enterprise Server, GitLab, and GitLab Self-Managed repositories.
-* "By repository", to limit the view to a single repository within the Workspace. This filter is currently available for Azure DevOps, GitHub, GitHub Enterprise Server, Gitlab, and Gitlab Self-Managed repositories.
-
-The search allows searching by pull request titles for all services. For GitHub.com Workspaces, <a href="https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests">GitHub's search syntax</a> can also be used.
-
-<img src="/wp-content/uploads/filter-and-search-2.png" srcset="/wp-content/uploads/filter-and-search-2@2x.png" class="img-bordered img-responsive center">
 
 At risk pull requests are pull requests that have not been updated in more than 7 days. This is indicated by the <i class="fa-solid fa-triangle-exclamation"></i> icon.
 
@@ -153,6 +141,8 @@ To create a Local Workspace, select <button class="button button--success button
 
 <img src="/wp-content/uploads/create-local-workspace-1.gif" class="img-bordered img-responsive center">
 
+The option "Sync with local directory" will allow you to sync the Workspace with a local directory. This will automatically add any repositories in the selected directory to the Workspace.
+
 ### Local multi-repository actions
 
 Actions can be performed on multiple repositories within the Workspace at once. To perform an action on multiple repositories, select the check box next to the repository name and then select the desired action from the options at the top.
@@ -207,12 +197,6 @@ Workspaces expose the state of all repositories so you can see the last checked-
 <img src="/wp-content/uploads/repos-status.png" srcset="/wp-content/uploads/repos-status@2x.png" class="img-bordered img-responsive center">
 
 ***
-
-## Workspace breadcrumb in toolbar
-
-The option to remove the Workspace breadcrumb in the toolbar can be toggled under <kbd> Preferences > UI Customization > _Show Workspace breadcrumb in toolbar_</kbd>.
-
-<img src="/wp-content/uploads/breadcrumb-setting.png" srcset="/wp-content/uploads/breadcrumb-setting@2x.png" class="img-bordered img-responsive center">
 
 ## Requirement for Azure Workspaces and Insights
 
