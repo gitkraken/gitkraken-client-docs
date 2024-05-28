@@ -67,15 +67,4 @@ _“How many arms does Keif have? Ten-tacles.”_
  - Organize pullrequests within the Launchpad view into different groups. This is only for Launchpad personal view
  - Add action button to open code suggestions for PR's in Launchpad
 
-### Bug Fixes 🐛
- - Interacting with an expired notification now clears that notification instead of leaving it unread forever
- - Fixed an issue where the Launchpad issue and pull request panel did not span to the top of the page
- - Fixed an issue where the diff editor not showing images when switching between files
- - Fixed an issue where LFS detection was failing with LFS repos having custom LFS hooks
- - Fixed getting "Invalid Version: undefined" when creating a workspace
- - Fixed an issue on windows where closing a terminal would close all terminals in the app
- - Fixed an issue where the Launchpad refresh button would disappear for a moment when selected a workspace to filter by
- - Fixed an issue with cloning LFS repositories with hundreds of LFS files.
- - Experimental Feature - Git Executable:
-   - Fixed an issue were commits could be made using the user name and email specified in the global git config file instead of the profile values when they were different
-   - Fixed fast-forwarding tags
+
