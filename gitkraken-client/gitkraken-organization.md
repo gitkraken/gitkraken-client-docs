@@ -26,7 +26,11 @@ You also have the option to purchase an organization for someone else that would
 
 ## Add Users
 
-To add someone to your organization, go to [app.gitkraken.com](https://app.gitkraken.com/), select your organization in the left sidebar, select "Users," and finally select "Add Users." Here you can enter as many email addresses as you want and the [role](/gitkraken-client/gitkraken-organization/#roles) (in the drop down) you would like to assign them all. 
+To add someone to your organization, go to [app.gitkraken.com](https://app.gitkraken.com/), select your organization in the left sidebar, select "Users," and finally select "Add Users." 
+
+<img src="/wp-content/uploads/add-user-app-gitkraken-com.png" class="img-responsive center img-bordered">
+
+Here you can enter as many email addresses as you want and the [role](/gitkraken-client/gitkraken-organization/#roles) (in the drop down) you would like to assign them all. 
 
 <img src="/wp-content/uploads/gitkraken-organization-add-users.png" class="img-responsive center img-bordered">
 
