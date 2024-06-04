@@ -11,9 +11,9 @@ taxonomy:
 
 GitKraken Insights is a powerful tool that helps you visualize how pull requests are merged into your repositories. It provides a visual representation of your repository's history, allowing you to see how your codebase has evolved over time. You can use this information to make informed decisions about how to improve your workflow.
 
-Insights is available for Github.com, Bitbucket.com, Gitlab.com, and Azure DevOps (Hosted).
+Insights is available for Github.com, Bitbucket.org, Gitlab.com, and Azure DevOps (Hosted).
 
-<img src="/wp-content/uploads/gkc-insights-tab.png" srcset="/wp-content/uploads/gkc-insights-tab@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/gkc-10-insights-tab.png" class="img-bordered img-responsive center">
 
 <div class='callout callout--warning'>
     <p>
@@ -23,14 +23,14 @@ Insights is available for Github.com, Bitbucket.com, Gitlab.com, and Azure DevOp
 
 ### How do I use GitKraken Insights?
 
-To enable GitKraken Insights, you’ll first need to open a Cloud Workspace and then navigate to the Pull Request section. From here, click to connect to your remote hosting service.
+To enable GitKraken Insights, you’ll first need to open a Cloud Workspace at the Repo Management Tab and then click on the <i class="fa-solid fa-chart-column"></i> icon. From here, click to connect to your remote hosting service.
 
-<img src="/wp-content/uploads/gkc-insights-connect.png" srcset="/wp-content/uploads/gkc-insights-connect@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/gkc-10-insights-connect.gif" class="img-bordered img-responsive center">
 
 
 You can also connect Gitkraken Insights to your remote hosting service from <kbd>Preferences > Integrations</kbd>
 
-<img src="/wp-content/uploads/insights-connect-integration.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/gkc-10-insights-connect-integration.png" class="img-responsive center img-bordered">
 
 <div class='callout callout--note'>
     <p>
