@@ -73,7 +73,7 @@ Pull Requests section has the following columns:
   * Open Repository
   * Open Repository in browser
   * Open Code Suggestions
-  * Review Pull Request
+  * Review Pull Request (GitHub only)
   * Close Pull Request
 
 #### Github Pull Requests
