@@ -87,6 +87,9 @@ Find below a list of features using the Git binary if the Git Executable experim
 - Added stash support
 - Added support for Git Credential Manager on SSH settings
 
+**Added in 10.0.2:**
+- Added push tag support.
+
 ---
 
 ### AI Commit Message Generation

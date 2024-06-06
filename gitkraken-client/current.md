@@ -16,6 +16,45 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ***
 
+<a id="v10-0-2"></a>
+## Version 10.0.2
+
+### Tuesday, June 4th, 2024
+
+### Improvements 🙌
+ - Repository Management tab:
+   - The search bar will be automatically focused when accessing the Repository Management tab.
+   - Custom Workspace icons will now show in the collapsible section header.
+   - Your scroll position will be saved when returning to the Repository Management tab.
+   - After creating a new Workspace, the Workspace will be expanded and scrolled to automatically.
+   - User avatars will show in the section header of any shared Cloud Workspace.
+ - Experimental Feature - Git Executable:
+   - Added push tag support.
+
+### Bug Fixes 🐛
+ - Experimental Feature - Git Executable:
+   - Fixed an issue where continuing a rebase would fail after a conflict if the current commit message started with `#`.
+ - Fixed an issue where the client would fail to load Bitbucket Server users.
+
+ ***
+
+<a id="v10-0-1"></a>
+## Version 10.0.1
+
+_“To err is human; to forgive, divine”_
+
+### Monday, May 20th, 2024
+
+### Improvements ✨
+ - Updated Git to 2.44.1.
+ - Improved the layout of filtering controls in Launchpad.
+
+### Bug Fixes 🐛
+ - Fixed an issue where pull requests from archived repositories would appear in Launchpad.
+ - Fixed an issue where GitLab Self-Managed Workspaces would not show any repositories.
+
+***
+
 <a id="v10-0-0"></a>
 ## Version 10.0.0
 
