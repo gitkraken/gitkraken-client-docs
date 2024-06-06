@@ -97,7 +97,6 @@ From the upper right of the Pull Request view, you may click the <button class='
 
 <img src='/wp-content/uploads/gkc-pr-code-suggestions.png' class='img-bordered img-responsive center'>
 
-
 ### Review Code and Suggest Changes
 
 In Gitkraken Desktop, Review Code and Suggest Changes simplifies code review by allowing you to make suggestions and edits across the entire project, not just on the lines that were changed, GitKraken Desktop, and gitkraken.dev. When a Pull Request is open, you can make suggestions to the pull request that others can then review and accept to include in the pull request. 
@@ -105,6 +104,17 @@ In Gitkraken Desktop, Review Code and Suggest Changes simplifies code review by 
 Open the Pull Request and click on <button class='button button--primary button--ui button--nolink'><span style='color:#141422;'>Edit to Suggest Changes to PR #XX</span></button>, edit the file, save changes and click on <button class='button button--success button--ui button--nolink'>Suggest X file change to PR #XX </button>
 
 <img src='/wp-content/uploads/gkc-pr-suggest-code-changes.gif' class='img-bordered img-responsive center'>
+
+### Accept or Reject Code Suggestions
+
+In the Github Pull Request panel, you have the ability to review, accept or reject your teammate's code suggestions.
+A Pull Request with Code Suggestions has the <em class='context-menu'>Code Suggestions</em> label in it:
+
+<img src='/wp-content/uploads/gkc-pr-code-suggestions2.png' class='img-bordered img-responsive center'>
+
+Clicking on one of the Code Suggestions opens the repo tab. The right panel shows a diff with the changes so you can review and two options on bottom `Apply suggestion to branch` or `Reject suggestion`.
+
+<img src='/wp-content/uploads/gkc-pr-code-suggestions-apply.gif' class='img-bordered img-responsive center'>
 
 ### Comment on GitHub pull requests
 Users may comment on a pull request -- which is great for submitting reviews, approving pull requests, or requesting changes. You may also use the refresh icon in the top right to quickly refresh the comments feed.

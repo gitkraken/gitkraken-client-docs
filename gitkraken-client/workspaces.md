@@ -17,9 +17,9 @@ GitKraken Workspaces allow you to create easily accessible groups of repositorie
 
 ## Access Workspaces
 
-To access Workspaces, select the Workspace tab in the top left or use the Command Palette (`command/ctrl + shift + P`) and search "Open Workspaces".
+Workspaces are listed in the Repo Management Tab. To access the Repo Management tab, either click on the folder icon located at the top left or utilize the keyboard shortcut <kbd>Alt + O</kbd> (Windows/Linux) or <kbd>Cmd + O</kbd> (Mac).
+<img src='/wp-content/uploads/gkc-repo-mngmt-tab.png' class='img-bordered img-responsive center'>
 
-<img src="/wp-content/uploads/access-workspaces.png" srcset="/wp-content/uploads/access-workspaces@2x.png" class="img-bordered img-responsive center">
 
 ***
 
@@ -33,9 +33,11 @@ Cloud Workspaces will be available for you to work with on any machine and the s
 
 ### Create a Cloud Workspace
 
-To create a Cloud Workspace, select <button class="button button--success button--ui button--nolink">+ New Workspace</button> (or <button class="button button--success button--ui button--nolink">+ Create a Worspace</button>). Then, select "Cloud Workspace”, name your Workspace, selecting the hosting service, and then select repositories to add. Optionally, you can also provide an icon, description and select teams or individual users to share with.
+To create a Cloud Workspace, select <button class="button button--success button--ui button--nolink">+ New Workspace</button>.
 
-<img src="/wp-content/uploads/create-cloud-workspace.gif" class="img-bordered img-responsive center">
+Then, select "Cloud Workspace”, name your Workspace, selecting the hosting service, and then select repositories to add. Optionally, you can also provide an icon, description and select teams or individual users to share with.
+
+<img src="/wp-content/uploads/gkc-10-create-cloud-workspace.gif" class="img-bordered img-responsive center">
 
 <div class='callout callout--warning'>
     <p>
@@ -48,10 +50,11 @@ To create a Cloud Workspace, select <button class="button button--success button
 
 Actions can be performed on multiple repositories within the Workspace at once, making it easy to get a new member of your team onboarded quickly or keep repository information up-to-date. To perform an action on multiple repositories, select the check box next to the repository name and then select the desired action from the options at the top.
 
-<img src="/wp-content/uploads/gkc-cloud-workspace-multi-action.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/gkc-10-cloud-workspace-multi-action.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/gkc-10-cloud-workspace-multi-action-2.png" class="img-bordered img-responsive center">
 
 The following multi-repository actions can be performed:
-- Clone: clone all selected repositories. HTTPS will be used by default unless you have SSH configured in your [Integration settings](https://help.gitkraken.com/gitkraken-client/integrations/). 
+- Clone: clone all selected repositories. HTTPS will be used by default unless you have SSH configured in your [Integration settings](https://help.gitkraken.com/gitkraken-client/integrations/). This option is only available if the repositories are not already cloned locally. If one or more repositories are already cloned, you have to select the repositories that are not cloned and then select the clone option.
 - Fetch: fetch all selected repositories.
 - Pull: pull all selected repositories. You can change the behavior of the pull button by selecting the dropdown and selecting the radio button next to the desired option.
 - Open in GitKraken Desktop or an external editor: open all selected repositories in GitKraken or in your [default editor](/start-here/preferences/#external-editor).
@@ -60,99 +63,16 @@ The following multi-repository actions can be performed:
 
 ### Pull requests
 
-The Pull Request section will show all open pull requests for all repositories within the selected Workspace. Information shown here includes the pull request title, pull request number, CI status, complexity, the name of the branch being merged, and number of comments.
+You can see all open pull requests for all repositories in [Launchpad](https://help.gitkraken.com/gitkraken-client/gitkraken-launchpad/) within the selected Workspace. Information shown here includes the pull request title, pull request number, CI status, complexity, the name of the branch being merged, and number of comments.
 
-Complexity is a scale of 1 to 4 that scores a pull request’s complexity based on:
-  - Number of lines changed
-  - Number of files change
-  - Number of commits made
 
-To view a Workspaces pull requests, select a Workspace and then select `Pull Requests`.
-
-<img src="/wp-content/uploads/pull-requests-2.png" srcset="/wp-content/uploads/pull-requests-2@2x.png" class="img-bordered img-responsive center">
-
-Select `Filter pull requests` to filter for pull requests with the following options:
-
-* "Opened by Me", to show pull requests that were opened by the user. This filter is available for GitHub, GitHub Enterprise Server, GitLab, and GitLab Self-Managed repositories.
-* "At Risk", to show any pull requests that are not drafts and have been open for longer than 7 days. This filter is currently only available for GitHub, GitHub Enterprise Server, GitLab, and GitLab Self-Managed repositories.
-* "By repository", to limit the view to a single repository within the Workspace. This filter is currently available for Azure DevOps, GitHub, GitHub Enterprise Server, Gitlab, and Gitlab Self-Managed repositories.
-
-The search allows searching by pull request titles for all services. For GitHub.com Workspaces, <a href="https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests">GitHub's search syntax</a> can also be used.
-
-<img src="/wp-content/uploads/filter-and-search-2.png" srcset="/wp-content/uploads/filter-and-search-2@2x.png" class="img-bordered img-responsive center">
-
-At risk pull requests are pull requests that have not been updated in more than 7 days. This is indicated by the <i class="fa-solid fa-triangle-exclamation"></i> icon.
-
-<img src="/wp-content/uploads/at-risk-1.png" srcset="/wp-content/uploads/at-risk-1@2x.png" class="img-bordered img-responsive center">
-
-### GitHub pull request view
-
-If you are working with a GitHub.com Workspace, you may select a pull request to work with the <a href="/working-with-repositories/pull-requests/#github-pull-request-view">GitHub pull request view</a>.
-
-<img src="/wp-content/uploads/github-pull-request.png" srcset="/wp-content/uploads/github-pull-request@2x.png" class="img-bordered img-responsive center">
-
-### Team view
-
-On a Cloud Workspace, you will see a Team View section. This view shows all pull requests and issues for the repositories in your Workspace - giving you a high level view of your team's coding efforts. 
-
-<img src="/wp-content/uploads/team-view@2x.png" class="img-bordered img-responsive center">
-
-You can switch the Issue Tracker provider from the My Issues section in the Overview tab. 
-
-<img src="/wp-content/uploads/9-2-team-issues-switch.png" srcset="/wp-content/uploads/9-2-team-issues-switch.png" class="img-bordered img-responsive center">
-
-#### Team Pull Requests 
-
-This section of the Team View will show all Pull Requests related to your selected team.
-
-<img src="/wp-content/uploads/team-view-prs.png" srcset="/wp-content/uploads/team-view-prs@2x.png" class="img-bordered img-responsive center">
-
-The Team Pull Requests section has the following columns:
-
-* Last Updated 
-* PR title with link to open the pull request in the hosting provider
-* PR Author
-* Repository name with link to open the reposotiry in GitKraken Desktop
-* Review status
-* PR status
-  * Shows status for “Draft” or “At Risk” pull requests
-* Checks - Shows CI/CD results
-* Lines added/removed
-* PR branch
-  * Double click to check out directly in GitKraken Desktop
-* GitHub.com Workspaces Only:
-  * Shortcut to open the Pull Request Panel
-  * Filter by assignee or author
-
-<img src="/wp-content/uploads/8-9-team-pull-requests-columns.png" srcset="/wp-content/uploads/8-9-team-pull-requests-columns.png" class="img-bordered img-responsive center">
-
-#### Team Issues 
-
-Team Issues will show all GitHub Issues, GitLab Issues, Jira Cloud Issues, Jira Data Center, or Trello cards associated with the repo. 
-
-With Team Issues it is easy to switch between Jira or Trello and back to either GitHub Issues or GitLab Issues. If you select Jira or Trello, you can also filter by project so that you only see issues that matter to you.
-
-<img src="/wp-content/uploads/9-2-team-issues-switch.png" srcset="/wp-content/uploads/9-2-team-issues-switch.png" class="img-bordered img-responsive center">
-
-View, edit and tie a branch to the issue with the Issue View from Workspace. 
-
-<img src="/wp-content/uploads/issue-view-workspaces.png" srcset="/wp-content/uploads/issue-view-workspaces.png" class="img-bordered img-responsive center">
-
-***
-
-## Local Workspaces
-
-Local Workspaces allow you to create easily accessible groups of repositories, take actions across multiple repositories, view details about their state at a glance, and share them with your team.
-
-<div class='embed-container embed-container--16-9'>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/8xlbH2tNZwc?ecver=1" frameborder="0" allowfullscreen></iframe>
-</div>
 
 ### Create a Local Workspace
 
-To create a Local Workspace, select <button class="button button--success button--ui button--nolink">+ New Workspace</button> (or <button class="button button--success button--ui button--nolink">+ Create a Worspace</button>). Then, select “Local Workspace”, name your Workspace, and browse to select repositories to add to your Local Workspace. You may select individual repositories, a directory of repositories, or a VS Code Workspace (.code-workspace). Optionally, you can also provide an icon and description. 
+To create a Local Workspace, select <button class="button button--success button--ui button--nolink">New Workspace</button>. Then, select “Local Workspace”, name your Workspace, and browse to select repositories to add to your Local Workspace. You may select individual repositories, a directory of repositories, or a VS Code Workspace (.code-workspace). Optionally, you can also provide an icon and description. 
 
-<img src="/wp-content/uploads/create-local-workspace-1.gif" class="img-bordered img-responsive center">
+
+The option "Sync with local directory" will allow you to sync the Workspace with a local directory. This will automatically add any repositories in the selected directory to the Workspace.
 
 ### Local multi-repository actions
 
@@ -170,7 +90,7 @@ You can create a Cloud Workspace from a Local Workspace which will enable more v
 
 To do this, select your local Workspace to open it and then select `Create cloud workspace`. From here, you will need to select the provider for your new Cloud Workspace, select the repositories you would like added, and you can even add more repositories to this Workspace from the selected provider.
 
-<img src="/wp-content/uploads/Create-cloud-workspace-2.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/gkc-10-local-to-cloud-workspace.png" class="img-bordered img-responsive center">
 
 <div class='callout callout--warning'>
     <p>
@@ -185,11 +105,8 @@ To do this, select your local Workspace to open it and then select `Create cloud
 
 Edit a Workspace by selecting the ellipsis <i class="fas fa-ellipsis-v"></i> icon by the Workspace name.
 
-<img src="/wp-content/uploads/edit-a-workspace.png" srcset="/wp-content/uploads/edit-a-workspace@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/gkc-10-edit-a-workspace.png" srcset="/wp-content/uploads/edit-a-workspace@2x.png" class="img-bordered img-responsive center">
 
-You can adjust the content you want displayed for each view by selecting the settings <i class="fas fa-cog"></i>.
-
-<img src="/wp-content/uploads/configure-focus-view.png" class="img-bordered img-responsive center">
 
 ***
 
@@ -197,7 +114,7 @@ You can adjust the content you want displayed for each view by selecting the set
 
 You may select the <i class="fa-solid fa-list"></i> icon to open the repository details.
 
-<img src="/wp-content/uploads/repository-details.png" srcset="/wp-content/uploads/repository-details@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/gkc-10-repos-status.png" srcset="/wp-content/uploads/repository-details@2x.png" class="img-bordered img-responsive center">
 
 ***
 
@@ -205,15 +122,9 @@ You may select the <i class="fa-solid fa-list"></i> icon to open the repository 
 
 Workspaces expose the state of all repositories so you can see the last checked-out branch, how many commits are ahead or behind the remote, and your work in progress with counts of modified added, deleted, and renamed files.
 
-<img src="/wp-content/uploads/repos-status.png" srcset="/wp-content/uploads/repos-status@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/gkc-10.0-repos-status.png" srcset="/wp-content/uploads/repos-status@2x.png" class="img-bordered img-responsive center">
 
 ***
-
-## Workspace breadcrumb in toolbar
-
-The option to remove the Workspace breadcrumb in the toolbar can be toggled under <kbd> Preferences > UI Customization > _Show Workspace breadcrumb in toolbar_</kbd>.
-
-<img src="/wp-content/uploads/breadcrumb-setting.png" srcset="/wp-content/uploads/breadcrumb-setting@2x.png" class="img-bordered img-responsive center">
 
 ## Requirement for Azure Workspaces and Insights
 
