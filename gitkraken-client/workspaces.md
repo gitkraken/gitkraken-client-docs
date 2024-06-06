@@ -122,7 +122,7 @@ You may select the <i class="fa-solid fa-list"></i> icon to open the repository 
 
 Workspaces expose the state of all repositories so you can see the last checked-out branch, how many commits are ahead or behind the remote, and your work in progress with counts of modified added, deleted, and renamed files.
 
-<img src="/wp-content/uploads/gkc-10.0-repos-status.png" srcset="/wp-content/uploads/repos-status@2x.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/gkc-10-repos-status.png" srcset="/wp-content/uploads/repos-status@2x.png" class="img-bordered img-responsive center">
 
 ***
 
