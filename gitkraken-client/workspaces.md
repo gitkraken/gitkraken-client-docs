@@ -35,6 +35,8 @@ Cloud Workspaces will be available for you to work with on any machine and the s
 
 To create a Cloud Workspace, select <button class="button button--success button--ui button--nolink">+ New Workspace</button>.
 
+Open a Cloud Workspace...
+
 Then, select "Cloud Workspace”, name your Workspace, selecting the hosting service, and then select repositories to add. Optionally, you can also provide an icon, description and select teams or individual users to share with.
 
 <img src="/wp-content/uploads/gkc-10-create-cloud-workspace.gif" class="img-bordered img-responsive center">
