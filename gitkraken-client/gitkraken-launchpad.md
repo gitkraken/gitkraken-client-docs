@@ -10,6 +10,7 @@ taxonomy:
 The Launchpad displays all of your Pull Requests, Issues, and Works In Progress (WIPs) relevant to you for a selected filters. You have a search bar to filter the results and columns that represent different states of the PRs, Issues, and WIPs, and dropdown selectors for workspace-based filtering.
 
 ### Getting started with the Launchpad
+add this new line
 
 The Launchpad tab can be found in the top-left corner. By default, it displays a list of your Pull Requests, WIPs and Issues for the selected Workspace directly from your Hosting Service and Issue Tracker.
 
