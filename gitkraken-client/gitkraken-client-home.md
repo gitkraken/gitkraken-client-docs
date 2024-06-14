@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-Everything you need to know about the legendary Git client with an intuitive Git GUI & powerful CLI.
+Everything you need to know about GitKraken Desktop with an intuitive Git GUI & powerful CLI.
 
 Check out the introduction video and links below to get started with GitKraken Desktop. Use the left navigation to explore further.
 

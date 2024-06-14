@@ -1,13 +1,13 @@
 ---
 
 title: GitKraken Desktop GitLab Issues Integration
-description: Learn how to access GitLab Issues from GitKraken Git GUI
+description: Learn how to access GitLab Issues from GitKraken Desktop
 taxonomy:
     category: gitkraken-client
 
 ---
 
-GitKraken Git GUI makes it easy to integrate with GitLab Issues.
+GitKraken Desktop makes it easy to integrate with GitLab Issues.
 
 <div class='callout callout--basic'>
     <p>The GitLab Issues integration is view-only for free users. To unlock all features for the GitLab Issues integration, consider upgrading to a <a href="https://gitkraken.com/pricing">paid GitKraken subscription</a>.</p>

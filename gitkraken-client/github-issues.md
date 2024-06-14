@@ -1,13 +1,13 @@
 ---
 
 title: GitKraken Desktop GitHub Issues Integration
-description: Learn how to access GitHub Issues from GitKraken Git GUI
+description: Learn how to access GitHub Issues from GitKraken Desktop
 taxonomy:
     category: gitkraken-client
 
 ---
 
-GitKraken Git GUI makes it easy to integrate with GitHub Issues.
+GitKraken Desktop makes it easy to integrate with GitHub Issues.
 
 <div class='callout callout--basic'>
     <p>The GitHub Issues integration is view-only for free users. To unlock all features for the GitHub Issues integration, consider upgrading to a <a href="https://gitkraken.com/pricing"> paid GitKraken license </a>. </p>

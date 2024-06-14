@@ -1,13 +1,13 @@
 ---
 
-title: Trello and GitKraken Git GUI
-description: Learn how to access Trello cards from GitKraken Git GUI
+title: Trello and GitKraken Desktop
+description: Learn how to access Trello cards from GitKraken Desktop
 taxonomy:
     category: gitkraken-client
 
 ---
 
-GitKraken Git GUI makes it easy to integrate with Trello.
+GitKraken Desktop makes it easy to integrate with Trello.
 
 <div class='embed-container embed-container--16-9'>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/huH2nZaGG-s" frameborder="0" allowfullscreen></iframe>
@@ -25,11 +25,11 @@ Set up the integration from the ISSUES pane in the left panel or from <kbd><i>Pr
 
 <img src="/wp-content/uploads/connect-trello-integration.png" srcset="/wp-content/uploads/connect-trello-integration@2x.png" class="img-bordered img-responsive center">
 
-You will then be prompted by a Trello page to allow GitKraken Git GUI to connect to your Trello account. Scroll down and hit <em>Allow</em> to proceed.
+You will then be prompted by a Trello page to allow GitKraken Desktop to connect to your Trello account. Scroll down and hit <em>Allow</em> to proceed.
 
 <img src="/wp-content/uploads/trello-integration.png" srcset="/wp-content/uploads/trello-integration@2x.png" class="img-bordered img-responsive center">
 
-Alternatively, you may copy the token from the _Success_ page and paste it into the Trello integration page inside GitKraken Git GUI.
+Alternatively, you may copy the token from the _Success_ page and paste it into the Trello integration page inside GitKraken Desktop.
 
 ***
 

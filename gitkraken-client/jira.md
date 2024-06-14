@@ -1,13 +1,13 @@
 ---
 
 title: GitKraken Desktop and Jira Issues Integration
-description: Learn how to access Jira Issues from GitKraken Git GUI
+description: Learn how to access Jira Issues from GitKraken Desktop
 taxonomy:
     category: gitkraken-client
 
 ---
 
-GitKraken Git GUI makes it easy to integrate with Jira Cloud and Jira Data Center.
+GitKraken Desktop makes it easy to integrate with Jira Cloud and Jira Data Center.
 
 <div class='embed-container embed-container--16-9'>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/On83cso-w3U" frameborder="0" allowfullscreen></iframe>
@@ -24,11 +24,11 @@ Set up the integration from the ISSUES pane in the left panel or from <kbd><i>Pr
 
 <img src="/wp-content/uploads/connect-jira-integration.png" srcset="/wp-content/uploads/connect-jira-integration@2x.png" class="img-bordered img-responsive center">
 
-You will then be prompted by an Atlassian page to allow GitKraken Git GUI to connect to your Jira account. Hit <em>Accept</em> to proceed.
+You will then be prompted by an Atlassian page to allow GitKraken Desktop to connect to your Jira account. Hit <em>Accept</em> to proceed.
 
 <img src="/wp-content/uploads/atlassian-jira-integration.png" srcset="/wp-content/uploads/atlassian-jira-integration@2x.png" class="img-bordered img-responsive center">
 
-Alternatively, you may copy the token from the _Success_ page and paste it into the Jira Cloud integration page inside GitKraken Git GUI.
+Alternatively, you may copy the token from the _Success_ page and paste it into the Jira Cloud integration page inside GitKraken Desktop.
 
 ***
 

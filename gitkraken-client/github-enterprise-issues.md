@@ -1,13 +1,13 @@
 ---
 
 title: GitKraken Desktop GitHub Enterprise Server Issues Integration
-description: Learn how to access GitHub Enterprise Server Issues from GitKraken Git GUI
+description: Learn how to access GitHub Enterprise Server Issues from GitKraken Desktop
 taxonomy:
     category: gitkraken-client
 
 ---
 
-GitKraken Git GUI makes it easy to work with your GitHub Enterprise Server Issues.
+GitKraken Desktop makes it easy to work with your GitHub Enterprise Server Issues.
 
 
 <div class='callout callout--basic'>

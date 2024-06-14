@@ -1,13 +1,13 @@
 ---
 
 title: GitKraken Desktop GitLab Self-Managed Issues Integration
-description: Learn how to access GitLab Self-Managed Issues from GitKraken Git GUI
+description: Learn how to access GitLab Self-Managed Issues from GitKraken Desktop
 taxonomy:
     category: gitkraken-client
 
 ---
 
-GitKraken Git GUI makes it easy to work with your GitLab Self-Managed Issues.
+GitKraken Desktop makes it easy to work with your GitLab Self-Managed Issues.
 
 <div class='callout callout--basic'>
     <p>The GitLab Self-Managed Issues integration is view-only for free users. To unlock all features for the integration, consider upgrading to a <a href="https://gitkraken.com/pricing">paid GitKraken license</a>. </p>
