@@ -21,6 +21,11 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ### Tuesday, September 3rd, 2024
 
+### New ✨
+- Filter by PR and issue status field.
+- Filter by user
+
+
 ### Improvements 🙌
  - Repository Management tab:
    - The search bar will be automatically focused when accessing the Repository Management tab.
@@ -28,11 +33,13 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
    - Your scroll position will be saved when returning to the Repository Management tab.
    - After creating a new Workspace, the Workspace will be expanded and scrolled to automatically.
    - User avatars will show in the section header of any shared Cloud Workspace.
- - Experimental Feature - Git Executable:
-   - Added push tag support.
+
 
 ### Bug Fixes 🐛
  - Experimental Feature - Git Executable:
+   - Fixed an issue where continuing a rebase would fail after a conflict if the current commit message started with `#`.
+ - Fixed an issue where the client would fail to load Bitbucket Server users.
+  - Experimental Feature - Git Executable:
    - Fixed an issue where continuing a rebase would fail after a conflict if the current commit message started with `#`.
  - Fixed an issue where the client would fail to load Bitbucket Server users.
 
