@@ -23,6 +23,16 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 
 ### Improvements 🙌
  - Repository Management tab:
+ 
+***
+
+<a id="v10-0-2"></a>
+## Version 10.0.2
+
+### Tuesday, June 4th, 2024
+
+### Improvements 🙌
+ - Repository Management tab:
    - The search bar will be automatically focused when accessing the Repository Management tab.
    - Custom Workspace icons will now show in the collapsible section header.
    - Your scroll position will be saved when returning to the Repository Management tab.
