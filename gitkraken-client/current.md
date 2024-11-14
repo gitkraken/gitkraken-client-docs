@@ -17,7 +17,7 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 ***
 
 <a id="v10-0-2"></a>
-## Version 10.0.2
+## Version 10.5.0
 
 ### Tuesday, June 4th, 2024
 
