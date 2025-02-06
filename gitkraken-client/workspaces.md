@@ -15,13 +15,6 @@ GitKraken Workspaces allow you to create easily accessible groups of repositorie
 
 ***
 
-## Access Workspaces
-
-Workspaces are listed in the Repo Management Tab. To access the Repo Management tab, either click on the folder icon located at the top left or utilize the keyboard shortcut <kbd>Alt + O</kbd> (Windows/Linux) or <kbd>Cmd + O</kbd> (Mac).
-<img src='/wp-content/uploads/gkc-repo-mngmt-tab.png' class='img-bordered img-responsive center'>
-
-
-***
 
 ## Cloud Workspaces
 
@@ -113,6 +106,11 @@ Edit a Workspace by selecting the ellipsis <i class="fas fa-ellipsis-v"></i> ico
 ## View Repository Details
 
 You may select the <i class="fa-solid fa-list"></i> icon to open the repository details.
+
+<div class='embed-container embed-container--16-9'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OIQVsNRqg1M?ecver=1" frameborder="0" allowfullscreen></iframe>
+</div>
+
 
 <img src="/wp-content/uploads/gkc-10-repos-status.png" srcset="/wp-content/uploads/repository-details@2x.png" class="img-bordered img-responsive center">
 
