@@ -19,9 +19,9 @@ Compare changes within GitKraken Desktop _diffs_. Learn where to access _diffs_,
 
 ## What is a diff in GitKraken Desktop?
 
-A diff shows what was added or removed from a file. <span style='color: #d90171;'>Red</span> is for lines where content was removed whereas <span style='color: #7bd938;'>green</span> is for new lines added.
+A diff shows additions and removals from a file. <span style='color: #d90171;'>Red</span> is for lines where content was removed whereas <span style='color: #7bd938;'>green</span> is for new lines added.
 
-<img src='/wp-content/uploads/diff-1.png' srcset='/wp-content/uploads/diff-1@2x.png 2x' class='img-bordered img-responsive center' />
+<img src='/wp-content/uploads/diff-1.png' srcset='/wp-content/uploads/diff-1@2x.png 3x' class='img-bordered img-responsive center' />
 
 GitKraken Desktop's diff comes included with the following:
 
@@ -160,17 +160,17 @@ Use the top toggle button to switch between <kbd>Diff View</kbd>, which shows th
 
 A patch, or patchfile, is a file describing changes between 2 files. Patch files can be used to distribute changes that a given user would like to make to a particular revision without codifying it onto a git server. Patches can be created from either a commit(s) or a file(s).
 
+To create a patch from a file, right-click on a file and select `Create patch from file changes`. You will be prompted to name the patch after.
+
+<img src='/wp-content/uploads/create-patch-file.png' srcset='/wp-content/uploads/create-patch-file@2x.png' class='img-bordered img-responsive center'>
+
 To create a patch from a commit, right-click a commit and select `Create patch from commit`. You will be prompted to name the patch after.
 
 <img src='/wp-content/uploads/create-patch-commit.png' srcset='/wp-content/uploads/create-patch-commit@2x.png' class='img-bordered img-responsive center'>
 
-To create a patch from a file, right-click a file and select `Create patch from file changes`. You will be prompted to name the patch after.
+You can also multi-select files or commits by holding ctrl/command or shift and clicking. You can then right-click the selected files or commits to create a patch from the selected.
 
-<img src='/wp-content/uploads/create-patch-file.png' srcset='/wp-content/uploads/create-patch-file@2x.png' class='img-bordered img-responsive center'>
-
-You can also multi-select files or commits by holding command/ctrl or shift and clicking. You can then right-click the selected files or commits to create a patch from the selected.
-
-<img src='/wp-content/uploads/multi-selected-patch.png' srcset='/wp-content/uploads/multi-selected-patch@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/multi-selected-patch-v2.png' srcset='/wp-content/uploads/multi-selected-patch@2x.png' class='img-bordered img-responsive center'>
 
 To apply a patch, use the keyboard shortcut `command/ctrl + Shift + P` or click the <i  class="fa fa-magic" style="transform: rotate(225deg)"></i> in the top right of the UI to bring up the Command Palette. Type “Apply Patch" to summon the “Apply Patch” command, and select it to open your file explorer. 
 
