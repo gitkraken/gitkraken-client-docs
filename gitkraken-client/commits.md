@@ -23,9 +23,9 @@ To make a commit in GitKraken Desktop, select your _Work in Progress_ and to vie
 
 <img src='/wp-content/uploads/WIP-stage.png' srcset='/wp-content/uploads/WIP-stage@2x.png 2x' class='img-bordered img-responsive center'>
 
-Select the files you wish to stage, and click on any files you wish to review in the diff. To stage all your files, use the keyboard shortcut <kbd>&#8984;</kbd><kbd>Shift</kbd><kbd>S</kbd> for Mac or <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>S</kbd> for Windows or Linux.
+Click any files to review the diff, or select specific files to stage changes.
 
-When you’re ready, type your message and hit commit to commit your changes. You can also use this **Commit** keyboard shortcut <kbd>&#8984;</kbd> + <kbd>Enter</kbd> for Mac or <kbd>Ctrl</kbd> + <kbd>Enter</kbd> if you are on Linux or Windows.
+When you’re ready, type your message and hit commit to commit your changes. You can also use this **Commit** keyboard shortcut <kbd>Ctrl</kbd> + <kbd>Enter</kbd> if you are on Linux or Windows or <kbd>&#8984;</kbd> + <kbd>Enter</kbd> for Mac.
 
 <a id="commit-and-push"></a>
 ### Commit and push
@@ -163,6 +163,6 @@ If you're a keyboard fan, you may also enjoy using the keyboard shortcut
     <iframe width="560" height="315" src="https://www.youtube.com/embed/U_axv67W1Ik?ecver=1" frameborder="0" allowfullscreen></iframe>
 </div>
 
-If you wish to revert a commit (perhaps Undo is not available), the option is available when right-clicking on a commit node. This will create a new commit to reverse your previous changes.
+If you wish to revert a commit, this will create a new commit to reverse your previous changes. The option is available when right-clicking on a commit node. 
 
 <img src='/wp-content/uploads/revert-commit.png' srcset='/wp-content/uploads/revert-commit@2x.png 2x' class='img-bordered img-responsive center'>
