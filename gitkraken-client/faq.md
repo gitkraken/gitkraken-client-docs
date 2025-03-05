@@ -27,15 +27,15 @@ The answers to your important **F**requently **A**sked **Q**uestions.
 
 ***
 
-### Does GitKraken Desktop support TFS, Visual Studio Team Service or Azure DevOps?
+### Does GitKraken Desktop support Visual Studio Team Service, TFS, or Azure DevOps?
 Yes, for Azure DevOps (previously VSTS), you can use our integration with [Azure DevOps](/integrations/azure-devops/)!
 
 For TFS instances you will need to clone your repo <kbd><strong>File > Clone Repo</strong></kbd> and then enter the HTTPS repository URL (which can be found at the top-right of your Code page).<br><br>
-If you're connecting to a remote TFS Git server from a Mac or Linux, you will need to enable _Basic Authentication_ in IIS for TFS.
+Enable _Basic Authentication_ in IIS for TFS if you're connecting to a remote TFS Git server from a Mac or Linux.
 
 If authenticating to TFS via username and password is not working, try creating a Personal Access Token (PAT) to use in place of a password.
 
-For more information authenticating with repos, check out our [SSH and HTTPS](/integrations/authentication) page.
+Check out our [SSH and HTTPS](/integrations/authentication) page for more information.
 
 ***
 
@@ -173,13 +173,13 @@ You can also set your file encoding to `GUESS ENCODING` and GitKraken Desktop wi
 
 ### How to get SILLY (extended) logs
 
-To obtain extended SILLY (extended) logs:
+Obtain extended SILLY (extended) logs by doing the following:
 
 * Close GitKraken
 * (optional) Rename or move the \logs folder under ~\.gitkraken\logs. The data location for this folder on your OS can be found [here](/gitkraken-client/how-to-install/)
 * Start GitKraken from the CLI using the command `gitkraken -d SILLY`
-* Reproduce the issue or error
 * All logs will be under the \logs folder
+* Reproduce the issue or error
 
 ***
 
