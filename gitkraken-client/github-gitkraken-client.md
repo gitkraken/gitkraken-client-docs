@@ -11,6 +11,8 @@ GitKraken allows you to create an account and authenticate with GitHub, which wi
 
 **Benefits**
 
+
+
 * Login to GitKraken using your GitHub account
 * Create repositories on GitHub account including .gitignore and license
 * Automatically generate an SSH key pair and add it to GitHub
