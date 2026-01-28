@@ -14,22 +14,6 @@ Navigate to <i class="fas fa-cog"></i> <kbd><strong>Preferences</strong></kbd> t
 
 *** 
 
-## Organization
-
-This section will actually be labeled with your organization name rather than "Organization".  It shows the members and teams within your organization. Click `switch organization` to swap to another organization.
-
-The Owner and any Admins are able to:
-
-- Change role of members within the organization
-- Invite members to the organization and purchase licenses
-- Create and manage teams
-
-
-<div class='callout callout--warning'>
-    <p><strong>Note:</strong> the Organization section is only available to users who have a Pro or Enterprise license.
-</p>
-</div>
-
 ## General
 
 ### Auto-Fetch
@@ -38,13 +22,13 @@ Set the number of minutes between auto-fetches. This value must be between 0 and
 
 If you’re experiencing issues with performance, consider setting your auto-fetch value to 0 and restarting the application. 
  
-### Auto-Prune
-
-Removes any remote-tracking references that no longer exist on the remote.
-
 ### Default Branch Name
 
 Set the default name when initializing a new repo. The app defaults to `main`.
+
+### Auto-Prune
+
+Removes any remote-tracking references that no longer exist on the remote.
 
 ### External Merge Tool
 
@@ -66,6 +50,22 @@ You may open a repo in your preferred external editor program using the [Command
 - Atom
 - Sublime
 - IntelliJ
+
+## Organization
+
+This section will actually be labeled with your organization name rather than "Organization".  It shows the members and teams within your organization. Click `switch organization` to swap to another organization.
+
+The Owner and any Admins are able to:
+
+- Change role of members within the organization
+- Invite members to the organization and purchase licenses
+- Create and manage teams
+
+
+<div class='callout callout--warning'>
+    <p><strong>Note:</strong> the Organization section is only available to users who have a Pro or Enterprise license.
+</p>
+</div>
 
 
 ### Delete ".orig" files
