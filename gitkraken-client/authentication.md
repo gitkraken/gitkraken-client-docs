@@ -1,6 +1,6 @@
 ---
 
-title: Other Integrations
+title: Authentication
 description: Learn how to authenticate with GitKraken Desktop to manage your SSH keys for repositories and integrations.  Create a SSH key pair or bring your own!
 taxonomy:
     category: gitkraken-client
@@ -107,7 +107,7 @@ This way, provided your keys are loaded, every action requiring a chat with your
 
 100% of the time, it works every time.
 
-### I'm having an SSH issue.
+### SSH troubleshooting
 Well if it's not working 100% of the time, the most common issues are:
 
 * SSH-agent on Windows &mdash; GitKraken Desktop currently only supports Pageant for the SSH agent for Windows.
