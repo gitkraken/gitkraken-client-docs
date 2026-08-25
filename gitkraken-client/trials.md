@@ -1,12 +1,12 @@
---- 
- 
-title: GitKraken Trials 
-description: Learn about GitKraken Trials 
-taxonomy: 
-    category: gitkraken-client 
-     
---- 
- 
+---
+
+title: GitKraken Trials
+description: Learn about GitKraken Trials
+taxonomy:
+    category: gitkraken-client
+
+---
+
 ## Trials 
 Both GitKraken Desktop and [GitLens](https://help.gitkraken.com/gitlens/gitlens-home/) offer 7-day trials of Pro. You can initiate these trials by logging into the corresponding app with a GitKraken account for the first time. Each trial is separate, so starting a 7-day trial with your GitKraken account in one app does not start it for the other. 
  
